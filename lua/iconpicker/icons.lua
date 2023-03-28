@@ -1,9118 +1,36466 @@
 return {
-	{ "nf-cod-account", "\ueb99" },
-	{ "nf-cod-activate_breakpoints", "\uea97" },
-	{ "nf-cod-add", "\uea60" },
-	{ "nf-cod-archive", "\uea98" },
-	{ "nf-cod-arrow_both", "\uea99" },
-	{ "nf-cod-arrow_down", "\uea9a" },
-	{ "nf-cod-arrow_left", "\uea9b" },
-	{ "nf-cod-arrow_right", "\uea9c" },
-	{ "nf-cod-arrow_small_down", "\uea9d" },
-	{ "nf-cod-arrow_small_left", "\uea9e" },
-	{ "nf-cod-arrow_small_right", "\uea9f" },
-	{ "nf-cod-arrow_small_up", "\ueaa0" },
-	{ "nf-cod-arrow_swap", "\uebcb" },
-	{ "nf-cod-arrow_up", "\ueaa1" },
-	{ "nf-cod-azure", "\uebd8" },
-	{ "nf-cod-azure_devops", "\uebe8" },
-	{ "nf-cod-beaker", "\uea79" },
-	{ "nf-cod-beaker_stop", "\uebe1" },
-	{ "nf-cod-bell", "\ueaa2" },
-	{ "nf-cod-bell_dot", "\ueb9a" },
-	{ "nf-cod-bold", "\ueaa3" },
-	{ "nf-cod-book", "\ueaa4" },
-	{ "nf-cod-bookmark", "\ueaa5" },
-	{ "nf-cod-bracket_dot", "\uebe5" },
-	{ "nf-cod-bracket_error", "\uebe6" },
-	{ "nf-cod-briefcase", "\ueaac" },
-	{ "nf-cod-broadcast", "\ueaad" },
-	{ "nf-cod-browser", "\ueaae" },
-	{ "nf-cod-bug", "\ueaaf" },
-	{ "nf-cod-calendar", "\ueab0" },
-	{ "nf-cod-call_incoming", "\ueb92" },
-	{ "nf-cod-call_outgoing", "\ueb93" },
-	{ "nf-cod-case_sensitive", "\ueab1" },
-	{ "nf-cod-check", "\ueab2" },
-	{ "nf-cod-check_all", "\uebb1" },
-	{ "nf-cod-checklist", "\ueab3" },
-	{ "nf-cod-chevron_down", "\ueab4" },
-	{ "nf-cod-chevron_left", "\ueab5" },
-	{ "nf-cod-chevron_right", "\ueab6" },
-	{ "nf-cod-chevron_up", "\ueab7" },
-	{ "nf-cod-chrome_close", "\ueab8" },
-	{ "nf-cod-chrome_maximize", "\ueab9" },
-	{ "nf-cod-chrome_minimize", "\ueaba" },
-	{ "nf-cod-chrome_restore", "\ueabb" },
-	{ "nf-cod-circle", "\ueabc" },
-	{ "nf-cod-circle_filled", "\uea71" },
-	{ "nf-cod-circle_large", "\uebb5" },
-	{ "nf-cod-circle_large_filled", "\uebb4" },
-	{ "nf-cod-circle_slash", "\ueabd" },
-	{ "nf-cod-circle_small_filled", "\ueb8a" },
-	{ "nf-cod-circuit_board", "\ueabe" },
-	{ "nf-cod-clear_all", "\ueabf" },
-	{ "nf-cod-clippy", "\ueac0" },
-	{ "nf-cod-close", "\uea76" },
-	{ "nf-cod-close_all", "\ueac1" },
-	{ "nf-cod-cloud", "\uebaa" },
-	{ "nf-cod-cloud_download", "\ueac2" },
-	{ "nf-cod-cloud_upload", "\ueac3" },
-	{ "nf-cod-code", "\ueac4" },
-	{ "nf-cod-collapse_all", "\ueac5" },
-	{ "nf-cod-color_mode", "\ueac6" },
-	{ "nf-cod-combine", "\uebb6" },
-	{ "nf-cod-comment", "\uea6b" },
-	{ "nf-cod-comment_discussion", "\ueac7" },
-	{ "nf-cod-compass", "\uebd5" },
-	{ "nf-cod-compass_active", "\uebd7" },
-	{ "nf-cod-compass_dot", "\uebd6" },
-	{ "nf-cod-copy", "\uebcc" },
-	{ "nf-cod-credit_card", "\ueac9" },
-	{ "nf-cod-dash", "\ueacc" },
-	{ "nf-cod-dashboard", "\ueacd" },
-	{ "nf-cod-database", "\ueace" },
-	{ "nf-cod-debug", "\uead8" },
-	{ "nf-cod-debug_all", "\uebdc" },
-	{ "nf-cod-debug_alt", "\ueb91" },
-	{ "nf-cod-debug_alt_small", "\ueba8" },
-	{ "nf-cod-debug_breakpoint_conditional", "\ueaa7" },
-	{ "nf-cod-debug_breakpoint_conditional_unverified", "\ueaa6" },
-	{ "nf-cod-debug_breakpoint_data", "\ueaa9" },
-	{ "nf-cod-debug_breakpoint_data_unverified", "\ueaa8" },
-	{ "nf-cod-debug_breakpoint_function", "\ueb88" },
-	{ "nf-cod-debug_breakpoint_function_unverified", "\ueb87" },
-	{ "nf-cod-debug_breakpoint_log", "\ueaab" },
-	{ "nf-cod-debug_breakpoint_log_unverified", "\ueaaa" },
-	{ "nf-cod-debug_breakpoint_unsupported", "\ueb8c" },
-	{ "nf-cod-debug_console", "\ueb9b" },
-	{ "nf-cod-debug_continue", "\ueacf" },
-	{ "nf-cod-debug_continue_small", "\uebe0" },
-	{ "nf-cod-debug_coverage", "\uebdd" },
-	{ "nf-cod-debug_disconnect", "\uead0" },
-	{ "nf-cod-debug_line_by_line", "\uebd0" },
-	{ "nf-cod-debug_pause", "\uead1" },
-	{ "nf-cod-debug_rerun", "\uebc0" },
-	{ "nf-cod-debug_restart", "\uead2" },
-	{ "nf-cod-debug_restart_frame", "\ueb90" },
-	{ "nf-cod-debug_reverse_continue", "\ueb8e" },
-	{ "nf-cod-debug_stackframe", "\ueb8b" },
-	{ "nf-cod-debug_stackframe_active", "\ueb89" },
-	{ "nf-cod-debug_start", "\uead3" },
-	{ "nf-cod-debug_step_back", "\ueb8f" },
-	{ "nf-cod-debug_step_into", "\uead4" },
-	{ "nf-cod-debug_step_out", "\uead5" },
-	{ "nf-cod-debug_step_over", "\uead6" },
-	{ "nf-cod-debug_stop", "\uead7" },
-	{ "nf-cod-desktop_download", "\uea78" },
-	{ "nf-cod-device_camera", "\ueada" },
-	{ "nf-cod-device_camera_video", "\uead9" },
-	{ "nf-cod-device_mobile", "\ueadb" },
-	{ "nf-cod-diff", "\ueae1" },
-	{ "nf-cod-diff_added", "\ueadc" },
-	{ "nf-cod-diff_ignored", "\ueadd" },
-	{ "nf-cod-diff_modified", "\ueade" },
-	{ "nf-cod-diff_removed", "\ueadf" },
-	{ "nf-cod-diff_renamed", "\ueae0" },
-	{ "nf-cod-discard", "\ueae2" },
-	{ "nf-cod-edit", "\uea73" },
-	{ "nf-cod-editor_layout", "\ueae3" },
-	{ "nf-cod-ellipsis", "\uea7c" },
-	{ "nf-cod-empty_window", "\ueae4" },
-	{ "nf-cod-error", "\uea87" },
-	{ "nf-cod-exclude", "\ueae5" },
-	{ "nf-cod-expand_all", "\ueb95" },
-	{ "nf-cod-export", "\uebac" },
-	{ "nf-cod-extensions", "\ueae6" },
-	{ "nf-cod-eye", "\uea70" },
-	{ "nf-cod-eye_closed", "\ueae7" },
-	{ "nf-cod-feedback", "\ueb96" },
-	{ "nf-cod-file", "\uea7b" },
-	{ "nf-cod-file_binary", "\ueae8" },
-	{ "nf-cod-file_code", "\ueae9" },
-	{ "nf-cod-file_media", "\ueaea" },
-	{ "nf-cod-file_pdf", "\ueaeb" },
-	{ "nf-cod-file_submodule", "\ueaec" },
-	{ "nf-cod-file_symlink_directory", "\ueaed" },
-	{ "nf-cod-file_symlink_file", "\ueaee" },
-	{ "nf-cod-file_zip", "\ueaef" },
-	{ "nf-cod-files", "\ueaf0" },
-	{ "nf-cod-filter", "\ueaf1" },
-	{ "nf-cod-filter_filled", "\uebce" },
-	{ "nf-cod-flame", "\ueaf2" },
-	{ "nf-cod-fold", "\ueaf5" },
-	{ "nf-cod-fold_down", "\ueaf3" },
-	{ "nf-cod-fold_up", "\ueaf4" },
-	{ "nf-cod-folder", "\uea83" },
-	{ "nf-cod-folder_active", "\ueaf6" },
-	{ "nf-cod-folder_library", "\uebdf" },
-	{ "nf-cod-folder_opened", "\ueaf7" },
-	{ "nf-cod-gear", "\ueaf8" },
-	{ "nf-cod-gift", "\ueaf9" },
-	{ "nf-cod-gist_secret", "\ueafa" },
-	{ "nf-cod-git_commit", "\ueafc" },
-	{ "nf-cod-git_compare", "\ueafd" },
-	{ "nf-cod-git_merge", "\ueafe" },
-	{ "nf-cod-git_pull_request", "\uea64" },
-	{ "nf-cod-git_pull_request_closed", "\uebda" },
-	{ "nf-cod-git_pull_request_create", "\uebbc" },
-	{ "nf-cod-git_pull_request_draft", "\uebdb" },
-	{ "nf-cod-github", "\uea84" },
-	{ "nf-cod-github_action", "\ueaff" },
-	{ "nf-cod-github_alt", "\ueb00" },
-	{ "nf-cod-github_inverted", "\ueba1" },
-	{ "nf-cod-globe", "\ueb01" },
-	{ "nf-cod-go_to_file", "\uea94" },
-	{ "nf-cod-grabber", "\ueb02" },
-	{ "nf-cod-graph", "\ueb03" },
-	{ "nf-cod-graph_left", "\uebad" },
-	{ "nf-cod-graph_line", "\uebe2" },
-	{ "nf-cod-graph_scatter", "\uebe3" },
-	{ "nf-cod-gripper", "\ueb04" },
-	{ "nf-cod-group_by_ref_type", "\ueb97" },
-	{ "nf-cod-heart", "\ueb05" },
-	{ "nf-cod-history", "\uea82" },
-	{ "nf-cod-home", "\ueb06" },
-	{ "nf-cod-horizontal_rule", "\ueb07" },
-	{ "nf-cod-hubot", "\ueb08" },
-	{ "nf-cod-inbox", "\ueb09" },
-	{ "nf-cod-info", "\uea74" },
-	{ "nf-cod-inspect", "\uebd1" },
-	{ "nf-cod-issue_draft", "\uebd9" },
-	{ "nf-cod-issue_reopened", "\ueb0b" },
-	{ "nf-cod-issues", "\ueb0c" },
-	{ "nf-cod-italic", "\ueb0d" },
-	{ "nf-cod-jersey", "\ueb0e" },
-	{ "nf-cod-json", "\ueb0f" },
-	{ "nf-cod-kebab_vertical", "\ueb10" },
-	{ "nf-cod-key", "\ueb11" },
-	{ "nf-cod-law", "\ueb12" },
-	{ "nf-cod-layers", "\uebd2" },
-	{ "nf-cod-layers_active", "\uebd4" },
-	{ "nf-cod-layers_dot", "\uebd3" },
-	{ "nf-cod-layout", "\uebeb" },
-	{ "nf-cod-library", "\ueb9c" },
-	{ "nf-cod-lightbulb", "\uea61" },
-	{ "nf-cod-lightbulb_autofix", "\ueb13" },
-	{ "nf-cod-link", "\ueb15" },
-	{ "nf-cod-link_external", "\ueb14" },
-	{ "nf-cod-list_filter", "\ueb83" },
-	{ "nf-cod-list_flat", "\ueb84" },
-	{ "nf-cod-list_ordered", "\ueb16" },
-	{ "nf-cod-list_selection", "\ueb85" },
-	{ "nf-cod-list_tree", "\ueb86" },
-	{ "nf-cod-list_unordered", "\ueb17" },
-	{ "nf-cod-live_share", "\ueb18" },
-	{ "nf-cod-loading", "\ueb19" },
-	{ "nf-cod-location", "\ueb1a" },
-	{ "nf-cod-lock", "\uea75" },
-	{ "nf-cod-lock_small", "\uebe7" },
-	{ "nf-cod-magnet", "\uebae" },
-	{ "nf-cod-mail", "\ueb1c" },
-	{ "nf-cod-mail_read", "\ueb1b" },
-	{ "nf-cod-markdown", "\ueb1d" },
-	{ "nf-cod-megaphone", "\ueb1e" },
-	{ "nf-cod-mention", "\ueb1f" },
-	{ "nf-cod-menu", "\ueb94" },
-	{ "nf-cod-merge", "\uebab" },
-	{ "nf-cod-milestone", "\ueb20" },
-	{ "nf-cod-mirror", "\uea69" },
-	{ "nf-cod-mortar_board", "\ueb21" },
-	{ "nf-cod-move", "\ueb22" },
-	{ "nf-cod-multiple_windows", "\ueb23" },
-	{ "nf-cod-mute", "\ueb24" },
-	{ "nf-cod-new_file", "\uea7f" },
-	{ "nf-cod-new_folder", "\uea80" },
-	{ "nf-cod-newline", "\uebea" },
-	{ "nf-cod-no_newline", "\ueb25" },
-	{ "nf-cod-note", "\ueb26" },
-	{ "nf-cod-notebook", "\uebaf" },
-	{ "nf-cod-notebook_template", "\uebbf" },
-	{ "nf-cod-octoface", "\ueb27" },
-	{ "nf-cod-open_preview", "\ueb28" },
-	{ "nf-cod-organization", "\uea7e" },
-	{ "nf-cod-output", "\ueb9d" },
-	{ "nf-cod-package", "\ueb29" },
-	{ "nf-cod-paintcan", "\ueb2a" },
-	{ "nf-cod-pass", "\ueba4" },
-	{ "nf-cod-pass_filled", "\uebb3" },
-	{ "nf-cod-person", "\uea67" },
-	{ "nf-cod-person_add", "\uebcd" },
-	{ "nf-cod-pie_chart", "\uebe4" },
-	{ "nf-cod-pin", "\ueb2b" },
-	{ "nf-cod-pinned", "\ueba0" },
-	{ "nf-cod-pinned_dirty", "\uebb2" },
-	{ "nf-cod-play", "\ueb2c" },
-	{ "nf-cod-play_circle", "\ueba6" },
-	{ "nf-cod-plug", "\ueb2d" },
-	{ "nf-cod-preserve_case", "\ueb2e" },
-	{ "nf-cod-preview", "\ueb2f" },
-	{ "nf-cod-primitive_square", "\uea72" },
-	{ "nf-cod-project", "\ueb30" },
-	{ "nf-cod-pulse", "\ueb31" },
-	{ "nf-cod-question", "\ueb32" },
-	{ "nf-cod-quote", "\ueb33" },
-	{ "nf-cod-radio_tower", "\ueb34" },
-	{ "nf-cod-reactions", "\ueb35" },
-	{ "nf-cod-record", "\ueba7" },
-	{ "nf-cod-record_keys", "\uea65" },
-	{ "nf-cod-redo", "\uebb0" },
-	{ "nf-cod-references", "\ueb36" },
-	{ "nf-cod-refresh", "\ueb37" },
-	{ "nf-cod-regex", "\ueb38" },
-	{ "nf-cod-remote", "\ueb3a" },
-	{ "nf-cod-remote_explorer", "\ueb39" },
-	{ "nf-cod-remove", "\ueb3b" },
-	{ "nf-cod-replace", "\ueb3d" },
-	{ "nf-cod-replace_all", "\ueb3c" },
-	{ "nf-cod-reply", "\uea7d" },
-	{ "nf-cod-repo", "\uea62" },
-	{ "nf-cod-repo_clone", "\ueb3e" },
-	{ "nf-cod-repo_force_push", "\ueb3f" },
-	{ "nf-cod-repo_forked", "\uea63" },
-	{ "nf-cod-repo_pull", "\ueb40" },
-	{ "nf-cod-repo_push", "\ueb41" },
-	{ "nf-cod-report", "\ueb42" },
-	{ "nf-cod-request_changes", "\ueb43" },
-	{ "nf-cod-rocket", "\ueb44" },
-	{ "nf-cod-root_folder", "\ueb46" },
-	{ "nf-cod-root_folder_opened", "\ueb45" },
-	{ "nf-cod-rss", "\ueb47" },
-	{ "nf-cod-ruby", "\ueb48" },
-	{ "nf-cod-run_above", "\uebbd" },
-	{ "nf-cod-run_all", "\ueb9e" },
-	{ "nf-cod-run_below", "\uebbe" },
-	{ "nf-cod-run_errors", "\uebde" },
-	{ "nf-cod-save", "\ueb4b" },
-	{ "nf-cod-save_all", "\ueb49" },
-	{ "nf-cod-save_as", "\ueb4a" },
-	{ "nf-cod-screen_full", "\ueb4c" },
-	{ "nf-cod-screen_normal", "\ueb4d" },
-	{ "nf-cod-search", "\uea6d" },
-	{ "nf-cod-search_stop", "\ueb4e" },
-	{ "nf-cod-server", "\ueb50" },
-	{ "nf-cod-server_environment", "\ueba3" },
-	{ "nf-cod-server_process", "\ueba2" },
-	{ "nf-cod-settings", "\ueb52" },
-	{ "nf-cod-settings_gear", "\ueb51" },
-	{ "nf-cod-shield", "\ueb53" },
-	{ "nf-cod-sign_in", "\uea6f" },
-	{ "nf-cod-sign_out", "\uea6e" },
-	{ "nf-cod-smiley", "\ueb54" },
-	{ "nf-cod-sort_precedence", "\ueb55" },
-	{ "nf-cod-source_control", "\uea68" },
-	{ "nf-cod-split_horizontal", "\ueb56" },
-	{ "nf-cod-split_vertical", "\ueb57" },
-	{ "nf-cod-squirrel", "\ueb58" },
-	{ "nf-cod-star_empty", "\uea6a" },
-	{ "nf-cod-star_full", "\ueb59" },
-	{ "nf-cod-star_half", "\ueb5a" },
-	{ "nf-cod-stop_circle", "\ueba5" },
-	{ "nf-cod-symbol_array", "\uea8a" },
-	{ "nf-cod-symbol_boolean", "\uea8f" },
-	{ "nf-cod-symbol_class", "\ueb5b" },
-	{ "nf-cod-symbol_color", "\ueb5c" },
-	{ "nf-cod-symbol_constant", "\ueb5d" },
-	{ "nf-cod-symbol_enum", "\uea95" },
-	{ "nf-cod-symbol_enum_member", "\ueb5e" },
-	{ "nf-cod-symbol_event", "\uea86" },
-	{ "nf-cod-symbol_field", "\ueb5f" },
-	{ "nf-cod-symbol_file", "\ueb60" },
-	{ "nf-cod-symbol_interface", "\ueb61" },
-	{ "nf-cod-symbol_key", "\uea93" },
-	{ "nf-cod-symbol_keyword", "\ueb62" },
-	{ "nf-cod-symbol_method", "\uea8c" },
-	{ "nf-cod-symbol_misc", "\ueb63" },
-	{ "nf-cod-symbol_namespace", "\uea8b" },
-	{ "nf-cod-symbol_numeric", "\uea90" },
-	{ "nf-cod-symbol_operator", "\ueb64" },
-	{ "nf-cod-symbol_parameter", "\uea92" },
-	{ "nf-cod-symbol_property", "\ueb65" },
-	{ "nf-cod-symbol_ruler", "\uea96" },
-	{ "nf-cod-symbol_snippet", "\ueb66" },
-	{ "nf-cod-symbol_string", "\ueb8d" },
-	{ "nf-cod-symbol_structure", "\uea91" },
-	{ "nf-cod-symbol_variable", "\uea88" },
-	{ "nf-cod-sync", "\uea77" },
-	{ "nf-cod-sync_ignored", "\ueb9f" },
-	{ "nf-cod-table", "\uebb7" },
-	{ "nf-cod-tag", "\uea66" },
-	{ "nf-cod-tasklist", "\ueb67" },
-	{ "nf-cod-telescope", "\ueb68" },
-	{ "nf-cod-terminal", "\uea85" },
-	{ "nf-cod-terminal_bash", "\uebca" },
-	{ "nf-cod-terminal_cmd", "\uebc4" },
-	{ "nf-cod-terminal_debian", "\uebc5" },
-	{ "nf-cod-terminal_linux", "\uebc6" },
-	{ "nf-cod-terminal_powershell", "\uebc7" },
-	{ "nf-cod-terminal_tmux", "\uebc8" },
-	{ "nf-cod-terminal_ubuntu", "\uebc9" },
-	{ "nf-cod-text_size", "\ueb69" },
-	{ "nf-cod-three_bars", "\ueb6a" },
-	{ "nf-cod-thumbsdown", "\ueb6b" },
-	{ "nf-cod-thumbsup", "\ueb6c" },
-	{ "nf-cod-tools", "\ueb6d" },
-	{ "nf-cod-trash", "\uea81" },
-	{ "nf-cod-triangle_down", "\ueb6e" },
-	{ "nf-cod-triangle_left", "\ueb6f" },
-	{ "nf-cod-triangle_right", "\ueb70" },
-	{ "nf-cod-triangle_up", "\ueb71" },
-	{ "nf-cod-twitter", "\ueb72" },
-	{ "nf-cod-type_hierarchy", "\uebb9" },
-	{ "nf-cod-type_hierarchy_sub", "\uebba" },
-	{ "nf-cod-type_hierarchy_super", "\uebbb" },
-	{ "nf-cod-unfold", "\ueb73" },
-	{ "nf-cod-ungroup_by_ref_type", "\ueb98" },
-	{ "nf-cod-unlock", "\ueb74" },
-	{ "nf-cod-unmute", "\ueb75" },
-	{ "nf-cod-unverified", "\ueb76" },
-	{ "nf-cod-variable_group", "\uebb8" },
-	{ "nf-cod-verified", "\ueb77" },
-	{ "nf-cod-verified_filled", "\uebe9" },
-	{ "nf-cod-versions", "\ueb78" },
-	{ "nf-cod-vm", "\uea7a" },
-	{ "nf-cod-vm_active", "\ueb79" },
-	{ "nf-cod-vm_connect", "\ueba9" },
-	{ "nf-cod-vm_outline", "\ueb7a" },
-	{ "nf-cod-vm_running", "\ueb7b" },
-	{ "nf-cod-wand", "\uebcf" },
-	{ "nf-cod-warning", "\uea6c" },
-	{ "nf-cod-watch", "\ueb7c" },
-	{ "nf-cod-whitespace", "\ueb7d" },
-	{ "nf-cod-whole_word", "\ueb7e" },
-	{ "nf-cod-window", "\ueb7f" },
-	{ "nf-cod-word_wrap", "\ueb80" },
-	{ "nf-cod-workspace_trusted", "\uebc1" },
-	{ "nf-cod-workspace_unknown", "\uebc3" },
-	{ "nf-cod-workspace_untrusted", "\uebc2" },
-	{ "nf-cod-zoom_in", "\ueb81" },
-	{ "nf-cod-zoom_out", "\ueb82" },
-	{ "nf-custom-asm", "\ue6ab" },
-	{ "nf-custom-c", "\ue61e" },
-	{ "nf-custom-cpp", "\ue61d" },
-	{ "nf-custom-crystal", "\ue62f" },
-	{ "nf-custom-default", "\ue612" },
-	{ "nf-custom-electron", "\ue62e" },
-	{ "nf-custom-elixir", "\ue62d" },
-	{ "nf-custom-elm", "\ue62c" },
-	{ "nf-custom-emacs", "\ue632" },
-	{ "nf-custom-folder", "\ue5ff" },
-	{ "nf-custom-folder_config", "\ue5fc" },
-	{ "nf-custom-folder_git", "\ue5fb" },
-	{ "nf-custom-folder_git_branch", "\ue5fb" },
-	{ "nf-custom-folder_github", "\ue5fd" },
-	{ "nf-custom-folder_npm", "\ue5fa" },
-	{ "nf-custom-folder_open", "\ue5fe" },
-	{ "nf-custom-go", "\ue626" },
-	{ "nf-custom-home", "\ue617" },
-	{ "nf-custom-kotlin", "\ue634" },
-	{ "nf-custom-msdos", "\ue629" },
-	{ "nf-custom-orgmode", "\ue633" },
-	{ "nf-custom-play_arrow", "\ue602" },
-	{ "nf-custom-puppet", "\ue631" },
-	{ "nf-custom-purescript", "\ue630" },
-	{ "nf-custom-v_lang", "\ue6ac" },
-	{ "nf-custom-vim", "\ue62b" },
-	{ "nf-custom-windows", "\ue62a" },
-	{ "nf-dev-android", "\ue70e" },
-	{ "nf-dev-angular", "\ue753" },
-	{ "nf-dev-appcelerator", "\ue7ab" },
-	{ "nf-dev-apple", "\ue711" },
-	{ "nf-dev-appstore", "\ue713" },
-	{ "nf-dev-aptana", "\ue799" },
-	{ "nf-dev-asterisk", "\ue7ac" },
-	{ "nf-dev-atlassian", "\ue75b" },
-	{ "nf-dev-atom", "\ue764" },
-	{ "nf-dev-aws", "\ue7ad" },
-	{ "nf-dev-backbone", "\ue752" },
-	{ "nf-dev-bing_small", "\ue700" },
-	{ "nf-dev-bintray", "\ue794" },
-	{ "nf-dev-bitbucket", "\ue703" },
-	{ "nf-dev-blackberry", "\ue723" },
-	{ "nf-dev-bootstrap", "\ue747" },
-	{ "nf-dev-bower", "\ue74d" },
-	{ "nf-dev-brackets", "\ue79d" },
-	{ "nf-dev-bugsense", "\ue78d" },
-	{ "nf-dev-celluloid", "\ue76b" },
-	{ "nf-dev-chart", "\ue760" },
-	{ "nf-dev-chrome", "\ue743" },
-	{ "nf-dev-cisco", "\ue765" },
-	{ "nf-dev-clojure", "\ue768" },
-	{ "nf-dev-clojure_alt", "\ue76a" },
-	{ "nf-dev-cloud9", "\ue79f" },
-	{ "nf-dev-coda", "\ue793" },
-	{ "nf-dev-code", "\ue796" },
-	{ "nf-dev-code_badge", "\ue7a3" },
-	{ "nf-dev-codeigniter", "\ue780" },
-	{ "nf-dev-codepen", "\ue716" },
-	{ "nf-dev-codrops", "\ue72f" },
-	{ "nf-dev-coffeescript", "\ue751" },
-	{ "nf-dev-compass", "\ue761" },
-	{ "nf-dev-composer", "\ue783" },
-	{ "nf-dev-creativecommons", "\ue789" },
-	{ "nf-dev-creativecommons_badge", "\ue78a" },
-	{ "nf-dev-css3", "\ue749" },
-	{ "nf-dev-css3_full", "\ue74a" },
-	{ "nf-dev-css_tricks", "\ue701" },
-	{ "nf-dev-cssdeck", "\ue72a" },
-	{ "nf-dev-dart", "\ue798" },
-	{ "nf-dev-database", "\ue706" },
-	{ "nf-dev-debian", "\ue77d" },
-	{ "nf-dev-digital_ocean", "\ue7ae" },
-	{ "nf-dev-django", "\ue71d" },
-	{ "nf-dev-dlang", "\ue7af" },
-	{ "nf-dev-docker", "\ue7b0" },
-	{ "nf-dev-doctrine", "\ue774" },
-	{ "nf-dev-dojo", "\ue71c" },
-	{ "nf-dev-dotnet", "\ue77f" },
-	{ "nf-dev-dreamweaver", "\ue79c" },
-	{ "nf-dev-dropbox", "\ue707" },
-	{ "nf-dev-drupal", "\ue742" },
-	{ "nf-dev-eclipse", "\ue79e" },
-	{ "nf-dev-ember", "\ue71b" },
-	{ "nf-dev-envato", "\ue75d" },
-	{ "nf-dev-erlang", "\ue7b1" },
-	{ "nf-dev-extjs", "\ue78e" },
-	{ "nf-dev-firebase", "\ue787" },
-	{ "nf-dev-firefox", "\ue745" },
-	{ "nf-dev-fsharp", "\ue7a7" },
-	{ "nf-dev-ghost", "\ue71f" },
-	{ "nf-dev-ghost_small", "\ue714" },
-	{ "nf-dev-git", "\ue702" },
-	{ "nf-dev-git_branch", "\ue725" },
-	{ "nf-dev-git_commit", "\ue729" },
-	{ "nf-dev-git_compare", "\ue728" },
-	{ "nf-dev-git_merge", "\ue727" },
-	{ "nf-dev-git_pull_request", "\ue726" },
-	{ "nf-dev-github", "\ue70a" },
-	{ "nf-dev-github_alt", "\ue708" },
-	{ "nf-dev-github_badge", "\ue709" },
-	{ "nf-dev-github_full", "\ue717" },
-	{ "nf-dev-gnu", "\ue779" },
-	{ "nf-dev-go", "\ue724" },
-	{ "nf-dev-google_cloud_platform", "\ue7b2" },
-	{ "nf-dev-google_drive", "\ue731" },
-	{ "nf-dev-grails", "\ue7b3" },
-	{ "nf-dev-groovy", "\ue775" },
-	{ "nf-dev-grunt", "\ue74c" },
-	{ "nf-dev-gulp", "\ue763" },
-	{ "nf-dev-hackernews", "\ue71a" },
-	{ "nf-dev-haskell", "\ue777" },
-	{ "nf-dev-heroku", "\ue77b" },
-	{ "nf-dev-html5", "\ue736" },
-	{ "nf-dev-html5_3d_effects", "\ue735" },
-	{ "nf-dev-html5_connectivity", "\ue734" },
-	{ "nf-dev-html5_device_access", "\ue733" },
-	{ "nf-dev-html5_multimedia", "\ue732" },
-	{ "nf-dev-ie", "\ue744" },
-	{ "nf-dev-illustrator", "\ue7b4" },
-	{ "nf-dev-intellij", "\ue7b5" },
-	{ "nf-dev-ionic", "\ue7a9" },
-	{ "nf-dev-java", "\ue738" },
-	{ "nf-dev-javascript", "\ue74e" },
-	{ "nf-dev-javascript_badge", "\ue781" },
-	{ "nf-dev-javascript_shield", "\ue74f" },
-	{ "nf-dev-jekyll_small", "\ue70d" },
-	{ "nf-dev-jenkins", "\ue767" },
-	{ "nf-dev-jira", "\ue75c" },
-	{ "nf-dev-joomla", "\ue741" },
-	{ "nf-dev-jquery", "\ue750" },
-	{ "nf-dev-jquery_ui", "\ue754" },
-	{ "nf-dev-komodo", "\ue792" },
-	{ "nf-dev-krakenjs", "\ue785" },
-	{ "nf-dev-krakenjs_badge", "\ue784" },
-	{ "nf-dev-laravel", "\ue73f" },
-	{ "nf-dev-less", "\ue758" },
-	{ "nf-dev-linux", "\ue712" },
-	{ "nf-dev-magento", "\ue740" },
-	{ "nf-dev-mailchimp", "\ue79a" },
-	{ "nf-dev-markdown", "\ue73e" },
-	{ "nf-dev-materializecss", "\ue7b6" },
-	{ "nf-dev-meteor", "\ue7a5" },
-	{ "nf-dev-meteorfull", "\ue7a6" },
-	{ "nf-dev-mitlicence", "\ue78b" },
-	{ "nf-dev-modernizr", "\ue720" },
-	{ "nf-dev-mongodb", "\ue7a4" },
-	{ "nf-dev-mootools", "\ue790" },
-	{ "nf-dev-mootools_badge", "\ue78f" },
-	{ "nf-dev-mozilla", "\ue786" },
-	{ "nf-dev-msql_server", "\ue77c" },
-	{ "nf-dev-mysql", "\ue704" },
-	{ "nf-dev-nancy", "\ue766" },
-	{ "nf-dev-netbeans", "\ue79b" },
-	{ "nf-dev-netmagazine", "\ue72e" },
-	{ "nf-dev-nginx", "\ue776" },
-	{ "nf-dev-nodejs", "\ue719" },
-	{ "nf-dev-nodejs_small", "\ue718" },
-	{ "nf-dev-npm", "\ue71e" },
-	{ "nf-dev-onedrive", "\ue762" },
-	{ "nf-dev-openshift", "\ue7b7" },
-	{ "nf-dev-opensource", "\ue771" },
-	{ "nf-dev-opera", "\ue746" },
-	{ "nf-dev-perl", "\ue769" },
-	{ "nf-dev-phonegap", "\ue730" },
-	{ "nf-dev-photoshop", "\ue7b8" },
-	{ "nf-dev-php", "\ue73d" },
-	{ "nf-dev-postgresql", "\ue76e" },
-	{ "nf-dev-prolog", "\ue7a1" },
-	{ "nf-dev-python", "\ue73c" },
-	{ "nf-dev-rackspace", "\ue7b9" },
-	{ "nf-dev-raphael", "\ue75f" },
-	{ "nf-dev-rasberry_pi", "\ue722" },
-	{ "nf-dev-react", "\ue7ba" },
-	{ "nf-dev-redhat", "\ue7bb" },
-	{ "nf-dev-redis", "\ue76d" },
-	{ "nf-dev-requirejs", "\ue770" },
-	{ "nf-dev-responsive", "\ue797" },
-	{ "nf-dev-ruby", "\ue739" },
-	{ "nf-dev-ruby_on_rails", "\ue73b" },
-	{ "nf-dev-ruby_rough", "\ue791" },
-	{ "nf-dev-rust", "\ue7a8" },
-	{ "nf-dev-safari", "\ue748" },
-	{ "nf-dev-sass", "\ue74b" },
-	{ "nf-dev-scala", "\ue737" },
-	{ "nf-dev-scriptcs", "\ue7bc" },
-	{ "nf-dev-scrum", "\ue7a0" },
-	{ "nf-dev-senchatouch", "\ue78c" },
-	{ "nf-dev-sizzlejs", "\ue788" },
-	{ "nf-dev-smashing_magazine", "\ue72d" },
-	{ "nf-dev-snap_svg", "\ue75e" },
-	{ "nf-dev-sqllite", "\ue7c4" },
-	{ "nf-dev-stackoverflow", "\ue710" },
-	{ "nf-dev-streamline", "\ue705" },
-	{ "nf-dev-stylus", "\ue759" },
-	{ "nf-dev-sublime", "\ue7aa" },
-	{ "nf-dev-swift", "\ue755" },
-	{ "nf-dev-symfony", "\ue756" },
-	{ "nf-dev-symfony_badge", "\ue757" },
-	{ "nf-dev-techcrunch", "\ue72c" },
-	{ "nf-dev-terminal", "\ue795" },
-	{ "nf-dev-terminal_badge", "\ue7a2" },
-	{ "nf-dev-travis", "\ue77e" },
-	{ "nf-dev-trello", "\ue75a" },
-	{ "nf-dev-typo3", "\ue772" },
-	{ "nf-dev-ubuntu", "\ue73a" },
-	{ "nf-dev-uikit", "\ue773" },
-	{ "nf-dev-unity_small", "\ue721" },
-	{ "nf-dev-vim", "\ue7c5" },
-	{ "nf-dev-visualstudio", "\ue70c" },
-	{ "nf-dev-w3c", "\ue76c" },
-	{ "nf-dev-webplatform", "\ue76f" },
-	{ "nf-dev-windows", "\ue70f" },
-	{ "nf-dev-wordpress", "\ue70b" },
-	{ "nf-dev-yahoo", "\ue715" },
-	{ "nf-dev-yahoo_small", "\ue72b" },
-	{ "nf-dev-yeoman", "\ue77a" },
-	{ "nf-dev-yii", "\ue782" },
-	{ "nf-dev-zend", "\ue778" },
-	{ "nf-fa-500px", "\uf26e" },
-	{ "nf-fa-address_book", "\uf2b9" },
-	{ "nf-fa-address_book_o", "\uf2ba" },
-	{ "nf-fa-address_card", "\uf2bb" },
-	{ "nf-fa-address_card_o", "\uf2bc" },
-	{ "nf-fa-adjust", "\uf042" },
-	{ "nf-fa-adn", "\uf170" },
-	{ "nf-fa-align_center", "\uf037" },
-	{ "nf-fa-align_justify", "\uf039" },
-	{ "nf-fa-align_left", "\uf036" },
-	{ "nf-fa-align_right", "\uf038" },
-	{ "nf-fa-amazon", "\uf270" },
-	{ "nf-fa-ambulance", "\uf0f9" },
-	{ "nf-fa-american_sign_language_interpreting", "\uf2a3" },
-	{ "nf-fa-anchor", "\uf13d" },
-	{ "nf-fa-android", "\uf17b" },
-	{ "nf-fa-angellist", "\uf209" },
-	{ "nf-fa-angle_double_down", "\uf103" },
-	{ "nf-fa-angle_double_left", "\uf100" },
-	{ "nf-fa-angle_double_right", "\uf101" },
-	{ "nf-fa-angle_double_up", "\uf102" },
-	{ "nf-fa-angle_down", "\uf107" },
-	{ "nf-fa-angle_left", "\uf104" },
-	{ "nf-fa-angle_right", "\uf105" },
-	{ "nf-fa-angle_up", "\uf106" },
-	{ "nf-fa-apple", "\uf179" },
-	{ "nf-fa-archive", "\uf187" },
-	{ "nf-fa-area_chart", "\uf1fe" },
-	{ "nf-fa-arrow_circle_down", "\uf0ab" },
-	{ "nf-fa-arrow_circle_left", "\uf0a8" },
-	{ "nf-fa-arrow_circle_o_down", "\uf01a" },
-	{ "nf-fa-arrow_circle_o_left", "\uf190" },
-	{ "nf-fa-arrow_circle_o_right", "\uf18e" },
-	{ "nf-fa-arrow_circle_o_up", "\uf01b" },
-	{ "nf-fa-arrow_circle_right", "\uf0a9" },
-	{ "nf-fa-arrow_circle_up", "\uf0aa" },
-	{ "nf-fa-arrow_down", "\uf063" },
-	{ "nf-fa-arrow_left", "\uf060" },
-	{ "nf-fa-arrow_right", "\uf061" },
-	{ "nf-fa-arrow_up", "\uf062" },
-	{ "nf-fa-arrows", "\uf047" },
-	{ "nf-fa-arrows_alt", "\uf0b2" },
-	{ "nf-fa-arrows_h", "\uf07e" },
-	{ "nf-fa-arrows_v", "\uf07d" },
-	{ "nf-fa-asl_interpreting", "\uf2a3" },
-	{ "nf-fa-assistive_listening_systems", "\uf2a2" },
-	{ "nf-fa-asterisk", "\uf069" },
-	{ "nf-fa-at", "\uf1fa" },
-	{ "nf-fa-audio_description", "\uf29e" },
-	{ "nf-fa-automobile", "\uf1b9" },
-	{ "nf-fa-backward", "\uf04a" },
-	{ "nf-fa-balance_scale", "\uf24e" },
-	{ "nf-fa-ban", "\uf05e" },
-	{ "nf-fa-bandcamp", "\uf2d5" },
-	{ "nf-fa-bank", "\uf19c" },
-	{ "nf-fa-bar_chart", "\uf080" },
-	{ "nf-fa-bar_chart_o", "\uf080" },
-	{ "nf-fa-barcode", "\uf02a" },
-	{ "nf-fa-bars", "\uf0c9" },
-	{ "nf-fa-bath", "\uf2cd" },
-	{ "nf-fa-bathtub", "\uf2cd" },
-	{ "nf-fa-battery", "\uf240" },
-	{ "nf-fa-battery_0", "\uf244" },
-	{ "nf-fa-battery_1", "\uf243" },
-	{ "nf-fa-battery_2", "\uf242" },
-	{ "nf-fa-battery_3", "\uf241" },
-	{ "nf-fa-battery_4", "\uf240" },
-	{ "nf-fa-battery_empty", "\uf244" },
-	{ "nf-fa-battery_full", "\uf240" },
-	{ "nf-fa-battery_half", "\uf242" },
-	{ "nf-fa-battery_quarter", "\uf243" },
-	{ "nf-fa-battery_three_quarters", "\uf241" },
-	{ "nf-fa-bed", "\uf236" },
-	{ "nf-fa-beer", "\uf0fc" },
-	{ "nf-fa-behance", "\uf1b4" },
-	{ "nf-fa-behance_square", "\uf1b5" },
-	{ "nf-fa-bell", "\uf0f3" },
-	{ "nf-fa-bell_o", "\uf0a2" },
-	{ "nf-fa-bell_slash", "\uf1f6" },
-	{ "nf-fa-bell_slash_o", "\uf1f7" },
-	{ "nf-fa-bicycle", "\uf206" },
-	{ "nf-fa-binoculars", "\uf1e5" },
-	{ "nf-fa-birthday_cake", "\uf1fd" },
-	{ "nf-fa-bitbucket", "\uf171" },
-	{ "nf-fa-bitbucket_square", "\uf172" },
-	{ "nf-fa-bitcoin", "\uf15a" },
-	{ "nf-fa-black_tie", "\uf27e" },
-	{ "nf-fa-blind", "\uf29d" },
-	{ "nf-fa-bluetooth", "\uf293" },
-	{ "nf-fa-bluetooth_b", "\uf294" },
-	{ "nf-fa-bold", "\uf032" },
-	{ "nf-fa-bolt", "\uf0e7" },
-	{ "nf-fa-bomb", "\uf1e2" },
-	{ "nf-fa-book", "\uf02d" },
-	{ "nf-fa-bookmark", "\uf02e" },
-	{ "nf-fa-bookmark_o", "\uf097" },
-	{ "nf-fa-braille", "\uf2a1" },
-	{ "nf-fa-briefcase", "\uf0b1" },
-	{ "nf-fa-btc", "\uf15a" },
-	{ "nf-fa-bug", "\uf188" },
-	{ "nf-fa-building", "\uf1ad" },
-	{ "nf-fa-building_o", "\uf0f7" },
-	{ "nf-fa-bullhorn", "\uf0a1" },
-	{ "nf-fa-bullseye", "\uf140" },
-	{ "nf-fa-bus", "\uf207" },
-	{ "nf-fa-buysellads", "\uf20d" },
-	{ "nf-fa-cab", "\uf1ba" },
-	{ "nf-fa-calculator", "\uf1ec" },
-	{ "nf-fa-calendar", "\uf073" },
-	{ "nf-fa-calendar_check_o", "\uf274" },
-	{ "nf-fa-calendar_minus_o", "\uf272" },
-	{ "nf-fa-calendar_o", "\uf133" },
-	{ "nf-fa-calendar_plus_o", "\uf271" },
-	{ "nf-fa-calendar_times_o", "\uf273" },
-	{ "nf-fa-camera", "\uf030" },
-	{ "nf-fa-camera_retro", "\uf083" },
-	{ "nf-fa-car", "\uf1b9" },
-	{ "nf-fa-caret_down", "\uf0d7" },
-	{ "nf-fa-caret_left", "\uf0d9" },
-	{ "nf-fa-caret_right", "\uf0da" },
-	{ "nf-fa-caret_square_o_down", "\uf150" },
-	{ "nf-fa-caret_square_o_left", "\uf191" },
-	{ "nf-fa-caret_square_o_right", "\uf152" },
-	{ "nf-fa-caret_square_o_up", "\uf151" },
-	{ "nf-fa-caret_up", "\uf0d8" },
-	{ "nf-fa-cart_arrow_down", "\uf218" },
-	{ "nf-fa-cart_plus", "\uf217" },
-	{ "nf-fa-cc", "\uf20a" },
-	{ "nf-fa-cc_amex", "\uf1f3" },
-	{ "nf-fa-cc_diners_club", "\uf24c" },
-	{ "nf-fa-cc_discover", "\uf1f2" },
-	{ "nf-fa-cc_jcb", "\uf24b" },
-	{ "nf-fa-cc_mastercard", "\uf1f1" },
-	{ "nf-fa-cc_paypal", "\uf1f4" },
-	{ "nf-fa-cc_stripe", "\uf1f5" },
-	{ "nf-fa-cc_visa", "\uf1f0" },
-	{ "nf-fa-certificate", "\uf0a3" },
-	{ "nf-fa-chain", "\uf0c1" },
-	{ "nf-fa-chain_broken", "\uf127" },
-	{ "nf-fa-check", "\uf00c" },
-	{ "nf-fa-check_circle", "\uf058" },
-	{ "nf-fa-check_circle_o", "\uf05d" },
-	{ "nf-fa-check_square", "\uf14a" },
-	{ "nf-fa-check_square_o", "\uf046" },
-	{ "nf-fa-chevron_circle_down", "\uf13a" },
-	{ "nf-fa-chevron_circle_left", "\uf137" },
-	{ "nf-fa-chevron_circle_right", "\uf138" },
-	{ "nf-fa-chevron_circle_up", "\uf139" },
-	{ "nf-fa-chevron_down", "\uf078" },
-	{ "nf-fa-chevron_left", "\uf053" },
-	{ "nf-fa-chevron_right", "\uf054" },
-	{ "nf-fa-chevron_up", "\uf077" },
-	{ "nf-fa-child", "\uf1ae" },
-	{ "nf-fa-chrome", "\uf268" },
-	{ "nf-fa-circle", "\uf111" },
-	{ "nf-fa-circle_o", "\uf10c" },
-	{ "nf-fa-circle_o_notch", "\uf1ce" },
-	{ "nf-fa-circle_thin", "\uf1db" },
-	{ "nf-fa-clipboard", "\uf0ea" },
-	{ "nf-fa-clock_o", "\uf017" },
-	{ "nf-fa-clone", "\uf24d" },
-	{ "nf-fa-close", "\uf00d" },
-	{ "nf-fa-cloud", "\uf0c2" },
-	{ "nf-fa-cloud_download", "\uf0ed" },
-	{ "nf-fa-cloud_upload", "\uf0ee" },
-	{ "nf-fa-cny", "\uf157" },
-	{ "nf-fa-code", "\uf121" },
-	{ "nf-fa-code_fork", "\uf126" },
-	{ "nf-fa-codepen", "\uf1cb" },
-	{ "nf-fa-codiepie", "\uf284" },
-	{ "nf-fa-coffee", "\uf0f4" },
-	{ "nf-fa-cog", "\uf013" },
-	{ "nf-fa-cogs", "\uf085" },
-	{ "nf-fa-columns", "\uf0db" },
-	{ "nf-fa-comment", "\uf075" },
-	{ "nf-fa-comment_o", "\uf0e5" },
-	{ "nf-fa-commenting", "\uf27a" },
-	{ "nf-fa-commenting_o", "\uf27b" },
-	{ "nf-fa-comments", "\uf086" },
-	{ "nf-fa-comments_o", "\uf0e6" },
-	{ "nf-fa-compass", "\uf14e" },
-	{ "nf-fa-compress", "\uf066" },
-	{ "nf-fa-connectdevelop", "\uf20e" },
-	{ "nf-fa-contao", "\uf26d" },
-	{ "nf-fa-copy", "\uf0c5" },
-	{ "nf-fa-copyright", "\uf1f9" },
-	{ "nf-fa-creative_commons", "\uf25e" },
-	{ "nf-fa-credit_card", "\uf09d" },
-	{ "nf-fa-credit_card_alt", "\uf283" },
-	{ "nf-fa-crop", "\uf125" },
-	{ "nf-fa-crosshairs", "\uf05b" },
-	{ "nf-fa-css3", "\uf13c" },
-	{ "nf-fa-cube", "\uf1b2" },
-	{ "nf-fa-cubes", "\uf1b3" },
-	{ "nf-fa-cut", "\uf0c4" },
-	{ "nf-fa-cutlery", "\uf0f5" },
-	{ "nf-fa-dashboard", "\uf0e4" },
-	{ "nf-fa-dashcube", "\uf210" },
-	{ "nf-fa-database", "\uf1c0" },
-	{ "nf-fa-deaf", "\uf2a4" },
-	{ "nf-fa-deafness", "\uf2a4" },
-	{ "nf-fa-dedent", "\uf03b" },
-	{ "nf-fa-delicious", "\uf1a5" },
-	{ "nf-fa-desktop", "\uf108" },
-	{ "nf-fa-deviantart", "\uf1bd" },
-	{ "nf-fa-diamond", "\uf219" },
-	{ "nf-fa-digg", "\uf1a6" },
-	{ "nf-fa-dollar", "\uf155" },
-	{ "nf-fa-dot_circle_o", "\uf192" },
-	{ "nf-fa-download", "\uf019" },
-	{ "nf-fa-dribbble", "\uf17d" },
-	{ "nf-fa-drivers_license", "\uf2c2" },
-	{ "nf-fa-drivers_license_o", "\uf2c3" },
-	{ "nf-fa-dropbox", "\uf16b" },
-	{ "nf-fa-drupal", "\uf1a9" },
-	{ "nf-fa-edge", "\uf282" },
-	{ "nf-fa-edit", "\uf044" },
-	{ "nf-fa-eercast", "\uf2da" },
-	{ "nf-fa-eject", "\uf052" },
-	{ "nf-fa-ellipsis_h", "\uf141" },
-	{ "nf-fa-ellipsis_v", "\uf142" },
-	{ "nf-fa-empire", "\uf1d1" },
-	{ "nf-fa-envelope", "\uf0e0" },
-	{ "nf-fa-envelope_o", "\uf003" },
-	{ "nf-fa-envelope_open", "\uf2b6" },
-	{ "nf-fa-envelope_open_o", "\uf2b7" },
-	{ "nf-fa-envelope_square", "\uf199" },
-	{ "nf-fa-envira", "\uf299" },
-	{ "nf-fa-eraser", "\uf12d" },
-	{ "nf-fa-etsy", "\uf2d7" },
-	{ "nf-fa-eur", "\uf153" },
-	{ "nf-fa-euro", "\uf153" },
-	{ "nf-fa-exchange", "\uf0ec" },
-	{ "nf-fa-exclamation", "\uf12a" },
-	{ "nf-fa-exclamation_circle", "\uf06a" },
-	{ "nf-fa-exclamation_triangle", "\uf071" },
-	{ "nf-fa-expand", "\uf065" },
-	{ "nf-fa-expeditedssl", "\uf23e" },
-	{ "nf-fa-external_link", "\uf08e" },
-	{ "nf-fa-external_link_square", "\uf14c" },
-	{ "nf-fa-eye", "\uf06e" },
-	{ "nf-fa-eye_slash", "\uf070" },
-	{ "nf-fa-eyedropper", "\uf1fb" },
-	{ "nf-fa-fa", "\uf2b4" },
-	{ "nf-fa-facebook", "\uf09a" },
-	{ "nf-fa-facebook_f", "\uf09a" },
-	{ "nf-fa-facebook_official", "\uf230" },
-	{ "nf-fa-facebook_square", "\uf082" },
-	{ "nf-fa-fast_backward", "\uf049" },
-	{ "nf-fa-fast_forward", "\uf050" },
-	{ "nf-fa-fax", "\uf1ac" },
-	{ "nf-fa-feed", "\uf09e" },
-	{ "nf-fa-female", "\uf182" },
-	{ "nf-fa-fighter_jet", "\uf0fb" },
-	{ "nf-fa-file", "\uf15b" },
-	{ "nf-fa-file_archive_o", "\uf1c6" },
-	{ "nf-fa-file_audio_o", "\uf1c7" },
-	{ "nf-fa-file_code_o", "\uf1c9" },
-	{ "nf-fa-file_excel_o", "\uf1c3" },
-	{ "nf-fa-file_image_o", "\uf1c5" },
-	{ "nf-fa-file_movie_o", "\uf1c8" },
-	{ "nf-fa-file_o", "\uf016" },
-	{ "nf-fa-file_pdf_o", "\uf1c1" },
-	{ "nf-fa-file_photo_o", "\uf1c5" },
-	{ "nf-fa-file_picture_o", "\uf1c5" },
-	{ "nf-fa-file_powerpoint_o", "\uf1c4" },
-	{ "nf-fa-file_sound_o", "\uf1c7" },
-	{ "nf-fa-file_text", "\uf15c" },
-	{ "nf-fa-file_text_o", "\uf0f6" },
-	{ "nf-fa-file_video_o", "\uf1c8" },
-	{ "nf-fa-file_word_o", "\uf1c2" },
-	{ "nf-fa-file_zip_o", "\uf1c6" },
-	{ "nf-fa-files_o", "\uf0c5" },
-	{ "nf-fa-film", "\uf008" },
-	{ "nf-fa-filter", "\uf0b0" },
-	{ "nf-fa-fire", "\uf06d" },
-	{ "nf-fa-fire_extinguisher", "\uf134" },
-	{ "nf-fa-firefox", "\uf269" },
-	{ "nf-fa-first_order", "\uf2b0" },
-	{ "nf-fa-flag", "\uf024" },
-	{ "nf-fa-flag_checkered", "\uf11e" },
-	{ "nf-fa-flag_o", "\uf11d" },
-	{ "nf-fa-flash", "\uf0e7" },
-	{ "nf-fa-flask", "\uf0c3" },
-	{ "nf-fa-flickr", "\uf16e" },
-	{ "nf-fa-floppy_o", "\uf0c7" },
-	{ "nf-fa-folder", "\uf07b" },
-	{ "nf-fa-folder_o", "\uf114" },
-	{ "nf-fa-folder_open", "\uf07c" },
-	{ "nf-fa-folder_open_o", "\uf115" },
-	{ "nf-fa-font", "\uf031" },
-	{ "nf-fa-font_awesome", "\uf2b4" },
-	{ "nf-fa-fonticons", "\uf280" },
-	{ "nf-fa-fort_awesome", "\uf286" },
-	{ "nf-fa-forumbee", "\uf211" },
-	{ "nf-fa-forward", "\uf04e" },
-	{ "nf-fa-foursquare", "\uf180" },
-	{ "nf-fa-free_code_camp", "\uf2c5" },
-	{ "nf-fa-frown_o", "\uf119" },
-	{ "nf-fa-futbol_o", "\uf1e3" },
-	{ "nf-fa-gamepad", "\uf11b" },
-	{ "nf-fa-gavel", "\uf0e3" },
-	{ "nf-fa-gbp", "\uf154" },
-	{ "nf-fa-ge", "\uf1d1" },
-	{ "nf-fa-gear", "\uf013" },
-	{ "nf-fa-gears", "\uf085" },
-	{ "nf-fa-genderless", "\uf22d" },
-	{ "nf-fa-get_pocket", "\uf265" },
-	{ "nf-fa-gg", "\uf260" },
-	{ "nf-fa-gg_circle", "\uf261" },
-	{ "nf-fa-gift", "\uf06b" },
-	{ "nf-fa-git", "\uf1d3" },
-	{ "nf-fa-git_square", "\uf1d2" },
-	{ "nf-fa-github", "\uf09b" },
-	{ "nf-fa-github_alt", "\uf113" },
-	{ "nf-fa-github_square", "\uf092" },
-	{ "nf-fa-gitlab", "\uf296" },
-	{ "nf-fa-gittip", "\uf184" },
-	{ "nf-fa-glass", "\uf000" },
-	{ "nf-fa-glide", "\uf2a5" },
-	{ "nf-fa-glide_g", "\uf2a6" },
-	{ "nf-fa-globe", "\uf0ac" },
-	{ "nf-fa-google", "\uf1a0" },
-	{ "nf-fa-google_plus", "\uf0d5" },
-	{ "nf-fa-google_plus_circle", "\uf2b3" },
-	{ "nf-fa-google_plus_official", "\uf2b3" },
-	{ "nf-fa-google_plus_square", "\uf0d4" },
-	{ "nf-fa-google_wallet", "\uf1ee" },
-	{ "nf-fa-graduation_cap", "\uf19d" },
-	{ "nf-fa-gratipay", "\uf184" },
-	{ "nf-fa-grav", "\uf2d6" },
-	{ "nf-fa-group", "\uf0c0" },
-	{ "nf-fa-h_square", "\uf0fd" },
-	{ "nf-fa-hacker_news", "\uf1d4" },
-	{ "nf-fa-hand_grab_o", "\uf255" },
-	{ "nf-fa-hand_lizard_o", "\uf258" },
-	{ "nf-fa-hand_o_down", "\uf0a7" },
-	{ "nf-fa-hand_o_left", "\uf0a5" },
-	{ "nf-fa-hand_o_right", "\uf0a4" },
-	{ "nf-fa-hand_o_up", "\uf0a6" },
-	{ "nf-fa-hand_paper_o", "\uf256" },
-	{ "nf-fa-hand_peace_o", "\uf25b" },
-	{ "nf-fa-hand_pointer_o", "\uf25a" },
-	{ "nf-fa-hand_rock_o", "\uf255" },
-	{ "nf-fa-hand_scissors_o", "\uf257" },
-	{ "nf-fa-hand_spock_o", "\uf259" },
-	{ "nf-fa-hand_stop_o", "\uf256" },
-	{ "nf-fa-handshake_o", "\uf2b5" },
-	{ "nf-fa-hard_of_hearing", "\uf2a4" },
-	{ "nf-fa-hashtag", "\uf292" },
-	{ "nf-fa-hdd_o", "\uf0a0" },
-	{ "nf-fa-header", "\uf1dc" },
-	{ "nf-fa-headphones", "\uf025" },
-	{ "nf-fa-heart", "\uf004" },
-	{ "nf-fa-heart_o", "\uf08a" },
-	{ "nf-fa-heartbeat", "\uf21e" },
-	{ "nf-fa-history", "\uf1da" },
-	{ "nf-fa-home", "\uf015" },
-	{ "nf-fa-hospital_o", "\uf0f8" },
-	{ "nf-fa-hotel", "\uf236" },
-	{ "nf-fa-hourglass", "\uf254" },
-	{ "nf-fa-hourglass_1", "\uf251" },
-	{ "nf-fa-hourglass_2", "\uf252" },
-	{ "nf-fa-hourglass_3", "\uf253" },
-	{ "nf-fa-hourglass_end", "\uf253" },
-	{ "nf-fa-hourglass_half", "\uf252" },
-	{ "nf-fa-hourglass_o", "\uf250" },
-	{ "nf-fa-hourglass_start", "\uf251" },
-	{ "nf-fa-houzz", "\uf27c" },
-	{ "nf-fa-html5", "\uf13b" },
-	{ "nf-fa-i_cursor", "\uf246" },
-	{ "nf-fa-id_badge", "\uf2c1" },
-	{ "nf-fa-id_card", "\uf2c2" },
-	{ "nf-fa-id_card_o", "\uf2c3" },
-	{ "nf-fa-ils", "\uf20b" },
-	{ "nf-fa-image", "\uf03e" },
-	{ "nf-fa-imdb", "\uf2d8" },
-	{ "nf-fa-inbox", "\uf01c" },
-	{ "nf-fa-indent", "\uf03c" },
-	{ "nf-fa-industry", "\uf275" },
-	{ "nf-fa-info", "\uf129" },
-	{ "nf-fa-info_circle", "\uf05a" },
-	{ "nf-fa-inr", "\uf156" },
-	{ "nf-fa-instagram", "\uf16d" },
-	{ "nf-fa-institution", "\uf19c" },
-	{ "nf-fa-internet_explorer", "\uf26b" },
-	{ "nf-fa-intersex", "\uf224" },
-	{ "nf-fa-ioxhost", "\uf208" },
-	{ "nf-fa-italic", "\uf033" },
-	{ "nf-fa-joomla", "\uf1aa" },
-	{ "nf-fa-jpy", "\uf157" },
-	{ "nf-fa-jsfiddle", "\uf1cc" },
-	{ "nf-fa-key", "\uf084" },
-	{ "nf-fa-keyboard_o", "\uf11c" },
-	{ "nf-fa-krw", "\uf159" },
-	{ "nf-fa-language", "\uf1ab" },
-	{ "nf-fa-laptop", "\uf109" },
-	{ "nf-fa-lastfm", "\uf202" },
-	{ "nf-fa-lastfm_square", "\uf203" },
-	{ "nf-fa-leaf", "\uf06c" },
-	{ "nf-fa-leanpub", "\uf212" },
-	{ "nf-fa-legal", "\uf0e3" },
-	{ "nf-fa-lemon_o", "\uf094" },
-	{ "nf-fa-level_down", "\uf149" },
-	{ "nf-fa-level_up", "\uf148" },
-	{ "nf-fa-life_bouy", "\uf1cd" },
-	{ "nf-fa-life_buoy", "\uf1cd" },
-	{ "nf-fa-life_ring", "\uf1cd" },
-	{ "nf-fa-life_saver", "\uf1cd" },
-	{ "nf-fa-lightbulb_o", "\uf0eb" },
-	{ "nf-fa-line_chart", "\uf201" },
-	{ "nf-fa-link", "\uf0c1" },
-	{ "nf-fa-linkedin", "\uf0e1" },
-	{ "nf-fa-linkedin_square", "\uf08c" },
-	{ "nf-fa-linode", "\uf2b8" },
-	{ "nf-fa-linux", "\uf17c" },
-	{ "nf-fa-list", "\uf03a" },
-	{ "nf-fa-list_alt", "\uf022" },
-	{ "nf-fa-list_ol", "\uf0cb" },
-	{ "nf-fa-list_ul", "\uf0ca" },
-	{ "nf-fa-location_arrow", "\uf124" },
-	{ "nf-fa-lock", "\uf023" },
-	{ "nf-fa-long_arrow_down", "\uf175" },
-	{ "nf-fa-long_arrow_left", "\uf177" },
-	{ "nf-fa-long_arrow_right", "\uf178" },
-	{ "nf-fa-long_arrow_up", "\uf176" },
-	{ "nf-fa-low_vision", "\uf2a8" },
-	{ "nf-fa-magic", "\uf0d0" },
-	{ "nf-fa-magnet", "\uf076" },
-	{ "nf-fa-mail_forward", "\uf064" },
-	{ "nf-fa-mail_reply", "\uf112" },
-	{ "nf-fa-mail_reply_all", "\uf122" },
-	{ "nf-fa-male", "\uf183" },
-	{ "nf-fa-map", "\uf279" },
-	{ "nf-fa-map_marker", "\uf041" },
-	{ "nf-fa-map_o", "\uf278" },
-	{ "nf-fa-map_pin", "\uf276" },
-	{ "nf-fa-map_signs", "\uf277" },
-	{ "nf-fa-mars", "\uf222" },
-	{ "nf-fa-mars_double", "\uf227" },
-	{ "nf-fa-mars_stroke", "\uf229" },
-	{ "nf-fa-mars_stroke_h", "\uf22b" },
-	{ "nf-fa-mars_stroke_v", "\uf22a" },
-	{ "nf-fa-maxcdn", "\uf136" },
-	{ "nf-fa-meanpath", "\uf20c" },
-	{ "nf-fa-medium", "\uf23a" },
-	{ "nf-fa-medkit", "\uf0fa" },
-	{ "nf-fa-meetup", "\uf2e0" },
-	{ "nf-fa-meh_o", "\uf11a" },
-	{ "nf-fa-mercury", "\uf223" },
-	{ "nf-fa-microchip", "\uf2db" },
-	{ "nf-fa-microphone", "\uf130" },
-	{ "nf-fa-microphone_slash", "\uf131" },
-	{ "nf-fa-minus", "\uf068" },
-	{ "nf-fa-minus_circle", "\uf056" },
-	{ "nf-fa-minus_square", "\uf146" },
-	{ "nf-fa-minus_square_o", "\uf147" },
-	{ "nf-fa-mixcloud", "\uf289" },
-	{ "nf-fa-mobile", "\uf10b" },
-	{ "nf-fa-mobile_phone", "\uf10b" },
-	{ "nf-fa-modx", "\uf285" },
-	{ "nf-fa-money", "\uf0d6" },
-	{ "nf-fa-moon_o", "\uf186" },
-	{ "nf-fa-mortar_board", "\uf19d" },
-	{ "nf-fa-motorcycle", "\uf21c" },
-	{ "nf-fa-mouse_pointer", "\uf245" },
-	{ "nf-fa-music", "\uf001" },
-	{ "nf-fa-navicon", "\uf0c9" },
-	{ "nf-fa-neuter", "\uf22c" },
-	{ "nf-fa-newspaper_o", "\uf1ea" },
-	{ "nf-fa-object_group", "\uf247" },
-	{ "nf-fa-object_ungroup", "\uf248" },
-	{ "nf-fa-odnoklassniki", "\uf263" },
-	{ "nf-fa-odnoklassniki_square", "\uf264" },
-	{ "nf-fa-opencart", "\uf23d" },
-	{ "nf-fa-openid", "\uf19b" },
-	{ "nf-fa-opera", "\uf26a" },
-	{ "nf-fa-optin_monster", "\uf23c" },
-	{ "nf-fa-outdent", "\uf03b" },
-	{ "nf-fa-pagelines", "\uf18c" },
-	{ "nf-fa-paint_brush", "\uf1fc" },
-	{ "nf-fa-paper_plane", "\uf1d8" },
-	{ "nf-fa-paper_plane_o", "\uf1d9" },
-	{ "nf-fa-paperclip", "\uf0c6" },
-	{ "nf-fa-paragraph", "\uf1dd" },
-	{ "nf-fa-paste", "\uf0ea" },
-	{ "nf-fa-pause", "\uf04c" },
-	{ "nf-fa-pause_circle", "\uf28b" },
-	{ "nf-fa-pause_circle_o", "\uf28c" },
-	{ "nf-fa-paw", "\uf1b0" },
-	{ "nf-fa-paypal", "\uf1ed" },
-	{ "nf-fa-pencil", "\uf040" },
-	{ "nf-fa-pencil_square", "\uf14b" },
-	{ "nf-fa-pencil_square_o", "\uf044" },
-	{ "nf-fa-percent", "\uf295" },
-	{ "nf-fa-phone", "\uf095" },
-	{ "nf-fa-phone_square", "\uf098" },
-	{ "nf-fa-photo", "\uf03e" },
-	{ "nf-fa-picture_o", "\uf03e" },
-	{ "nf-fa-pie_chart", "\uf200" },
-	{ "nf-fa-pied_piper", "\uf2ae" },
-	{ "nf-fa-pied_piper_alt", "\uf1a8" },
-	{ "nf-fa-pied_piper_pp", "\uf1a7" },
-	{ "nf-fa-pinterest", "\uf0d2" },
-	{ "nf-fa-pinterest_p", "\uf231" },
-	{ "nf-fa-pinterest_square", "\uf0d3" },
-	{ "nf-fa-plane", "\uf072" },
-	{ "nf-fa-play", "\uf04b" },
-	{ "nf-fa-play_circle", "\uf144" },
-	{ "nf-fa-play_circle_o", "\uf01d" },
-	{ "nf-fa-plug", "\uf1e6" },
-	{ "nf-fa-plus", "\uf067" },
-	{ "nf-fa-plus_circle", "\uf055" },
-	{ "nf-fa-plus_square", "\uf0fe" },
-	{ "nf-fa-plus_square_o", "\uf196" },
-	{ "nf-fa-podcast", "\uf2ce" },
-	{ "nf-fa-power_off", "\uf011" },
-	{ "nf-fa-print", "\uf02f" },
-	{ "nf-fa-product_hunt", "\uf288" },
-	{ "nf-fa-puzzle_piece", "\uf12e" },
-	{ "nf-fa-qq", "\uf1d6" },
-	{ "nf-fa-qrcode", "\uf029" },
-	{ "nf-fa-question", "\uf128" },
-	{ "nf-fa-question_circle", "\uf059" },
-	{ "nf-fa-question_circle_o", "\uf29c" },
-	{ "nf-fa-quora", "\uf2c4" },
-	{ "nf-fa-quote_left", "\uf10d" },
-	{ "nf-fa-quote_right", "\uf10e" },
-	{ "nf-fa-ra", "\uf1d0" },
-	{ "nf-fa-random", "\uf074" },
-	{ "nf-fa-ravelry", "\uf2d9" },
-	{ "nf-fa-rebel", "\uf1d0" },
-	{ "nf-fa-recycle", "\uf1b8" },
-	{ "nf-fa-reddit", "\uf1a1" },
-	{ "nf-fa-reddit_alien", "\uf281" },
-	{ "nf-fa-reddit_square", "\uf1a2" },
-	{ "nf-fa-refresh", "\uf021" },
-	{ "nf-fa-registered", "\uf25d" },
-	{ "nf-fa-remove", "\uf00d" },
-	{ "nf-fa-renren", "\uf18b" },
-	{ "nf-fa-reorder", "\uf0c9" },
-	{ "nf-fa-repeat", "\uf01e" },
-	{ "nf-fa-reply", "\uf112" },
-	{ "nf-fa-reply_all", "\uf122" },
-	{ "nf-fa-resistance", "\uf1d0" },
-	{ "nf-fa-retweet", "\uf079" },
-	{ "nf-fa-rmb", "\uf157" },
-	{ "nf-fa-road", "\uf018" },
-	{ "nf-fa-rocket", "\uf135" },
-	{ "nf-fa-rotate_left", "\uf0e2" },
-	{ "nf-fa-rotate_right", "\uf01e" },
-	{ "nf-fa-rouble", "\uf158" },
-	{ "nf-fa-rss", "\uf09e" },
-	{ "nf-fa-rss_square", "\uf143" },
-	{ "nf-fa-rub", "\uf158" },
-	{ "nf-fa-ruble", "\uf158" },
-	{ "nf-fa-rupee", "\uf156" },
-	{ "nf-fa-s15", "\uf2cd" },
-	{ "nf-fa-safari", "\uf267" },
-	{ "nf-fa-save", "\uf0c7" },
-	{ "nf-fa-scissors", "\uf0c4" },
-	{ "nf-fa-scribd", "\uf28a" },
-	{ "nf-fa-search", "\uf002" },
-	{ "nf-fa-search_minus", "\uf010" },
-	{ "nf-fa-search_plus", "\uf00e" },
-	{ "nf-fa-sellsy", "\uf213" },
-	{ "nf-fa-send", "\uf1d8" },
-	{ "nf-fa-send_o", "\uf1d9" },
-	{ "nf-fa-server", "\uf233" },
-	{ "nf-fa-share", "\uf064" },
-	{ "nf-fa-share_alt", "\uf1e0" },
-	{ "nf-fa-share_alt_square", "\uf1e1" },
-	{ "nf-fa-share_square", "\uf14d" },
-	{ "nf-fa-share_square_o", "\uf045" },
-	{ "nf-fa-shekel", "\uf20b" },
-	{ "nf-fa-sheqel", "\uf20b" },
-	{ "nf-fa-shield", "\uf132" },
-	{ "nf-fa-ship", "\uf21a" },
-	{ "nf-fa-shirtsinbulk", "\uf214" },
-	{ "nf-fa-shopping_bag", "\uf290" },
-	{ "nf-fa-shopping_basket", "\uf291" },
-	{ "nf-fa-shopping_cart", "\uf07a" },
-	{ "nf-fa-shower", "\uf2cc" },
-	{ "nf-fa-sign_in", "\uf090" },
-	{ "nf-fa-sign_language", "\uf2a7" },
-	{ "nf-fa-sign_out", "\uf08b" },
-	{ "nf-fa-signal", "\uf012" },
-	{ "nf-fa-signing", "\uf2a7" },
-	{ "nf-fa-simplybuilt", "\uf215" },
-	{ "nf-fa-sitemap", "\uf0e8" },
-	{ "nf-fa-skyatlas", "\uf216" },
-	{ "nf-fa-skype", "\uf17e" },
-	{ "nf-fa-slack", "\uf198" },
-	{ "nf-fa-sliders", "\uf1de" },
-	{ "nf-fa-slideshare", "\uf1e7" },
-	{ "nf-fa-smile_o", "\uf118" },
-	{ "nf-fa-snapchat", "\uf2ab" },
-	{ "nf-fa-snapchat_ghost", "\uf2ac" },
-	{ "nf-fa-snapchat_square", "\uf2ad" },
-	{ "nf-fa-snowflake_o", "\uf2dc" },
-	{ "nf-fa-soccer_ball_o", "\uf1e3" },
-	{ "nf-fa-sort", "\uf0dc" },
-	{ "nf-fa-sort_alpha_asc", "\uf15d" },
-	{ "nf-fa-sort_alpha_desc", "\uf15e" },
-	{ "nf-fa-sort_amount_asc", "\uf160" },
-	{ "nf-fa-sort_amount_desc", "\uf161" },
-	{ "nf-fa-sort_asc", "\uf0de" },
-	{ "nf-fa-sort_desc", "\uf0dd" },
-	{ "nf-fa-sort_down", "\uf0dd" },
-	{ "nf-fa-sort_numeric_asc", "\uf162" },
-	{ "nf-fa-sort_numeric_desc", "\uf163" },
-	{ "nf-fa-sort_up", "\uf0de" },
-	{ "nf-fa-soundcloud", "\uf1be" },
-	{ "nf-fa-space_shuttle", "\uf197" },
-	{ "nf-fa-spinner", "\uf110" },
-	{ "nf-fa-spoon", "\uf1b1" },
-	{ "nf-fa-spotify", "\uf1bc" },
-	{ "nf-fa-square", "\uf0c8" },
-	{ "nf-fa-square_o", "\uf096" },
-	{ "nf-fa-stack_exchange", "\uf18d" },
-	{ "nf-fa-stack_overflow", "\uf16c" },
-	{ "nf-fa-star", "\uf005" },
-	{ "nf-fa-star_half", "\uf089" },
-	{ "nf-fa-star_half_empty", "\uf123" },
-	{ "nf-fa-star_half_full", "\uf123" },
-	{ "nf-fa-star_half_o", "\uf123" },
-	{ "nf-fa-star_o", "\uf006" },
-	{ "nf-fa-steam", "\uf1b6" },
-	{ "nf-fa-steam_square", "\uf1b7" },
-	{ "nf-fa-step_backward", "\uf048" },
-	{ "nf-fa-step_forward", "\uf051" },
-	{ "nf-fa-stethoscope", "\uf0f1" },
-	{ "nf-fa-sticky_note", "\uf249" },
-	{ "nf-fa-sticky_note_o", "\uf24a" },
-	{ "nf-fa-stop", "\uf04d" },
-	{ "nf-fa-stop_circle", "\uf28d" },
-	{ "nf-fa-stop_circle_o", "\uf28e" },
-	{ "nf-fa-street_view", "\uf21d" },
-	{ "nf-fa-strikethrough", "\uf0cc" },
-	{ "nf-fa-stumbleupon", "\uf1a4" },
-	{ "nf-fa-stumbleupon_circle", "\uf1a3" },
-	{ "nf-fa-subscript", "\uf12c" },
-	{ "nf-fa-subway", "\uf239" },
-	{ "nf-fa-suitcase", "\uf0f2" },
-	{ "nf-fa-sun_o", "\uf185" },
-	{ "nf-fa-superpowers", "\uf2dd" },
-	{ "nf-fa-superscript", "\uf12b" },
-	{ "nf-fa-support", "\uf1cd" },
-	{ "nf-fa-table", "\uf0ce" },
-	{ "nf-fa-tablet", "\uf10a" },
-	{ "nf-fa-tachometer", "\uf0e4" },
-	{ "nf-fa-tag", "\uf02b" },
-	{ "nf-fa-tags", "\uf02c" },
-	{ "nf-fa-tasks", "\uf0ae" },
-	{ "nf-fa-taxi", "\uf1ba" },
-	{ "nf-fa-telegram", "\uf2c6" },
-	{ "nf-fa-television", "\uf26c" },
-	{ "nf-fa-tencent_weibo", "\uf1d5" },
-	{ "nf-fa-terminal", "\uf120" },
-	{ "nf-fa-text_height", "\uf034" },
-	{ "nf-fa-text_width", "\uf035" },
-	{ "nf-fa-th", "\uf00a" },
-	{ "nf-fa-th_large", "\uf009" },
-	{ "nf-fa-th_list", "\uf00b" },
-	{ "nf-fa-themeisle", "\uf2b2" },
-	{ "nf-fa-thermometer", "\uf2c7" },
-	{ "nf-fa-thermometer_0", "\uf2cb" },
-	{ "nf-fa-thermometer_1", "\uf2ca" },
-	{ "nf-fa-thermometer_2", "\uf2c9" },
-	{ "nf-fa-thermometer_3", "\uf2c8" },
-	{ "nf-fa-thermometer_4", "\uf2c7" },
-	{ "nf-fa-thermometer_empty", "\uf2cb" },
-	{ "nf-fa-thermometer_full", "\uf2c7" },
-	{ "nf-fa-thermometer_half", "\uf2c9" },
-	{ "nf-fa-thermometer_quarter", "\uf2ca" },
-	{ "nf-fa-thermometer_three_quarters", "\uf2c8" },
-	{ "nf-fa-thumb_tack", "\uf08d" },
-	{ "nf-fa-thumbs_down", "\uf165" },
-	{ "nf-fa-thumbs_o_down", "\uf088" },
-	{ "nf-fa-thumbs_o_up", "\uf087" },
-	{ "nf-fa-thumbs_up", "\uf164" },
-	{ "nf-fa-ticket", "\uf145" },
-	{ "nf-fa-times", "\uf00d" },
-	{ "nf-fa-times_circle", "\uf057" },
-	{ "nf-fa-times_circle_o", "\uf05c" },
-	{ "nf-fa-times_rectangle", "\uf2d3" },
-	{ "nf-fa-times_rectangle_o", "\uf2d4" },
-	{ "nf-fa-tint", "\uf043" },
-	{ "nf-fa-toggle_down", "\uf150" },
-	{ "nf-fa-toggle_left", "\uf191" },
-	{ "nf-fa-toggle_off", "\uf204" },
-	{ "nf-fa-toggle_on", "\uf205" },
-	{ "nf-fa-toggle_right", "\uf152" },
-	{ "nf-fa-toggle_up", "\uf151" },
-	{ "nf-fa-trademark", "\uf25c" },
-	{ "nf-fa-train", "\uf238" },
-	{ "nf-fa-transgender", "\uf224" },
-	{ "nf-fa-transgender_alt", "\uf225" },
-	{ "nf-fa-trash", "\uf1f8" },
-	{ "nf-fa-trash_o", "\uf014" },
-	{ "nf-fa-tree", "\uf1bb" },
-	{ "nf-fa-trello", "\uf181" },
-	{ "nf-fa-tripadvisor", "\uf262" },
-	{ "nf-fa-trophy", "\uf091" },
-	{ "nf-fa-truck", "\uf0d1" },
-	{ "nf-fa-try", "\uf195" },
-	{ "nf-fa-tty", "\uf1e4" },
-	{ "nf-fa-tumblr", "\uf173" },
-	{ "nf-fa-tumblr_square", "\uf174" },
-	{ "nf-fa-turkish_lira", "\uf195" },
-	{ "nf-fa-tv", "\uf26c" },
-	{ "nf-fa-twitch", "\uf1e8" },
-	{ "nf-fa-twitter", "\uf099" },
-	{ "nf-fa-twitter_square", "\uf081" },
-	{ "nf-fa-umbrella", "\uf0e9" },
-	{ "nf-fa-underline", "\uf0cd" },
-	{ "nf-fa-undo", "\uf0e2" },
-	{ "nf-fa-universal_access", "\uf29a" },
-	{ "nf-fa-university", "\uf19c" },
-	{ "nf-fa-unlink", "\uf127" },
-	{ "nf-fa-unlock", "\uf09c" },
-	{ "nf-fa-unlock_alt", "\uf13e" },
-	{ "nf-fa-unsorted", "\uf0dc" },
-	{ "nf-fa-upload", "\uf093" },
-	{ "nf-fa-usb", "\uf287" },
-	{ "nf-fa-usd", "\uf155" },
-	{ "nf-fa-user", "\uf007" },
-	{ "nf-fa-user_circle", "\uf2bd" },
-	{ "nf-fa-user_circle_o", "\uf2be" },
-	{ "nf-fa-user_md", "\uf0f0" },
-	{ "nf-fa-user_o", "\uf2c0" },
-	{ "nf-fa-user_plus", "\uf234" },
-	{ "nf-fa-user_secret", "\uf21b" },
-	{ "nf-fa-user_times", "\uf235" },
-	{ "nf-fa-users", "\uf0c0" },
-	{ "nf-fa-vcard", "\uf2bb" },
-	{ "nf-fa-vcard_o", "\uf2bc" },
-	{ "nf-fa-venus", "\uf221" },
-	{ "nf-fa-venus_double", "\uf226" },
-	{ "nf-fa-venus_mars", "\uf228" },
-	{ "nf-fa-viacoin", "\uf237" },
-	{ "nf-fa-viadeo", "\uf2a9" },
-	{ "nf-fa-viadeo_square", "\uf2aa" },
-	{ "nf-fa-video_camera", "\uf03d" },
-	{ "nf-fa-vimeo", "\uf27d" },
-	{ "nf-fa-vimeo_square", "\uf194" },
-	{ "nf-fa-vine", "\uf1ca" },
-	{ "nf-fa-vk", "\uf189" },
-	{ "nf-fa-volume_control_phone", "\uf2a0" },
-	{ "nf-fa-volume_down", "\uf027" },
-	{ "nf-fa-volume_off", "\uf026" },
-	{ "nf-fa-volume_up", "\uf028" },
-	{ "nf-fa-warning", "\uf071" },
-	{ "nf-fa-wechat", "\uf1d7" },
-	{ "nf-fa-weibo", "\uf18a" },
-	{ "nf-fa-weixin", "\uf1d7" },
-	{ "nf-fa-whatsapp", "\uf232" },
-	{ "nf-fa-wheelchair", "\uf193" },
-	{ "nf-fa-wheelchair_alt", "\uf29b" },
-	{ "nf-fa-wifi", "\uf1eb" },
-	{ "nf-fa-wikipedia_w", "\uf266" },
-	{ "nf-fa-window_close", "\uf2d3" },
-	{ "nf-fa-window_close_o", "\uf2d4" },
-	{ "nf-fa-window_maximize", "\uf2d0" },
-	{ "nf-fa-window_minimize", "\uf2d1" },
-	{ "nf-fa-window_restore", "\uf2d2" },
-	{ "nf-fa-windows", "\uf17a" },
-	{ "nf-fa-won", "\uf159" },
-	{ "nf-fa-wordpress", "\uf19a" },
-	{ "nf-fa-wpbeginner", "\uf297" },
-	{ "nf-fa-wpexplorer", "\uf2de" },
-	{ "nf-fa-wpforms", "\uf298" },
-	{ "nf-fa-wrench", "\uf0ad" },
-	{ "nf-fa-xing", "\uf168" },
-	{ "nf-fa-xing_square", "\uf169" },
-	{ "nf-fa-y_combinator", "\uf23b" },
-	{ "nf-fa-y_combinator_square", "\uf1d4" },
-	{ "nf-fa-yahoo", "\uf19e" },
-	{ "nf-fa-yc", "\uf23b" },
-	{ "nf-fa-yc_square", "\uf1d4" },
-	{ "nf-fa-yelp", "\uf1e9" },
-	{ "nf-fa-yen", "\uf157" },
-	{ "nf-fa-yoast", "\uf2b1" },
-	{ "nf-fa-youtube", "\uf167" },
-	{ "nf-fa-youtube_play", "\uf16a" },
-	{ "nf-fa-youtube_square", "\uf166" },
-	{ "nf-fae-apple_fruit", "\ue29e" },
-	{ "nf-fae-atom", "\ue27f" },
-	{ "nf-fae-bacteria", "\ue280" },
-	{ "nf-fae-banana", "\ue281" },
-	{ "nf-fae-bath", "\ue282" },
-	{ "nf-fae-bed", "\ue283" },
-	{ "nf-fae-benzene", "\ue284" },
-	{ "nf-fae-bigger", "\ue285" },
-	{ "nf-fae-biohazard", "\ue286" },
-	{ "nf-fae-blogger_circle", "\ue287" },
-	{ "nf-fae-blogger_square", "\ue288" },
-	{ "nf-fae-bones", "\ue289" },
-	{ "nf-fae-book_open", "\ue28a" },
-	{ "nf-fae-book_open_o", "\ue28b" },
-	{ "nf-fae-brain", "\ue28c" },
-	{ "nf-fae-bread", "\ue28d" },
-	{ "nf-fae-butterfly", "\ue28e" },
-	{ "nf-fae-carot", "\ue28f" },
-	{ "nf-fae-cc_by", "\ue290" },
-	{ "nf-fae-cc_cc", "\ue291" },
-	{ "nf-fae-cc_nc", "\ue292" },
-	{ "nf-fae-cc_nc_eu", "\ue293" },
-	{ "nf-fae-cc_nc_jp", "\ue294" },
-	{ "nf-fae-cc_nd", "\ue295" },
-	{ "nf-fae-cc_remix", "\ue296" },
-	{ "nf-fae-cc_sa", "\ue297" },
-	{ "nf-fae-cc_share", "\ue298" },
-	{ "nf-fae-cc_zero", "\ue299" },
-	{ "nf-fae-checklist_o", "\ue29a" },
-	{ "nf-fae-cheese", "\ue264" },
-	{ "nf-fae-cherry", "\ue29b" },
-	{ "nf-fae-chess_bishop", "\ue29c" },
-	{ "nf-fae-chess_horse", "\ue25f" },
-	{ "nf-fae-chess_king", "\ue260" },
-	{ "nf-fae-chess_pawn", "\ue261" },
-	{ "nf-fae-chess_queen", "\ue262" },
-	{ "nf-fae-chess_tower", "\ue263" },
-	{ "nf-fae-chicken_thigh", "\ue29f" },
-	{ "nf-fae-chilli", "\ue265" },
-	{ "nf-fae-chip", "\ue266" },
-	{ "nf-fae-cicling", "\ue267" },
-	{ "nf-fae-cloud", "\ue268" },
-	{ "nf-fae-cockroach", "\ue269" },
-	{ "nf-fae-coffe_beans", "\ue26a" },
-	{ "nf-fae-coins", "\ue26b" },
-	{ "nf-fae-comb", "\ue26c" },
-	{ "nf-fae-comet", "\ue26d" },
-	{ "nf-fae-crown", "\ue26e" },
-	{ "nf-fae-cup_coffe", "\ue26f" },
-	{ "nf-fae-dice", "\ue270" },
-	{ "nf-fae-disco", "\ue271" },
-	{ "nf-fae-dna", "\ue272" },
-	{ "nf-fae-donut", "\ue273" },
-	{ "nf-fae-dress", "\ue274" },
-	{ "nf-fae-drop", "\ue275" },
-	{ "nf-fae-ello", "\ue276" },
-	{ "nf-fae-envelope_open", "\ue277" },
-	{ "nf-fae-envelope_open_o", "\ue278" },
-	{ "nf-fae-equal", "\ue279" },
-	{ "nf-fae-equal_bigger", "\ue27a" },
-	{ "nf-fae-feedly", "\ue27b" },
-	{ "nf-fae-file_export", "\ue27c" },
-	{ "nf-fae-file_import", "\ue27d" },
-	{ "nf-fae-fingerprint", "\ue23f" },
-	{ "nf-fae-floppy", "\ue240" },
-	{ "nf-fae-footprint", "\ue241" },
-	{ "nf-fae-freecodecamp", "\ue242" },
-	{ "nf-fae-galaxy", "\ue243" },
-	{ "nf-fae-galery", "\ue244" },
-	{ "nf-fae-gift_card", "\ue2a0" },
-	{ "nf-fae-glass", "\ue245" },
-	{ "nf-fae-google_drive", "\ue246" },
-	{ "nf-fae-google_play", "\ue247" },
-	{ "nf-fae-gps", "\ue248" },
-	{ "nf-fae-grav", "\ue249" },
-	{ "nf-fae-guitar", "\ue24a" },
-	{ "nf-fae-gut", "\ue24b" },
-	{ "nf-fae-halter", "\ue24c" },
-	{ "nf-fae-hamburger", "\ue24d" },
-	{ "nf-fae-hat", "\ue24e" },
-	{ "nf-fae-hexagon", "\ue24f" },
-	{ "nf-fae-high_heel", "\ue250" },
-	{ "nf-fae-hotdog", "\ue251" },
-	{ "nf-fae-ice_cream", "\ue252" },
-	{ "nf-fae-id_card", "\ue253" },
-	{ "nf-fae-imdb", "\ue254" },
-	{ "nf-fae-infinity", "\ue255" },
-	{ "nf-fae-injection", "\ue2a1" },
-	{ "nf-fae-isle", "\ue2a2" },
-	{ "nf-fae-java", "\ue256" },
-	{ "nf-fae-layers", "\ue257" },
-	{ "nf-fae-lips", "\ue258" },
-	{ "nf-fae-lipstick", "\ue259" },
-	{ "nf-fae-liver", "\ue25a" },
-	{ "nf-fae-lollipop", "\ue2a3" },
-	{ "nf-fae-loyalty_card", "\ue2a4" },
-	{ "nf-fae-lung", "\ue25b" },
-	{ "nf-fae-makeup_brushes", "\ue25c" },
-	{ "nf-fae-maximize", "\ue25d" },
-	{ "nf-fae-meat", "\ue2a5" },
-	{ "nf-fae-medicine", "\ue221" },
-	{ "nf-fae-microscope", "\ue222" },
-	{ "nf-fae-milk_bottle", "\ue223" },
-	{ "nf-fae-minimize", "\ue224" },
-	{ "nf-fae-molecule", "\ue225" },
-	{ "nf-fae-moon_cloud", "\ue226" },
-	{ "nf-fae-mountains", "\ue2a6" },
-	{ "nf-fae-mushroom", "\ue227" },
-	{ "nf-fae-mustache", "\ue228" },
-	{ "nf-fae-mysql", "\ue229" },
-	{ "nf-fae-nintendo", "\ue22a" },
-	{ "nf-fae-orange", "\ue2a7" },
-	{ "nf-fae-palette_color", "\ue22b" },
-	{ "nf-fae-peach", "\ue2a8" },
-	{ "nf-fae-pear", "\ue2a9" },
-	{ "nf-fae-pi", "\ue22c" },
-	{ "nf-fae-pizza", "\ue22d" },
-	{ "nf-fae-planet", "\ue22e" },
-	{ "nf-fae-plant", "\ue22f" },
-	{ "nf-fae-playstation", "\ue230" },
-	{ "nf-fae-poison", "\ue231" },
-	{ "nf-fae-popcorn", "\ue232" },
-	{ "nf-fae-popsicle", "\ue233" },
-	{ "nf-fae-pulse", "\ue234" },
-	{ "nf-fae-python", "\ue235" },
-	{ "nf-fae-quora_circle", "\ue236" },
-	{ "nf-fae-quora_square", "\ue237" },
-	{ "nf-fae-radioactive", "\ue238" },
-	{ "nf-fae-raining", "\ue239" },
-	{ "nf-fae-real_heart", "\ue23a" },
-	{ "nf-fae-refrigerator", "\ue23b" },
-	{ "nf-fae-restore", "\ue23c" },
-	{ "nf-fae-ring", "\ue23d" },
-	{ "nf-fae-ruby", "\ue23e" },
-	{ "nf-fae-ruby_o", "\ue21e" },
-	{ "nf-fae-ruler", "\ue21f" },
-	{ "nf-fae-shirt", "\ue218" },
-	{ "nf-fae-slash", "\ue216" },
-	{ "nf-fae-smaller", "\ue200" },
-	{ "nf-fae-snowing", "\ue201" },
-	{ "nf-fae-soda", "\ue202" },
-	{ "nf-fae-sofa", "\ue203" },
-	{ "nf-fae-soup", "\ue204" },
-	{ "nf-fae-spermatozoon", "\ue205" },
-	{ "nf-fae-spin_double", "\ue206" },
-	{ "nf-fae-stomach", "\ue207" },
-	{ "nf-fae-storm", "\ue208" },
-	{ "nf-fae-sun_cloud", "\ue21d" },
-	{ "nf-fae-sushi", "\ue21a" },
-	{ "nf-fae-tacos", "\ue219" },
-	{ "nf-fae-telegram", "\ue217" },
-	{ "nf-fae-telegram_circle", "\ue215" },
-	{ "nf-fae-telescope", "\ue209" },
-	{ "nf-fae-thermometer", "\ue20a" },
-	{ "nf-fae-thermometer_high", "\ue20b" },
-	{ "nf-fae-thermometer_low", "\ue20c" },
-	{ "nf-fae-thin_close", "\ue20d" },
-	{ "nf-fae-toilet", "\ue20e" },
-	{ "nf-fae-tools", "\ue20f" },
-	{ "nf-fae-tooth", "\ue210" },
-	{ "nf-fae-tree", "\ue21c" },
-	{ "nf-fae-triangle_ruler", "\ue21b" },
-	{ "nf-fae-umbrella", "\ue220" },
-	{ "nf-fae-uterus", "\ue211" },
-	{ "nf-fae-virus", "\ue214" },
-	{ "nf-fae-w3c", "\ue212" },
-	{ "nf-fae-walking", "\ue213" },
-	{ "nf-fae-wallet", "\ue25e" },
-	{ "nf-fae-wind", "\ue27e" },
-	{ "nf-fae-xbox", "\ue29d" },
-	{ "nf-iec-power", "⏻" },
-	{ "nf-iec-power_off", "⭘" },
-	{ "nf-iec-power_on", "⏽" },
-	{ "nf-iec-sleep_mode", "⏾" },
-	{ "nf-iec-toggle_power", "⏼" },
-	{ "nf-indent-dotted_guide", "\ue621" },
-	{ "nf-indent-line", "\ue621" },
-	{ "nf-indentation-line", "\ue621" },
-	{ "nf-linux-almalinux", "\uf31d" },
-	{ "nf-linux-alpine", "\uf300" },
-	{ "nf-linux-aosc", "\uf301" },
-	{ "nf-linux-apple", "\uf302" },
-	{ "nf-linux-archlabs", "\uf31e" },
-	{ "nf-linux-archlinux", "\uf303" },
-	{ "nf-linux-artix", "\uf31f" },
-	{ "nf-linux-budgie", "\uf320" },
-	{ "nf-linux-centos", "\uf304" },
-	{ "nf-linux-coreos", "\uf305" },
-	{ "nf-linux-debian", "\uf306" },
-	{ "nf-linux-deepin", "\uf321" },
-	{ "nf-linux-devuan", "\uf307" },
-	{ "nf-linux-docker", "\uf308" },
-	{ "nf-linux-elementary", "\uf309" },
-	{ "nf-linux-endeavour", "\uf322" },
-	{ "nf-linux-fedora", "\uf30a" },
-	{ "nf-linux-fedora_inverse", "\uf30b" },
-	{ "nf-linux-ferris", "\uf323" },
-	{ "nf-linux-flathub", "\uf324" },
-	{ "nf-linux-freebsd", "\uf30c" },
-	{ "nf-linux-gentoo", "\uf30d" },
-	{ "nf-linux-gnu_guix", "\uf325" },
-	{ "nf-linux-illumos", "\uf326" },
-	{ "nf-linux-kali_linux", "\uf327" },
-	{ "nf-linux-linuxmint", "\uf30e" },
-	{ "nf-linux-linuxmint_inverse", "\uf30f" },
-	{ "nf-linux-mageia", "\uf310" },
-	{ "nf-linux-mandriva", "\uf311" },
-	{ "nf-linux-manjaro", "\uf312" },
-	{ "nf-linux-nixos", "\uf313" },
-	{ "nf-linux-openbsd", "\uf328" },
-	{ "nf-linux-opensuse", "\uf314" },
-	{ "nf-linux-parrot", "\uf329" },
-	{ "nf-linux-pop_os", "\uf32a" },
-	{ "nf-linux-raspberry_pi", "\uf315" },
-	{ "nf-linux-redhat", "\uf316" },
-	{ "nf-linux-rocky_linux", "\uf32b" },
-	{ "nf-linux-sabayon", "\uf317" },
-	{ "nf-linux-slackware", "\uf318" },
-	{ "nf-linux-slackware_inverse", "\uf319" },
-	{ "nf-linux-snappy", "\uf32c" },
-	{ "nf-linux-solus", "\uf32d" },
-	{ "nf-linux-tux", "\uf31a" },
-	{ "nf-linux-ubuntu", "\uf31b" },
-	{ "nf-linux-ubuntu_inverse", "\uf31c" },
-	{ "nf-linux-void", "\uf32e" },
-	{ "nf-linux-zorin", "\uf32f" },
-	{ "nf-md-ab_testing", "\u{f01c9}" },
-	{ "nf-md-abacus", "\u{f16e0}" },
-	{ "nf-md-abjad_arabic", "\u{f1328}" },
-	{ "nf-md-abjad_hebrew", "\u{f1329}" },
-	{ "nf-md-abugida_devanagari", "\u{f132a}" },
-	{ "nf-md-abugida_thai", "\u{f132b}" },
-	{ "nf-md-access_point", "\u{f0003}" },
-	{ "nf-md-access_point_check", "\u{f1538}" },
-	{ "nf-md-access_point_minus", "\u{f1539}" },
-	{ "nf-md-access_point_network", "\u{f0002}" },
-	{ "nf-md-access_point_network_off", "\u{f0be1}" },
-	{ "nf-md-access_point_off", "\u{f1511}" },
-	{ "nf-md-access_point_plus", "\u{f153a}" },
-	{ "nf-md-access_point_remove", "\u{f153b}" },
-	{ "nf-md-account", "\u{f0004}" },
-	{ "nf-md-account_alert", "\u{f0005}" },
-	{ "nf-md-account_alert_outline", "\u{f0b50}" },
-	{ "nf-md-account_arrow_down", "\u{f1868}" },
-	{ "nf-md-account_arrow_down_outline", "\u{f1869}" },
-	{ "nf-md-account_arrow_left", "\u{f0b51}" },
-	{ "nf-md-account_arrow_left_outline", "\u{f0b52}" },
-	{ "nf-md-account_arrow_right", "\u{f0b53}" },
-	{ "nf-md-account_arrow_right_outline", "\u{f0b54}" },
-	{ "nf-md-account_arrow_up", "\u{f1867}" },
-	{ "nf-md-account_arrow_up_outline", "\u{f186a}" },
-	{ "nf-md-account_box", "\u{f0006}" },
-	{ "nf-md-account_box_multiple", "\u{f0934}" },
-	{ "nf-md-account_box_multiple_outline", "\u{f100a}" },
-	{ "nf-md-account_box_outline", "\u{f0007}" },
-	{ "nf-md-account_cancel", "\u{f12df}" },
-	{ "nf-md-account_cancel_outline", "\u{f12e0}" },
-	{ "nf-md-account_cash", "\u{f1097}" },
-	{ "nf-md-account_cash_outline", "\u{f1098}" },
-	{ "nf-md-account_check", "\u{f0008}" },
-	{ "nf-md-account_check_outline", "\u{f0be2}" },
-	{ "nf-md-account_child", "\u{f0a89}" },
-	{ "nf-md-account_child_circle", "\u{f0a8a}" },
-	{ "nf-md-account_child_outline", "\u{f10c8}" },
-	{ "nf-md-account_circle", "\u{f0009}" },
-	{ "nf-md-account_circle_outline", "\u{f0b55}" },
-	{ "nf-md-account_clock", "\u{f0b56}" },
-	{ "nf-md-account_clock_outline", "\u{f0b57}" },
-	{ "nf-md-account_cog", "\u{f1370}" },
-	{ "nf-md-account_cog_outline", "\u{f1371}" },
-	{ "nf-md-account_convert", "\u{f000a}" },
-	{ "nf-md-account_convert_outline", "\u{f1301}" },
-	{ "nf-md-account_cowboy_hat", "\u{f0e9b}" },
-	{ "nf-md-account_cowboy_hat_outline", "\u{f17f3}" },
-	{ "nf-md-account_details", "\u{f0631}" },
-	{ "nf-md-account_details_outline", "\u{f1372}" },
-	{ "nf-md-account_edit", "\u{f06bc}" },
-	{ "nf-md-account_edit_outline", "\u{f0ffb}" },
-	{ "nf-md-account_eye", "\u{f0420}" },
-	{ "nf-md-account_eye_outline", "\u{f127b}" },
-	{ "nf-md-account_filter", "\u{f0936}" },
-	{ "nf-md-account_filter_outline", "\u{f0f9d}" },
-	{ "nf-md-account_group", "\u{f0849}" },
-	{ "nf-md-account_group_outline", "\u{f0b58}" },
-	{ "nf-md-account_hard_hat", "\u{f05b5}" },
-	{ "nf-md-account_hard_hat_outline", "\u{f1a1f}" },
-	{ "nf-md-account_heart", "\u{f0899}" },
-	{ "nf-md-account_heart_outline", "\u{f0be3}" },
-	{ "nf-md-account_injury", "\u{f1815}" },
-	{ "nf-md-account_injury_outline", "\u{f1816}" },
-	{ "nf-md-account_key", "\u{f000b}" },
-	{ "nf-md-account_key_outline", "\u{f0be4}" },
-	{ "nf-md-account_lock", "\u{f115e}" },
-	{ "nf-md-account_lock_open", "\u{f1960}" },
-	{ "nf-md-account_lock_open_outline", "\u{f1961}" },
-	{ "nf-md-account_lock_outline", "\u{f115f}" },
-	{ "nf-md-account_minus", "\u{f000d}" },
-	{ "nf-md-account_minus_outline", "\u{f0aec}" },
-	{ "nf-md-account_multiple", "\u{f000e}" },
-	{ "nf-md-account_multiple_check", "\u{f08c5}" },
-	{ "nf-md-account_multiple_check_outline", "\u{f11fe}" },
-	{ "nf-md-account_multiple_minus", "\u{f05d3}" },
-	{ "nf-md-account_multiple_minus_outline", "\u{f0be5}" },
-	{ "nf-md-account_multiple_outline", "\u{f000f}" },
-	{ "nf-md-account_multiple_plus", "\u{f0010}" },
-	{ "nf-md-account_multiple_plus_outline", "\u{f0800}" },
-	{ "nf-md-account_multiple_remove", "\u{f120a}" },
-	{ "nf-md-account_multiple_remove_outline", "\u{f120b}" },
-	{ "nf-md-account_music", "\u{f0803}" },
-	{ "nf-md-account_music_outline", "\u{f0ce9}" },
-	{ "nf-md-account_network", "\u{f0011}" },
-	{ "nf-md-account_network_outline", "\u{f0be6}" },
-	{ "nf-md-account_off", "\u{f0012}" },
-	{ "nf-md-account_off_outline", "\u{f0be7}" },
-	{ "nf-md-account_outline", "\u{f0013}" },
-	{ "nf-md-account_plus", "\u{f0014}" },
-	{ "nf-md-account_plus_outline", "\u{f0801}" },
-	{ "nf-md-account_question", "\u{f0b59}" },
-	{ "nf-md-account_question_outline", "\u{f0b5a}" },
-	{ "nf-md-account_reactivate", "\u{f152b}" },
-	{ "nf-md-account_reactivate_outline", "\u{f152c}" },
-	{ "nf-md-account_remove", "\u{f0015}" },
-	{ "nf-md-account_remove_outline", "\u{f0aed}" },
-	{ "nf-md-account_school", "\u{f1a20}" },
-	{ "nf-md-account_school_outline", "\u{f1a21}" },
-	{ "nf-md-account_search", "\u{f0016}" },
-	{ "nf-md-account_search_outline", "\u{f0935}" },
-	{ "nf-md-account_settings", "\u{f0630}" },
-	{ "nf-md-account_settings_outline", "\u{f10c9}" },
-	{ "nf-md-account_star", "\u{f0017}" },
-	{ "nf-md-account_star_outline", "\u{f0be8}" },
-	{ "nf-md-account_supervisor", "\u{f0a8b}" },
-	{ "nf-md-account_supervisor_circle", "\u{f0a8c}" },
-	{ "nf-md-account_supervisor_circle_outline", "\u{f14ec}" },
-	{ "nf-md-account_supervisor_outline", "\u{f112d}" },
-	{ "nf-md-account_switch", "\u{f0019}" },
-	{ "nf-md-account_switch_outline", "\u{f04cb}" },
-	{ "nf-md-account_sync", "\u{f191b}" },
-	{ "nf-md-account_sync_outline", "\u{f191c}" },
-	{ "nf-md-account_tie", "\u{f0ce3}" },
-	{ "nf-md-account_tie_hat", "\u{f1898}" },
-	{ "nf-md-account_tie_hat_outline", "\u{f1899}" },
-	{ "nf-md-account_tie_outline", "\u{f10ca}" },
-	{ "nf-md-account_tie_voice", "\u{f1308}" },
-	{ "nf-md-account_tie_voice_off", "\u{f130a}" },
-	{ "nf-md-account_tie_voice_off_outline", "\u{f130b}" },
-	{ "nf-md-account_tie_voice_outline", "\u{f1309}" },
-	{ "nf-md-account_tie_woman", "\u{f1a8c}" },
-	{ "nf-md-account_voice", "\u{f05cb}" },
-	{ "nf-md-account_voice_off", "\u{f0ed4}" },
-	{ "nf-md-account_wrench", "\u{f189a}" },
-	{ "nf-md-account_wrench_outline", "\u{f189b}" },
-	{ "nf-md-adjust", "\u{f001a}" },
-	{ "nf-md-advertisements", "\u{f192a}" },
-	{ "nf-md-advertisements_off", "\u{f192b}" },
-	{ "nf-md-air_conditioner", "\u{f001b}" },
-	{ "nf-md-air_filter", "\u{f0d43}" },
-	{ "nf-md-air_horn", "\u{f0dac}" },
-	{ "nf-md-air_humidifier", "\u{f1099}" },
-	{ "nf-md-air_humidifier_off", "\u{f1466}" },
-	{ "nf-md-air_purifier", "\u{f0d44}" },
-	{ "nf-md-airbag", "\u{f0be9}" },
-	{ "nf-md-airballoon", "\u{f001c}" },
-	{ "nf-md-airballoon_outline", "\u{f100b}" },
-	{ "nf-md-airplane", "\u{f001d}" },
-	{ "nf-md-airplane_alert", "\u{f187a}" },
-	{ "nf-md-airplane_check", "\u{f187b}" },
-	{ "nf-md-airplane_clock", "\u{f187c}" },
-	{ "nf-md-airplane_cog", "\u{f187d}" },
-	{ "nf-md-airplane_edit", "\u{f187e}" },
-	{ "nf-md-airplane_landing", "\u{f05d4}" },
-	{ "nf-md-airplane_marker", "\u{f187f}" },
-	{ "nf-md-airplane_minus", "\u{f1880}" },
-	{ "nf-md-airplane_off", "\u{f001e}" },
-	{ "nf-md-airplane_plus", "\u{f1881}" },
-	{ "nf-md-airplane_remove", "\u{f1882}" },
-	{ "nf-md-airplane_search", "\u{f1883}" },
-	{ "nf-md-airplane_settings", "\u{f1884}" },
-	{ "nf-md-airplane_takeoff", "\u{f05d5}" },
-	{ "nf-md-airport", "\u{f084b}" },
-	{ "nf-md-alarm", "\u{f0020}" },
-	{ "nf-md-alarm_bell", "\u{f078e}" },
-	{ "nf-md-alarm_check", "\u{f0021}" },
-	{ "nf-md-alarm_light", "\u{f078f}" },
-	{ "nf-md-alarm_light_off", "\u{f171e}" },
-	{ "nf-md-alarm_light_off_outline", "\u{f171f}" },
-	{ "nf-md-alarm_light_outline", "\u{f0bea}" },
-	{ "nf-md-alarm_multiple", "\u{f0022}" },
-	{ "nf-md-alarm_note", "\u{f0e71}" },
-	{ "nf-md-alarm_note_off", "\u{f0e72}" },
-	{ "nf-md-alarm_off", "\u{f0023}" },
-	{ "nf-md-alarm_panel", "\u{f15c4}" },
-	{ "nf-md-alarm_panel_outline", "\u{f15c5}" },
-	{ "nf-md-alarm_plus", "\u{f0024}" },
-	{ "nf-md-alarm_snooze", "\u{f068e}" },
-	{ "nf-md-album", "\u{f0025}" },
-	{ "nf-md-alert", "\u{f0026}" },
-	{ "nf-md-alert_box", "\u{f0027}" },
-	{ "nf-md-alert_box_outline", "\u{f0ce4}" },
-	{ "nf-md-alert_circle", "\u{f0028}" },
-	{ "nf-md-alert_circle_check", "\u{f11ed}" },
-	{ "nf-md-alert_circle_check_outline", "\u{f11ee}" },
-	{ "nf-md-alert_circle_outline", "\u{f05d6}" },
-	{ "nf-md-alert_decagram", "\u{f06bd}" },
-	{ "nf-md-alert_decagram_outline", "\u{f0ce5}" },
-	{ "nf-md-alert_minus", "\u{f14bb}" },
-	{ "nf-md-alert_minus_outline", "\u{f14be}" },
-	{ "nf-md-alert_octagon", "\u{f0029}" },
-	{ "nf-md-alert_octagon_outline", "\u{f0ce6}" },
-	{ "nf-md-alert_octagram", "\u{f0767}" },
-	{ "nf-md-alert_octagram_outline", "\u{f0ce7}" },
-	{ "nf-md-alert_outline", "\u{f002a}" },
-	{ "nf-md-alert_plus", "\u{f14ba}" },
-	{ "nf-md-alert_plus_outline", "\u{f14bd}" },
-	{ "nf-md-alert_remove", "\u{f14bc}" },
-	{ "nf-md-alert_remove_outline", "\u{f14bf}" },
-	{ "nf-md-alert_rhombus", "\u{f11ce}" },
-	{ "nf-md-alert_rhombus_outline", "\u{f11cf}" },
-	{ "nf-md-alien", "\u{f089a}" },
-	{ "nf-md-alien_outline", "\u{f10cb}" },
-	{ "nf-md-align_horizontal_center", "\u{f11c3}" },
-	{ "nf-md-align_horizontal_distribute", "\u{f1962}" },
-	{ "nf-md-align_horizontal_left", "\u{f11c2}" },
-	{ "nf-md-align_horizontal_right", "\u{f11c4}" },
-	{ "nf-md-align_vertical_bottom", "\u{f11c5}" },
-	{ "nf-md-align_vertical_center", "\u{f11c6}" },
-	{ "nf-md-align_vertical_distribute", "\u{f1963}" },
-	{ "nf-md-align_vertical_top", "\u{f11c7}" },
-	{ "nf-md-all_inclusive", "\u{f06be}" },
-	{ "nf-md-all_inclusive_box", "\u{f188d}" },
-	{ "nf-md-all_inclusive_box_outline", "\u{f188e}" },
-	{ "nf-md-allergy", "\u{f1258}" },
-	{ "nf-md-alpha", "\u{f002b}" },
-	{ "nf-md-alpha_a", "\u{f0aee}" },
-	{ "nf-md-alpha_a_box", "\u{f0b08}" },
-	{ "nf-md-alpha_a_box_outline", "\u{f0beb}" },
-	{ "nf-md-alpha_a_circle", "\u{f0bec}" },
-	{ "nf-md-alpha_a_circle_outline", "\u{f0bed}" },
-	{ "nf-md-alpha_b", "\u{f0aef}" },
-	{ "nf-md-alpha_b_box", "\u{f0b09}" },
-	{ "nf-md-alpha_b_box_outline", "\u{f0bee}" },
-	{ "nf-md-alpha_b_circle", "\u{f0bef}" },
-	{ "nf-md-alpha_b_circle_outline", "\u{f0bf0}" },
-	{ "nf-md-alpha_c", "\u{f0af0}" },
-	{ "nf-md-alpha_c_box", "\u{f0b0a}" },
-	{ "nf-md-alpha_c_box_outline", "\u{f0bf1}" },
-	{ "nf-md-alpha_c_circle", "\u{f0bf2}" },
-	{ "nf-md-alpha_c_circle_outline", "\u{f0bf3}" },
-	{ "nf-md-alpha_d", "\u{f0af1}" },
-	{ "nf-md-alpha_d_box", "\u{f0b0b}" },
-	{ "nf-md-alpha_d_box_outline", "\u{f0bf4}" },
-	{ "nf-md-alpha_d_circle", "\u{f0bf5}" },
-	{ "nf-md-alpha_d_circle_outline", "\u{f0bf6}" },
-	{ "nf-md-alpha_e", "\u{f0af2}" },
-	{ "nf-md-alpha_e_box", "\u{f0b0c}" },
-	{ "nf-md-alpha_e_box_outline", "\u{f0bf7}" },
-	{ "nf-md-alpha_e_circle", "\u{f0bf8}" },
-	{ "nf-md-alpha_e_circle_outline", "\u{f0bf9}" },
-	{ "nf-md-alpha_f", "\u{f0af3}" },
-	{ "nf-md-alpha_f_box", "\u{f0b0d}" },
-	{ "nf-md-alpha_f_box_outline", "\u{f0bfa}" },
-	{ "nf-md-alpha_f_circle", "\u{f0bfb}" },
-	{ "nf-md-alpha_f_circle_outline", "\u{f0bfc}" },
-	{ "nf-md-alpha_g", "\u{f0af4}" },
-	{ "nf-md-alpha_g_box", "\u{f0b0e}" },
-	{ "nf-md-alpha_g_box_outline", "\u{f0bfd}" },
-	{ "nf-md-alpha_g_circle", "\u{f0bfe}" },
-	{ "nf-md-alpha_g_circle_outline", "\u{f0bff}" },
-	{ "nf-md-alpha_h", "\u{f0af5}" },
-	{ "nf-md-alpha_h_box", "\u{f0b0f}" },
-	{ "nf-md-alpha_h_box_outline", "\u{f0c00}" },
-	{ "nf-md-alpha_h_circle", "\u{f0c01}" },
-	{ "nf-md-alpha_h_circle_outline", "\u{f0c02}" },
-	{ "nf-md-alpha_i", "\u{f1088}" },
-	{ "nf-md-alpha_i_box", "\u{f0b10}" },
-	{ "nf-md-alpha_i_box_outline", "\u{f0c03}" },
-	{ "nf-md-alpha_i_circle", "\u{f0c04}" },
-	{ "nf-md-alpha_i_circle_outline", "\u{f0c05}" },
-	{ "nf-md-alpha_j", "\u{f0af7}" },
-	{ "nf-md-alpha_j_box", "\u{f0b11}" },
-	{ "nf-md-alpha_j_box_outline", "\u{f0c06}" },
-	{ "nf-md-alpha_j_circle", "\u{f0c07}" },
-	{ "nf-md-alpha_j_circle_outline", "\u{f0c08}" },
-	{ "nf-md-alpha_k", "\u{f0af8}" },
-	{ "nf-md-alpha_k_box", "\u{f0b12}" },
-	{ "nf-md-alpha_k_box_outline", "\u{f0c09}" },
-	{ "nf-md-alpha_k_circle", "\u{f0c0a}" },
-	{ "nf-md-alpha_k_circle_outline", "\u{f0c0b}" },
-	{ "nf-md-alpha_l", "\u{f13a6}" },
-	{ "nf-md-alpha_l_box", "\u{f0b13}" },
-	{ "nf-md-alpha_l_box_outline", "\u{f0c0c}" },
-	{ "nf-md-alpha_l_circle", "\u{f0c0d}" },
-	{ "nf-md-alpha_l_circle_outline", "\u{f0c0e}" },
-	{ "nf-md-alpha_m", "\u{f0afa}" },
-	{ "nf-md-alpha_m_box", "\u{f0b14}" },
-	{ "nf-md-alpha_m_box_outline", "\u{f0c0f}" },
-	{ "nf-md-alpha_m_circle", "\u{f0c10}" },
-	{ "nf-md-alpha_m_circle_outline", "\u{f0c11}" },
-	{ "nf-md-alpha_n", "\u{f0afb}" },
-	{ "nf-md-alpha_n_box", "\u{f0b15}" },
-	{ "nf-md-alpha_n_box_outline", "\u{f0c12}" },
-	{ "nf-md-alpha_n_circle", "\u{f0c13}" },
-	{ "nf-md-alpha_n_circle_outline", "\u{f0c14}" },
-	{ "nf-md-alpha_o", "\u{f0b39}" },
-	{ "nf-md-alpha_o_box", "\u{f0b16}" },
-	{ "nf-md-alpha_o_box_outline", "\u{f0c15}" },
-	{ "nf-md-alpha_o_circle", "\u{f0c9e}" },
-	{ "nf-md-alpha_o_circle_outline", "\u{f0c9f}" },
-	{ "nf-md-alpha_p", "\u{f0afd}" },
-	{ "nf-md-alpha_p_box", "\u{f0b17}" },
-	{ "nf-md-alpha_p_box_outline", "\u{f0c18}" },
-	{ "nf-md-alpha_p_circle", "\u{f0c19}" },
-	{ "nf-md-alpha_p_circle_outline", "\u{f0c1a}" },
-	{ "nf-md-alpha_q", "\u{f0afe}" },
-	{ "nf-md-alpha_q_box", "\u{f0b18}" },
-	{ "nf-md-alpha_q_box_outline", "\u{f0c1b}" },
-	{ "nf-md-alpha_q_circle", "\u{f0c1c}" },
-	{ "nf-md-alpha_q_circle_outline", "\u{f0c1d}" },
-	{ "nf-md-alpha_r", "\u{f0aff}" },
-	{ "nf-md-alpha_r_box", "\u{f0b19}" },
-	{ "nf-md-alpha_r_box_outline", "\u{f0c1e}" },
-	{ "nf-md-alpha_r_circle", "\u{f0c1f}" },
-	{ "nf-md-alpha_r_circle_outline", "\u{f0c20}" },
-	{ "nf-md-alpha_s", "\u{f0b00}" },
-	{ "nf-md-alpha_s_box", "\u{f0b1a}" },
-	{ "nf-md-alpha_s_box_outline", "\u{f0c21}" },
-	{ "nf-md-alpha_s_circle", "\u{f0c22}" },
-	{ "nf-md-alpha_s_circle_outline", "\u{f0c23}" },
-	{ "nf-md-alpha_t", "\u{f0b01}" },
-	{ "nf-md-alpha_t_box", "\u{f0b1b}" },
-	{ "nf-md-alpha_t_box_outline", "\u{f0c24}" },
-	{ "nf-md-alpha_t_circle", "\u{f0c25}" },
-	{ "nf-md-alpha_t_circle_outline", "\u{f0c26}" },
-	{ "nf-md-alpha_u", "\u{f0b02}" },
-	{ "nf-md-alpha_u_box", "\u{f0b1c}" },
-	{ "nf-md-alpha_u_box_outline", "\u{f0c27}" },
-	{ "nf-md-alpha_u_circle", "\u{f0c28}" },
-	{ "nf-md-alpha_u_circle_outline", "\u{f0c29}" },
-	{ "nf-md-alpha_v", "\u{f108c}" },
-	{ "nf-md-alpha_v_box", "\u{f0b1d}" },
-	{ "nf-md-alpha_v_box_outline", "\u{f0c2a}" },
-	{ "nf-md-alpha_v_circle", "\u{f0c2b}" },
-	{ "nf-md-alpha_v_circle_outline", "\u{f0c2c}" },
-	{ "nf-md-alpha_w", "\u{f0b04}" },
-	{ "nf-md-alpha_w_box", "\u{f0b1e}" },
-	{ "nf-md-alpha_w_box_outline", "\u{f0c2d}" },
-	{ "nf-md-alpha_w_circle", "\u{f0c2e}" },
-	{ "nf-md-alpha_w_circle_outline", "\u{f0c2f}" },
-	{ "nf-md-alpha_x", "\u{f1091}" },
-	{ "nf-md-alpha_x_box", "\u{f0b1f}" },
-	{ "nf-md-alpha_x_box_outline", "\u{f0c30}" },
-	{ "nf-md-alpha_x_circle", "\u{f0c31}" },
-	{ "nf-md-alpha_x_circle_outline", "\u{f0c32}" },
-	{ "nf-md-alpha_y", "\u{f0b06}" },
-	{ "nf-md-alpha_y_box", "\u{f0b20}" },
-	{ "nf-md-alpha_y_box_outline", "\u{f0c33}" },
-	{ "nf-md-alpha_y_circle", "\u{f0c34}" },
-	{ "nf-md-alpha_y_circle_outline", "\u{f0c35}" },
-	{ "nf-md-alpha_z", "\u{f0b07}" },
-	{ "nf-md-alpha_z_box", "\u{f0b21}" },
-	{ "nf-md-alpha_z_box_outline", "\u{f0c36}" },
-	{ "nf-md-alpha_z_circle", "\u{f0c37}" },
-	{ "nf-md-alpha_z_circle_outline", "\u{f0c38}" },
-	{ "nf-md-alphabet_aurebesh", "\u{f132c}" },
-	{ "nf-md-alphabet_cyrillic", "\u{f132d}" },
-	{ "nf-md-alphabet_greek", "\u{f132e}" },
-	{ "nf-md-alphabet_latin", "\u{f132f}" },
-	{ "nf-md-alphabet_piqad", "\u{f1330}" },
-	{ "nf-md-alphabet_tengwar", "\u{f1337}" },
-	{ "nf-md-alphabetical", "\u{f002c}" },
-	{ "nf-md-alphabetical_off", "\u{f100c}" },
-	{ "nf-md-alphabetical_variant", "\u{f100d}" },
-	{ "nf-md-alphabetical_variant_off", "\u{f100e}" },
-	{ "nf-md-altimeter", "\u{f05d7}" },
-	{ "nf-md-ambulance", "\u{f002f}" },
-	{ "nf-md-ammunition", "\u{f0ce8}" },
-	{ "nf-md-ampersand", "\u{f0a8d}" },
-	{ "nf-md-amplifier", "\u{f0030}" },
-	{ "nf-md-amplifier_off", "\u{f11b5}" },
-	{ "nf-md-anchor", "\u{f0031}" },
-	{ "nf-md-android", "\u{f0032}" },
-	{ "nf-md-android_messages", "\u{f0d45}" },
-	{ "nf-md-android_studio", "\u{f0034}" },
-	{ "nf-md-angle_acute", "\u{f0937}" },
-	{ "nf-md-angle_obtuse", "\u{f0938}" },
-	{ "nf-md-angle_right", "\u{f0939}" },
-	{ "nf-md-angular", "\u{f06b2}" },
-	{ "nf-md-angularjs", "\u{f06bf}" },
-	{ "nf-md-animation", "\u{f05d8}" },
-	{ "nf-md-animation_outline", "\u{f0a8f}" },
-	{ "nf-md-animation_play", "\u{f093a}" },
-	{ "nf-md-animation_play_outline", "\u{f0a90}" },
-	{ "nf-md-ansible", "\u{f109a}" },
-	{ "nf-md-antenna", "\u{f1119}" },
-	{ "nf-md-anvil", "\u{f089b}" },
-	{ "nf-md-apache_kafka", "\u{f100f}" },
-	{ "nf-md-api", "\u{f109b}" },
-	{ "nf-md-api_off", "\u{f1257}" },
-	{ "nf-md-apple", "\u{f0035}" },
-	{ "nf-md-apple_finder", "\u{f0036}" },
-	{ "nf-md-apple_icloud", "\u{f0038}" },
-	{ "nf-md-apple_ios", "\u{f0037}" },
-	{ "nf-md-apple_keyboard_caps", "\u{f0632}" },
-	{ "nf-md-apple_keyboard_command", "\u{f0633}" },
-	{ "nf-md-apple_keyboard_control", "\u{f0634}" },
-	{ "nf-md-apple_keyboard_option", "\u{f0635}" },
-	{ "nf-md-apple_keyboard_shift", "\u{f0636}" },
-	{ "nf-md-apple_safari", "\u{f0039}" },
-	{ "nf-md-application", "\u{f08c6}" },
-	{ "nf-md-application_array", "\u{f10f5}" },
-	{ "nf-md-application_array_outline", "\u{f10f6}" },
-	{ "nf-md-application_braces", "\u{f10f7}" },
-	{ "nf-md-application_braces_outline", "\u{f10f8}" },
-	{ "nf-md-application_brackets", "\u{f0c8b}" },
-	{ "nf-md-application_brackets_outline", "\u{f0c8c}" },
-	{ "nf-md-application_cog", "\u{f0675}" },
-	{ "nf-md-application_cog_outline", "\u{f1577}" },
-	{ "nf-md-application_edit", "\u{f00ae}" },
-	{ "nf-md-application_edit_outline", "\u{f0619}" },
-	{ "nf-md-application_export", "\u{f0dad}" },
-	{ "nf-md-application_import", "\u{f0dae}" },
-	{ "nf-md-application_outline", "\u{f0614}" },
-	{ "nf-md-application_parentheses", "\u{f10f9}" },
-	{ "nf-md-application_parentheses_outline", "\u{f10fa}" },
-	{ "nf-md-application_settings", "\u{f0b60}" },
-	{ "nf-md-application_settings_outline", "\u{f1555}" },
-	{ "nf-md-application_variable", "\u{f10fb}" },
-	{ "nf-md-application_variable_outline", "\u{f10fc}" },
-	{ "nf-md-approximately_equal", "\u{f0f9e}" },
-	{ "nf-md-approximately_equal_box", "\u{f0f9f}" },
-	{ "nf-md-apps", "\u{f003b}" },
-	{ "nf-md-apps_box", "\u{f0d46}" },
-	{ "nf-md-arch", "\u{f08c7}" },
-	{ "nf-md-archive", "\u{f003c}" },
-	{ "nf-md-archive_alert", "\u{f14fd}" },
-	{ "nf-md-archive_alert_outline", "\u{f14fe}" },
-	{ "nf-md-archive_arrow_down", "\u{f1259}" },
-	{ "nf-md-archive_arrow_down_outline", "\u{f125a}" },
-	{ "nf-md-archive_arrow_up", "\u{f125b}" },
-	{ "nf-md-archive_arrow_up_outline", "\u{f125c}" },
-	{ "nf-md-archive_cancel", "\u{f174b}" },
-	{ "nf-md-archive_cancel_outline", "\u{f174c}" },
-	{ "nf-md-archive_check", "\u{f174d}" },
-	{ "nf-md-archive_check_outline", "\u{f174e}" },
-	{ "nf-md-archive_clock", "\u{f174f}" },
-	{ "nf-md-archive_clock_outline", "\u{f1750}" },
-	{ "nf-md-archive_cog", "\u{f1751}" },
-	{ "nf-md-archive_cog_outline", "\u{f1752}" },
-	{ "nf-md-archive_edit", "\u{f1753}" },
-	{ "nf-md-archive_edit_outline", "\u{f1754}" },
-	{ "nf-md-archive_eye", "\u{f1755}" },
-	{ "nf-md-archive_eye_outline", "\u{f1756}" },
-	{ "nf-md-archive_lock", "\u{f1757}" },
-	{ "nf-md-archive_lock_open", "\u{f1758}" },
-	{ "nf-md-archive_lock_open_outline", "\u{f1759}" },
-	{ "nf-md-archive_lock_outline", "\u{f175a}" },
-	{ "nf-md-archive_marker", "\u{f175b}" },
-	{ "nf-md-archive_marker_outline", "\u{f175c}" },
-	{ "nf-md-archive_minus", "\u{f175d}" },
-	{ "nf-md-archive_minus_outline", "\u{f175e}" },
-	{ "nf-md-archive_music", "\u{f175f}" },
-	{ "nf-md-archive_music_outline", "\u{f1760}" },
-	{ "nf-md-archive_off", "\u{f1761}" },
-	{ "nf-md-archive_off_outline", "\u{f1762}" },
-	{ "nf-md-archive_outline", "\u{f120e}" },
-	{ "nf-md-archive_plus", "\u{f1763}" },
-	{ "nf-md-archive_plus_outline", "\u{f1764}" },
-	{ "nf-md-archive_refresh", "\u{f1765}" },
-	{ "nf-md-archive_refresh_outline", "\u{f1766}" },
-	{ "nf-md-archive_remove", "\u{f1767}" },
-	{ "nf-md-archive_remove_outline", "\u{f1768}" },
-	{ "nf-md-archive_search", "\u{f1769}" },
-	{ "nf-md-archive_search_outline", "\u{f176a}" },
-	{ "nf-md-archive_settings", "\u{f176b}" },
-	{ "nf-md-archive_settings_outline", "\u{f176c}" },
-	{ "nf-md-archive_star", "\u{f176d}" },
-	{ "nf-md-archive_star_outline", "\u{f176e}" },
-	{ "nf-md-archive_sync", "\u{f176f}" },
-	{ "nf-md-archive_sync_outline", "\u{f1770}" },
-	{ "nf-md-arm_flex", "\u{f0fd7}" },
-	{ "nf-md-arm_flex_outline", "\u{f0fd6}" },
-	{ "nf-md-arrange_bring_forward", "\u{f003d}" },
-	{ "nf-md-arrange_bring_to_front", "\u{f003e}" },
-	{ "nf-md-arrange_send_backward", "\u{f003f}" },
-	{ "nf-md-arrange_send_to_back", "\u{f0040}" },
-	{ "nf-md-arrow_all", "\u{f0041}" },
-	{ "nf-md-arrow_bottom_left", "\u{f0042}" },
-	{ "nf-md-arrow_bottom_left_bold_box", "\u{f1964}" },
-	{ "nf-md-arrow_bottom_left_bold_box_outline", "\u{f1965}" },
-	{ "nf-md-arrow_bottom_left_bold_outline", "\u{f09b7}" },
-	{ "nf-md-arrow_bottom_left_thick", "\u{f09b8}" },
-	{ "nf-md-arrow_bottom_left_thin", "\u{f19b6}" },
-	{ "nf-md-arrow_bottom_left_thin_circle_outline", "\u{f1596}" },
-	{ "nf-md-arrow_bottom_right", "\u{f0043}" },
-	{ "nf-md-arrow_bottom_right_bold_box", "\u{f1966}" },
-	{ "nf-md-arrow_bottom_right_bold_box_outline", "\u{f1967}" },
-	{ "nf-md-arrow_bottom_right_bold_outline", "\u{f09b9}" },
-	{ "nf-md-arrow_bottom_right_thick", "\u{f09ba}" },
-	{ "nf-md-arrow_bottom_right_thin", "\u{f19b7}" },
-	{ "nf-md-arrow_bottom_right_thin_circle_outline", "\u{f1595}" },
-	{ "nf-md-arrow_collapse", "\u{f0615}" },
-	{ "nf-md-arrow_collapse_all", "\u{f0044}" },
-	{ "nf-md-arrow_collapse_down", "\u{f0792}" },
-	{ "nf-md-arrow_collapse_horizontal", "\u{f084c}" },
-	{ "nf-md-arrow_collapse_left", "\u{f0793}" },
-	{ "nf-md-arrow_collapse_right", "\u{f0794}" },
-	{ "nf-md-arrow_collapse_up", "\u{f0795}" },
-	{ "nf-md-arrow_collapse_vertical", "\u{f084d}" },
-	{ "nf-md-arrow_decision", "\u{f09bb}" },
-	{ "nf-md-arrow_decision_auto", "\u{f09bc}" },
-	{ "nf-md-arrow_decision_auto_outline", "\u{f09bd}" },
-	{ "nf-md-arrow_decision_outline", "\u{f09be}" },
-	{ "nf-md-arrow_down", "\u{f0045}" },
-	{ "nf-md-arrow_down_bold", "\u{f072e}" },
-	{ "nf-md-arrow_down_bold_box", "\u{f072f}" },
-	{ "nf-md-arrow_down_bold_box_outline", "\u{f0730}" },
-	{ "nf-md-arrow_down_bold_circle", "\u{f0047}" },
-	{ "nf-md-arrow_down_bold_circle_outline", "\u{f0048}" },
-	{ "nf-md-arrow_down_bold_hexagon_outline", "\u{f0049}" },
-	{ "nf-md-arrow_down_bold_outline", "\u{f09bf}" },
-	{ "nf-md-arrow_down_box", "\u{f06c0}" },
-	{ "nf-md-arrow_down_circle", "\u{f0cdb}" },
-	{ "nf-md-arrow_down_circle_outline", "\u{f0cdc}" },
-	{ "nf-md-arrow_down_drop_circle", "\u{f004a}" },
-	{ "nf-md-arrow_down_drop_circle_outline", "\u{f004b}" },
-	{ "nf-md-arrow_down_left", "\u{f17a1}" },
-	{ "nf-md-arrow_down_left_bold", "\u{f17a2}" },
-	{ "nf-md-arrow_down_right", "\u{f17a3}" },
-	{ "nf-md-arrow_down_right_bold", "\u{f17a4}" },
-	{ "nf-md-arrow_down_thick", "\u{f0046}" },
-	{ "nf-md-arrow_down_thin", "\u{f19b3}" },
-	{ "nf-md-arrow_down_thin_circle_outline", "\u{f1599}" },
-	{ "nf-md-arrow_expand", "\u{f0616}" },
-	{ "nf-md-arrow_expand_all", "\u{f004c}" },
-	{ "nf-md-arrow_expand_down", "\u{f0796}" },
-	{ "nf-md-arrow_expand_horizontal", "\u{f084e}" },
-	{ "nf-md-arrow_expand_left", "\u{f0797}" },
-	{ "nf-md-arrow_expand_right", "\u{f0798}" },
-	{ "nf-md-arrow_expand_up", "\u{f0799}" },
-	{ "nf-md-arrow_expand_vertical", "\u{f084f}" },
-	{ "nf-md-arrow_horizontal_lock", "\u{f115b}" },
-	{ "nf-md-arrow_left", "\u{f004d}" },
-	{ "nf-md-arrow_left_bold", "\u{f0731}" },
-	{ "nf-md-arrow_left_bold_box", "\u{f0732}" },
-	{ "nf-md-arrow_left_bold_box_outline", "\u{f0733}" },
-	{ "nf-md-arrow_left_bold_circle", "\u{f004f}" },
-	{ "nf-md-arrow_left_bold_circle_outline", "\u{f0050}" },
-	{ "nf-md-arrow_left_bold_hexagon_outline", "\u{f0051}" },
-	{ "nf-md-arrow_left_bold_outline", "\u{f09c0}" },
-	{ "nf-md-arrow_left_bottom", "\u{f17a5}" },
-	{ "nf-md-arrow_left_bottom_bold", "\u{f17a6}" },
-	{ "nf-md-arrow_left_box", "\u{f06c1}" },
-	{ "nf-md-arrow_left_circle", "\u{f0cdd}" },
-	{ "nf-md-arrow_left_circle_outline", "\u{f0cde}" },
-	{ "nf-md-arrow_left_drop_circle", "\u{f0052}" },
-	{ "nf-md-arrow_left_drop_circle_outline", "\u{f0053}" },
-	{ "nf-md-arrow_left_right", "\u{f0e73}" },
-	{ "nf-md-arrow_left_right_bold", "\u{f0e74}" },
-	{ "nf-md-arrow_left_right_bold_outline", "\u{f09c1}" },
-	{ "nf-md-arrow_left_thick", "\u{f004e}" },
-	{ "nf-md-arrow_left_thin", "\u{f19b1}" },
-	{ "nf-md-arrow_left_thin_circle_outline", "\u{f159a}" },
-	{ "nf-md-arrow_left_top", "\u{f17a7}" },
-	{ "nf-md-arrow_left_top_bold", "\u{f17a8}" },
-	{ "nf-md-arrow_projectile", "\u{f1840}" },
-	{ "nf-md-arrow_projectile_multiple", "\u{f183f}" },
-	{ "nf-md-arrow_right", "\u{f0054}" },
-	{ "nf-md-arrow_right_bold", "\u{f0734}" },
-	{ "nf-md-arrow_right_bold_box", "\u{f0735}" },
-	{ "nf-md-arrow_right_bold_box_outline", "\u{f0736}" },
-	{ "nf-md-arrow_right_bold_circle", "\u{f0056}" },
-	{ "nf-md-arrow_right_bold_circle_outline", "\u{f0057}" },
-	{ "nf-md-arrow_right_bold_hexagon_outline", "\u{f0058}" },
-	{ "nf-md-arrow_right_bold_outline", "\u{f09c2}" },
-	{ "nf-md-arrow_right_bottom", "\u{f17a9}" },
-	{ "nf-md-arrow_right_bottom_bold", "\u{f17aa}" },
-	{ "nf-md-arrow_right_box", "\u{f06c2}" },
-	{ "nf-md-arrow_right_circle", "\u{f0cdf}" },
-	{ "nf-md-arrow_right_circle_outline", "\u{f0ce0}" },
-	{ "nf-md-arrow_right_drop_circle", "\u{f0059}" },
-	{ "nf-md-arrow_right_drop_circle_outline", "\u{f005a}" },
-	{ "nf-md-arrow_right_thick", "\u{f0055}" },
-	{ "nf-md-arrow_right_thin", "\u{f19b0}" },
-	{ "nf-md-arrow_right_thin_circle_outline", "\u{f1598}" },
-	{ "nf-md-arrow_right_top", "\u{f17ab}" },
-	{ "nf-md-arrow_right_top_bold", "\u{f17ac}" },
-	{ "nf-md-arrow_split_horizontal", "\u{f093b}" },
-	{ "nf-md-arrow_split_vertical", "\u{f093c}" },
-	{ "nf-md-arrow_top_left", "\u{f005b}" },
-	{ "nf-md-arrow_top_left_bold_box", "\u{f1968}" },
-	{ "nf-md-arrow_top_left_bold_box_outline", "\u{f1969}" },
-	{ "nf-md-arrow_top_left_bold_outline", "\u{f09c3}" },
-	{ "nf-md-arrow_top_left_bottom_right", "\u{f0e75}" },
-	{ "nf-md-arrow_top_left_bottom_right_bold", "\u{f0e76}" },
-	{ "nf-md-arrow_top_left_thick", "\u{f09c4}" },
-	{ "nf-md-arrow_top_left_thin", "\u{f19b5}" },
-	{ "nf-md-arrow_top_left_thin_circle_outline", "\u{f1593}" },
-	{ "nf-md-arrow_top_right", "\u{f005c}" },
-	{ "nf-md-arrow_top_right_bold_box", "\u{f196a}" },
-	{ "nf-md-arrow_top_right_bold_box_outline", "\u{f196b}" },
-	{ "nf-md-arrow_top_right_bold_outline", "\u{f09c5}" },
-	{ "nf-md-arrow_top_right_bottom_left", "\u{f0e77}" },
-	{ "nf-md-arrow_top_right_bottom_left_bold", "\u{f0e78}" },
-	{ "nf-md-arrow_top_right_thick", "\u{f09c6}" },
-	{ "nf-md-arrow_top_right_thin", "\u{f19b4}" },
-	{ "nf-md-arrow_top_right_thin_circle_outline", "\u{f1594}" },
-	{ "nf-md-arrow_u_down_left", "\u{f17ad}" },
-	{ "nf-md-arrow_u_down_left_bold", "\u{f17ae}" },
-	{ "nf-md-arrow_u_down_right", "\u{f17af}" },
-	{ "nf-md-arrow_u_down_right_bold", "\u{f17b0}" },
-	{ "nf-md-arrow_u_left_bottom", "\u{f17b1}" },
-	{ "nf-md-arrow_u_left_bottom_bold", "\u{f17b2}" },
-	{ "nf-md-arrow_u_left_top", "\u{f17b3}" },
-	{ "nf-md-arrow_u_left_top_bold", "\u{f17b4}" },
-	{ "nf-md-arrow_u_right_bottom", "\u{f17b5}" },
-	{ "nf-md-arrow_u_right_bottom_bold", "\u{f17b6}" },
-	{ "nf-md-arrow_u_right_top", "\u{f17b7}" },
-	{ "nf-md-arrow_u_right_top_bold", "\u{f17b8}" },
-	{ "nf-md-arrow_u_up_left", "\u{f17b9}" },
-	{ "nf-md-arrow_u_up_left_bold", "\u{f17ba}" },
-	{ "nf-md-arrow_u_up_right", "\u{f17bb}" },
-	{ "nf-md-arrow_u_up_right_bold", "\u{f17bc}" },
-	{ "nf-md-arrow_up", "\u{f005d}" },
-	{ "nf-md-arrow_up_bold", "\u{f0737}" },
-	{ "nf-md-arrow_up_bold_box", "\u{f0738}" },
-	{ "nf-md-arrow_up_bold_box_outline", "\u{f0739}" },
-	{ "nf-md-arrow_up_bold_circle", "\u{f005f}" },
-	{ "nf-md-arrow_up_bold_circle_outline", "\u{f0060}" },
-	{ "nf-md-arrow_up_bold_hexagon_outline", "\u{f0061}" },
-	{ "nf-md-arrow_up_bold_outline", "\u{f09c7}" },
-	{ "nf-md-arrow_up_box", "\u{f06c3}" },
-	{ "nf-md-arrow_up_circle", "\u{f0ce1}" },
-	{ "nf-md-arrow_up_circle_outline", "\u{f0ce2}" },
-	{ "nf-md-arrow_up_down", "\u{f0e79}" },
-	{ "nf-md-arrow_up_down_bold", "\u{f0e7a}" },
-	{ "nf-md-arrow_up_down_bold_outline", "\u{f09c8}" },
-	{ "nf-md-arrow_up_drop_circle", "\u{f0062}" },
-	{ "nf-md-arrow_up_drop_circle_outline", "\u{f0063}" },
-	{ "nf-md-arrow_up_left", "\u{f17bd}" },
-	{ "nf-md-arrow_up_left_bold", "\u{f17be}" },
-	{ "nf-md-arrow_up_right", "\u{f17bf}" },
-	{ "nf-md-arrow_up_right_bold", "\u{f17c0}" },
-	{ "nf-md-arrow_up_thick", "\u{f005e}" },
-	{ "nf-md-arrow_up_thin", "\u{f19b2}" },
-	{ "nf-md-arrow_up_thin_circle_outline", "\u{f1597}" },
-	{ "nf-md-arrow_vertical_lock", "\u{f115c}" },
-	{ "nf-md-artstation", "\u{f0b5b}" },
-	{ "nf-md-aspect_ratio", "\u{f0a24}" },
-	{ "nf-md-assistant", "\u{f0064}" },
-	{ "nf-md-asterisk", "\u{f06c4}" },
-	{ "nf-md-asterisk_circle_outline", "\u{f1a27}" },
-	{ "nf-md-at", "\u{f0065}" },
-	{ "nf-md-atlassian", "\u{f0804}" },
-	{ "nf-md-atm", "\u{f0d47}" },
-	{ "nf-md-atom", "\u{f0768}" },
-	{ "nf-md-atom_variant", "\u{f0e7b}" },
-	{ "nf-md-attachment", "\u{f0066}" },
-	{ "nf-md-attachment_check", "\u{f1ac1}" },
-	{ "nf-md-attachment_lock", "\u{f19c4}" },
-	{ "nf-md-attachment_minus", "\u{f1ac2}" },
-	{ "nf-md-attachment_off", "\u{f1ac3}" },
-	{ "nf-md-attachment_plus", "\u{f1ac4}" },
-	{ "nf-md-attachment_remove", "\u{f1ac5}" },
-	{ "nf-md-audio_input_rca", "\u{f186b}" },
-	{ "nf-md-audio_input_stereo_minijack", "\u{f186c}" },
-	{ "nf-md-audio_input_xlr", "\u{f186d}" },
-	{ "nf-md-audio_video", "\u{f093d}" },
-	{ "nf-md-audio_video_off", "\u{f11b6}" },
-	{ "nf-md-augmented_reality", "\u{f0850}" },
-	{ "nf-md-auto_download", "\u{f137e}" },
-	{ "nf-md-auto_fix", "\u{f0068}" },
-	{ "nf-md-auto_upload", "\u{f0069}" },
-	{ "nf-md-autorenew", "\u{f006a}" },
-	{ "nf-md-autorenew_off", "\u{f19e7}" },
-	{ "nf-md-av_timer", "\u{f006b}" },
-	{ "nf-md-aws", "\u{f0e0f}" },
-	{ "nf-md-axe", "\u{f08c8}" },
-	{ "nf-md-axe_battle", "\u{f1842}" },
-	{ "nf-md-axis", "\u{f0d48}" },
-	{ "nf-md-axis_arrow", "\u{f0d49}" },
-	{ "nf-md-axis_arrow_info", "\u{f140e}" },
-	{ "nf-md-axis_arrow_lock", "\u{f0d4a}" },
-	{ "nf-md-axis_lock", "\u{f0d4b}" },
-	{ "nf-md-axis_x_arrow", "\u{f0d4c}" },
-	{ "nf-md-axis_x_arrow_lock", "\u{f0d4d}" },
-	{ "nf-md-axis_x_rotate_clockwise", "\u{f0d4e}" },
-	{ "nf-md-axis_x_rotate_counterclockwise", "\u{f0d4f}" },
-	{ "nf-md-axis_x_y_arrow_lock", "\u{f0d50}" },
-	{ "nf-md-axis_y_arrow", "\u{f0d51}" },
-	{ "nf-md-axis_y_arrow_lock", "\u{f0d52}" },
-	{ "nf-md-axis_y_rotate_clockwise", "\u{f0d53}" },
-	{ "nf-md-axis_y_rotate_counterclockwise", "\u{f0d54}" },
-	{ "nf-md-axis_z_arrow", "\u{f0d55}" },
-	{ "nf-md-axis_z_arrow_lock", "\u{f0d56}" },
-	{ "nf-md-axis_z_rotate_clockwise", "\u{f0d57}" },
-	{ "nf-md-axis_z_rotate_counterclockwise", "\u{f0d58}" },
-	{ "nf-md-babel", "\u{f0a25}" },
-	{ "nf-md-baby", "\u{f006c}" },
-	{ "nf-md-baby_bottle", "\u{f0f39}" },
-	{ "nf-md-baby_bottle_outline", "\u{f0f3a}" },
-	{ "nf-md-baby_buggy", "\u{f13e0}" },
-	{ "nf-md-baby_carriage", "\u{f068f}" },
-	{ "nf-md-baby_carriage_off", "\u{f0fa0}" },
-	{ "nf-md-baby_face", "\u{f0e7c}" },
-	{ "nf-md-baby_face_outline", "\u{f0e7d}" },
-	{ "nf-md-backburger", "\u{f006d}" },
-	{ "nf-md-backspace", "\u{f006e}" },
-	{ "nf-md-backspace_outline", "\u{f0b5c}" },
-	{ "nf-md-backspace_reverse", "\u{f0e7e}" },
-	{ "nf-md-backspace_reverse_outline", "\u{f0e7f}" },
-	{ "nf-md-backup_restore", "\u{f006f}" },
-	{ "nf-md-bacteria", "\u{f0ed5}" },
-	{ "nf-md-bacteria_outline", "\u{f0ed6}" },
-	{ "nf-md-badge_account", "\u{f0da7}" },
-	{ "nf-md-badge_account_alert", "\u{f0da8}" },
-	{ "nf-md-badge_account_alert_outline", "\u{f0da9}" },
-	{ "nf-md-badge_account_horizontal", "\u{f0e0d}" },
-	{ "nf-md-badge_account_horizontal_outline", "\u{f0e0e}" },
-	{ "nf-md-badge_account_outline", "\u{f0daa}" },
-	{ "nf-md-badminton", "\u{f0851}" },
-	{ "nf-md-bag_carry_on", "\u{f0f3b}" },
-	{ "nf-md-bag_carry_on_check", "\u{f0d65}" },
-	{ "nf-md-bag_carry_on_off", "\u{f0f3c}" },
-	{ "nf-md-bag_checked", "\u{f0f3d}" },
-	{ "nf-md-bag_personal", "\u{f0e10}" },
-	{ "nf-md-bag_personal_off", "\u{f0e11}" },
-	{ "nf-md-bag_personal_off_outline", "\u{f0e12}" },
-	{ "nf-md-bag_personal_outline", "\u{f0e13}" },
-	{ "nf-md-bag_suitcase", "\u{f158b}" },
-	{ "nf-md-bag_suitcase_off", "\u{f158d}" },
-	{ "nf-md-bag_suitcase_off_outline", "\u{f158e}" },
-	{ "nf-md-bag_suitcase_outline", "\u{f158c}" },
-	{ "nf-md-baguette", "\u{f0f3e}" },
-	{ "nf-md-balcony", "\u{f1817}" },
-	{ "nf-md-balloon", "\u{f0a26}" },
-	{ "nf-md-ballot", "\u{f09c9}" },
-	{ "nf-md-ballot_outline", "\u{f09ca}" },
-	{ "nf-md-ballot_recount", "\u{f0c39}" },
-	{ "nf-md-ballot_recount_outline", "\u{f0c3a}" },
-	{ "nf-md-bandage", "\u{f0daf}" },
-	{ "nf-md-bank", "\u{f0070}" },
-	{ "nf-md-bank_check", "\u{f1655}" },
-	{ "nf-md-bank_minus", "\u{f0db0}" },
-	{ "nf-md-bank_off", "\u{f1656}" },
-	{ "nf-md-bank_off_outline", "\u{f1657}" },
-	{ "nf-md-bank_outline", "\u{f0e80}" },
-	{ "nf-md-bank_plus", "\u{f0db1}" },
-	{ "nf-md-bank_remove", "\u{f0db2}" },
-	{ "nf-md-bank_transfer", "\u{f0a27}" },
-	{ "nf-md-bank_transfer_in", "\u{f0a28}" },
-	{ "nf-md-bank_transfer_out", "\u{f0a29}" },
-	{ "nf-md-barcode", "\u{f0071}" },
-	{ "nf-md-barcode_off", "\u{f1236}" },
-	{ "nf-md-barcode_scan", "\u{f0072}" },
-	{ "nf-md-barley", "\u{f0073}" },
-	{ "nf-md-barley_off", "\u{f0b5d}" },
-	{ "nf-md-barn", "\u{f0b5e}" },
-	{ "nf-md-barrel", "\u{f0074}" },
-	{ "nf-md-barrel_outline", "\u{f1a28}" },
-	{ "nf-md-baseball", "\u{f0852}" },
-	{ "nf-md-baseball_bat", "\u{f0853}" },
-	{ "nf-md-baseball_diamond", "\u{f15ec}" },
-	{ "nf-md-baseball_diamond_outline", "\u{f15ed}" },
-	{ "nf-md-bash", "\u{f1183}" },
-	{ "nf-md-basket", "\u{f0076}" },
-	{ "nf-md-basket_check", "\u{f18e5}" },
-	{ "nf-md-basket_check_outline", "\u{f18e6}" },
-	{ "nf-md-basket_fill", "\u{f0077}" },
-	{ "nf-md-basket_minus", "\u{f1523}" },
-	{ "nf-md-basket_minus_outline", "\u{f1524}" },
-	{ "nf-md-basket_off", "\u{f1525}" },
-	{ "nf-md-basket_off_outline", "\u{f1526}" },
-	{ "nf-md-basket_outline", "\u{f1181}" },
-	{ "nf-md-basket_plus", "\u{f1527}" },
-	{ "nf-md-basket_plus_outline", "\u{f1528}" },
-	{ "nf-md-basket_remove", "\u{f1529}" },
-	{ "nf-md-basket_remove_outline", "\u{f152a}" },
-	{ "nf-md-basket_unfill", "\u{f0078}" },
-	{ "nf-md-basketball", "\u{f0806}" },
-	{ "nf-md-basketball_hoop", "\u{f0c3b}" },
-	{ "nf-md-basketball_hoop_outline", "\u{f0c3c}" },
-	{ "nf-md-bat", "\u{f0b5f}" },
-	{ "nf-md-bathtub", "\u{f1818}" },
-	{ "nf-md-bathtub_outline", "\u{f1819}" },
-	{ "nf-md-battery", "\u{f0079}" },
-	{ "nf-md-battery_10", "\u{f007a}" },
-	{ "nf-md-battery_10_bluetooth", "\u{f093e}" },
-	{ "nf-md-battery_20", "\u{f007b}" },
-	{ "nf-md-battery_20_bluetooth", "\u{f093f}" },
-	{ "nf-md-battery_30", "\u{f007c}" },
-	{ "nf-md-battery_30_bluetooth", "\u{f0940}" },
-	{ "nf-md-battery_40", "\u{f007d}" },
-	{ "nf-md-battery_40_bluetooth", "\u{f0941}" },
-	{ "nf-md-battery_50", "\u{f007e}" },
-	{ "nf-md-battery_50_bluetooth", "\u{f0942}" },
-	{ "nf-md-battery_60", "\u{f007f}" },
-	{ "nf-md-battery_60_bluetooth", "\u{f0943}" },
-	{ "nf-md-battery_70", "\u{f0080}" },
-	{ "nf-md-battery_70_bluetooth", "\u{f0944}" },
-	{ "nf-md-battery_80", "\u{f0081}" },
-	{ "nf-md-battery_80_bluetooth", "\u{f0945}" },
-	{ "nf-md-battery_90", "\u{f0082}" },
-	{ "nf-md-battery_90_bluetooth", "\u{f0946}" },
-	{ "nf-md-battery_alert", "\u{f0083}" },
-	{ "nf-md-battery_alert_bluetooth", "\u{f0947}" },
-	{ "nf-md-battery_alert_variant", "\u{f10cc}" },
-	{ "nf-md-battery_alert_variant_outline", "\u{f10cd}" },
-	{ "nf-md-battery_arrow_down", "\u{f17de}" },
-	{ "nf-md-battery_arrow_down_outline", "\u{f17df}" },
-	{ "nf-md-battery_arrow_up", "\u{f17e0}" },
-	{ "nf-md-battery_arrow_up_outline", "\u{f17e1}" },
-	{ "nf-md-battery_bluetooth", "\u{f0948}" },
-	{ "nf-md-battery_bluetooth_variant", "\u{f0949}" },
-	{ "nf-md-battery_charging", "\u{f0084}" },
-	{ "nf-md-battery_charging_10", "\u{f089c}" },
-	{ "nf-md-battery_charging_100", "\u{f0085}" },
-	{ "nf-md-battery_charging_20", "\u{f0086}" },
-	{ "nf-md-battery_charging_30", "\u{f0087}" },
-	{ "nf-md-battery_charging_40", "\u{f0088}" },
-	{ "nf-md-battery_charging_50", "\u{f089d}" },
-	{ "nf-md-battery_charging_60", "\u{f0089}" },
-	{ "nf-md-battery_charging_70", "\u{f089e}" },
-	{ "nf-md-battery_charging_80", "\u{f008a}" },
-	{ "nf-md-battery_charging_90", "\u{f008b}" },
-	{ "nf-md-battery_charging_high", "\u{f12a6}" },
-	{ "nf-md-battery_charging_low", "\u{f12a4}" },
-	{ "nf-md-battery_charging_medium", "\u{f12a5}" },
-	{ "nf-md-battery_charging_outline", "\u{f089f}" },
-	{ "nf-md-battery_charging_wireless", "\u{f0807}" },
-	{ "nf-md-battery_charging_wireless_10", "\u{f0808}" },
-	{ "nf-md-battery_charging_wireless_20", "\u{f0809}" },
-	{ "nf-md-battery_charging_wireless_30", "\u{f080a}" },
-	{ "nf-md-battery_charging_wireless_40", "\u{f080b}" },
-	{ "nf-md-battery_charging_wireless_50", "\u{f080c}" },
-	{ "nf-md-battery_charging_wireless_60", "\u{f080d}" },
-	{ "nf-md-battery_charging_wireless_70", "\u{f080e}" },
-	{ "nf-md-battery_charging_wireless_80", "\u{f080f}" },
-	{ "nf-md-battery_charging_wireless_90", "\u{f0810}" },
-	{ "nf-md-battery_charging_wireless_alert", "\u{f0811}" },
-	{ "nf-md-battery_charging_wireless_outline", "\u{f0812}" },
-	{ "nf-md-battery_check", "\u{f17e2}" },
-	{ "nf-md-battery_check_outline", "\u{f17e3}" },
-	{ "nf-md-battery_clock", "\u{f19e5}" },
-	{ "nf-md-battery_clock_outline", "\u{f19e6}" },
-	{ "nf-md-battery_heart", "\u{f120f}" },
-	{ "nf-md-battery_heart_outline", "\u{f1210}" },
-	{ "nf-md-battery_heart_variant", "\u{f1211}" },
-	{ "nf-md-battery_high", "\u{f12a3}" },
-	{ "nf-md-battery_lock", "\u{f179c}" },
-	{ "nf-md-battery_lock_open", "\u{f179d}" },
-	{ "nf-md-battery_low", "\u{f12a1}" },
-	{ "nf-md-battery_medium", "\u{f12a2}" },
-	{ "nf-md-battery_minus", "\u{f17e4}" },
-	{ "nf-md-battery_minus_outline", "\u{f17e5}" },
-	{ "nf-md-battery_minus_variant", "\u{f008c}" },
-	{ "nf-md-battery_negative", "\u{f008d}" },
-	{ "nf-md-battery_off", "\u{f125d}" },
-	{ "nf-md-battery_off_outline", "\u{f125e}" },
-	{ "nf-md-battery_outline", "\u{f008e}" },
-	{ "nf-md-battery_plus", "\u{f17e6}" },
-	{ "nf-md-battery_plus_outline", "\u{f17e7}" },
-	{ "nf-md-battery_plus_variant", "\u{f008f}" },
-	{ "nf-md-battery_positive", "\u{f0090}" },
-	{ "nf-md-battery_remove", "\u{f17e8}" },
-	{ "nf-md-battery_remove_outline", "\u{f17e9}" },
-	{ "nf-md-battery_sync", "\u{f1834}" },
-	{ "nf-md-battery_sync_outline", "\u{f1835}" },
-	{ "nf-md-battery_unknown", "\u{f0091}" },
-	{ "nf-md-battery_unknown_bluetooth", "\u{f094a}" },
-	{ "nf-md-beach", "\u{f0092}" },
-	{ "nf-md-beaker", "\u{f0cea}" },
-	{ "nf-md-beaker_alert", "\u{f1229}" },
-	{ "nf-md-beaker_alert_outline", "\u{f122a}" },
-	{ "nf-md-beaker_check", "\u{f122b}" },
-	{ "nf-md-beaker_check_outline", "\u{f122c}" },
-	{ "nf-md-beaker_minus", "\u{f122d}" },
-	{ "nf-md-beaker_minus_outline", "\u{f122e}" },
-	{ "nf-md-beaker_outline", "\u{f0690}" },
-	{ "nf-md-beaker_plus", "\u{f122f}" },
-	{ "nf-md-beaker_plus_outline", "\u{f1230}" },
-	{ "nf-md-beaker_question", "\u{f1231}" },
-	{ "nf-md-beaker_question_outline", "\u{f1232}" },
-	{ "nf-md-beaker_remove", "\u{f1233}" },
-	{ "nf-md-beaker_remove_outline", "\u{f1234}" },
-	{ "nf-md-bed", "\u{f02e3}" },
-	{ "nf-md-bed_double", "\u{f0fd4}" },
-	{ "nf-md-bed_double_outline", "\u{f0fd3}" },
-	{ "nf-md-bed_empty", "\u{f08a0}" },
-	{ "nf-md-bed_king", "\u{f0fd2}" },
-	{ "nf-md-bed_king_outline", "\u{f0fd1}" },
-	{ "nf-md-bed_outline", "\u{f0099}" },
-	{ "nf-md-bed_queen", "\u{f0fd0}" },
-	{ "nf-md-bed_queen_outline", "\u{f0fdb}" },
-	{ "nf-md-bed_single", "\u{f106d}" },
-	{ "nf-md-bed_single_outline", "\u{f106e}" },
-	{ "nf-md-bee", "\u{f0fa1}" },
-	{ "nf-md-bee_flower", "\u{f0fa2}" },
-	{ "nf-md-beehive_off_outline", "\u{f13ed}" },
-	{ "nf-md-beehive_outline", "\u{f10ce}" },
-	{ "nf-md-beekeeper", "\u{f14e2}" },
-	{ "nf-md-beer", "\u{f0098}" },
-	{ "nf-md-beer_outline", "\u{f130c}" },
-	{ "nf-md-bell", "\u{f009a}" },
-	{ "nf-md-bell_alert", "\u{f0d59}" },
-	{ "nf-md-bell_alert_outline", "\u{f0e81}" },
-	{ "nf-md-bell_badge", "\u{f116b}" },
-	{ "nf-md-bell_badge_outline", "\u{f0178}" },
-	{ "nf-md-bell_cancel", "\u{f13e7}" },
-	{ "nf-md-bell_cancel_outline", "\u{f13e8}" },
-	{ "nf-md-bell_check", "\u{f11e5}" },
-	{ "nf-md-bell_check_outline", "\u{f11e6}" },
-	{ "nf-md-bell_circle", "\u{f0d5a}" },
-	{ "nf-md-bell_circle_outline", "\u{f0d5b}" },
-	{ "nf-md-bell_cog", "\u{f1a29}" },
-	{ "nf-md-bell_cog_outline", "\u{f1a2a}" },
-	{ "nf-md-bell_minus", "\u{f13e9}" },
-	{ "nf-md-bell_minus_outline", "\u{f13ea}" },
-	{ "nf-md-bell_off", "\u{f009b}" },
-	{ "nf-md-bell_off_outline", "\u{f0a91}" },
-	{ "nf-md-bell_outline", "\u{f009c}" },
-	{ "nf-md-bell_plus", "\u{f009d}" },
-	{ "nf-md-bell_plus_outline", "\u{f0a92}" },
-	{ "nf-md-bell_remove", "\u{f13eb}" },
-	{ "nf-md-bell_remove_outline", "\u{f13ec}" },
-	{ "nf-md-bell_ring", "\u{f009e}" },
-	{ "nf-md-bell_ring_outline", "\u{f009f}" },
-	{ "nf-md-bell_sleep", "\u{f00a0}" },
-	{ "nf-md-bell_sleep_outline", "\u{f0a93}" },
-	{ "nf-md-beta", "\u{f00a1}" },
-	{ "nf-md-betamax", "\u{f09cb}" },
-	{ "nf-md-biathlon", "\u{f0e14}" },
-	{ "nf-md-bicycle", "\u{f109c}" },
-	{ "nf-md-bicycle_basket", "\u{f1235}" },
-	{ "nf-md-bicycle_cargo", "\u{f189c}" },
-	{ "nf-md-bicycle_electric", "\u{f15b4}" },
-	{ "nf-md-bicycle_penny_farthing", "\u{f15e9}" },
-	{ "nf-md-bike", "\u{f00a3}" },
-	{ "nf-md-bike_fast", "\u{f111f}" },
-	{ "nf-md-billboard", "\u{f1010}" },
-	{ "nf-md-billiards", "\u{f0b61}" },
-	{ "nf-md-billiards_rack", "\u{f0b62}" },
-	{ "nf-md-binoculars", "\u{f00a5}" },
-	{ "nf-md-bio", "\u{f00a6}" },
-	{ "nf-md-biohazard", "\u{f00a7}" },
-	{ "nf-md-bird", "\u{f15c6}" },
-	{ "nf-md-bitbucket", "\u{f00a8}" },
-	{ "nf-md-bitcoin", "\u{f0813}" },
-	{ "nf-md-black_mesa", "\u{f00a9}" },
-	{ "nf-md-blender", "\u{f0ceb}" },
-	{ "nf-md-blender_outline", "\u{f181a}" },
-	{ "nf-md-blender_software", "\u{f00ab}" },
-	{ "nf-md-blinds", "\u{f00ac}" },
-	{ "nf-md-blinds_horizontal", "\u{f1a2b}" },
-	{ "nf-md-blinds_horizontal_closed", "\u{f1a2c}" },
-	{ "nf-md-blinds_open", "\u{f1011}" },
-	{ "nf-md-blinds_vertical", "\u{f1a2d}" },
-	{ "nf-md-blinds_vertical_closed", "\u{f1a2e}" },
-	{ "nf-md-block_helper", "\u{f00ad}" },
-	{ "nf-md-blood_bag", "\u{f0cec}" },
-	{ "nf-md-bluetooth", "\u{f00af}" },
-	{ "nf-md-bluetooth_audio", "\u{f00b0}" },
-	{ "nf-md-bluetooth_connect", "\u{f00b1}" },
-	{ "nf-md-bluetooth_off", "\u{f00b2}" },
-	{ "nf-md-bluetooth_settings", "\u{f00b3}" },
-	{ "nf-md-bluetooth_transfer", "\u{f00b4}" },
-	{ "nf-md-blur", "\u{f00b5}" },
-	{ "nf-md-blur_linear", "\u{f00b6}" },
-	{ "nf-md-blur_off", "\u{f00b7}" },
-	{ "nf-md-blur_radial", "\u{f00b8}" },
-	{ "nf-md-bolt", "\u{f0db3}" },
-	{ "nf-md-bomb", "\u{f0691}" },
-	{ "nf-md-bomb_off", "\u{f06c5}" },
-	{ "nf-md-bone", "\u{f00b9}" },
-	{ "nf-md-bone_off", "\u{f19e0}" },
-	{ "nf-md-book", "\u{f00ba}" },
-	{ "nf-md-book_account", "\u{f13ad}" },
-	{ "nf-md-book_account_outline", "\u{f13ae}" },
-	{ "nf-md-book_alert", "\u{f167c}" },
-	{ "nf-md-book_alert_outline", "\u{f167d}" },
-	{ "nf-md-book_alphabet", "\u{f061d}" },
-	{ "nf-md-book_arrow_down", "\u{f167e}" },
-	{ "nf-md-book_arrow_down_outline", "\u{f167f}" },
-	{ "nf-md-book_arrow_left", "\u{f1680}" },
-	{ "nf-md-book_arrow_left_outline", "\u{f1681}" },
-	{ "nf-md-book_arrow_right", "\u{f1682}" },
-	{ "nf-md-book_arrow_right_outline", "\u{f1683}" },
-	{ "nf-md-book_arrow_up", "\u{f1684}" },
-	{ "nf-md-book_arrow_up_outline", "\u{f1685}" },
-	{ "nf-md-book_cancel", "\u{f1686}" },
-	{ "nf-md-book_cancel_outline", "\u{f1687}" },
-	{ "nf-md-book_check", "\u{f14f3}" },
-	{ "nf-md-book_check_outline", "\u{f14f4}" },
-	{ "nf-md-book_clock", "\u{f1688}" },
-	{ "nf-md-book_clock_outline", "\u{f1689}" },
-	{ "nf-md-book_cog", "\u{f168a}" },
-	{ "nf-md-book_cog_outline", "\u{f168b}" },
-	{ "nf-md-book_cross", "\u{f00a2}" },
-	{ "nf-md-book_edit", "\u{f168c}" },
-	{ "nf-md-book_edit_outline", "\u{f168d}" },
-	{ "nf-md-book_education", "\u{f16c9}" },
-	{ "nf-md-book_education_outline", "\u{f16ca}" },
-	{ "nf-md-book_heart", "\u{f1a1d}" },
-	{ "nf-md-book_heart_outline", "\u{f1a1e}" },
-	{ "nf-md-book_information_variant", "\u{f106f}" },
-	{ "nf-md-book_lock", "\u{f079a}" },
-	{ "nf-md-book_lock_open", "\u{f079b}" },
-	{ "nf-md-book_lock_open_outline", "\u{f168e}" },
-	{ "nf-md-book_lock_outline", "\u{f168f}" },
-	{ "nf-md-book_marker", "\u{f1690}" },
-	{ "nf-md-book_marker_outline", "\u{f1691}" },
-	{ "nf-md-book_minus", "\u{f05d9}" },
-	{ "nf-md-book_minus_multiple", "\u{f0a94}" },
-	{ "nf-md-book_minus_multiple_outline", "\u{f090b}" },
-	{ "nf-md-book_minus_outline", "\u{f1692}" },
-	{ "nf-md-book_multiple", "\u{f00bb}" },
-	{ "nf-md-book_multiple_outline", "\u{f0436}" },
-	{ "nf-md-book_music", "\u{f0067}" },
-	{ "nf-md-book_music_outline", "\u{f1693}" },
-	{ "nf-md-book_off", "\u{f1694}" },
-	{ "nf-md-book_off_outline", "\u{f1695}" },
-	{ "nf-md-book_open", "\u{f00bd}" },
-	{ "nf-md-book_open_blank_variant", "\u{f00be}" },
-	{ "nf-md-book_open_outline", "\u{f0b63}" },
-	{ "nf-md-book_open_page_variant", "\u{f05da}" },
-	{ "nf-md-book_open_page_variant_outline", "\u{f15d6}" },
-	{ "nf-md-book_open_variant", "\u{f14f7}" },
-	{ "nf-md-book_outline", "\u{f0b64}" },
-	{ "nf-md-book_play", "\u{f0e82}" },
-	{ "nf-md-book_play_outline", "\u{f0e83}" },
-	{ "nf-md-book_plus", "\u{f05db}" },
-	{ "nf-md-book_plus_multiple", "\u{f0a95}" },
-	{ "nf-md-book_plus_multiple_outline", "\u{f0ade}" },
-	{ "nf-md-book_plus_outline", "\u{f1696}" },
-	{ "nf-md-book_refresh", "\u{f1697}" },
-	{ "nf-md-book_refresh_outline", "\u{f1698}" },
-	{ "nf-md-book_remove", "\u{f0a97}" },
-	{ "nf-md-book_remove_multiple", "\u{f0a96}" },
-	{ "nf-md-book_remove_multiple_outline", "\u{f04ca}" },
-	{ "nf-md-book_remove_outline", "\u{f1699}" },
-	{ "nf-md-book_search", "\u{f0e84}" },
-	{ "nf-md-book_search_outline", "\u{f0e85}" },
-	{ "nf-md-book_settings", "\u{f169a}" },
-	{ "nf-md-book_settings_outline", "\u{f169b}" },
-	{ "nf-md-book_sync", "\u{f169c}" },
-	{ "nf-md-book_sync_outline", "\u{f16c8}" },
-	{ "nf-md-book_variant", "\u{f00bf}" },
-	{ "nf-md-book_variant_multiple", "\u{f00bc}" },
-	{ "nf-md-bookmark", "\u{f00c0}" },
-	{ "nf-md-bookmark_box_multiple", "\u{f196c}" },
-	{ "nf-md-bookmark_box_multiple_outline", "\u{f196d}" },
-	{ "nf-md-bookmark_check", "\u{f00c1}" },
-	{ "nf-md-bookmark_check_outline", "\u{f137b}" },
-	{ "nf-md-bookmark_minus", "\u{f09cc}" },
-	{ "nf-md-bookmark_minus_outline", "\u{f09cd}" },
-	{ "nf-md-bookmark_multiple", "\u{f0e15}" },
-	{ "nf-md-bookmark_multiple_outline", "\u{f0e16}" },
-	{ "nf-md-bookmark_music", "\u{f00c2}" },
-	{ "nf-md-bookmark_music_outline", "\u{f1379}" },
-	{ "nf-md-bookmark_off", "\u{f09ce}" },
-	{ "nf-md-bookmark_off_outline", "\u{f09cf}" },
-	{ "nf-md-bookmark_outline", "\u{f00c3}" },
-	{ "nf-md-bookmark_plus", "\u{f00c5}" },
-	{ "nf-md-bookmark_plus_outline", "\u{f00c4}" },
-	{ "nf-md-bookmark_remove", "\u{f00c6}" },
-	{ "nf-md-bookmark_remove_outline", "\u{f137a}" },
-	{ "nf-md-bookshelf", "\u{f125f}" },
-	{ "nf-md-boom_gate", "\u{f0e86}" },
-	{ "nf-md-boom_gate_alert", "\u{f0e87}" },
-	{ "nf-md-boom_gate_alert_outline", "\u{f0e88}" },
-	{ "nf-md-boom_gate_arrow_down", "\u{f0e89}" },
-	{ "nf-md-boom_gate_arrow_down_outline", "\u{f0e8a}" },
-	{ "nf-md-boom_gate_arrow_up", "\u{f0e8c}" },
-	{ "nf-md-boom_gate_arrow_up_outline", "\u{f0e8d}" },
-	{ "nf-md-boom_gate_outline", "\u{f0e8b}" },
-	{ "nf-md-boom_gate_up", "\u{f17f9}" },
-	{ "nf-md-boom_gate_up_outline", "\u{f17fa}" },
-	{ "nf-md-boombox", "\u{f05dc}" },
-	{ "nf-md-boomerang", "\u{f10cf}" },
-	{ "nf-md-bootstrap", "\u{f06c6}" },
-	{ "nf-md-border_all", "\u{f00c7}" },
-	{ "nf-md-border_all_variant", "\u{f08a1}" },
-	{ "nf-md-border_bottom", "\u{f00c8}" },
-	{ "nf-md-border_bottom_variant", "\u{f08a2}" },
-	{ "nf-md-border_color", "\u{f00c9}" },
-	{ "nf-md-border_horizontal", "\u{f00ca}" },
-	{ "nf-md-border_inside", "\u{f00cb}" },
-	{ "nf-md-border_left", "\u{f00cc}" },
-	{ "nf-md-border_left_variant", "\u{f08a3}" },
-	{ "nf-md-border_none", "\u{f00cd}" },
-	{ "nf-md-border_none_variant", "\u{f08a4}" },
-	{ "nf-md-border_outside", "\u{f00ce}" },
-	{ "nf-md-border_right", "\u{f00cf}" },
-	{ "nf-md-border_right_variant", "\u{f08a5}" },
-	{ "nf-md-border_style", "\u{f00d0}" },
-	{ "nf-md-border_top", "\u{f00d1}" },
-	{ "nf-md-border_top_variant", "\u{f08a6}" },
-	{ "nf-md-border_vertical", "\u{f00d2}" },
-	{ "nf-md-bottle_soda", "\u{f1070}" },
-	{ "nf-md-bottle_soda_classic", "\u{f1071}" },
-	{ "nf-md-bottle_soda_classic_outline", "\u{f1363}" },
-	{ "nf-md-bottle_soda_outline", "\u{f1072}" },
-	{ "nf-md-bottle_tonic", "\u{f112e}" },
-	{ "nf-md-bottle_tonic_outline", "\u{f112f}" },
-	{ "nf-md-bottle_tonic_plus", "\u{f1130}" },
-	{ "nf-md-bottle_tonic_plus_outline", "\u{f1131}" },
-	{ "nf-md-bottle_tonic_skull", "\u{f1132}" },
-	{ "nf-md-bottle_tonic_skull_outline", "\u{f1133}" },
-	{ "nf-md-bottle_wine", "\u{f0854}" },
-	{ "nf-md-bottle_wine_outline", "\u{f1310}" },
-	{ "nf-md-bow_arrow", "\u{f1841}" },
-	{ "nf-md-bow_tie", "\u{f0678}" },
-	{ "nf-md-bowl", "\u{f028e}" },
-	{ "nf-md-bowl_mix", "\u{f0617}" },
-	{ "nf-md-bowl_mix_outline", "\u{f02e4}" },
-	{ "nf-md-bowl_outline", "\u{f02a9}" },
-	{ "nf-md-bowling", "\u{f00d3}" },
-	{ "nf-md-box", "\u{f00d4}" },
-	{ "nf-md-box_cutter", "\u{f00d5}" },
-	{ "nf-md-box_cutter_off", "\u{f0b4a}" },
-	{ "nf-md-box_shadow", "\u{f0637}" },
-	{ "nf-md-boxing_glove", "\u{f0b65}" },
-	{ "nf-md-braille", "\u{f09d0}" },
-	{ "nf-md-brain", "\u{f09d1}" },
-	{ "nf-md-bread_slice", "\u{f0cee}" },
-	{ "nf-md-bread_slice_outline", "\u{f0cef}" },
-	{ "nf-md-bridge", "\u{f0618}" },
-	{ "nf-md-briefcase", "\u{f00d6}" },
-	{ "nf-md-briefcase_account", "\u{f0cf0}" },
-	{ "nf-md-briefcase_account_outline", "\u{f0cf1}" },
-	{ "nf-md-briefcase_arrow_left_right", "\u{f1a8d}" },
-	{ "nf-md-briefcase_arrow_left_right_outline", "\u{f1a8e}" },
-	{ "nf-md-briefcase_arrow_up_down", "\u{f1a8f}" },
-	{ "nf-md-briefcase_arrow_up_down_outline", "\u{f1a90}" },
-	{ "nf-md-briefcase_check", "\u{f00d7}" },
-	{ "nf-md-briefcase_check_outline", "\u{f131e}" },
-	{ "nf-md-briefcase_clock", "\u{f10d0}" },
-	{ "nf-md-briefcase_clock_outline", "\u{f10d1}" },
-	{ "nf-md-briefcase_download", "\u{f00d8}" },
-	{ "nf-md-briefcase_download_outline", "\u{f0c3d}" },
-	{ "nf-md-briefcase_edit", "\u{f0a98}" },
-	{ "nf-md-briefcase_edit_outline", "\u{f0c3e}" },
-	{ "nf-md-briefcase_eye", "\u{f17d9}" },
-	{ "nf-md-briefcase_eye_outline", "\u{f17da}" },
-	{ "nf-md-briefcase_minus", "\u{f0a2a}" },
-	{ "nf-md-briefcase_minus_outline", "\u{f0c3f}" },
-	{ "nf-md-briefcase_off", "\u{f1658}" },
-	{ "nf-md-briefcase_off_outline", "\u{f1659}" },
-	{ "nf-md-briefcase_outline", "\u{f0814}" },
-	{ "nf-md-briefcase_plus", "\u{f0a2b}" },
-	{ "nf-md-briefcase_plus_outline", "\u{f0c40}" },
-	{ "nf-md-briefcase_remove", "\u{f0a2c}" },
-	{ "nf-md-briefcase_remove_outline", "\u{f0c41}" },
-	{ "nf-md-briefcase_search", "\u{f0a2d}" },
-	{ "nf-md-briefcase_search_outline", "\u{f0c42}" },
-	{ "nf-md-briefcase_upload", "\u{f00d9}" },
-	{ "nf-md-briefcase_upload_outline", "\u{f0c43}" },
-	{ "nf-md-briefcase_variant", "\u{f1494}" },
-	{ "nf-md-briefcase_variant_off", "\u{f165a}" },
-	{ "nf-md-briefcase_variant_off_outline", "\u{f165b}" },
-	{ "nf-md-briefcase_variant_outline", "\u{f1495}" },
-	{ "nf-md-brightness_1", "\u{f00da}" },
-	{ "nf-md-brightness_2", "\u{f00db}" },
-	{ "nf-md-brightness_3", "\u{f00dc}" },
-	{ "nf-md-brightness_4", "\u{f00dd}" },
-	{ "nf-md-brightness_5", "\u{f00de}" },
-	{ "nf-md-brightness_6", "\u{f00df}" },
-	{ "nf-md-brightness_7", "\u{f00e0}" },
-	{ "nf-md-brightness_auto", "\u{f00e1}" },
-	{ "nf-md-brightness_percent", "\u{f0cf2}" },
-	{ "nf-md-broadcast", "\u{f1720}" },
-	{ "nf-md-broadcast_off", "\u{f1721}" },
-	{ "nf-md-broom", "\u{f00e2}" },
-	{ "nf-md-brush", "\u{f00e3}" },
-	{ "nf-md-brush_off", "\u{f1771}" },
-	{ "nf-md-brush_outline", "\u{f1a0d}" },
-	{ "nf-md-brush_variant", "\u{f1813}" },
-	{ "nf-md-bucket", "\u{f1415}" },
-	{ "nf-md-bucket_outline", "\u{f1416}" },
-	{ "nf-md-buffet", "\u{f0578}" },
-	{ "nf-md-bug", "\u{f00e4}" },
-	{ "nf-md-bug_check", "\u{f0a2e}" },
-	{ "nf-md-bug_check_outline", "\u{f0a2f}" },
-	{ "nf-md-bug_outline", "\u{f0a30}" },
-	{ "nf-md-bugle", "\u{f0db4}" },
-	{ "nf-md-bulkhead_light", "\u{f1a2f}" },
-	{ "nf-md-bulldozer", "\u{f0b22}" },
-	{ "nf-md-bullet", "\u{f0cf3}" },
-	{ "nf-md-bulletin_board", "\u{f00e5}" },
-	{ "nf-md-bullhorn", "\u{f00e6}" },
-	{ "nf-md-bullhorn_outline", "\u{f0b23}" },
-	{ "nf-md-bullhorn_variant", "\u{f196e}" },
-	{ "nf-md-bullhorn_variant_outline", "\u{f196f}" },
-	{ "nf-md-bullseye", "\u{f05dd}" },
-	{ "nf-md-bullseye_arrow", "\u{f08c9}" },
-	{ "nf-md-bulma", "\u{f12e7}" },
-	{ "nf-md-bunk_bed", "\u{f1302}" },
-	{ "nf-md-bunk_bed_outline", "\u{f0097}" },
-	{ "nf-md-bus", "\u{f00e7}" },
-	{ "nf-md-bus_alert", "\u{f0a99}" },
-	{ "nf-md-bus_articulated_end", "\u{f079c}" },
-	{ "nf-md-bus_articulated_front", "\u{f079d}" },
-	{ "nf-md-bus_clock", "\u{f08ca}" },
-	{ "nf-md-bus_double_decker", "\u{f079e}" },
-	{ "nf-md-bus_electric", "\u{f191d}" },
-	{ "nf-md-bus_marker", "\u{f1212}" },
-	{ "nf-md-bus_multiple", "\u{f0f3f}" },
-	{ "nf-md-bus_school", "\u{f079f}" },
-	{ "nf-md-bus_side", "\u{f07a0}" },
-	{ "nf-md-bus_stop", "\u{f1012}" },
-	{ "nf-md-bus_stop_covered", "\u{f1013}" },
-	{ "nf-md-bus_stop_uncovered", "\u{f1014}" },
-	{ "nf-md-butterfly", "\u{f1589}" },
-	{ "nf-md-butterfly_outline", "\u{f158a}" },
-	{ "nf-md-cabin_a_frame", "\u{f188c}" },
-	{ "nf-md-cable_data", "\u{f1394}" },
-	{ "nf-md-cached", "\u{f00e8}" },
-	{ "nf-md-cactus", "\u{f0db5}" },
-	{ "nf-md-cake", "\u{f00e9}" },
-	{ "nf-md-cake_layered", "\u{f00ea}" },
-	{ "nf-md-cake_variant", "\u{f00eb}" },
-	{ "nf-md-cake_variant_outline", "\u{f17f0}" },
-	{ "nf-md-calculator", "\u{f00ec}" },
-	{ "nf-md-calculator_variant", "\u{f0a9a}" },
-	{ "nf-md-calculator_variant_outline", "\u{f15a6}" },
-	{ "nf-md-calendar", "\u{f00ed}" },
-	{ "nf-md-calendar_account", "\u{f0ed7}" },
-	{ "nf-md-calendar_account_outline", "\u{f0ed8}" },
-	{ "nf-md-calendar_alert", "\u{f0a31}" },
-	{ "nf-md-calendar_arrow_left", "\u{f1134}" },
-	{ "nf-md-calendar_arrow_right", "\u{f1135}" },
-	{ "nf-md-calendar_blank", "\u{f00ee}" },
-	{ "nf-md-calendar_blank_multiple", "\u{f1073}" },
-	{ "nf-md-calendar_blank_outline", "\u{f0b66}" },
-	{ "nf-md-calendar_check", "\u{f00ef}" },
-	{ "nf-md-calendar_check_outline", "\u{f0c44}" },
-	{ "nf-md-calendar_clock", "\u{f00f0}" },
-	{ "nf-md-calendar_clock_outline", "\u{f16e1}" },
-	{ "nf-md-calendar_collapse_horizontal", "\u{f189d}" },
-	{ "nf-md-calendar_cursor", "\u{f157b}" },
-	{ "nf-md-calendar_edit", "\u{f08a7}" },
-	{ "nf-md-calendar_end", "\u{f166c}" },
-	{ "nf-md-calendar_expand_horizontal", "\u{f189e}" },
-	{ "nf-md-calendar_export", "\u{f0b24}" },
-	{ "nf-md-calendar_heart", "\u{f09d2}" },
-	{ "nf-md-calendar_import", "\u{f0b25}" },
-	{ "nf-md-calendar_lock", "\u{f1641}" },
-	{ "nf-md-calendar_lock_outline", "\u{f1642}" },
-	{ "nf-md-calendar_minus", "\u{f0d5c}" },
-	{ "nf-md-calendar_month", "\u{f0e17}" },
-	{ "nf-md-calendar_month_outline", "\u{f0e18}" },
-	{ "nf-md-calendar_multiple", "\u{f00f1}" },
-	{ "nf-md-calendar_multiple_check", "\u{f00f2}" },
-	{ "nf-md-calendar_multiselect", "\u{f0a32}" },
-	{ "nf-md-calendar_outline", "\u{f0b67}" },
-	{ "nf-md-calendar_plus", "\u{f00f3}" },
-	{ "nf-md-calendar_question", "\u{f0692}" },
-	{ "nf-md-calendar_range", "\u{f0679}" },
-	{ "nf-md-calendar_range_outline", "\u{f0b68}" },
-	{ "nf-md-calendar_refresh", "\u{f01e1}" },
-	{ "nf-md-calendar_refresh_outline", "\u{f0203}" },
-	{ "nf-md-calendar_remove", "\u{f00f4}" },
-	{ "nf-md-calendar_remove_outline", "\u{f0c45}" },
-	{ "nf-md-calendar_search", "\u{f094c}" },
-	{ "nf-md-calendar_star", "\u{f09d3}" },
-	{ "nf-md-calendar_start", "\u{f166d}" },
-	{ "nf-md-calendar_sync", "\u{f0e8e}" },
-	{ "nf-md-calendar_sync_outline", "\u{f0e8f}" },
-	{ "nf-md-calendar_text", "\u{f00f5}" },
-	{ "nf-md-calendar_text_outline", "\u{f0c46}" },
-	{ "nf-md-calendar_today", "\u{f00f6}" },
-	{ "nf-md-calendar_today_outline", "\u{f1a30}" },
-	{ "nf-md-calendar_week", "\u{f0a33}" },
-	{ "nf-md-calendar_week_begin", "\u{f0a34}" },
-	{ "nf-md-calendar_week_begin_outline", "\u{f1a31}" },
-	{ "nf-md-calendar_week_end", "\u{f1a32}" },
-	{ "nf-md-calendar_week_end_outline", "\u{f1a33}" },
-	{ "nf-md-calendar_week_outline", "\u{f1a34}" },
-	{ "nf-md-calendar_weekend", "\u{f0ed9}" },
-	{ "nf-md-calendar_weekend_outline", "\u{f0eda}" },
-	{ "nf-md-call_made", "\u{f00f7}" },
-	{ "nf-md-call_merge", "\u{f00f8}" },
-	{ "nf-md-call_missed", "\u{f00f9}" },
-	{ "nf-md-call_received", "\u{f00fa}" },
-	{ "nf-md-call_split", "\u{f00fb}" },
-	{ "nf-md-camcorder", "\u{f00fc}" },
-	{ "nf-md-camcorder_off", "\u{f00ff}" },
-	{ "nf-md-camera", "\u{f0100}" },
-	{ "nf-md-camera_account", "\u{f08cb}" },
-	{ "nf-md-camera_burst", "\u{f0693}" },
-	{ "nf-md-camera_control", "\u{f0b69}" },
-	{ "nf-md-camera_document", "\u{f1871}" },
-	{ "nf-md-camera_document_off", "\u{f1872}" },
-	{ "nf-md-camera_enhance", "\u{f0101}" },
-	{ "nf-md-camera_enhance_outline", "\u{f0b6a}" },
-	{ "nf-md-camera_flip", "\u{f15d9}" },
-	{ "nf-md-camera_flip_outline", "\u{f15da}" },
-	{ "nf-md-camera_front", "\u{f0102}" },
-	{ "nf-md-camera_front_variant", "\u{f0103}" },
-	{ "nf-md-camera_gopro", "\u{f07a1}" },
-	{ "nf-md-camera_image", "\u{f08cc}" },
-	{ "nf-md-camera_iris", "\u{f0104}" },
-	{ "nf-md-camera_lock", "\u{f1a14}" },
-	{ "nf-md-camera_lock_outline", "\u{f1a15}" },
-	{ "nf-md-camera_marker", "\u{f19a7}" },
-	{ "nf-md-camera_marker_outline", "\u{f19a8}" },
-	{ "nf-md-camera_metering_center", "\u{f07a2}" },
-	{ "nf-md-camera_metering_matrix", "\u{f07a3}" },
-	{ "nf-md-camera_metering_partial", "\u{f07a4}" },
-	{ "nf-md-camera_metering_spot", "\u{f07a5}" },
-	{ "nf-md-camera_off", "\u{f05df}" },
-	{ "nf-md-camera_off_outline", "\u{f19bf}" },
-	{ "nf-md-camera_outline", "\u{f0d5d}" },
-	{ "nf-md-camera_party_mode", "\u{f0105}" },
-	{ "nf-md-camera_plus", "\u{f0edb}" },
-	{ "nf-md-camera_plus_outline", "\u{f0edc}" },
-	{ "nf-md-camera_rear", "\u{f0106}" },
-	{ "nf-md-camera_rear_variant", "\u{f0107}" },
-	{ "nf-md-camera_retake", "\u{f0e19}" },
-	{ "nf-md-camera_retake_outline", "\u{f0e1a}" },
-	{ "nf-md-camera_switch", "\u{f0108}" },
-	{ "nf-md-camera_switch_outline", "\u{f084a}" },
-	{ "nf-md-camera_timer", "\u{f0109}" },
-	{ "nf-md-camera_wireless", "\u{f0db6}" },
-	{ "nf-md-camera_wireless_outline", "\u{f0db7}" },
-	{ "nf-md-campfire", "\u{f0edd}" },
-	{ "nf-md-cancel", "\u{f073a}" },
-	{ "nf-md-candelabra", "\u{f17d2}" },
-	{ "nf-md-candelabra_fire", "\u{f17d3}" },
-	{ "nf-md-candle", "\u{f05e2}" },
-	{ "nf-md-candy", "\u{f1970}" },
-	{ "nf-md-candy_off", "\u{f1971}" },
-	{ "nf-md-candy_off_outline", "\u{f1972}" },
-	{ "nf-md-candy_outline", "\u{f1973}" },
-	{ "nf-md-candycane", "\u{f010a}" },
-	{ "nf-md-cannabis", "\u{f07a6}" },
-	{ "nf-md-cannabis_off", "\u{f166e}" },
-	{ "nf-md-caps_lock", "\u{f0a9b}" },
-	{ "nf-md-car", "\u{f010b}" },
-	{ "nf-md-car_2_plus", "\u{f1015}" },
-	{ "nf-md-car_3_plus", "\u{f1016}" },
-	{ "nf-md-car_arrow_left", "\u{f13b2}" },
-	{ "nf-md-car_arrow_right", "\u{f13b3}" },
-	{ "nf-md-car_back", "\u{f0e1b}" },
-	{ "nf-md-car_battery", "\u{f010c}" },
-	{ "nf-md-car_brake_abs", "\u{f0c47}" },
-	{ "nf-md-car_brake_alert", "\u{f0c48}" },
-	{ "nf-md-car_brake_fluid_level", "\u{f1909}" },
-	{ "nf-md-car_brake_hold", "\u{f0d5e}" },
-	{ "nf-md-car_brake_low_pressure", "\u{f190a}" },
-	{ "nf-md-car_brake_parking", "\u{f0d5f}" },
-	{ "nf-md-car_brake_retarder", "\u{f1017}" },
-	{ "nf-md-car_brake_temperature", "\u{f190b}" },
-	{ "nf-md-car_brake_worn_linings", "\u{f190c}" },
-	{ "nf-md-car_child_seat", "\u{f0fa3}" },
-	{ "nf-md-car_clock", "\u{f1974}" },
-	{ "nf-md-car_clutch", "\u{f1018}" },
-	{ "nf-md-car_cog", "\u{f13cc}" },
-	{ "nf-md-car_connected", "\u{f010d}" },
-	{ "nf-md-car_convertible", "\u{f07a7}" },
-	{ "nf-md-car_coolant_level", "\u{f1019}" },
-	{ "nf-md-car_cruise_control", "\u{f0d60}" },
-	{ "nf-md-car_defrost_front", "\u{f0d61}" },
-	{ "nf-md-car_defrost_rear", "\u{f0d62}" },
-	{ "nf-md-car_door", "\u{f0b6b}" },
-	{ "nf-md-car_door_lock", "\u{f109d}" },
-	{ "nf-md-car_electric", "\u{f0b6c}" },
-	{ "nf-md-car_electric_outline", "\u{f15b5}" },
-	{ "nf-md-car_emergency", "\u{f160f}" },
-	{ "nf-md-car_esp", "\u{f0c49}" },
-	{ "nf-md-car_estate", "\u{f07a8}" },
-	{ "nf-md-car_hatchback", "\u{f07a9}" },
-	{ "nf-md-car_info", "\u{f11be}" },
-	{ "nf-md-car_key", "\u{f0b6d}" },
-	{ "nf-md-car_lifted_pickup", "\u{f152d}" },
-	{ "nf-md-car_light_alert", "\u{f190d}" },
-	{ "nf-md-car_light_dimmed", "\u{f0c4a}" },
-	{ "nf-md-car_light_fog", "\u{f0c4b}" },
-	{ "nf-md-car_light_high", "\u{f0c4c}" },
-	{ "nf-md-car_limousine", "\u{f08cd}" },
-	{ "nf-md-car_multiple", "\u{f0b6e}" },
-	{ "nf-md-car_off", "\u{f0e1c}" },
-	{ "nf-md-car_outline", "\u{f14ed}" },
-	{ "nf-md-car_parking_lights", "\u{f0d63}" },
-	{ "nf-md-car_pickup", "\u{f07aa}" },
-	{ "nf-md-car_seat", "\u{f0fa4}" },
-	{ "nf-md-car_seat_cooler", "\u{f0fa5}" },
-	{ "nf-md-car_seat_heater", "\u{f0fa6}" },
-	{ "nf-md-car_select", "\u{f1879}" },
-	{ "nf-md-car_settings", "\u{f13cd}" },
-	{ "nf-md-car_shift_pattern", "\u{f0f40}" },
-	{ "nf-md-car_side", "\u{f07ab}" },
-	{ "nf-md-car_speed_limiter", "\u{f190e}" },
-	{ "nf-md-car_sports", "\u{f07ac}" },
-	{ "nf-md-car_tire_alert", "\u{f0c4d}" },
-	{ "nf-md-car_traction_control", "\u{f0d64}" },
-	{ "nf-md-car_turbocharger", "\u{f101a}" },
-	{ "nf-md-car_wash", "\u{f010e}" },
-	{ "nf-md-car_windshield", "\u{f101b}" },
-	{ "nf-md-car_windshield_outline", "\u{f101c}" },
-	{ "nf-md-car_wireless", "\u{f1878}" },
-	{ "nf-md-car_wrench", "\u{f1814}" },
-	{ "nf-md-carabiner", "\u{f14c0}" },
-	{ "nf-md-caravan", "\u{f07ad}" },
-	{ "nf-md-card", "\u{f0b6f}" },
-	{ "nf-md-card_account_details", "\u{f05d2}" },
-	{ "nf-md-card_account_details_outline", "\u{f0dab}" },
-	{ "nf-md-card_account_details_star", "\u{f02a3}" },
-	{ "nf-md-card_account_details_star_outline", "\u{f06db}" },
-	{ "nf-md-card_account_mail", "\u{f018e}" },
-	{ "nf-md-card_account_mail_outline", "\u{f0e98}" },
-	{ "nf-md-card_account_phone", "\u{f0e99}" },
-	{ "nf-md-card_account_phone_outline", "\u{f0e9a}" },
-	{ "nf-md-card_bulleted", "\u{f0b70}" },
-	{ "nf-md-card_bulleted_off", "\u{f0b71}" },
-	{ "nf-md-card_bulleted_off_outline", "\u{f0b72}" },
-	{ "nf-md-card_bulleted_outline", "\u{f0b73}" },
-	{ "nf-md-card_bulleted_settings", "\u{f0b74}" },
-	{ "nf-md-card_bulleted_settings_outline", "\u{f0b75}" },
-	{ "nf-md-card_minus", "\u{f1600}" },
-	{ "nf-md-card_minus_outline", "\u{f1601}" },
-	{ "nf-md-card_multiple", "\u{f17f1}" },
-	{ "nf-md-card_multiple_outline", "\u{f17f2}" },
-	{ "nf-md-card_off", "\u{f1602}" },
-	{ "nf-md-card_off_outline", "\u{f1603}" },
-	{ "nf-md-card_outline", "\u{f0b76}" },
-	{ "nf-md-card_plus", "\u{f11ff}" },
-	{ "nf-md-card_plus_outline", "\u{f1200}" },
-	{ "nf-md-card_remove", "\u{f1604}" },
-	{ "nf-md-card_remove_outline", "\u{f1605}" },
-	{ "nf-md-card_search", "\u{f1074}" },
-	{ "nf-md-card_search_outline", "\u{f1075}" },
-	{ "nf-md-card_text", "\u{f0b77}" },
-	{ "nf-md-card_text_outline", "\u{f0b78}" },
-	{ "nf-md-cards", "\u{f0638}" },
-	{ "nf-md-cards_club", "\u{f08ce}" },
-	{ "nf-md-cards_club_outline", "\u{f189f}" },
-	{ "nf-md-cards_diamond", "\u{f08cf}" },
-	{ "nf-md-cards_diamond_outline", "\u{f101d}" },
-	{ "nf-md-cards_outline", "\u{f0639}" },
-	{ "nf-md-cards_playing", "\u{f18a1}" },
-	{ "nf-md-cards_playing_club", "\u{f18a2}" },
-	{ "nf-md-cards_playing_club_multiple", "\u{f18a3}" },
-	{ "nf-md-cards_playing_club_multiple_outline", "\u{f18a4}" },
-	{ "nf-md-cards_playing_club_outline", "\u{f18a5}" },
-	{ "nf-md-cards_playing_diamond", "\u{f18a6}" },
-	{ "nf-md-cards_playing_diamond_multiple", "\u{f18a7}" },
-	{ "nf-md-cards_playing_diamond_multiple_outline", "\u{f18a8}" },
-	{ "nf-md-cards_playing_diamond_outline", "\u{f18a9}" },
-	{ "nf-md-cards_playing_heart", "\u{f18aa}" },
-	{ "nf-md-cards_playing_heart_multiple", "\u{f18ab}" },
-	{ "nf-md-cards_playing_heart_multiple_outline", "\u{f18ac}" },
-	{ "nf-md-cards_playing_heart_outline", "\u{f18ad}" },
-	{ "nf-md-cards_playing_outline", "\u{f063a}" },
-	{ "nf-md-cards_playing_spade", "\u{f18ae}" },
-	{ "nf-md-cards_playing_spade_multiple", "\u{f18af}" },
-	{ "nf-md-cards_playing_spade_multiple_outline", "\u{f18b0}" },
-	{ "nf-md-cards_playing_spade_outline", "\u{f18b1}" },
-	{ "nf-md-cards_spade", "\u{f08d1}" },
-	{ "nf-md-cards_spade_outline", "\u{f18b2}" },
-	{ "nf-md-cards_variant", "\u{f06c7}" },
-	{ "nf-md-carrot", "\u{f010f}" },
-	{ "nf-md-cart", "\u{f0110}" },
-	{ "nf-md-cart_arrow_down", "\u{f0d66}" },
-	{ "nf-md-cart_arrow_right", "\u{f0c4e}" },
-	{ "nf-md-cart_arrow_up", "\u{f0d67}" },
-	{ "nf-md-cart_check", "\u{f15ea}" },
-	{ "nf-md-cart_heart", "\u{f18e0}" },
-	{ "nf-md-cart_minus", "\u{f0d68}" },
-	{ "nf-md-cart_off", "\u{f066b}" },
-	{ "nf-md-cart_outline", "\u{f0111}" },
-	{ "nf-md-cart_plus", "\u{f0112}" },
-	{ "nf-md-cart_remove", "\u{f0d69}" },
-	{ "nf-md-cart_variant", "\u{f15eb}" },
-	{ "nf-md-case_sensitive_alt", "\u{f0113}" },
-	{ "nf-md-cash", "\u{f0114}" },
-	{ "nf-md-cash_100", "\u{f0115}" },
-	{ "nf-md-cash_check", "\u{f14ee}" },
-	{ "nf-md-cash_clock", "\u{f1a91}" },
-	{ "nf-md-cash_fast", "\u{f185c}" },
-	{ "nf-md-cash_lock", "\u{f14ea}" },
-	{ "nf-md-cash_lock_open", "\u{f14eb}" },
-	{ "nf-md-cash_marker", "\u{f0db8}" },
-	{ "nf-md-cash_minus", "\u{f1260}" },
-	{ "nf-md-cash_multiple", "\u{f0116}" },
-	{ "nf-md-cash_plus", "\u{f1261}" },
-	{ "nf-md-cash_refund", "\u{f0a9c}" },
-	{ "nf-md-cash_register", "\u{f0cf4}" },
-	{ "nf-md-cash_remove", "\u{f1262}" },
-	{ "nf-md-cash_sync", "\u{f1a92}" },
-	{ "nf-md-cassette", "\u{f09d4}" },
-	{ "nf-md-cast", "\u{f0118}" },
-	{ "nf-md-cast_audio", "\u{f101e}" },
-	{ "nf-md-cast_audio_variant", "\u{f1749}" },
-	{ "nf-md-cast_connected", "\u{f0119}" },
-	{ "nf-md-cast_education", "\u{f0e1d}" },
-	{ "nf-md-cast_off", "\u{f078a}" },
-	{ "nf-md-cast_variant", "\u{f001f}" },
-	{ "nf-md-castle", "\u{f011a}" },
-	{ "nf-md-cat", "\u{f011b}" },
-	{ "nf-md-cctv", "\u{f07ae}" },
-	{ "nf-md-cctv_off", "\u{f185f}" },
-	{ "nf-md-ceiling_fan", "\u{f1797}" },
-	{ "nf-md-ceiling_fan_light", "\u{f1798}" },
-	{ "nf-md-ceiling_light", "\u{f0769}" },
-	{ "nf-md-ceiling_light_multiple", "\u{f18dd}" },
-	{ "nf-md-ceiling_light_multiple_outline", "\u{f18de}" },
-	{ "nf-md-ceiling_light_outline", "\u{f17c7}" },
-	{ "nf-md-cellphone", "\u{f011c}" },
-	{ "nf-md-cellphone_arrow_down", "\u{f09d5}" },
-	{ "nf-md-cellphone_arrow_down_variant", "\u{f19c5}" },
-	{ "nf-md-cellphone_basic", "\u{f011e}" },
-	{ "nf-md-cellphone_charging", "\u{f1397}" },
-	{ "nf-md-cellphone_check", "\u{f17fd}" },
-	{ "nf-md-cellphone_cog", "\u{f0951}" },
-	{ "nf-md-cellphone_dock", "\u{f011f}" },
-	{ "nf-md-cellphone_information", "\u{f0f41}" },
-	{ "nf-md-cellphone_key", "\u{f094e}" },
-	{ "nf-md-cellphone_link", "\u{f0121}" },
-	{ "nf-md-cellphone_link_off", "\u{f0122}" },
-	{ "nf-md-cellphone_lock", "\u{f094f}" },
-	{ "nf-md-cellphone_marker", "\u{f183a}" },
-	{ "nf-md-cellphone_message", "\u{f08d3}" },
-	{ "nf-md-cellphone_message_off", "\u{f10d2}" },
-	{ "nf-md-cellphone_nfc", "\u{f0e90}" },
-	{ "nf-md-cellphone_nfc_off", "\u{f12d8}" },
-	{ "nf-md-cellphone_off", "\u{f0950}" },
-	{ "nf-md-cellphone_play", "\u{f101f}" },
-	{ "nf-md-cellphone_remove", "\u{f094d}" },
-	{ "nf-md-cellphone_screenshot", "\u{f0a35}" },
-	{ "nf-md-cellphone_settings", "\u{f0123}" },
-	{ "nf-md-cellphone_sound", "\u{f0952}" },
-	{ "nf-md-cellphone_text", "\u{f08d2}" },
-	{ "nf-md-cellphone_wireless", "\u{f0815}" },
-	{ "nf-md-centos", "\u{f111a}" },
-	{ "nf-md-certificate", "\u{f0124}" },
-	{ "nf-md-certificate_outline", "\u{f1188}" },
-	{ "nf-md-chair_rolling", "\u{f0f48}" },
-	{ "nf-md-chair_school", "\u{f0125}" },
-	{ "nf-md-chandelier", "\u{f1793}" },
-	{ "nf-md-charity", "\u{f0c4f}" },
-	{ "nf-md-chart_arc", "\u{f0126}" },
-	{ "nf-md-chart_areaspline", "\u{f0127}" },
-	{ "nf-md-chart_areaspline_variant", "\u{f0e91}" },
-	{ "nf-md-chart_bar", "\u{f0128}" },
-	{ "nf-md-chart_bar_stacked", "\u{f076a}" },
-	{ "nf-md-chart_bell_curve", "\u{f0c50}" },
-	{ "nf-md-chart_bell_curve_cumulative", "\u{f0fa7}" },
-	{ "nf-md-chart_box", "\u{f154d}" },
-	{ "nf-md-chart_box_outline", "\u{f154e}" },
-	{ "nf-md-chart_box_plus_outline", "\u{f154f}" },
-	{ "nf-md-chart_bubble", "\u{f05e3}" },
-	{ "nf-md-chart_donut", "\u{f07af}" },
-	{ "nf-md-chart_donut_variant", "\u{f07b0}" },
-	{ "nf-md-chart_gantt", "\u{f066c}" },
-	{ "nf-md-chart_histogram", "\u{f0129}" },
-	{ "nf-md-chart_line", "\u{f012a}" },
-	{ "nf-md-chart_line_stacked", "\u{f076b}" },
-	{ "nf-md-chart_line_variant", "\u{f07b1}" },
-	{ "nf-md-chart_multiline", "\u{f08d4}" },
-	{ "nf-md-chart_multiple", "\u{f1213}" },
-	{ "nf-md-chart_pie", "\u{f012b}" },
-	{ "nf-md-chart_ppf", "\u{f1380}" },
-	{ "nf-md-chart_sankey", "\u{f11df}" },
-	{ "nf-md-chart_sankey_variant", "\u{f11e0}" },
-	{ "nf-md-chart_scatter_plot", "\u{f0e92}" },
-	{ "nf-md-chart_scatter_plot_hexbin", "\u{f066d}" },
-	{ "nf-md-chart_timeline", "\u{f066e}" },
-	{ "nf-md-chart_timeline_variant", "\u{f0e93}" },
-	{ "nf-md-chart_timeline_variant_shimmer", "\u{f15b6}" },
-	{ "nf-md-chart_tree", "\u{f0e94}" },
-	{ "nf-md-chart_waterfall", "\u{f1918}" },
-	{ "nf-md-chat", "\u{f0b79}" },
-	{ "nf-md-chat_alert", "\u{f0b7a}" },
-	{ "nf-md-chat_alert_outline", "\u{f12c9}" },
-	{ "nf-md-chat_minus", "\u{f1410}" },
-	{ "nf-md-chat_minus_outline", "\u{f1413}" },
-	{ "nf-md-chat_outline", "\u{f0ede}" },
-	{ "nf-md-chat_plus", "\u{f140f}" },
-	{ "nf-md-chat_plus_outline", "\u{f1412}" },
-	{ "nf-md-chat_processing", "\u{f0b7b}" },
-	{ "nf-md-chat_processing_outline", "\u{f12ca}" },
-	{ "nf-md-chat_question", "\u{f1738}" },
-	{ "nf-md-chat_question_outline", "\u{f1739}" },
-	{ "nf-md-chat_remove", "\u{f1411}" },
-	{ "nf-md-chat_remove_outline", "\u{f1414}" },
-	{ "nf-md-chat_sleep", "\u{f12d1}" },
-	{ "nf-md-chat_sleep_outline", "\u{f12d2}" },
-	{ "nf-md-check", "\u{f012c}" },
-	{ "nf-md-check_all", "\u{f012d}" },
-	{ "nf-md-check_bold", "\u{f0e1e}" },
-	{ "nf-md-check_circle", "\u{f05e0}" },
-	{ "nf-md-check_circle_outline", "\u{f05e1}" },
-	{ "nf-md-check_decagram", "\u{f0791}" },
-	{ "nf-md-check_decagram_outline", "\u{f1740}" },
-	{ "nf-md-check_network", "\u{f0c53}" },
-	{ "nf-md-check_network_outline", "\u{f0c54}" },
-	{ "nf-md-check_outline", "\u{f0855}" },
-	{ "nf-md-check_underline", "\u{f0e1f}" },
-	{ "nf-md-check_underline_circle", "\u{f0e20}" },
-	{ "nf-md-check_underline_circle_outline", "\u{f0e21}" },
-	{ "nf-md-checkbook", "\u{f0a9d}" },
-	{ "nf-md-checkbox_blank", "\u{f012e}" },
-	{ "nf-md-checkbox_blank_badge", "\u{f1176}" },
-	{ "nf-md-checkbox_blank_badge_outline", "\u{f0117}" },
-	{ "nf-md-checkbox_blank_circle", "\u{f0765}" },
-	{ "nf-md-checkbox_blank_circle_outline", "\u{f0766}" },
-	{ "nf-md-checkbox_blank_off", "\u{f12ec}" },
-	{ "nf-md-checkbox_blank_off_outline", "\u{f12ed}" },
-	{ "nf-md-checkbox_blank_outline", "\u{f0131}" },
-	{ "nf-md-checkbox_intermediate", "\u{f0856}" },
-	{ "nf-md-checkbox_marked", "\u{f0132}" },
-	{ "nf-md-checkbox_marked_circle", "\u{f0133}" },
-	{ "nf-md-checkbox_marked_circle_outline", "\u{f0134}" },
-	{ "nf-md-checkbox_marked_circle_plus_outline", "\u{f1927}" },
-	{ "nf-md-checkbox_marked_outline", "\u{f0135}" },
-	{ "nf-md-checkbox_multiple_blank", "\u{f0136}" },
-	{ "nf-md-checkbox_multiple_blank_circle", "\u{f063b}" },
-	{ "nf-md-checkbox_multiple_blank_circle_outline", "\u{f063c}" },
-	{ "nf-md-checkbox_multiple_blank_outline", "\u{f0137}" },
-	{ "nf-md-checkbox_multiple_marked", "\u{f0138}" },
-	{ "nf-md-checkbox_multiple_marked_circle", "\u{f063d}" },
-	{ "nf-md-checkbox_multiple_marked_circle_outline", "\u{f063e}" },
-	{ "nf-md-checkbox_multiple_marked_outline", "\u{f0139}" },
-	{ "nf-md-checkbox_multiple_outline", "\u{f0c51}" },
-	{ "nf-md-checkbox_outline", "\u{f0c52}" },
-	{ "nf-md-checkerboard", "\u{f013a}" },
-	{ "nf-md-checkerboard_minus", "\u{f1202}" },
-	{ "nf-md-checkerboard_plus", "\u{f1201}" },
-	{ "nf-md-checkerboard_remove", "\u{f1203}" },
-	{ "nf-md-cheese", "\u{f12b9}" },
-	{ "nf-md-cheese_off", "\u{f13ee}" },
-	{ "nf-md-chef_hat", "\u{f0b7c}" },
-	{ "nf-md-chemical_weapon", "\u{f013b}" },
-	{ "nf-md-chess_bishop", "\u{f085c}" },
-	{ "nf-md-chess_king", "\u{f0857}" },
-	{ "nf-md-chess_knight", "\u{f0858}" },
-	{ "nf-md-chess_pawn", "\u{f0859}" },
-	{ "nf-md-chess_queen", "\u{f085a}" },
-	{ "nf-md-chess_rook", "\u{f085b}" },
-	{ "nf-md-chevron_double_down", "\u{f013c}" },
-	{ "nf-md-chevron_double_left", "\u{f013d}" },
-	{ "nf-md-chevron_double_right", "\u{f013e}" },
-	{ "nf-md-chevron_double_up", "\u{f013f}" },
-	{ "nf-md-chevron_down", "\u{f0140}" },
-	{ "nf-md-chevron_down_box", "\u{f09d6}" },
-	{ "nf-md-chevron_down_box_outline", "\u{f09d7}" },
-	{ "nf-md-chevron_down_circle", "\u{f0b26}" },
-	{ "nf-md-chevron_down_circle_outline", "\u{f0b27}" },
-	{ "nf-md-chevron_left", "\u{f0141}" },
-	{ "nf-md-chevron_left_box", "\u{f09d8}" },
-	{ "nf-md-chevron_left_box_outline", "\u{f09d9}" },
-	{ "nf-md-chevron_left_circle", "\u{f0b28}" },
-	{ "nf-md-chevron_left_circle_outline", "\u{f0b29}" },
-	{ "nf-md-chevron_right", "\u{f0142}" },
-	{ "nf-md-chevron_right_box", "\u{f09da}" },
-	{ "nf-md-chevron_right_box_outline", "\u{f09db}" },
-	{ "nf-md-chevron_right_circle", "\u{f0b2a}" },
-	{ "nf-md-chevron_right_circle_outline", "\u{f0b2b}" },
-	{ "nf-md-chevron_triple_down", "\u{f0db9}" },
-	{ "nf-md-chevron_triple_left", "\u{f0dba}" },
-	{ "nf-md-chevron_triple_right", "\u{f0dbb}" },
-	{ "nf-md-chevron_triple_up", "\u{f0dbc}" },
-	{ "nf-md-chevron_up", "\u{f0143}" },
-	{ "nf-md-chevron_up_box", "\u{f09dc}" },
-	{ "nf-md-chevron_up_box_outline", "\u{f09dd}" },
-	{ "nf-md-chevron_up_circle", "\u{f0b2c}" },
-	{ "nf-md-chevron_up_circle_outline", "\u{f0b2d}" },
-	{ "nf-md-chili_alert", "\u{f17ea}" },
-	{ "nf-md-chili_alert_outline", "\u{f17eb}" },
-	{ "nf-md-chili_hot", "\u{f07b2}" },
-	{ "nf-md-chili_hot_outline", "\u{f17ec}" },
-	{ "nf-md-chili_medium", "\u{f07b3}" },
-	{ "nf-md-chili_medium_outline", "\u{f17ed}" },
-	{ "nf-md-chili_mild", "\u{f07b4}" },
-	{ "nf-md-chili_mild_outline", "\u{f17ee}" },
-	{ "nf-md-chili_off", "\u{f1467}" },
-	{ "nf-md-chili_off_outline", "\u{f17ef}" },
-	{ "nf-md-chip", "\u{f061a}" },
-	{ "nf-md-church", "\u{f0144}" },
-	{ "nf-md-cigar", "\u{f1189}" },
-	{ "nf-md-cigar_off", "\u{f141b}" },
-	{ "nf-md-circle_box", "\u{f15dc}" },
-	{ "nf-md-circle_box_outline", "\u{f15dd}" },
-	{ "nf-md-circle_double", "\u{f0e95}" },
-	{ "nf-md-circle_edit_outline", "\u{f08d5}" },
-	{ "nf-md-circle_expand", "\u{f0e96}" },
-	{ "nf-md-circle_half", "\u{f1395}" },
-	{ "nf-md-circle_half_full", "\u{f1396}" },
-	{ "nf-md-circle_medium", "\u{f09de}" },
-	{ "nf-md-circle_multiple", "\u{f0b38}" },
-	{ "nf-md-circle_multiple_outline", "\u{f0695}" },
-	{ "nf-md-circle_off_outline", "\u{f10d3}" },
-	{ "nf-md-circle_opacity", "\u{f1853}" },
-	{ "nf-md-circle_slice_1", "\u{f0a9e}" },
-	{ "nf-md-circle_slice_2", "\u{f0a9f}" },
-	{ "nf-md-circle_slice_3", "\u{f0aa0}" },
-	{ "nf-md-circle_slice_4", "\u{f0aa1}" },
-	{ "nf-md-circle_slice_5", "\u{f0aa2}" },
-	{ "nf-md-circle_slice_6", "\u{f0aa3}" },
-	{ "nf-md-circle_slice_7", "\u{f0aa4}" },
-	{ "nf-md-circle_slice_8", "\u{f0aa5}" },
-	{ "nf-md-circle_small", "\u{f09df}" },
-	{ "nf-md-circular_saw", "\u{f0e22}" },
-	{ "nf-md-city", "\u{f0146}" },
-	{ "nf-md-city_variant", "\u{f0a36}" },
-	{ "nf-md-city_variant_outline", "\u{f0a37}" },
-	{ "nf-md-clipboard", "\u{f0147}" },
-	{ "nf-md-clipboard_account", "\u{f0148}" },
-	{ "nf-md-clipboard_account_outline", "\u{f0c55}" },
-	{ "nf-md-clipboard_alert", "\u{f0149}" },
-	{ "nf-md-clipboard_alert_outline", "\u{f0cf7}" },
-	{ "nf-md-clipboard_arrow_down", "\u{f014a}" },
-	{ "nf-md-clipboard_arrow_down_outline", "\u{f0c56}" },
-	{ "nf-md-clipboard_arrow_left", "\u{f014b}" },
-	{ "nf-md-clipboard_arrow_left_outline", "\u{f0cf8}" },
-	{ "nf-md-clipboard_arrow_right", "\u{f0cf9}" },
-	{ "nf-md-clipboard_arrow_right_outline", "\u{f0cfa}" },
-	{ "nf-md-clipboard_arrow_up", "\u{f0c57}" },
-	{ "nf-md-clipboard_arrow_up_outline", "\u{f0c58}" },
-	{ "nf-md-clipboard_check", "\u{f014e}" },
-	{ "nf-md-clipboard_check_multiple", "\u{f1263}" },
-	{ "nf-md-clipboard_check_multiple_outline", "\u{f1264}" },
-	{ "nf-md-clipboard_check_outline", "\u{f08a8}" },
-	{ "nf-md-clipboard_clock", "\u{f16e2}" },
-	{ "nf-md-clipboard_clock_outline", "\u{f16e3}" },
-	{ "nf-md-clipboard_edit", "\u{f14e5}" },
-	{ "nf-md-clipboard_edit_outline", "\u{f14e6}" },
-	{ "nf-md-clipboard_file", "\u{f1265}" },
-	{ "nf-md-clipboard_file_outline", "\u{f1266}" },
-	{ "nf-md-clipboard_flow", "\u{f06c8}" },
-	{ "nf-md-clipboard_flow_outline", "\u{f1117}" },
-	{ "nf-md-clipboard_list", "\u{f10d4}" },
-	{ "nf-md-clipboard_list_outline", "\u{f10d5}" },
-	{ "nf-md-clipboard_minus", "\u{f1618}" },
-	{ "nf-md-clipboard_minus_outline", "\u{f1619}" },
-	{ "nf-md-clipboard_multiple", "\u{f1267}" },
-	{ "nf-md-clipboard_multiple_outline", "\u{f1268}" },
-	{ "nf-md-clipboard_off", "\u{f161a}" },
-	{ "nf-md-clipboard_off_outline", "\u{f161b}" },
-	{ "nf-md-clipboard_outline", "\u{f014c}" },
-	{ "nf-md-clipboard_play", "\u{f0c59}" },
-	{ "nf-md-clipboard_play_multiple", "\u{f1269}" },
-	{ "nf-md-clipboard_play_multiple_outline", "\u{f126a}" },
-	{ "nf-md-clipboard_play_outline", "\u{f0c5a}" },
-	{ "nf-md-clipboard_plus", "\u{f0751}" },
-	{ "nf-md-clipboard_plus_outline", "\u{f131f}" },
-	{ "nf-md-clipboard_pulse", "\u{f085d}" },
-	{ "nf-md-clipboard_pulse_outline", "\u{f085e}" },
-	{ "nf-md-clipboard_remove", "\u{f161c}" },
-	{ "nf-md-clipboard_remove_outline", "\u{f161d}" },
-	{ "nf-md-clipboard_search", "\u{f161e}" },
-	{ "nf-md-clipboard_search_outline", "\u{f161f}" },
-	{ "nf-md-clipboard_text", "\u{f014d}" },
-	{ "nf-md-clipboard_text_clock", "\u{f18f9}" },
-	{ "nf-md-clipboard_text_clock_outline", "\u{f18fa}" },
-	{ "nf-md-clipboard_text_multiple", "\u{f126b}" },
-	{ "nf-md-clipboard_text_multiple_outline", "\u{f126c}" },
-	{ "nf-md-clipboard_text_off", "\u{f1620}" },
-	{ "nf-md-clipboard_text_off_outline", "\u{f1621}" },
-	{ "nf-md-clipboard_text_outline", "\u{f0a38}" },
-	{ "nf-md-clipboard_text_play", "\u{f0c5b}" },
-	{ "nf-md-clipboard_text_play_outline", "\u{f0c5c}" },
-	{ "nf-md-clipboard_text_search", "\u{f1622}" },
-	{ "nf-md-clipboard_text_search_outline", "\u{f1623}" },
-	{ "nf-md-clippy", "\u{f014f}" },
-	{ "nf-md-clock", "\u{f0954}" },
-	{ "nf-md-clock_alert", "\u{f0955}" },
-	{ "nf-md-clock_alert_outline", "\u{f05ce}" },
-	{ "nf-md-clock_check", "\u{f0fa8}" },
-	{ "nf-md-clock_check_outline", "\u{f0fa9}" },
-	{ "nf-md-clock_digital", "\u{f0e97}" },
-	{ "nf-md-clock_edit", "\u{f19ba}" },
-	{ "nf-md-clock_edit_outline", "\u{f19bb}" },
-	{ "nf-md-clock_end", "\u{f0151}" },
-	{ "nf-md-clock_fast", "\u{f0152}" },
-	{ "nf-md-clock_in", "\u{f0153}" },
-	{ "nf-md-clock_minus", "\u{f1863}" },
-	{ "nf-md-clock_minus_outline", "\u{f1864}" },
-	{ "nf-md-clock_out", "\u{f0154}" },
-	{ "nf-md-clock_outline", "\u{f0150}" },
-	{ "nf-md-clock_plus", "\u{f1861}" },
-	{ "nf-md-clock_plus_outline", "\u{f1862}" },
-	{ "nf-md-clock_remove", "\u{f1865}" },
-	{ "nf-md-clock_remove_outline", "\u{f1866}" },
-	{ "nf-md-clock_start", "\u{f0155}" },
-	{ "nf-md-clock_time_eight", "\u{f1446}" },
-	{ "nf-md-clock_time_eight_outline", "\u{f1452}" },
-	{ "nf-md-clock_time_eleven", "\u{f1449}" },
-	{ "nf-md-clock_time_eleven_outline", "\u{f1455}" },
-	{ "nf-md-clock_time_five", "\u{f1443}" },
-	{ "nf-md-clock_time_five_outline", "\u{f144f}" },
-	{ "nf-md-clock_time_four", "\u{f1442}" },
-	{ "nf-md-clock_time_four_outline", "\u{f144e}" },
-	{ "nf-md-clock_time_nine", "\u{f1447}" },
-	{ "nf-md-clock_time_nine_outline", "\u{f1453}" },
-	{ "nf-md-clock_time_one", "\u{f143f}" },
-	{ "nf-md-clock_time_one_outline", "\u{f144b}" },
-	{ "nf-md-clock_time_seven", "\u{f1445}" },
-	{ "nf-md-clock_time_seven_outline", "\u{f1451}" },
-	{ "nf-md-clock_time_six", "\u{f1444}" },
-	{ "nf-md-clock_time_six_outline", "\u{f1450}" },
-	{ "nf-md-clock_time_ten", "\u{f1448}" },
-	{ "nf-md-clock_time_ten_outline", "\u{f1454}" },
-	{ "nf-md-clock_time_three", "\u{f1441}" },
-	{ "nf-md-clock_time_three_outline", "\u{f144d}" },
-	{ "nf-md-clock_time_twelve", "\u{f144a}" },
-	{ "nf-md-clock_time_twelve_outline", "\u{f1456}" },
-	{ "nf-md-clock_time_two", "\u{f1440}" },
-	{ "nf-md-clock_time_two_outline", "\u{f144c}" },
-	{ "nf-md-close", "\u{f0156}" },
-	{ "nf-md-close_box", "\u{f0157}" },
-	{ "nf-md-close_box_multiple", "\u{f0c5d}" },
-	{ "nf-md-close_box_multiple_outline", "\u{f0c5e}" },
-	{ "nf-md-close_box_outline", "\u{f0158}" },
-	{ "nf-md-close_circle", "\u{f0159}" },
-	{ "nf-md-close_circle_multiple", "\u{f062a}" },
-	{ "nf-md-close_circle_multiple_outline", "\u{f0883}" },
-	{ "nf-md-close_circle_outline", "\u{f015a}" },
-	{ "nf-md-close_network", "\u{f015b}" },
-	{ "nf-md-close_network_outline", "\u{f0c5f}" },
-	{ "nf-md-close_octagon", "\u{f015c}" },
-	{ "nf-md-close_octagon_outline", "\u{f015d}" },
-	{ "nf-md-close_outline", "\u{f06c9}" },
-	{ "nf-md-close_thick", "\u{f1398}" },
-	{ "nf-md-closed_caption", "\u{f015e}" },
-	{ "nf-md-closed_caption_outline", "\u{f0dbd}" },
-	{ "nf-md-cloud", "\u{f015f}" },
-	{ "nf-md-cloud_alert", "\u{f09e0}" },
-	{ "nf-md-cloud_braces", "\u{f07b5}" },
-	{ "nf-md-cloud_check", "\u{f0160}" },
-	{ "nf-md-cloud_check_outline", "\u{f12cc}" },
-	{ "nf-md-cloud_circle", "\u{f0161}" },
-	{ "nf-md-cloud_download", "\u{f0162}" },
-	{ "nf-md-cloud_download_outline", "\u{f0b7d}" },
-	{ "nf-md-cloud_lock", "\u{f11f1}" },
-	{ "nf-md-cloud_lock_outline", "\u{f11f2}" },
-	{ "nf-md-cloud_off_outline", "\u{f0164}" },
-	{ "nf-md-cloud_outline", "\u{f0163}" },
-	{ "nf-md-cloud_percent", "\u{f1a35}" },
-	{ "nf-md-cloud_percent_outline", "\u{f1a36}" },
-	{ "nf-md-cloud_print", "\u{f0165}" },
-	{ "nf-md-cloud_print_outline", "\u{f0166}" },
-	{ "nf-md-cloud_question", "\u{f0a39}" },
-	{ "nf-md-cloud_refresh", "\u{f052a}" },
-	{ "nf-md-cloud_search", "\u{f0956}" },
-	{ "nf-md-cloud_search_outline", "\u{f0957}" },
-	{ "nf-md-cloud_sync", "\u{f063f}" },
-	{ "nf-md-cloud_sync_outline", "\u{f12d6}" },
-	{ "nf-md-cloud_tags", "\u{f07b6}" },
-	{ "nf-md-cloud_upload", "\u{f0167}" },
-	{ "nf-md-cloud_upload_outline", "\u{f0b7e}" },
-	{ "nf-md-clover", "\u{f0816}" },
-	{ "nf-md-coach_lamp", "\u{f1020}" },
-	{ "nf-md-coach_lamp_variant", "\u{f1a37}" },
-	{ "nf-md-coat_rack", "\u{f109e}" },
-	{ "nf-md-code_array", "\u{f0168}" },
-	{ "nf-md-code_braces", "\u{f0169}" },
-	{ "nf-md-code_braces_box", "\u{f10d6}" },
-	{ "nf-md-code_brackets", "\u{f016a}" },
-	{ "nf-md-code_equal", "\u{f016b}" },
-	{ "nf-md-code_greater_than", "\u{f016c}" },
-	{ "nf-md-code_greater_than_or_equal", "\u{f016d}" },
-	{ "nf-md-code_json", "\u{f0626}" },
-	{ "nf-md-code_less_than", "\u{f016e}" },
-	{ "nf-md-code_less_than_or_equal", "\u{f016f}" },
-	{ "nf-md-code_not_equal", "\u{f0170}" },
-	{ "nf-md-code_not_equal_variant", "\u{f0171}" },
-	{ "nf-md-code_parentheses", "\u{f0172}" },
-	{ "nf-md-code_parentheses_box", "\u{f10d7}" },
-	{ "nf-md-code_string", "\u{f0173}" },
-	{ "nf-md-code_tags", "\u{f0174}" },
-	{ "nf-md-code_tags_check", "\u{f0694}" },
-	{ "nf-md-codepen", "\u{f0175}" },
-	{ "nf-md-coffee", "\u{f0176}" },
-	{ "nf-md-coffee_maker", "\u{f109f}" },
-	{ "nf-md-coffee_maker_check", "\u{f1931}" },
-	{ "nf-md-coffee_maker_check_outline", "\u{f1932}" },
-	{ "nf-md-coffee_maker_outline", "\u{f181b}" },
-	{ "nf-md-coffee_off", "\u{f0faa}" },
-	{ "nf-md-coffee_off_outline", "\u{f0fab}" },
-	{ "nf-md-coffee_outline", "\u{f06ca}" },
-	{ "nf-md-coffee_to_go", "\u{f0177}" },
-	{ "nf-md-coffee_to_go_outline", "\u{f130e}" },
-	{ "nf-md-coffin", "\u{f0b7f}" },
-	{ "nf-md-cog", "\u{f0493}" },
-	{ "nf-md-cog_box", "\u{f0494}" },
-	{ "nf-md-cog_clockwise", "\u{f11dd}" },
-	{ "nf-md-cog_counterclockwise", "\u{f11de}" },
-	{ "nf-md-cog_off", "\u{f13ce}" },
-	{ "nf-md-cog_off_outline", "\u{f13cf}" },
-	{ "nf-md-cog_outline", "\u{f08bb}" },
-	{ "nf-md-cog_pause", "\u{f1933}" },
-	{ "nf-md-cog_pause_outline", "\u{f1934}" },
-	{ "nf-md-cog_play", "\u{f1935}" },
-	{ "nf-md-cog_play_outline", "\u{f1936}" },
-	{ "nf-md-cog_refresh", "\u{f145e}" },
-	{ "nf-md-cog_refresh_outline", "\u{f145f}" },
-	{ "nf-md-cog_stop", "\u{f1937}" },
-	{ "nf-md-cog_stop_outline", "\u{f1938}" },
-	{ "nf-md-cog_sync", "\u{f1460}" },
-	{ "nf-md-cog_sync_outline", "\u{f1461}" },
-	{ "nf-md-cog_transfer", "\u{f105b}" },
-	{ "nf-md-cog_transfer_outline", "\u{f105c}" },
-	{ "nf-md-cogs", "\u{f08d6}" },
-	{ "nf-md-collage", "\u{f0640}" },
-	{ "nf-md-collapse_all", "\u{f0aa6}" },
-	{ "nf-md-collapse_all_outline", "\u{f0aa7}" },
-	{ "nf-md-color_helper", "\u{f0179}" },
-	{ "nf-md-comma", "\u{f0e23}" },
-	{ "nf-md-comma_box", "\u{f0e2b}" },
-	{ "nf-md-comma_box_outline", "\u{f0e24}" },
-	{ "nf-md-comma_circle", "\u{f0e25}" },
-	{ "nf-md-comma_circle_outline", "\u{f0e26}" },
-	{ "nf-md-comment", "\u{f017a}" },
-	{ "nf-md-comment_account", "\u{f017b}" },
-	{ "nf-md-comment_account_outline", "\u{f017c}" },
-	{ "nf-md-comment_alert", "\u{f017d}" },
-	{ "nf-md-comment_alert_outline", "\u{f017e}" },
-	{ "nf-md-comment_arrow_left", "\u{f09e1}" },
-	{ "nf-md-comment_arrow_left_outline", "\u{f09e2}" },
-	{ "nf-md-comment_arrow_right", "\u{f09e3}" },
-	{ "nf-md-comment_arrow_right_outline", "\u{f09e4}" },
-	{ "nf-md-comment_bookmark", "\u{f15ae}" },
-	{ "nf-md-comment_bookmark_outline", "\u{f15af}" },
-	{ "nf-md-comment_check", "\u{f017f}" },
-	{ "nf-md-comment_check_outline", "\u{f0180}" },
-	{ "nf-md-comment_edit", "\u{f11bf}" },
-	{ "nf-md-comment_edit_outline", "\u{f12c4}" },
-	{ "nf-md-comment_eye", "\u{f0a3a}" },
-	{ "nf-md-comment_eye_outline", "\u{f0a3b}" },
-	{ "nf-md-comment_flash", "\u{f15b0}" },
-	{ "nf-md-comment_flash_outline", "\u{f15b1}" },
-	{ "nf-md-comment_minus", "\u{f15df}" },
-	{ "nf-md-comment_minus_outline", "\u{f15e0}" },
-	{ "nf-md-comment_multiple", "\u{f085f}" },
-	{ "nf-md-comment_multiple_outline", "\u{f0181}" },
-	{ "nf-md-comment_off", "\u{f15e1}" },
-	{ "nf-md-comment_off_outline", "\u{f15e2}" },
-	{ "nf-md-comment_outline", "\u{f0182}" },
-	{ "nf-md-comment_plus", "\u{f09e5}" },
-	{ "nf-md-comment_plus_outline", "\u{f0183}" },
-	{ "nf-md-comment_processing", "\u{f0184}" },
-	{ "nf-md-comment_processing_outline", "\u{f0185}" },
-	{ "nf-md-comment_question", "\u{f0817}" },
-	{ "nf-md-comment_question_outline", "\u{f0186}" },
-	{ "nf-md-comment_quote", "\u{f1021}" },
-	{ "nf-md-comment_quote_outline", "\u{f1022}" },
-	{ "nf-md-comment_remove", "\u{f05de}" },
-	{ "nf-md-comment_remove_outline", "\u{f0187}" },
-	{ "nf-md-comment_search", "\u{f0a3c}" },
-	{ "nf-md-comment_search_outline", "\u{f0a3d}" },
-	{ "nf-md-comment_text", "\u{f0188}" },
-	{ "nf-md-comment_text_multiple", "\u{f0860}" },
-	{ "nf-md-comment_text_multiple_outline", "\u{f0861}" },
-	{ "nf-md-comment_text_outline", "\u{f0189}" },
-	{ "nf-md-compare", "\u{f018a}" },
-	{ "nf-md-compare_horizontal", "\u{f1492}" },
-	{ "nf-md-compare_remove", "\u{f18b3}" },
-	{ "nf-md-compare_vertical", "\u{f1493}" },
-	{ "nf-md-compass", "\u{f018b}" },
-	{ "nf-md-compass_off", "\u{f0b80}" },
-	{ "nf-md-compass_off_outline", "\u{f0b81}" },
-	{ "nf-md-compass_outline", "\u{f018c}" },
-	{ "nf-md-compass_rose", "\u{f1382}" },
-	{ "nf-md-compost", "\u{f1a38}" },
-	{ "nf-md-cone", "\u{f194c}" },
-	{ "nf-md-cone_off", "\u{f194d}" },
-	{ "nf-md-connection", "\u{f1616}" },
-	{ "nf-md-console", "\u{f018d}" },
-	{ "nf-md-console_line", "\u{f07b7}" },
-	{ "nf-md-console_network", "\u{f08a9}" },
-	{ "nf-md-console_network_outline", "\u{f0c60}" },
-	{ "nf-md-consolidate", "\u{f10d8}" },
-	{ "nf-md-contactless_payment", "\u{f0d6a}" },
-	{ "nf-md-contactless_payment_circle", "\u{f0321}" },
-	{ "nf-md-contactless_payment_circle_outline", "\u{f0408}" },
-	{ "nf-md-contacts", "\u{f06cb}" },
-	{ "nf-md-contacts_outline", "\u{f05b8}" },
-	{ "nf-md-contain", "\u{f0a3e}" },
-	{ "nf-md-contain_end", "\u{f0a3f}" },
-	{ "nf-md-contain_start", "\u{f0a40}" },
-	{ "nf-md-content_copy", "\u{f018f}" },
-	{ "nf-md-content_cut", "\u{f0190}" },
-	{ "nf-md-content_duplicate", "\u{f0191}" },
-	{ "nf-md-content_paste", "\u{f0192}" },
-	{ "nf-md-content_save", "\u{f0193}" },
-	{ "nf-md-content_save_alert", "\u{f0f42}" },
-	{ "nf-md-content_save_alert_outline", "\u{f0f43}" },
-	{ "nf-md-content_save_all", "\u{f0194}" },
-	{ "nf-md-content_save_all_outline", "\u{f0f44}" },
-	{ "nf-md-content_save_check", "\u{f18ea}" },
-	{ "nf-md-content_save_check_outline", "\u{f18eb}" },
-	{ "nf-md-content_save_cog", "\u{f145b}" },
-	{ "nf-md-content_save_cog_outline", "\u{f145c}" },
-	{ "nf-md-content_save_edit", "\u{f0cfb}" },
-	{ "nf-md-content_save_edit_outline", "\u{f0cfc}" },
-	{ "nf-md-content_save_move", "\u{f0e27}" },
-	{ "nf-md-content_save_move_outline", "\u{f0e28}" },
-	{ "nf-md-content_save_off", "\u{f1643}" },
-	{ "nf-md-content_save_off_outline", "\u{f1644}" },
-	{ "nf-md-content_save_outline", "\u{f0818}" },
-	{ "nf-md-content_save_settings", "\u{f061b}" },
-	{ "nf-md-content_save_settings_outline", "\u{f0b2e}" },
-	{ "nf-md-contrast", "\u{f0195}" },
-	{ "nf-md-contrast_box", "\u{f0196}" },
-	{ "nf-md-contrast_circle", "\u{f0197}" },
-	{ "nf-md-controller_classic", "\u{f0b82}" },
-	{ "nf-md-controller_classic_outline", "\u{f0b83}" },
-	{ "nf-md-cookie", "\u{f0198}" },
-	{ "nf-md-cookie_alert", "\u{f16d0}" },
-	{ "nf-md-cookie_alert_outline", "\u{f16d1}" },
-	{ "nf-md-cookie_check", "\u{f16d2}" },
-	{ "nf-md-cookie_check_outline", "\u{f16d3}" },
-	{ "nf-md-cookie_clock", "\u{f16e4}" },
-	{ "nf-md-cookie_clock_outline", "\u{f16e5}" },
-	{ "nf-md-cookie_cog", "\u{f16d4}" },
-	{ "nf-md-cookie_cog_outline", "\u{f16d5}" },
-	{ "nf-md-cookie_edit", "\u{f16e6}" },
-	{ "nf-md-cookie_edit_outline", "\u{f16e7}" },
-	{ "nf-md-cookie_lock", "\u{f16e8}" },
-	{ "nf-md-cookie_lock_outline", "\u{f16e9}" },
-	{ "nf-md-cookie_minus", "\u{f16da}" },
-	{ "nf-md-cookie_minus_outline", "\u{f16db}" },
-	{ "nf-md-cookie_off", "\u{f16ea}" },
-	{ "nf-md-cookie_off_outline", "\u{f16eb}" },
-	{ "nf-md-cookie_outline", "\u{f16de}" },
-	{ "nf-md-cookie_plus", "\u{f16d6}" },
-	{ "nf-md-cookie_plus_outline", "\u{f16d7}" },
-	{ "nf-md-cookie_refresh", "\u{f16ec}" },
-	{ "nf-md-cookie_refresh_outline", "\u{f16ed}" },
-	{ "nf-md-cookie_remove", "\u{f16d8}" },
-	{ "nf-md-cookie_remove_outline", "\u{f16d9}" },
-	{ "nf-md-cookie_settings", "\u{f16dc}" },
-	{ "nf-md-cookie_settings_outline", "\u{f16dd}" },
-	{ "nf-md-coolant_temperature", "\u{f03c8}" },
-	{ "nf-md-copyleft", "\u{f1939}" },
-	{ "nf-md-copyright", "\u{f05e6}" },
-	{ "nf-md-cordova", "\u{f0958}" },
-	{ "nf-md-corn", "\u{f07b8}" },
-	{ "nf-md-corn_off", "\u{f13ef}" },
-	{ "nf-md-cosine_wave", "\u{f1479}" },
-	{ "nf-md-counter", "\u{f0199}" },
-	{ "nf-md-countertop", "\u{f181c}" },
-	{ "nf-md-countertop_outline", "\u{f181d}" },
-	{ "nf-md-cow", "\u{f019a}" },
-	{ "nf-md-cow_off", "\u{f18fc}" },
-	{ "nf-md-cpu_32_bit", "\u{f0edf}" },
-	{ "nf-md-cpu_64_bit", "\u{f0ee0}" },
-	{ "nf-md-cradle", "\u{f198b}" },
-	{ "nf-md-cradle_outline", "\u{f1991}" },
-	{ "nf-md-crane", "\u{f0862}" },
-	{ "nf-md-creation", "\u{f0674}" },
-	{ "nf-md-creative_commons", "\u{f0d6b}" },
-	{ "nf-md-credit_card", "\u{f0fef}" },
-	{ "nf-md-credit_card_check", "\u{f13d0}" },
-	{ "nf-md-credit_card_check_outline", "\u{f13d1}" },
-	{ "nf-md-credit_card_chip", "\u{f190f}" },
-	{ "nf-md-credit_card_chip_outline", "\u{f1910}" },
-	{ "nf-md-credit_card_clock", "\u{f0ee1}" },
-	{ "nf-md-credit_card_clock_outline", "\u{f0ee2}" },
-	{ "nf-md-credit_card_edit", "\u{f17d7}" },
-	{ "nf-md-credit_card_edit_outline", "\u{f17d8}" },
-	{ "nf-md-credit_card_fast", "\u{f1911}" },
-	{ "nf-md-credit_card_fast_outline", "\u{f1912}" },
-	{ "nf-md-credit_card_lock", "\u{f18e7}" },
-	{ "nf-md-credit_card_lock_outline", "\u{f18e8}" },
-	{ "nf-md-credit_card_marker", "\u{f06a8}" },
-	{ "nf-md-credit_card_marker_outline", "\u{f0dbe}" },
-	{ "nf-md-credit_card_minus", "\u{f0fac}" },
-	{ "nf-md-credit_card_minus_outline", "\u{f0fad}" },
-	{ "nf-md-credit_card_multiple", "\u{f0ff0}" },
-	{ "nf-md-credit_card_multiple_outline", "\u{f019c}" },
-	{ "nf-md-credit_card_off", "\u{f0ff1}" },
-	{ "nf-md-credit_card_off_outline", "\u{f05e4}" },
-	{ "nf-md-credit_card_outline", "\u{f019b}" },
-	{ "nf-md-credit_card_plus", "\u{f0ff2}" },
-	{ "nf-md-credit_card_plus_outline", "\u{f0676}" },
-	{ "nf-md-credit_card_refresh", "\u{f1645}" },
-	{ "nf-md-credit_card_refresh_outline", "\u{f1646}" },
-	{ "nf-md-credit_card_refund", "\u{f0ff3}" },
-	{ "nf-md-credit_card_refund_outline", "\u{f0aa8}" },
-	{ "nf-md-credit_card_remove", "\u{f0fae}" },
-	{ "nf-md-credit_card_remove_outline", "\u{f0faf}" },
-	{ "nf-md-credit_card_scan", "\u{f0ff4}" },
-	{ "nf-md-credit_card_scan_outline", "\u{f019d}" },
-	{ "nf-md-credit_card_search", "\u{f1647}" },
-	{ "nf-md-credit_card_search_outline", "\u{f1648}" },
-	{ "nf-md-credit_card_settings", "\u{f0ff5}" },
-	{ "nf-md-credit_card_settings_outline", "\u{f08d7}" },
-	{ "nf-md-credit_card_sync", "\u{f1649}" },
-	{ "nf-md-credit_card_sync_outline", "\u{f164a}" },
-	{ "nf-md-credit_card_wireless", "\u{f0802}" },
-	{ "nf-md-credit_card_wireless_off", "\u{f057a}" },
-	{ "nf-md-credit_card_wireless_off_outline", "\u{f057b}" },
-	{ "nf-md-credit_card_wireless_outline", "\u{f0d6c}" },
-	{ "nf-md-cricket", "\u{f0d6d}" },
-	{ "nf-md-crop", "\u{f019e}" },
-	{ "nf-md-crop_free", "\u{f019f}" },
-	{ "nf-md-crop_landscape", "\u{f01a0}" },
-	{ "nf-md-crop_portrait", "\u{f01a1}" },
-	{ "nf-md-crop_rotate", "\u{f0696}" },
-	{ "nf-md-crop_square", "\u{f01a2}" },
-	{ "nf-md-cross", "\u{f0953}" },
-	{ "nf-md-cross_bolnisi", "\u{f0ced}" },
-	{ "nf-md-cross_celtic", "\u{f0cf5}" },
-	{ "nf-md-cross_outline", "\u{f0cf6}" },
-	{ "nf-md-crosshairs", "\u{f01a3}" },
-	{ "nf-md-crosshairs_gps", "\u{f01a4}" },
-	{ "nf-md-crosshairs_off", "\u{f0f45}" },
-	{ "nf-md-crosshairs_question", "\u{f1136}" },
-	{ "nf-md-crowd", "\u{f1975}" },
-	{ "nf-md-crown", "\u{f01a5}" },
-	{ "nf-md-crown_circle", "\u{f17dc}" },
-	{ "nf-md-crown_circle_outline", "\u{f17dd}" },
-	{ "nf-md-crown_outline", "\u{f11d0}" },
-	{ "nf-md-cryengine", "\u{f0959}" },
-	{ "nf-md-crystal_ball", "\u{f0b2f}" },
-	{ "nf-md-cube", "\u{f01a6}" },
-	{ "nf-md-cube_off", "\u{f141c}" },
-	{ "nf-md-cube_off_outline", "\u{f141d}" },
-	{ "nf-md-cube_outline", "\u{f01a7}" },
-	{ "nf-md-cube_scan", "\u{f0b84}" },
-	{ "nf-md-cube_send", "\u{f01a8}" },
-	{ "nf-md-cube_unfolded", "\u{f01a9}" },
-	{ "nf-md-cup", "\u{f01aa}" },
-	{ "nf-md-cup_off", "\u{f05e5}" },
-	{ "nf-md-cup_off_outline", "\u{f137d}" },
-	{ "nf-md-cup_outline", "\u{f130f}" },
-	{ "nf-md-cup_water", "\u{f01ab}" },
-	{ "nf-md-cupboard", "\u{f0f46}" },
-	{ "nf-md-cupboard_outline", "\u{f0f47}" },
-	{ "nf-md-cupcake", "\u{f095a}" },
-	{ "nf-md-curling", "\u{f0863}" },
-	{ "nf-md-currency_bdt", "\u{f0864}" },
-	{ "nf-md-currency_brl", "\u{f0b85}" },
-	{ "nf-md-currency_btc", "\u{f01ac}" },
-	{ "nf-md-currency_cny", "\u{f07ba}" },
-	{ "nf-md-currency_eth", "\u{f07bb}" },
-	{ "nf-md-currency_eur", "\u{f01ad}" },
-	{ "nf-md-currency_eur_off", "\u{f1315}" },
-	{ "nf-md-currency_fra", "\u{f1a39}" },
-	{ "nf-md-currency_gbp", "\u{f01ae}" },
-	{ "nf-md-currency_ils", "\u{f0c61}" },
-	{ "nf-md-currency_inr", "\u{f01af}" },
-	{ "nf-md-currency_jpy", "\u{f07bc}" },
-	{ "nf-md-currency_krw", "\u{f07bd}" },
-	{ "nf-md-currency_kzt", "\u{f0865}" },
-	{ "nf-md-currency_mnt", "\u{f1512}" },
-	{ "nf-md-currency_ngn", "\u{f01b0}" },
-	{ "nf-md-currency_php", "\u{f09e6}" },
-	{ "nf-md-currency_rial", "\u{f0e9c}" },
-	{ "nf-md-currency_rub", "\u{f01b1}" },
-	{ "nf-md-currency_rupee", "\u{f1976}" },
-	{ "nf-md-currency_sign", "\u{f07be}" },
-	{ "nf-md-currency_try", "\u{f01b2}" },
-	{ "nf-md-currency_twd", "\u{f07bf}" },
-	{ "nf-md-currency_usd", "\u{f01c1}" },
-	{ "nf-md-currency_usd_off", "\u{f067a}" },
-	{ "nf-md-current_ac", "\u{f1480}" },
-	{ "nf-md-current_dc", "\u{f095c}" },
-	{ "nf-md-cursor_default", "\u{f01c0}" },
-	{ "nf-md-cursor_default_click", "\u{f0cfd}" },
-	{ "nf-md-cursor_default_click_outline", "\u{f0cfe}" },
-	{ "nf-md-cursor_default_gesture", "\u{f1127}" },
-	{ "nf-md-cursor_default_gesture_outline", "\u{f1128}" },
-	{ "nf-md-cursor_default_outline", "\u{f01bf}" },
-	{ "nf-md-cursor_move", "\u{f01be}" },
-	{ "nf-md-cursor_pointer", "\u{f01bd}" },
-	{ "nf-md-cursor_text", "\u{f05e7}" },
-	{ "nf-md-curtains", "\u{f1846}" },
-	{ "nf-md-curtains_closed", "\u{f1847}" },
-	{ "nf-md-cylinder", "\u{f194e}" },
-	{ "nf-md-cylinder_off", "\u{f194f}" },
-	{ "nf-md-dance_ballroom", "\u{f15fb}" },
-	{ "nf-md-dance_pole", "\u{f1578}" },
-	{ "nf-md-data_matrix", "\u{f153c}" },
-	{ "nf-md-data_matrix_edit", "\u{f153d}" },
-	{ "nf-md-data_matrix_minus", "\u{f153e}" },
-	{ "nf-md-data_matrix_plus", "\u{f153f}" },
-	{ "nf-md-data_matrix_remove", "\u{f1540}" },
-	{ "nf-md-data_matrix_scan", "\u{f1541}" },
-	{ "nf-md-database", "\u{f01bc}" },
-	{ "nf-md-database_alert", "\u{f163a}" },
-	{ "nf-md-database_alert_outline", "\u{f1624}" },
-	{ "nf-md-database_arrow_down", "\u{f163b}" },
-	{ "nf-md-database_arrow_down_outline", "\u{f1625}" },
-	{ "nf-md-database_arrow_left", "\u{f163c}" },
-	{ "nf-md-database_arrow_left_outline", "\u{f1626}" },
-	{ "nf-md-database_arrow_right", "\u{f163d}" },
-	{ "nf-md-database_arrow_right_outline", "\u{f1627}" },
-	{ "nf-md-database_arrow_up", "\u{f163e}" },
-	{ "nf-md-database_arrow_up_outline", "\u{f1628}" },
-	{ "nf-md-database_check", "\u{f0aa9}" },
-	{ "nf-md-database_check_outline", "\u{f1629}" },
-	{ "nf-md-database_clock", "\u{f163f}" },
-	{ "nf-md-database_clock_outline", "\u{f162a}" },
-	{ "nf-md-database_cog", "\u{f164b}" },
-	{ "nf-md-database_cog_outline", "\u{f164c}" },
-	{ "nf-md-database_edit", "\u{f0b86}" },
-	{ "nf-md-database_edit_outline", "\u{f162b}" },
-	{ "nf-md-database_export", "\u{f095e}" },
-	{ "nf-md-database_export_outline", "\u{f162c}" },
-	{ "nf-md-database_eye", "\u{f191f}" },
-	{ "nf-md-database_eye_off", "\u{f1920}" },
-	{ "nf-md-database_eye_off_outline", "\u{f1921}" },
-	{ "nf-md-database_eye_outline", "\u{f1922}" },
-	{ "nf-md-database_import", "\u{f095d}" },
-	{ "nf-md-database_import_outline", "\u{f162d}" },
-	{ "nf-md-database_lock", "\u{f0aaa}" },
-	{ "nf-md-database_lock_outline", "\u{f162e}" },
-	{ "nf-md-database_marker", "\u{f12f6}" },
-	{ "nf-md-database_marker_outline", "\u{f162f}" },
-	{ "nf-md-database_minus", "\u{f01bb}" },
-	{ "nf-md-database_minus_outline", "\u{f1630}" },
-	{ "nf-md-database_off", "\u{f1640}" },
-	{ "nf-md-database_off_outline", "\u{f1631}" },
-	{ "nf-md-database_outline", "\u{f1632}" },
-	{ "nf-md-database_plus", "\u{f01ba}" },
-	{ "nf-md-database_plus_outline", "\u{f1633}" },
-	{ "nf-md-database_refresh", "\u{f05c2}" },
-	{ "nf-md-database_refresh_outline", "\u{f1634}" },
-	{ "nf-md-database_remove", "\u{f0d00}" },
-	{ "nf-md-database_remove_outline", "\u{f1635}" },
-	{ "nf-md-database_search", "\u{f0866}" },
-	{ "nf-md-database_search_outline", "\u{f1636}" },
-	{ "nf-md-database_settings", "\u{f0d01}" },
-	{ "nf-md-database_settings_outline", "\u{f1637}" },
-	{ "nf-md-database_sync", "\u{f0cff}" },
-	{ "nf-md-database_sync_outline", "\u{f1638}" },
-	{ "nf-md-death_star", "\u{f08d8}" },
-	{ "nf-md-death_star_variant", "\u{f08d9}" },
-	{ "nf-md-deathly_hallows", "\u{f0b87}" },
-	{ "nf-md-debian", "\u{f08da}" },
-	{ "nf-md-debug_step_into", "\u{f01b9}" },
-	{ "nf-md-debug_step_out", "\u{f01b8}" },
-	{ "nf-md-debug_step_over", "\u{f01b7}" },
-	{ "nf-md-decagram", "\u{f076c}" },
-	{ "nf-md-decagram_outline", "\u{f076d}" },
-	{ "nf-md-decimal", "\u{f10a1}" },
-	{ "nf-md-decimal_comma", "\u{f10a2}" },
-	{ "nf-md-decimal_comma_decrease", "\u{f10a3}" },
-	{ "nf-md-decimal_comma_increase", "\u{f10a4}" },
-	{ "nf-md-decimal_decrease", "\u{f01b6}" },
-	{ "nf-md-decimal_increase", "\u{f01b5}" },
-	{ "nf-md-delete", "\u{f01b4}" },
-	{ "nf-md-delete_alert", "\u{f10a5}" },
-	{ "nf-md-delete_alert_outline", "\u{f10a6}" },
-	{ "nf-md-delete_circle", "\u{f0683}" },
-	{ "nf-md-delete_circle_outline", "\u{f0b88}" },
-	{ "nf-md-delete_clock", "\u{f1556}" },
-	{ "nf-md-delete_clock_outline", "\u{f1557}" },
-	{ "nf-md-delete_empty", "\u{f06cc}" },
-	{ "nf-md-delete_empty_outline", "\u{f0e9d}" },
-	{ "nf-md-delete_forever", "\u{f05e8}" },
-	{ "nf-md-delete_forever_outline", "\u{f0b89}" },
-	{ "nf-md-delete_off", "\u{f10a7}" },
-	{ "nf-md-delete_off_outline", "\u{f10a8}" },
-	{ "nf-md-delete_outline", "\u{f09e7}" },
-	{ "nf-md-delete_restore", "\u{f0819}" },
-	{ "nf-md-delete_sweep", "\u{f05e9}" },
-	{ "nf-md-delete_sweep_outline", "\u{f0c62}" },
-	{ "nf-md-delete_variant", "\u{f01b3}" },
-	{ "nf-md-delta", "\u{f01c2}" },
-	{ "nf-md-desk", "\u{f1239}" },
-	{ "nf-md-desk_lamp", "\u{f095f}" },
-	{ "nf-md-deskphone", "\u{f01c3}" },
-	{ "nf-md-desktop_classic", "\u{f07c0}" },
-	{ "nf-md-desktop_mac", "\u{f01c4}" },
-	{ "nf-md-desktop_mac_dashboard", "\u{f09e8}" },
-	{ "nf-md-desktop_tower", "\u{f01c5}" },
-	{ "nf-md-desktop_tower_monitor", "\u{f0aab}" },
-	{ "nf-md-details", "\u{f01c6}" },
-	{ "nf-md-dev_to", "\u{f0d6e}" },
-	{ "nf-md-developer_board", "\u{f0697}" },
-	{ "nf-md-deviantart", "\u{f01c7}" },
-	{ "nf-md-devices", "\u{f0fb0}" },
-	{ "nf-md-dharmachakra", "\u{f094b}" },
-	{ "nf-md-diabetes", "\u{f1126}" },
-	{ "nf-md-dialpad", "\u{f061c}" },
-	{ "nf-md-diameter", "\u{f0c63}" },
-	{ "nf-md-diameter_outline", "\u{f0c64}" },
-	{ "nf-md-diameter_variant", "\u{f0c65}" },
-	{ "nf-md-diamond", "\u{f0b8a}" },
-	{ "nf-md-diamond_outline", "\u{f0b8b}" },
-	{ "nf-md-diamond_stone", "\u{f01c8}" },
-	{ "nf-md-dice_1", "\u{f01ca}" },
-	{ "nf-md-dice_1_outline", "\u{f114a}" },
-	{ "nf-md-dice_2", "\u{f01cb}" },
-	{ "nf-md-dice_2_outline", "\u{f114b}" },
-	{ "nf-md-dice_3", "\u{f01cc}" },
-	{ "nf-md-dice_3_outline", "\u{f114c}" },
-	{ "nf-md-dice_4", "\u{f01cd}" },
-	{ "nf-md-dice_4_outline", "\u{f114d}" },
-	{ "nf-md-dice_5", "\u{f01ce}" },
-	{ "nf-md-dice_5_outline", "\u{f114e}" },
-	{ "nf-md-dice_6", "\u{f01cf}" },
-	{ "nf-md-dice_6_outline", "\u{f114f}" },
-	{ "nf-md-dice_d10", "\u{f1153}" },
-	{ "nf-md-dice_d10_outline", "\u{f076f}" },
-	{ "nf-md-dice_d12", "\u{f1154}" },
-	{ "nf-md-dice_d12_outline", "\u{f0867}" },
-	{ "nf-md-dice_d20", "\u{f1155}" },
-	{ "nf-md-dice_d20_outline", "\u{f05ea}" },
-	{ "nf-md-dice_d4", "\u{f1150}" },
-	{ "nf-md-dice_d4_outline", "\u{f05eb}" },
-	{ "nf-md-dice_d6", "\u{f1151}" },
-	{ "nf-md-dice_d6_outline", "\u{f05ed}" },
-	{ "nf-md-dice_d8", "\u{f1152}" },
-	{ "nf-md-dice_d8_outline", "\u{f05ec}" },
-	{ "nf-md-dice_multiple", "\u{f076e}" },
-	{ "nf-md-dice_multiple_outline", "\u{f1156}" },
-	{ "nf-md-digital_ocean", "\u{f1237}" },
-	{ "nf-md-dip_switch", "\u{f07c1}" },
-	{ "nf-md-directions", "\u{f01d0}" },
-	{ "nf-md-directions_fork", "\u{f0641}" },
-	{ "nf-md-disc", "\u{f05ee}" },
-	{ "nf-md-disc_alert", "\u{f01d1}" },
-	{ "nf-md-disc_player", "\u{f0960}" },
-	{ "nf-md-discord", "\u{f066f}" },
-	{ "nf-md-dishwasher", "\u{f0aac}" },
-	{ "nf-md-dishwasher_alert", "\u{f11b8}" },
-	{ "nf-md-dishwasher_off", "\u{f11b9}" },
-	{ "nf-md-disqus", "\u{f01d2}" },
-	{ "nf-md-distribute_horizontal_center", "\u{f11c9}" },
-	{ "nf-md-distribute_horizontal_left", "\u{f11c8}" },
-	{ "nf-md-distribute_horizontal_right", "\u{f11ca}" },
-	{ "nf-md-distribute_vertical_bottom", "\u{f11cb}" },
-	{ "nf-md-distribute_vertical_center", "\u{f11cc}" },
-	{ "nf-md-distribute_vertical_top", "\u{f11cd}" },
-	{ "nf-md-diversify", "\u{f1877}" },
-	{ "nf-md-diving", "\u{f1977}" },
-	{ "nf-md-diving_flippers", "\u{f0dbf}" },
-	{ "nf-md-diving_helmet", "\u{f0dc0}" },
-	{ "nf-md-diving_scuba", "\u{f0dc1}" },
-	{ "nf-md-diving_scuba_flag", "\u{f0dc2}" },
-	{ "nf-md-diving_scuba_tank", "\u{f0dc3}" },
-	{ "nf-md-diving_scuba_tank_multiple", "\u{f0dc4}" },
-	{ "nf-md-diving_snorkel", "\u{f0dc5}" },
-	{ "nf-md-division", "\u{f01d4}" },
-	{ "nf-md-division_box", "\u{f01d5}" },
-	{ "nf-md-dlna", "\u{f0a41}" },
-	{ "nf-md-dna", "\u{f0684}" },
-	{ "nf-md-dns", "\u{f01d6}" },
-	{ "nf-md-dns_outline", "\u{f0b8c}" },
-	{ "nf-md-dock_bottom", "\u{f10a9}" },
-	{ "nf-md-dock_left", "\u{f10aa}" },
-	{ "nf-md-dock_right", "\u{f10ab}" },
-	{ "nf-md-dock_top", "\u{f1513}" },
-	{ "nf-md-dock_window", "\u{f10ac}" },
-	{ "nf-md-docker", "\u{f0868}" },
-	{ "nf-md-doctor", "\u{f0a42}" },
-	{ "nf-md-dog", "\u{f0a43}" },
-	{ "nf-md-dog_service", "\u{f0aad}" },
-	{ "nf-md-dog_side", "\u{f0a44}" },
-	{ "nf-md-dog_side_off", "\u{f16ee}" },
-	{ "nf-md-dolby", "\u{f06b3}" },
-	{ "nf-md-dolly", "\u{f0e9e}" },
-	{ "nf-md-dolphin", "\u{f18b4}" },
-	{ "nf-md-domain", "\u{f01d7}" },
-	{ "nf-md-domain_off", "\u{f0d6f}" },
-	{ "nf-md-domain_plus", "\u{f10ad}" },
-	{ "nf-md-domain_remove", "\u{f10ae}" },
-	{ "nf-md-dome_light", "\u{f141e}" },
-	{ "nf-md-domino_mask", "\u{f1023}" },
-	{ "nf-md-donkey", "\u{f07c2}" },
-	{ "nf-md-door", "\u{f081a}" },
-	{ "nf-md-door_closed", "\u{f081b}" },
-	{ "nf-md-door_closed_lock", "\u{f10af}" },
-	{ "nf-md-door_open", "\u{f081c}" },
-	{ "nf-md-door_sliding", "\u{f181e}" },
-	{ "nf-md-door_sliding_lock", "\u{f181f}" },
-	{ "nf-md-door_sliding_open", "\u{f1820}" },
-	{ "nf-md-doorbell", "\u{f12e6}" },
-	{ "nf-md-doorbell_video", "\u{f0869}" },
-	{ "nf-md-dot_net", "\u{f0aae}" },
-	{ "nf-md-dots_circle", "\u{f1978}" },
-	{ "nf-md-dots_grid", "\u{f15fc}" },
-	{ "nf-md-dots_hexagon", "\u{f15ff}" },
-	{ "nf-md-dots_horizontal", "\u{f01d8}" },
-	{ "nf-md-dots_horizontal_circle", "\u{f07c3}" },
-	{ "nf-md-dots_horizontal_circle_outline", "\u{f0b8d}" },
-	{ "nf-md-dots_square", "\u{f15fd}" },
-	{ "nf-md-dots_triangle", "\u{f15fe}" },
-	{ "nf-md-dots_vertical", "\u{f01d9}" },
-	{ "nf-md-dots_vertical_circle", "\u{f07c4}" },
-	{ "nf-md-dots_vertical_circle_outline", "\u{f0b8e}" },
-	{ "nf-md-download", "\u{f01da}" },
-	{ "nf-md-download_box", "\u{f1462}" },
-	{ "nf-md-download_box_outline", "\u{f1463}" },
-	{ "nf-md-download_circle", "\u{f1464}" },
-	{ "nf-md-download_circle_outline", "\u{f1465}" },
-	{ "nf-md-download_lock", "\u{f1320}" },
-	{ "nf-md-download_lock_outline", "\u{f1321}" },
-	{ "nf-md-download_multiple", "\u{f09e9}" },
-	{ "nf-md-download_network", "\u{f06f4}" },
-	{ "nf-md-download_network_outline", "\u{f0c66}" },
-	{ "nf-md-download_off", "\u{f10b0}" },
-	{ "nf-md-download_off_outline", "\u{f10b1}" },
-	{ "nf-md-download_outline", "\u{f0b8f}" },
-	{ "nf-md-drag", "\u{f01db}" },
-	{ "nf-md-drag_horizontal", "\u{f01dc}" },
-	{ "nf-md-drag_horizontal_variant", "\u{f12f0}" },
-	{ "nf-md-drag_variant", "\u{f0b90}" },
-	{ "nf-md-drag_vertical", "\u{f01dd}" },
-	{ "nf-md-drag_vertical_variant", "\u{f12f1}" },
-	{ "nf-md-drama_masks", "\u{f0d02}" },
-	{ "nf-md-draw", "\u{f0f49}" },
-	{ "nf-md-draw_pen", "\u{f19b9}" },
-	{ "nf-md-drawing", "\u{f01de}" },
-	{ "nf-md-drawing_box", "\u{f01df}" },
-	{ "nf-md-dresser", "\u{f0f4a}" },
-	{ "nf-md-dresser_outline", "\u{f0f4b}" },
-	{ "nf-md-drone", "\u{f01e2}" },
-	{ "nf-md-dropbox", "\u{f01e3}" },
-	{ "nf-md-drupal", "\u{f01e4}" },
-	{ "nf-md-duck", "\u{f01e5}" },
-	{ "nf-md-dumbbell", "\u{f01e6}" },
-	{ "nf-md-dump_truck", "\u{f0c67}" },
-	{ "nf-md-ear_hearing", "\u{f07c5}" },
-	{ "nf-md-ear_hearing_loop", "\u{f1aee}" },
-	{ "nf-md-ear_hearing_off", "\u{f0a45}" },
-	{ "nf-md-earbuds", "\u{f184f}" },
-	{ "nf-md-earbuds_off", "\u{f1850}" },
-	{ "nf-md-earbuds_off_outline", "\u{f1851}" },
-	{ "nf-md-earbuds_outline", "\u{f1852}" },
-	{ "nf-md-earth", "\u{f01e7}" },
-	{ "nf-md-earth_arrow_right", "\u{f1311}" },
-	{ "nf-md-earth_box", "\u{f06cd}" },
-	{ "nf-md-earth_box_minus", "\u{f1407}" },
-	{ "nf-md-earth_box_off", "\u{f06ce}" },
-	{ "nf-md-earth_box_plus", "\u{f1406}" },
-	{ "nf-md-earth_box_remove", "\u{f1408}" },
-	{ "nf-md-earth_minus", "\u{f1404}" },
-	{ "nf-md-earth_off", "\u{f01e8}" },
-	{ "nf-md-earth_plus", "\u{f1403}" },
-	{ "nf-md-earth_remove", "\u{f1405}" },
-	{ "nf-md-egg", "\u{f0aaf}" },
-	{ "nf-md-egg_easter", "\u{f0ab0}" },
-	{ "nf-md-egg_fried", "\u{f184a}" },
-	{ "nf-md-egg_off", "\u{f13f0}" },
-	{ "nf-md-egg_off_outline", "\u{f13f1}" },
-	{ "nf-md-egg_outline", "\u{f13f2}" },
-	{ "nf-md-eiffel_tower", "\u{f156b}" },
-	{ "nf-md-eight_track", "\u{f09ea}" },
-	{ "nf-md-eject", "\u{f01ea}" },
-	{ "nf-md-eject_outline", "\u{f0b91}" },
-	{ "nf-md-electric_switch", "\u{f0e9f}" },
-	{ "nf-md-electric_switch_closed", "\u{f10d9}" },
-	{ "nf-md-electron_framework", "\u{f1024}" },
-	{ "nf-md-elephant", "\u{f07c6}" },
-	{ "nf-md-elevation_decline", "\u{f01eb}" },
-	{ "nf-md-elevation_rise", "\u{f01ec}" },
-	{ "nf-md-elevator", "\u{f01ed}" },
-	{ "nf-md-elevator_down", "\u{f12c2}" },
-	{ "nf-md-elevator_passenger", "\u{f1381}" },
-	{ "nf-md-elevator_passenger_off", "\u{f1979}" },
-	{ "nf-md-elevator_passenger_off_outline", "\u{f197a}" },
-	{ "nf-md-elevator_passenger_outline", "\u{f197b}" },
-	{ "nf-md-elevator_up", "\u{f12c1}" },
-	{ "nf-md-ellipse", "\u{f0ea0}" },
-	{ "nf-md-ellipse_outline", "\u{f0ea1}" },
-	{ "nf-md-email", "\u{f01ee}" },
-	{ "nf-md-email_alert", "\u{f06cf}" },
-	{ "nf-md-email_alert_outline", "\u{f0d42}" },
-	{ "nf-md-email_box", "\u{f0d03}" },
-	{ "nf-md-email_check", "\u{f0ab1}" },
-	{ "nf-md-email_check_outline", "\u{f0ab2}" },
-	{ "nf-md-email_edit", "\u{f0ee3}" },
-	{ "nf-md-email_edit_outline", "\u{f0ee4}" },
-	{ "nf-md-email_fast", "\u{f186f}" },
-	{ "nf-md-email_fast_outline", "\u{f1870}" },
-	{ "nf-md-email_lock", "\u{f01f1}" },
-	{ "nf-md-email_mark_as_unread", "\u{f0b92}" },
-	{ "nf-md-email_minus", "\u{f0ee5}" },
-	{ "nf-md-email_minus_outline", "\u{f0ee6}" },
-	{ "nf-md-email_multiple", "\u{f0ee7}" },
-	{ "nf-md-email_multiple_outline", "\u{f0ee8}" },
-	{ "nf-md-email_newsletter", "\u{f0fb1}" },
-	{ "nf-md-email_off", "\u{f13e3}" },
-	{ "nf-md-email_off_outline", "\u{f13e4}" },
-	{ "nf-md-email_open", "\u{f01ef}" },
-	{ "nf-md-email_open_multiple", "\u{f0ee9}" },
-	{ "nf-md-email_open_multiple_outline", "\u{f0eea}" },
-	{ "nf-md-email_open_outline", "\u{f05ef}" },
-	{ "nf-md-email_outline", "\u{f01f0}" },
-	{ "nf-md-email_plus", "\u{f09eb}" },
-	{ "nf-md-email_plus_outline", "\u{f09ec}" },
-	{ "nf-md-email_receive", "\u{f10da}" },
-	{ "nf-md-email_receive_outline", "\u{f10db}" },
-	{ "nf-md-email_remove", "\u{f1661}" },
-	{ "nf-md-email_remove_outline", "\u{f1662}" },
-	{ "nf-md-email_seal", "\u{f195b}" },
-	{ "nf-md-email_seal_outline", "\u{f195c}" },
-	{ "nf-md-email_search", "\u{f0961}" },
-	{ "nf-md-email_search_outline", "\u{f0962}" },
-	{ "nf-md-email_send", "\u{f10dc}" },
-	{ "nf-md-email_send_outline", "\u{f10dd}" },
-	{ "nf-md-email_sync", "\u{f12c7}" },
-	{ "nf-md-email_sync_outline", "\u{f12c8}" },
-	{ "nf-md-email_variant", "\u{f05f0}" },
-	{ "nf-md-ember", "\u{f0b30}" },
-	{ "nf-md-emby", "\u{f06b4}" },
-	{ "nf-md-emoticon", "\u{f0c68}" },
-	{ "nf-md-emoticon_angry", "\u{f0c69}" },
-	{ "nf-md-emoticon_angry_outline", "\u{f0c6a}" },
-	{ "nf-md-emoticon_confused", "\u{f10de}" },
-	{ "nf-md-emoticon_confused_outline", "\u{f10df}" },
-	{ "nf-md-emoticon_cool", "\u{f0c6b}" },
-	{ "nf-md-emoticon_cool_outline", "\u{f01f3}" },
-	{ "nf-md-emoticon_cry", "\u{f0c6c}" },
-	{ "nf-md-emoticon_cry_outline", "\u{f0c6d}" },
-	{ "nf-md-emoticon_dead", "\u{f0c6e}" },
-	{ "nf-md-emoticon_dead_outline", "\u{f069b}" },
-	{ "nf-md-emoticon_devil", "\u{f0c6f}" },
-	{ "nf-md-emoticon_devil_outline", "\u{f01f4}" },
-	{ "nf-md-emoticon_excited", "\u{f0c70}" },
-	{ "nf-md-emoticon_excited_outline", "\u{f069c}" },
-	{ "nf-md-emoticon_frown", "\u{f0f4c}" },
-	{ "nf-md-emoticon_frown_outline", "\u{f0f4d}" },
-	{ "nf-md-emoticon_happy", "\u{f0c71}" },
-	{ "nf-md-emoticon_happy_outline", "\u{f01f5}" },
-	{ "nf-md-emoticon_kiss", "\u{f0c72}" },
-	{ "nf-md-emoticon_kiss_outline", "\u{f0c73}" },
-	{ "nf-md-emoticon_lol", "\u{f1214}" },
-	{ "nf-md-emoticon_lol_outline", "\u{f1215}" },
-	{ "nf-md-emoticon_neutral", "\u{f0c74}" },
-	{ "nf-md-emoticon_neutral_outline", "\u{f01f6}" },
-	{ "nf-md-emoticon_outline", "\u{f01f2}" },
-	{ "nf-md-emoticon_poop", "\u{f01f7}" },
-	{ "nf-md-emoticon_poop_outline", "\u{f0c75}" },
-	{ "nf-md-emoticon_sad", "\u{f0c76}" },
-	{ "nf-md-emoticon_sad_outline", "\u{f01f8}" },
-	{ "nf-md-emoticon_sick", "\u{f157c}" },
-	{ "nf-md-emoticon_sick_outline", "\u{f157d}" },
-	{ "nf-md-emoticon_tongue", "\u{f01f9}" },
-	{ "nf-md-emoticon_tongue_outline", "\u{f0c77}" },
-	{ "nf-md-emoticon_wink", "\u{f0c78}" },
-	{ "nf-md-emoticon_wink_outline", "\u{f0c79}" },
-	{ "nf-md-engine", "\u{f01fa}" },
-	{ "nf-md-engine_off", "\u{f0a46}" },
-	{ "nf-md-engine_off_outline", "\u{f0a47}" },
-	{ "nf-md-engine_outline", "\u{f01fb}" },
-	{ "nf-md-epsilon", "\u{f10e0}" },
-	{ "nf-md-equal", "\u{f01fc}" },
-	{ "nf-md-equal_box", "\u{f01fd}" },
-	{ "nf-md-equalizer", "\u{f0ea2}" },
-	{ "nf-md-equalizer_outline", "\u{f0ea3}" },
-	{ "nf-md-eraser", "\u{f01fe}" },
-	{ "nf-md-eraser_variant", "\u{f0642}" },
-	{ "nf-md-escalator", "\u{f01ff}" },
-	{ "nf-md-escalator_box", "\u{f1399}" },
-	{ "nf-md-escalator_down", "\u{f12c0}" },
-	{ "nf-md-escalator_up", "\u{f12bf}" },
-	{ "nf-md-eslint", "\u{f0c7a}" },
-	{ "nf-md-et", "\u{f0ab3}" },
-	{ "nf-md-ethereum", "\u{f086a}" },
-	{ "nf-md-ethernet", "\u{f0200}" },
-	{ "nf-md-ethernet_cable", "\u{f0201}" },
-	{ "nf-md-ethernet_cable_off", "\u{f0202}" },
-	{ "nf-md-ev_plug_ccs1", "\u{f1519}" },
-	{ "nf-md-ev_plug_ccs2", "\u{f151a}" },
-	{ "nf-md-ev_plug_chademo", "\u{f151b}" },
-	{ "nf-md-ev_plug_tesla", "\u{f151c}" },
-	{ "nf-md-ev_plug_type1", "\u{f151d}" },
-	{ "nf-md-ev_plug_type2", "\u{f151e}" },
-	{ "nf-md-ev_station", "\u{f05f1}" },
-	{ "nf-md-evernote", "\u{f0204}" },
-	{ "nf-md-excavator", "\u{f1025}" },
-	{ "nf-md-exclamation", "\u{f0205}" },
-	{ "nf-md-exclamation_thick", "\u{f1238}" },
-	{ "nf-md-exit_run", "\u{f0a48}" },
-	{ "nf-md-exit_to_app", "\u{f05fc}" },
-	{ "nf-md-expand_all", "\u{f0ab4}" },
-	{ "nf-md-expand_all_outline", "\u{f0ab5}" },
-	{ "nf-md-expansion_card", "\u{f08ae}" },
-	{ "nf-md-expansion_card_variant", "\u{f0fb2}" },
-	{ "nf-md-exponent", "\u{f0963}" },
-	{ "nf-md-exponent_box", "\u{f0964}" },
-	{ "nf-md-export", "\u{f0207}" },
-	{ "nf-md-export_variant", "\u{f0b93}" },
-	{ "nf-md-eye", "\u{f0208}" },
-	{ "nf-md-eye_arrow_left", "\u{f18fd}" },
-	{ "nf-md-eye_arrow_left_outline", "\u{f18fe}" },
-	{ "nf-md-eye_arrow_right", "\u{f18ff}" },
-	{ "nf-md-eye_arrow_right_outline", "\u{f1900}" },
-	{ "nf-md-eye_check", "\u{f0d04}" },
-	{ "nf-md-eye_check_outline", "\u{f0d05}" },
-	{ "nf-md-eye_circle", "\u{f0b94}" },
-	{ "nf-md-eye_circle_outline", "\u{f0b95}" },
-	{ "nf-md-eye_minus", "\u{f1026}" },
-	{ "nf-md-eye_minus_outline", "\u{f1027}" },
-	{ "nf-md-eye_off", "\u{f0209}" },
-	{ "nf-md-eye_off_outline", "\u{f06d1}" },
-	{ "nf-md-eye_outline", "\u{f06d0}" },
-	{ "nf-md-eye_plus", "\u{f086b}" },
-	{ "nf-md-eye_plus_outline", "\u{f086c}" },
-	{ "nf-md-eye_refresh", "\u{f197c}" },
-	{ "nf-md-eye_refresh_outline", "\u{f197d}" },
-	{ "nf-md-eye_remove", "\u{f15e3}" },
-	{ "nf-md-eye_remove_outline", "\u{f15e4}" },
-	{ "nf-md-eye_settings", "\u{f086d}" },
-	{ "nf-md-eye_settings_outline", "\u{f086e}" },
-	{ "nf-md-eyedropper", "\u{f020a}" },
-	{ "nf-md-eyedropper_minus", "\u{f13dd}" },
-	{ "nf-md-eyedropper_off", "\u{f13df}" },
-	{ "nf-md-eyedropper_plus", "\u{f13dc}" },
-	{ "nf-md-eyedropper_remove", "\u{f13de}" },
-	{ "nf-md-eyedropper_variant", "\u{f020b}" },
-	{ "nf-md-face_agent", "\u{f0d70}" },
-	{ "nf-md-face_man", "\u{f0643}" },
-	{ "nf-md-face_man_outline", "\u{f0b96}" },
-	{ "nf-md-face_man_profile", "\u{f0644}" },
-	{ "nf-md-face_man_shimmer", "\u{f15cc}" },
-	{ "nf-md-face_man_shimmer_outline", "\u{f15cd}" },
-	{ "nf-md-face_mask", "\u{f1586}" },
-	{ "nf-md-face_mask_outline", "\u{f1587}" },
-	{ "nf-md-face_recognition", "\u{f0c7b}" },
-	{ "nf-md-face_woman", "\u{f1077}" },
-	{ "nf-md-face_woman_outline", "\u{f1078}" },
-	{ "nf-md-face_woman_profile", "\u{f1076}" },
-	{ "nf-md-face_woman_shimmer", "\u{f15ce}" },
-	{ "nf-md-face_woman_shimmer_outline", "\u{f15cf}" },
-	{ "nf-md-facebook", "\u{f020c}" },
-	{ "nf-md-facebook_gaming", "\u{f07dd}" },
-	{ "nf-md-facebook_messenger", "\u{f020e}" },
-	{ "nf-md-facebook_workplace", "\u{f0b31}" },
-	{ "nf-md-factory", "\u{f020f}" },
-	{ "nf-md-family_tree", "\u{f160e}" },
-	{ "nf-md-fan", "\u{f0210}" },
-	{ "nf-md-fan_alert", "\u{f146c}" },
-	{ "nf-md-fan_auto", "\u{f171d}" },
-	{ "nf-md-fan_chevron_down", "\u{f146d}" },
-	{ "nf-md-fan_chevron_up", "\u{f146e}" },
-	{ "nf-md-fan_clock", "\u{f1a3a}" },
-	{ "nf-md-fan_minus", "\u{f1470}" },
-	{ "nf-md-fan_off", "\u{f081d}" },
-	{ "nf-md-fan_plus", "\u{f146f}" },
-	{ "nf-md-fan_remove", "\u{f1471}" },
-	{ "nf-md-fan_speed_1", "\u{f1472}" },
-	{ "nf-md-fan_speed_2", "\u{f1473}" },
-	{ "nf-md-fan_speed_3", "\u{f1474}" },
-	{ "nf-md-fast_forward", "\u{f0211}" },
-	{ "nf-md-fast_forward_10", "\u{f0d71}" },
-	{ "nf-md-fast_forward_15", "\u{f193a}" },
-	{ "nf-md-fast_forward_30", "\u{f0d06}" },
-	{ "nf-md-fast_forward_5", "\u{f11f8}" },
-	{ "nf-md-fast_forward_60", "\u{f160b}" },
-	{ "nf-md-fast_forward_outline", "\u{f06d2}" },
-	{ "nf-md-fax", "\u{f0212}" },
-	{ "nf-md-feather", "\u{f06d3}" },
-	{ "nf-md-feature_search", "\u{f0a49}" },
-	{ "nf-md-feature_search_outline", "\u{f0a4a}" },
-	{ "nf-md-fedora", "\u{f08db}" },
-	{ "nf-md-fence", "\u{f179a}" },
-	{ "nf-md-fence_electric", "\u{f17f6}" },
-	{ "nf-md-fencing", "\u{f14c1}" },
-	{ "nf-md-ferris_wheel", "\u{f0ea4}" },
-	{ "nf-md-ferry", "\u{f0213}" },
-	{ "nf-md-file", "\u{f0214}" },
-	{ "nf-md-file_account", "\u{f073b}" },
-	{ "nf-md-file_account_outline", "\u{f1028}" },
-	{ "nf-md-file_alert", "\u{f0a4b}" },
-	{ "nf-md-file_alert_outline", "\u{f0a4c}" },
-	{ "nf-md-file_arrow_left_right", "\u{f1a93}" },
-	{ "nf-md-file_arrow_left_right_outline", "\u{f1a94}" },
-	{ "nf-md-file_arrow_up_down", "\u{f1a95}" },
-	{ "nf-md-file_arrow_up_down_outline", "\u{f1a96}" },
-	{ "nf-md-file_cabinet", "\u{f0ab6}" },
-	{ "nf-md-file_cad", "\u{f0eeb}" },
-	{ "nf-md-file_cad_box", "\u{f0eec}" },
-	{ "nf-md-file_cancel", "\u{f0dc6}" },
-	{ "nf-md-file_cancel_outline", "\u{f0dc7}" },
-	{ "nf-md-file_certificate", "\u{f1186}" },
-	{ "nf-md-file_certificate_outline", "\u{f1187}" },
-	{ "nf-md-file_chart", "\u{f0215}" },
-	{ "nf-md-file_chart_check", "\u{f19c6}" },
-	{ "nf-md-file_chart_check_outline", "\u{f19c7}" },
-	{ "nf-md-file_chart_outline", "\u{f1029}" },
-	{ "nf-md-file_check", "\u{f0216}" },
-	{ "nf-md-file_check_outline", "\u{f0e29}" },
-	{ "nf-md-file_clock", "\u{f12e1}" },
-	{ "nf-md-file_clock_outline", "\u{f12e2}" },
-	{ "nf-md-file_cloud", "\u{f0217}" },
-	{ "nf-md-file_cloud_outline", "\u{f102a}" },
-	{ "nf-md-file_code", "\u{f022e}" },
-	{ "nf-md-file_code_outline", "\u{f102b}" },
-	{ "nf-md-file_cog", "\u{f107b}" },
-	{ "nf-md-file_cog_outline", "\u{f107c}" },
-	{ "nf-md-file_compare", "\u{f08aa}" },
-	{ "nf-md-file_delimited", "\u{f0218}" },
-	{ "nf-md-file_delimited_outline", "\u{f0ea5}" },
-	{ "nf-md-file_document", "\u{f0219}" },
-	{ "nf-md-file_document_alert", "\u{f1a97}" },
-	{ "nf-md-file_document_alert_outline", "\u{f1a98}" },
-	{ "nf-md-file_document_check", "\u{f1a99}" },
-	{ "nf-md-file_document_check_outline", "\u{f1a9a}" },
-	{ "nf-md-file_document_edit", "\u{f0dc8}" },
-	{ "nf-md-file_document_edit_outline", "\u{f0dc9}" },
-	{ "nf-md-file_document_minus", "\u{f1a9b}" },
-	{ "nf-md-file_document_minus_outline", "\u{f1a9c}" },
-	{ "nf-md-file_document_multiple", "\u{f1517}" },
-	{ "nf-md-file_document_multiple_outline", "\u{f1518}" },
-	{ "nf-md-file_document_outline", "\u{f09ee}" },
-	{ "nf-md-file_document_plus", "\u{f1a9d}" },
-	{ "nf-md-file_document_plus_outline", "\u{f1a9e}" },
-	{ "nf-md-file_document_remove", "\u{f1a9f}" },
-	{ "nf-md-file_document_remove_outline", "\u{f1aa0}" },
-	{ "nf-md-file_download", "\u{f0965}" },
-	{ "nf-md-file_download_outline", "\u{f0966}" },
-	{ "nf-md-file_edit", "\u{f11e7}" },
-	{ "nf-md-file_edit_outline", "\u{f11e8}" },
-	{ "nf-md-file_excel", "\u{f021b}" },
-	{ "nf-md-file_excel_box", "\u{f021c}" },
-	{ "nf-md-file_excel_box_outline", "\u{f102c}" },
-	{ "nf-md-file_excel_outline", "\u{f102d}" },
-	{ "nf-md-file_export", "\u{f021d}" },
-	{ "nf-md-file_export_outline", "\u{f102e}" },
-	{ "nf-md-file_eye", "\u{f0dca}" },
-	{ "nf-md-file_eye_outline", "\u{f0dcb}" },
-	{ "nf-md-file_find", "\u{f021e}" },
-	{ "nf-md-file_find_outline", "\u{f0b97}" },
-	{ "nf-md-file_gif_box", "\u{f0d78}" },
-	{ "nf-md-file_hidden", "\u{f0613}" },
-	{ "nf-md-file_image", "\u{f021f}" },
-	{ "nf-md-file_image_marker", "\u{f1772}" },
-	{ "nf-md-file_image_marker_outline", "\u{f1773}" },
-	{ "nf-md-file_image_minus", "\u{f193b}" },
-	{ "nf-md-file_image_minus_outline", "\u{f193c}" },
-	{ "nf-md-file_image_outline", "\u{f0eb0}" },
-	{ "nf-md-file_image_plus", "\u{f193d}" },
-	{ "nf-md-file_image_plus_outline", "\u{f193e}" },
-	{ "nf-md-file_image_remove", "\u{f193f}" },
-	{ "nf-md-file_image_remove_outline", "\u{f1940}" },
-	{ "nf-md-file_import", "\u{f0220}" },
-	{ "nf-md-file_import_outline", "\u{f102f}" },
-	{ "nf-md-file_jpg_box", "\u{f0225}" },
-	{ "nf-md-file_key", "\u{f1184}" },
-	{ "nf-md-file_key_outline", "\u{f1185}" },
-	{ "nf-md-file_link", "\u{f1177}" },
-	{ "nf-md-file_link_outline", "\u{f1178}" },
-	{ "nf-md-file_lock", "\u{f0221}" },
-	{ "nf-md-file_lock_open", "\u{f19c8}" },
-	{ "nf-md-file_lock_open_outline", "\u{f19c9}" },
-	{ "nf-md-file_lock_outline", "\u{f1030}" },
-	{ "nf-md-file_marker", "\u{f1774}" },
-	{ "nf-md-file_marker_outline", "\u{f1775}" },
-	{ "nf-md-file_minus", "\u{f1aa1}" },
-	{ "nf-md-file_minus_outline", "\u{f1aa2}" },
-	{ "nf-md-file_move", "\u{f0ab9}" },
-	{ "nf-md-file_move_outline", "\u{f1031}" },
-	{ "nf-md-file_multiple", "\u{f0222}" },
-	{ "nf-md-file_multiple_outline", "\u{f1032}" },
-	{ "nf-md-file_music", "\u{f0223}" },
-	{ "nf-md-file_music_outline", "\u{f0e2a}" },
-	{ "nf-md-file_outline", "\u{f0224}" },
-	{ "nf-md-file_pdf_box", "\u{f0226}" },
-	{ "nf-md-file_percent", "\u{f081e}" },
-	{ "nf-md-file_percent_outline", "\u{f1033}" },
-	{ "nf-md-file_phone", "\u{f1179}" },
-	{ "nf-md-file_phone_outline", "\u{f117a}" },
-	{ "nf-md-file_plus", "\u{f0752}" },
-	{ "nf-md-file_plus_outline", "\u{f0eed}" },
-	{ "nf-md-file_png_box", "\u{f0e2d}" },
-	{ "nf-md-file_powerpoint", "\u{f0227}" },
-	{ "nf-md-file_powerpoint_box", "\u{f0228}" },
-	{ "nf-md-file_powerpoint_box_outline", "\u{f1034}" },
-	{ "nf-md-file_powerpoint_outline", "\u{f1035}" },
-	{ "nf-md-file_presentation_box", "\u{f0229}" },
-	{ "nf-md-file_question", "\u{f086f}" },
-	{ "nf-md-file_question_outline", "\u{f1036}" },
-	{ "nf-md-file_refresh", "\u{f0918}" },
-	{ "nf-md-file_refresh_outline", "\u{f0541}" },
-	{ "nf-md-file_remove", "\u{f0b98}" },
-	{ "nf-md-file_remove_outline", "\u{f1037}" },
-	{ "nf-md-file_replace", "\u{f0b32}" },
-	{ "nf-md-file_replace_outline", "\u{f0b33}" },
-	{ "nf-md-file_restore", "\u{f0670}" },
-	{ "nf-md-file_restore_outline", "\u{f1038}" },
-	{ "nf-md-file_rotate_left", "\u{f1a3b}" },
-	{ "nf-md-file_rotate_left_outline", "\u{f1a3c}" },
-	{ "nf-md-file_rotate_right", "\u{f1a3d}" },
-	{ "nf-md-file_rotate_right_outline", "\u{f1a3e}" },
-	{ "nf-md-file_search", "\u{f0c7c}" },
-	{ "nf-md-file_search_outline", "\u{f0c7d}" },
-	{ "nf-md-file_send", "\u{f022a}" },
-	{ "nf-md-file_send_outline", "\u{f1039}" },
-	{ "nf-md-file_settings", "\u{f1079}" },
-	{ "nf-md-file_settings_outline", "\u{f107a}" },
-	{ "nf-md-file_sign", "\u{f19c3}" },
-	{ "nf-md-file_star", "\u{f103a}" },
-	{ "nf-md-file_star_outline", "\u{f103b}" },
-	{ "nf-md-file_swap", "\u{f0fb4}" },
-	{ "nf-md-file_swap_outline", "\u{f0fb5}" },
-	{ "nf-md-file_sync", "\u{f1216}" },
-	{ "nf-md-file_sync_outline", "\u{f1217}" },
-	{ "nf-md-file_table", "\u{f0c7e}" },
-	{ "nf-md-file_table_box", "\u{f10e1}" },
-	{ "nf-md-file_table_box_multiple", "\u{f10e2}" },
-	{ "nf-md-file_table_box_multiple_outline", "\u{f10e3}" },
-	{ "nf-md-file_table_box_outline", "\u{f10e4}" },
-	{ "nf-md-file_table_outline", "\u{f0c7f}" },
-	{ "nf-md-file_tree", "\u{f0645}" },
-	{ "nf-md-file_tree_outline", "\u{f13d2}" },
-	{ "nf-md-file_undo", "\u{f08dc}" },
-	{ "nf-md-file_undo_outline", "\u{f103c}" },
-	{ "nf-md-file_upload", "\u{f0a4d}" },
-	{ "nf-md-file_upload_outline", "\u{f0a4e}" },
-	{ "nf-md-file_video", "\u{f022b}" },
-	{ "nf-md-file_video_outline", "\u{f0e2c}" },
-	{ "nf-md-file_word", "\u{f022c}" },
-	{ "nf-md-file_word_box", "\u{f022d}" },
-	{ "nf-md-file_word_box_outline", "\u{f103d}" },
-	{ "nf-md-file_word_outline", "\u{f103e}" },
-	{ "nf-md-film", "\u{f022f}" },
-	{ "nf-md-filmstrip", "\u{f0230}" },
-	{ "nf-md-filmstrip_box", "\u{f0332}" },
-	{ "nf-md-filmstrip_box_multiple", "\u{f0d18}" },
-	{ "nf-md-filmstrip_off", "\u{f0231}" },
-	{ "nf-md-filter", "\u{f0232}" },
-	{ "nf-md-filter_check", "\u{f18ec}" },
-	{ "nf-md-filter_check_outline", "\u{f18ed}" },
-	{ "nf-md-filter_cog", "\u{f1aa3}" },
-	{ "nf-md-filter_cog_outline", "\u{f1aa4}" },
-	{ "nf-md-filter_menu", "\u{f10e5}" },
-	{ "nf-md-filter_menu_outline", "\u{f10e6}" },
-	{ "nf-md-filter_minus", "\u{f0eee}" },
-	{ "nf-md-filter_minus_outline", "\u{f0eef}" },
-	{ "nf-md-filter_multiple", "\u{f1a3f}" },
-	{ "nf-md-filter_multiple_outline", "\u{f1a40}" },
-	{ "nf-md-filter_off", "\u{f14ef}" },
-	{ "nf-md-filter_off_outline", "\u{f14f0}" },
-	{ "nf-md-filter_outline", "\u{f0233}" },
-	{ "nf-md-filter_plus", "\u{f0ef0}" },
-	{ "nf-md-filter_plus_outline", "\u{f0ef1}" },
-	{ "nf-md-filter_remove", "\u{f0234}" },
-	{ "nf-md-filter_remove_outline", "\u{f0235}" },
-	{ "nf-md-filter_settings", "\u{f1aa5}" },
-	{ "nf-md-filter_settings_outline", "\u{f1aa6}" },
-	{ "nf-md-filter_variant", "\u{f0236}" },
-	{ "nf-md-filter_variant_minus", "\u{f1112}" },
-	{ "nf-md-filter_variant_plus", "\u{f1113}" },
-	{ "nf-md-filter_variant_remove", "\u{f103f}" },
-	{ "nf-md-finance", "\u{f081f}" },
-	{ "nf-md-find_replace", "\u{f06d4}" },
-	{ "nf-md-fingerprint", "\u{f0237}" },
-	{ "nf-md-fingerprint_off", "\u{f0eb1}" },
-	{ "nf-md-fire", "\u{f0238}" },
-	{ "nf-md-fire_alert", "\u{f15d7}" },
-	{ "nf-md-fire_circle", "\u{f1807}" },
-	{ "nf-md-fire_extinguisher", "\u{f0ef2}" },
-	{ "nf-md-fire_hydrant", "\u{f1137}" },
-	{ "nf-md-fire_hydrant_alert", "\u{f1138}" },
-	{ "nf-md-fire_hydrant_off", "\u{f1139}" },
-	{ "nf-md-fire_off", "\u{f1722}" },
-	{ "nf-md-fire_truck", "\u{f08ab}" },
-	{ "nf-md-firebase", "\u{f0967}" },
-	{ "nf-md-firefox", "\u{f0239}" },
-	{ "nf-md-fireplace", "\u{f0e2e}" },
-	{ "nf-md-fireplace_off", "\u{f0e2f}" },
-	{ "nf-md-firewire", "\u{f05be}" },
-	{ "nf-md-firework", "\u{f0e30}" },
-	{ "nf-md-firework_off", "\u{f1723}" },
-	{ "nf-md-fish", "\u{f023a}" },
-	{ "nf-md-fish_off", "\u{f13f3}" },
-	{ "nf-md-fishbowl", "\u{f0ef3}" },
-	{ "nf-md-fishbowl_outline", "\u{f0ef4}" },
-	{ "nf-md-fit_to_page", "\u{f0ef5}" },
-	{ "nf-md-fit_to_page_outline", "\u{f0ef6}" },
-	{ "nf-md-fit_to_screen", "\u{f18f4}" },
-	{ "nf-md-fit_to_screen_outline", "\u{f18f5}" },
-	{ "nf-md-flag", "\u{f023b}" },
-	{ "nf-md-flag_checkered", "\u{f023c}" },
-	{ "nf-md-flag_minus", "\u{f0b99}" },
-	{ "nf-md-flag_minus_outline", "\u{f10b2}" },
-	{ "nf-md-flag_off", "\u{f18ee}" },
-	{ "nf-md-flag_off_outline", "\u{f18ef}" },
-	{ "nf-md-flag_outline", "\u{f023d}" },
-	{ "nf-md-flag_plus", "\u{f0b9a}" },
-	{ "nf-md-flag_plus_outline", "\u{f10b3}" },
-	{ "nf-md-flag_remove", "\u{f0b9b}" },
-	{ "nf-md-flag_remove_outline", "\u{f10b4}" },
-	{ "nf-md-flag_triangle", "\u{f023f}" },
-	{ "nf-md-flag_variant", "\u{f0240}" },
-	{ "nf-md-flag_variant_outline", "\u{f023e}" },
-	{ "nf-md-flare", "\u{f0d72}" },
-	{ "nf-md-flash", "\u{f0241}" },
-	{ "nf-md-flash_alert", "\u{f0ef7}" },
-	{ "nf-md-flash_alert_outline", "\u{f0ef8}" },
-	{ "nf-md-flash_auto", "\u{f0242}" },
-	{ "nf-md-flash_off", "\u{f0243}" },
-	{ "nf-md-flash_outline", "\u{f06d5}" },
-	{ "nf-md-flash_red_eye", "\u{f067b}" },
-	{ "nf-md-flashlight", "\u{f0244}" },
-	{ "nf-md-flashlight_off", "\u{f0245}" },
-	{ "nf-md-flask", "\u{f0093}" },
-	{ "nf-md-flask_empty", "\u{f0094}" },
-	{ "nf-md-flask_empty_minus", "\u{f123a}" },
-	{ "nf-md-flask_empty_minus_outline", "\u{f123b}" },
-	{ "nf-md-flask_empty_off", "\u{f13f4}" },
-	{ "nf-md-flask_empty_off_outline", "\u{f13f5}" },
-	{ "nf-md-flask_empty_outline", "\u{f0095}" },
-	{ "nf-md-flask_empty_plus", "\u{f123c}" },
-	{ "nf-md-flask_empty_plus_outline", "\u{f123d}" },
-	{ "nf-md-flask_empty_remove", "\u{f123e}" },
-	{ "nf-md-flask_empty_remove_outline", "\u{f123f}" },
-	{ "nf-md-flask_minus", "\u{f1240}" },
-	{ "nf-md-flask_minus_outline", "\u{f1241}" },
-	{ "nf-md-flask_off", "\u{f13f6}" },
-	{ "nf-md-flask_off_outline", "\u{f13f7}" },
-	{ "nf-md-flask_outline", "\u{f0096}" },
-	{ "nf-md-flask_plus", "\u{f1242}" },
-	{ "nf-md-flask_plus_outline", "\u{f1243}" },
-	{ "nf-md-flask_remove", "\u{f1244}" },
-	{ "nf-md-flask_remove_outline", "\u{f1245}" },
-	{ "nf-md-flask_round_bottom", "\u{f124b}" },
-	{ "nf-md-flask_round_bottom_empty", "\u{f124c}" },
-	{ "nf-md-flask_round_bottom_empty_outline", "\u{f124d}" },
-	{ "nf-md-flask_round_bottom_outline", "\u{f124e}" },
-	{ "nf-md-fleur_de_lis", "\u{f1303}" },
-	{ "nf-md-flip_horizontal", "\u{f10e7}" },
-	{ "nf-md-flip_to_back", "\u{f0247}" },
-	{ "nf-md-flip_to_front", "\u{f0248}" },
-	{ "nf-md-flip_vertical", "\u{f10e8}" },
-	{ "nf-md-floor_lamp", "\u{f08dd}" },
-	{ "nf-md-floor_lamp_dual", "\u{f1040}" },
-	{ "nf-md-floor_lamp_dual_outline", "\u{f17ce}" },
-	{ "nf-md-floor_lamp_outline", "\u{f17c8}" },
-	{ "nf-md-floor_lamp_torchiere", "\u{f1747}" },
-	{ "nf-md-floor_lamp_torchiere_outline", "\u{f17d6}" },
-	{ "nf-md-floor_lamp_torchiere_variant", "\u{f1041}" },
-	{ "nf-md-floor_lamp_torchiere_variant_outline", "\u{f17cf}" },
-	{ "nf-md-floor_plan", "\u{f0821}" },
-	{ "nf-md-floppy", "\u{f0249}" },
-	{ "nf-md-floppy_variant", "\u{f09ef}" },
-	{ "nf-md-flower", "\u{f024a}" },
-	{ "nf-md-flower_outline", "\u{f09f0}" },
-	{ "nf-md-flower_pollen", "\u{f1885}" },
-	{ "nf-md-flower_pollen_outline", "\u{f1886}" },
-	{ "nf-md-flower_poppy", "\u{f0d08}" },
-	{ "nf-md-flower_tulip", "\u{f09f1}" },
-	{ "nf-md-flower_tulip_outline", "\u{f09f2}" },
-	{ "nf-md-focus_auto", "\u{f0f4e}" },
-	{ "nf-md-focus_field", "\u{f0f4f}" },
-	{ "nf-md-focus_field_horizontal", "\u{f0f50}" },
-	{ "nf-md-focus_field_vertical", "\u{f0f51}" },
-	{ "nf-md-folder", "\u{f024b}" },
-	{ "nf-md-folder_account", "\u{f024c}" },
-	{ "nf-md-folder_account_outline", "\u{f0b9c}" },
-	{ "nf-md-folder_alert", "\u{f0dcc}" },
-	{ "nf-md-folder_alert_outline", "\u{f0dcd}" },
-	{ "nf-md-folder_arrow_down", "\u{f19e8}" },
-	{ "nf-md-folder_arrow_down_outline", "\u{f19e9}" },
-	{ "nf-md-folder_arrow_left", "\u{f19ea}" },
-	{ "nf-md-folder_arrow_left_outline", "\u{f19eb}" },
-	{ "nf-md-folder_arrow_left_right", "\u{f19ec}" },
-	{ "nf-md-folder_arrow_left_right_outline", "\u{f19ed}" },
-	{ "nf-md-folder_arrow_right", "\u{f19ee}" },
-	{ "nf-md-folder_arrow_right_outline", "\u{f19ef}" },
-	{ "nf-md-folder_arrow_up", "\u{f19f0}" },
-	{ "nf-md-folder_arrow_up_down", "\u{f19f1}" },
-	{ "nf-md-folder_arrow_up_down_outline", "\u{f19f2}" },
-	{ "nf-md-folder_arrow_up_outline", "\u{f19f3}" },
-	{ "nf-md-folder_cancel", "\u{f19f4}" },
-	{ "nf-md-folder_cancel_outline", "\u{f19f5}" },
-	{ "nf-md-folder_check", "\u{f197e}" },
-	{ "nf-md-folder_check_outline", "\u{f197f}" },
-	{ "nf-md-folder_clock", "\u{f0aba}" },
-	{ "nf-md-folder_clock_outline", "\u{f0abb}" },
-	{ "nf-md-folder_cog", "\u{f107f}" },
-	{ "nf-md-folder_cog_outline", "\u{f1080}" },
-	{ "nf-md-folder_download", "\u{f024d}" },
-	{ "nf-md-folder_download_outline", "\u{f10e9}" },
-	{ "nf-md-folder_edit", "\u{f08de}" },
-	{ "nf-md-folder_edit_outline", "\u{f0dce}" },
-	{ "nf-md-folder_eye", "\u{f178a}" },
-	{ "nf-md-folder_eye_outline", "\u{f178b}" },
-	{ "nf-md-folder_file", "\u{f19f6}" },
-	{ "nf-md-folder_file_outline", "\u{f19f7}" },
-	{ "nf-md-folder_google_drive", "\u{f024e}" },
-	{ "nf-md-folder_heart", "\u{f10ea}" },
-	{ "nf-md-folder_heart_outline", "\u{f10eb}" },
-	{ "nf-md-folder_hidden", "\u{f179e}" },
-	{ "nf-md-folder_home", "\u{f10b5}" },
-	{ "nf-md-folder_home_outline", "\u{f10b6}" },
-	{ "nf-md-folder_image", "\u{f024f}" },
-	{ "nf-md-folder_information", "\u{f10b7}" },
-	{ "nf-md-folder_information_outline", "\u{f10b8}" },
-	{ "nf-md-folder_key", "\u{f08ac}" },
-	{ "nf-md-folder_key_network", "\u{f08ad}" },
-	{ "nf-md-folder_key_network_outline", "\u{f0c80}" },
-	{ "nf-md-folder_key_outline", "\u{f10ec}" },
-	{ "nf-md-folder_lock", "\u{f0250}" },
-	{ "nf-md-folder_lock_open", "\u{f0251}" },
-	{ "nf-md-folder_lock_open_outline", "\u{f1aa7}" },
-	{ "nf-md-folder_lock_outline", "\u{f1aa8}" },
-	{ "nf-md-folder_marker", "\u{f126d}" },
-	{ "nf-md-folder_marker_outline", "\u{f126e}" },
-	{ "nf-md-folder_move", "\u{f0252}" },
-	{ "nf-md-folder_move_outline", "\u{f1246}" },
-	{ "nf-md-folder_multiple", "\u{f0253}" },
-	{ "nf-md-folder_multiple_image", "\u{f0254}" },
-	{ "nf-md-folder_multiple_outline", "\u{f0255}" },
-	{ "nf-md-folder_multiple_plus", "\u{f147e}" },
-	{ "nf-md-folder_multiple_plus_outline", "\u{f147f}" },
-	{ "nf-md-folder_music", "\u{f1359}" },
-	{ "nf-md-folder_music_outline", "\u{f135a}" },
-	{ "nf-md-folder_network", "\u{f0870}" },
-	{ "nf-md-folder_network_outline", "\u{f0c81}" },
-	{ "nf-md-folder_off", "\u{f19f8}" },
-	{ "nf-md-folder_off_outline", "\u{f19f9}" },
-	{ "nf-md-folder_open", "\u{f0770}" },
-	{ "nf-md-folder_open_outline", "\u{f0dcf}" },
-	{ "nf-md-folder_outline", "\u{f0256}" },
-	{ "nf-md-folder_play", "\u{f19fa}" },
-	{ "nf-md-folder_play_outline", "\u{f19fb}" },
-	{ "nf-md-folder_plus", "\u{f0257}" },
-	{ "nf-md-folder_plus_outline", "\u{f0b9d}" },
-	{ "nf-md-folder_pound", "\u{f0d09}" },
-	{ "nf-md-folder_pound_outline", "\u{f0d0a}" },
-	{ "nf-md-folder_question", "\u{f19ca}" },
-	{ "nf-md-folder_question_outline", "\u{f19cb}" },
-	{ "nf-md-folder_refresh", "\u{f0749}" },
-	{ "nf-md-folder_refresh_outline", "\u{f0542}" },
-	{ "nf-md-folder_remove", "\u{f0258}" },
-	{ "nf-md-folder_remove_outline", "\u{f0b9e}" },
-	{ "nf-md-folder_search", "\u{f0968}" },
-	{ "nf-md-folder_search_outline", "\u{f0969}" },
-	{ "nf-md-folder_settings", "\u{f107d}" },
-	{ "nf-md-folder_settings_outline", "\u{f107e}" },
-	{ "nf-md-folder_star", "\u{f069d}" },
-	{ "nf-md-folder_star_multiple", "\u{f13d3}" },
-	{ "nf-md-folder_star_multiple_outline", "\u{f13d4}" },
-	{ "nf-md-folder_star_outline", "\u{f0b9f}" },
-	{ "nf-md-folder_swap", "\u{f0fb6}" },
-	{ "nf-md-folder_swap_outline", "\u{f0fb7}" },
-	{ "nf-md-folder_sync", "\u{f0d0b}" },
-	{ "nf-md-folder_sync_outline", "\u{f0d0c}" },
-	{ "nf-md-folder_table", "\u{f12e3}" },
-	{ "nf-md-folder_table_outline", "\u{f12e4}" },
-	{ "nf-md-folder_text", "\u{f0c82}" },
-	{ "nf-md-folder_text_outline", "\u{f0c83}" },
-	{ "nf-md-folder_upload", "\u{f0259}" },
-	{ "nf-md-folder_upload_outline", "\u{f10ed}" },
-	{ "nf-md-folder_wrench", "\u{f19fc}" },
-	{ "nf-md-folder_wrench_outline", "\u{f19fd}" },
-	{ "nf-md-folder_zip", "\u{f06eb}" },
-	{ "nf-md-folder_zip_outline", "\u{f07b9}" },
-	{ "nf-md-font_awesome", "\u{f003a}" },
-	{ "nf-md-food", "\u{f025a}" },
-	{ "nf-md-food_apple", "\u{f025b}" },
-	{ "nf-md-food_apple_outline", "\u{f0c84}" },
-	{ "nf-md-food_croissant", "\u{f07c8}" },
-	{ "nf-md-food_drumstick", "\u{f141f}" },
-	{ "nf-md-food_drumstick_off", "\u{f1468}" },
-	{ "nf-md-food_drumstick_off_outline", "\u{f1469}" },
-	{ "nf-md-food_drumstick_outline", "\u{f1420}" },
-	{ "nf-md-food_fork_drink", "\u{f05f2}" },
-	{ "nf-md-food_halal", "\u{f1572}" },
-	{ "nf-md-food_hot_dog", "\u{f184b}" },
-	{ "nf-md-food_kosher", "\u{f1573}" },
-	{ "nf-md-food_off", "\u{f05f3}" },
-	{ "nf-md-food_off_outline", "\u{f1915}" },
-	{ "nf-md-food_outline", "\u{f1916}" },
-	{ "nf-md-food_steak", "\u{f146a}" },
-	{ "nf-md-food_steak_off", "\u{f146b}" },
-	{ "nf-md-food_takeout_box", "\u{f1836}" },
-	{ "nf-md-food_takeout_box_outline", "\u{f1837}" },
-	{ "nf-md-food_turkey", "\u{f171c}" },
-	{ "nf-md-food_variant", "\u{f025c}" },
-	{ "nf-md-food_variant_off", "\u{f13e5}" },
-	{ "nf-md-foot_print", "\u{f0f52}" },
-	{ "nf-md-football", "\u{f025d}" },
-	{ "nf-md-football_australian", "\u{f025e}" },
-	{ "nf-md-football_helmet", "\u{f025f}" },
-	{ "nf-md-forest", "\u{f1897}" },
-	{ "nf-md-forklift", "\u{f07c9}" },
-	{ "nf-md-form_dropdown", "\u{f1400}" },
-	{ "nf-md-form_select", "\u{f1401}" },
-	{ "nf-md-form_textarea", "\u{f1095}" },
-	{ "nf-md-form_textbox", "\u{f060e}" },
-	{ "nf-md-form_textbox_lock", "\u{f135d}" },
-	{ "nf-md-form_textbox_password", "\u{f07f5}" },
-	{ "nf-md-format_align_bottom", "\u{f0753}" },
-	{ "nf-md-format_align_center", "\u{f0260}" },
-	{ "nf-md-format_align_justify", "\u{f0261}" },
-	{ "nf-md-format_align_left", "\u{f0262}" },
-	{ "nf-md-format_align_middle", "\u{f0754}" },
-	{ "nf-md-format_align_right", "\u{f0263}" },
-	{ "nf-md-format_align_top", "\u{f0755}" },
-	{ "nf-md-format_annotation_minus", "\u{f0abc}" },
-	{ "nf-md-format_annotation_plus", "\u{f0646}" },
-	{ "nf-md-format_bold", "\u{f0264}" },
-	{ "nf-md-format_clear", "\u{f0265}" },
-	{ "nf-md-format_color_fill", "\u{f0266}" },
-	{ "nf-md-format_color_highlight", "\u{f0e31}" },
-	{ "nf-md-format_color_marker_cancel", "\u{f1313}" },
-	{ "nf-md-format_color_text", "\u{f069e}" },
-	{ "nf-md-format_columns", "\u{f08df}" },
-	{ "nf-md-format_float_center", "\u{f0267}" },
-	{ "nf-md-format_float_left", "\u{f0268}" },
-	{ "nf-md-format_float_none", "\u{f0269}" },
-	{ "nf-md-format_float_right", "\u{f026a}" },
-	{ "nf-md-format_font", "\u{f06d6}" },
-	{ "nf-md-format_font_size_decrease", "\u{f09f3}" },
-	{ "nf-md-format_font_size_increase", "\u{f09f4}" },
-	{ "nf-md-format_header_1", "\u{f026b}" },
-	{ "nf-md-format_header_2", "\u{f026c}" },
-	{ "nf-md-format_header_3", "\u{f026d}" },
-	{ "nf-md-format_header_4", "\u{f026e}" },
-	{ "nf-md-format_header_5", "\u{f026f}" },
-	{ "nf-md-format_header_6", "\u{f0270}" },
-	{ "nf-md-format_header_decrease", "\u{f0271}" },
-	{ "nf-md-format_header_equal", "\u{f0272}" },
-	{ "nf-md-format_header_increase", "\u{f0273}" },
-	{ "nf-md-format_header_pound", "\u{f0274}" },
-	{ "nf-md-format_horizontal_align_center", "\u{f061e}" },
-	{ "nf-md-format_horizontal_align_left", "\u{f061f}" },
-	{ "nf-md-format_horizontal_align_right", "\u{f0620}" },
-	{ "nf-md-format_indent_decrease", "\u{f0275}" },
-	{ "nf-md-format_indent_increase", "\u{f0276}" },
-	{ "nf-md-format_italic", "\u{f0277}" },
-	{ "nf-md-format_letter_case", "\u{f0b34}" },
-	{ "nf-md-format_letter_case_lower", "\u{f0b35}" },
-	{ "nf-md-format_letter_case_upper", "\u{f0b36}" },
-	{ "nf-md-format_letter_ends_with", "\u{f0fb8}" },
-	{ "nf-md-format_letter_matches", "\u{f0fb9}" },
-	{ "nf-md-format_letter_spacing", "\u{f1956}" },
-	{ "nf-md-format_letter_starts_with", "\u{f0fba}" },
-	{ "nf-md-format_line_spacing", "\u{f0278}" },
-	{ "nf-md-format_line_style", "\u{f05c8}" },
-	{ "nf-md-format_line_weight", "\u{f05c9}" },
-	{ "nf-md-format_list_bulleted", "\u{f0279}" },
-	{ "nf-md-format_list_bulleted_square", "\u{f0dd0}" },
-	{ "nf-md-format_list_bulleted_triangle", "\u{f0eb2}" },
-	{ "nf-md-format_list_bulleted_type", "\u{f027a}" },
-	{ "nf-md-format_list_checkbox", "\u{f096a}" },
-	{ "nf-md-format_list_checks", "\u{f0756}" },
-	{ "nf-md-format_list_group", "\u{f1860}" },
-	{ "nf-md-format_list_numbered", "\u{f027b}" },
-	{ "nf-md-format_list_numbered_rtl", "\u{f0d0d}" },
-	{ "nf-md-format_list_text", "\u{f126f}" },
-	{ "nf-md-format_overline", "\u{f0eb3}" },
-	{ "nf-md-format_page_break", "\u{f06d7}" },
-	{ "nf-md-format_page_split", "\u{f1917}" },
-	{ "nf-md-format_paint", "\u{f027c}" },
-	{ "nf-md-format_paragraph", "\u{f027d}" },
-	{ "nf-md-format_pilcrow", "\u{f06d8}" },
-	{ "nf-md-format_quote_close", "\u{f027e}" },
-	{ "nf-md-format_quote_close_outline", "\u{f11a8}" },
-	{ "nf-md-format_quote_open", "\u{f0757}" },
-	{ "nf-md-format_quote_open_outline", "\u{f11a7}" },
-	{ "nf-md-format_rotate_90", "\u{f06aa}" },
-	{ "nf-md-format_section", "\u{f069f}" },
-	{ "nf-md-format_size", "\u{f027f}" },
-	{ "nf-md-format_strikethrough", "\u{f0280}" },
-	{ "nf-md-format_strikethrough_variant", "\u{f0281}" },
-	{ "nf-md-format_subscript", "\u{f0282}" },
-	{ "nf-md-format_superscript", "\u{f0283}" },
-	{ "nf-md-format_text", "\u{f0284}" },
-	{ "nf-md-format_text_rotation_angle_down", "\u{f0fbb}" },
-	{ "nf-md-format_text_rotation_angle_up", "\u{f0fbc}" },
-	{ "nf-md-format_text_rotation_down", "\u{f0d73}" },
-	{ "nf-md-format_text_rotation_down_vertical", "\u{f0fbd}" },
-	{ "nf-md-format_text_rotation_none", "\u{f0d74}" },
-	{ "nf-md-format_text_rotation_up", "\u{f0fbe}" },
-	{ "nf-md-format_text_rotation_vertical", "\u{f0fbf}" },
-	{ "nf-md-format_text_variant", "\u{f0e32}" },
-	{ "nf-md-format_text_variant_outline", "\u{f150f}" },
-	{ "nf-md-format_text_wrapping_clip", "\u{f0d0e}" },
-	{ "nf-md-format_text_wrapping_overflow", "\u{f0d0f}" },
-	{ "nf-md-format_text_wrapping_wrap", "\u{f0d10}" },
-	{ "nf-md-format_textbox", "\u{f0d11}" },
-	{ "nf-md-format_textdirection_l_to_r", "\u{f0285}" },
-	{ "nf-md-format_textdirection_r_to_l", "\u{f0286}" },
-	{ "nf-md-format_title", "\u{f05f4}" },
-	{ "nf-md-format_underline", "\u{f0287}" },
-	{ "nf-md-format_underline_wavy", "\u{f18e9}" },
-	{ "nf-md-format_vertical_align_bottom", "\u{f0621}" },
-	{ "nf-md-format_vertical_align_center", "\u{f0622}" },
-	{ "nf-md-format_vertical_align_top", "\u{f0623}" },
-	{ "nf-md-format_wrap_inline", "\u{f0288}" },
-	{ "nf-md-format_wrap_square", "\u{f0289}" },
-	{ "nf-md-format_wrap_tight", "\u{f028a}" },
-	{ "nf-md-format_wrap_top_bottom", "\u{f028b}" },
-	{ "nf-md-forum", "\u{f028c}" },
-	{ "nf-md-forum_minus", "\u{f1aa9}" },
-	{ "nf-md-forum_minus_outline", "\u{f1aaa}" },
-	{ "nf-md-forum_outline", "\u{f0822}" },
-	{ "nf-md-forum_plus", "\u{f1aab}" },
-	{ "nf-md-forum_plus_outline", "\u{f1aac}" },
-	{ "nf-md-forum_remove", "\u{f1aad}" },
-	{ "nf-md-forum_remove_outline", "\u{f1aae}" },
-	{ "nf-md-forward", "\u{f028d}" },
-	{ "nf-md-forwardburger", "\u{f0d75}" },
-	{ "nf-md-fountain", "\u{f096b}" },
-	{ "nf-md-fountain_pen", "\u{f0d12}" },
-	{ "nf-md-fountain_pen_tip", "\u{f0d13}" },
-	{ "nf-md-fraction_one_half", "\u{f1992}" },
-	{ "nf-md-freebsd", "\u{f08e0}" },
-	{ "nf-md-french_fries", "\u{f1957}" },
-	{ "nf-md-frequently_asked_questions", "\u{f0eb4}" },
-	{ "nf-md-fridge", "\u{f0290}" },
-	{ "nf-md-fridge_alert", "\u{f11b1}" },
-	{ "nf-md-fridge_alert_outline", "\u{f11b2}" },
-	{ "nf-md-fridge_bottom", "\u{f0292}" },
-	{ "nf-md-fridge_industrial", "\u{f15ee}" },
-	{ "nf-md-fridge_industrial_alert", "\u{f15ef}" },
-	{ "nf-md-fridge_industrial_alert_outline", "\u{f15f0}" },
-	{ "nf-md-fridge_industrial_off", "\u{f15f1}" },
-	{ "nf-md-fridge_industrial_off_outline", "\u{f15f2}" },
-	{ "nf-md-fridge_industrial_outline", "\u{f15f3}" },
-	{ "nf-md-fridge_off", "\u{f11af}" },
-	{ "nf-md-fridge_off_outline", "\u{f11b0}" },
-	{ "nf-md-fridge_outline", "\u{f028f}" },
-	{ "nf-md-fridge_top", "\u{f0291}" },
-	{ "nf-md-fridge_variant", "\u{f15f4}" },
-	{ "nf-md-fridge_variant_alert", "\u{f15f5}" },
-	{ "nf-md-fridge_variant_alert_outline", "\u{f15f6}" },
-	{ "nf-md-fridge_variant_off", "\u{f15f7}" },
-	{ "nf-md-fridge_variant_off_outline", "\u{f15f8}" },
-	{ "nf-md-fridge_variant_outline", "\u{f15f9}" },
-	{ "nf-md-fruit_cherries", "\u{f1042}" },
-	{ "nf-md-fruit_cherries_off", "\u{f13f8}" },
-	{ "nf-md-fruit_citrus", "\u{f1043}" },
-	{ "nf-md-fruit_citrus_off", "\u{f13f9}" },
-	{ "nf-md-fruit_grapes", "\u{f1044}" },
-	{ "nf-md-fruit_grapes_outline", "\u{f1045}" },
-	{ "nf-md-fruit_pear", "\u{f1a0e}" },
-	{ "nf-md-fruit_pineapple", "\u{f1046}" },
-	{ "nf-md-fruit_watermelon", "\u{f1047}" },
-	{ "nf-md-fuel", "\u{f07ca}" },
-	{ "nf-md-fuel_cell", "\u{f18b5}" },
-	{ "nf-md-fullscreen", "\u{f0293}" },
-	{ "nf-md-fullscreen_exit", "\u{f0294}" },
-	{ "nf-md-function", "\u{f0295}" },
-	{ "nf-md-function_variant", "\u{f0871}" },
-	{ "nf-md-furigana_horizontal", "\u{f1081}" },
-	{ "nf-md-furigana_vertical", "\u{f1082}" },
-	{ "nf-md-fuse", "\u{f0c85}" },
-	{ "nf-md-fuse_alert", "\u{f142d}" },
-	{ "nf-md-fuse_blade", "\u{f0c86}" },
-	{ "nf-md-fuse_off", "\u{f142c}" },
-	{ "nf-md-gamepad", "\u{f0296}" },
-	{ "nf-md-gamepad_circle", "\u{f0e33}" },
-	{ "nf-md-gamepad_circle_down", "\u{f0e34}" },
-	{ "nf-md-gamepad_circle_left", "\u{f0e35}" },
-	{ "nf-md-gamepad_circle_outline", "\u{f0e36}" },
-	{ "nf-md-gamepad_circle_right", "\u{f0e37}" },
-	{ "nf-md-gamepad_circle_up", "\u{f0e38}" },
-	{ "nf-md-gamepad_down", "\u{f0e39}" },
-	{ "nf-md-gamepad_left", "\u{f0e3a}" },
-	{ "nf-md-gamepad_outline", "\u{f1919}" },
-	{ "nf-md-gamepad_right", "\u{f0e3b}" },
-	{ "nf-md-gamepad_round", "\u{f0e3c}" },
-	{ "nf-md-gamepad_round_down", "\u{f0e3d}" },
-	{ "nf-md-gamepad_round_left", "\u{f0e3e}" },
-	{ "nf-md-gamepad_round_outline", "\u{f0e3f}" },
-	{ "nf-md-gamepad_round_right", "\u{f0e40}" },
-	{ "nf-md-gamepad_round_up", "\u{f0e41}" },
-	{ "nf-md-gamepad_square", "\u{f0eb5}" },
-	{ "nf-md-gamepad_square_outline", "\u{f0eb6}" },
-	{ "nf-md-gamepad_up", "\u{f0e42}" },
-	{ "nf-md-gamepad_variant", "\u{f0297}" },
-	{ "nf-md-gamepad_variant_outline", "\u{f0eb7}" },
-	{ "nf-md-gamma", "\u{f10ee}" },
-	{ "nf-md-gantry_crane", "\u{f0dd1}" },
-	{ "nf-md-garage", "\u{f06d9}" },
-	{ "nf-md-garage_alert", "\u{f0872}" },
-	{ "nf-md-garage_alert_variant", "\u{f12d5}" },
-	{ "nf-md-garage_lock", "\u{f17fb}" },
-	{ "nf-md-garage_open", "\u{f06da}" },
-	{ "nf-md-garage_open_variant", "\u{f12d4}" },
-	{ "nf-md-garage_variant", "\u{f12d3}" },
-	{ "nf-md-garage_variant_lock", "\u{f17fc}" },
-	{ "nf-md-gas_burner", "\u{f1a1b}" },
-	{ "nf-md-gas_cylinder", "\u{f0647}" },
-	{ "nf-md-gas_station", "\u{f0298}" },
-	{ "nf-md-gas_station_off", "\u{f1409}" },
-	{ "nf-md-gas_station_off_outline", "\u{f140a}" },
-	{ "nf-md-gas_station_outline", "\u{f0eb8}" },
-	{ "nf-md-gate", "\u{f0299}" },
-	{ "nf-md-gate_alert", "\u{f17f8}" },
-	{ "nf-md-gate_and", "\u{f08e1}" },
-	{ "nf-md-gate_arrow_left", "\u{f17f7}" },
-	{ "nf-md-gate_arrow_right", "\u{f1169}" },
-	{ "nf-md-gate_nand", "\u{f08e2}" },
-	{ "nf-md-gate_nor", "\u{f08e3}" },
-	{ "nf-md-gate_not", "\u{f08e4}" },
-	{ "nf-md-gate_open", "\u{f116a}" },
-	{ "nf-md-gate_or", "\u{f08e5}" },
-	{ "nf-md-gate_xnor", "\u{f08e6}" },
-	{ "nf-md-gate_xor", "\u{f08e7}" },
-	{ "nf-md-gatsby", "\u{f0e43}" },
-	{ "nf-md-gauge", "\u{f029a}" },
-	{ "nf-md-gauge_empty", "\u{f0873}" },
-	{ "nf-md-gauge_full", "\u{f0874}" },
-	{ "nf-md-gauge_low", "\u{f0875}" },
-	{ "nf-md-gavel", "\u{f029b}" },
-	{ "nf-md-gender_female", "\u{f029c}" },
-	{ "nf-md-gender_male", "\u{f029d}" },
-	{ "nf-md-gender_male_female", "\u{f029e}" },
-	{ "nf-md-gender_male_female_variant", "\u{f113f}" },
-	{ "nf-md-gender_non_binary", "\u{f1140}" },
-	{ "nf-md-gender_transgender", "\u{f029f}" },
-	{ "nf-md-gentoo", "\u{f08e8}" },
-	{ "nf-md-gesture", "\u{f07cb}" },
-	{ "nf-md-gesture_double_tap", "\u{f073c}" },
-	{ "nf-md-gesture_pinch", "\u{f0abd}" },
-	{ "nf-md-gesture_spread", "\u{f0abe}" },
-	{ "nf-md-gesture_swipe", "\u{f0d76}" },
-	{ "nf-md-gesture_swipe_down", "\u{f073d}" },
-	{ "nf-md-gesture_swipe_horizontal", "\u{f0abf}" },
-	{ "nf-md-gesture_swipe_left", "\u{f073e}" },
-	{ "nf-md-gesture_swipe_right", "\u{f073f}" },
-	{ "nf-md-gesture_swipe_up", "\u{f0740}" },
-	{ "nf-md-gesture_swipe_vertical", "\u{f0ac0}" },
-	{ "nf-md-gesture_tap", "\u{f0741}" },
-	{ "nf-md-gesture_tap_box", "\u{f12a9}" },
-	{ "nf-md-gesture_tap_button", "\u{f12a8}" },
-	{ "nf-md-gesture_tap_hold", "\u{f0d77}" },
-	{ "nf-md-gesture_two_double_tap", "\u{f0742}" },
-	{ "nf-md-gesture_two_tap", "\u{f0743}" },
-	{ "nf-md-ghost", "\u{f02a0}" },
-	{ "nf-md-ghost_off", "\u{f09f5}" },
-	{ "nf-md-ghost_off_outline", "\u{f165c}" },
-	{ "nf-md-ghost_outline", "\u{f165d}" },
-	{ "nf-md-gift", "\u{f0e44}" },
-	{ "nf-md-gift_off", "\u{f16ef}" },
-	{ "nf-md-gift_off_outline", "\u{f16f0}" },
-	{ "nf-md-gift_open", "\u{f16f1}" },
-	{ "nf-md-gift_open_outline", "\u{f16f2}" },
-	{ "nf-md-gift_outline", "\u{f02a1}" },
-	{ "nf-md-git", "\u{f02a2}" },
-	{ "nf-md-github", "\u{f02a4}" },
-	{ "nf-md-gitlab", "\u{f0ba0}" },
-	{ "nf-md-glass_cocktail", "\u{f0356}" },
-	{ "nf-md-glass_cocktail_off", "\u{f15e6}" },
-	{ "nf-md-glass_flute", "\u{f02a5}" },
-	{ "nf-md-glass_fragile", "\u{f1873}" },
-	{ "nf-md-glass_mug", "\u{f02a6}" },
-	{ "nf-md-glass_mug_off", "\u{f15e7}" },
-	{ "nf-md-glass_mug_variant", "\u{f1116}" },
-	{ "nf-md-glass_mug_variant_off", "\u{f15e8}" },
-	{ "nf-md-glass_pint_outline", "\u{f130d}" },
-	{ "nf-md-glass_stange", "\u{f02a7}" },
-	{ "nf-md-glass_tulip", "\u{f02a8}" },
-	{ "nf-md-glass_wine", "\u{f0876}" },
-	{ "nf-md-glasses", "\u{f02aa}" },
-	{ "nf-md-globe_light", "\u{f12d7}" },
-	{ "nf-md-globe_model", "\u{f08e9}" },
-	{ "nf-md-gmail", "\u{f02ab}" },
-	{ "nf-md-gnome", "\u{f02ac}" },
-	{ "nf-md-go_kart", "\u{f0d79}" },
-	{ "nf-md-go_kart_track", "\u{f0d7a}" },
-	{ "nf-md-gog", "\u{f0ba1}" },
-	{ "nf-md-gold", "\u{f124f}" },
-	{ "nf-md-golf", "\u{f0823}" },
-	{ "nf-md-golf_cart", "\u{f11a4}" },
-	{ "nf-md-golf_tee", "\u{f1083}" },
-	{ "nf-md-gondola", "\u{f0686}" },
-	{ "nf-md-goodreads", "\u{f0d7b}" },
-	{ "nf-md-google", "\u{f02ad}" },
-	{ "nf-md-google_ads", "\u{f0c87}" },
-	{ "nf-md-google_analytics", "\u{f07cc}" },
-	{ "nf-md-google_assistant", "\u{f07cd}" },
-	{ "nf-md-google_cardboard", "\u{f02ae}" },
-	{ "nf-md-google_chrome", "\u{f02af}" },
-	{ "nf-md-google_circles", "\u{f02b0}" },
-	{ "nf-md-google_circles_communities", "\u{f02b1}" },
-	{ "nf-md-google_circles_extended", "\u{f02b2}" },
-	{ "nf-md-google_circles_group", "\u{f02b3}" },
-	{ "nf-md-google_classroom", "\u{f02c0}" },
-	{ "nf-md-google_cloud", "\u{f11f6}" },
-	{ "nf-md-google_controller", "\u{f02b4}" },
-	{ "nf-md-google_controller_off", "\u{f02b5}" },
-	{ "nf-md-google_downasaur", "\u{f1362}" },
-	{ "nf-md-google_drive", "\u{f02b6}" },
-	{ "nf-md-google_earth", "\u{f02b7}" },
-	{ "nf-md-google_fit", "\u{f096c}" },
-	{ "nf-md-google_glass", "\u{f02b8}" },
-	{ "nf-md-google_hangouts", "\u{f02c9}" },
-	{ "nf-md-google_home", "\u{f0824}" },
-	{ "nf-md-google_keep", "\u{f06dc}" },
-	{ "nf-md-google_lens", "\u{f09f6}" },
-	{ "nf-md-google_maps", "\u{f05f5}" },
-	{ "nf-md-google_my_business", "\u{f1048}" },
-	{ "nf-md-google_nearby", "\u{f02b9}" },
-	{ "nf-md-google_play", "\u{f02bc}" },
-	{ "nf-md-google_plus", "\u{f02bd}" },
-	{ "nf-md-google_podcast", "\u{f0eb9}" },
-	{ "nf-md-google_spreadsheet", "\u{f09f7}" },
-	{ "nf-md-google_street_view", "\u{f0c88}" },
-	{ "nf-md-google_translate", "\u{f02bf}" },
-	{ "nf-md-gradient_horizontal", "\u{f174a}" },
-	{ "nf-md-gradient_vertical", "\u{f06a0}" },
-	{ "nf-md-grain", "\u{f0d7c}" },
-	{ "nf-md-graph", "\u{f1049}" },
-	{ "nf-md-graph_outline", "\u{f104a}" },
-	{ "nf-md-graphql", "\u{f0877}" },
-	{ "nf-md-grass", "\u{f1510}" },
-	{ "nf-md-grave_stone", "\u{f0ba2}" },
-	{ "nf-md-grease_pencil", "\u{f0648}" },
-	{ "nf-md-greater_than", "\u{f096d}" },
-	{ "nf-md-greater_than_or_equal", "\u{f096e}" },
-	{ "nf-md-greenhouse", "\u{f002d}" },
-	{ "nf-md-grid", "\u{f02c1}" },
-	{ "nf-md-grid_large", "\u{f0758}" },
-	{ "nf-md-grid_off", "\u{f02c2}" },
-	{ "nf-md-grill", "\u{f0e45}" },
-	{ "nf-md-grill_outline", "\u{f118a}" },
-	{ "nf-md-group", "\u{f02c3}" },
-	{ "nf-md-guitar_acoustic", "\u{f0771}" },
-	{ "nf-md-guitar_electric", "\u{f02c4}" },
-	{ "nf-md-guitar_pick", "\u{f02c5}" },
-	{ "nf-md-guitar_pick_outline", "\u{f02c6}" },
-	{ "nf-md-guy_fawkes_mask", "\u{f0825}" },
-	{ "nf-md-gymnastics", "\u{f1a41}" },
-	{ "nf-md-hail", "\u{f0ac1}" },
-	{ "nf-md-hair_dryer", "\u{f10ef}" },
-	{ "nf-md-hair_dryer_outline", "\u{f10f0}" },
-	{ "nf-md-halloween", "\u{f0ba3}" },
-	{ "nf-md-hamburger", "\u{f0685}" },
-	{ "nf-md-hamburger_check", "\u{f1776}" },
-	{ "nf-md-hamburger_minus", "\u{f1777}" },
-	{ "nf-md-hamburger_off", "\u{f1778}" },
-	{ "nf-md-hamburger_plus", "\u{f1779}" },
-	{ "nf-md-hamburger_remove", "\u{f177a}" },
-	{ "nf-md-hammer", "\u{f08ea}" },
-	{ "nf-md-hammer_screwdriver", "\u{f1322}" },
-	{ "nf-md-hammer_sickle", "\u{f1887}" },
-	{ "nf-md-hammer_wrench", "\u{f1323}" },
-	{ "nf-md-hand_back_left", "\u{f0e46}" },
-	{ "nf-md-hand_back_left_off", "\u{f1830}" },
-	{ "nf-md-hand_back_left_off_outline", "\u{f1832}" },
-	{ "nf-md-hand_back_left_outline", "\u{f182c}" },
-	{ "nf-md-hand_back_right", "\u{f0e47}" },
-	{ "nf-md-hand_back_right_off", "\u{f1831}" },
-	{ "nf-md-hand_back_right_off_outline", "\u{f1833}" },
-	{ "nf-md-hand_back_right_outline", "\u{f182d}" },
-	{ "nf-md-hand_clap", "\u{f194b}" },
-	{ "nf-md-hand_clap_off", "\u{f1a42}" },
-	{ "nf-md-hand_coin", "\u{f188f}" },
-	{ "nf-md-hand_coin_outline", "\u{f1890}" },
-	{ "nf-md-hand_extended", "\u{f18b6}" },
-	{ "nf-md-hand_extended_outline", "\u{f18b7}" },
-	{ "nf-md-hand_front_left", "\u{f182b}" },
-	{ "nf-md-hand_front_left_outline", "\u{f182e}" },
-	{ "nf-md-hand_front_right", "\u{f0a4f}" },
-	{ "nf-md-hand_front_right_outline", "\u{f182f}" },
-	{ "nf-md-hand_heart", "\u{f10f1}" },
-	{ "nf-md-hand_heart_outline", "\u{f157e}" },
-	{ "nf-md-hand_okay", "\u{f0a50}" },
-	{ "nf-md-hand_peace", "\u{f0a51}" },
-	{ "nf-md-hand_peace_variant", "\u{f0a52}" },
-	{ "nf-md-hand_pointing_down", "\u{f0a53}" },
-	{ "nf-md-hand_pointing_left", "\u{f0a54}" },
-	{ "nf-md-hand_pointing_right", "\u{f02c7}" },
-	{ "nf-md-hand_pointing_up", "\u{f0a55}" },
-	{ "nf-md-hand_saw", "\u{f0e48}" },
-	{ "nf-md-hand_wash", "\u{f157f}" },
-	{ "nf-md-hand_wash_outline", "\u{f1580}" },
-	{ "nf-md-hand_water", "\u{f139f}" },
-	{ "nf-md-hand_wave", "\u{f1821}" },
-	{ "nf-md-hand_wave_outline", "\u{f1822}" },
-	{ "nf-md-handball", "\u{f0f53}" },
-	{ "nf-md-handcuffs", "\u{f113e}" },
-	{ "nf-md-hands_pray", "\u{f0579}" },
-	{ "nf-md-handshake", "\u{f1218}" },
-	{ "nf-md-handshake_outline", "\u{f15a1}" },
-	{ "nf-md-hanger", "\u{f02c8}" },
-	{ "nf-md-hard_hat", "\u{f096f}" },
-	{ "nf-md-harddisk", "\u{f02ca}" },
-	{ "nf-md-harddisk_plus", "\u{f104b}" },
-	{ "nf-md-harddisk_remove", "\u{f104c}" },
-	{ "nf-md-hat_fedora", "\u{f0ba4}" },
-	{ "nf-md-hazard_lights", "\u{f0c89}" },
-	{ "nf-md-hdr", "\u{f0d7d}" },
-	{ "nf-md-hdr_off", "\u{f0d7e}" },
-	{ "nf-md-head", "\u{f135e}" },
-	{ "nf-md-head_alert", "\u{f1338}" },
-	{ "nf-md-head_alert_outline", "\u{f1339}" },
-	{ "nf-md-head_check", "\u{f133a}" },
-	{ "nf-md-head_check_outline", "\u{f133b}" },
-	{ "nf-md-head_cog", "\u{f133c}" },
-	{ "nf-md-head_cog_outline", "\u{f133d}" },
-	{ "nf-md-head_dots_horizontal", "\u{f133e}" },
-	{ "nf-md-head_dots_horizontal_outline", "\u{f133f}" },
-	{ "nf-md-head_flash", "\u{f1340}" },
-	{ "nf-md-head_flash_outline", "\u{f1341}" },
-	{ "nf-md-head_heart", "\u{f1342}" },
-	{ "nf-md-head_heart_outline", "\u{f1343}" },
-	{ "nf-md-head_lightbulb", "\u{f1344}" },
-	{ "nf-md-head_lightbulb_outline", "\u{f1345}" },
-	{ "nf-md-head_minus", "\u{f1346}" },
-	{ "nf-md-head_minus_outline", "\u{f1347}" },
-	{ "nf-md-head_outline", "\u{f135f}" },
-	{ "nf-md-head_plus", "\u{f1348}" },
-	{ "nf-md-head_plus_outline", "\u{f1349}" },
-	{ "nf-md-head_question", "\u{f134a}" },
-	{ "nf-md-head_question_outline", "\u{f134b}" },
-	{ "nf-md-head_remove", "\u{f134c}" },
-	{ "nf-md-head_remove_outline", "\u{f134d}" },
-	{ "nf-md-head_snowflake", "\u{f134e}" },
-	{ "nf-md-head_snowflake_outline", "\u{f134f}" },
-	{ "nf-md-head_sync", "\u{f1350}" },
-	{ "nf-md-head_sync_outline", "\u{f1351}" },
-	{ "nf-md-headphones", "\u{f02cb}" },
-	{ "nf-md-headphones_bluetooth", "\u{f0970}" },
-	{ "nf-md-headphones_box", "\u{f02cc}" },
-	{ "nf-md-headphones_off", "\u{f07ce}" },
-	{ "nf-md-headphones_settings", "\u{f02cd}" },
-	{ "nf-md-headset", "\u{f02ce}" },
-	{ "nf-md-headset_dock", "\u{f02cf}" },
-	{ "nf-md-headset_off", "\u{f02d0}" },
-	{ "nf-md-heart", "\u{f08d0}" },
-	{ "nf-md-heart_box", "\u{f02d2}" },
-	{ "nf-md-heart_box_outline", "\u{f02d3}" },
-	{ "nf-md-heart_broken", "\u{f02d4}" },
-	{ "nf-md-heart_broken_outline", "\u{f0d14}" },
-	{ "nf-md-heart_circle", "\u{f0971}" },
-	{ "nf-md-heart_circle_outline", "\u{f0972}" },
-	{ "nf-md-heart_cog", "\u{f1663}" },
-	{ "nf-md-heart_cog_outline", "\u{f1664}" },
-	{ "nf-md-heart_flash", "\u{f0ef9}" },
-	{ "nf-md-heart_half", "\u{f06df}" },
-	{ "nf-md-heart_half_full", "\u{f06de}" },
-	{ "nf-md-heart_half_outline", "\u{f06e0}" },
-	{ "nf-md-heart_minus", "\u{f142f}" },
-	{ "nf-md-heart_minus_outline", "\u{f1432}" },
-	{ "nf-md-heart_multiple", "\u{f0a56}" },
-	{ "nf-md-heart_multiple_outline", "\u{f0a57}" },
-	{ "nf-md-heart_off", "\u{f0759}" },
-	{ "nf-md-heart_off_outline", "\u{f1434}" },
-	{ "nf-md-heart_outline", "\u{f18a0}" },
-	{ "nf-md-heart_plus", "\u{f142e}" },
-	{ "nf-md-heart_plus_outline", "\u{f1431}" },
-	{ "nf-md-heart_pulse", "\u{f05f6}" },
-	{ "nf-md-heart_remove", "\u{f1430}" },
-	{ "nf-md-heart_remove_outline", "\u{f1433}" },
-	{ "nf-md-heart_settings", "\u{f1665}" },
-	{ "nf-md-heart_settings_outline", "\u{f1666}" },
-	{ "nf-md-heat_pump", "\u{f1a43}" },
-	{ "nf-md-heat_pump_outline", "\u{f1a44}" },
-	{ "nf-md-heat_wave", "\u{f1a45}" },
-	{ "nf-md-heating_coil", "\u{f1aaf}" },
-	{ "nf-md-helicopter", "\u{f0ac2}" },
-	{ "nf-md-help", "\u{f02d6}" },
-	{ "nf-md-help_box", "\u{f078b}" },
-	{ "nf-md-help_circle", "\u{f02d7}" },
-	{ "nf-md-help_circle_outline", "\u{f0625}" },
-	{ "nf-md-help_network", "\u{f06f5}" },
-	{ "nf-md-help_network_outline", "\u{f0c8a}" },
-	{ "nf-md-help_rhombus", "\u{f0ba5}" },
-	{ "nf-md-help_rhombus_outline", "\u{f0ba6}" },
-	{ "nf-md-hexadecimal", "\u{f12a7}" },
-	{ "nf-md-hexagon", "\u{f02d8}" },
-	{ "nf-md-hexagon_multiple", "\u{f06e1}" },
-	{ "nf-md-hexagon_multiple_outline", "\u{f10f2}" },
-	{ "nf-md-hexagon_outline", "\u{f02d9}" },
-	{ "nf-md-hexagon_slice_1", "\u{f0ac3}" },
-	{ "nf-md-hexagon_slice_2", "\u{f0ac4}" },
-	{ "nf-md-hexagon_slice_3", "\u{f0ac5}" },
-	{ "nf-md-hexagon_slice_4", "\u{f0ac6}" },
-	{ "nf-md-hexagon_slice_5", "\u{f0ac7}" },
-	{ "nf-md-hexagon_slice_6", "\u{f0ac8}" },
-	{ "nf-md-hexagram", "\u{f0ac9}" },
-	{ "nf-md-hexagram_outline", "\u{f0aca}" },
-	{ "nf-md-high_definition", "\u{f07cf}" },
-	{ "nf-md-high_definition_box", "\u{f0878}" },
-	{ "nf-md-highway", "\u{f05f7}" },
-	{ "nf-md-hiking", "\u{f0d7f}" },
-	{ "nf-md-history", "\u{f02da}" },
-	{ "nf-md-hockey_puck", "\u{f0879}" },
-	{ "nf-md-hockey_sticks", "\u{f087a}" },
-	{ "nf-md-hololens", "\u{f02db}" },
-	{ "nf-md-home", "\u{f02dc}" },
-	{ "nf-md-home_account", "\u{f0826}" },
-	{ "nf-md-home_alert", "\u{f087b}" },
-	{ "nf-md-home_alert_outline", "\u{f15d0}" },
-	{ "nf-md-home_analytics", "\u{f0eba}" },
-	{ "nf-md-home_assistant", "\u{f07d0}" },
-	{ "nf-md-home_automation", "\u{f07d1}" },
-	{ "nf-md-home_battery", "\u{f1901}" },
-	{ "nf-md-home_battery_outline", "\u{f1902}" },
-	{ "nf-md-home_circle", "\u{f07d2}" },
-	{ "nf-md-home_circle_outline", "\u{f104d}" },
-	{ "nf-md-home_city", "\u{f0d15}" },
-	{ "nf-md-home_city_outline", "\u{f0d16}" },
-	{ "nf-md-home_clock", "\u{f1a12}" },
-	{ "nf-md-home_clock_outline", "\u{f1a13}" },
-	{ "nf-md-home_edit", "\u{f1159}" },
-	{ "nf-md-home_edit_outline", "\u{f115a}" },
-	{ "nf-md-home_export_outline", "\u{f0f9b}" },
-	{ "nf-md-home_flood", "\u{f0efa}" },
-	{ "nf-md-home_floor_0", "\u{f0dd2}" },
-	{ "nf-md-home_floor_1", "\u{f0d80}" },
-	{ "nf-md-home_floor_2", "\u{f0d81}" },
-	{ "nf-md-home_floor_3", "\u{f0d82}" },
-	{ "nf-md-home_floor_a", "\u{f0d83}" },
-	{ "nf-md-home_floor_b", "\u{f0d84}" },
-	{ "nf-md-home_floor_g", "\u{f0d85}" },
-	{ "nf-md-home_floor_l", "\u{f0d86}" },
-	{ "nf-md-home_floor_negative_1", "\u{f0dd3}" },
-	{ "nf-md-home_group", "\u{f0dd4}" },
-	{ "nf-md-home_group_minus", "\u{f19c1}" },
-	{ "nf-md-home_group_plus", "\u{f19c0}" },
-	{ "nf-md-home_group_remove", "\u{f19c2}" },
-	{ "nf-md-home_heart", "\u{f0827}" },
-	{ "nf-md-home_import_outline", "\u{f0f9c}" },
-	{ "nf-md-home_lightbulb", "\u{f1251}" },
-	{ "nf-md-home_lightbulb_outline", "\u{f1252}" },
-	{ "nf-md-home_lightning_bolt", "\u{f1903}" },
-	{ "nf-md-home_lightning_bolt_outline", "\u{f1904}" },
-	{ "nf-md-home_lock", "\u{f08eb}" },
-	{ "nf-md-home_lock_open", "\u{f08ec}" },
-	{ "nf-md-home_map_marker", "\u{f05f8}" },
-	{ "nf-md-home_minus", "\u{f0974}" },
-	{ "nf-md-home_minus_outline", "\u{f13d5}" },
-	{ "nf-md-home_modern", "\u{f02dd}" },
-	{ "nf-md-home_off", "\u{f1a46}" },
-	{ "nf-md-home_off_outline", "\u{f1a47}" },
-	{ "nf-md-home_outline", "\u{f06a1}" },
-	{ "nf-md-home_plus", "\u{f0975}" },
-	{ "nf-md-home_plus_outline", "\u{f13d6}" },
-	{ "nf-md-home_remove", "\u{f1247}" },
-	{ "nf-md-home_remove_outline", "\u{f13d7}" },
-	{ "nf-md-home_roof", "\u{f112b}" },
-	{ "nf-md-home_search", "\u{f13b0}" },
-	{ "nf-md-home_search_outline", "\u{f13b1}" },
-	{ "nf-md-home_switch", "\u{f1794}" },
-	{ "nf-md-home_switch_outline", "\u{f1795}" },
-	{ "nf-md-home_thermometer", "\u{f0f54}" },
-	{ "nf-md-home_thermometer_outline", "\u{f0f55}" },
-	{ "nf-md-home_variant", "\u{f02de}" },
-	{ "nf-md-home_variant_outline", "\u{f0ba7}" },
-	{ "nf-md-hook", "\u{f06e2}" },
-	{ "nf-md-hook_off", "\u{f06e3}" },
-	{ "nf-md-hoop_house", "\u{f0e56}" },
-	{ "nf-md-hops", "\u{f02df}" },
-	{ "nf-md-horizontal_rotate_clockwise", "\u{f10f3}" },
-	{ "nf-md-horizontal_rotate_counterclockwise", "\u{f10f4}" },
-	{ "nf-md-horse", "\u{f15bf}" },
-	{ "nf-md-horse_human", "\u{f15c0}" },
-	{ "nf-md-horse_variant", "\u{f15c1}" },
-	{ "nf-md-horse_variant_fast", "\u{f186e}" },
-	{ "nf-md-horseshoe", "\u{f0a58}" },
-	{ "nf-md-hospital", "\u{f0ff6}" },
-	{ "nf-md-hospital_box", "\u{f02e0}" },
-	{ "nf-md-hospital_box_outline", "\u{f0ff7}" },
-	{ "nf-md-hospital_building", "\u{f02e1}" },
-	{ "nf-md-hospital_marker", "\u{f02e2}" },
-	{ "nf-md-hot_tub", "\u{f0828}" },
-	{ "nf-md-hours_24", "\u{f1478}" },
-	{ "nf-md-hubspot", "\u{f0d17}" },
-	{ "nf-md-hulu", "\u{f0829}" },
-	{ "nf-md-human", "\u{f02e6}" },
-	{ "nf-md-human_baby_changing_table", "\u{f138b}" },
-	{ "nf-md-human_cane", "\u{f1581}" },
-	{ "nf-md-human_capacity_decrease", "\u{f159b}" },
-	{ "nf-md-human_capacity_increase", "\u{f159c}" },
-	{ "nf-md-human_child", "\u{f02e7}" },
-	{ "nf-md-human_dolly", "\u{f1980}" },
-	{ "nf-md-human_edit", "\u{f14e8}" },
-	{ "nf-md-human_female", "\u{f0649}" },
-	{ "nf-md-human_female_boy", "\u{f0a59}" },
-	{ "nf-md-human_female_dance", "\u{f15c9}" },
-	{ "nf-md-human_female_female", "\u{f0a5a}" },
-	{ "nf-md-human_female_girl", "\u{f0a5b}" },
-	{ "nf-md-human_greeting", "\u{f17c4}" },
-	{ "nf-md-human_greeting_proximity", "\u{f159d}" },
-	{ "nf-md-human_greeting_variant", "\u{f064a}" },
-	{ "nf-md-human_handsdown", "\u{f064b}" },
-	{ "nf-md-human_handsup", "\u{f064c}" },
-	{ "nf-md-human_male", "\u{f064d}" },
-	{ "nf-md-human_male_board", "\u{f0890}" },
-	{ "nf-md-human_male_board_poll", "\u{f0846}" },
-	{ "nf-md-human_male_boy", "\u{f0a5c}" },
-	{ "nf-md-human_male_child", "\u{f138c}" },
-	{ "nf-md-human_male_female", "\u{f02e8}" },
-	{ "nf-md-human_male_female_child", "\u{f1823}" },
-	{ "nf-md-human_male_girl", "\u{f0a5d}" },
-	{ "nf-md-human_male_height", "\u{f0efb}" },
-	{ "nf-md-human_male_height_variant", "\u{f0efc}" },
-	{ "nf-md-human_male_male", "\u{f0a5e}" },
-	{ "nf-md-human_non_binary", "\u{f1848}" },
-	{ "nf-md-human_pregnant", "\u{f05cf}" },
-	{ "nf-md-human_queue", "\u{f1571}" },
-	{ "nf-md-human_scooter", "\u{f11e9}" },
-	{ "nf-md-human_wheelchair", "\u{f138d}" },
-	{ "nf-md-human_white_cane", "\u{f1981}" },
-	{ "nf-md-humble_bundle", "\u{f0744}" },
-	{ "nf-md-hvac", "\u{f1352}" },
-	{ "nf-md-hvac_off", "\u{f159e}" },
-	{ "nf-md-hydraulic_oil_level", "\u{f1324}" },
-	{ "nf-md-hydraulic_oil_temperature", "\u{f1325}" },
-	{ "nf-md-hydro_power", "\u{f12e5}" },
-	{ "nf-md-hydrogen_station", "\u{f1894}" },
-	{ "nf-md-ice_cream", "\u{f082a}" },
-	{ "nf-md-ice_cream_off", "\u{f0e52}" },
-	{ "nf-md-ice_pop", "\u{f0efd}" },
-	{ "nf-md-id_card", "\u{f0fc0}" },
-	{ "nf-md-identifier", "\u{f0efe}" },
-	{ "nf-md-ideogram_cjk", "\u{f1331}" },
-	{ "nf-md-ideogram_cjk_variant", "\u{f1332}" },
-	{ "nf-md-image", "\u{f02e9}" },
-	{ "nf-md-image_album", "\u{f02ea}" },
-	{ "nf-md-image_area", "\u{f02eb}" },
-	{ "nf-md-image_area_close", "\u{f02ec}" },
-	{ "nf-md-image_auto_adjust", "\u{f0fc1}" },
-	{ "nf-md-image_broken", "\u{f02ed}" },
-	{ "nf-md-image_broken_variant", "\u{f02ee}" },
-	{ "nf-md-image_edit", "\u{f11e3}" },
-	{ "nf-md-image_edit_outline", "\u{f11e4}" },
-	{ "nf-md-image_filter_black_white", "\u{f02f0}" },
-	{ "nf-md-image_filter_center_focus", "\u{f02f1}" },
-	{ "nf-md-image_filter_center_focus_strong", "\u{f0eff}" },
-	{ "nf-md-image_filter_center_focus_strong_outline", "\u{f0f00}" },
-	{ "nf-md-image_filter_center_focus_weak", "\u{f02f2}" },
-	{ "nf-md-image_filter_drama", "\u{f02f3}" },
-	{ "nf-md-image_filter_frames", "\u{f02f4}" },
-	{ "nf-md-image_filter_hdr", "\u{f0509}" },
-	{ "nf-md-image_filter_none", "\u{f02f6}" },
-	{ "nf-md-image_filter_tilt_shift", "\u{f02f7}" },
-	{ "nf-md-image_filter_vintage", "\u{f02f8}" },
-	{ "nf-md-image_frame", "\u{f0e49}" },
-	{ "nf-md-image_lock", "\u{f1ab0}" },
-	{ "nf-md-image_lock_outline", "\u{f1ab1}" },
-	{ "nf-md-image_marker", "\u{f177b}" },
-	{ "nf-md-image_marker_outline", "\u{f177c}" },
-	{ "nf-md-image_minus", "\u{f1419}" },
-	{ "nf-md-image_move", "\u{f09f8}" },
-	{ "nf-md-image_multiple", "\u{f02f9}" },
-	{ "nf-md-image_multiple_outline", "\u{f02ef}" },
-	{ "nf-md-image_off", "\u{f082b}" },
-	{ "nf-md-image_off_outline", "\u{f11d1}" },
-	{ "nf-md-image_outline", "\u{f0976}" },
-	{ "nf-md-image_plus", "\u{f087c}" },
-	{ "nf-md-image_refresh", "\u{f19fe}" },
-	{ "nf-md-image_refresh_outline", "\u{f19ff}" },
-	{ "nf-md-image_remove", "\u{f1418}" },
-	{ "nf-md-image_search", "\u{f0977}" },
-	{ "nf-md-image_search_outline", "\u{f0978}" },
-	{ "nf-md-image_size_select_actual", "\u{f0c8d}" },
-	{ "nf-md-image_size_select_large", "\u{f0c8e}" },
-	{ "nf-md-image_size_select_small", "\u{f0c8f}" },
-	{ "nf-md-image_sync", "\u{f1a00}" },
-	{ "nf-md-image_sync_outline", "\u{f1a01}" },
-	{ "nf-md-image_text", "\u{f160d}" },
-	{ "nf-md-import", "\u{f02fa}" },
-	{ "nf-md-inbox", "\u{f0687}" },
-	{ "nf-md-inbox_arrow_down", "\u{f02fb}" },
-	{ "nf-md-inbox_arrow_down_outline", "\u{f1270}" },
-	{ "nf-md-inbox_arrow_up", "\u{f03d1}" },
-	{ "nf-md-inbox_arrow_up_outline", "\u{f1271}" },
-	{ "nf-md-inbox_full", "\u{f1272}" },
-	{ "nf-md-inbox_full_outline", "\u{f1273}" },
-	{ "nf-md-inbox_multiple", "\u{f08b0}" },
-	{ "nf-md-inbox_multiple_outline", "\u{f0ba8}" },
-	{ "nf-md-inbox_outline", "\u{f1274}" },
-	{ "nf-md-inbox_remove", "\u{f159f}" },
-	{ "nf-md-inbox_remove_outline", "\u{f15a0}" },
-	{ "nf-md-incognito", "\u{f05f9}" },
-	{ "nf-md-incognito_circle", "\u{f1421}" },
-	{ "nf-md-incognito_circle_off", "\u{f1422}" },
-	{ "nf-md-incognito_off", "\u{f0075}" },
-	{ "nf-md-induction", "\u{f184c}" },
-	{ "nf-md-infinity", "\u{f06e4}" },
-	{ "nf-md-information", "\u{f02fc}" },
-	{ "nf-md-information_off", "\u{f178c}" },
-	{ "nf-md-information_off_outline", "\u{f178d}" },
-	{ "nf-md-information_outline", "\u{f02fd}" },
-	{ "nf-md-information_variant", "\u{f064e}" },
-	{ "nf-md-instagram", "\u{f02fe}" },
-	{ "nf-md-instrument_triangle", "\u{f104e}" },
-	{ "nf-md-integrated_circuit_chip", "\u{f1913}" },
-	{ "nf-md-invert_colors", "\u{f0301}" },
-	{ "nf-md-invert_colors_off", "\u{f0e4a}" },
-	{ "nf-md-iobroker", "\u{f12e8}" },
-	{ "nf-md-ip", "\u{f0a5f}" },
-	{ "nf-md-ip_network", "\u{f0a60}" },
-	{ "nf-md-ip_network_outline", "\u{f0c90}" },
-	{ "nf-md-ip_outline", "\u{f1982}" },
-	{ "nf-md-ipod", "\u{f0c91}" },
-	{ "nf-md-iron", "\u{f1824}" },
-	{ "nf-md-iron_board", "\u{f1838}" },
-	{ "nf-md-iron_outline", "\u{f1825}" },
-	{ "nf-md-island", "\u{f104f}" },
-	{ "nf-md-iv_bag", "\u{f10b9}" },
-	{ "nf-md-jabber", "\u{f0dd5}" },
-	{ "nf-md-jeepney", "\u{f0302}" },
-	{ "nf-md-jellyfish", "\u{f0f01}" },
-	{ "nf-md-jellyfish_outline", "\u{f0f02}" },
-	{ "nf-md-jira", "\u{f0303}" },
-	{ "nf-md-jquery", "\u{f087d}" },
-	{ "nf-md-jsfiddle", "\u{f0304}" },
-	{ "nf-md-jump_rope", "\u{f12ff}" },
-	{ "nf-md-kabaddi", "\u{f0d87}" },
-	{ "nf-md-kangaroo", "\u{f1558}" },
-	{ "nf-md-karate", "\u{f082c}" },
-	{ "nf-md-kayaking", "\u{f08af}" },
-	{ "nf-md-keg", "\u{f0305}" },
-	{ "nf-md-kettle", "\u{f05fa}" },
-	{ "nf-md-kettle_alert", "\u{f1317}" },
-	{ "nf-md-kettle_alert_outline", "\u{f1318}" },
-	{ "nf-md-kettle_off", "\u{f131b}" },
-	{ "nf-md-kettle_off_outline", "\u{f131c}" },
-	{ "nf-md-kettle_outline", "\u{f0f56}" },
-	{ "nf-md-kettle_pour_over", "\u{f173c}" },
-	{ "nf-md-kettle_steam", "\u{f1319}" },
-	{ "nf-md-kettle_steam_outline", "\u{f131a}" },
-	{ "nf-md-kettlebell", "\u{f1300}" },
-	{ "nf-md-key", "\u{f0306}" },
-	{ "nf-md-key_alert", "\u{f1983}" },
-	{ "nf-md-key_alert_outline", "\u{f1984}" },
-	{ "nf-md-key_arrow_right", "\u{f1312}" },
-	{ "nf-md-key_chain", "\u{f1574}" },
-	{ "nf-md-key_chain_variant", "\u{f1575}" },
-	{ "nf-md-key_change", "\u{f0307}" },
-	{ "nf-md-key_link", "\u{f119f}" },
-	{ "nf-md-key_minus", "\u{f0308}" },
-	{ "nf-md-key_outline", "\u{f0dd6}" },
-	{ "nf-md-key_plus", "\u{f0309}" },
-	{ "nf-md-key_remove", "\u{f030a}" },
-	{ "nf-md-key_star", "\u{f119e}" },
-	{ "nf-md-key_variant", "\u{f030b}" },
-	{ "nf-md-key_wireless", "\u{f0fc2}" },
-	{ "nf-md-keyboard", "\u{f030c}" },
-	{ "nf-md-keyboard_backspace", "\u{f030d}" },
-	{ "nf-md-keyboard_caps", "\u{f030e}" },
-	{ "nf-md-keyboard_close", "\u{f030f}" },
-	{ "nf-md-keyboard_esc", "\u{f12b7}" },
-	{ "nf-md-keyboard_f1", "\u{f12ab}" },
-	{ "nf-md-keyboard_f10", "\u{f12b4}" },
-	{ "nf-md-keyboard_f11", "\u{f12b5}" },
-	{ "nf-md-keyboard_f12", "\u{f12b6}" },
-	{ "nf-md-keyboard_f2", "\u{f12ac}" },
-	{ "nf-md-keyboard_f3", "\u{f12ad}" },
-	{ "nf-md-keyboard_f4", "\u{f12ae}" },
-	{ "nf-md-keyboard_f5", "\u{f12af}" },
-	{ "nf-md-keyboard_f6", "\u{f12b0}" },
-	{ "nf-md-keyboard_f7", "\u{f12b1}" },
-	{ "nf-md-keyboard_f8", "\u{f12b2}" },
-	{ "nf-md-keyboard_f9", "\u{f12b3}" },
-	{ "nf-md-keyboard_off", "\u{f0310}" },
-	{ "nf-md-keyboard_off_outline", "\u{f0e4b}" },
-	{ "nf-md-keyboard_outline", "\u{f097b}" },
-	{ "nf-md-keyboard_return", "\u{f0311}" },
-	{ "nf-md-keyboard_settings", "\u{f09f9}" },
-	{ "nf-md-keyboard_settings_outline", "\u{f09fa}" },
-	{ "nf-md-keyboard_space", "\u{f1050}" },
-	{ "nf-md-keyboard_tab", "\u{f0312}" },
-	{ "nf-md-keyboard_tab_reverse", "\u{f0325}" },
-	{ "nf-md-keyboard_variant", "\u{f0313}" },
-	{ "nf-md-khanda", "\u{f10fd}" },
-	{ "nf-md-kickstarter", "\u{f0745}" },
-	{ "nf-md-kite", "\u{f1985}" },
-	{ "nf-md-kite_outline", "\u{f1986}" },
-	{ "nf-md-kitesurfing", "\u{f1744}" },
-	{ "nf-md-klingon", "\u{f135b}" },
-	{ "nf-md-knife", "\u{f09fb}" },
-	{ "nf-md-knife_military", "\u{f09fc}" },
-	{ "nf-md-koala", "\u{f173f}" },
-	{ "nf-md-kodi", "\u{f0314}" },
-	{ "nf-md-kubernetes", "\u{f10fe}" },
-	{ "nf-md-label", "\u{f0315}" },
-	{ "nf-md-label_multiple", "\u{f1375}" },
-	{ "nf-md-label_multiple_outline", "\u{f1376}" },
-	{ "nf-md-label_off", "\u{f0acb}" },
-	{ "nf-md-label_off_outline", "\u{f0acc}" },
-	{ "nf-md-label_outline", "\u{f0316}" },
-	{ "nf-md-label_percent", "\u{f12ea}" },
-	{ "nf-md-label_percent_outline", "\u{f12eb}" },
-	{ "nf-md-label_variant", "\u{f0acd}" },
-	{ "nf-md-label_variant_outline", "\u{f0ace}" },
-	{ "nf-md-ladder", "\u{f15a2}" },
-	{ "nf-md-ladybug", "\u{f082d}" },
-	{ "nf-md-lambda", "\u{f0627}" },
-	{ "nf-md-lamp", "\u{f06b5}" },
-	{ "nf-md-lamp_outline", "\u{f17d0}" },
-	{ "nf-md-lamps", "\u{f1576}" },
-	{ "nf-md-lamps_outline", "\u{f17d1}" },
-	{ "nf-md-lan", "\u{f0317}" },
-	{ "nf-md-lan_check", "\u{f12aa}" },
-	{ "nf-md-lan_connect", "\u{f0318}" },
-	{ "nf-md-lan_disconnect", "\u{f0319}" },
-	{ "nf-md-lan_pending", "\u{f031a}" },
-	{ "nf-md-land_fields", "\u{f1ab2}" },
-	{ "nf-md-land_plots", "\u{f1ab3}" },
-	{ "nf-md-land_plots_circle", "\u{f1ab4}" },
-	{ "nf-md-land_plots_circle_variant", "\u{f1ab5}" },
-	{ "nf-md-land_rows_horizontal", "\u{f1ab6}" },
-	{ "nf-md-land_rows_vertical", "\u{f1ab7}" },
-	{ "nf-md-landslide", "\u{f1a48}" },
-	{ "nf-md-landslide_outline", "\u{f1a49}" },
-	{ "nf-md-language_c", "\u{f0671}" },
-	{ "nf-md-language_cpp", "\u{f0672}" },
-	{ "nf-md-language_csharp", "\u{f031b}" },
-	{ "nf-md-language_css3", "\u{f031c}" },
-	{ "nf-md-language_fortran", "\u{f121a}" },
-	{ "nf-md-language_go", "\u{f07d3}" },
-	{ "nf-md-language_haskell", "\u{f0c92}" },
-	{ "nf-md-language_html5", "\u{f031d}" },
-	{ "nf-md-language_java", "\u{f0b37}" },
-	{ "nf-md-language_javascript", "\u{f031e}" },
-	{ "nf-md-language_kotlin", "\u{f1219}" },
-	{ "nf-md-language_lua", "\u{f08b1}" },
-	{ "nf-md-language_markdown", "\u{f0354}" },
-	{ "nf-md-language_markdown_outline", "\u{f0f5b}" },
-	{ "nf-md-language_php", "\u{f031f}" },
-	{ "nf-md-language_python", "\u{f0320}" },
-	{ "nf-md-language_r", "\u{f07d4}" },
-	{ "nf-md-language_ruby", "\u{f0d2d}" },
-	{ "nf-md-language_ruby_on_rails", "\u{f0acf}" },
-	{ "nf-md-language_rust", "\u{f1617}" },
-	{ "nf-md-language_swift", "\u{f06e5}" },
-	{ "nf-md-language_typescript", "\u{f06e6}" },
-	{ "nf-md-language_xaml", "\u{f0673}" },
-	{ "nf-md-laptop", "\u{f0322}" },
-	{ "nf-md-laptop_account", "\u{f1a4a}" },
-	{ "nf-md-laptop_off", "\u{f06e7}" },
-	{ "nf-md-laravel", "\u{f0ad0}" },
-	{ "nf-md-laser_pointer", "\u{f1484}" },
-	{ "nf-md-lasso", "\u{f0f03}" },
-	{ "nf-md-lastpass", "\u{f0446}" },
-	{ "nf-md-latitude", "\u{f0f57}" },
-	{ "nf-md-launch", "\u{f0327}" },
-	{ "nf-md-lava_lamp", "\u{f07d5}" },
-	{ "nf-md-layers", "\u{f0328}" },
-	{ "nf-md-layers_edit", "\u{f1892}" },
-	{ "nf-md-layers_minus", "\u{f0e4c}" },
-	{ "nf-md-layers_off", "\u{f0329}" },
-	{ "nf-md-layers_off_outline", "\u{f09fd}" },
-	{ "nf-md-layers_outline", "\u{f09fe}" },
-	{ "nf-md-layers_plus", "\u{f0e4d}" },
-	{ "nf-md-layers_remove", "\u{f0e4e}" },
-	{ "nf-md-layers_search", "\u{f1206}" },
-	{ "nf-md-layers_search_outline", "\u{f1207}" },
-	{ "nf-md-layers_triple", "\u{f0f58}" },
-	{ "nf-md-layers_triple_outline", "\u{f0f59}" },
-	{ "nf-md-lead_pencil", "\u{f064f}" },
-	{ "nf-md-leaf", "\u{f032a}" },
-	{ "nf-md-leaf_circle", "\u{f1905}" },
-	{ "nf-md-leaf_circle_outline", "\u{f1906}" },
-	{ "nf-md-leaf_maple", "\u{f0c93}" },
-	{ "nf-md-leaf_maple_off", "\u{f12da}" },
-	{ "nf-md-leaf_off", "\u{f12d9}" },
-	{ "nf-md-leak", "\u{f0dd7}" },
-	{ "nf-md-leak_off", "\u{f0dd8}" },
-	{ "nf-md-lecturn", "\u{f1af0}" },
-	{ "nf-md-led_off", "\u{f032b}" },
-	{ "nf-md-led_on", "\u{f032c}" },
-	{ "nf-md-led_outline", "\u{f032d}" },
-	{ "nf-md-led_strip", "\u{f07d6}" },
-	{ "nf-md-led_strip_variant", "\u{f1051}" },
-	{ "nf-md-led_strip_variant_off", "\u{f1a4b}" },
-	{ "nf-md-led_variant_off", "\u{f032e}" },
-	{ "nf-md-led_variant_on", "\u{f032f}" },
-	{ "nf-md-led_variant_outline", "\u{f0330}" },
-	{ "nf-md-leek", "\u{f117d}" },
-	{ "nf-md-less_than", "\u{f097c}" },
-	{ "nf-md-less_than_or_equal", "\u{f097d}" },
-	{ "nf-md-library", "\u{f0331}" },
-	{ "nf-md-library_outline", "\u{f1a22}" },
-	{ "nf-md-library_shelves", "\u{f0ba9}" },
-	{ "nf-md-license", "\u{f0fc3}" },
-	{ "nf-md-lifebuoy", "\u{f087e}" },
-	{ "nf-md-light_flood_down", "\u{f1987}" },
-	{ "nf-md-light_flood_up", "\u{f1988}" },
-	{ "nf-md-light_recessed", "\u{f179b}" },
-	{ "nf-md-light_switch", "\u{f097e}" },
-	{ "nf-md-light_switch_off", "\u{f1a24}" },
-	{ "nf-md-lightbulb", "\u{f0335}" },
-	{ "nf-md-lightbulb_alert", "\u{f19e1}" },
-	{ "nf-md-lightbulb_alert_outline", "\u{f19e2}" },
-	{ "nf-md-lightbulb_auto", "\u{f1800}" },
-	{ "nf-md-lightbulb_auto_outline", "\u{f1801}" },
-	{ "nf-md-lightbulb_cfl", "\u{f1208}" },
-	{ "nf-md-lightbulb_cfl_off", "\u{f1209}" },
-	{ "nf-md-lightbulb_cfl_spiral", "\u{f1275}" },
-	{ "nf-md-lightbulb_cfl_spiral_off", "\u{f12c3}" },
-	{ "nf-md-lightbulb_fluorescent_tube", "\u{f1804}" },
-	{ "nf-md-lightbulb_fluorescent_tube_outline", "\u{f1805}" },
-	{ "nf-md-lightbulb_group", "\u{f1253}" },
-	{ "nf-md-lightbulb_group_off", "\u{f12cd}" },
-	{ "nf-md-lightbulb_group_off_outline", "\u{f12ce}" },
-	{ "nf-md-lightbulb_group_outline", "\u{f1254}" },
-	{ "nf-md-lightbulb_multiple", "\u{f1255}" },
-	{ "nf-md-lightbulb_multiple_off", "\u{f12cf}" },
-	{ "nf-md-lightbulb_multiple_off_outline", "\u{f12d0}" },
-	{ "nf-md-lightbulb_multiple_outline", "\u{f1256}" },
-	{ "nf-md-lightbulb_night", "\u{f1a4c}" },
-	{ "nf-md-lightbulb_night_outline", "\u{f1a4d}" },
-	{ "nf-md-lightbulb_off", "\u{f0e4f}" },
-	{ "nf-md-lightbulb_off_outline", "\u{f0e50}" },
-	{ "nf-md-lightbulb_on", "\u{f06e8}" },
-	{ "nf-md-lightbulb_on_10", "\u{f1a4e}" },
-	{ "nf-md-lightbulb_on_20", "\u{f1a4f}" },
-	{ "nf-md-lightbulb_on_30", "\u{f1a50}" },
-	{ "nf-md-lightbulb_on_40", "\u{f1a51}" },
-	{ "nf-md-lightbulb_on_50", "\u{f1a52}" },
-	{ "nf-md-lightbulb_on_60", "\u{f1a53}" },
-	{ "nf-md-lightbulb_on_70", "\u{f1a54}" },
-	{ "nf-md-lightbulb_on_80", "\u{f1a55}" },
-	{ "nf-md-lightbulb_on_90", "\u{f1a56}" },
-	{ "nf-md-lightbulb_on_outline", "\u{f06e9}" },
-	{ "nf-md-lightbulb_outline", "\u{f0336}" },
-	{ "nf-md-lightbulb_question", "\u{f19e3}" },
-	{ "nf-md-lightbulb_question_outline", "\u{f19e4}" },
-	{ "nf-md-lightbulb_spot", "\u{f17f4}" },
-	{ "nf-md-lightbulb_spot_off", "\u{f17f5}" },
-	{ "nf-md-lightbulb_variant", "\u{f1802}" },
-	{ "nf-md-lightbulb_variant_outline", "\u{f1803}" },
-	{ "nf-md-lighthouse", "\u{f09ff}" },
-	{ "nf-md-lighthouse_on", "\u{f0a00}" },
-	{ "nf-md-lightning_bolt", "\u{f140b}" },
-	{ "nf-md-lightning_bolt_circle", "\u{f0820}" },
-	{ "nf-md-lightning_bolt_outline", "\u{f140c}" },
-	{ "nf-md-line_scan", "\u{f0624}" },
-	{ "nf-md-lingerie", "\u{f1476}" },
-	{ "nf-md-link", "\u{f0337}" },
-	{ "nf-md-link_box", "\u{f0d1a}" },
-	{ "nf-md-link_box_outline", "\u{f0d1b}" },
-	{ "nf-md-link_box_variant", "\u{f0d1c}" },
-	{ "nf-md-link_box_variant_outline", "\u{f0d1d}" },
-	{ "nf-md-link_lock", "\u{f10ba}" },
-	{ "nf-md-link_off", "\u{f0338}" },
-	{ "nf-md-link_plus", "\u{f0c94}" },
-	{ "nf-md-link_variant", "\u{f0339}" },
-	{ "nf-md-link_variant_minus", "\u{f10ff}" },
-	{ "nf-md-link_variant_off", "\u{f033a}" },
-	{ "nf-md-link_variant_plus", "\u{f1100}" },
-	{ "nf-md-link_variant_remove", "\u{f1101}" },
-	{ "nf-md-linkedin", "\u{f033b}" },
-	{ "nf-md-linux", "\u{f033d}" },
-	{ "nf-md-linux_mint", "\u{f08ed}" },
-	{ "nf-md-lipstick", "\u{f13b5}" },
-	{ "nf-md-liquid_spot", "\u{f1826}" },
-	{ "nf-md-liquor", "\u{f191e}" },
-	{ "nf-md-list_status", "\u{f15ab}" },
-	{ "nf-md-litecoin", "\u{f0a61}" },
-	{ "nf-md-loading", "\u{f0772}" },
-	{ "nf-md-location_enter", "\u{f0fc4}" },
-	{ "nf-md-location_exit", "\u{f0fc5}" },
-	{ "nf-md-lock", "\u{f033e}" },
-	{ "nf-md-lock_alert", "\u{f08ee}" },
-	{ "nf-md-lock_alert_outline", "\u{f15d1}" },
-	{ "nf-md-lock_check", "\u{f139a}" },
-	{ "nf-md-lock_check_outline", "\u{f16a8}" },
-	{ "nf-md-lock_clock", "\u{f097f}" },
-	{ "nf-md-lock_minus", "\u{f16a9}" },
-	{ "nf-md-lock_minus_outline", "\u{f16aa}" },
-	{ "nf-md-lock_off", "\u{f1671}" },
-	{ "nf-md-lock_off_outline", "\u{f1672}" },
-	{ "nf-md-lock_open", "\u{f033f}" },
-	{ "nf-md-lock_open_alert", "\u{f139b}" },
-	{ "nf-md-lock_open_alert_outline", "\u{f15d2}" },
-	{ "nf-md-lock_open_check", "\u{f139c}" },
-	{ "nf-md-lock_open_check_outline", "\u{f16ab}" },
-	{ "nf-md-lock_open_minus", "\u{f16ac}" },
-	{ "nf-md-lock_open_minus_outline", "\u{f16ad}" },
-	{ "nf-md-lock_open_outline", "\u{f0340}" },
-	{ "nf-md-lock_open_plus", "\u{f16ae}" },
-	{ "nf-md-lock_open_plus_outline", "\u{f16af}" },
-	{ "nf-md-lock_open_remove", "\u{f16b0}" },
-	{ "nf-md-lock_open_remove_outline", "\u{f16b1}" },
-	{ "nf-md-lock_open_variant", "\u{f0fc6}" },
-	{ "nf-md-lock_open_variant_outline", "\u{f0fc7}" },
-	{ "nf-md-lock_outline", "\u{f0341}" },
-	{ "nf-md-lock_pattern", "\u{f06ea}" },
-	{ "nf-md-lock_plus", "\u{f05fb}" },
-	{ "nf-md-lock_plus_outline", "\u{f16b2}" },
-	{ "nf-md-lock_question", "\u{f08ef}" },
-	{ "nf-md-lock_remove", "\u{f16b3}" },
-	{ "nf-md-lock_remove_outline", "\u{f16b4}" },
-	{ "nf-md-lock_reset", "\u{f0773}" },
-	{ "nf-md-lock_smart", "\u{f08b2}" },
-	{ "nf-md-locker", "\u{f07d7}" },
-	{ "nf-md-locker_multiple", "\u{f07d8}" },
-	{ "nf-md-login", "\u{f0342}" },
-	{ "nf-md-logout", "\u{f0343}" },
-	{ "nf-md-logout_variant", "\u{f05fd}" },
-	{ "nf-md-longitude", "\u{f0f5a}" },
-	{ "nf-md-looks", "\u{f0344}" },
-	{ "nf-md-lotion", "\u{f1582}" },
-	{ "nf-md-lotion_outline", "\u{f1583}" },
-	{ "nf-md-lotion_plus", "\u{f1584}" },
-	{ "nf-md-lotion_plus_outline", "\u{f1585}" },
-	{ "nf-md-loupe", "\u{f0345}" },
-	{ "nf-md-lumx", "\u{f0346}" },
-	{ "nf-md-lungs", "\u{f1084}" },
-	{ "nf-md-mace", "\u{f1843}" },
-	{ "nf-md-magazine_pistol", "\u{f0324}" },
-	{ "nf-md-magazine_rifle", "\u{f0323}" },
-	{ "nf-md-magic_staff", "\u{f1844}" },
-	{ "nf-md-magnet", "\u{f0347}" },
-	{ "nf-md-magnet_on", "\u{f0348}" },
-	{ "nf-md-magnify", "\u{f0349}" },
-	{ "nf-md-magnify_close", "\u{f0980}" },
-	{ "nf-md-magnify_expand", "\u{f1874}" },
-	{ "nf-md-magnify_minus", "\u{f034a}" },
-	{ "nf-md-magnify_minus_cursor", "\u{f0a62}" },
-	{ "nf-md-magnify_minus_outline", "\u{f06ec}" },
-	{ "nf-md-magnify_plus", "\u{f034b}" },
-	{ "nf-md-magnify_plus_cursor", "\u{f0a63}" },
-	{ "nf-md-magnify_plus_outline", "\u{f06ed}" },
-	{ "nf-md-magnify_remove_cursor", "\u{f120c}" },
-	{ "nf-md-magnify_remove_outline", "\u{f120d}" },
-	{ "nf-md-magnify_scan", "\u{f1276}" },
-	{ "nf-md-mail", "\u{f0ebb}" },
-	{ "nf-md-mailbox", "\u{f06ee}" },
-	{ "nf-md-mailbox_open", "\u{f0d88}" },
-	{ "nf-md-mailbox_open_outline", "\u{f0d89}" },
-	{ "nf-md-mailbox_open_up", "\u{f0d8a}" },
-	{ "nf-md-mailbox_open_up_outline", "\u{f0d8b}" },
-	{ "nf-md-mailbox_outline", "\u{f0d8c}" },
-	{ "nf-md-mailbox_up", "\u{f0d8d}" },
-	{ "nf-md-mailbox_up_outline", "\u{f0d8e}" },
-	{ "nf-md-manjaro", "\u{f160a}" },
-	{ "nf-md-map", "\u{f034d}" },
-	{ "nf-md-map_check", "\u{f0ebc}" },
-	{ "nf-md-map_check_outline", "\u{f0ebd}" },
-	{ "nf-md-map_clock", "\u{f0d1e}" },
-	{ "nf-md-map_clock_outline", "\u{f0d1f}" },
-	{ "nf-md-map_legend", "\u{f0a01}" },
-	{ "nf-md-map_marker", "\u{f034e}" },
-	{ "nf-md-map_marker_account", "\u{f18e3}" },
-	{ "nf-md-map_marker_account_outline", "\u{f18e4}" },
-	{ "nf-md-map_marker_alert", "\u{f0f05}" },
-	{ "nf-md-map_marker_alert_outline", "\u{f0f06}" },
-	{ "nf-md-map_marker_check", "\u{f0c95}" },
-	{ "nf-md-map_marker_check_outline", "\u{f12fb}" },
-	{ "nf-md-map_marker_circle", "\u{f034f}" },
-	{ "nf-md-map_marker_distance", "\u{f08f0}" },
-	{ "nf-md-map_marker_down", "\u{f1102}" },
-	{ "nf-md-map_marker_left", "\u{f12db}" },
-	{ "nf-md-map_marker_left_outline", "\u{f12dd}" },
-	{ "nf-md-map_marker_minus", "\u{f0650}" },
-	{ "nf-md-map_marker_minus_outline", "\u{f12f9}" },
-	{ "nf-md-map_marker_multiple", "\u{f0350}" },
-	{ "nf-md-map_marker_multiple_outline", "\u{f1277}" },
-	{ "nf-md-map_marker_off", "\u{f0351}" },
-	{ "nf-md-map_marker_off_outline", "\u{f12fd}" },
-	{ "nf-md-map_marker_outline", "\u{f07d9}" },
-	{ "nf-md-map_marker_path", "\u{f0d20}" },
-	{ "nf-md-map_marker_plus", "\u{f0651}" },
-	{ "nf-md-map_marker_plus_outline", "\u{f12f8}" },
-	{ "nf-md-map_marker_question", "\u{f0f07}" },
-	{ "nf-md-map_marker_question_outline", "\u{f0f08}" },
-	{ "nf-md-map_marker_radius", "\u{f0352}" },
-	{ "nf-md-map_marker_radius_outline", "\u{f12fc}" },
-	{ "nf-md-map_marker_remove", "\u{f0f09}" },
-	{ "nf-md-map_marker_remove_outline", "\u{f12fa}" },
-	{ "nf-md-map_marker_remove_variant", "\u{f0f0a}" },
-	{ "nf-md-map_marker_right", "\u{f12dc}" },
-	{ "nf-md-map_marker_right_outline", "\u{f12de}" },
-	{ "nf-md-map_marker_star", "\u{f1608}" },
-	{ "nf-md-map_marker_star_outline", "\u{f1609}" },
-	{ "nf-md-map_marker_up", "\u{f1103}" },
-	{ "nf-md-map_minus", "\u{f0981}" },
-	{ "nf-md-map_outline", "\u{f0982}" },
-	{ "nf-md-map_plus", "\u{f0983}" },
-	{ "nf-md-map_search", "\u{f0984}" },
-	{ "nf-md-map_search_outline", "\u{f0985}" },
-	{ "nf-md-mapbox", "\u{f0baa}" },
-	{ "nf-md-margin", "\u{f0353}" },
-	{ "nf-md-marker", "\u{f0652}" },
-	{ "nf-md-marker_cancel", "\u{f0dd9}" },
-	{ "nf-md-marker_check", "\u{f0355}" },
-	{ "nf-md-mastodon", "\u{f0ad1}" },
-	{ "nf-md-material_design", "\u{f0986}" },
-	{ "nf-md-material_ui", "\u{f0357}" },
-	{ "nf-md-math_compass", "\u{f0358}" },
-	{ "nf-md-math_cos", "\u{f0c96}" },
-	{ "nf-md-math_integral", "\u{f0fc8}" },
-	{ "nf-md-math_integral_box", "\u{f0fc9}" },
-	{ "nf-md-math_log", "\u{f1085}" },
-	{ "nf-md-math_norm", "\u{f0fca}" },
-	{ "nf-md-math_norm_box", "\u{f0fcb}" },
-	{ "nf-md-math_sin", "\u{f0c97}" },
-	{ "nf-md-math_tan", "\u{f0c98}" },
-	{ "nf-md-matrix", "\u{f0628}" },
-	{ "nf-md-medal", "\u{f0987}" },
-	{ "nf-md-medal_outline", "\u{f1326}" },
-	{ "nf-md-medical_bag", "\u{f06ef}" },
-	{ "nf-md-medical_cotton_swab", "\u{f1ab8}" },
-	{ "nf-md-meditation", "\u{f117b}" },
-	{ "nf-md-memory", "\u{f035b}" },
-	{ "nf-md-menorah", "\u{f17d4}" },
-	{ "nf-md-menorah_fire", "\u{f17d5}" },
-	{ "nf-md-menu", "\u{f035c}" },
-	{ "nf-md-menu_down", "\u{f035d}" },
-	{ "nf-md-menu_down_outline", "\u{f06b6}" },
-	{ "nf-md-menu_left", "\u{f035e}" },
-	{ "nf-md-menu_left_outline", "\u{f0a02}" },
-	{ "nf-md-menu_open", "\u{f0bab}" },
-	{ "nf-md-menu_right", "\u{f035f}" },
-	{ "nf-md-menu_right_outline", "\u{f0a03}" },
-	{ "nf-md-menu_swap", "\u{f0a64}" },
-	{ "nf-md-menu_swap_outline", "\u{f0a65}" },
-	{ "nf-md-menu_up", "\u{f0360}" },
-	{ "nf-md-menu_up_outline", "\u{f06b7}" },
-	{ "nf-md-merge", "\u{f0f5c}" },
-	{ "nf-md-message", "\u{f0361}" },
-	{ "nf-md-message_alert", "\u{f0362}" },
-	{ "nf-md-message_alert_outline", "\u{f0a04}" },
-	{ "nf-md-message_arrow_left", "\u{f12f2}" },
-	{ "nf-md-message_arrow_left_outline", "\u{f12f3}" },
-	{ "nf-md-message_arrow_right", "\u{f12f4}" },
-	{ "nf-md-message_arrow_right_outline", "\u{f12f5}" },
-	{ "nf-md-message_badge", "\u{f1941}" },
-	{ "nf-md-message_badge_outline", "\u{f1942}" },
-	{ "nf-md-message_bookmark", "\u{f15ac}" },
-	{ "nf-md-message_bookmark_outline", "\u{f15ad}" },
-	{ "nf-md-message_bulleted", "\u{f06a2}" },
-	{ "nf-md-message_bulleted_off", "\u{f06a3}" },
-	{ "nf-md-message_cog", "\u{f06f1}" },
-	{ "nf-md-message_cog_outline", "\u{f1172}" },
-	{ "nf-md-message_draw", "\u{f0363}" },
-	{ "nf-md-message_fast", "\u{f19cc}" },
-	{ "nf-md-message_fast_outline", "\u{f19cd}" },
-	{ "nf-md-message_flash", "\u{f15a9}" },
-	{ "nf-md-message_flash_outline", "\u{f15aa}" },
-	{ "nf-md-message_image", "\u{f0364}" },
-	{ "nf-md-message_image_outline", "\u{f116c}" },
-	{ "nf-md-message_lock", "\u{f0fcc}" },
-	{ "nf-md-message_lock_outline", "\u{f116d}" },
-	{ "nf-md-message_minus", "\u{f116e}" },
-	{ "nf-md-message_minus_outline", "\u{f116f}" },
-	{ "nf-md-message_off", "\u{f164d}" },
-	{ "nf-md-message_off_outline", "\u{f164e}" },
-	{ "nf-md-message_outline", "\u{f0365}" },
-	{ "nf-md-message_plus", "\u{f0653}" },
-	{ "nf-md-message_plus_outline", "\u{f10bb}" },
-	{ "nf-md-message_processing", "\u{f0366}" },
-	{ "nf-md-message_processing_outline", "\u{f1170}" },
-	{ "nf-md-message_question", "\u{f173a}" },
-	{ "nf-md-message_question_outline", "\u{f173b}" },
-	{ "nf-md-message_reply", "\u{f0367}" },
-	{ "nf-md-message_reply_outline", "\u{f173d}" },
-	{ "nf-md-message_reply_text", "\u{f0368}" },
-	{ "nf-md-message_reply_text_outline", "\u{f173e}" },
-	{ "nf-md-message_settings", "\u{f06f0}" },
-	{ "nf-md-message_settings_outline", "\u{f1171}" },
-	{ "nf-md-message_star", "\u{f069a}" },
-	{ "nf-md-message_star_outline", "\u{f1250}" },
-	{ "nf-md-message_text", "\u{f0369}" },
-	{ "nf-md-message_text_clock", "\u{f1173}" },
-	{ "nf-md-message_text_clock_outline", "\u{f1174}" },
-	{ "nf-md-message_text_fast", "\u{f19ce}" },
-	{ "nf-md-message_text_fast_outline", "\u{f19cf}" },
-	{ "nf-md-message_text_lock", "\u{f0fcd}" },
-	{ "nf-md-message_text_lock_outline", "\u{f1175}" },
-	{ "nf-md-message_text_outline", "\u{f036a}" },
-	{ "nf-md-message_video", "\u{f036b}" },
-	{ "nf-md-meteor", "\u{f0629}" },
-	{ "nf-md-meter_electric", "\u{f1a57}" },
-	{ "nf-md-meter_electric_outline", "\u{f1a58}" },
-	{ "nf-md-meter_gas", "\u{f1a59}" },
-	{ "nf-md-meter_gas_outline", "\u{f1a5a}" },
-	{ "nf-md-metronome", "\u{f07da}" },
-	{ "nf-md-metronome_tick", "\u{f07db}" },
-	{ "nf-md-micro_sd", "\u{f07dc}" },
-	{ "nf-md-microphone", "\u{f036c}" },
-	{ "nf-md-microphone_minus", "\u{f08b3}" },
-	{ "nf-md-microphone_off", "\u{f036d}" },
-	{ "nf-md-microphone_outline", "\u{f036e}" },
-	{ "nf-md-microphone_plus", "\u{f08b4}" },
-	{ "nf-md-microphone_question", "\u{f1989}" },
-	{ "nf-md-microphone_question_outline", "\u{f198a}" },
-	{ "nf-md-microphone_settings", "\u{f036f}" },
-	{ "nf-md-microphone_variant", "\u{f0370}" },
-	{ "nf-md-microphone_variant_off", "\u{f0371}" },
-	{ "nf-md-microscope", "\u{f0654}" },
-	{ "nf-md-microsoft", "\u{f0372}" },
-	{ "nf-md-microsoft_access", "\u{f138e}" },
-	{ "nf-md-microsoft_azure", "\u{f0805}" },
-	{ "nf-md-microsoft_azure_devops", "\u{f0fd5}" },
-	{ "nf-md-microsoft_bing", "\u{f00a4}" },
-	{ "nf-md-microsoft_dynamics_365", "\u{f0988}" },
-	{ "nf-md-microsoft_edge", "\u{f01e9}" },
-	{ "nf-md-microsoft_excel", "\u{f138f}" },
-	{ "nf-md-microsoft_internet_explorer", "\u{f0300}" },
-	{ "nf-md-microsoft_office", "\u{f03c6}" },
-	{ "nf-md-microsoft_onedrive", "\u{f03ca}" },
-	{ "nf-md-microsoft_onenote", "\u{f0747}" },
-	{ "nf-md-microsoft_outlook", "\u{f0d22}" },
-	{ "nf-md-microsoft_powerpoint", "\u{f1390}" },
-	{ "nf-md-microsoft_sharepoint", "\u{f1391}" },
-	{ "nf-md-microsoft_teams", "\u{f02bb}" },
-	{ "nf-md-microsoft_visual_studio", "\u{f0610}" },
-	{ "nf-md-microsoft_visual_studio_code", "\u{f0a1e}" },
-	{ "nf-md-microsoft_windows", "\u{f05b3}" },
-	{ "nf-md-microsoft_windows_classic", "\u{f0a21}" },
-	{ "nf-md-microsoft_word", "\u{f1392}" },
-	{ "nf-md-microsoft_xbox", "\u{f05b9}" },
-	{ "nf-md-microsoft_xbox_controller", "\u{f05ba}" },
-	{ "nf-md-microsoft_xbox_controller_battery_alert", "\u{f074b}" },
-	{ "nf-md-microsoft_xbox_controller_battery_charging", "\u{f0a22}" },
-	{ "nf-md-microsoft_xbox_controller_battery_empty", "\u{f074c}" },
-	{ "nf-md-microsoft_xbox_controller_battery_full", "\u{f074d}" },
-	{ "nf-md-microsoft_xbox_controller_battery_low", "\u{f074e}" },
-	{ "nf-md-microsoft_xbox_controller_battery_medium", "\u{f074f}" },
-	{ "nf-md-microsoft_xbox_controller_battery_unknown", "\u{f0750}" },
-	{ "nf-md-microsoft_xbox_controller_menu", "\u{f0e6f}" },
-	{ "nf-md-microsoft_xbox_controller_off", "\u{f05bb}" },
-	{ "nf-md-microsoft_xbox_controller_view", "\u{f0e70}" },
-	{ "nf-md-microwave", "\u{f0c99}" },
-	{ "nf-md-microwave_off", "\u{f1423}" },
-	{ "nf-md-middleware", "\u{f0f5d}" },
-	{ "nf-md-middleware_outline", "\u{f0f5e}" },
-	{ "nf-md-midi", "\u{f08f1}" },
-	{ "nf-md-midi_port", "\u{f08f2}" },
-	{ "nf-md-mine", "\u{f0dda}" },
-	{ "nf-md-minecraft", "\u{f0373}" },
-	{ "nf-md-mini_sd", "\u{f0a05}" },
-	{ "nf-md-minidisc", "\u{f0a06}" },
-	{ "nf-md-minus", "\u{f0374}" },
-	{ "nf-md-minus_box", "\u{f0375}" },
-	{ "nf-md-minus_box_multiple", "\u{f1141}" },
-	{ "nf-md-minus_box_multiple_outline", "\u{f1142}" },
-	{ "nf-md-minus_box_outline", "\u{f06f2}" },
-	{ "nf-md-minus_circle", "\u{f0376}" },
-	{ "nf-md-minus_circle_multiple", "\u{f035a}" },
-	{ "nf-md-minus_circle_multiple_outline", "\u{f0ad3}" },
-	{ "nf-md-minus_circle_off", "\u{f1459}" },
-	{ "nf-md-minus_circle_off_outline", "\u{f145a}" },
-	{ "nf-md-minus_circle_outline", "\u{f0377}" },
-	{ "nf-md-minus_network", "\u{f0378}" },
-	{ "nf-md-minus_network_outline", "\u{f0c9a}" },
-	{ "nf-md-minus_thick", "\u{f1639}" },
-	{ "nf-md-mirror", "\u{f11fd}" },
-	{ "nf-md-mirror_rectangle", "\u{f179f}" },
-	{ "nf-md-mirror_variant", "\u{f17a0}" },
-	{ "nf-md-mixed_martial_arts", "\u{f0d8f}" },
-	{ "nf-md-mixed_reality", "\u{f087f}" },
-	{ "nf-md-molecule", "\u{f0bac}" },
-	{ "nf-md-molecule_co", "\u{f12fe}" },
-	{ "nf-md-molecule_co2", "\u{f07e4}" },
-	{ "nf-md-monitor", "\u{f0379}" },
-	{ "nf-md-monitor_account", "\u{f1a5b}" },
-	{ "nf-md-monitor_arrow_down", "\u{f19d0}" },
-	{ "nf-md-monitor_arrow_down_variant", "\u{f19d1}" },
-	{ "nf-md-monitor_cellphone", "\u{f0989}" },
-	{ "nf-md-monitor_cellphone_star", "\u{f098a}" },
-	{ "nf-md-monitor_dashboard", "\u{f0a07}" },
-	{ "nf-md-monitor_edit", "\u{f12c6}" },
-	{ "nf-md-monitor_eye", "\u{f13b4}" },
-	{ "nf-md-monitor_lock", "\u{f0ddb}" },
-	{ "nf-md-monitor_multiple", "\u{f037a}" },
-	{ "nf-md-monitor_off", "\u{f0d90}" },
-	{ "nf-md-monitor_screenshot", "\u{f0e51}" },
-	{ "nf-md-monitor_share", "\u{f1483}" },
-	{ "nf-md-monitor_shimmer", "\u{f1104}" },
-	{ "nf-md-monitor_small", "\u{f1876}" },
-	{ "nf-md-monitor_speaker", "\u{f0f5f}" },
-	{ "nf-md-monitor_speaker_off", "\u{f0f60}" },
-	{ "nf-md-monitor_star", "\u{f0ddc}" },
-	{ "nf-md-moon_first_quarter", "\u{f0f61}" },
-	{ "nf-md-moon_full", "\u{f0f62}" },
-	{ "nf-md-moon_last_quarter", "\u{f0f63}" },
-	{ "nf-md-moon_new", "\u{f0f64}" },
-	{ "nf-md-moon_waning_crescent", "\u{f0f65}" },
-	{ "nf-md-moon_waning_gibbous", "\u{f0f66}" },
-	{ "nf-md-moon_waxing_crescent", "\u{f0f67}" },
-	{ "nf-md-moon_waxing_gibbous", "\u{f0f68}" },
-	{ "nf-md-moped", "\u{f1086}" },
-	{ "nf-md-moped_electric", "\u{f15b7}" },
-	{ "nf-md-moped_electric_outline", "\u{f15b8}" },
-	{ "nf-md-moped_outline", "\u{f15b9}" },
-	{ "nf-md-more", "\u{f037b}" },
-	{ "nf-md-mortar_pestle", "\u{f1748}" },
-	{ "nf-md-mortar_pestle_plus", "\u{f03f1}" },
-	{ "nf-md-mosque", "\u{f1827}" },
-	{ "nf-md-mother_heart", "\u{f1314}" },
-	{ "nf-md-mother_nurse", "\u{f0d21}" },
-	{ "nf-md-motion", "\u{f15b2}" },
-	{ "nf-md-motion_outline", "\u{f15b3}" },
-	{ "nf-md-motion_pause", "\u{f1590}" },
-	{ "nf-md-motion_pause_outline", "\u{f1592}" },
-	{ "nf-md-motion_play", "\u{f158f}" },
-	{ "nf-md-motion_play_outline", "\u{f1591}" },
-	{ "nf-md-motion_sensor", "\u{f0d91}" },
-	{ "nf-md-motion_sensor_off", "\u{f1435}" },
-	{ "nf-md-motorbike", "\u{f037c}" },
-	{ "nf-md-motorbike_electric", "\u{f15ba}" },
-	{ "nf-md-mouse", "\u{f037d}" },
-	{ "nf-md-mouse_bluetooth", "\u{f098b}" },
-	{ "nf-md-mouse_move_down", "\u{f1550}" },
-	{ "nf-md-mouse_move_up", "\u{f1551}" },
-	{ "nf-md-mouse_move_vertical", "\u{f1552}" },
-	{ "nf-md-mouse_off", "\u{f037e}" },
-	{ "nf-md-mouse_variant", "\u{f037f}" },
-	{ "nf-md-mouse_variant_off", "\u{f0380}" },
-	{ "nf-md-move_resize", "\u{f0655}" },
-	{ "nf-md-move_resize_variant", "\u{f0656}" },
-	{ "nf-md-movie", "\u{f0381}" },
-	{ "nf-md-movie_check", "\u{f16f3}" },
-	{ "nf-md-movie_check_outline", "\u{f16f4}" },
-	{ "nf-md-movie_cog", "\u{f16f5}" },
-	{ "nf-md-movie_cog_outline", "\u{f16f6}" },
-	{ "nf-md-movie_edit", "\u{f1122}" },
-	{ "nf-md-movie_edit_outline", "\u{f1123}" },
-	{ "nf-md-movie_filter", "\u{f1124}" },
-	{ "nf-md-movie_filter_outline", "\u{f1125}" },
-	{ "nf-md-movie_minus", "\u{f16f7}" },
-	{ "nf-md-movie_minus_outline", "\u{f16f8}" },
-	{ "nf-md-movie_off", "\u{f16f9}" },
-	{ "nf-md-movie_off_outline", "\u{f16fa}" },
-	{ "nf-md-movie_open", "\u{f0fce}" },
-	{ "nf-md-movie_open_check", "\u{f16fb}" },
-	{ "nf-md-movie_open_check_outline", "\u{f16fc}" },
-	{ "nf-md-movie_open_cog", "\u{f16fd}" },
-	{ "nf-md-movie_open_cog_outline", "\u{f16fe}" },
-	{ "nf-md-movie_open_edit", "\u{f16ff}" },
-	{ "nf-md-movie_open_edit_outline", "\u{f1700}" },
-	{ "nf-md-movie_open_minus", "\u{f1701}" },
-	{ "nf-md-movie_open_minus_outline", "\u{f1702}" },
-	{ "nf-md-movie_open_off", "\u{f1703}" },
-	{ "nf-md-movie_open_off_outline", "\u{f1704}" },
-	{ "nf-md-movie_open_outline", "\u{f0fcf}" },
-	{ "nf-md-movie_open_play", "\u{f1705}" },
-	{ "nf-md-movie_open_play_outline", "\u{f1706}" },
-	{ "nf-md-movie_open_plus", "\u{f1707}" },
-	{ "nf-md-movie_open_plus_outline", "\u{f1708}" },
-	{ "nf-md-movie_open_remove", "\u{f1709}" },
-	{ "nf-md-movie_open_remove_outline", "\u{f170a}" },
-	{ "nf-md-movie_open_settings", "\u{f170b}" },
-	{ "nf-md-movie_open_settings_outline", "\u{f170c}" },
-	{ "nf-md-movie_open_star", "\u{f170d}" },
-	{ "nf-md-movie_open_star_outline", "\u{f170e}" },
-	{ "nf-md-movie_outline", "\u{f0ddd}" },
-	{ "nf-md-movie_play", "\u{f170f}" },
-	{ "nf-md-movie_play_outline", "\u{f1710}" },
-	{ "nf-md-movie_plus", "\u{f1711}" },
-	{ "nf-md-movie_plus_outline", "\u{f1712}" },
-	{ "nf-md-movie_remove", "\u{f1713}" },
-	{ "nf-md-movie_remove_outline", "\u{f1714}" },
-	{ "nf-md-movie_roll", "\u{f07de}" },
-	{ "nf-md-movie_search", "\u{f11d2}" },
-	{ "nf-md-movie_search_outline", "\u{f11d3}" },
-	{ "nf-md-movie_settings", "\u{f1715}" },
-	{ "nf-md-movie_settings_outline", "\u{f1716}" },
-	{ "nf-md-movie_star", "\u{f1717}" },
-	{ "nf-md-movie_star_outline", "\u{f1718}" },
-	{ "nf-md-mower", "\u{f166f}" },
-	{ "nf-md-mower_bag", "\u{f1670}" },
-	{ "nf-md-muffin", "\u{f098c}" },
-	{ "nf-md-multicast", "\u{f1893}" },
-	{ "nf-md-multiplication", "\u{f0382}" },
-	{ "nf-md-multiplication_box", "\u{f0383}" },
-	{ "nf-md-mushroom", "\u{f07df}" },
-	{ "nf-md-mushroom_off", "\u{f13fa}" },
-	{ "nf-md-mushroom_off_outline", "\u{f13fb}" },
-	{ "nf-md-mushroom_outline", "\u{f07e0}" },
-	{ "nf-md-music", "\u{f075a}" },
-	{ "nf-md-music_accidental_double_flat", "\u{f0f69}" },
-	{ "nf-md-music_accidental_double_sharp", "\u{f0f6a}" },
-	{ "nf-md-music_accidental_flat", "\u{f0f6b}" },
-	{ "nf-md-music_accidental_natural", "\u{f0f6c}" },
-	{ "nf-md-music_accidental_sharp", "\u{f0f6d}" },
-	{ "nf-md-music_box", "\u{f0384}" },
-	{ "nf-md-music_box_multiple", "\u{f0333}" },
-	{ "nf-md-music_box_multiple_outline", "\u{f0f04}" },
-	{ "nf-md-music_box_outline", "\u{f0385}" },
-	{ "nf-md-music_circle", "\u{f0386}" },
-	{ "nf-md-music_circle_outline", "\u{f0ad4}" },
-	{ "nf-md-music_clef_alto", "\u{f0f6e}" },
-	{ "nf-md-music_clef_bass", "\u{f0f6f}" },
-	{ "nf-md-music_clef_treble", "\u{f0f70}" },
-	{ "nf-md-music_note", "\u{f0388}" },
-	{ "nf-md-music_note_bluetooth", "\u{f05fe}" },
-	{ "nf-md-music_note_bluetooth_off", "\u{f05ff}" },
-	{ "nf-md-music_note_eighth_dotted", "\u{f0f71}" },
-	{ "nf-md-music_note_half", "\u{f0389}" },
-	{ "nf-md-music_note_half_dotted", "\u{f0f72}" },
-	{ "nf-md-music_note_off", "\u{f038a}" },
-	{ "nf-md-music_note_off_outline", "\u{f0f73}" },
-	{ "nf-md-music_note_outline", "\u{f0f74}" },
-	{ "nf-md-music_note_plus", "\u{f0dde}" },
-	{ "nf-md-music_note_quarter", "\u{f038b}" },
-	{ "nf-md-music_note_quarter_dotted", "\u{f0f75}" },
-	{ "nf-md-music_note_sixteenth", "\u{f038c}" },
-	{ "nf-md-music_note_sixteenth_dotted", "\u{f0f76}" },
-	{ "nf-md-music_note_whole", "\u{f038d}" },
-	{ "nf-md-music_note_whole_dotted", "\u{f0f77}" },
-	{ "nf-md-music_off", "\u{f075b}" },
-	{ "nf-md-music_rest_eighth", "\u{f0f78}" },
-	{ "nf-md-music_rest_half", "\u{f0f79}" },
-	{ "nf-md-music_rest_quarter", "\u{f0f7a}" },
-	{ "nf-md-music_rest_sixteenth", "\u{f0f7b}" },
-	{ "nf-md-music_rest_whole", "\u{f0f7c}" },
-	{ "nf-md-mustache", "\u{f15de}" },
-	{ "nf-md-nail", "\u{f0ddf}" },
-	{ "nf-md-nas", "\u{f08f3}" },
-	{ "nf-md-nativescript", "\u{f0880}" },
-	{ "nf-md-nature", "\u{f038e}" },
-	{ "nf-md-nature_people", "\u{f038f}" },
-	{ "nf-md-navigation", "\u{f0390}" },
-	{ "nf-md-navigation_outline", "\u{f1607}" },
-	{ "nf-md-navigation_variant_outline", "\u{f18f1}" },
-	{ "nf-md-near_me", "\u{f18f0}" },
-	{ "nf-md-necklace", "\u{f0f0b}" },
-	{ "nf-md-needle", "\u{f0391}" },
-	{ "nf-md-needle_off", "\u{f19d2}" },
-	{ "nf-md-netflix", "\u{f0746}" },
-	{ "nf-md-network", "\u{f06f3}" },
-	{ "nf-md-network_off", "\u{f0c9b}" },
-	{ "nf-md-network_off_outline", "\u{f0c9c}" },
-	{ "nf-md-network_outline", "\u{f0c9d}" },
-	{ "nf-md-network_pos", "\u{f1acb}" },
-	{ "nf-md-network_strength_1", "\u{f08f4}" },
-	{ "nf-md-network_strength_1_alert", "\u{f08f5}" },
-	{ "nf-md-network_strength_2", "\u{f08f6}" },
-	{ "nf-md-network_strength_2_alert", "\u{f08f7}" },
-	{ "nf-md-network_strength_3", "\u{f08f8}" },
-	{ "nf-md-network_strength_3_alert", "\u{f08f9}" },
-	{ "nf-md-network_strength_4", "\u{f08fa}" },
-	{ "nf-md-network_strength_4_alert", "\u{f08fb}" },
-	{ "nf-md-network_strength_4_cog", "\u{f191a}" },
-	{ "nf-md-network_strength_off", "\u{f08fc}" },
-	{ "nf-md-network_strength_off_outline", "\u{f08fd}" },
-	{ "nf-md-network_strength_outline", "\u{f08fe}" },
-	{ "nf-md-new_box", "\u{f0394}" },
-	{ "nf-md-newspaper", "\u{f0395}" },
-	{ "nf-md-newspaper_check", "\u{f1943}" },
-	{ "nf-md-newspaper_minus", "\u{f0f0c}" },
-	{ "nf-md-newspaper_plus", "\u{f0f0d}" },
-	{ "nf-md-newspaper_remove", "\u{f1944}" },
-	{ "nf-md-newspaper_variant", "\u{f1001}" },
-	{ "nf-md-newspaper_variant_multiple", "\u{f1002}" },
-	{ "nf-md-newspaper_variant_multiple_outline", "\u{f1003}" },
-	{ "nf-md-newspaper_variant_outline", "\u{f1004}" },
-	{ "nf-md-nfc", "\u{f0396}" },
-	{ "nf-md-nfc_search_variant", "\u{f0e53}" },
-	{ "nf-md-nfc_tap", "\u{f0397}" },
-	{ "nf-md-nfc_variant", "\u{f0398}" },
-	{ "nf-md-nfc_variant_off", "\u{f0e54}" },
-	{ "nf-md-ninja", "\u{f0774}" },
-	{ "nf-md-nintendo_game_boy", "\u{f1393}" },
-	{ "nf-md-nintendo_switch", "\u{f07e1}" },
-	{ "nf-md-nintendo_wii", "\u{f05ab}" },
-	{ "nf-md-nintendo_wiiu", "\u{f072d}" },
-	{ "nf-md-nix", "\u{f1105}" },
-	{ "nf-md-nodejs", "\u{f0399}" },
-	{ "nf-md-noodles", "\u{f117e}" },
-	{ "nf-md-not_equal", "\u{f098d}" },
-	{ "nf-md-not_equal_variant", "\u{f098e}" },
-	{ "nf-md-note", "\u{f039a}" },
-	{ "nf-md-note_alert", "\u{f177d}" },
-	{ "nf-md-note_alert_outline", "\u{f177e}" },
-	{ "nf-md-note_check", "\u{f177f}" },
-	{ "nf-md-note_check_outline", "\u{f1780}" },
-	{ "nf-md-note_edit", "\u{f1781}" },
-	{ "nf-md-note_edit_outline", "\u{f1782}" },
-	{ "nf-md-note_minus", "\u{f164f}" },
-	{ "nf-md-note_minus_outline", "\u{f1650}" },
-	{ "nf-md-note_multiple", "\u{f06b8}" },
-	{ "nf-md-note_multiple_outline", "\u{f06b9}" },
-	{ "nf-md-note_off", "\u{f1783}" },
-	{ "nf-md-note_off_outline", "\u{f1784}" },
-	{ "nf-md-note_outline", "\u{f039b}" },
-	{ "nf-md-note_plus", "\u{f039c}" },
-	{ "nf-md-note_plus_outline", "\u{f039d}" },
-	{ "nf-md-note_remove", "\u{f1651}" },
-	{ "nf-md-note_remove_outline", "\u{f1652}" },
-	{ "nf-md-note_search", "\u{f1653}" },
-	{ "nf-md-note_search_outline", "\u{f1654}" },
-	{ "nf-md-note_text", "\u{f039e}" },
-	{ "nf-md-note_text_outline", "\u{f11d7}" },
-	{ "nf-md-notebook", "\u{f082e}" },
-	{ "nf-md-notebook_check", "\u{f14f5}" },
-	{ "nf-md-notebook_check_outline", "\u{f14f6}" },
-	{ "nf-md-notebook_edit", "\u{f14e7}" },
-	{ "nf-md-notebook_edit_outline", "\u{f14e9}" },
-	{ "nf-md-notebook_heart", "\u{f1a0b}" },
-	{ "nf-md-notebook_heart_outline", "\u{f1a0c}" },
-	{ "nf-md-notebook_minus", "\u{f1610}" },
-	{ "nf-md-notebook_minus_outline", "\u{f1611}" },
-	{ "nf-md-notebook_multiple", "\u{f0e55}" },
-	{ "nf-md-notebook_outline", "\u{f0ebf}" },
-	{ "nf-md-notebook_plus", "\u{f1612}" },
-	{ "nf-md-notebook_plus_outline", "\u{f1613}" },
-	{ "nf-md-notebook_remove", "\u{f1614}" },
-	{ "nf-md-notebook_remove_outline", "\u{f1615}" },
-	{ "nf-md-notification_clear_all", "\u{f039f}" },
-	{ "nf-md-npm", "\u{f06f7}" },
-	{ "nf-md-nuke", "\u{f06a4}" },
-	{ "nf-md-null", "\u{f07e2}" },
-	{ "nf-md-numeric", "\u{f03a0}" },
-	{ "nf-md-numeric_0_box", "\u{f03a1}" },
-	{ "nf-md-numeric_0_box_multiple", "\u{f0f0e}" },
-	{ "nf-md-numeric_0_box_multiple_outline", "\u{f03a2}" },
-	{ "nf-md-numeric_0_box_outline", "\u{f03a3}" },
-	{ "nf-md-numeric_1", "\u{f0b3a}" },
-	{ "nf-md-numeric_10", "\u{f0fe9}" },
-	{ "nf-md-numeric_10_box", "\u{f0f7d}" },
-	{ "nf-md-numeric_10_box_multiple", "\u{f0fea}" },
-	{ "nf-md-numeric_10_box_multiple_outline", "\u{f0feb}" },
-	{ "nf-md-numeric_10_box_outline", "\u{f0f7e}" },
-	{ "nf-md-numeric_10_circle", "\u{f0fec}" },
-	{ "nf-md-numeric_10_circle_outline", "\u{f0fed}" },
-	{ "nf-md-numeric_1_box", "\u{f03a4}" },
-	{ "nf-md-numeric_1_box_multiple", "\u{f0f0f}" },
-	{ "nf-md-numeric_1_box_multiple_outline", "\u{f03a5}" },
-	{ "nf-md-numeric_1_box_outline", "\u{f03a6}" },
-	{ "nf-md-numeric_1_circle", "\u{f0ca0}" },
-	{ "nf-md-numeric_1_circle_outline", "\u{f0ca1}" },
-	{ "nf-md-numeric_2", "\u{f0b3b}" },
-	{ "nf-md-numeric_2_box", "\u{f03a7}" },
-	{ "nf-md-numeric_2_box_multiple", "\u{f0f10}" },
-	{ "nf-md-numeric_2_box_multiple_outline", "\u{f03a8}" },
-	{ "nf-md-numeric_2_box_outline", "\u{f03a9}" },
-	{ "nf-md-numeric_2_circle", "\u{f0ca2}" },
-	{ "nf-md-numeric_2_circle_outline", "\u{f0ca3}" },
-	{ "nf-md-numeric_3", "\u{f0b3c}" },
-	{ "nf-md-numeric_3_box", "\u{f03aa}" },
-	{ "nf-md-numeric_3_box_multiple", "\u{f0f11}" },
-	{ "nf-md-numeric_3_box_multiple_outline", "\u{f03ab}" },
-	{ "nf-md-numeric_3_box_outline", "\u{f03ac}" },
-	{ "nf-md-numeric_3_circle", "\u{f0ca4}" },
-	{ "nf-md-numeric_3_circle_outline", "\u{f0ca5}" },
-	{ "nf-md-numeric_4", "\u{f0b3d}" },
-	{ "nf-md-numeric_4_box", "\u{f03ad}" },
-	{ "nf-md-numeric_4_box_multiple", "\u{f0f12}" },
-	{ "nf-md-numeric_4_box_multiple_outline", "\u{f03b2}" },
-	{ "nf-md-numeric_4_box_outline", "\u{f03ae}" },
-	{ "nf-md-numeric_4_circle", "\u{f0ca6}" },
-	{ "nf-md-numeric_4_circle_outline", "\u{f0ca7}" },
-	{ "nf-md-numeric_5", "\u{f0b3e}" },
-	{ "nf-md-numeric_5_box", "\u{f03b1}" },
-	{ "nf-md-numeric_5_box_multiple", "\u{f0f13}" },
-	{ "nf-md-numeric_5_box_multiple_outline", "\u{f03af}" },
-	{ "nf-md-numeric_5_box_outline", "\u{f03b0}" },
-	{ "nf-md-numeric_5_circle", "\u{f0ca8}" },
-	{ "nf-md-numeric_5_circle_outline", "\u{f0ca9}" },
-	{ "nf-md-numeric_6", "\u{f0b3f}" },
-	{ "nf-md-numeric_6_box", "\u{f03b3}" },
-	{ "nf-md-numeric_6_box_multiple", "\u{f0f14}" },
-	{ "nf-md-numeric_6_box_multiple_outline", "\u{f03b4}" },
-	{ "nf-md-numeric_6_box_outline", "\u{f03b5}" },
-	{ "nf-md-numeric_6_circle", "\u{f0caa}" },
-	{ "nf-md-numeric_6_circle_outline", "\u{f0cab}" },
-	{ "nf-md-numeric_7", "\u{f0b40}" },
-	{ "nf-md-numeric_7_box", "\u{f03b6}" },
-	{ "nf-md-numeric_7_box_multiple", "\u{f0f15}" },
-	{ "nf-md-numeric_7_box_multiple_outline", "\u{f03b7}" },
-	{ "nf-md-numeric_7_box_outline", "\u{f03b8}" },
-	{ "nf-md-numeric_7_circle", "\u{f0cac}" },
-	{ "nf-md-numeric_7_circle_outline", "\u{f0cad}" },
-	{ "nf-md-numeric_8", "\u{f0b41}" },
-	{ "nf-md-numeric_8_box", "\u{f03b9}" },
-	{ "nf-md-numeric_8_box_multiple", "\u{f0f16}" },
-	{ "nf-md-numeric_8_box_multiple_outline", "\u{f03ba}" },
-	{ "nf-md-numeric_8_box_outline", "\u{f03bb}" },
-	{ "nf-md-numeric_8_circle", "\u{f0cae}" },
-	{ "nf-md-numeric_8_circle_outline", "\u{f0caf}" },
-	{ "nf-md-numeric_9", "\u{f0b42}" },
-	{ "nf-md-numeric_9_box", "\u{f03bc}" },
-	{ "nf-md-numeric_9_box_multiple", "\u{f0f17}" },
-	{ "nf-md-numeric_9_box_multiple_outline", "\u{f03bd}" },
-	{ "nf-md-numeric_9_box_outline", "\u{f03be}" },
-	{ "nf-md-numeric_9_circle", "\u{f0cb0}" },
-	{ "nf-md-numeric_9_circle_outline", "\u{f0cb1}" },
-	{ "nf-md-numeric_9_plus", "\u{f0fee}" },
-	{ "nf-md-numeric_9_plus_box", "\u{f03bf}" },
-	{ "nf-md-numeric_9_plus_box_multiple", "\u{f0f18}" },
-	{ "nf-md-numeric_9_plus_box_multiple_outline", "\u{f03c0}" },
-	{ "nf-md-numeric_9_plus_box_outline", "\u{f03c1}" },
-	{ "nf-md-numeric_9_plus_circle", "\u{f0cb2}" },
-	{ "nf-md-numeric_9_plus_circle_outline", "\u{f0cb3}" },
-	{ "nf-md-numeric_negative_1", "\u{f1052}" },
-	{ "nf-md-numeric_off", "\u{f19d3}" },
-	{ "nf-md-numeric_positive_1", "\u{f15cb}" },
-	{ "nf-md-nut", "\u{f06f8}" },
-	{ "nf-md-nutrition", "\u{f03c2}" },
-	{ "nf-md-nuxt", "\u{f1106}" },
-	{ "nf-md-oar", "\u{f067c}" },
-	{ "nf-md-ocarina", "\u{f0de0}" },
-	{ "nf-md-oci", "\u{f12e9}" },
-	{ "nf-md-ocr", "\u{f113a}" },
-	{ "nf-md-octagon", "\u{f03c3}" },
-	{ "nf-md-octagon_outline", "\u{f03c4}" },
-	{ "nf-md-octagram", "\u{f06f9}" },
-	{ "nf-md-octagram_outline", "\u{f0775}" },
-	{ "nf-md-octahedron", "\u{f1950}" },
-	{ "nf-md-octahedron_off", "\u{f1951}" },
-	{ "nf-md-odnoklassniki", "\u{f03c5}" },
-	{ "nf-md-offer", "\u{f121b}" },
-	{ "nf-md-office_building", "\u{f0991}" },
-	{ "nf-md-office_building_cog", "\u{f1949}" },
-	{ "nf-md-office_building_cog_outline", "\u{f194a}" },
-	{ "nf-md-office_building_marker", "\u{f1520}" },
-	{ "nf-md-office_building_marker_outline", "\u{f1521}" },
-	{ "nf-md-office_building_outline", "\u{f151f}" },
-	{ "nf-md-oil", "\u{f03c7}" },
-	{ "nf-md-oil_lamp", "\u{f0f19}" },
-	{ "nf-md-oil_level", "\u{f1053}" },
-	{ "nf-md-oil_temperature", "\u{f0ff8}" },
-	{ "nf-md-om", "\u{f0973}" },
-	{ "nf-md-omega", "\u{f03c9}" },
-	{ "nf-md-one_up", "\u{f0bad}" },
-	{ "nf-md-onepassword", "\u{f0881}" },
-	{ "nf-md-opacity", "\u{f05cc}" },
-	{ "nf-md-open_in_app", "\u{f03cb}" },
-	{ "nf-md-open_in_new", "\u{f03cc}" },
-	{ "nf-md-open_source_initiative", "\u{f0bae}" },
-	{ "nf-md-openid", "\u{f03cd}" },
-	{ "nf-md-opera", "\u{f03ce}" },
-	{ "nf-md-orbit", "\u{f0018}" },
-	{ "nf-md-orbit_variant", "\u{f15db}" },
-	{ "nf-md-order_alphabetical_ascending", "\u{f020d}" },
-	{ "nf-md-order_alphabetical_descending", "\u{f0d07}" },
-	{ "nf-md-order_bool_ascending", "\u{f02be}" },
-	{ "nf-md-order_bool_ascending_variant", "\u{f098f}" },
-	{ "nf-md-order_bool_descending", "\u{f1384}" },
-	{ "nf-md-order_bool_descending_variant", "\u{f0990}" },
-	{ "nf-md-order_numeric_ascending", "\u{f0545}" },
-	{ "nf-md-order_numeric_descending", "\u{f0546}" },
-	{ "nf-md-origin", "\u{f0b43}" },
-	{ "nf-md-ornament", "\u{f03cf}" },
-	{ "nf-md-ornament_variant", "\u{f03d0}" },
-	{ "nf-md-outdoor_lamp", "\u{f1054}" },
-	{ "nf-md-overscan", "\u{f1005}" },
-	{ "nf-md-owl", "\u{f03d2}" },
-	{ "nf-md-pac_man", "\u{f0baf}" },
-	{ "nf-md-package", "\u{f03d3}" },
-	{ "nf-md-package_down", "\u{f03d4}" },
-	{ "nf-md-package_up", "\u{f03d5}" },
-	{ "nf-md-package_variant", "\u{f03d6}" },
-	{ "nf-md-package_variant_closed", "\u{f03d7}" },
-	{ "nf-md-package_variant_closed_minus", "\u{f19d4}" },
-	{ "nf-md-package_variant_closed_plus", "\u{f19d5}" },
-	{ "nf-md-package_variant_closed_remove", "\u{f19d6}" },
-	{ "nf-md-package_variant_minus", "\u{f19d7}" },
-	{ "nf-md-package_variant_plus", "\u{f19d8}" },
-	{ "nf-md-package_variant_remove", "\u{f19d9}" },
-	{ "nf-md-page_first", "\u{f0600}" },
-	{ "nf-md-page_last", "\u{f0601}" },
-	{ "nf-md-page_layout_body", "\u{f06fa}" },
-	{ "nf-md-page_layout_footer", "\u{f06fb}" },
-	{ "nf-md-page_layout_header", "\u{f06fc}" },
-	{ "nf-md-page_layout_header_footer", "\u{f0f7f}" },
-	{ "nf-md-page_layout_sidebar_left", "\u{f06fd}" },
-	{ "nf-md-page_layout_sidebar_right", "\u{f06fe}" },
-	{ "nf-md-page_next", "\u{f0bb0}" },
-	{ "nf-md-page_next_outline", "\u{f0bb1}" },
-	{ "nf-md-page_previous", "\u{f0bb2}" },
-	{ "nf-md-page_previous_outline", "\u{f0bb3}" },
-	{ "nf-md-pail", "\u{f1417}" },
-	{ "nf-md-pail_minus", "\u{f1437}" },
-	{ "nf-md-pail_minus_outline", "\u{f143c}" },
-	{ "nf-md-pail_off", "\u{f1439}" },
-	{ "nf-md-pail_off_outline", "\u{f143e}" },
-	{ "nf-md-pail_outline", "\u{f143a}" },
-	{ "nf-md-pail_plus", "\u{f1436}" },
-	{ "nf-md-pail_plus_outline", "\u{f143b}" },
-	{ "nf-md-pail_remove", "\u{f1438}" },
-	{ "nf-md-pail_remove_outline", "\u{f143d}" },
-	{ "nf-md-palette", "\u{f03d8}" },
-	{ "nf-md-palette_advanced", "\u{f03d9}" },
-	{ "nf-md-palette_outline", "\u{f0e0c}" },
-	{ "nf-md-palette_swatch", "\u{f08b5}" },
-	{ "nf-md-palette_swatch_outline", "\u{f135c}" },
-	{ "nf-md-palette_swatch_variant", "\u{f195a}" },
-	{ "nf-md-palm_tree", "\u{f1055}" },
-	{ "nf-md-pan", "\u{f0bb4}" },
-	{ "nf-md-pan_bottom_left", "\u{f0bb5}" },
-	{ "nf-md-pan_bottom_right", "\u{f0bb6}" },
-	{ "nf-md-pan_down", "\u{f0bb7}" },
-	{ "nf-md-pan_horizontal", "\u{f0bb8}" },
-	{ "nf-md-pan_left", "\u{f0bb9}" },
-	{ "nf-md-pan_right", "\u{f0bba}" },
-	{ "nf-md-pan_top_left", "\u{f0bbb}" },
-	{ "nf-md-pan_top_right", "\u{f0bbc}" },
-	{ "nf-md-pan_up", "\u{f0bbd}" },
-	{ "nf-md-pan_vertical", "\u{f0bbe}" },
-	{ "nf-md-panda", "\u{f03da}" },
-	{ "nf-md-pandora", "\u{f03db}" },
-	{ "nf-md-panorama", "\u{f03dc}" },
-	{ "nf-md-panorama_fisheye", "\u{f03dd}" },
-	{ "nf-md-panorama_horizontal", "\u{f1928}" },
-	{ "nf-md-panorama_horizontal_outline", "\u{f03de}" },
-	{ "nf-md-panorama_outline", "\u{f198c}" },
-	{ "nf-md-panorama_sphere", "\u{f198d}" },
-	{ "nf-md-panorama_sphere_outline", "\u{f198e}" },
-	{ "nf-md-panorama_variant", "\u{f198f}" },
-	{ "nf-md-panorama_variant_outline", "\u{f1990}" },
-	{ "nf-md-panorama_vertical", "\u{f1929}" },
-	{ "nf-md-panorama_vertical_outline", "\u{f03df}" },
-	{ "nf-md-panorama_wide_angle", "\u{f195f}" },
-	{ "nf-md-panorama_wide_angle_outline", "\u{f03e0}" },
-	{ "nf-md-paper_cut_vertical", "\u{f03e1}" },
-	{ "nf-md-paper_roll", "\u{f1157}" },
-	{ "nf-md-paper_roll_outline", "\u{f1158}" },
-	{ "nf-md-paperclip", "\u{f03e2}" },
-	{ "nf-md-paperclip_check", "\u{f1ac6}" },
-	{ "nf-md-paperclip_lock", "\u{f19da}" },
-	{ "nf-md-paperclip_minus", "\u{f1ac7}" },
-	{ "nf-md-paperclip_off", "\u{f1ac8}" },
-	{ "nf-md-paperclip_plus", "\u{f1ac9}" },
-	{ "nf-md-paperclip_remove", "\u{f1aca}" },
-	{ "nf-md-parachute", "\u{f0cb4}" },
-	{ "nf-md-parachute_outline", "\u{f0cb5}" },
-	{ "nf-md-paragliding", "\u{f1745}" },
-	{ "nf-md-parking", "\u{f03e3}" },
-	{ "nf-md-party_popper", "\u{f1056}" },
-	{ "nf-md-passport", "\u{f07e3}" },
-	{ "nf-md-passport_biometric", "\u{f0de1}" },
-	{ "nf-md-pasta", "\u{f1160}" },
-	{ "nf-md-patio_heater", "\u{f0f80}" },
-	{ "nf-md-patreon", "\u{f0882}" },
-	{ "nf-md-pause", "\u{f03e4}" },
-	{ "nf-md-pause_circle", "\u{f03e5}" },
-	{ "nf-md-pause_circle_outline", "\u{f03e6}" },
-	{ "nf-md-pause_octagon", "\u{f03e7}" },
-	{ "nf-md-pause_octagon_outline", "\u{f03e8}" },
-	{ "nf-md-paw", "\u{f03e9}" },
-	{ "nf-md-paw_off", "\u{f0657}" },
-	{ "nf-md-paw_off_outline", "\u{f1676}" },
-	{ "nf-md-paw_outline", "\u{f1675}" },
-	{ "nf-md-peace", "\u{f0884}" },
-	{ "nf-md-peanut", "\u{f0ffc}" },
-	{ "nf-md-peanut_off", "\u{f0ffd}" },
-	{ "nf-md-peanut_off_outline", "\u{f0fff}" },
-	{ "nf-md-peanut_outline", "\u{f0ffe}" },
-	{ "nf-md-pen", "\u{f03ea}" },
-	{ "nf-md-pen_lock", "\u{f0de2}" },
-	{ "nf-md-pen_minus", "\u{f0de3}" },
-	{ "nf-md-pen_off", "\u{f0de4}" },
-	{ "nf-md-pen_plus", "\u{f0de5}" },
-	{ "nf-md-pen_remove", "\u{f0de6}" },
-	{ "nf-md-pencil", "\u{f03eb}" },
-	{ "nf-md-pencil_box", "\u{f03ec}" },
-	{ "nf-md-pencil_box_multiple", "\u{f1144}" },
-	{ "nf-md-pencil_box_multiple_outline", "\u{f1145}" },
-	{ "nf-md-pencil_box_outline", "\u{f03ed}" },
-	{ "nf-md-pencil_circle", "\u{f06ff}" },
-	{ "nf-md-pencil_circle_outline", "\u{f0776}" },
-	{ "nf-md-pencil_lock", "\u{f03ee}" },
-	{ "nf-md-pencil_lock_outline", "\u{f0de7}" },
-	{ "nf-md-pencil_minus", "\u{f0de8}" },
-	{ "nf-md-pencil_minus_outline", "\u{f0de9}" },
-	{ "nf-md-pencil_off", "\u{f03ef}" },
-	{ "nf-md-pencil_off_outline", "\u{f0dea}" },
-	{ "nf-md-pencil_outline", "\u{f0cb6}" },
-	{ "nf-md-pencil_plus", "\u{f0deb}" },
-	{ "nf-md-pencil_plus_outline", "\u{f0dec}" },
-	{ "nf-md-pencil_remove", "\u{f0ded}" },
-	{ "nf-md-pencil_remove_outline", "\u{f0dee}" },
-	{ "nf-md-pencil_ruler", "\u{f1353}" },
-	{ "nf-md-penguin", "\u{f0ec0}" },
-	{ "nf-md-pentagon", "\u{f0701}" },
-	{ "nf-md-pentagon_outline", "\u{f0700}" },
-	{ "nf-md-pentagram", "\u{f1667}" },
-	{ "nf-md-percent", "\u{f03f0}" },
-	{ "nf-md-percent_box", "\u{f1a02}" },
-	{ "nf-md-percent_box_outline", "\u{f1a03}" },
-	{ "nf-md-percent_circle", "\u{f1a04}" },
-	{ "nf-md-percent_circle_outline", "\u{f1a05}" },
-	{ "nf-md-percent_outline", "\u{f1278}" },
-	{ "nf-md-periodic_table", "\u{f08b6}" },
-	{ "nf-md-perspective_less", "\u{f0d23}" },
-	{ "nf-md-perspective_more", "\u{f0d24}" },
-	{ "nf-md-ph", "\u{f17c5}" },
-	{ "nf-md-phone", "\u{f03f2}" },
-	{ "nf-md-phone_alert", "\u{f0f1a}" },
-	{ "nf-md-phone_alert_outline", "\u{f118e}" },
-	{ "nf-md-phone_bluetooth", "\u{f03f3}" },
-	{ "nf-md-phone_bluetooth_outline", "\u{f118f}" },
-	{ "nf-md-phone_cancel", "\u{f10bc}" },
-	{ "nf-md-phone_cancel_outline", "\u{f1190}" },
-	{ "nf-md-phone_check", "\u{f11a9}" },
-	{ "nf-md-phone_check_outline", "\u{f11aa}" },
-	{ "nf-md-phone_classic", "\u{f0602}" },
-	{ "nf-md-phone_classic_off", "\u{f1279}" },
-	{ "nf-md-phone_clock", "\u{f19db}" },
-	{ "nf-md-phone_dial", "\u{f1559}" },
-	{ "nf-md-phone_dial_outline", "\u{f155a}" },
-	{ "nf-md-phone_forward", "\u{f03f4}" },
-	{ "nf-md-phone_forward_outline", "\u{f1191}" },
-	{ "nf-md-phone_hangup", "\u{f03f5}" },
-	{ "nf-md-phone_hangup_outline", "\u{f1192}" },
-	{ "nf-md-phone_in_talk", "\u{f03f6}" },
-	{ "nf-md-phone_in_talk_outline", "\u{f1182}" },
-	{ "nf-md-phone_incoming", "\u{f03f7}" },
-	{ "nf-md-phone_incoming_outline", "\u{f1193}" },
-	{ "nf-md-phone_lock", "\u{f03f8}" },
-	{ "nf-md-phone_lock_outline", "\u{f1194}" },
-	{ "nf-md-phone_log", "\u{f03f9}" },
-	{ "nf-md-phone_log_outline", "\u{f1195}" },
-	{ "nf-md-phone_message", "\u{f1196}" },
-	{ "nf-md-phone_message_outline", "\u{f1197}" },
-	{ "nf-md-phone_minus", "\u{f0658}" },
-	{ "nf-md-phone_minus_outline", "\u{f1198}" },
-	{ "nf-md-phone_missed", "\u{f03fa}" },
-	{ "nf-md-phone_missed_outline", "\u{f11a5}" },
-	{ "nf-md-phone_off", "\u{f0def}" },
-	{ "nf-md-phone_off_outline", "\u{f11a6}" },
-	{ "nf-md-phone_outgoing", "\u{f03fb}" },
-	{ "nf-md-phone_outgoing_outline", "\u{f1199}" },
-	{ "nf-md-phone_outline", "\u{f0df0}" },
-	{ "nf-md-phone_paused", "\u{f03fc}" },
-	{ "nf-md-phone_paused_outline", "\u{f119a}" },
-	{ "nf-md-phone_plus", "\u{f0659}" },
-	{ "nf-md-phone_plus_outline", "\u{f119b}" },
-	{ "nf-md-phone_refresh", "\u{f1993}" },
-	{ "nf-md-phone_refresh_outline", "\u{f1994}" },
-	{ "nf-md-phone_remove", "\u{f152f}" },
-	{ "nf-md-phone_remove_outline", "\u{f1530}" },
-	{ "nf-md-phone_return", "\u{f082f}" },
-	{ "nf-md-phone_return_outline", "\u{f119c}" },
-	{ "nf-md-phone_ring", "\u{f11ab}" },
-	{ "nf-md-phone_ring_outline", "\u{f11ac}" },
-	{ "nf-md-phone_rotate_landscape", "\u{f0885}" },
-	{ "nf-md-phone_rotate_portrait", "\u{f0886}" },
-	{ "nf-md-phone_settings", "\u{f03fd}" },
-	{ "nf-md-phone_settings_outline", "\u{f119d}" },
-	{ "nf-md-phone_sync", "\u{f1995}" },
-	{ "nf-md-phone_sync_outline", "\u{f1996}" },
-	{ "nf-md-phone_voip", "\u{f03fe}" },
-	{ "nf-md-pi", "\u{f03ff}" },
-	{ "nf-md-pi_box", "\u{f0400}" },
-	{ "nf-md-pi_hole", "\u{f0df1}" },
-	{ "nf-md-piano", "\u{f067d}" },
-	{ "nf-md-piano_off", "\u{f0698}" },
-	{ "nf-md-pickaxe", "\u{f08b7}" },
-	{ "nf-md-picture_in_picture_bottom_right", "\u{f0e57}" },
-	{ "nf-md-picture_in_picture_bottom_right_outline", "\u{f0e58}" },
-	{ "nf-md-picture_in_picture_top_right", "\u{f0e59}" },
-	{ "nf-md-picture_in_picture_top_right_outline", "\u{f0e5a}" },
-	{ "nf-md-pier", "\u{f0887}" },
-	{ "nf-md-pier_crane", "\u{f0888}" },
-	{ "nf-md-pig", "\u{f0401}" },
-	{ "nf-md-pig_variant", "\u{f1006}" },
-	{ "nf-md-pig_variant_outline", "\u{f1678}" },
-	{ "nf-md-piggy_bank", "\u{f1007}" },
-	{ "nf-md-piggy_bank_outline", "\u{f1679}" },
-	{ "nf-md-pill", "\u{f0402}" },
-	{ "nf-md-pill_off", "\u{f1a5c}" },
-	{ "nf-md-pillar", "\u{f0702}" },
-	{ "nf-md-pin", "\u{f0403}" },
-	{ "nf-md-pin_off", "\u{f0404}" },
-	{ "nf-md-pin_off_outline", "\u{f0930}" },
-	{ "nf-md-pin_outline", "\u{f0931}" },
-	{ "nf-md-pine_tree", "\u{f0405}" },
-	{ "nf-md-pine_tree_box", "\u{f0406}" },
-	{ "nf-md-pine_tree_fire", "\u{f141a}" },
-	{ "nf-md-pinterest", "\u{f0407}" },
-	{ "nf-md-pinwheel", "\u{f0ad5}" },
-	{ "nf-md-pinwheel_outline", "\u{f0ad6}" },
-	{ "nf-md-pipe", "\u{f07e5}" },
-	{ "nf-md-pipe_disconnected", "\u{f07e6}" },
-	{ "nf-md-pipe_leak", "\u{f0889}" },
-	{ "nf-md-pipe_valve", "\u{f184d}" },
-	{ "nf-md-pipe_wrench", "\u{f1354}" },
-	{ "nf-md-pirate", "\u{f0a08}" },
-	{ "nf-md-pistol", "\u{f0703}" },
-	{ "nf-md-piston", "\u{f088a}" },
-	{ "nf-md-pitchfork", "\u{f1553}" },
-	{ "nf-md-pizza", "\u{f0409}" },
-	{ "nf-md-play", "\u{f040a}" },
-	{ "nf-md-play_box", "\u{f127a}" },
-	{ "nf-md-play_box_lock", "\u{f1a16}" },
-	{ "nf-md-play_box_lock_open", "\u{f1a17}" },
-	{ "nf-md-play_box_lock_open_outline", "\u{f1a18}" },
-	{ "nf-md-play_box_lock_outline", "\u{f1a19}" },
-	{ "nf-md-play_box_multiple", "\u{f0d19}" },
-	{ "nf-md-play_box_multiple_outline", "\u{f13e6}" },
-	{ "nf-md-play_box_outline", "\u{f040b}" },
-	{ "nf-md-play_circle", "\u{f040c}" },
-	{ "nf-md-play_circle_outline", "\u{f040d}" },
-	{ "nf-md-play_network", "\u{f088b}" },
-	{ "nf-md-play_network_outline", "\u{f0cb7}" },
-	{ "nf-md-play_outline", "\u{f0f1b}" },
-	{ "nf-md-play_pause", "\u{f040e}" },
-	{ "nf-md-play_protected_content", "\u{f040f}" },
-	{ "nf-md-play_speed", "\u{f08ff}" },
-	{ "nf-md-playlist_check", "\u{f05c7}" },
-	{ "nf-md-playlist_edit", "\u{f0900}" },
-	{ "nf-md-playlist_minus", "\u{f0410}" },
-	{ "nf-md-playlist_music", "\u{f0cb8}" },
-	{ "nf-md-playlist_music_outline", "\u{f0cb9}" },
-	{ "nf-md-playlist_play", "\u{f0411}" },
-	{ "nf-md-playlist_plus", "\u{f0412}" },
-	{ "nf-md-playlist_remove", "\u{f0413}" },
-	{ "nf-md-playlist_star", "\u{f0df2}" },
-	{ "nf-md-plex", "\u{f06ba}" },
-	{ "nf-md-pliers", "\u{f19a4}" },
-	{ "nf-md-plus", "\u{f0415}" },
-	{ "nf-md-plus_box", "\u{f0416}" },
-	{ "nf-md-plus_box_multiple", "\u{f0334}" },
-	{ "nf-md-plus_box_multiple_outline", "\u{f1143}" },
-	{ "nf-md-plus_box_outline", "\u{f0704}" },
-	{ "nf-md-plus_circle", "\u{f0417}" },
-	{ "nf-md-plus_circle_multiple", "\u{f034c}" },
-	{ "nf-md-plus_circle_multiple_outline", "\u{f0418}" },
-	{ "nf-md-plus_circle_outline", "\u{f0419}" },
-	{ "nf-md-plus_lock", "\u{f1a5d}" },
-	{ "nf-md-plus_lock_open", "\u{f1a5e}" },
-	{ "nf-md-plus_minus", "\u{f0992}" },
-	{ "nf-md-plus_minus_box", "\u{f0993}" },
-	{ "nf-md-plus_minus_variant", "\u{f14c9}" },
-	{ "nf-md-plus_network", "\u{f041a}" },
-	{ "nf-md-plus_network_outline", "\u{f0cba}" },
-	{ "nf-md-plus_outline", "\u{f0705}" },
-	{ "nf-md-plus_thick", "\u{f11ec}" },
-	{ "nf-md-podcast", "\u{f0994}" },
-	{ "nf-md-podium", "\u{f0d25}" },
-	{ "nf-md-podium_bronze", "\u{f0d26}" },
-	{ "nf-md-podium_gold", "\u{f0d27}" },
-	{ "nf-md-podium_silver", "\u{f0d28}" },
-	{ "nf-md-point_of_sale", "\u{f0d92}" },
-	{ "nf-md-pokeball", "\u{f041d}" },
-	{ "nf-md-pokemon_go", "\u{f0a09}" },
-	{ "nf-md-poker_chip", "\u{f0830}" },
-	{ "nf-md-polaroid", "\u{f041e}" },
-	{ "nf-md-police_badge", "\u{f1167}" },
-	{ "nf-md-police_badge_outline", "\u{f1168}" },
-	{ "nf-md-police_station", "\u{f1839}" },
-	{ "nf-md-poll", "\u{f041f}" },
-	{ "nf-md-polo", "\u{f14c3}" },
-	{ "nf-md-polymer", "\u{f0421}" },
-	{ "nf-md-pool", "\u{f0606}" },
-	{ "nf-md-pool_thermometer", "\u{f1a5f}" },
-	{ "nf-md-popcorn", "\u{f0422}" },
-	{ "nf-md-post", "\u{f1008}" },
-	{ "nf-md-post_lamp", "\u{f1a60}" },
-	{ "nf-md-post_outline", "\u{f1009}" },
-	{ "nf-md-postage_stamp", "\u{f0cbb}" },
-	{ "nf-md-pot", "\u{f02e5}" },
-	{ "nf-md-pot_mix", "\u{f065b}" },
-	{ "nf-md-pot_mix_outline", "\u{f0677}" },
-	{ "nf-md-pot_outline", "\u{f02ff}" },
-	{ "nf-md-pot_steam", "\u{f065a}" },
-	{ "nf-md-pot_steam_outline", "\u{f0326}" },
-	{ "nf-md-pound", "\u{f0423}" },
-	{ "nf-md-pound_box", "\u{f0424}" },
-	{ "nf-md-pound_box_outline", "\u{f117f}" },
-	{ "nf-md-power", "\u{f0425}" },
-	{ "nf-md-power_cycle", "\u{f0901}" },
-	{ "nf-md-power_off", "\u{f0902}" },
-	{ "nf-md-power_on", "\u{f0903}" },
-	{ "nf-md-power_plug", "\u{f06a5}" },
-	{ "nf-md-power_plug_off", "\u{f06a6}" },
-	{ "nf-md-power_plug_off_outline", "\u{f1424}" },
-	{ "nf-md-power_plug_outline", "\u{f1425}" },
-	{ "nf-md-power_settings", "\u{f0426}" },
-	{ "nf-md-power_sleep", "\u{f0904}" },
-	{ "nf-md-power_socket", "\u{f0427}" },
-	{ "nf-md-power_socket_au", "\u{f0905}" },
-	{ "nf-md-power_socket_ch", "\u{f0fb3}" },
-	{ "nf-md-power_socket_de", "\u{f1107}" },
-	{ "nf-md-power_socket_eu", "\u{f07e7}" },
-	{ "nf-md-power_socket_fr", "\u{f1108}" },
-	{ "nf-md-power_socket_it", "\u{f14ff}" },
-	{ "nf-md-power_socket_jp", "\u{f1109}" },
-	{ "nf-md-power_socket_uk", "\u{f07e8}" },
-	{ "nf-md-power_socket_us", "\u{f07e9}" },
-	{ "nf-md-power_standby", "\u{f0906}" },
-	{ "nf-md-powershell", "\u{f0a0a}" },
-	{ "nf-md-prescription", "\u{f0706}" },
-	{ "nf-md-presentation", "\u{f0428}" },
-	{ "nf-md-presentation_play", "\u{f0429}" },
-	{ "nf-md-pretzel", "\u{f1562}" },
-	{ "nf-md-printer", "\u{f042a}" },
-	{ "nf-md-printer_3d", "\u{f042b}" },
-	{ "nf-md-printer_3d_nozzle", "\u{f0e5b}" },
-	{ "nf-md-printer_3d_nozzle_alert", "\u{f11c0}" },
-	{ "nf-md-printer_3d_nozzle_alert_outline", "\u{f11c1}" },
-	{ "nf-md-printer_3d_nozzle_heat", "\u{f18b8}" },
-	{ "nf-md-printer_3d_nozzle_heat_outline", "\u{f18b9}" },
-	{ "nf-md-printer_3d_nozzle_outline", "\u{f0e5c}" },
-	{ "nf-md-printer_alert", "\u{f042c}" },
-	{ "nf-md-printer_check", "\u{f1146}" },
-	{ "nf-md-printer_eye", "\u{f1458}" },
-	{ "nf-md-printer_off", "\u{f0e5d}" },
-	{ "nf-md-printer_off_outline", "\u{f1785}" },
-	{ "nf-md-printer_outline", "\u{f1786}" },
-	{ "nf-md-printer_pos", "\u{f1057}" },
-	{ "nf-md-printer_search", "\u{f1457}" },
-	{ "nf-md-printer_settings", "\u{f0707}" },
-	{ "nf-md-printer_wireless", "\u{f0a0b}" },
-	{ "nf-md-priority_high", "\u{f0603}" },
-	{ "nf-md-priority_low", "\u{f0604}" },
-	{ "nf-md-professional_hexagon", "\u{f042d}" },
-	{ "nf-md-progress_alert", "\u{f0cbc}" },
-	{ "nf-md-progress_check", "\u{f0995}" },
-	{ "nf-md-progress_clock", "\u{f0996}" },
-	{ "nf-md-progress_close", "\u{f110a}" },
-	{ "nf-md-progress_download", "\u{f0997}" },
-	{ "nf-md-progress_pencil", "\u{f1787}" },
-	{ "nf-md-progress_question", "\u{f1522}" },
-	{ "nf-md-progress_star", "\u{f1788}" },
-	{ "nf-md-progress_upload", "\u{f0998}" },
-	{ "nf-md-progress_wrench", "\u{f0cbd}" },
-	{ "nf-md-projector", "\u{f042e}" },
-	{ "nf-md-projector_off", "\u{f1a23}" },
-	{ "nf-md-projector_screen", "\u{f042f}" },
-	{ "nf-md-projector_screen_off", "\u{f180d}" },
-	{ "nf-md-projector_screen_off_outline", "\u{f180e}" },
-	{ "nf-md-projector_screen_outline", "\u{f1724}" },
-	{ "nf-md-projector_screen_variant", "\u{f180f}" },
-	{ "nf-md-projector_screen_variant_off", "\u{f1810}" },
-	{ "nf-md-projector_screen_variant_off_outline", "\u{f1811}" },
-	{ "nf-md-projector_screen_variant_outline", "\u{f1812}" },
-	{ "nf-md-propane_tank", "\u{f1357}" },
-	{ "nf-md-propane_tank_outline", "\u{f1358}" },
-	{ "nf-md-protocol", "\u{f0fd8}" },
-	{ "nf-md-publish", "\u{f06a7}" },
-	{ "nf-md-publish_off", "\u{f1945}" },
-	{ "nf-md-pulse", "\u{f0430}" },
-	{ "nf-md-pump", "\u{f1402}" },
-	{ "nf-md-pumpkin", "\u{f0bbf}" },
-	{ "nf-md-purse", "\u{f0f1c}" },
-	{ "nf-md-purse_outline", "\u{f0f1d}" },
-	{ "nf-md-puzzle", "\u{f0431}" },
-	{ "nf-md-puzzle_check", "\u{f1426}" },
-	{ "nf-md-puzzle_check_outline", "\u{f1427}" },
-	{ "nf-md-puzzle_edit", "\u{f14d3}" },
-	{ "nf-md-puzzle_edit_outline", "\u{f14d9}" },
-	{ "nf-md-puzzle_heart", "\u{f14d4}" },
-	{ "nf-md-puzzle_heart_outline", "\u{f14da}" },
-	{ "nf-md-puzzle_minus", "\u{f14d1}" },
-	{ "nf-md-puzzle_minus_outline", "\u{f14d7}" },
-	{ "nf-md-puzzle_outline", "\u{f0a66}" },
-	{ "nf-md-puzzle_plus", "\u{f14d0}" },
-	{ "nf-md-puzzle_plus_outline", "\u{f14d6}" },
-	{ "nf-md-puzzle_remove", "\u{f14d2}" },
-	{ "nf-md-puzzle_remove_outline", "\u{f14d8}" },
-	{ "nf-md-puzzle_star", "\u{f14d5}" },
-	{ "nf-md-puzzle_star_outline", "\u{f14db}" },
-	{ "nf-md-pyramid", "\u{f1952}" },
-	{ "nf-md-pyramid_off", "\u{f1953}" },
-	{ "nf-md-qi", "\u{f0999}" },
-	{ "nf-md-qqchat", "\u{f0605}" },
-	{ "nf-md-qrcode", "\u{f0432}" },
-	{ "nf-md-qrcode_edit", "\u{f08b8}" },
-	{ "nf-md-qrcode_minus", "\u{f118c}" },
-	{ "nf-md-qrcode_plus", "\u{f118b}" },
-	{ "nf-md-qrcode_remove", "\u{f118d}" },
-	{ "nf-md-qrcode_scan", "\u{f0433}" },
-	{ "nf-md-quadcopter", "\u{f0434}" },
-	{ "nf-md-quality_high", "\u{f0435}" },
-	{ "nf-md-quality_low", "\u{f0a0c}" },
-	{ "nf-md-quality_medium", "\u{f0a0d}" },
-	{ "nf-md-quora", "\u{f0d29}" },
-	{ "nf-md-rabbit", "\u{f0907}" },
-	{ "nf-md-rabbit_variant", "\u{f1a61}" },
-	{ "nf-md-rabbit_variant_outline", "\u{f1a62}" },
-	{ "nf-md-racing_helmet", "\u{f0d93}" },
-	{ "nf-md-racquetball", "\u{f0d94}" },
-	{ "nf-md-radar", "\u{f0437}" },
-	{ "nf-md-radiator", "\u{f0438}" },
-	{ "nf-md-radiator_disabled", "\u{f0ad7}" },
-	{ "nf-md-radiator_off", "\u{f0ad8}" },
-	{ "nf-md-radio", "\u{f0439}" },
-	{ "nf-md-radio_am", "\u{f0cbe}" },
-	{ "nf-md-radio_fm", "\u{f0cbf}" },
-	{ "nf-md-radio_handheld", "\u{f043a}" },
-	{ "nf-md-radio_off", "\u{f121c}" },
-	{ "nf-md-radio_tower", "\u{f043b}" },
-	{ "nf-md-radioactive", "\u{f043c}" },
-	{ "nf-md-radioactive_circle", "\u{f185d}" },
-	{ "nf-md-radioactive_circle_outline", "\u{f185e}" },
-	{ "nf-md-radioactive_off", "\u{f0ec1}" },
-	{ "nf-md-radiobox_marked", "\u{f043e}" },
-	{ "nf-md-radiology_box", "\u{f14c5}" },
-	{ "nf-md-radiology_box_outline", "\u{f14c6}" },
-	{ "nf-md-radius", "\u{f0cc0}" },
-	{ "nf-md-radius_outline", "\u{f0cc1}" },
-	{ "nf-md-railroad_light", "\u{f0f1e}" },
-	{ "nf-md-rake", "\u{f1544}" },
-	{ "nf-md-raspberry_pi", "\u{f043f}" },
-	{ "nf-md-raw", "\u{f1a0f}" },
-	{ "nf-md-raw_off", "\u{f1a10}" },
-	{ "nf-md-ray_end", "\u{f0440}" },
-	{ "nf-md-ray_end_arrow", "\u{f0441}" },
-	{ "nf-md-ray_start", "\u{f0442}" },
-	{ "nf-md-ray_start_arrow", "\u{f0443}" },
-	{ "nf-md-ray_start_end", "\u{f0444}" },
-	{ "nf-md-ray_start_vertex_end", "\u{f15d8}" },
-	{ "nf-md-ray_vertex", "\u{f0445}" },
-	{ "nf-md-razor_double_edge", "\u{f1997}" },
-	{ "nf-md-razor_single_edge", "\u{f1998}" },
-	{ "nf-md-react", "\u{f0708}" },
-	{ "nf-md-read", "\u{f0447}" },
-	{ "nf-md-receipt", "\u{f0449}" },
-	{ "nf-md-receipt_outline", "\u{f19dc}" },
-	{ "nf-md-receipt_text_check", "\u{f1a63}" },
-	{ "nf-md-receipt_text_check_outline", "\u{f1a64}" },
-	{ "nf-md-receipt_text_minus", "\u{f1a65}" },
-	{ "nf-md-receipt_text_minus_outline", "\u{f1a66}" },
-	{ "nf-md-receipt_text_plus", "\u{f1a67}" },
-	{ "nf-md-receipt_text_plus_outline", "\u{f1a68}" },
-	{ "nf-md-receipt_text_remove", "\u{f1a69}" },
-	{ "nf-md-receipt_text_remove_outline", "\u{f1a6a}" },
-	{ "nf-md-record", "\u{f044a}" },
-	{ "nf-md-record_circle", "\u{f0ec2}" },
-	{ "nf-md-record_circle_outline", "\u{f0ec3}" },
-	{ "nf-md-record_player", "\u{f099a}" },
-	{ "nf-md-record_rec", "\u{f044b}" },
-	{ "nf-md-rectangle", "\u{f0e5e}" },
-	{ "nf-md-rectangle_outline", "\u{f0e5f}" },
-	{ "nf-md-recycle", "\u{f044c}" },
-	{ "nf-md-recycle_variant", "\u{f139d}" },
-	{ "nf-md-reddit", "\u{f044d}" },
-	{ "nf-md-redhat", "\u{f111b}" },
-	{ "nf-md-redo", "\u{f044e}" },
-	{ "nf-md-redo_variant", "\u{f044f}" },
-	{ "nf-md-reflect_horizontal", "\u{f0a0e}" },
-	{ "nf-md-reflect_vertical", "\u{f0a0f}" },
-	{ "nf-md-refresh", "\u{f0450}" },
-	{ "nf-md-refresh_auto", "\u{f18f2}" },
-	{ "nf-md-refresh_circle", "\u{f1377}" },
-	{ "nf-md-regex", "\u{f0451}" },
-	{ "nf-md-registered_trademark", "\u{f0a67}" },
-	{ "nf-md-reiterate", "\u{f1588}" },
-	{ "nf-md-relation_many_to_many", "\u{f1496}" },
-	{ "nf-md-relation_many_to_one", "\u{f1497}" },
-	{ "nf-md-relation_many_to_one_or_many", "\u{f1498}" },
-	{ "nf-md-relation_many_to_only_one", "\u{f1499}" },
-	{ "nf-md-relation_many_to_zero_or_many", "\u{f149a}" },
-	{ "nf-md-relation_many_to_zero_or_one", "\u{f149b}" },
-	{ "nf-md-relation_one_or_many_to_many", "\u{f149c}" },
-	{ "nf-md-relation_one_or_many_to_one", "\u{f149d}" },
-	{ "nf-md-relation_one_or_many_to_one_or_many", "\u{f149e}" },
-	{ "nf-md-relation_one_or_many_to_only_one", "\u{f149f}" },
-	{ "nf-md-relation_one_or_many_to_zero_or_many", "\u{f14a0}" },
-	{ "nf-md-relation_one_or_many_to_zero_or_one", "\u{f14a1}" },
-	{ "nf-md-relation_one_to_many", "\u{f14a2}" },
-	{ "nf-md-relation_one_to_one", "\u{f14a3}" },
-	{ "nf-md-relation_one_to_one_or_many", "\u{f14a4}" },
-	{ "nf-md-relation_one_to_only_one", "\u{f14a5}" },
-	{ "nf-md-relation_one_to_zero_or_many", "\u{f14a6}" },
-	{ "nf-md-relation_one_to_zero_or_one", "\u{f14a7}" },
-	{ "nf-md-relation_only_one_to_many", "\u{f14a8}" },
-	{ "nf-md-relation_only_one_to_one", "\u{f14a9}" },
-	{ "nf-md-relation_only_one_to_one_or_many", "\u{f14aa}" },
-	{ "nf-md-relation_only_one_to_only_one", "\u{f14ab}" },
-	{ "nf-md-relation_only_one_to_zero_or_many", "\u{f14ac}" },
-	{ "nf-md-relation_only_one_to_zero_or_one", "\u{f14ad}" },
-	{ "nf-md-relation_zero_or_many_to_many", "\u{f14ae}" },
-	{ "nf-md-relation_zero_or_many_to_one", "\u{f14af}" },
-	{ "nf-md-relation_zero_or_many_to_one_or_many", "\u{f14b0}" },
-	{ "nf-md-relation_zero_or_many_to_only_one", "\u{f14b1}" },
-	{ "nf-md-relation_zero_or_many_to_zero_or_many", "\u{f14b2}" },
-	{ "nf-md-relation_zero_or_many_to_zero_or_one", "\u{f14b3}" },
-	{ "nf-md-relation_zero_or_one_to_many", "\u{f14b4}" },
-	{ "nf-md-relation_zero_or_one_to_one", "\u{f14b5}" },
-	{ "nf-md-relation_zero_or_one_to_one_or_many", "\u{f14b6}" },
-	{ "nf-md-relation_zero_or_one_to_only_one", "\u{f14b7}" },
-	{ "nf-md-relation_zero_or_one_to_zero_or_many", "\u{f14b8}" },
-	{ "nf-md-relation_zero_or_one_to_zero_or_one", "\u{f14b9}" },
-	{ "nf-md-relative_scale", "\u{f0452}" },
-	{ "nf-md-reload", "\u{f0453}" },
-	{ "nf-md-reload_alert", "\u{f110b}" },
-	{ "nf-md-reminder", "\u{f088c}" },
-	{ "nf-md-remote", "\u{f0454}" },
-	{ "nf-md-remote_desktop", "\u{f08b9}" },
-	{ "nf-md-remote_off", "\u{f0ec4}" },
-	{ "nf-md-remote_tv", "\u{f0ec5}" },
-	{ "nf-md-remote_tv_off", "\u{f0ec6}" },
-	{ "nf-md-rename_box", "\u{f0455}" },
-	{ "nf-md-reorder_horizontal", "\u{f0688}" },
-	{ "nf-md-reorder_vertical", "\u{f0689}" },
-	{ "nf-md-repeat", "\u{f0456}" },
-	{ "nf-md-repeat_off", "\u{f0457}" },
-	{ "nf-md-repeat_once", "\u{f0458}" },
-	{ "nf-md-repeat_variant", "\u{f0547}" },
-	{ "nf-md-replay", "\u{f0459}" },
-	{ "nf-md-reply", "\u{f045a}" },
-	{ "nf-md-reply_all", "\u{f045b}" },
-	{ "nf-md-reply_all_outline", "\u{f0f1f}" },
-	{ "nf-md-reply_circle", "\u{f11ae}" },
-	{ "nf-md-reply_outline", "\u{f0f20}" },
-	{ "nf-md-reproduction", "\u{f045c}" },
-	{ "nf-md-resistor", "\u{f0b44}" },
-	{ "nf-md-resistor_nodes", "\u{f0b45}" },
-	{ "nf-md-resize", "\u{f0a68}" },
-	{ "nf-md-resize_bottom_right", "\u{f045d}" },
-	{ "nf-md-responsive", "\u{f045e}" },
-	{ "nf-md-restart", "\u{f0709}" },
-	{ "nf-md-restart_alert", "\u{f110c}" },
-	{ "nf-md-restart_off", "\u{f0d95}" },
-	{ "nf-md-restore", "\u{f099b}" },
-	{ "nf-md-restore_alert", "\u{f110d}" },
-	{ "nf-md-rewind", "\u{f045f}" },
-	{ "nf-md-rewind_10", "\u{f0d2a}" },
-	{ "nf-md-rewind_15", "\u{f1946}" },
-	{ "nf-md-rewind_30", "\u{f0d96}" },
-	{ "nf-md-rewind_5", "\u{f11f9}" },
-	{ "nf-md-rewind_60", "\u{f160c}" },
-	{ "nf-md-rewind_outline", "\u{f070a}" },
-	{ "nf-md-rhombus", "\u{f070b}" },
-	{ "nf-md-rhombus_medium", "\u{f0a10}" },
-	{ "nf-md-rhombus_medium_outline", "\u{f14dc}" },
-	{ "nf-md-rhombus_outline", "\u{f070c}" },
-	{ "nf-md-rhombus_split", "\u{f0a11}" },
-	{ "nf-md-rhombus_split_outline", "\u{f14dd}" },
-	{ "nf-md-ribbon", "\u{f0460}" },
-	{ "nf-md-rice", "\u{f07ea}" },
-	{ "nf-md-rickshaw", "\u{f15bb}" },
-	{ "nf-md-rickshaw_electric", "\u{f15bc}" },
-	{ "nf-md-ring", "\u{f07eb}" },
-	{ "nf-md-rivet", "\u{f0e60}" },
-	{ "nf-md-road", "\u{f0461}" },
-	{ "nf-md-road_variant", "\u{f0462}" },
-	{ "nf-md-robber", "\u{f1058}" },
-	{ "nf-md-robot", "\u{f06a9}" },
-	{ "nf-md-robot_angry", "\u{f169d}" },
-	{ "nf-md-robot_angry_outline", "\u{f169e}" },
-	{ "nf-md-robot_confused", "\u{f169f}" },
-	{ "nf-md-robot_confused_outline", "\u{f16a0}" },
-	{ "nf-md-robot_dead", "\u{f16a1}" },
-	{ "nf-md-robot_dead_outline", "\u{f16a2}" },
-	{ "nf-md-robot_excited", "\u{f16a3}" },
-	{ "nf-md-robot_excited_outline", "\u{f16a4}" },
-	{ "nf-md-robot_happy", "\u{f1719}" },
-	{ "nf-md-robot_happy_outline", "\u{f171a}" },
-	{ "nf-md-robot_industrial", "\u{f0b46}" },
-	{ "nf-md-robot_industrial_outline", "\u{f1a1a}" },
-	{ "nf-md-robot_love", "\u{f16a5}" },
-	{ "nf-md-robot_love_outline", "\u{f16a6}" },
-	{ "nf-md-robot_mower", "\u{f11f7}" },
-	{ "nf-md-robot_mower_outline", "\u{f11f3}" },
-	{ "nf-md-robot_off", "\u{f16a7}" },
-	{ "nf-md-robot_off_outline", "\u{f167b}" },
-	{ "nf-md-robot_outline", "\u{f167a}" },
-	{ "nf-md-robot_vacuum", "\u{f070d}" },
-	{ "nf-md-robot_vacuum_variant", "\u{f0908}" },
-	{ "nf-md-rocket", "\u{f0463}" },
-	{ "nf-md-rocket_launch", "\u{f14de}" },
-	{ "nf-md-rocket_launch_outline", "\u{f14df}" },
-	{ "nf-md-rocket_outline", "\u{f13af}" },
-	{ "nf-md-rodent", "\u{f1327}" },
-	{ "nf-md-roller_shade", "\u{f1a6b}" },
-	{ "nf-md-roller_shade_closed", "\u{f1a6c}" },
-	{ "nf-md-roller_skate", "\u{f0d2b}" },
-	{ "nf-md-roller_skate_off", "\u{f0145}" },
-	{ "nf-md-rollerblade", "\u{f0d2c}" },
-	{ "nf-md-rollerblade_off", "\u{f002e}" },
-	{ "nf-md-rollupjs", "\u{f0bc0}" },
-	{ "nf-md-rolodex", "\u{f1ab9}" },
-	{ "nf-md-rolodex_outline", "\u{f1aba}" },
-	{ "nf-md-roman_numeral_2", "\u{f1089}" },
-	{ "nf-md-roman_numeral_3", "\u{f108a}" },
-	{ "nf-md-roman_numeral_4", "\u{f108b}" },
-	{ "nf-md-roman_numeral_6", "\u{f108d}" },
-	{ "nf-md-roman_numeral_7", "\u{f108e}" },
-	{ "nf-md-roman_numeral_8", "\u{f108f}" },
-	{ "nf-md-roman_numeral_9", "\u{f1090}" },
-	{ "nf-md-room_service", "\u{f088d}" },
-	{ "nf-md-room_service_outline", "\u{f0d97}" },
-	{ "nf-md-rotate_360", "\u{f1999}" },
-	{ "nf-md-rotate_3d", "\u{f0ec7}" },
-	{ "nf-md-rotate_3d_variant", "\u{f0464}" },
-	{ "nf-md-rotate_left", "\u{f0465}" },
-	{ "nf-md-rotate_left_variant", "\u{f0466}" },
-	{ "nf-md-rotate_orbit", "\u{f0d98}" },
-	{ "nf-md-rotate_right", "\u{f0467}" },
-	{ "nf-md-rotate_right_variant", "\u{f0468}" },
-	{ "nf-md-rounded_corner", "\u{f0607}" },
-	{ "nf-md-router", "\u{f11e2}" },
-	{ "nf-md-router_network", "\u{f1087}" },
-	{ "nf-md-router_wireless", "\u{f0469}" },
-	{ "nf-md-router_wireless_off", "\u{f15a3}" },
-	{ "nf-md-router_wireless_settings", "\u{f0a69}" },
-	{ "nf-md-routes", "\u{f046a}" },
-	{ "nf-md-routes_clock", "\u{f1059}" },
-	{ "nf-md-rowing", "\u{f0608}" },
-	{ "nf-md-rss", "\u{f046b}" },
-	{ "nf-md-rss_box", "\u{f046c}" },
-	{ "nf-md-rss_off", "\u{f0f21}" },
-	{ "nf-md-rug", "\u{f1475}" },
-	{ "nf-md-rugby", "\u{f0d99}" },
-	{ "nf-md-ruler", "\u{f046d}" },
-	{ "nf-md-ruler_square", "\u{f0cc2}" },
-	{ "nf-md-ruler_square_compass", "\u{f0ebe}" },
-	{ "nf-md-run", "\u{f070e}" },
-	{ "nf-md-run_fast", "\u{f046e}" },
-	{ "nf-md-rv_truck", "\u{f11d4}" },
-	{ "nf-md-sack", "\u{f0d2e}" },
-	{ "nf-md-sack_percent", "\u{f0d2f}" },
-	{ "nf-md-safe", "\u{f0a6a}" },
-	{ "nf-md-safe_square", "\u{f127c}" },
-	{ "nf-md-safe_square_outline", "\u{f127d}" },
-	{ "nf-md-safety_goggles", "\u{f0d30}" },
-	{ "nf-md-sail_boat", "\u{f0ec8}" },
-	{ "nf-md-sail_boat_sink", "\u{f1aef}" },
-	{ "nf-md-sale", "\u{f046f}" },
-	{ "nf-md-sale_outline", "\u{f1a06}" },
-	{ "nf-md-salesforce", "\u{f088e}" },
-	{ "nf-md-sass", "\u{f07ec}" },
-	{ "nf-md-satellite", "\u{f0470}" },
-	{ "nf-md-satellite_uplink", "\u{f0909}" },
-	{ "nf-md-satellite_variant", "\u{f0471}" },
-	{ "nf-md-sausage", "\u{f08ba}" },
-	{ "nf-md-sausage_off", "\u{f1789}" },
-	{ "nf-md-saw_blade", "\u{f0e61}" },
-	{ "nf-md-sawtooth_wave", "\u{f147a}" },
-	{ "nf-md-saxophone", "\u{f0609}" },
-	{ "nf-md-scale", "\u{f0472}" },
-	{ "nf-md-scale_balance", "\u{f05d1}" },
-	{ "nf-md-scale_bathroom", "\u{f0473}" },
-	{ "nf-md-scale_off", "\u{f105a}" },
-	{ "nf-md-scale_unbalanced", "\u{f19b8}" },
-	{ "nf-md-scan_helper", "\u{f13d8}" },
-	{ "nf-md-scanner", "\u{f06ab}" },
-	{ "nf-md-scanner_off", "\u{f090a}" },
-	{ "nf-md-scatter_plot", "\u{f0ec9}" },
-	{ "nf-md-scatter_plot_outline", "\u{f0eca}" },
-	{ "nf-md-scent", "\u{f1958}" },
-	{ "nf-md-scent_off", "\u{f1959}" },
-	{ "nf-md-school", "\u{f0474}" },
-	{ "nf-md-school_outline", "\u{f1180}" },
-	{ "nf-md-scissors_cutting", "\u{f0a6b}" },
-	{ "nf-md-scooter", "\u{f15bd}" },
-	{ "nf-md-scooter_electric", "\u{f15be}" },
-	{ "nf-md-scoreboard", "\u{f127e}" },
-	{ "nf-md-scoreboard_outline", "\u{f127f}" },
-	{ "nf-md-screen_rotation", "\u{f0475}" },
-	{ "nf-md-screen_rotation_lock", "\u{f0478}" },
-	{ "nf-md-screw_flat_top", "\u{f0df3}" },
-	{ "nf-md-screw_lag", "\u{f0df4}" },
-	{ "nf-md-screw_machine_flat_top", "\u{f0df5}" },
-	{ "nf-md-screw_machine_round_top", "\u{f0df6}" },
-	{ "nf-md-screw_round_top", "\u{f0df7}" },
-	{ "nf-md-screwdriver", "\u{f0476}" },
-	{ "nf-md-script", "\u{f0bc1}" },
-	{ "nf-md-script_outline", "\u{f0477}" },
-	{ "nf-md-script_text", "\u{f0bc2}" },
-	{ "nf-md-script_text_key", "\u{f1725}" },
-	{ "nf-md-script_text_key_outline", "\u{f1726}" },
-	{ "nf-md-script_text_outline", "\u{f0bc3}" },
-	{ "nf-md-script_text_play", "\u{f1727}" },
-	{ "nf-md-script_text_play_outline", "\u{f1728}" },
-	{ "nf-md-sd", "\u{f0479}" },
-	{ "nf-md-seal", "\u{f047a}" },
-	{ "nf-md-seal_variant", "\u{f0fd9}" },
-	{ "nf-md-search_web", "\u{f070f}" },
-	{ "nf-md-seat", "\u{f0cc3}" },
-	{ "nf-md-seat_flat", "\u{f047b}" },
-	{ "nf-md-seat_flat_angled", "\u{f047c}" },
-	{ "nf-md-seat_individual_suite", "\u{f047d}" },
-	{ "nf-md-seat_legroom_extra", "\u{f047e}" },
-	{ "nf-md-seat_legroom_normal", "\u{f047f}" },
-	{ "nf-md-seat_legroom_reduced", "\u{f0480}" },
-	{ "nf-md-seat_outline", "\u{f0cc4}" },
-	{ "nf-md-seat_passenger", "\u{f1249}" },
-	{ "nf-md-seat_recline_extra", "\u{f0481}" },
-	{ "nf-md-seat_recline_normal", "\u{f0482}" },
-	{ "nf-md-seatbelt", "\u{f0cc5}" },
-	{ "nf-md-security", "\u{f0483}" },
-	{ "nf-md-security_network", "\u{f0484}" },
-	{ "nf-md-seed", "\u{f0e62}" },
-	{ "nf-md-seed_off", "\u{f13fd}" },
-	{ "nf-md-seed_off_outline", "\u{f13fe}" },
-	{ "nf-md-seed_outline", "\u{f0e63}" },
-	{ "nf-md-seed_plus", "\u{f1a6d}" },
-	{ "nf-md-seed_plus_outline", "\u{f1a6e}" },
-	{ "nf-md-seesaw", "\u{f15a4}" },
-	{ "nf-md-segment", "\u{f0ecb}" },
-	{ "nf-md-select", "\u{f0485}" },
-	{ "nf-md-select_all", "\u{f0486}" },
-	{ "nf-md-select_color", "\u{f0d31}" },
-	{ "nf-md-select_compare", "\u{f0ad9}" },
-	{ "nf-md-select_drag", "\u{f0a6c}" },
-	{ "nf-md-select_group", "\u{f0f82}" },
-	{ "nf-md-select_inverse", "\u{f0487}" },
-	{ "nf-md-select_marker", "\u{f1280}" },
-	{ "nf-md-select_multiple", "\u{f1281}" },
-	{ "nf-md-select_multiple_marker", "\u{f1282}" },
-	{ "nf-md-select_off", "\u{f0488}" },
-	{ "nf-md-select_place", "\u{f0fda}" },
-	{ "nf-md-select_remove", "\u{f17c1}" },
-	{ "nf-md-select_search", "\u{f1204}" },
-	{ "nf-md-selection", "\u{f0489}" },
-	{ "nf-md-selection_drag", "\u{f0a6d}" },
-	{ "nf-md-selection_ellipse", "\u{f0d32}" },
-	{ "nf-md-selection_ellipse_arrow_inside", "\u{f0f22}" },
-	{ "nf-md-selection_ellipse_remove", "\u{f17c2}" },
-	{ "nf-md-selection_marker", "\u{f1283}" },
-	{ "nf-md-selection_multiple", "\u{f1285}" },
-	{ "nf-md-selection_multiple_marker", "\u{f1284}" },
-	{ "nf-md-selection_off", "\u{f0777}" },
-	{ "nf-md-selection_remove", "\u{f17c3}" },
-	{ "nf-md-selection_search", "\u{f1205}" },
-	{ "nf-md-semantic_web", "\u{f1316}" },
-	{ "nf-md-send", "\u{f048a}" },
-	{ "nf-md-send_check", "\u{f1161}" },
-	{ "nf-md-send_check_outline", "\u{f1162}" },
-	{ "nf-md-send_circle", "\u{f0df8}" },
-	{ "nf-md-send_circle_outline", "\u{f0df9}" },
-	{ "nf-md-send_clock", "\u{f1163}" },
-	{ "nf-md-send_clock_outline", "\u{f1164}" },
-	{ "nf-md-send_lock", "\u{f07ed}" },
-	{ "nf-md-send_lock_outline", "\u{f1166}" },
-	{ "nf-md-send_outline", "\u{f1165}" },
-	{ "nf-md-serial_port", "\u{f065c}" },
-	{ "nf-md-server", "\u{f048b}" },
-	{ "nf-md-server_minus", "\u{f048c}" },
-	{ "nf-md-server_network", "\u{f048d}" },
-	{ "nf-md-server_network_off", "\u{f048e}" },
-	{ "nf-md-server_off", "\u{f048f}" },
-	{ "nf-md-server_plus", "\u{f0490}" },
-	{ "nf-md-server_remove", "\u{f0491}" },
-	{ "nf-md-server_security", "\u{f0492}" },
-	{ "nf-md-set_all", "\u{f0778}" },
-	{ "nf-md-set_center", "\u{f0779}" },
-	{ "nf-md-set_center_right", "\u{f077a}" },
-	{ "nf-md-set_left", "\u{f077b}" },
-	{ "nf-md-set_left_center", "\u{f077c}" },
-	{ "nf-md-set_left_right", "\u{f077d}" },
-	{ "nf-md-set_merge", "\u{f14e0}" },
-	{ "nf-md-set_none", "\u{f077e}" },
-	{ "nf-md-set_right", "\u{f077f}" },
-	{ "nf-md-set_split", "\u{f14e1}" },
-	{ "nf-md-set_square", "\u{f145d}" },
-	{ "nf-md-set_top_box", "\u{f099f}" },
-	{ "nf-md-settings_helper", "\u{f0a6e}" },
-	{ "nf-md-shaker", "\u{f110e}" },
-	{ "nf-md-shaker_outline", "\u{f110f}" },
-	{ "nf-md-shape", "\u{f0831}" },
-	{ "nf-md-shape_circle_plus", "\u{f065d}" },
-	{ "nf-md-shape_outline", "\u{f0832}" },
-	{ "nf-md-shape_oval_plus", "\u{f11fa}" },
-	{ "nf-md-shape_plus", "\u{f0495}" },
-	{ "nf-md-shape_polygon_plus", "\u{f065e}" },
-	{ "nf-md-shape_rectangle_plus", "\u{f065f}" },
-	{ "nf-md-shape_square_plus", "\u{f0660}" },
-	{ "nf-md-shape_square_rounded_plus", "\u{f14fa}" },
-	{ "nf-md-share", "\u{f0496}" },
-	{ "nf-md-share_all", "\u{f11f4}" },
-	{ "nf-md-share_all_outline", "\u{f11f5}" },
-	{ "nf-md-share_circle", "\u{f11ad}" },
-	{ "nf-md-share_off", "\u{f0f23}" },
-	{ "nf-md-share_off_outline", "\u{f0f24}" },
-	{ "nf-md-share_outline", "\u{f0932}" },
-	{ "nf-md-share_variant", "\u{f0497}" },
-	{ "nf-md-share_variant_outline", "\u{f1514}" },
-	{ "nf-md-shark", "\u{f18ba}" },
-	{ "nf-md-shark_fin", "\u{f1673}" },
-	{ "nf-md-shark_fin_outline", "\u{f1674}" },
-	{ "nf-md-shark_off", "\u{f18bb}" },
-	{ "nf-md-sheep", "\u{f0cc6}" },
-	{ "nf-md-shield", "\u{f0498}" },
-	{ "nf-md-shield_account", "\u{f088f}" },
-	{ "nf-md-shield_account_outline", "\u{f0a12}" },
-	{ "nf-md-shield_account_variant", "\u{f15a7}" },
-	{ "nf-md-shield_account_variant_outline", "\u{f15a8}" },
-	{ "nf-md-shield_airplane", "\u{f06bb}" },
-	{ "nf-md-shield_airplane_outline", "\u{f0cc7}" },
-	{ "nf-md-shield_alert", "\u{f0ecc}" },
-	{ "nf-md-shield_alert_outline", "\u{f0ecd}" },
-	{ "nf-md-shield_bug", "\u{f13da}" },
-	{ "nf-md-shield_bug_outline", "\u{f13db}" },
-	{ "nf-md-shield_car", "\u{f0f83}" },
-	{ "nf-md-shield_check", "\u{f0565}" },
-	{ "nf-md-shield_check_outline", "\u{f0cc8}" },
-	{ "nf-md-shield_cross", "\u{f0cc9}" },
-	{ "nf-md-shield_cross_outline", "\u{f0cca}" },
-	{ "nf-md-shield_crown", "\u{f18bc}" },
-	{ "nf-md-shield_crown_outline", "\u{f18bd}" },
-	{ "nf-md-shield_edit", "\u{f11a0}" },
-	{ "nf-md-shield_edit_outline", "\u{f11a1}" },
-	{ "nf-md-shield_half", "\u{f1360}" },
-	{ "nf-md-shield_half_full", "\u{f0780}" },
-	{ "nf-md-shield_home", "\u{f068a}" },
-	{ "nf-md-shield_home_outline", "\u{f0ccb}" },
-	{ "nf-md-shield_key", "\u{f0bc4}" },
-	{ "nf-md-shield_key_outline", "\u{f0bc5}" },
-	{ "nf-md-shield_link_variant", "\u{f0d33}" },
-	{ "nf-md-shield_link_variant_outline", "\u{f0d34}" },
-	{ "nf-md-shield_lock", "\u{f099d}" },
-	{ "nf-md-shield_lock_open", "\u{f199a}" },
-	{ "nf-md-shield_lock_open_outline", "\u{f199b}" },
-	{ "nf-md-shield_lock_outline", "\u{f0ccc}" },
-	{ "nf-md-shield_moon", "\u{f1828}" },
-	{ "nf-md-shield_moon_outline", "\u{f1829}" },
-	{ "nf-md-shield_off", "\u{f099e}" },
-	{ "nf-md-shield_off_outline", "\u{f099c}" },
-	{ "nf-md-shield_outline", "\u{f0499}" },
-	{ "nf-md-shield_plus", "\u{f0ada}" },
-	{ "nf-md-shield_plus_outline", "\u{f0adb}" },
-	{ "nf-md-shield_refresh", "\u{f00aa}" },
-	{ "nf-md-shield_refresh_outline", "\u{f01e0}" },
-	{ "nf-md-shield_remove", "\u{f0adc}" },
-	{ "nf-md-shield_remove_outline", "\u{f0add}" },
-	{ "nf-md-shield_search", "\u{f0d9a}" },
-	{ "nf-md-shield_star", "\u{f113b}" },
-	{ "nf-md-shield_star_outline", "\u{f113c}" },
-	{ "nf-md-shield_sun", "\u{f105d}" },
-	{ "nf-md-shield_sun_outline", "\u{f105e}" },
-	{ "nf-md-shield_sword", "\u{f18be}" },
-	{ "nf-md-shield_sword_outline", "\u{f18bf}" },
-	{ "nf-md-shield_sync", "\u{f11a2}" },
-	{ "nf-md-shield_sync_outline", "\u{f11a3}" },
-	{ "nf-md-shimmer", "\u{f1545}" },
-	{ "nf-md-ship_wheel", "\u{f0833}" },
-	{ "nf-md-shipping_pallet", "\u{f184e}" },
-	{ "nf-md-shoe_ballet", "\u{f15ca}" },
-	{ "nf-md-shoe_cleat", "\u{f15c7}" },
-	{ "nf-md-shoe_formal", "\u{f0b47}" },
-	{ "nf-md-shoe_heel", "\u{f0b48}" },
-	{ "nf-md-shoe_print", "\u{f0dfa}" },
-	{ "nf-md-shoe_sneaker", "\u{f15c8}" },
-	{ "nf-md-shopping", "\u{f049a}" },
-	{ "nf-md-shopping_music", "\u{f049b}" },
-	{ "nf-md-shopping_outline", "\u{f11d5}" },
-	{ "nf-md-shopping_search", "\u{f0f84}" },
-	{ "nf-md-shopping_search_outline", "\u{f1a6f}" },
-	{ "nf-md-shore", "\u{f14f9}" },
-	{ "nf-md-shovel", "\u{f0710}" },
-	{ "nf-md-shovel_off", "\u{f0711}" },
-	{ "nf-md-shower", "\u{f09a0}" },
-	{ "nf-md-shower_head", "\u{f09a1}" },
-	{ "nf-md-shredder", "\u{f049c}" },
-	{ "nf-md-shuffle", "\u{f049d}" },
-	{ "nf-md-shuffle_disabled", "\u{f049e}" },
-	{ "nf-md-shuffle_variant", "\u{f049f}" },
-	{ "nf-md-shuriken", "\u{f137f}" },
-	{ "nf-md-sickle", "\u{f18c0}" },
-	{ "nf-md-sigma", "\u{f04a0}" },
-	{ "nf-md-sigma_lower", "\u{f062b}" },
-	{ "nf-md-sign_caution", "\u{f04a1}" },
-	{ "nf-md-sign_direction", "\u{f0781}" },
-	{ "nf-md-sign_direction_minus", "\u{f1000}" },
-	{ "nf-md-sign_direction_plus", "\u{f0fdc}" },
-	{ "nf-md-sign_direction_remove", "\u{f0fdd}" },
-	{ "nf-md-sign_pole", "\u{f14f8}" },
-	{ "nf-md-sign_real_estate", "\u{f1118}" },
-	{ "nf-md-sign_text", "\u{f0782}" },
-	{ "nf-md-signal", "\u{f04a2}" },
-	{ "nf-md-signal_2g", "\u{f0712}" },
-	{ "nf-md-signal_3g", "\u{f0713}" },
-	{ "nf-md-signal_4g", "\u{f0714}" },
-	{ "nf-md-signal_5g", "\u{f0a6f}" },
-	{ "nf-md-signal_cellular_1", "\u{f08bc}" },
-	{ "nf-md-signal_cellular_2", "\u{f08bd}" },
-	{ "nf-md-signal_cellular_3", "\u{f08be}" },
-	{ "nf-md-signal_cellular_outline", "\u{f08bf}" },
-	{ "nf-md-signal_distance_variant", "\u{f0e64}" },
-	{ "nf-md-signal_hspa", "\u{f0715}" },
-	{ "nf-md-signal_hspa_plus", "\u{f0716}" },
-	{ "nf-md-signal_off", "\u{f0783}" },
-	{ "nf-md-signal_variant", "\u{f060a}" },
-	{ "nf-md-signature", "\u{f0dfb}" },
-	{ "nf-md-signature_freehand", "\u{f0dfc}" },
-	{ "nf-md-signature_image", "\u{f0dfd}" },
-	{ "nf-md-signature_text", "\u{f0dfe}" },
-	{ "nf-md-silo", "\u{f0b49}" },
-	{ "nf-md-silverware", "\u{f04a3}" },
-	{ "nf-md-silverware_clean", "\u{f0fde}" },
-	{ "nf-md-silverware_fork", "\u{f04a4}" },
-	{ "nf-md-silverware_fork_knife", "\u{f0a70}" },
-	{ "nf-md-silverware_spoon", "\u{f04a5}" },
-	{ "nf-md-silverware_variant", "\u{f04a6}" },
-	{ "nf-md-sim", "\u{f04a7}" },
-	{ "nf-md-sim_alert", "\u{f04a8}" },
-	{ "nf-md-sim_alert_outline", "\u{f15d3}" },
-	{ "nf-md-sim_off", "\u{f04a9}" },
-	{ "nf-md-sim_off_outline", "\u{f15d4}" },
-	{ "nf-md-sim_outline", "\u{f15d5}" },
-	{ "nf-md-simple_icons", "\u{f131d}" },
-	{ "nf-md-sina_weibo", "\u{f0adf}" },
-	{ "nf-md-sine_wave", "\u{f095b}" },
-	{ "nf-md-sitemap", "\u{f04aa}" },
-	{ "nf-md-sitemap_outline", "\u{f199c}" },
-	{ "nf-md-size_m", "\u{f13a5}" },
-	{ "nf-md-size_s", "\u{f13a4}" },
-	{ "nf-md-size_xl", "\u{f13a7}" },
-	{ "nf-md-size_xs", "\u{f13a3}" },
-	{ "nf-md-size_xxl", "\u{f13a8}" },
-	{ "nf-md-size_xxs", "\u{f13a2}" },
-	{ "nf-md-size_xxxl", "\u{f13a9}" },
-	{ "nf-md-skate", "\u{f0d35}" },
-	{ "nf-md-skate_off", "\u{f0699}" },
-	{ "nf-md-skateboard", "\u{f14c2}" },
-	{ "nf-md-skateboarding", "\u{f0501}" },
-	{ "nf-md-skew_less", "\u{f0d36}" },
-	{ "nf-md-skew_more", "\u{f0d37}" },
-	{ "nf-md-ski", "\u{f1304}" },
-	{ "nf-md-ski_cross_country", "\u{f1305}" },
-	{ "nf-md-ski_water", "\u{f1306}" },
-	{ "nf-md-skip_backward", "\u{f04ab}" },
-	{ "nf-md-skip_backward_outline", "\u{f0f25}" },
-	{ "nf-md-skip_forward", "\u{f04ac}" },
-	{ "nf-md-skip_forward_outline", "\u{f0f26}" },
-	{ "nf-md-skip_next", "\u{f04ad}" },
-	{ "nf-md-skip_next_circle", "\u{f0661}" },
-	{ "nf-md-skip_next_circle_outline", "\u{f0662}" },
-	{ "nf-md-skip_next_outline", "\u{f0f27}" },
-	{ "nf-md-skip_previous", "\u{f04ae}" },
-	{ "nf-md-skip_previous_circle", "\u{f0663}" },
-	{ "nf-md-skip_previous_circle_outline", "\u{f0664}" },
-	{ "nf-md-skip_previous_outline", "\u{f0f28}" },
-	{ "nf-md-skull", "\u{f068c}" },
-	{ "nf-md-skull_crossbones", "\u{f0bc6}" },
-	{ "nf-md-skull_crossbones_outline", "\u{f0bc7}" },
-	{ "nf-md-skull_outline", "\u{f0bc8}" },
-	{ "nf-md-skull_scan", "\u{f14c7}" },
-	{ "nf-md-skull_scan_outline", "\u{f14c8}" },
-	{ "nf-md-skype", "\u{f04af}" },
-	{ "nf-md-skype_business", "\u{f04b0}" },
-	{ "nf-md-slack", "\u{f04b1}" },
-	{ "nf-md-slash_forward", "\u{f0fdf}" },
-	{ "nf-md-slash_forward_box", "\u{f0fe0}" },
-	{ "nf-md-sledding", "\u{f041b}" },
-	{ "nf-md-sleep", "\u{f04b2}" },
-	{ "nf-md-sleep_off", "\u{f04b3}" },
-	{ "nf-md-slide", "\u{f15a5}" },
-	{ "nf-md-slope_downhill", "\u{f0dff}" },
-	{ "nf-md-slope_uphill", "\u{f0e00}" },
-	{ "nf-md-slot_machine", "\u{f1114}" },
-	{ "nf-md-slot_machine_outline", "\u{f1115}" },
-	{ "nf-md-smart_card", "\u{f10bd}" },
-	{ "nf-md-smart_card_off", "\u{f18f7}" },
-	{ "nf-md-smart_card_off_outline", "\u{f18f8}" },
-	{ "nf-md-smart_card_outline", "\u{f10be}" },
-	{ "nf-md-smart_card_reader", "\u{f10bf}" },
-	{ "nf-md-smart_card_reader_outline", "\u{f10c0}" },
-	{ "nf-md-smog", "\u{f0a71}" },
-	{ "nf-md-smoke", "\u{f1799}" },
-	{ "nf-md-smoke_detector", "\u{f0392}" },
-	{ "nf-md-smoke_detector_alert", "\u{f192e}" },
-	{ "nf-md-smoke_detector_alert_outline", "\u{f192f}" },
-	{ "nf-md-smoke_detector_off", "\u{f1809}" },
-	{ "nf-md-smoke_detector_off_outline", "\u{f180a}" },
-	{ "nf-md-smoke_detector_outline", "\u{f1808}" },
-	{ "nf-md-smoke_detector_variant", "\u{f180b}" },
-	{ "nf-md-smoke_detector_variant_alert", "\u{f1930}" },
-	{ "nf-md-smoke_detector_variant_off", "\u{f180c}" },
-	{ "nf-md-smoking", "\u{f04b4}" },
-	{ "nf-md-smoking_off", "\u{f04b5}" },
-	{ "nf-md-smoking_pipe", "\u{f140d}" },
-	{ "nf-md-smoking_pipe_off", "\u{f1428}" },
-	{ "nf-md-snail", "\u{f1677}" },
-	{ "nf-md-snake", "\u{f150e}" },
-	{ "nf-md-snapchat", "\u{f04b6}" },
-	{ "nf-md-snowboard", "\u{f1307}" },
-	{ "nf-md-snowflake", "\u{f0717}" },
-	{ "nf-md-snowflake_alert", "\u{f0f29}" },
-	{ "nf-md-snowflake_check", "\u{f1a70}" },
-	{ "nf-md-snowflake_melt", "\u{f12cb}" },
-	{ "nf-md-snowflake_off", "\u{f14e3}" },
-	{ "nf-md-snowflake_thermometer", "\u{f1a71}" },
-	{ "nf-md-snowflake_variant", "\u{f0f2a}" },
-	{ "nf-md-snowman", "\u{f04b7}" },
-	{ "nf-md-snowmobile", "\u{f06dd}" },
-	{ "nf-md-snowshoeing", "\u{f1a72}" },
-	{ "nf-md-soccer", "\u{f04b8}" },
-	{ "nf-md-soccer_field", "\u{f0834}" },
-	{ "nf-md-social_distance_2_meters", "\u{f1579}" },
-	{ "nf-md-social_distance_6_feet", "\u{f157a}" },
-	{ "nf-md-sofa", "\u{f04b9}" },
-	{ "nf-md-sofa_outline", "\u{f156d}" },
-	{ "nf-md-sofa_single", "\u{f156e}" },
-	{ "nf-md-sofa_single_outline", "\u{f156f}" },
-	{ "nf-md-solar_panel", "\u{f0d9b}" },
-	{ "nf-md-solar_panel_large", "\u{f0d9c}" },
-	{ "nf-md-solar_power", "\u{f0a72}" },
-	{ "nf-md-solar_power_variant", "\u{f1a73}" },
-	{ "nf-md-solar_power_variant_outline", "\u{f1a74}" },
-	{ "nf-md-soldering_iron", "\u{f1092}" },
-	{ "nf-md-solid", "\u{f068d}" },
-	{ "nf-md-sony_playstation", "\u{f0414}" },
-	{ "nf-md-sort", "\u{f04ba}" },
-	{ "nf-md-sort_alphabetical_ascending", "\u{f05bd}" },
-	{ "nf-md-sort_alphabetical_ascending_variant", "\u{f1148}" },
-	{ "nf-md-sort_alphabetical_descending", "\u{f05bf}" },
-	{ "nf-md-sort_alphabetical_descending_variant", "\u{f1149}" },
-	{ "nf-md-sort_alphabetical_variant", "\u{f04bb}" },
-	{ "nf-md-sort_ascending", "\u{f04bc}" },
-	{ "nf-md-sort_bool_ascending", "\u{f1385}" },
-	{ "nf-md-sort_bool_ascending_variant", "\u{f1386}" },
-	{ "nf-md-sort_bool_descending", "\u{f1387}" },
-	{ "nf-md-sort_bool_descending_variant", "\u{f1388}" },
-	{ "nf-md-sort_calendar_ascending", "\u{f1547}" },
-	{ "nf-md-sort_calendar_descending", "\u{f1548}" },
-	{ "nf-md-sort_clock_ascending", "\u{f1549}" },
-	{ "nf-md-sort_clock_ascending_outline", "\u{f154a}" },
-	{ "nf-md-sort_clock_descending", "\u{f154b}" },
-	{ "nf-md-sort_clock_descending_outline", "\u{f154c}" },
-	{ "nf-md-sort_descending", "\u{f04bd}" },
-	{ "nf-md-sort_numeric_ascending", "\u{f1389}" },
-	{ "nf-md-sort_numeric_ascending_variant", "\u{f090d}" },
-	{ "nf-md-sort_numeric_descending", "\u{f138a}" },
-	{ "nf-md-sort_numeric_descending_variant", "\u{f0ad2}" },
-	{ "nf-md-sort_numeric_variant", "\u{f04be}" },
-	{ "nf-md-sort_reverse_variant", "\u{f033c}" },
-	{ "nf-md-sort_variant", "\u{f04bf}" },
-	{ "nf-md-sort_variant_lock", "\u{f0ccd}" },
-	{ "nf-md-sort_variant_lock_open", "\u{f0cce}" },
-	{ "nf-md-sort_variant_off", "\u{f1abb}" },
-	{ "nf-md-sort_variant_remove", "\u{f1147}" },
-	{ "nf-md-soundbar", "\u{f17db}" },
-	{ "nf-md-soundcloud", "\u{f04c0}" },
-	{ "nf-md-source_branch", "\u{f062c}" },
-	{ "nf-md-source_branch_check", "\u{f14cf}" },
-	{ "nf-md-source_branch_minus", "\u{f14cb}" },
-	{ "nf-md-source_branch_plus", "\u{f14ca}" },
-	{ "nf-md-source_branch_refresh", "\u{f14cd}" },
-	{ "nf-md-source_branch_remove", "\u{f14cc}" },
-	{ "nf-md-source_branch_sync", "\u{f14ce}" },
-	{ "nf-md-source_commit", "\u{f0718}" },
-	{ "nf-md-source_commit_end", "\u{f0719}" },
-	{ "nf-md-source_commit_end_local", "\u{f071a}" },
-	{ "nf-md-source_commit_local", "\u{f071b}" },
-	{ "nf-md-source_commit_next_local", "\u{f071c}" },
-	{ "nf-md-source_commit_start", "\u{f071d}" },
-	{ "nf-md-source_commit_start_next_local", "\u{f071e}" },
-	{ "nf-md-source_fork", "\u{f04c1}" },
-	{ "nf-md-source_merge", "\u{f062d}" },
-	{ "nf-md-source_pull", "\u{f04c2}" },
-	{ "nf-md-source_repository", "\u{f0ccf}" },
-	{ "nf-md-source_repository_multiple", "\u{f0cd0}" },
-	{ "nf-md-soy_sauce", "\u{f07ee}" },
-	{ "nf-md-soy_sauce_off", "\u{f13fc}" },
-	{ "nf-md-spa", "\u{f0cd1}" },
-	{ "nf-md-spa_outline", "\u{f0cd2}" },
-	{ "nf-md-space_invaders", "\u{f0bc9}" },
-	{ "nf-md-space_station", "\u{f1383}" },
-	{ "nf-md-spade", "\u{f0e65}" },
-	{ "nf-md-speaker", "\u{f04c3}" },
-	{ "nf-md-speaker_bluetooth", "\u{f09a2}" },
-	{ "nf-md-speaker_multiple", "\u{f0d38}" },
-	{ "nf-md-speaker_off", "\u{f04c4}" },
-	{ "nf-md-speaker_wireless", "\u{f071f}" },
-	{ "nf-md-spear", "\u{f1845}" },
-	{ "nf-md-speedometer", "\u{f04c5}" },
-	{ "nf-md-speedometer_medium", "\u{f0f85}" },
-	{ "nf-md-speedometer_slow", "\u{f0f86}" },
-	{ "nf-md-spellcheck", "\u{f04c6}" },
-	{ "nf-md-sphere", "\u{f1954}" },
-	{ "nf-md-sphere_off", "\u{f1955}" },
-	{ "nf-md-spider", "\u{f11ea}" },
-	{ "nf-md-spider_thread", "\u{f11eb}" },
-	{ "nf-md-spider_web", "\u{f0bca}" },
-	{ "nf-md-spirit_level", "\u{f14f1}" },
-	{ "nf-md-spoon_sugar", "\u{f1429}" },
-	{ "nf-md-spotify", "\u{f04c7}" },
-	{ "nf-md-spotlight", "\u{f04c8}" },
-	{ "nf-md-spotlight_beam", "\u{f04c9}" },
-	{ "nf-md-spray", "\u{f0665}" },
-	{ "nf-md-spray_bottle", "\u{f0ae0}" },
-	{ "nf-md-sprinkler", "\u{f105f}" },
-	{ "nf-md-sprinkler_fire", "\u{f199d}" },
-	{ "nf-md-sprinkler_variant", "\u{f1060}" },
-	{ "nf-md-sprout", "\u{f0e66}" },
-	{ "nf-md-sprout_outline", "\u{f0e67}" },
-	{ "nf-md-square", "\u{f0764}" },
-	{ "nf-md-square_circle", "\u{f1500}" },
-	{ "nf-md-square_edit_outline", "\u{f090c}" },
-	{ "nf-md-square_medium", "\u{f0a13}" },
-	{ "nf-md-square_medium_outline", "\u{f0a14}" },
-	{ "nf-md-square_off", "\u{f12ee}" },
-	{ "nf-md-square_off_outline", "\u{f12ef}" },
-	{ "nf-md-square_opacity", "\u{f1854}" },
-	{ "nf-md-square_outline", "\u{f0763}" },
-	{ "nf-md-square_root", "\u{f0784}" },
-	{ "nf-md-square_root_box", "\u{f09a3}" },
-	{ "nf-md-square_rounded", "\u{f14fb}" },
-	{ "nf-md-square_rounded_badge", "\u{f1a07}" },
-	{ "nf-md-square_rounded_badge_outline", "\u{f1a08}" },
-	{ "nf-md-square_rounded_outline", "\u{f14fc}" },
-	{ "nf-md-square_small", "\u{f0a15}" },
-	{ "nf-md-square_wave", "\u{f147b}" },
-	{ "nf-md-squeegee", "\u{f0ae1}" },
-	{ "nf-md-ssh", "\u{f08c0}" },
-	{ "nf-md-stack_exchange", "\u{f060b}" },
-	{ "nf-md-stack_overflow", "\u{f04cc}" },
-	{ "nf-md-stackpath", "\u{f0359}" },
-	{ "nf-md-stadium", "\u{f0ff9}" },
-	{ "nf-md-stadium_variant", "\u{f0720}" },
-	{ "nf-md-stairs", "\u{f04cd}" },
-	{ "nf-md-stairs_box", "\u{f139e}" },
-	{ "nf-md-stairs_down", "\u{f12be}" },
-	{ "nf-md-stairs_up", "\u{f12bd}" },
-	{ "nf-md-stamper", "\u{f0d39}" },
-	{ "nf-md-standard_definition", "\u{f07ef}" },
-	{ "nf-md-star", "\u{f04ce}" },
-	{ "nf-md-star_box", "\u{f0a73}" },
-	{ "nf-md-star_box_multiple", "\u{f1286}" },
-	{ "nf-md-star_box_multiple_outline", "\u{f1287}" },
-	{ "nf-md-star_box_outline", "\u{f0a74}" },
-	{ "nf-md-star_check", "\u{f1566}" },
-	{ "nf-md-star_check_outline", "\u{f156a}" },
-	{ "nf-md-star_circle", "\u{f04cf}" },
-	{ "nf-md-star_circle_outline", "\u{f09a4}" },
-	{ "nf-md-star_cog", "\u{f1668}" },
-	{ "nf-md-star_cog_outline", "\u{f1669}" },
-	{ "nf-md-star_crescent", "\u{f0979}" },
-	{ "nf-md-star_david", "\u{f097a}" },
-	{ "nf-md-star_face", "\u{f09a5}" },
-	{ "nf-md-star_four_points", "\u{f0ae2}" },
-	{ "nf-md-star_four_points_outline", "\u{f0ae3}" },
-	{ "nf-md-star_half", "\u{f0246}" },
-	{ "nf-md-star_half_full", "\u{f04d0}" },
-	{ "nf-md-star_minus", "\u{f1564}" },
-	{ "nf-md-star_minus_outline", "\u{f1568}" },
-	{ "nf-md-star_off", "\u{f04d1}" },
-	{ "nf-md-star_off_outline", "\u{f155b}" },
-	{ "nf-md-star_outline", "\u{f04d2}" },
-	{ "nf-md-star_plus", "\u{f1563}" },
-	{ "nf-md-star_plus_outline", "\u{f1567}" },
-	{ "nf-md-star_remove", "\u{f1565}" },
-	{ "nf-md-star_remove_outline", "\u{f1569}" },
-	{ "nf-md-star_settings", "\u{f166a}" },
-	{ "nf-md-star_settings_outline", "\u{f166b}" },
-	{ "nf-md-star_shooting", "\u{f1741}" },
-	{ "nf-md-star_shooting_outline", "\u{f1742}" },
-	{ "nf-md-star_three_points", "\u{f0ae4}" },
-	{ "nf-md-star_three_points_outline", "\u{f0ae5}" },
-	{ "nf-md-state_machine", "\u{f11ef}" },
-	{ "nf-md-steam", "\u{f04d3}" },
-	{ "nf-md-steering", "\u{f04d4}" },
-	{ "nf-md-steering_off", "\u{f090e}" },
-	{ "nf-md-step_backward", "\u{f04d5}" },
-	{ "nf-md-step_backward_2", "\u{f04d6}" },
-	{ "nf-md-step_forward", "\u{f04d7}" },
-	{ "nf-md-step_forward_2", "\u{f04d8}" },
-	{ "nf-md-stethoscope", "\u{f04d9}" },
-	{ "nf-md-sticker", "\u{f1364}" },
-	{ "nf-md-sticker_alert", "\u{f1365}" },
-	{ "nf-md-sticker_alert_outline", "\u{f1366}" },
-	{ "nf-md-sticker_check", "\u{f1367}" },
-	{ "nf-md-sticker_check_outline", "\u{f1368}" },
-	{ "nf-md-sticker_circle_outline", "\u{f05d0}" },
-	{ "nf-md-sticker_emoji", "\u{f0785}" },
-	{ "nf-md-sticker_minus", "\u{f1369}" },
-	{ "nf-md-sticker_minus_outline", "\u{f136a}" },
-	{ "nf-md-sticker_outline", "\u{f136b}" },
-	{ "nf-md-sticker_plus", "\u{f136c}" },
-	{ "nf-md-sticker_plus_outline", "\u{f136d}" },
-	{ "nf-md-sticker_remove", "\u{f136e}" },
-	{ "nf-md-sticker_remove_outline", "\u{f136f}" },
-	{ "nf-md-sticker_text", "\u{f178e}" },
-	{ "nf-md-sticker_text_outline", "\u{f178f}" },
-	{ "nf-md-stocking", "\u{f04da}" },
-	{ "nf-md-stomach", "\u{f1093}" },
-	{ "nf-md-stool", "\u{f195d}" },
-	{ "nf-md-stool_outline", "\u{f195e}" },
-	{ "nf-md-stop", "\u{f04db}" },
-	{ "nf-md-stop_circle", "\u{f0666}" },
-	{ "nf-md-stop_circle_outline", "\u{f0667}" },
-	{ "nf-md-storage_tank", "\u{f1a75}" },
-	{ "nf-md-storage_tank_outline", "\u{f1a76}" },
-	{ "nf-md-store", "\u{f04dc}" },
-	{ "nf-md-store_24_hour", "\u{f04dd}" },
-	{ "nf-md-store_alert", "\u{f18c1}" },
-	{ "nf-md-store_alert_outline", "\u{f18c2}" },
-	{ "nf-md-store_check", "\u{f18c3}" },
-	{ "nf-md-store_check_outline", "\u{f18c4}" },
-	{ "nf-md-store_clock", "\u{f18c5}" },
-	{ "nf-md-store_clock_outline", "\u{f18c6}" },
-	{ "nf-md-store_cog", "\u{f18c7}" },
-	{ "nf-md-store_cog_outline", "\u{f18c8}" },
-	{ "nf-md-store_edit", "\u{f18c9}" },
-	{ "nf-md-store_edit_outline", "\u{f18ca}" },
-	{ "nf-md-store_marker", "\u{f18cb}" },
-	{ "nf-md-store_marker_outline", "\u{f18cc}" },
-	{ "nf-md-store_minus", "\u{f165e}" },
-	{ "nf-md-store_minus_outline", "\u{f18cd}" },
-	{ "nf-md-store_off", "\u{f18ce}" },
-	{ "nf-md-store_off_outline", "\u{f18cf}" },
-	{ "nf-md-store_outline", "\u{f1361}" },
-	{ "nf-md-store_plus", "\u{f165f}" },
-	{ "nf-md-store_plus_outline", "\u{f18d0}" },
-	{ "nf-md-store_remove", "\u{f1660}" },
-	{ "nf-md-store_remove_outline", "\u{f18d1}" },
-	{ "nf-md-store_search", "\u{f18d2}" },
-	{ "nf-md-store_search_outline", "\u{f18d3}" },
-	{ "nf-md-store_settings", "\u{f18d4}" },
-	{ "nf-md-store_settings_outline", "\u{f18d5}" },
-	{ "nf-md-storefront", "\u{f07c7}" },
-	{ "nf-md-storefront_outline", "\u{f10c1}" },
-	{ "nf-md-stove", "\u{f04de}" },
-	{ "nf-md-strategy", "\u{f11d6}" },
-	{ "nf-md-stretch_to_page", "\u{f0f2b}" },
-	{ "nf-md-stretch_to_page_outline", "\u{f0f2c}" },
-	{ "nf-md-string_lights", "\u{f12ba}" },
-	{ "nf-md-string_lights_off", "\u{f12bb}" },
-	{ "nf-md-subdirectory_arrow_left", "\u{f060c}" },
-	{ "nf-md-subdirectory_arrow_right", "\u{f060d}" },
-	{ "nf-md-submarine", "\u{f156c}" },
-	{ "nf-md-subtitles", "\u{f0a16}" },
-	{ "nf-md-subtitles_outline", "\u{f0a17}" },
-	{ "nf-md-subway", "\u{f06ac}" },
-	{ "nf-md-subway_alert_variant", "\u{f0d9d}" },
-	{ "nf-md-subway_variant", "\u{f04df}" },
-	{ "nf-md-summit", "\u{f0786}" },
-	{ "nf-md-sun_clock", "\u{f1a77}" },
-	{ "nf-md-sun_clock_outline", "\u{f1a78}" },
-	{ "nf-md-sun_compass", "\u{f19a5}" },
-	{ "nf-md-sun_snowflake", "\u{f1796}" },
-	{ "nf-md-sun_snowflake_variant", "\u{f1a79}" },
-	{ "nf-md-sun_thermometer", "\u{f18d6}" },
-	{ "nf-md-sun_thermometer_outline", "\u{f18d7}" },
-	{ "nf-md-sun_wireless", "\u{f17fe}" },
-	{ "nf-md-sun_wireless_outline", "\u{f17ff}" },
-	{ "nf-md-sunglasses", "\u{f04e0}" },
-	{ "nf-md-surfing", "\u{f1746}" },
-	{ "nf-md-surround_sound", "\u{f05c5}" },
-	{ "nf-md-surround_sound_2_0", "\u{f07f0}" },
-	{ "nf-md-surround_sound_2_1", "\u{f1729}" },
-	{ "nf-md-surround_sound_3_1", "\u{f07f1}" },
-	{ "nf-md-surround_sound_5_1", "\u{f07f2}" },
-	{ "nf-md-surround_sound_5_1_2", "\u{f172a}" },
-	{ "nf-md-surround_sound_7_1", "\u{f07f3}" },
-	{ "nf-md-svg", "\u{f0721}" },
-	{ "nf-md-swap_horizontal", "\u{f04e1}" },
-	{ "nf-md-swap_horizontal_bold", "\u{f0bcd}" },
-	{ "nf-md-swap_horizontal_circle", "\u{f0fe1}" },
-	{ "nf-md-swap_horizontal_circle_outline", "\u{f0fe2}" },
-	{ "nf-md-swap_horizontal_variant", "\u{f08c1}" },
-	{ "nf-md-swap_vertical", "\u{f04e2}" },
-	{ "nf-md-swap_vertical_bold", "\u{f0bce}" },
-	{ "nf-md-swap_vertical_circle", "\u{f0fe3}" },
-	{ "nf-md-swap_vertical_circle_outline", "\u{f0fe4}" },
-	{ "nf-md-swap_vertical_variant", "\u{f08c2}" },
-	{ "nf-md-swim", "\u{f04e3}" },
-	{ "nf-md-switch", "\u{f04e4}" },
-	{ "nf-md-sword", "\u{f04e5}" },
-	{ "nf-md-sword_cross", "\u{f0787}" },
-	{ "nf-md-syllabary_hangul", "\u{f1333}" },
-	{ "nf-md-syllabary_hiragana", "\u{f1334}" },
-	{ "nf-md-syllabary_katakana", "\u{f1335}" },
-	{ "nf-md-syllabary_katakana_halfwidth", "\u{f1336}" },
-	{ "nf-md-symbol", "\u{f1501}" },
-	{ "nf-md-symfony", "\u{f0ae6}" },
-	{ "nf-md-sync", "\u{f04e6}" },
-	{ "nf-md-sync_alert", "\u{f04e7}" },
-	{ "nf-md-sync_circle", "\u{f1378}" },
-	{ "nf-md-sync_off", "\u{f04e8}" },
-	{ "nf-md-tab", "\u{f04e9}" },
-	{ "nf-md-tab_minus", "\u{f0b4b}" },
-	{ "nf-md-tab_plus", "\u{f075c}" },
-	{ "nf-md-tab_remove", "\u{f0b4c}" },
-	{ "nf-md-tab_search", "\u{f199e}" },
-	{ "nf-md-tab_unselected", "\u{f04ea}" },
-	{ "nf-md-table", "\u{f04eb}" },
-	{ "nf-md-table_account", "\u{f13b9}" },
-	{ "nf-md-table_alert", "\u{f13ba}" },
-	{ "nf-md-table_arrow_down", "\u{f13bb}" },
-	{ "nf-md-table_arrow_left", "\u{f13bc}" },
-	{ "nf-md-table_arrow_right", "\u{f13bd}" },
-	{ "nf-md-table_arrow_up", "\u{f13be}" },
-	{ "nf-md-table_border", "\u{f0a18}" },
-	{ "nf-md-table_cancel", "\u{f13bf}" },
-	{ "nf-md-table_chair", "\u{f1061}" },
-	{ "nf-md-table_check", "\u{f13c0}" },
-	{ "nf-md-table_clock", "\u{f13c1}" },
-	{ "nf-md-table_cog", "\u{f13c2}" },
-	{ "nf-md-table_column", "\u{f0835}" },
-	{ "nf-md-table_column_plus_after", "\u{f04ec}" },
-	{ "nf-md-table_column_plus_before", "\u{f04ed}" },
-	{ "nf-md-table_column_remove", "\u{f04ee}" },
-	{ "nf-md-table_column_width", "\u{f04ef}" },
-	{ "nf-md-table_edit", "\u{f04f0}" },
-	{ "nf-md-table_eye", "\u{f1094}" },
-	{ "nf-md-table_eye_off", "\u{f13c3}" },
-	{ "nf-md-table_furniture", "\u{f05bc}" },
-	{ "nf-md-table_headers_eye", "\u{f121d}" },
-	{ "nf-md-table_headers_eye_off", "\u{f121e}" },
-	{ "nf-md-table_heart", "\u{f13c4}" },
-	{ "nf-md-table_key", "\u{f13c5}" },
-	{ "nf-md-table_large", "\u{f04f1}" },
-	{ "nf-md-table_large_plus", "\u{f0f87}" },
-	{ "nf-md-table_large_remove", "\u{f0f88}" },
-	{ "nf-md-table_lock", "\u{f13c6}" },
-	{ "nf-md-table_merge_cells", "\u{f09a6}" },
-	{ "nf-md-table_minus", "\u{f13c7}" },
-	{ "nf-md-table_multiple", "\u{f13c8}" },
-	{ "nf-md-table_network", "\u{f13c9}" },
-	{ "nf-md-table_of_contents", "\u{f0836}" },
-	{ "nf-md-table_off", "\u{f13ca}" },
-	{ "nf-md-table_picnic", "\u{f1743}" },
-	{ "nf-md-table_pivot", "\u{f183c}" },
-	{ "nf-md-table_plus", "\u{f0a75}" },
-	{ "nf-md-table_refresh", "\u{f13a0}" },
-	{ "nf-md-table_remove", "\u{f0a76}" },
-	{ "nf-md-table_row", "\u{f0837}" },
-	{ "nf-md-table_row_height", "\u{f04f2}" },
-	{ "nf-md-table_row_plus_after", "\u{f04f3}" },
-	{ "nf-md-table_row_plus_before", "\u{f04f4}" },
-	{ "nf-md-table_row_remove", "\u{f04f5}" },
-	{ "nf-md-table_search", "\u{f090f}" },
-	{ "nf-md-table_settings", "\u{f0838}" },
-	{ "nf-md-table_split_cell", "\u{f142a}" },
-	{ "nf-md-table_star", "\u{f13cb}" },
-	{ "nf-md-table_sync", "\u{f13a1}" },
-	{ "nf-md-table_tennis", "\u{f0e68}" },
-	{ "nf-md-tablet", "\u{f04f6}" },
-	{ "nf-md-tablet_android", "\u{f04f7}" },
-	{ "nf-md-tablet_cellphone", "\u{f09a7}" },
-	{ "nf-md-tablet_dashboard", "\u{f0ece}" },
-	{ "nf-md-taco", "\u{f0762}" },
-	{ "nf-md-tag", "\u{f04f9}" },
-	{ "nf-md-tag_arrow_down", "\u{f172b}" },
-	{ "nf-md-tag_arrow_down_outline", "\u{f172c}" },
-	{ "nf-md-tag_arrow_left", "\u{f172d}" },
-	{ "nf-md-tag_arrow_left_outline", "\u{f172e}" },
-	{ "nf-md-tag_arrow_right", "\u{f172f}" },
-	{ "nf-md-tag_arrow_right_outline", "\u{f1730}" },
-	{ "nf-md-tag_arrow_up", "\u{f1731}" },
-	{ "nf-md-tag_arrow_up_outline", "\u{f1732}" },
-	{ "nf-md-tag_check", "\u{f1a7a}" },
-	{ "nf-md-tag_check_outline", "\u{f1a7b}" },
-	{ "nf-md-tag_faces", "\u{f04fa}" },
-	{ "nf-md-tag_heart", "\u{f068b}" },
-	{ "nf-md-tag_heart_outline", "\u{f0bcf}" },
-	{ "nf-md-tag_minus", "\u{f0910}" },
-	{ "nf-md-tag_minus_outline", "\u{f121f}" },
-	{ "nf-md-tag_multiple", "\u{f04fb}" },
-	{ "nf-md-tag_multiple_outline", "\u{f12f7}" },
-	{ "nf-md-tag_off", "\u{f1220}" },
-	{ "nf-md-tag_off_outline", "\u{f1221}" },
-	{ "nf-md-tag_outline", "\u{f04fc}" },
-	{ "nf-md-tag_plus", "\u{f0722}" },
-	{ "nf-md-tag_plus_outline", "\u{f1222}" },
-	{ "nf-md-tag_remove", "\u{f0723}" },
-	{ "nf-md-tag_remove_outline", "\u{f1223}" },
-	{ "nf-md-tag_search", "\u{f1907}" },
-	{ "nf-md-tag_search_outline", "\u{f1908}" },
-	{ "nf-md-tag_text", "\u{f1224}" },
-	{ "nf-md-tag_text_outline", "\u{f04fd}" },
-	{ "nf-md-tailwind", "\u{f13ff}" },
-	{ "nf-md-tally_mark_1", "\u{f1abc}" },
-	{ "nf-md-tally_mark_2", "\u{f1abd}" },
-	{ "nf-md-tally_mark_3", "\u{f1abe}" },
-	{ "nf-md-tally_mark_4", "\u{f1abf}" },
-	{ "nf-md-tally_mark_5", "\u{f1ac0}" },
-	{ "nf-md-tangram", "\u{f04f8}" },
-	{ "nf-md-tank", "\u{f0d3a}" },
-	{ "nf-md-tanker_truck", "\u{f0fe5}" },
-	{ "nf-md-tape_drive", "\u{f16df}" },
-	{ "nf-md-tape_measure", "\u{f0b4d}" },
-	{ "nf-md-target", "\u{f04fe}" },
-	{ "nf-md-target_account", "\u{f0bd0}" },
-	{ "nf-md-target_variant", "\u{f0a77}" },
-	{ "nf-md-taxi", "\u{f04ff}" },
-	{ "nf-md-tea", "\u{f0d9e}" },
-	{ "nf-md-tea_outline", "\u{f0d9f}" },
-	{ "nf-md-teamviewer", "\u{f0500}" },
-	{ "nf-md-teddy_bear", "\u{f18fb}" },
-	{ "nf-md-telescope", "\u{f0b4e}" },
-	{ "nf-md-television", "\u{f0502}" },
-	{ "nf-md-television_ambient_light", "\u{f1356}" },
-	{ "nf-md-television_box", "\u{f0839}" },
-	{ "nf-md-television_classic", "\u{f07f4}" },
-	{ "nf-md-television_classic_off", "\u{f083a}" },
-	{ "nf-md-television_guide", "\u{f0503}" },
-	{ "nf-md-television_off", "\u{f083b}" },
-	{ "nf-md-television_pause", "\u{f0f89}" },
-	{ "nf-md-television_play", "\u{f0ecf}" },
-	{ "nf-md-television_shimmer", "\u{f1110}" },
-	{ "nf-md-television_stop", "\u{f0f8a}" },
-	{ "nf-md-temperature_celsius", "\u{f0504}" },
-	{ "nf-md-temperature_fahrenheit", "\u{f0505}" },
-	{ "nf-md-temperature_kelvin", "\u{f0506}" },
-	{ "nf-md-tennis", "\u{f0da0}" },
-	{ "nf-md-tennis_ball", "\u{f0507}" },
-	{ "nf-md-tent", "\u{f0508}" },
-	{ "nf-md-terraform", "\u{f1062}" },
-	{ "nf-md-test_tube", "\u{f0668}" },
-	{ "nf-md-test_tube_empty", "\u{f0911}" },
-	{ "nf-md-test_tube_off", "\u{f0912}" },
-	{ "nf-md-text", "\u{f09a8}" },
-	{ "nf-md-text_account", "\u{f1570}" },
-	{ "nf-md-text_box", "\u{f021a}" },
-	{ "nf-md-text_box_check", "\u{f0ea6}" },
-	{ "nf-md-text_box_check_outline", "\u{f0ea7}" },
-	{ "nf-md-text_box_edit", "\u{f1a7c}" },
-	{ "nf-md-text_box_edit_outline", "\u{f1a7d}" },
-	{ "nf-md-text_box_minus", "\u{f0ea8}" },
-	{ "nf-md-text_box_minus_outline", "\u{f0ea9}" },
-	{ "nf-md-text_box_multiple", "\u{f0ab7}" },
-	{ "nf-md-text_box_multiple_outline", "\u{f0ab8}" },
-	{ "nf-md-text_box_outline", "\u{f09ed}" },
-	{ "nf-md-text_box_plus", "\u{f0eaa}" },
-	{ "nf-md-text_box_plus_outline", "\u{f0eab}" },
-	{ "nf-md-text_box_remove", "\u{f0eac}" },
-	{ "nf-md-text_box_remove_outline", "\u{f0ead}" },
-	{ "nf-md-text_box_search", "\u{f0eae}" },
-	{ "nf-md-text_box_search_outline", "\u{f0eaf}" },
-	{ "nf-md-text_long", "\u{f09aa}" },
-	{ "nf-md-text_recognition", "\u{f113d}" },
-	{ "nf-md-text_search", "\u{f13b8}" },
-	{ "nf-md-text_search_variant", "\u{f1a7e}" },
-	{ "nf-md-text_shadow", "\u{f0669}" },
-	{ "nf-md-text_short", "\u{f09a9}" },
-	{ "nf-md-text_to_speech", "\u{f050a}" },
-	{ "nf-md-text_to_speech_off", "\u{f050b}" },
-	{ "nf-md-texture", "\u{f050c}" },
-	{ "nf-md-texture_box", "\u{f0fe6}" },
-	{ "nf-md-theater", "\u{f050d}" },
-	{ "nf-md-theme_light_dark", "\u{f050e}" },
-	{ "nf-md-thermometer", "\u{f050f}" },
-	{ "nf-md-thermometer_alert", "\u{f0e01}" },
-	{ "nf-md-thermometer_bluetooth", "\u{f1895}" },
-	{ "nf-md-thermometer_check", "\u{f1a7f}" },
-	{ "nf-md-thermometer_chevron_down", "\u{f0e02}" },
-	{ "nf-md-thermometer_chevron_up", "\u{f0e03}" },
-	{ "nf-md-thermometer_high", "\u{f10c2}" },
-	{ "nf-md-thermometer_lines", "\u{f0510}" },
-	{ "nf-md-thermometer_low", "\u{f10c3}" },
-	{ "nf-md-thermometer_minus", "\u{f0e04}" },
-	{ "nf-md-thermometer_off", "\u{f1531}" },
-	{ "nf-md-thermometer_plus", "\u{f0e05}" },
-	{ "nf-md-thermometer_water", "\u{f1a80}" },
-	{ "nf-md-thermostat", "\u{f0393}" },
-	{ "nf-md-thermostat_box", "\u{f0891}" },
-	{ "nf-md-thought_bubble", "\u{f07f6}" },
-	{ "nf-md-thought_bubble_outline", "\u{f07f7}" },
-	{ "nf-md-thumb_down", "\u{f0511}" },
-	{ "nf-md-thumb_down_outline", "\u{f0512}" },
-	{ "nf-md-thumb_up", "\u{f0513}" },
-	{ "nf-md-thumb_up_outline", "\u{f0514}" },
-	{ "nf-md-thumbs_up_down", "\u{f0515}" },
-	{ "nf-md-thumbs_up_down_outline", "\u{f1914}" },
-	{ "nf-md-ticket", "\u{f0516}" },
-	{ "nf-md-ticket_account", "\u{f0517}" },
-	{ "nf-md-ticket_confirmation", "\u{f0518}" },
-	{ "nf-md-ticket_confirmation_outline", "\u{f13aa}" },
-	{ "nf-md-ticket_outline", "\u{f0913}" },
-	{ "nf-md-ticket_percent", "\u{f0724}" },
-	{ "nf-md-ticket_percent_outline", "\u{f142b}" },
-	{ "nf-md-tie", "\u{f0519}" },
-	{ "nf-md-tilde", "\u{f0725}" },
-	{ "nf-md-tilde_off", "\u{f18f3}" },
-	{ "nf-md-timelapse", "\u{f051a}" },
-	{ "nf-md-timeline", "\u{f0bd1}" },
-	{ "nf-md-timeline_alert", "\u{f0f95}" },
-	{ "nf-md-timeline_alert_outline", "\u{f0f98}" },
-	{ "nf-md-timeline_check", "\u{f1532}" },
-	{ "nf-md-timeline_check_outline", "\u{f1533}" },
-	{ "nf-md-timeline_clock", "\u{f11fb}" },
-	{ "nf-md-timeline_clock_outline", "\u{f11fc}" },
-	{ "nf-md-timeline_help", "\u{f0f99}" },
-	{ "nf-md-timeline_help_outline", "\u{f0f9a}" },
-	{ "nf-md-timeline_minus", "\u{f1534}" },
-	{ "nf-md-timeline_minus_outline", "\u{f1535}" },
-	{ "nf-md-timeline_outline", "\u{f0bd2}" },
-	{ "nf-md-timeline_plus", "\u{f0f96}" },
-	{ "nf-md-timeline_plus_outline", "\u{f0f97}" },
-	{ "nf-md-timeline_remove", "\u{f1536}" },
-	{ "nf-md-timeline_remove_outline", "\u{f1537}" },
-	{ "nf-md-timeline_text", "\u{f0bd3}" },
-	{ "nf-md-timeline_text_outline", "\u{f0bd4}" },
-	{ "nf-md-timer", "\u{f13ab}" },
-	{ "nf-md-timer_10", "\u{f051c}" },
-	{ "nf-md-timer_3", "\u{f051d}" },
-	{ "nf-md-timer_alert", "\u{f1acc}" },
-	{ "nf-md-timer_alert_outline", "\u{f1acd}" },
-	{ "nf-md-timer_cancel", "\u{f1ace}" },
-	{ "nf-md-timer_cancel_outline", "\u{f1acf}" },
-	{ "nf-md-timer_check", "\u{f1ad0}" },
-	{ "nf-md-timer_check_outline", "\u{f1ad1}" },
-	{ "nf-md-timer_cog", "\u{f1925}" },
-	{ "nf-md-timer_cog_outline", "\u{f1926}" },
-	{ "nf-md-timer_edit", "\u{f1ad2}" },
-	{ "nf-md-timer_edit_outline", "\u{f1ad3}" },
-	{ "nf-md-timer_lock", "\u{f1ad4}" },
-	{ "nf-md-timer_lock_open", "\u{f1ad5}" },
-	{ "nf-md-timer_lock_open_outline", "\u{f1ad6}" },
-	{ "nf-md-timer_lock_outline", "\u{f1ad7}" },
-	{ "nf-md-timer_marker", "\u{f1ad8}" },
-	{ "nf-md-timer_marker_outline", "\u{f1ad9}" },
-	{ "nf-md-timer_minus", "\u{f1ada}" },
-	{ "nf-md-timer_minus_outline", "\u{f1adb}" },
-	{ "nf-md-timer_music", "\u{f1adc}" },
-	{ "nf-md-timer_music_outline", "\u{f1add}" },
-	{ "nf-md-timer_off", "\u{f13ac}" },
-	{ "nf-md-timer_off_outline", "\u{f051e}" },
-	{ "nf-md-timer_outline", "\u{f051b}" },
-	{ "nf-md-timer_pause", "\u{f1ade}" },
-	{ "nf-md-timer_pause_outline", "\u{f1adf}" },
-	{ "nf-md-timer_play", "\u{f1ae0}" },
-	{ "nf-md-timer_play_outline", "\u{f1ae1}" },
-	{ "nf-md-timer_plus", "\u{f1ae2}" },
-	{ "nf-md-timer_plus_outline", "\u{f1ae3}" },
-	{ "nf-md-timer_refresh", "\u{f1ae4}" },
-	{ "nf-md-timer_refresh_outline", "\u{f1ae5}" },
-	{ "nf-md-timer_remove", "\u{f1ae6}" },
-	{ "nf-md-timer_remove_outline", "\u{f1ae7}" },
-	{ "nf-md-timer_sand", "\u{f051f}" },
-	{ "nf-md-timer_sand_complete", "\u{f199f}" },
-	{ "nf-md-timer_sand_empty", "\u{f06ad}" },
-	{ "nf-md-timer_sand_full", "\u{f078c}" },
-	{ "nf-md-timer_sand_paused", "\u{f19a0}" },
-	{ "nf-md-timer_settings", "\u{f1923}" },
-	{ "nf-md-timer_settings_outline", "\u{f1924}" },
-	{ "nf-md-timer_star", "\u{f1ae8}" },
-	{ "nf-md-timer_star_outline", "\u{f1ae9}" },
-	{ "nf-md-timer_stop", "\u{f1aea}" },
-	{ "nf-md-timer_stop_outline", "\u{f1aeb}" },
-	{ "nf-md-timer_sync", "\u{f1aec}" },
-	{ "nf-md-timer_sync_outline", "\u{f1aed}" },
-	{ "nf-md-timetable", "\u{f0520}" },
-	{ "nf-md-tire", "\u{f1896}" },
-	{ "nf-md-toaster", "\u{f1063}" },
-	{ "nf-md-toaster_off", "\u{f11b7}" },
-	{ "nf-md-toaster_oven", "\u{f0cd3}" },
-	{ "nf-md-toggle_switch", "\u{f0521}" },
-	{ "nf-md-toggle_switch_off", "\u{f0522}" },
-	{ "nf-md-toggle_switch_off_outline", "\u{f0a19}" },
-	{ "nf-md-toggle_switch_outline", "\u{f0a1a}" },
-	{ "nf-md-toggle_switch_variant", "\u{f1a25}" },
-	{ "nf-md-toggle_switch_variant_off", "\u{f1a26}" },
-	{ "nf-md-toilet", "\u{f09ab}" },
-	{ "nf-md-toolbox", "\u{f09ac}" },
-	{ "nf-md-toolbox_outline", "\u{f09ad}" },
-	{ "nf-md-tools", "\u{f1064}" },
-	{ "nf-md-tooltip", "\u{f0523}" },
-	{ "nf-md-tooltip_account", "\u{f000c}" },
-	{ "nf-md-tooltip_cellphone", "\u{f183b}" },
-	{ "nf-md-tooltip_check", "\u{f155c}" },
-	{ "nf-md-tooltip_check_outline", "\u{f155d}" },
-	{ "nf-md-tooltip_edit", "\u{f0524}" },
-	{ "nf-md-tooltip_edit_outline", "\u{f12c5}" },
-	{ "nf-md-tooltip_image", "\u{f0525}" },
-	{ "nf-md-tooltip_image_outline", "\u{f0bd5}" },
-	{ "nf-md-tooltip_minus", "\u{f155e}" },
-	{ "nf-md-tooltip_minus_outline", "\u{f155f}" },
-	{ "nf-md-tooltip_outline", "\u{f0526}" },
-	{ "nf-md-tooltip_plus", "\u{f0bd6}" },
-	{ "nf-md-tooltip_plus_outline", "\u{f0527}" },
-	{ "nf-md-tooltip_remove", "\u{f1560}" },
-	{ "nf-md-tooltip_remove_outline", "\u{f1561}" },
-	{ "nf-md-tooltip_text", "\u{f0528}" },
-	{ "nf-md-tooltip_text_outline", "\u{f0bd7}" },
-	{ "nf-md-tooth", "\u{f08c3}" },
-	{ "nf-md-tooth_outline", "\u{f0529}" },
-	{ "nf-md-toothbrush", "\u{f1129}" },
-	{ "nf-md-toothbrush_electric", "\u{f112c}" },
-	{ "nf-md-toothbrush_paste", "\u{f112a}" },
-	{ "nf-md-torch", "\u{f1606}" },
-	{ "nf-md-tortoise", "\u{f0d3b}" },
-	{ "nf-md-toslink", "\u{f12b8}" },
-	{ "nf-md-tournament", "\u{f09ae}" },
-	{ "nf-md-tow_truck", "\u{f083c}" },
-	{ "nf-md-tower_beach", "\u{f0681}" },
-	{ "nf-md-tower_fire", "\u{f0682}" },
-	{ "nf-md-town_hall", "\u{f1875}" },
-	{ "nf-md-toy_brick", "\u{f1288}" },
-	{ "nf-md-toy_brick_marker", "\u{f1289}" },
-	{ "nf-md-toy_brick_marker_outline", "\u{f128a}" },
-	{ "nf-md-toy_brick_minus", "\u{f128b}" },
-	{ "nf-md-toy_brick_minus_outline", "\u{f128c}" },
-	{ "nf-md-toy_brick_outline", "\u{f128d}" },
-	{ "nf-md-toy_brick_plus", "\u{f128e}" },
-	{ "nf-md-toy_brick_plus_outline", "\u{f128f}" },
-	{ "nf-md-toy_brick_remove", "\u{f1290}" },
-	{ "nf-md-toy_brick_remove_outline", "\u{f1291}" },
-	{ "nf-md-toy_brick_search", "\u{f1292}" },
-	{ "nf-md-toy_brick_search_outline", "\u{f1293}" },
-	{ "nf-md-track_light", "\u{f0914}" },
-	{ "nf-md-trackpad", "\u{f07f8}" },
-	{ "nf-md-trackpad_lock", "\u{f0933}" },
-	{ "nf-md-tractor", "\u{f0892}" },
-	{ "nf-md-tractor_variant", "\u{f14c4}" },
-	{ "nf-md-trademark", "\u{f0a78}" },
-	{ "nf-md-traffic_cone", "\u{f137c}" },
-	{ "nf-md-traffic_light", "\u{f052b}" },
-	{ "nf-md-traffic_light_outline", "\u{f182a}" },
-	{ "nf-md-train", "\u{f052c}" },
-	{ "nf-md-train_car", "\u{f0bd8}" },
-	{ "nf-md-train_car_passenger", "\u{f1733}" },
-	{ "nf-md-train_car_passenger_door", "\u{f1734}" },
-	{ "nf-md-train_car_passenger_door_open", "\u{f1735}" },
-	{ "nf-md-train_car_passenger_variant", "\u{f1736}" },
-	{ "nf-md-train_variant", "\u{f08c4}" },
-	{ "nf-md-tram", "\u{f052d}" },
-	{ "nf-md-tram_side", "\u{f0fe7}" },
-	{ "nf-md-transcribe", "\u{f052e}" },
-	{ "nf-md-transcribe_close", "\u{f052f}" },
-	{ "nf-md-transfer", "\u{f1065}" },
-	{ "nf-md-transfer_down", "\u{f0da1}" },
-	{ "nf-md-transfer_left", "\u{f0da2}" },
-	{ "nf-md-transfer_right", "\u{f0530}" },
-	{ "nf-md-transfer_up", "\u{f0da3}" },
-	{ "nf-md-transit_connection", "\u{f0d3c}" },
-	{ "nf-md-transit_connection_horizontal", "\u{f1546}" },
-	{ "nf-md-transit_connection_variant", "\u{f0d3d}" },
-	{ "nf-md-transit_detour", "\u{f0f8b}" },
-	{ "nf-md-transit_skip", "\u{f1515}" },
-	{ "nf-md-transit_transfer", "\u{f06ae}" },
-	{ "nf-md-transition", "\u{f0915}" },
-	{ "nf-md-transition_masked", "\u{f0916}" },
-	{ "nf-md-translate", "\u{f05ca}" },
-	{ "nf-md-translate_off", "\u{f0e06}" },
-	{ "nf-md-transmission_tower", "\u{f0d3e}" },
-	{ "nf-md-transmission_tower_export", "\u{f192c}" },
-	{ "nf-md-transmission_tower_import", "\u{f192d}" },
-	{ "nf-md-transmission_tower_off", "\u{f19dd}" },
-	{ "nf-md-trash_can", "\u{f0a79}" },
-	{ "nf-md-trash_can_outline", "\u{f0a7a}" },
-	{ "nf-md-tray", "\u{f1294}" },
-	{ "nf-md-tray_alert", "\u{f1295}" },
-	{ "nf-md-tray_arrow_down", "\u{f0120}" },
-	{ "nf-md-tray_arrow_up", "\u{f011d}" },
-	{ "nf-md-tray_full", "\u{f1296}" },
-	{ "nf-md-tray_minus", "\u{f1297}" },
-	{ "nf-md-tray_plus", "\u{f1298}" },
-	{ "nf-md-tray_remove", "\u{f1299}" },
-	{ "nf-md-treasure_chest", "\u{f0726}" },
-	{ "nf-md-tree", "\u{f0531}" },
-	{ "nf-md-tree_outline", "\u{f0e69}" },
-	{ "nf-md-trello", "\u{f0532}" },
-	{ "nf-md-trending_down", "\u{f0533}" },
-	{ "nf-md-trending_neutral", "\u{f0534}" },
-	{ "nf-md-trending_up", "\u{f0535}" },
-	{ "nf-md-triangle", "\u{f0536}" },
-	{ "nf-md-triangle_outline", "\u{f0537}" },
-	{ "nf-md-triangle_small_down", "\u{f1a09}" },
-	{ "nf-md-triangle_small_up", "\u{f1a0a}" },
-	{ "nf-md-triangle_wave", "\u{f147c}" },
-	{ "nf-md-triforce", "\u{f0bd9}" },
-	{ "nf-md-trophy", "\u{f0538}" },
-	{ "nf-md-trophy_award", "\u{f0539}" },
-	{ "nf-md-trophy_broken", "\u{f0da4}" },
-	{ "nf-md-trophy_outline", "\u{f053a}" },
-	{ "nf-md-trophy_variant", "\u{f053b}" },
-	{ "nf-md-trophy_variant_outline", "\u{f053c}" },
-	{ "nf-md-truck", "\u{f053d}" },
-	{ "nf-md-truck_alert", "\u{f19de}" },
-	{ "nf-md-truck_alert_outline", "\u{f19df}" },
-	{ "nf-md-truck_cargo_container", "\u{f18d8}" },
-	{ "nf-md-truck_check", "\u{f0cd4}" },
-	{ "nf-md-truck_check_outline", "\u{f129a}" },
-	{ "nf-md-truck_delivery", "\u{f053e}" },
-	{ "nf-md-truck_delivery_outline", "\u{f129b}" },
-	{ "nf-md-truck_fast", "\u{f0788}" },
-	{ "nf-md-truck_fast_outline", "\u{f129c}" },
-	{ "nf-md-truck_flatbed", "\u{f1891}" },
-	{ "nf-md-truck_minus", "\u{f19ae}" },
-	{ "nf-md-truck_minus_outline", "\u{f19bd}" },
-	{ "nf-md-truck_outline", "\u{f129d}" },
-	{ "nf-md-truck_plus", "\u{f19ad}" },
-	{ "nf-md-truck_plus_outline", "\u{f19bc}" },
-	{ "nf-md-truck_remove", "\u{f19af}" },
-	{ "nf-md-truck_remove_outline", "\u{f19be}" },
-	{ "nf-md-truck_snowflake", "\u{f19a6}" },
-	{ "nf-md-truck_trailer", "\u{f0727}" },
-	{ "nf-md-trumpet", "\u{f1096}" },
-	{ "nf-md-tshirt_crew", "\u{f0a7b}" },
-	{ "nf-md-tshirt_crew_outline", "\u{f053f}" },
-	{ "nf-md-tshirt_v", "\u{f0a7c}" },
-	{ "nf-md-tshirt_v_outline", "\u{f0540}" },
-	{ "nf-md-tsunami", "\u{f1a81}" },
-	{ "nf-md-tumble_dryer", "\u{f0917}" },
-	{ "nf-md-tumble_dryer_alert", "\u{f11ba}" },
-	{ "nf-md-tumble_dryer_off", "\u{f11bb}" },
-	{ "nf-md-tune", "\u{f062e}" },
-	{ "nf-md-tune_variant", "\u{f1542}" },
-	{ "nf-md-tune_vertical", "\u{f066a}" },
-	{ "nf-md-tune_vertical_variant", "\u{f1543}" },
-	{ "nf-md-tunnel", "\u{f183d}" },
-	{ "nf-md-tunnel_outline", "\u{f183e}" },
-	{ "nf-md-turbine", "\u{f1a82}" },
-	{ "nf-md-turkey", "\u{f171b}" },
-	{ "nf-md-turnstile", "\u{f0cd5}" },
-	{ "nf-md-turnstile_outline", "\u{f0cd6}" },
-	{ "nf-md-turtle", "\u{f0cd7}" },
-	{ "nf-md-twitch", "\u{f0543}" },
-	{ "nf-md-twitter", "\u{f0544}" },
-	{ "nf-md-two_factor_authentication", "\u{f09af}" },
-	{ "nf-md-typewriter", "\u{f0f2d}" },
-	{ "nf-md-ubisoft", "\u{f0bda}" },
-	{ "nf-md-ubuntu", "\u{f0548}" },
-	{ "nf-md-ufo", "\u{f10c4}" },
-	{ "nf-md-ufo_outline", "\u{f10c5}" },
-	{ "nf-md-ultra_high_definition", "\u{f07f9}" },
-	{ "nf-md-umbraco", "\u{f0549}" },
-	{ "nf-md-umbrella", "\u{f054a}" },
-	{ "nf-md-umbrella_beach", "\u{f188a}" },
-	{ "nf-md-umbrella_beach_outline", "\u{f188b}" },
-	{ "nf-md-umbrella_closed", "\u{f09b0}" },
-	{ "nf-md-umbrella_closed_outline", "\u{f13e2}" },
-	{ "nf-md-umbrella_closed_variant", "\u{f13e1}" },
-	{ "nf-md-umbrella_outline", "\u{f054b}" },
-	{ "nf-md-undo", "\u{f054c}" },
-	{ "nf-md-undo_variant", "\u{f054d}" },
-	{ "nf-md-unfold_less_horizontal", "\u{f054e}" },
-	{ "nf-md-unfold_less_vertical", "\u{f0760}" },
-	{ "nf-md-unfold_more_horizontal", "\u{f054f}" },
-	{ "nf-md-unfold_more_vertical", "\u{f0761}" },
-	{ "nf-md-ungroup", "\u{f0550}" },
-	{ "nf-md-unicode", "\u{f0ed0}" },
-	{ "nf-md-unicorn", "\u{f15c2}" },
-	{ "nf-md-unicorn_variant", "\u{f15c3}" },
-	{ "nf-md-unicycle", "\u{f15e5}" },
-	{ "nf-md-unity", "\u{f06af}" },
-	{ "nf-md-unreal", "\u{f09b1}" },
-	{ "nf-md-update", "\u{f06b0}" },
-	{ "nf-md-upload", "\u{f0552}" },
-	{ "nf-md-upload_lock", "\u{f1373}" },
-	{ "nf-md-upload_lock_outline", "\u{f1374}" },
-	{ "nf-md-upload_multiple", "\u{f083d}" },
-	{ "nf-md-upload_network", "\u{f06f6}" },
-	{ "nf-md-upload_network_outline", "\u{f0cd8}" },
-	{ "nf-md-upload_off", "\u{f10c6}" },
-	{ "nf-md-upload_off_outline", "\u{f10c7}" },
-	{ "nf-md-upload_outline", "\u{f0e07}" },
-	{ "nf-md-usb", "\u{f0553}" },
-	{ "nf-md-usb_flash_drive", "\u{f129e}" },
-	{ "nf-md-usb_flash_drive_outline", "\u{f129f}" },
-	{ "nf-md-usb_port", "\u{f11f0}" },
-	{ "nf-md-vacuum", "\u{f19a1}" },
-	{ "nf-md-vacuum_outline", "\u{f19a2}" },
-	{ "nf-md-valve", "\u{f1066}" },
-	{ "nf-md-valve_closed", "\u{f1067}" },
-	{ "nf-md-valve_open", "\u{f1068}" },
-	{ "nf-md-van_passenger", "\u{f07fa}" },
-	{ "nf-md-van_utility", "\u{f07fb}" },
-	{ "nf-md-vanish", "\u{f07fc}" },
-	{ "nf-md-vanish_quarter", "\u{f1554}" },
-	{ "nf-md-vanity_light", "\u{f11e1}" },
-	{ "nf-md-variable", "\u{f0ae7}" },
-	{ "nf-md-variable_box", "\u{f1111}" },
-	{ "nf-md-vector_arrange_above", "\u{f0554}" },
-	{ "nf-md-vector_arrange_below", "\u{f0555}" },
-	{ "nf-md-vector_bezier", "\u{f0ae8}" },
-	{ "nf-md-vector_circle", "\u{f0556}" },
-	{ "nf-md-vector_circle_variant", "\u{f0557}" },
-	{ "nf-md-vector_combine", "\u{f0558}" },
-	{ "nf-md-vector_curve", "\u{f0559}" },
-	{ "nf-md-vector_difference", "\u{f055a}" },
-	{ "nf-md-vector_difference_ab", "\u{f055b}" },
-	{ "nf-md-vector_difference_ba", "\u{f055c}" },
-	{ "nf-md-vector_ellipse", "\u{f0893}" },
-	{ "nf-md-vector_intersection", "\u{f055d}" },
-	{ "nf-md-vector_line", "\u{f055e}" },
-	{ "nf-md-vector_link", "\u{f0fe8}" },
-	{ "nf-md-vector_point", "\u{f055f}" },
-	{ "nf-md-vector_polygon", "\u{f0560}" },
-	{ "nf-md-vector_polygon_variant", "\u{f1856}" },
-	{ "nf-md-vector_polyline", "\u{f0561}" },
-	{ "nf-md-vector_polyline_edit", "\u{f1225}" },
-	{ "nf-md-vector_polyline_minus", "\u{f1226}" },
-	{ "nf-md-vector_polyline_plus", "\u{f1227}" },
-	{ "nf-md-vector_polyline_remove", "\u{f1228}" },
-	{ "nf-md-vector_radius", "\u{f074a}" },
-	{ "nf-md-vector_rectangle", "\u{f05c6}" },
-	{ "nf-md-vector_selection", "\u{f0562}" },
-	{ "nf-md-vector_square", "\u{f0001}" },
-	{ "nf-md-vector_square_close", "\u{f1857}" },
-	{ "nf-md-vector_square_edit", "\u{f18d9}" },
-	{ "nf-md-vector_square_minus", "\u{f18da}" },
-	{ "nf-md-vector_square_open", "\u{f1858}" },
-	{ "nf-md-vector_square_plus", "\u{f18db}" },
-	{ "nf-md-vector_square_remove", "\u{f18dc}" },
-	{ "nf-md-vector_triangle", "\u{f0563}" },
-	{ "nf-md-vector_union", "\u{f0564}" },
-	{ "nf-md-vhs", "\u{f0a1b}" },
-	{ "nf-md-vibrate", "\u{f0566}" },
-	{ "nf-md-vibrate_off", "\u{f0cd9}" },
-	{ "nf-md-video", "\u{f0567}" },
-	{ "nf-md-video_2d", "\u{f1a1c}" },
-	{ "nf-md-video_3d", "\u{f07fd}" },
-	{ "nf-md-video_3d_off", "\u{f13d9}" },
-	{ "nf-md-video_3d_variant", "\u{f0ed1}" },
-	{ "nf-md-video_4k_box", "\u{f083e}" },
-	{ "nf-md-video_account", "\u{f0919}" },
-	{ "nf-md-video_box", "\u{f00fd}" },
-	{ "nf-md-video_box_off", "\u{f00fe}" },
-	{ "nf-md-video_check", "\u{f1069}" },
-	{ "nf-md-video_check_outline", "\u{f106a}" },
-	{ "nf-md-video_high_definition", "\u{f152e}" },
-	{ "nf-md-video_image", "\u{f091a}" },
-	{ "nf-md-video_input_antenna", "\u{f083f}" },
-	{ "nf-md-video_input_component", "\u{f0840}" },
-	{ "nf-md-video_input_hdmi", "\u{f0841}" },
-	{ "nf-md-video_input_scart", "\u{f0f8c}" },
-	{ "nf-md-video_input_svideo", "\u{f0842}" },
-	{ "nf-md-video_marker", "\u{f19a9}" },
-	{ "nf-md-video_marker_outline", "\u{f19aa}" },
-	{ "nf-md-video_minus", "\u{f09b2}" },
-	{ "nf-md-video_minus_outline", "\u{f02ba}" },
-	{ "nf-md-video_off", "\u{f0568}" },
-	{ "nf-md-video_off_outline", "\u{f0bdb}" },
-	{ "nf-md-video_outline", "\u{f0bdc}" },
-	{ "nf-md-video_plus", "\u{f09b3}" },
-	{ "nf-md-video_plus_outline", "\u{f01d3}" },
-	{ "nf-md-video_stabilization", "\u{f091b}" },
-	{ "nf-md-video_switch", "\u{f0569}" },
-	{ "nf-md-video_switch_outline", "\u{f0790}" },
-	{ "nf-md-video_vintage", "\u{f0a1c}" },
-	{ "nf-md-video_wireless", "\u{f0ed2}" },
-	{ "nf-md-video_wireless_outline", "\u{f0ed3}" },
-	{ "nf-md-view_agenda", "\u{f056a}" },
-	{ "nf-md-view_agenda_outline", "\u{f11d8}" },
-	{ "nf-md-view_array", "\u{f056b}" },
-	{ "nf-md-view_array_outline", "\u{f1485}" },
-	{ "nf-md-view_carousel", "\u{f056c}" },
-	{ "nf-md-view_carousel_outline", "\u{f1486}" },
-	{ "nf-md-view_column", "\u{f056d}" },
-	{ "nf-md-view_column_outline", "\u{f1487}" },
-	{ "nf-md-view_comfy", "\u{f0e6a}" },
-	{ "nf-md-view_comfy_outline", "\u{f1488}" },
-	{ "nf-md-view_compact", "\u{f0e6b}" },
-	{ "nf-md-view_compact_outline", "\u{f0e6c}" },
-	{ "nf-md-view_dashboard", "\u{f056e}" },
-	{ "nf-md-view_dashboard_edit", "\u{f1947}" },
-	{ "nf-md-view_dashboard_edit_outline", "\u{f1948}" },
-	{ "nf-md-view_dashboard_outline", "\u{f0a1d}" },
-	{ "nf-md-view_dashboard_variant", "\u{f0843}" },
-	{ "nf-md-view_dashboard_variant_outline", "\u{f1489}" },
-	{ "nf-md-view_day", "\u{f056f}" },
-	{ "nf-md-view_day_outline", "\u{f148a}" },
-	{ "nf-md-view_gallery", "\u{f1888}" },
-	{ "nf-md-view_gallery_outline", "\u{f1889}" },
-	{ "nf-md-view_grid", "\u{f0570}" },
-	{ "nf-md-view_grid_outline", "\u{f11d9}" },
-	{ "nf-md-view_grid_plus", "\u{f0f8d}" },
-	{ "nf-md-view_grid_plus_outline", "\u{f11da}" },
-	{ "nf-md-view_headline", "\u{f0571}" },
-	{ "nf-md-view_list", "\u{f0572}" },
-	{ "nf-md-view_list_outline", "\u{f148b}" },
-	{ "nf-md-view_module", "\u{f0573}" },
-	{ "nf-md-view_module_outline", "\u{f148c}" },
-	{ "nf-md-view_parallel", "\u{f0728}" },
-	{ "nf-md-view_parallel_outline", "\u{f148d}" },
-	{ "nf-md-view_quilt", "\u{f0574}" },
-	{ "nf-md-view_quilt_outline", "\u{f148e}" },
-	{ "nf-md-view_sequential", "\u{f0729}" },
-	{ "nf-md-view_sequential_outline", "\u{f148f}" },
-	{ "nf-md-view_split_horizontal", "\u{f0bcb}" },
-	{ "nf-md-view_split_vertical", "\u{f0bcc}" },
-	{ "nf-md-view_stream", "\u{f0575}" },
-	{ "nf-md-view_stream_outline", "\u{f1490}" },
-	{ "nf-md-view_week", "\u{f0576}" },
-	{ "nf-md-view_week_outline", "\u{f1491}" },
-	{ "nf-md-vimeo", "\u{f0577}" },
-	{ "nf-md-violin", "\u{f060f}" },
-	{ "nf-md-virtual_reality", "\u{f0894}" },
-	{ "nf-md-virus", "\u{f13b6}" },
-	{ "nf-md-virus_off", "\u{f18e1}" },
-	{ "nf-md-virus_off_outline", "\u{f18e2}" },
-	{ "nf-md-virus_outline", "\u{f13b7}" },
-	{ "nf-md-vlc", "\u{f057c}" },
-	{ "nf-md-voicemail", "\u{f057d}" },
-	{ "nf-md-volcano", "\u{f1a83}" },
-	{ "nf-md-volcano_outline", "\u{f1a84}" },
-	{ "nf-md-volleyball", "\u{f09b4}" },
-	{ "nf-md-volume_high", "\u{f057e}" },
-	{ "nf-md-volume_low", "\u{f057f}" },
-	{ "nf-md-volume_medium", "\u{f0580}" },
-	{ "nf-md-volume_minus", "\u{f075e}" },
-	{ "nf-md-volume_mute", "\u{f075f}" },
-	{ "nf-md-volume_off", "\u{f0581}" },
-	{ "nf-md-volume_plus", "\u{f075d}" },
-	{ "nf-md-volume_source", "\u{f1120}" },
-	{ "nf-md-volume_variant_off", "\u{f0e08}" },
-	{ "nf-md-volume_vibrate", "\u{f1121}" },
-	{ "nf-md-vote", "\u{f0a1f}" },
-	{ "nf-md-vote_outline", "\u{f0a20}" },
-	{ "nf-md-vpn", "\u{f0582}" },
-	{ "nf-md-vuejs", "\u{f0844}" },
-	{ "nf-md-vuetify", "\u{f0e6d}" },
-	{ "nf-md-walk", "\u{f0583}" },
-	{ "nf-md-wall", "\u{f07fe}" },
-	{ "nf-md-wall_fire", "\u{f1a11}" },
-	{ "nf-md-wall_sconce", "\u{f091c}" },
-	{ "nf-md-wall_sconce_flat", "\u{f091d}" },
-	{ "nf-md-wall_sconce_flat_outline", "\u{f17c9}" },
-	{ "nf-md-wall_sconce_flat_variant", "\u{f041c}" },
-	{ "nf-md-wall_sconce_flat_variant_outline", "\u{f17ca}" },
-	{ "nf-md-wall_sconce_outline", "\u{f17cb}" },
-	{ "nf-md-wall_sconce_round", "\u{f0748}" },
-	{ "nf-md-wall_sconce_round_outline", "\u{f17cc}" },
-	{ "nf-md-wall_sconce_round_variant", "\u{f091e}" },
-	{ "nf-md-wall_sconce_round_variant_outline", "\u{f17cd}" },
-	{ "nf-md-wallet", "\u{f0584}" },
-	{ "nf-md-wallet_giftcard", "\u{f0585}" },
-	{ "nf-md-wallet_membership", "\u{f0586}" },
-	{ "nf-md-wallet_outline", "\u{f0bdd}" },
-	{ "nf-md-wallet_plus", "\u{f0f8e}" },
-	{ "nf-md-wallet_plus_outline", "\u{f0f8f}" },
-	{ "nf-md-wallet_travel", "\u{f0587}" },
-	{ "nf-md-wallpaper", "\u{f0e09}" },
-	{ "nf-md-wan", "\u{f0588}" },
-	{ "nf-md-wardrobe", "\u{f0f90}" },
-	{ "nf-md-wardrobe_outline", "\u{f0f91}" },
-	{ "nf-md-warehouse", "\u{f0f81}" },
-	{ "nf-md-washing_machine", "\u{f072a}" },
-	{ "nf-md-washing_machine_alert", "\u{f11bc}" },
-	{ "nf-md-washing_machine_off", "\u{f11bd}" },
-	{ "nf-md-watch", "\u{f0589}" },
-	{ "nf-md-watch_export", "\u{f058a}" },
-	{ "nf-md-watch_export_variant", "\u{f0895}" },
-	{ "nf-md-watch_import", "\u{f058b}" },
-	{ "nf-md-watch_import_variant", "\u{f0896}" },
-	{ "nf-md-watch_variant", "\u{f0897}" },
-	{ "nf-md-watch_vibrate", "\u{f06b1}" },
-	{ "nf-md-watch_vibrate_off", "\u{f0cda}" },
-	{ "nf-md-water", "\u{f058c}" },
-	{ "nf-md-water_alert", "\u{f1502}" },
-	{ "nf-md-water_alert_outline", "\u{f1503}" },
-	{ "nf-md-water_boiler", "\u{f0f92}" },
-	{ "nf-md-water_boiler_alert", "\u{f11b3}" },
-	{ "nf-md-water_boiler_off", "\u{f11b4}" },
-	{ "nf-md-water_check", "\u{f1504}" },
-	{ "nf-md-water_check_outline", "\u{f1505}" },
-	{ "nf-md-water_circle", "\u{f1806}" },
-	{ "nf-md-water_minus", "\u{f1506}" },
-	{ "nf-md-water_minus_outline", "\u{f1507}" },
-	{ "nf-md-water_off", "\u{f058d}" },
-	{ "nf-md-water_off_outline", "\u{f1508}" },
-	{ "nf-md-water_opacity", "\u{f1855}" },
-	{ "nf-md-water_outline", "\u{f0e0a}" },
-	{ "nf-md-water_percent", "\u{f058e}" },
-	{ "nf-md-water_percent_alert", "\u{f1509}" },
-	{ "nf-md-water_plus", "\u{f150a}" },
-	{ "nf-md-water_plus_outline", "\u{f150b}" },
-	{ "nf-md-water_polo", "\u{f12a0}" },
-	{ "nf-md-water_pump", "\u{f058f}" },
-	{ "nf-md-water_pump_off", "\u{f0f93}" },
-	{ "nf-md-water_remove", "\u{f150c}" },
-	{ "nf-md-water_remove_outline", "\u{f150d}" },
-	{ "nf-md-water_sync", "\u{f17c6}" },
-	{ "nf-md-water_thermometer", "\u{f1a85}" },
-	{ "nf-md-water_thermometer_outline", "\u{f1a86}" },
-	{ "nf-md-water_well", "\u{f106b}" },
-	{ "nf-md-water_well_outline", "\u{f106c}" },
-	{ "nf-md-waterfall", "\u{f1849}" },
-	{ "nf-md-watering_can", "\u{f1481}" },
-	{ "nf-md-watering_can_outline", "\u{f1482}" },
-	{ "nf-md-watermark", "\u{f0612}" },
-	{ "nf-md-wave", "\u{f0f2e}" },
-	{ "nf-md-waveform", "\u{f147d}" },
-	{ "nf-md-waves", "\u{f078d}" },
-	{ "nf-md-waves_arrow_left", "\u{f1859}" },
-	{ "nf-md-waves_arrow_right", "\u{f185a}" },
-	{ "nf-md-waves_arrow_up", "\u{f185b}" },
-	{ "nf-md-waze", "\u{f0bde}" },
-	{ "nf-md-weather_cloudy", "\u{f0590}" },
-	{ "nf-md-weather_cloudy_alert", "\u{f0f2f}" },
-	{ "nf-md-weather_cloudy_arrow_right", "\u{f0e6e}" },
-	{ "nf-md-weather_cloudy_clock", "\u{f18f6}" },
-	{ "nf-md-weather_fog", "\u{f0591}" },
-	{ "nf-md-weather_hail", "\u{f0592}" },
-	{ "nf-md-weather_hazy", "\u{f0f30}" },
-	{ "nf-md-weather_hurricane", "\u{f0898}" },
-	{ "nf-md-weather_lightning", "\u{f0593}" },
-	{ "nf-md-weather_lightning_rainy", "\u{f067e}" },
-	{ "nf-md-weather_night", "\u{f0594}" },
-	{ "nf-md-weather_night_partly_cloudy", "\u{f0f31}" },
-	{ "nf-md-weather_partly_cloudy", "\u{f0595}" },
-	{ "nf-md-weather_partly_lightning", "\u{f0f32}" },
-	{ "nf-md-weather_partly_rainy", "\u{f0f33}" },
-	{ "nf-md-weather_partly_snowy", "\u{f0f34}" },
-	{ "nf-md-weather_partly_snowy_rainy", "\u{f0f35}" },
-	{ "nf-md-weather_pouring", "\u{f0596}" },
-	{ "nf-md-weather_rainy", "\u{f0597}" },
-	{ "nf-md-weather_snowy", "\u{f0598}" },
-	{ "nf-md-weather_snowy_heavy", "\u{f0f36}" },
-	{ "nf-md-weather_snowy_rainy", "\u{f067f}" },
-	{ "nf-md-weather_sunny", "\u{f0599}" },
-	{ "nf-md-weather_sunny_alert", "\u{f0f37}" },
-	{ "nf-md-weather_sunny_off", "\u{f14e4}" },
-	{ "nf-md-weather_sunset", "\u{f059a}" },
-	{ "nf-md-weather_sunset_down", "\u{f059b}" },
-	{ "nf-md-weather_sunset_up", "\u{f059c}" },
-	{ "nf-md-weather_tornado", "\u{f0f38}" },
-	{ "nf-md-weather_windy", "\u{f059d}" },
-	{ "nf-md-weather_windy_variant", "\u{f059e}" },
-	{ "nf-md-web", "\u{f059f}" },
-	{ "nf-md-web_box", "\u{f0f94}" },
-	{ "nf-md-web_cancel", "\u{f1790}" },
-	{ "nf-md-web_check", "\u{f0789}" },
-	{ "nf-md-web_clock", "\u{f124a}" },
-	{ "nf-md-web_minus", "\u{f10a0}" },
-	{ "nf-md-web_off", "\u{f0a8e}" },
-	{ "nf-md-web_plus", "\u{f0033}" },
-	{ "nf-md-web_refresh", "\u{f1791}" },
-	{ "nf-md-web_remove", "\u{f0551}" },
-	{ "nf-md-web_sync", "\u{f1792}" },
-	{ "nf-md-webcam", "\u{f05a0}" },
-	{ "nf-md-webcam_off", "\u{f1737}" },
-	{ "nf-md-webhook", "\u{f062f}" },
-	{ "nf-md-webpack", "\u{f072b}" },
-	{ "nf-md-webrtc", "\u{f1248}" },
-	{ "nf-md-wechat", "\u{f0611}" },
-	{ "nf-md-weight", "\u{f05a1}" },
-	{ "nf-md-weight_gram", "\u{f0d3f}" },
-	{ "nf-md-weight_kilogram", "\u{f05a2}" },
-	{ "nf-md-weight_lifter", "\u{f115d}" },
-	{ "nf-md-weight_pound", "\u{f09b5}" },
-	{ "nf-md-whatsapp", "\u{f05a3}" },
-	{ "nf-md-wheel_barrow", "\u{f14f2}" },
-	{ "nf-md-wheelchair", "\u{f1a87}" },
-	{ "nf-md-wheelchair_accessibility", "\u{f05a4}" },
-	{ "nf-md-whistle", "\u{f09b6}" },
-	{ "nf-md-whistle_outline", "\u{f12bc}" },
-	{ "nf-md-white_balance_auto", "\u{f05a5}" },
-	{ "nf-md-white_balance_incandescent", "\u{f05a6}" },
-	{ "nf-md-white_balance_iridescent", "\u{f05a7}" },
-	{ "nf-md-white_balance_sunny", "\u{f05a8}" },
-	{ "nf-md-widgets", "\u{f072c}" },
-	{ "nf-md-widgets_outline", "\u{f1355}" },
-	{ "nf-md-wifi", "\u{f05a9}" },
-	{ "nf-md-wifi_alert", "\u{f16b5}" },
-	{ "nf-md-wifi_arrow_down", "\u{f16b6}" },
-	{ "nf-md-wifi_arrow_left", "\u{f16b7}" },
-	{ "nf-md-wifi_arrow_left_right", "\u{f16b8}" },
-	{ "nf-md-wifi_arrow_right", "\u{f16b9}" },
-	{ "nf-md-wifi_arrow_up", "\u{f16ba}" },
-	{ "nf-md-wifi_arrow_up_down", "\u{f16bb}" },
-	{ "nf-md-wifi_cancel", "\u{f16bc}" },
-	{ "nf-md-wifi_check", "\u{f16bd}" },
-	{ "nf-md-wifi_cog", "\u{f16be}" },
-	{ "nf-md-wifi_lock", "\u{f16bf}" },
-	{ "nf-md-wifi_lock_open", "\u{f16c0}" },
-	{ "nf-md-wifi_marker", "\u{f16c1}" },
-	{ "nf-md-wifi_minus", "\u{f16c2}" },
-	{ "nf-md-wifi_off", "\u{f05aa}" },
-	{ "nf-md-wifi_plus", "\u{f16c3}" },
-	{ "nf-md-wifi_refresh", "\u{f16c4}" },
-	{ "nf-md-wifi_remove", "\u{f16c5}" },
-	{ "nf-md-wifi_settings", "\u{f16c6}" },
-	{ "nf-md-wifi_star", "\u{f0e0b}" },
-	{ "nf-md-wifi_strength_1", "\u{f091f}" },
-	{ "nf-md-wifi_strength_1_alert", "\u{f0920}" },
-	{ "nf-md-wifi_strength_1_lock", "\u{f0921}" },
-	{ "nf-md-wifi_strength_1_lock_open", "\u{f16cb}" },
-	{ "nf-md-wifi_strength_2", "\u{f0922}" },
-	{ "nf-md-wifi_strength_2_alert", "\u{f0923}" },
-	{ "nf-md-wifi_strength_2_lock", "\u{f0924}" },
-	{ "nf-md-wifi_strength_2_lock_open", "\u{f16cc}" },
-	{ "nf-md-wifi_strength_3", "\u{f0925}" },
-	{ "nf-md-wifi_strength_3_alert", "\u{f0926}" },
-	{ "nf-md-wifi_strength_3_lock", "\u{f0927}" },
-	{ "nf-md-wifi_strength_3_lock_open", "\u{f16cd}" },
-	{ "nf-md-wifi_strength_4", "\u{f0928}" },
-	{ "nf-md-wifi_strength_4_alert", "\u{f0929}" },
-	{ "nf-md-wifi_strength_4_lock", "\u{f092a}" },
-	{ "nf-md-wifi_strength_4_lock_open", "\u{f16ce}" },
-	{ "nf-md-wifi_strength_alert_outline", "\u{f092b}" },
-	{ "nf-md-wifi_strength_lock_open_outline", "\u{f16cf}" },
-	{ "nf-md-wifi_strength_lock_outline", "\u{f092c}" },
-	{ "nf-md-wifi_strength_off", "\u{f092d}" },
-	{ "nf-md-wifi_strength_off_outline", "\u{f092e}" },
-	{ "nf-md-wifi_strength_outline", "\u{f092f}" },
-	{ "nf-md-wifi_sync", "\u{f16c7}" },
-	{ "nf-md-wikipedia", "\u{f05ac}" },
-	{ "nf-md-wind_power", "\u{f1a88}" },
-	{ "nf-md-wind_power_outline", "\u{f1a89}" },
-	{ "nf-md-wind_turbine", "\u{f0da5}" },
-	{ "nf-md-wind_turbine_alert", "\u{f19ab}" },
-	{ "nf-md-wind_turbine_check", "\u{f19ac}" },
-	{ "nf-md-window_close", "\u{f05ad}" },
-	{ "nf-md-window_closed", "\u{f05ae}" },
-	{ "nf-md-window_closed_variant", "\u{f11db}" },
-	{ "nf-md-window_maximize", "\u{f05af}" },
-	{ "nf-md-window_minimize", "\u{f05b0}" },
-	{ "nf-md-window_open", "\u{f05b1}" },
-	{ "nf-md-window_open_variant", "\u{f11dc}" },
-	{ "nf-md-window_restore", "\u{f05b2}" },
-	{ "nf-md-window_shutter", "\u{f111c}" },
-	{ "nf-md-window_shutter_alert", "\u{f111d}" },
-	{ "nf-md-window_shutter_cog", "\u{f1a8a}" },
-	{ "nf-md-window_shutter_open", "\u{f111e}" },
-	{ "nf-md-window_shutter_settings", "\u{f1a8b}" },
-	{ "nf-md-windsock", "\u{f15fa}" },
-	{ "nf-md-wiper", "\u{f0ae9}" },
-	{ "nf-md-wiper_wash", "\u{f0da6}" },
-	{ "nf-md-wiper_wash_alert", "\u{f18df}" },
-	{ "nf-md-wizard_hat", "\u{f1477}" },
-	{ "nf-md-wordpress", "\u{f05b4}" },
-	{ "nf-md-wrap", "\u{f05b6}" },
-	{ "nf-md-wrap_disabled", "\u{f0bdf}" },
-	{ "nf-md-wrench", "\u{f05b7}" },
-	{ "nf-md-wrench_clock", "\u{f19a3}" },
-	{ "nf-md-wrench_outline", "\u{f0be0}" },
-	{ "nf-md-xamarin", "\u{f0845}" },
-	{ "nf-md-xml", "\u{f05c0}" },
-	{ "nf-md-xmpp", "\u{f07ff}" },
-	{ "nf-md-yahoo", "\u{f0b4f}" },
-	{ "nf-md-yeast", "\u{f05c1}" },
-	{ "nf-md-yin_yang", "\u{f0680}" },
-	{ "nf-md-yoga", "\u{f117c}" },
-	{ "nf-md-youtube", "\u{f05c3}" },
-	{ "nf-md-youtube_gaming", "\u{f0848}" },
-	{ "nf-md-youtube_studio", "\u{f0847}" },
-	{ "nf-md-youtube_subscription", "\u{f0d40}" },
-	{ "nf-md-youtube_tv", "\u{f0448}" },
-	{ "nf-md-yurt", "\u{f1516}" },
-	{ "nf-md-z_wave", "\u{f0aea}" },
-	{ "nf-md-zend", "\u{f0aeb}" },
-	{ "nf-md-zigbee", "\u{f0d41}" },
-	{ "nf-md-zip_box", "\u{f05c4}" },
-	{ "nf-md-zip_box_outline", "\u{f0ffa}" },
-	{ "nf-md-zip_disk", "\u{f0a23}" },
-	{ "nf-md-zodiac_aquarius", "\u{f0a7d}" },
-	{ "nf-md-zodiac_aries", "\u{f0a7e}" },
-	{ "nf-md-zodiac_cancer", "\u{f0a7f}" },
-	{ "nf-md-zodiac_capricorn", "\u{f0a80}" },
-	{ "nf-md-zodiac_gemini", "\u{f0a81}" },
-	{ "nf-md-zodiac_leo", "\u{f0a82}" },
-	{ "nf-md-zodiac_libra", "\u{f0a83}" },
-	{ "nf-md-zodiac_pisces", "\u{f0a84}" },
-	{ "nf-md-zodiac_sagittarius", "\u{f0a85}" },
-	{ "nf-md-zodiac_scorpio", "\u{f0a86}" },
-	{ "nf-md-zodiac_taurus", "\u{f0a87}" },
-	{ "nf-md-zodiac_virgo", "\u{f0a88}" },
-	{ "nf-oct-alert", "\uf421" },
-	{ "nf-oct-arrow_down", "\uf433" },
-	{ "nf-oct-arrow_left", "\uf434" },
-	{ "nf-oct-arrow_right", "\uf432" },
-	{ "nf-oct-arrow_small_down", "\uf479" },
-	{ "nf-oct-arrow_small_left", "\uf47a" },
-	{ "nf-oct-arrow_small_right", "\uf45c" },
-	{ "nf-oct-arrow_small_up", "\uf478" },
-	{ "nf-oct-arrow_up", "\uf431" },
-	{ "nf-oct-beaker", "\uf499" },
-	{ "nf-oct-bell", "\uf49a" },
-	{ "nf-oct-bold", "\uf49d" },
-	{ "nf-oct-book", "\uf405" },
-	{ "nf-oct-bookmark", "\uf461" },
-	{ "nf-oct-briefcase", "\uf491" },
-	{ "nf-oct-broadcast", "\uf43c" },
-	{ "nf-oct-browser", "\uf488" },
-	{ "nf-oct-bug", "\uf46f" },
-	{ "nf-oct-calendar", "\uf455" },
-	{ "nf-oct-check", "\uf42e" },
-	{ "nf-oct-checklist", "\uf45e" },
-	{ "nf-oct-chevron_down", "\uf47c" },
-	{ "nf-oct-chevron_left", "\uf47d" },
-	{ "nf-oct-chevron_right", "\uf460" },
-	{ "nf-oct-chevron_up", "\uf47b" },
-	{ "nf-oct-circle_slash", "\uf468" },
-	{ "nf-oct-circuit_board", "\uf493" },
-	{ "nf-oct-clippy", "\uf429" },
-	{ "nf-oct-clock", "\uf43a" },
-	{ "nf-oct-cloud_download", "\uf409" },
-	{ "nf-oct-cloud_upload", "\uf40a" },
-	{ "nf-oct-code", "\uf44f" },
-	{ "nf-oct-comment", "\uf41f" },
-	{ "nf-oct-comment_discussion", "\uf442" },
-	{ "nf-oct-credit_card", "\uf439" },
-	{ "nf-oct-dash", "\uf48b" },
-	{ "nf-oct-dashboard", "\uf463" },
-	{ "nf-oct-database", "\uf472" },
-	{ "nf-oct-desktop_download", "\uf498" },
-	{ "nf-oct-device_camera", "\uf446" },
-	{ "nf-oct-device_camera_video", "\uf447" },
-	{ "nf-oct-device_desktop", "\uf4a9" },
-	{ "nf-oct-device_mobile", "\uf42c" },
-	{ "nf-oct-diff", "\uf440" },
-	{ "nf-oct-diff_added", "\uf457" },
-	{ "nf-oct-diff_ignored", "\uf474" },
-	{ "nf-oct-diff_modified", "\uf459" },
-	{ "nf-oct-diff_removed", "\uf458" },
-	{ "nf-oct-diff_renamed", "\uf45a" },
-	{ "nf-oct-ellipses", "\uf4a4" },
-	{ "nf-oct-ellipsis", "\uf475" },
-	{ "nf-oct-eye", "\uf441" },
-	{ "nf-oct-file", "\uf4a5" },
-	{ "nf-oct-file_binary", "\uf471" },
-	{ "nf-oct-file_code", "\uf40d" },
-	{ "nf-oct-file_directory", "\uf413" },
-	{ "nf-oct-file_media", "\uf40f" },
-	{ "nf-oct-file_pdf", "\uf411" },
-	{ "nf-oct-file_submodule", "\uf414" },
-	{ "nf-oct-file_symlink_directory", "\uf482" },
-	{ "nf-oct-file_symlink_file", "\uf481" },
-	{ "nf-oct-file_text", "\uf40e" },
-	{ "nf-oct-file_zip", "\uf410" },
-	{ "nf-oct-flame", "\uf490" },
-	{ "nf-oct-fold", "\uf48c" },
-	{ "nf-oct-gear", "\uf423" },
-	{ "nf-oct-gift", "\uf436" },
-	{ "nf-oct-gist", "\uf40c" },
-	{ "nf-oct-gist_secret", "\uf46c" },
-	{ "nf-oct-git_branch", "\uf418" },
-	{ "nf-oct-git_commit", "\uf417" },
-	{ "nf-oct-git_compare", "\uf47f" },
-	{ "nf-oct-git_merge", "\uf419" },
-	{ "nf-oct-git_pull_request", "\uf407" },
-	{ "nf-oct-globe", "\uf484" },
-	{ "nf-oct-grabber", "\uf4a6" },
-	{ "nf-oct-graph", "\uf437" },
-	{ "nf-oct-heart", "♥" },
-	{ "nf-oct-history", "\uf464" },
-	{ "nf-oct-home", "\uf46d" },
-	{ "nf-oct-horizontal_rule", "\uf45b" },
-	{ "nf-oct-hubot", "\uf477" },
-	{ "nf-oct-inbox", "\uf48d" },
-	{ "nf-oct-info", "\uf449" },
-	{ "nf-oct-issue_closed", "\uf41d" },
-	{ "nf-oct-issue_opened", "\uf41b" },
-	{ "nf-oct-issue_reopened", "\uf41c" },
-	{ "nf-oct-italic", "\uf49f" },
-	{ "nf-oct-jersey", "\uf416" },
-	{ "nf-oct-key", "\uf43d" },
-	{ "nf-oct-keyboard", "\uf40b" },
-	{ "nf-oct-law", "\uf495" },
-	{ "nf-oct-light_bulb", "\uf400" },
-	{ "nf-oct-link", "\uf44c" },
-	{ "nf-oct-link_external", "\uf465" },
-	{ "nf-oct-list_ordered", "\uf452" },
-	{ "nf-oct-list_unordered", "\uf451" },
-	{ "nf-oct-location", "\uf450" },
-	{ "nf-oct-lock", "\uf456" },
-	{ "nf-oct-logo_gist", "\uf480" },
-	{ "nf-oct-logo_github", "\uf470" },
-	{ "nf-oct-mail", "\uf42f" },
-	{ "nf-oct-mail_read", "\uf430" },
-	{ "nf-oct-mail_reply", "\uf443" },
-	{ "nf-oct-mark_github", "\uf408" },
-	{ "nf-oct-markdown", "\uf48a" },
-	{ "nf-oct-megaphone", "\uf45f" },
-	{ "nf-oct-mention", "\uf486" },
-	{ "nf-oct-milestone", "\uf45d" },
-	{ "nf-oct-mirror", "\uf41a" },
-	{ "nf-oct-mortar_board", "\uf494" },
-	{ "nf-oct-mute", "\uf466" },
-	{ "nf-oct-no_newline", "\uf476" },
-	{ "nf-oct-octoface", "\uf406" },
-	{ "nf-oct-organization", "\uf42b" },
-	{ "nf-oct-package", "\uf487" },
-	{ "nf-oct-paintcan", "\uf48f" },
-	{ "nf-oct-pencil", "\uf448" },
-	{ "nf-oct-person", "\uf415" },
-	{ "nf-oct-pin", "\uf435" },
-	{ "nf-oct-plug", "\uf492" },
-	{ "nf-oct-plus", "\uf44d" },
-	{ "nf-oct-plus_small", "\uf4a7" },
-	{ "nf-oct-primitive_dot", "\uf444" },
-	{ "nf-oct-primitive_square", "\uf445" },
-	{ "nf-oct-pulse", "\uf469" },
-	{ "nf-oct-question", "\uf420" },
-	{ "nf-oct-quote", "\uf453" },
-	{ "nf-oct-radio_tower", "\uf424" },
-	{ "nf-oct-reply", "\uf4a8" },
-	{ "nf-oct-repo", "\uf401" },
-	{ "nf-oct-repo_clone", "\uf43f" },
-	{ "nf-oct-repo_force_push", "\uf43e" },
-	{ "nf-oct-repo_forked", "\uf402" },
-	{ "nf-oct-repo_pull", "\uf404" },
-	{ "nf-oct-repo_push", "\uf403" },
-	{ "nf-oct-rocket", "\uf427" },
-	{ "nf-oct-rss", "\uf428" },
-	{ "nf-oct-ruby", "\uf43b" },
-	{ "nf-oct-search", "\uf422" },
-	{ "nf-oct-server", "\uf473" },
-	{ "nf-oct-settings", "\uf462" },
-	{ "nf-oct-shield", "\uf49c" },
-	{ "nf-oct-sign_in", "\uf42a" },
-	{ "nf-oct-sign_out", "\uf426" },
-	{ "nf-oct-smiley", "\uf4a2" },
-	{ "nf-oct-squirrel", "\uf483" },
-	{ "nf-oct-star", "\uf41e" },
-	{ "nf-oct-stop", "\uf46e" },
-	{ "nf-oct-sync", "\uf46a" },
-	{ "nf-oct-tag", "\uf412" },
-	{ "nf-oct-tasklist", "\uf4a0" },
-	{ "nf-oct-telescope", "\uf46b" },
-	{ "nf-oct-terminal", "\uf489" },
-	{ "nf-oct-text_size", "\uf49e" },
-	{ "nf-oct-three_bars", "\uf44e" },
-	{ "nf-oct-thumbsdown", "\uf497" },
-	{ "nf-oct-thumbsup", "\uf496" },
-	{ "nf-oct-tools", "\uf425" },
-	{ "nf-oct-trashcan", "\uf48e" },
-	{ "nf-oct-triangle_down", "\uf44b" },
-	{ "nf-oct-triangle_left", "\uf438" },
-	{ "nf-oct-triangle_right", "\uf44a" },
-	{ "nf-oct-triangle_up", "\uf47e" },
-	{ "nf-oct-unfold", "\uf42d" },
-	{ "nf-oct-unmute", "\uf485" },
-	{ "nf-oct-unverified", "\uf4a3" },
-	{ "nf-oct-verified", "\uf4a1" },
-	{ "nf-oct-versions", "\uf454" },
-	{ "nf-oct-watch", "\uf49b" },
-	{ "nf-oct-x", "\uf467" },
-	{ "nf-oct-zap", "⚡" },
-	{ "nf-pl-branch", "\ue0a0" },
-	{ "nf-pl-current_line", "\ue0a1" },
-	{ "nf-pl-hostname", "\ue0a2" },
-	{ "nf-pl-left_hard_divider", "\ue0b0" },
-	{ "nf-pl-left_soft_divider", "\ue0b1" },
-	{ "nf-pl-line_number", "\ue0a1" },
-	{ "nf-pl-readonly", "\ue0a2" },
-	{ "nf-pl-right_hard_divider", "\ue0b2" },
-	{ "nf-pl-right_soft_divider", "\ue0b3" },
-	{ "nf-ple-backslash_separator", "\ue0b9" },
-	{ "nf-ple-backslash_separator_redundant", "\ue0bf" },
-	{ "nf-ple-column_number", "\ue0a3" },
-	{ "nf-ple-current_column", "\ue0a3" },
-	{ "nf-ple-flame_thick", "\ue0c0" },
-	{ "nf-ple-flame_thick_mirrored", "\ue0c2" },
-	{ "nf-ple-flame_thin", "\ue0c1" },
-	{ "nf-ple-flame_thin_mirrored", "\ue0c3" },
-	{ "nf-ple-forwardslash_separator", "\ue0bb" },
-	{ "nf-ple-forwardslash_separator_redundant", "\ue0bd" },
-	{ "nf-ple-honeycomb", "\ue0cc" },
-	{ "nf-ple-honeycomb_outline", "\ue0cd" },
-	{ "nf-ple-ice_waveform", "\ue0c8" },
-	{ "nf-ple-ice_waveform_mirrored", "\ue0ca" },
-	{ "nf-ple-left_half_circle_thick", "\ue0b6" },
-	{ "nf-ple-left_half_circle_thin", "\ue0b7" },
-	{ "nf-ple-lego_block_facing", "\ue0d0" },
-	{ "nf-ple-lego_block_sideways", "\ue0d1" },
-	{ "nf-ple-lego_separator", "\ue0ce" },
-	{ "nf-ple-lego_separator_thin", "\ue0cf" },
-	{ "nf-ple-lower_left_triangle", "\ue0b8" },
-	{ "nf-ple-lower_right_triangle", "\ue0ba" },
-	{ "nf-ple-pixelated_squares_big", "\ue0c6" },
-	{ "nf-ple-pixelated_squares_big_mirrored", "\ue0c7" },
-	{ "nf-ple-pixelated_squares_small", "\ue0c4" },
-	{ "nf-ple-pixelated_squares_small_mirrored", "\ue0c5" },
-	{ "nf-ple-right_half_circle_thick", "\ue0b4" },
-	{ "nf-ple-right_half_circle_thin", "\ue0b5" },
-	{ "nf-ple-trapezoid_top_bottom", "\ue0d2" },
-	{ "nf-ple-trapezoid_top_bottom_mirrored", "\ue0d4" },
-	{ "nf-ple-upper_left_triangle", "\ue0bc" },
-	{ "nf-ple-upper_right_triangle", "\ue0be" },
-	{ "nf-pom-away", "\ue007" },
-	{ "nf-pom-clean_code", "\ue000" },
-	{ "nf-pom-external_interruption", "\ue00a" },
-	{ "nf-pom-internal_interruption", "\ue009" },
-	{ "nf-pom-long_pause", "\ue006" },
-	{ "nf-pom-pair_programming", "\ue008" },
-	{ "nf-pom-pomodoro_done", "\ue001" },
-	{ "nf-pom-pomodoro_estimated", "\ue002" },
-	{ "nf-pom-pomodoro_squashed", "\ue004" },
-	{ "nf-pom-pomodoro_ticking", "\ue003" },
-	{ "nf-pom-short_pause", "\ue005" },
-	{ "nf-seti-apple", "\ue635" },
-	{ "nf-seti-argdown", "\ue636" },
-	{ "nf-seti-asm", "\ue637" },
-	{ "nf-seti-audio", "\ue638" },
-	{ "nf-seti-babel", "\ue639" },
-	{ "nf-seti-bazel", "\ue63a" },
-	{ "nf-seti-bicep", "\ue63b" },
-	{ "nf-seti-bower", "\ue61a" },
-	{ "nf-seti-bsl", "\ue63c" },
-	{ "nf-seti-c", "\ue649" },
-	{ "nf-seti-c_sharp", "\ue648" },
-	{ "nf-seti-cake", "\ue63e" },
-	{ "nf-seti-cake_php", "\ue63d" },
-	{ "nf-seti-checkbox", "\ue63f" },
-	{ "nf-seti-checkbox_unchecked", "\ue640" },
-	{ "nf-seti-cjsx", "\ue61b" },
-	{ "nf-seti-clock", "\ue641" },
-	{ "nf-seti-clojure", "\ue642" },
-	{ "nf-seti-code_climate", "\ue643" },
-	{ "nf-seti-code_search", "\ue644" },
-	{ "nf-seti-coffee", "\ue61b" },
-	{ "nf-seti-coldfusion", "\ue645" },
-	{ "nf-seti-config", "\ue615" },
-	{ "nf-seti-cpp", "\ue646" },
-	{ "nf-seti-crystal", "\ue62f" },
-	{ "nf-seti-crystal_embedded", "\ue647" },
-	{ "nf-seti-css", "\ue614" },
-	{ "nf-seti-csv", "\ue64a" },
-	{ "nf-seti-cu", "\ue64b" },
-	{ "nf-seti-d", "\ue651" },
-	{ "nf-seti-dart", "\ue64c" },
-	{ "nf-seti-db", "\ue64d" },
-	{ "nf-seti-default", "\ue64e" },
-	{ "nf-seti-deprecation_cop", "\ue64f" },
-	{ "nf-seti-docker", "\ue650" },
-	{ "nf-seti-editorconfig", "\ue652" },
-	{ "nf-seti-ejs", "\ue618" },
-	{ "nf-seti-elixir", "\ue62d" },
-	{ "nf-seti-elixir_script", "\ue653" },
-	{ "nf-seti-elm", "\ue62c" },
-	{ "nf-seti-error", "\ue654" },
-	{ "nf-seti-eslint", "\ue655" },
-	{ "nf-seti-ethereum", "\ue656" },
-	{ "nf-seti-f_sharp", "\ue65a" },
-	{ "nf-seti-favicon", "\ue623" },
-	{ "nf-seti-firebase", "\ue657" },
-	{ "nf-seti-firefox", "\ue658" },
-	{ "nf-seti-folder", "\ue613" },
-	{ "nf-seti-font", "\ue659" },
-	{ "nf-seti-git", "\ue65d" },
-	{ "nf-seti-git_folder", "\ue65d" },
-	{ "nf-seti-git_ignore", "\ue65d" },
-	{ "nf-seti-github", "\ue65b" },
-	{ "nf-seti-gitlab", "\ue65c" },
-	{ "nf-seti-go", "\ue627" },
-	{ "nf-seti-go2", "\ue65e" },
-	{ "nf-seti-godot", "\ue65f" },
-	{ "nf-seti-gradle", "\ue660" },
-	{ "nf-seti-grails", "\ue661" },
-	{ "nf-seti-graphql", "\ue662" },
-	{ "nf-seti-grunt", "\ue611" },
-	{ "nf-seti-gulp", "\ue610" },
-	{ "nf-seti-hacklang", "\ue663" },
-	{ "nf-seti-haml", "\ue664" },
-	{ "nf-seti-happenings", "\ue665" },
-	{ "nf-seti-haskell", "\ue61f" },
-	{ "nf-seti-haxe", "\ue666" },
-	{ "nf-seti-heroku", "\ue607" },
-	{ "nf-seti-hex", "\ue667" },
-	{ "nf-seti-home", "\ue617" },
-	{ "nf-seti-html", "\ue60e" },
-	{ "nf-seti-ignored", "\ue668" },
-	{ "nf-seti-illustrator", "\ue669" },
-	{ "nf-seti-image", "\ue60d" },
-	{ "nf-seti-info", "\ue66a" },
-	{ "nf-seti-ionic", "\ue66b" },
-	{ "nf-seti-jade", "\ue66c" },
-	{ "nf-seti-java", "\ue66d" },
-	{ "nf-seti-javascript", "\ue60c" },
-	{ "nf-seti-jenkins", "\ue66e" },
-	{ "nf-seti-jinja", "\ue66f" },
-	{ "nf-seti-json", "\ue60b" },
-	{ "nf-seti-julia", "\ue624" },
-	{ "nf-seti-karma", "\ue622" },
-	{ "nf-seti-kotlin", "\ue634" },
-	{ "nf-seti-less", "\ue60b" },
-	{ "nf-seti-license", "\ue60a" },
-	{ "nf-seti-liquid", "\ue670" },
-	{ "nf-seti-livescript", "\ue671" },
-	{ "nf-seti-lock", "\ue672" },
-	{ "nf-seti-lua", "\ue620" },
-	{ "nf-seti-makefile", "\ue673" },
-	{ "nf-seti-markdown", "\ue609" },
-	{ "nf-seti-maven", "\ue674" },
-	{ "nf-seti-mdo", "\ue675" },
-	{ "nf-seti-mustache", "\ue60f" },
-	{ "nf-seti-new_file", "\ue676" },
-	{ "nf-seti-nim", "\ue677" },
-	{ "nf-seti-notebook", "\ue678" },
-	{ "nf-seti-npm", "\ue616" },
-	{ "nf-seti-npm_ignored", "\ue616" },
-	{ "nf-seti-nunjucks", "\ue679" },
-	{ "nf-seti-ocaml", "\ue67a" },
-	{ "nf-seti-odata", "\ue67b" },
-	{ "nf-seti-pddl", "\ue67c" },
-	{ "nf-seti-pdf", "\ue67d" },
-	{ "nf-seti-perl", "\ue67e" },
-	{ "nf-seti-photoshop", "\ue67f" },
-	{ "nf-seti-php", "\ue608" },
-	{ "nf-seti-pipeline", "\ue680" },
-	{ "nf-seti-plan", "\ue681" },
-	{ "nf-seti-platformio", "\ue682" },
-	{ "nf-seti-play_arrow", "\ue602" },
-	{ "nf-seti-powershell", "\ue683" },
-	{ "nf-seti-prisma", "\ue684" },
-	{ "nf-seti-project", "\ue601" },
-	{ "nf-seti-prolog", "\ue685" },
-	{ "nf-seti-pug", "\ue686" },
-	{ "nf-seti-puppet", "\ue631" },
-	{ "nf-seti-purescript", "\ue630" },
-	{ "nf-seti-python", "\ue606" },
-	{ "nf-seti-r", "\ue68a" },
-	{ "nf-seti-rails", "\ue604" },
-	{ "nf-seti-react", "\ue625" },
-	{ "nf-seti-reasonml", "\ue687" },
-	{ "nf-seti-rescript", "\ue688" },
-	{ "nf-seti-rollup", "\ue689" },
-	{ "nf-seti-ruby", "\ue605" },
-	{ "nf-seti-rust", "\ue68b" },
-	{ "nf-seti-salesforce", "\ue68c" },
-	{ "nf-seti-sass", "\ue603" },
-	{ "nf-seti-sbt", "\ue68d" },
-	{ "nf-seti-scala", "\ue68e" },
-	{ "nf-seti-search", "\ue68f" },
-	{ "nf-seti-settings", "\ue690" },
-	{ "nf-seti-shell", "\ue691" },
-	{ "nf-seti-slim", "\ue692" },
-	{ "nf-seti-smarty", "\ue693" },
-	{ "nf-seti-spring", "\ue694" },
-	{ "nf-seti-stylelint", "\ue695" },
-	{ "nf-seti-stylus", "\ue600" },
-	{ "nf-seti-sublime", "\ue696" },
-	{ "nf-seti-svelte", "\ue697" },
-	{ "nf-seti-svg", "\ue698" },
-	{ "nf-seti-swift", "\ue699" },
-	{ "nf-seti-terraform", "\ue69a" },
-	{ "nf-seti-tex", "\ue69b" },
-	{ "nf-seti-text", "\ue612" },
-	{ "nf-seti-time_cop", "\ue641" },
-	{ "nf-seti-todo", "\ue69c" },
-	{ "nf-seti-tsconfig", "\ue69d" },
-	{ "nf-seti-twig", "\ue61c" },
-	{ "nf-seti-typescript", "\ue628" },
-	{ "nf-seti-vala", "\ue69e" },
-	{ "nf-seti-video", "\ue69f" },
-	{ "nf-seti-vue", "\ue6a0" },
-	{ "nf-seti-wasm", "\ue6a1" },
-	{ "nf-seti-wat", "\ue6a2" },
-	{ "nf-seti-webpack", "\ue6a3" },
-	{ "nf-seti-wgt", "\ue6a4" },
-	{ "nf-seti-word", "\ue6a5" },
-	{ "nf-seti-xls", "\ue6a6" },
-	{ "nf-seti-xml", "\ue619" },
-	{ "nf-seti-yarn", "\ue6a7" },
-	{ "nf-seti-yml", "\ue6a8" },
-	{ "nf-seti-zig", "\ue6a9" },
-	{ "nf-seti-zip", "\ue6aa" },
-	{ "nf-weather-alien", "\ue36e" },
-	{ "nf-weather-aliens", "\ue345" },
-	{ "nf-weather-barometer", "\ue372" },
-	{ "nf-weather-celsius", "\ue339" },
-	{ "nf-weather-cloud", "\ue33d" },
-	{ "nf-weather-cloud_down", "\ue33a" },
-	{ "nf-weather-cloud_refresh", "\ue33b" },
-	{ "nf-weather-cloud_up", "\ue33c" },
-	{ "nf-weather-cloudy", "\ue312" },
-	{ "nf-weather-cloudy_gusts", "\ue310" },
-	{ "nf-weather-cloudy_windy", "\ue311" },
-	{ "nf-weather-day_cloudy", "\ue302" },
-	{ "nf-weather-day_cloudy_gusts", "\ue300" },
-	{ "nf-weather-day_cloudy_high", "\ue376" },
-	{ "nf-weather-day_cloudy_windy", "\ue301" },
-	{ "nf-weather-day_fog", "\ue303" },
-	{ "nf-weather-day_hail", "\ue304" },
-	{ "nf-weather-day_haze", "\ue3ae" },
-	{ "nf-weather-day_light_wind", "\ue3bc" },
-	{ "nf-weather-day_lightning", "\ue305" },
-	{ "nf-weather-day_rain", "\ue308" },
-	{ "nf-weather-day_rain_mix", "\ue306" },
-	{ "nf-weather-day_rain_wind", "\ue307" },
-	{ "nf-weather-day_showers", "\ue309" },
-	{ "nf-weather-day_sleet", "\ue3aa" },
-	{ "nf-weather-day_sleet_storm", "\ue362" },
-	{ "nf-weather-day_snow", "\ue30a" },
-	{ "nf-weather-day_snow_thunderstorm", "\ue365" },
-	{ "nf-weather-day_snow_wind", "\ue35f" },
-	{ "nf-weather-day_sprinkle", "\ue30b" },
-	{ "nf-weather-day_storm_showers", "\ue30e" },
-	{ "nf-weather-day_sunny", "\ue30d" },
-	{ "nf-weather-day_sunny_overcast", "\ue30c" },
-	{ "nf-weather-day_thunderstorm", "\ue30f" },
-	{ "nf-weather-day_windy", "\ue37d" },
-	{ "nf-weather-degrees", "\ue33e" },
-	{ "nf-weather-direction_down", "\ue340" },
-	{ "nf-weather-direction_down_left", "\ue33f" },
-	{ "nf-weather-direction_down_right", "\ue380" },
-	{ "nf-weather-direction_left", "\ue344" },
-	{ "nf-weather-direction_right", "\ue349" },
-	{ "nf-weather-direction_up", "\ue353" },
-	{ "nf-weather-direction_up_left", "\ue37f" },
-	{ "nf-weather-direction_up_right", "\ue352" },
-	{ "nf-weather-dust", "\ue35d" },
-	{ "nf-weather-earthquake", "\ue3be" },
-	{ "nf-weather-fahrenheit", "\ue341" },
-	{ "nf-weather-fire", "\ue3bf" },
-	{ "nf-weather-flood", "\ue375" },
-	{ "nf-weather-fog", "\ue313" },
-	{ "nf-weather-gale_warning", "\ue3c5" },
-	{ "nf-weather-hail", "\ue314" },
-	{ "nf-weather-horizon", "\ue343" },
-	{ "nf-weather-horizon_alt", "\ue342" },
-	{ "nf-weather-hot", "\ue36b" },
-	{ "nf-weather-humidity", "\ue373" },
-	{ "nf-weather-hurricane", "\ue36c" },
-	{ "nf-weather-hurricane_warning", "\ue3c7" },
-	{ "nf-weather-lightning", "\ue315" },
-	{ "nf-weather-lunar_eclipse", "\ue369" },
-	{ "nf-weather-meteor", "\ue36a" },
-	{ "nf-weather-moon_alt_first_quarter", "\ue3ce" },
-	{ "nf-weather-moon_alt_full", "\ue3d5" },
-	{ "nf-weather-moon_alt_new", "\ue3e3" },
-	{ "nf-weather-moon_alt_third_quarter", "\ue3dc" },
-	{ "nf-weather-moon_alt_waning_crescent_1", "\ue3dd" },
-	{ "nf-weather-moon_alt_waning_crescent_2", "\ue3de" },
-	{ "nf-weather-moon_alt_waning_crescent_3", "\ue3df" },
-	{ "nf-weather-moon_alt_waning_crescent_4", "\ue3e0" },
-	{ "nf-weather-moon_alt_waning_crescent_5", "\ue3e1" },
-	{ "nf-weather-moon_alt_waning_crescent_6", "\ue3e2" },
-	{ "nf-weather-moon_alt_waning_gibbous_1", "\ue3d6" },
-	{ "nf-weather-moon_alt_waning_gibbous_2", "\ue3d7" },
-	{ "nf-weather-moon_alt_waning_gibbous_3", "\ue3d8" },
-	{ "nf-weather-moon_alt_waning_gibbous_4", "\ue3d9" },
-	{ "nf-weather-moon_alt_waning_gibbous_5", "\ue3da" },
-	{ "nf-weather-moon_alt_waning_gibbous_6", "\ue3db" },
-	{ "nf-weather-moon_alt_waxing_crescent_1", "\ue3c8" },
-	{ "nf-weather-moon_alt_waxing_crescent_2", "\ue3c9" },
-	{ "nf-weather-moon_alt_waxing_crescent_3", "\ue3ca" },
-	{ "nf-weather-moon_alt_waxing_crescent_4", "\ue3cb" },
-	{ "nf-weather-moon_alt_waxing_crescent_5", "\ue3cc" },
-	{ "nf-weather-moon_alt_waxing_crescent_6", "\ue3cd" },
-	{ "nf-weather-moon_alt_waxing_gibbous_1", "\ue3cf" },
-	{ "nf-weather-moon_alt_waxing_gibbous_2", "\ue3d0" },
-	{ "nf-weather-moon_alt_waxing_gibbous_3", "\ue3d1" },
-	{ "nf-weather-moon_alt_waxing_gibbous_4", "\ue3d2" },
-	{ "nf-weather-moon_alt_waxing_gibbous_5", "\ue3d3" },
-	{ "nf-weather-moon_alt_waxing_gibbous_6", "\ue3d4" },
-	{ "nf-weather-moon_first_quarter", "\ue394" },
-	{ "nf-weather-moon_full", "\ue39b" },
-	{ "nf-weather-moon_new", "\ue38d" },
-	{ "nf-weather-moon_third_quarter", "\ue3a2" },
-	{ "nf-weather-moon_waning_crescent_1", "\ue3a3" },
-	{ "nf-weather-moon_waning_crescent_2", "\ue3a4" },
-	{ "nf-weather-moon_waning_crescent_3", "\ue3a5" },
-	{ "nf-weather-moon_waning_crescent_4", "\ue3a6" },
-	{ "nf-weather-moon_waning_crescent_5", "\ue3a7" },
-	{ "nf-weather-moon_waning_crescent_6", "\ue3a8" },
-	{ "nf-weather-moon_waning_gibbous_1", "\ue39c" },
-	{ "nf-weather-moon_waning_gibbous_2", "\ue39d" },
-	{ "nf-weather-moon_waning_gibbous_3", "\ue39e" },
-	{ "nf-weather-moon_waning_gibbous_4", "\ue39f" },
-	{ "nf-weather-moon_waning_gibbous_5", "\ue3a0" },
-	{ "nf-weather-moon_waning_gibbous_6", "\ue3a1" },
-	{ "nf-weather-moon_waxing_crescent_1", "\ue38e" },
-	{ "nf-weather-moon_waxing_crescent_2", "\ue38f" },
-	{ "nf-weather-moon_waxing_crescent_3", "\ue390" },
-	{ "nf-weather-moon_waxing_crescent_4", "\ue391" },
-	{ "nf-weather-moon_waxing_crescent_5", "\ue392" },
-	{ "nf-weather-moon_waxing_crescent_6", "\ue393" },
-	{ "nf-weather-moon_waxing_gibbous_1", "\ue395" },
-	{ "nf-weather-moon_waxing_gibbous_2", "\ue396" },
-	{ "nf-weather-moon_waxing_gibbous_3", "\ue397" },
-	{ "nf-weather-moon_waxing_gibbous_4", "\ue398" },
-	{ "nf-weather-moon_waxing_gibbous_5", "\ue399" },
-	{ "nf-weather-moon_waxing_gibbous_6", "\ue39a" },
-	{ "nf-weather-moonrise", "\ue3c1" },
-	{ "nf-weather-moonset", "\ue3c2" },
-	{ "nf-weather-na", "\ue374" },
-	{ "nf-weather-night_alt_cloudy", "\ue37e" },
-	{ "nf-weather-night_alt_cloudy_gusts", "\ue31f" },
-	{ "nf-weather-night_alt_cloudy_high", "\ue377" },
-	{ "nf-weather-night_alt_cloudy_windy", "\ue320" },
-	{ "nf-weather-night_alt_hail", "\ue321" },
-	{ "nf-weather-night_alt_lightning", "\ue322" },
-	{ "nf-weather-night_alt_partly_cloudy", "\ue379" },
-	{ "nf-weather-night_alt_rain", "\ue325" },
-	{ "nf-weather-night_alt_rain_mix", "\ue323" },
-	{ "nf-weather-night_alt_rain_wind", "\ue324" },
-	{ "nf-weather-night_alt_showers", "\ue326" },
-	{ "nf-weather-night_alt_sleet", "\ue3ac" },
-	{ "nf-weather-night_alt_sleet_storm", "\ue364" },
-	{ "nf-weather-night_alt_snow", "\ue327" },
-	{ "nf-weather-night_alt_snow_thunderstorm", "\ue367" },
-	{ "nf-weather-night_alt_snow_wind", "\ue361" },
-	{ "nf-weather-night_alt_sprinkle", "\ue328" },
-	{ "nf-weather-night_alt_storm_showers", "\ue329" },
-	{ "nf-weather-night_alt_thunderstorm", "\ue32a" },
-	{ "nf-weather-night_clear", "\ue32b" },
-	{ "nf-weather-night_cloudy", "\ue32e" },
-	{ "nf-weather-night_cloudy_gusts", "\ue32c" },
-	{ "nf-weather-night_cloudy_high", "\ue378" },
-	{ "nf-weather-night_cloudy_windy", "\ue32d" },
-	{ "nf-weather-night_fog", "\ue346" },
-	{ "nf-weather-night_hail", "\ue32f" },
-	{ "nf-weather-night_lightning", "\ue330" },
-	{ "nf-weather-night_partly_cloudy", "\ue37b" },
-	{ "nf-weather-night_rain", "\ue333" },
-	{ "nf-weather-night_rain_mix", "\ue331" },
-	{ "nf-weather-night_rain_wind", "\ue332" },
-	{ "nf-weather-night_showers", "\ue334" },
-	{ "nf-weather-night_sleet", "\ue3ab" },
-	{ "nf-weather-night_sleet_storm", "\ue363" },
-	{ "nf-weather-night_snow", "\ue335" },
-	{ "nf-weather-night_snow_thunderstorm", "\ue366" },
-	{ "nf-weather-night_snow_wind", "\ue360" },
-	{ "nf-weather-night_sprinkle", "\ue336" },
-	{ "nf-weather-night_storm_showers", "\ue337" },
-	{ "nf-weather-night_thunderstorm", "\ue338" },
-	{ "nf-weather-rain", "\ue318" },
-	{ "nf-weather-rain_mix", "\ue316" },
-	{ "nf-weather-rain_wind", "\ue317" },
-	{ "nf-weather-raindrop", "\ue371" },
-	{ "nf-weather-raindrops", "\ue34a" },
-	{ "nf-weather-refresh", "\ue348" },
-	{ "nf-weather-refresh_alt", "\ue347" },
-	{ "nf-weather-sandstorm", "\ue37a" },
-	{ "nf-weather-showers", "\ue319" },
-	{ "nf-weather-sleet", "\ue3ad" },
-	{ "nf-weather-small_craft_advisory", "\ue3c4" },
-	{ "nf-weather-smog", "\ue36d" },
-	{ "nf-weather-smoke", "\ue35c" },
-	{ "nf-weather-snow", "\ue31a" },
-	{ "nf-weather-snow_wind", "\ue35e" },
-	{ "nf-weather-snowflake_cold", "\ue36f" },
-	{ "nf-weather-solar_eclipse", "\ue368" },
-	{ "nf-weather-sprinkle", "\ue31b" },
-	{ "nf-weather-stars", "\ue370" },
-	{ "nf-weather-storm_showers", "\ue31c" },
-	{ "nf-weather-storm_warning", "\ue3c6" },
-	{ "nf-weather-strong_wind", "\ue34b" },
-	{ "nf-weather-sunrise", "\ue34c" },
-	{ "nf-weather-sunset", "\ue34d" },
-	{ "nf-weather-thermometer", "\ue350" },
-	{ "nf-weather-thermometer_exterior", "\ue34e" },
-	{ "nf-weather-thermometer_internal", "\ue34f" },
-	{ "nf-weather-thunderstorm", "\ue31d" },
-	{ "nf-weather-time_1", "\ue382" },
-	{ "nf-weather-time_10", "\ue38b" },
-	{ "nf-weather-time_11", "\ue38c" },
-	{ "nf-weather-time_12", "\ue381" },
-	{ "nf-weather-time_2", "\ue383" },
-	{ "nf-weather-time_3", "\ue384" },
-	{ "nf-weather-time_4", "\ue385" },
-	{ "nf-weather-time_5", "\ue386" },
-	{ "nf-weather-time_6", "\ue387" },
-	{ "nf-weather-time_7", "\ue388" },
-	{ "nf-weather-time_8", "\ue389" },
-	{ "nf-weather-time_9", "\ue38a" },
-	{ "nf-weather-tornado", "\ue351" },
-	{ "nf-weather-train", "\ue3c3" },
-	{ "nf-weather-tsunami", "\ue3bd" },
-	{ "nf-weather-umbrella", "\ue37c" },
-	{ "nf-weather-volcano", "\ue3c0" },
-	{ "nf-weather-wind_beaufort_0", "\ue3af" },
-	{ "nf-weather-wind_beaufort_1", "\ue3b0" },
-	{ "nf-weather-wind_beaufort_10", "\ue3b9" },
-	{ "nf-weather-wind_beaufort_11", "\ue3ba" },
-	{ "nf-weather-wind_beaufort_12", "\ue3bb" },
-	{ "nf-weather-wind_beaufort_2", "\ue3b1" },
-	{ "nf-weather-wind_beaufort_3", "\ue3b2" },
-	{ "nf-weather-wind_beaufort_4", "\ue3b3" },
-	{ "nf-weather-wind_beaufort_5", "\ue3b4" },
-	{ "nf-weather-wind_beaufort_6", "\ue3b5" },
-	{ "nf-weather-wind_beaufort_7", "\ue3b6" },
-	{ "nf-weather-wind_beaufort_8", "\ue3b7" },
-	{ "nf-weather-wind_beaufort_9", "\ue3b8" },
-	{ "nf-weather-wind_direction", "\ue3a9" },
-	{ "nf-weather-wind_east", "\ue35b" },
-	{ "nf-weather-wind_north", "\ue35a" },
-	{ "nf-weather-wind_north_east", "\ue359" },
-	{ "nf-weather-wind_north_west", "\ue358" },
-	{ "nf-weather-wind_south", "\ue357" },
-	{ "nf-weather-wind_south_east", "\ue356" },
-	{ "nf-weather-wind_south_west", "\ue355" },
-	{ "nf-weather-wind_west", "\ue354" },
-	{ "nf-weather-windy", "\ue31e" },
+	{
+		"nf-cod-account",
+		"",
+	},
+	{
+		"nf-cod-activate_breakpoints",
+		"",
+	},
+	{
+		"nf-cod-add",
+		"",
+	},
+	{
+		"nf-cod-archive",
+		"",
+	},
+	{
+		"nf-cod-arrow_both",
+		"",
+	},
+	{
+		"nf-cod-arrow_down",
+		"",
+	},
+	{
+		"nf-cod-arrow_left",
+		"",
+	},
+	{
+		"nf-cod-arrow_right",
+		"",
+	},
+	{
+		"nf-cod-arrow_small_down",
+		"",
+	},
+	{
+		"nf-cod-arrow_small_left",
+		"",
+	},
+	{
+		"nf-cod-arrow_small_right",
+		"",
+	},
+	{
+		"nf-cod-arrow_small_up",
+		"",
+	},
+	{
+		"nf-cod-arrow_swap",
+		"",
+	},
+	{
+		"nf-cod-arrow_up",
+		"",
+	},
+	{
+		"nf-cod-azure",
+		"",
+	},
+	{
+		"nf-cod-azure_devops",
+		"",
+	},
+	{
+		"nf-cod-beaker",
+		"",
+	},
+	{
+		"nf-cod-beaker_stop",
+		"",
+	},
+	{
+		"nf-cod-bell",
+		"",
+	},
+	{
+		"nf-cod-bell_dot",
+		"",
+	},
+	{
+		"nf-cod-bold",
+		"",
+	},
+	{
+		"nf-cod-book",
+		"",
+	},
+	{
+		"nf-cod-bookmark",
+		"",
+	},
+	{
+		"nf-cod-bracket_dot",
+		"",
+	},
+	{
+		"nf-cod-bracket_error",
+		"",
+	},
+	{
+		"nf-cod-briefcase",
+		"",
+	},
+	{
+		"nf-cod-broadcast",
+		"",
+	},
+	{
+		"nf-cod-browser",
+		"",
+	},
+	{
+		"nf-cod-bug",
+		"",
+	},
+	{
+		"nf-cod-calendar",
+		"",
+	},
+	{
+		"nf-cod-call_incoming",
+		"",
+	},
+	{
+		"nf-cod-call_outgoing",
+		"",
+	},
+	{
+		"nf-cod-case_sensitive",
+		"",
+	},
+	{
+		"nf-cod-check",
+		"",
+	},
+	{
+		"nf-cod-check_all",
+		"",
+	},
+	{
+		"nf-cod-checklist",
+		"",
+	},
+	{
+		"nf-cod-chevron_down",
+		"",
+	},
+	{
+		"nf-cod-chevron_left",
+		"",
+	},
+	{
+		"nf-cod-chevron_right",
+		"",
+	},
+	{
+		"nf-cod-chevron_up",
+		"",
+	},
+	{
+		"nf-cod-chrome_close",
+		"",
+	},
+	{
+		"nf-cod-chrome_maximize",
+		"",
+	},
+	{
+		"nf-cod-chrome_minimize",
+		"",
+	},
+	{
+		"nf-cod-chrome_restore",
+		"",
+	},
+	{
+		"nf-cod-circle",
+		"",
+	},
+	{
+		"nf-cod-circle_filled",
+		"",
+	},
+	{
+		"nf-cod-circle_large",
+		"",
+	},
+	{
+		"nf-cod-circle_large_filled",
+		"",
+	},
+	{
+		"nf-cod-circle_slash",
+		"",
+	},
+	{
+		"nf-cod-circle_small_filled",
+		"",
+	},
+	{
+		"nf-cod-circuit_board",
+		"",
+	},
+	{
+		"nf-cod-clear_all",
+		"",
+	},
+	{
+		"nf-cod-clippy",
+		"",
+	},
+	{
+		"nf-cod-close",
+		"",
+	},
+	{
+		"nf-cod-close_all",
+		"",
+	},
+	{
+		"nf-cod-cloud",
+		"",
+	},
+	{
+		"nf-cod-cloud_download",
+		"",
+	},
+	{
+		"nf-cod-cloud_upload",
+		"",
+	},
+	{
+		"nf-cod-code",
+		"",
+	},
+	{
+		"nf-cod-collapse_all",
+		"",
+	},
+	{
+		"nf-cod-color_mode",
+		"",
+	},
+	{
+		"nf-cod-combine",
+		"",
+	},
+	{
+		"nf-cod-comment",
+		"",
+	},
+	{
+		"nf-cod-comment_discussion",
+		"",
+	},
+	{
+		"nf-cod-compass",
+		"",
+	},
+	{
+		"nf-cod-compass_active",
+		"",
+	},
+	{
+		"nf-cod-compass_dot",
+		"",
+	},
+	{
+		"nf-cod-copy",
+		"",
+	},
+	{
+		"nf-cod-credit_card",
+		"",
+	},
+	{
+		"nf-cod-dash",
+		"",
+	},
+	{
+		"nf-cod-dashboard",
+		"",
+	},
+	{
+		"nf-cod-database",
+		"",
+	},
+	{
+		"nf-cod-debug",
+		"",
+	},
+	{
+		"nf-cod-debug_all",
+		"",
+	},
+	{
+		"nf-cod-debug_alt",
+		"",
+	},
+	{
+		"nf-cod-debug_alt_small",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_conditional",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_conditional_unverified",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_data",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_data_unverified",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_function",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_function_unverified",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_log",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_log_unverified",
+		"",
+	},
+	{
+		"nf-cod-debug_breakpoint_unsupported",
+		"",
+	},
+	{
+		"nf-cod-debug_console",
+		"",
+	},
+	{
+		"nf-cod-debug_continue",
+		"",
+	},
+	{
+		"nf-cod-debug_continue_small",
+		"",
+	},
+	{
+		"nf-cod-debug_coverage",
+		"",
+	},
+	{
+		"nf-cod-debug_disconnect",
+		"",
+	},
+	{
+		"nf-cod-debug_line_by_line",
+		"",
+	},
+	{
+		"nf-cod-debug_pause",
+		"",
+	},
+	{
+		"nf-cod-debug_rerun",
+		"",
+	},
+	{
+		"nf-cod-debug_restart",
+		"",
+	},
+	{
+		"nf-cod-debug_restart_frame",
+		"",
+	},
+	{
+		"nf-cod-debug_reverse_continue",
+		"",
+	},
+	{
+		"nf-cod-debug_stackframe",
+		"",
+	},
+	{
+		"nf-cod-debug_stackframe_active",
+		"",
+	},
+	{
+		"nf-cod-debug_start",
+		"",
+	},
+	{
+		"nf-cod-debug_step_back",
+		"",
+	},
+	{
+		"nf-cod-debug_step_into",
+		"",
+	},
+	{
+		"nf-cod-debug_step_out",
+		"",
+	},
+	{
+		"nf-cod-debug_step_over",
+		"",
+	},
+	{
+		"nf-cod-debug_stop",
+		"",
+	},
+	{
+		"nf-cod-desktop_download",
+		"",
+	},
+	{
+		"nf-cod-device_camera",
+		"",
+	},
+	{
+		"nf-cod-device_camera_video",
+		"",
+	},
+	{
+		"nf-cod-device_mobile",
+		"",
+	},
+	{
+		"nf-cod-diff",
+		"",
+	},
+	{
+		"nf-cod-diff_added",
+		"",
+	},
+	{
+		"nf-cod-diff_ignored",
+		"",
+	},
+	{
+		"nf-cod-diff_modified",
+		"",
+	},
+	{
+		"nf-cod-diff_removed",
+		"",
+	},
+	{
+		"nf-cod-diff_renamed",
+		"",
+	},
+	{
+		"nf-cod-discard",
+		"",
+	},
+	{
+		"nf-cod-edit",
+		"",
+	},
+	{
+		"nf-cod-editor_layout",
+		"",
+	},
+	{
+		"nf-cod-ellipsis",
+		"",
+	},
+	{
+		"nf-cod-empty_window",
+		"",
+	},
+	{
+		"nf-cod-error",
+		"",
+	},
+	{
+		"nf-cod-exclude",
+		"",
+	},
+	{
+		"nf-cod-expand_all",
+		"",
+	},
+	{
+		"nf-cod-export",
+		"",
+	},
+	{
+		"nf-cod-extensions",
+		"",
+	},
+	{
+		"nf-cod-eye",
+		"",
+	},
+	{
+		"nf-cod-eye_closed",
+		"",
+	},
+	{
+		"nf-cod-feedback",
+		"",
+	},
+	{
+		"nf-cod-file",
+		"",
+	},
+	{
+		"nf-cod-file_binary",
+		"",
+	},
+	{
+		"nf-cod-file_code",
+		"",
+	},
+	{
+		"nf-cod-file_media",
+		"",
+	},
+	{
+		"nf-cod-file_pdf",
+		"",
+	},
+	{
+		"nf-cod-file_submodule",
+		"",
+	},
+	{
+		"nf-cod-file_symlink_directory",
+		"",
+	},
+	{
+		"nf-cod-file_symlink_file",
+		"",
+	},
+	{
+		"nf-cod-file_zip",
+		"",
+	},
+	{
+		"nf-cod-files",
+		"",
+	},
+	{
+		"nf-cod-filter",
+		"",
+	},
+	{
+		"nf-cod-filter_filled",
+		"",
+	},
+	{
+		"nf-cod-flame",
+		"",
+	},
+	{
+		"nf-cod-fold",
+		"",
+	},
+	{
+		"nf-cod-fold_down",
+		"",
+	},
+	{
+		"nf-cod-fold_up",
+		"",
+	},
+	{
+		"nf-cod-folder",
+		"",
+	},
+	{
+		"nf-cod-folder_active",
+		"",
+	},
+	{
+		"nf-cod-folder_library",
+		"",
+	},
+	{
+		"nf-cod-folder_opened",
+		"",
+	},
+	{
+		"nf-cod-gear",
+		"",
+	},
+	{
+		"nf-cod-gift",
+		"",
+	},
+	{
+		"nf-cod-gist_secret",
+		"",
+	},
+	{
+		"nf-cod-git_commit",
+		"",
+	},
+	{
+		"nf-cod-git_compare",
+		"",
+	},
+	{
+		"nf-cod-git_merge",
+		"",
+	},
+	{
+		"nf-cod-git_pull_request",
+		"",
+	},
+	{
+		"nf-cod-git_pull_request_closed",
+		"",
+	},
+	{
+		"nf-cod-git_pull_request_create",
+		"",
+	},
+	{
+		"nf-cod-git_pull_request_draft",
+		"",
+	},
+	{
+		"nf-cod-github",
+		"",
+	},
+	{
+		"nf-cod-github_action",
+		"",
+	},
+	{
+		"nf-cod-github_alt",
+		"",
+	},
+	{
+		"nf-cod-github_inverted",
+		"",
+	},
+	{
+		"nf-cod-globe",
+		"",
+	},
+	{
+		"nf-cod-go_to_file",
+		"",
+	},
+	{
+		"nf-cod-grabber",
+		"",
+	},
+	{
+		"nf-cod-graph",
+		"",
+	},
+	{
+		"nf-cod-graph_left",
+		"",
+	},
+	{
+		"nf-cod-graph_line",
+		"",
+	},
+	{
+		"nf-cod-graph_scatter",
+		"",
+	},
+	{
+		"nf-cod-gripper",
+		"",
+	},
+	{
+		"nf-cod-group_by_ref_type",
+		"",
+	},
+	{
+		"nf-cod-heart",
+		"",
+	},
+	{
+		"nf-cod-history",
+		"",
+	},
+	{
+		"nf-cod-home",
+		"",
+	},
+	{
+		"nf-cod-horizontal_rule",
+		"",
+	},
+	{
+		"nf-cod-hubot",
+		"",
+	},
+	{
+		"nf-cod-inbox",
+		"",
+	},
+	{
+		"nf-cod-info",
+		"",
+	},
+	{
+		"nf-cod-inspect",
+		"",
+	},
+	{
+		"nf-cod-issue_draft",
+		"",
+	},
+	{
+		"nf-cod-issue_reopened",
+		"",
+	},
+	{
+		"nf-cod-issues",
+		"",
+	},
+	{
+		"nf-cod-italic",
+		"",
+	},
+	{
+		"nf-cod-jersey",
+		"",
+	},
+	{
+		"nf-cod-json",
+		"",
+	},
+	{
+		"nf-cod-kebab_vertical",
+		"",
+	},
+	{
+		"nf-cod-key",
+		"",
+	},
+	{
+		"nf-cod-law",
+		"",
+	},
+	{
+		"nf-cod-layers",
+		"",
+	},
+	{
+		"nf-cod-layers_active",
+		"",
+	},
+	{
+		"nf-cod-layers_dot",
+		"",
+	},
+	{
+		"nf-cod-layout",
+		"",
+	},
+	{
+		"nf-cod-library",
+		"",
+	},
+	{
+		"nf-cod-lightbulb",
+		"",
+	},
+	{
+		"nf-cod-lightbulb_autofix",
+		"",
+	},
+	{
+		"nf-cod-link",
+		"",
+	},
+	{
+		"nf-cod-link_external",
+		"",
+	},
+	{
+		"nf-cod-list_filter",
+		"",
+	},
+	{
+		"nf-cod-list_flat",
+		"",
+	},
+	{
+		"nf-cod-list_ordered",
+		"",
+	},
+	{
+		"nf-cod-list_selection",
+		"",
+	},
+	{
+		"nf-cod-list_tree",
+		"",
+	},
+	{
+		"nf-cod-list_unordered",
+		"",
+	},
+	{
+		"nf-cod-live_share",
+		"",
+	},
+	{
+		"nf-cod-loading",
+		"",
+	},
+	{
+		"nf-cod-location",
+		"",
+	},
+	{
+		"nf-cod-lock",
+		"",
+	},
+	{
+		"nf-cod-lock_small",
+		"",
+	},
+	{
+		"nf-cod-magnet",
+		"",
+	},
+	{
+		"nf-cod-mail",
+		"",
+	},
+	{
+		"nf-cod-mail_read",
+		"",
+	},
+	{
+		"nf-cod-markdown",
+		"",
+	},
+	{
+		"nf-cod-megaphone",
+		"",
+	},
+	{
+		"nf-cod-mention",
+		"",
+	},
+	{
+		"nf-cod-menu",
+		"",
+	},
+	{
+		"nf-cod-merge",
+		"",
+	},
+	{
+		"nf-cod-milestone",
+		"",
+	},
+	{
+		"nf-cod-mirror",
+		"",
+	},
+	{
+		"nf-cod-mortar_board",
+		"",
+	},
+	{
+		"nf-cod-move",
+		"",
+	},
+	{
+		"nf-cod-multiple_windows",
+		"",
+	},
+	{
+		"nf-cod-mute",
+		"",
+	},
+	{
+		"nf-cod-new_file",
+		"",
+	},
+	{
+		"nf-cod-new_folder",
+		"",
+	},
+	{
+		"nf-cod-newline",
+		"",
+	},
+	{
+		"nf-cod-no_newline",
+		"",
+	},
+	{
+		"nf-cod-note",
+		"",
+	},
+	{
+		"nf-cod-notebook",
+		"",
+	},
+	{
+		"nf-cod-notebook_template",
+		"",
+	},
+	{
+		"nf-cod-octoface",
+		"",
+	},
+	{
+		"nf-cod-open_preview",
+		"",
+	},
+	{
+		"nf-cod-organization",
+		"",
+	},
+	{
+		"nf-cod-output",
+		"",
+	},
+	{
+		"nf-cod-package",
+		"",
+	},
+	{
+		"nf-cod-paintcan",
+		"",
+	},
+	{
+		"nf-cod-pass",
+		"",
+	},
+	{
+		"nf-cod-pass_filled",
+		"",
+	},
+	{
+		"nf-cod-person",
+		"",
+	},
+	{
+		"nf-cod-person_add",
+		"",
+	},
+	{
+		"nf-cod-pie_chart",
+		"",
+	},
+	{
+		"nf-cod-pin",
+		"",
+	},
+	{
+		"nf-cod-pinned",
+		"",
+	},
+	{
+		"nf-cod-pinned_dirty",
+		"",
+	},
+	{
+		"nf-cod-play",
+		"",
+	},
+	{
+		"nf-cod-play_circle",
+		"",
+	},
+	{
+		"nf-cod-plug",
+		"",
+	},
+	{
+		"nf-cod-preserve_case",
+		"",
+	},
+	{
+		"nf-cod-preview",
+		"",
+	},
+	{
+		"nf-cod-primitive_square",
+		"",
+	},
+	{
+		"nf-cod-project",
+		"",
+	},
+	{
+		"nf-cod-pulse",
+		"",
+	},
+	{
+		"nf-cod-question",
+		"",
+	},
+	{
+		"nf-cod-quote",
+		"",
+	},
+	{
+		"nf-cod-radio_tower",
+		"",
+	},
+	{
+		"nf-cod-reactions",
+		"",
+	},
+	{
+		"nf-cod-record",
+		"",
+	},
+	{
+		"nf-cod-record_keys",
+		"",
+	},
+	{
+		"nf-cod-redo",
+		"",
+	},
+	{
+		"nf-cod-references",
+		"",
+	},
+	{
+		"nf-cod-refresh",
+		"",
+	},
+	{
+		"nf-cod-regex",
+		"",
+	},
+	{
+		"nf-cod-remote",
+		"",
+	},
+	{
+		"nf-cod-remote_explorer",
+		"",
+	},
+	{
+		"nf-cod-remove",
+		"",
+	},
+	{
+		"nf-cod-replace",
+		"",
+	},
+	{
+		"nf-cod-replace_all",
+		"",
+	},
+	{
+		"nf-cod-reply",
+		"",
+	},
+	{
+		"nf-cod-repo",
+		"",
+	},
+	{
+		"nf-cod-repo_clone",
+		"",
+	},
+	{
+		"nf-cod-repo_force_push",
+		"",
+	},
+	{
+		"nf-cod-repo_forked",
+		"",
+	},
+	{
+		"nf-cod-repo_pull",
+		"",
+	},
+	{
+		"nf-cod-repo_push",
+		"",
+	},
+	{
+		"nf-cod-report",
+		"",
+	},
+	{
+		"nf-cod-request_changes",
+		"",
+	},
+	{
+		"nf-cod-rocket",
+		"",
+	},
+	{
+		"nf-cod-root_folder",
+		"",
+	},
+	{
+		"nf-cod-root_folder_opened",
+		"",
+	},
+	{
+		"nf-cod-rss",
+		"",
+	},
+	{
+		"nf-cod-ruby",
+		"",
+	},
+	{
+		"nf-cod-run_above",
+		"",
+	},
+	{
+		"nf-cod-run_all",
+		"",
+	},
+	{
+		"nf-cod-run_below",
+		"",
+	},
+	{
+		"nf-cod-run_errors",
+		"",
+	},
+	{
+		"nf-cod-save",
+		"",
+	},
+	{
+		"nf-cod-save_all",
+		"",
+	},
+	{
+		"nf-cod-save_as",
+		"",
+	},
+	{
+		"nf-cod-screen_full",
+		"",
+	},
+	{
+		"nf-cod-screen_normal",
+		"",
+	},
+	{
+		"nf-cod-search",
+		"",
+	},
+	{
+		"nf-cod-search_stop",
+		"",
+	},
+	{
+		"nf-cod-server",
+		"",
+	},
+	{
+		"nf-cod-server_environment",
+		"",
+	},
+	{
+		"nf-cod-server_process",
+		"",
+	},
+	{
+		"nf-cod-settings",
+		"",
+	},
+	{
+		"nf-cod-settings_gear",
+		"",
+	},
+	{
+		"nf-cod-shield",
+		"",
+	},
+	{
+		"nf-cod-sign_in",
+		"",
+	},
+	{
+		"nf-cod-sign_out",
+		"",
+	},
+	{
+		"nf-cod-smiley",
+		"",
+	},
+	{
+		"nf-cod-sort_precedence",
+		"",
+	},
+	{
+		"nf-cod-source_control",
+		"",
+	},
+	{
+		"nf-cod-split_horizontal",
+		"",
+	},
+	{
+		"nf-cod-split_vertical",
+		"",
+	},
+	{
+		"nf-cod-squirrel",
+		"",
+	},
+	{
+		"nf-cod-star_empty",
+		"",
+	},
+	{
+		"nf-cod-star_full",
+		"",
+	},
+	{
+		"nf-cod-star_half",
+		"",
+	},
+	{
+		"nf-cod-stop_circle",
+		"",
+	},
+	{
+		"nf-cod-symbol_array",
+		"",
+	},
+	{
+		"nf-cod-symbol_boolean",
+		"",
+	},
+	{
+		"nf-cod-symbol_class",
+		"",
+	},
+	{
+		"nf-cod-symbol_color",
+		"",
+	},
+	{
+		"nf-cod-symbol_constant",
+		"",
+	},
+	{
+		"nf-cod-symbol_enum",
+		"",
+	},
+	{
+		"nf-cod-symbol_enum_member",
+		"",
+	},
+	{
+		"nf-cod-symbol_event",
+		"",
+	},
+	{
+		"nf-cod-symbol_field",
+		"",
+	},
+	{
+		"nf-cod-symbol_file",
+		"",
+	},
+	{
+		"nf-cod-symbol_interface",
+		"",
+	},
+	{
+		"nf-cod-symbol_key",
+		"",
+	},
+	{
+		"nf-cod-symbol_keyword",
+		"",
+	},
+	{
+		"nf-cod-symbol_method",
+		"",
+	},
+	{
+		"nf-cod-symbol_misc",
+		"",
+	},
+	{
+		"nf-cod-symbol_namespace",
+		"",
+	},
+	{
+		"nf-cod-symbol_numeric",
+		"",
+	},
+	{
+		"nf-cod-symbol_operator",
+		"",
+	},
+	{
+		"nf-cod-symbol_parameter",
+		"",
+	},
+	{
+		"nf-cod-symbol_property",
+		"",
+	},
+	{
+		"nf-cod-symbol_ruler",
+		"",
+	},
+	{
+		"nf-cod-symbol_snippet",
+		"",
+	},
+	{
+		"nf-cod-symbol_string",
+		"",
+	},
+	{
+		"nf-cod-symbol_structure",
+		"",
+	},
+	{
+		"nf-cod-symbol_variable",
+		"",
+	},
+	{
+		"nf-cod-sync",
+		"",
+	},
+	{
+		"nf-cod-sync_ignored",
+		"",
+	},
+	{
+		"nf-cod-table",
+		"",
+	},
+	{
+		"nf-cod-tag",
+		"",
+	},
+	{
+		"nf-cod-tasklist",
+		"",
+	},
+	{
+		"nf-cod-telescope",
+		"",
+	},
+	{
+		"nf-cod-terminal",
+		"",
+	},
+	{
+		"nf-cod-terminal_bash",
+		"",
+	},
+	{
+		"nf-cod-terminal_cmd",
+		"",
+	},
+	{
+		"nf-cod-terminal_debian",
+		"",
+	},
+	{
+		"nf-cod-terminal_linux",
+		"",
+	},
+	{
+		"nf-cod-terminal_powershell",
+		"",
+	},
+	{
+		"nf-cod-terminal_tmux",
+		"",
+	},
+	{
+		"nf-cod-terminal_ubuntu",
+		"",
+	},
+	{
+		"nf-cod-text_size",
+		"",
+	},
+	{
+		"nf-cod-three_bars",
+		"",
+	},
+	{
+		"nf-cod-thumbsdown",
+		"",
+	},
+	{
+		"nf-cod-thumbsup",
+		"",
+	},
+	{
+		"nf-cod-tools",
+		"",
+	},
+	{
+		"nf-cod-trash",
+		"",
+	},
+	{
+		"nf-cod-triangle_down",
+		"",
+	},
+	{
+		"nf-cod-triangle_left",
+		"",
+	},
+	{
+		"nf-cod-triangle_right",
+		"",
+	},
+	{
+		"nf-cod-triangle_up",
+		"",
+	},
+	{
+		"nf-cod-twitter",
+		"",
+	},
+	{
+		"nf-cod-type_hierarchy",
+		"",
+	},
+	{
+		"nf-cod-type_hierarchy_sub",
+		"",
+	},
+	{
+		"nf-cod-type_hierarchy_super",
+		"",
+	},
+	{
+		"nf-cod-unfold",
+		"",
+	},
+	{
+		"nf-cod-ungroup_by_ref_type",
+		"",
+	},
+	{
+		"nf-cod-unlock",
+		"",
+	},
+	{
+		"nf-cod-unmute",
+		"",
+	},
+	{
+		"nf-cod-unverified",
+		"",
+	},
+	{
+		"nf-cod-variable_group",
+		"",
+	},
+	{
+		"nf-cod-verified",
+		"",
+	},
+	{
+		"nf-cod-verified_filled",
+		"",
+	},
+	{
+		"nf-cod-versions",
+		"",
+	},
+	{
+		"nf-cod-vm",
+		"",
+	},
+	{
+		"nf-cod-vm_active",
+		"",
+	},
+	{
+		"nf-cod-vm_connect",
+		"",
+	},
+	{
+		"nf-cod-vm_outline",
+		"",
+	},
+	{
+		"nf-cod-vm_running",
+		"",
+	},
+	{
+		"nf-cod-wand",
+		"",
+	},
+	{
+		"nf-cod-warning",
+		"",
+	},
+	{
+		"nf-cod-watch",
+		"",
+	},
+	{
+		"nf-cod-whitespace",
+		"",
+	},
+	{
+		"nf-cod-whole_word",
+		"",
+	},
+	{
+		"nf-cod-window",
+		"",
+	},
+	{
+		"nf-cod-word_wrap",
+		"",
+	},
+	{
+		"nf-cod-workspace_trusted",
+		"",
+	},
+	{
+		"nf-cod-workspace_unknown",
+		"",
+	},
+	{
+		"nf-cod-workspace_untrusted",
+		"",
+	},
+	{
+		"nf-cod-zoom_in",
+		"",
+	},
+	{
+		"nf-cod-zoom_out",
+		"",
+	},
+	{
+		"nf-custom-asm",
+		"",
+	},
+	{
+		"nf-custom-c",
+		"",
+	},
+	{
+		"nf-custom-cpp",
+		"",
+	},
+	{
+		"nf-custom-crystal",
+		"",
+	},
+	{
+		"nf-custom-default",
+		"",
+	},
+	{
+		"nf-custom-electron",
+		"",
+	},
+	{
+		"nf-custom-elixir",
+		"",
+	},
+	{
+		"nf-custom-elm",
+		"",
+	},
+	{
+		"nf-custom-emacs",
+		"",
+	},
+	{
+		"nf-custom-folder",
+		"",
+	},
+	{
+		"nf-custom-folder_config",
+		"",
+	},
+	{
+		"nf-custom-folder_git",
+		"",
+	},
+	{
+		"nf-custom-folder_git_branch",
+		"",
+	},
+	{
+		"nf-custom-folder_github",
+		"",
+	},
+	{
+		"nf-custom-folder_npm",
+		"",
+	},
+	{
+		"nf-custom-folder_open",
+		"",
+	},
+	{
+		"nf-custom-go",
+		"",
+	},
+	{
+		"nf-custom-home",
+		"",
+	},
+	{
+		"nf-custom-kotlin",
+		"",
+	},
+	{
+		"nf-custom-msdos",
+		"",
+	},
+	{
+		"nf-custom-orgmode",
+		"",
+	},
+	{
+		"nf-custom-play_arrow",
+		"",
+	},
+	{
+		"nf-custom-puppet",
+		"",
+	},
+	{
+		"nf-custom-purescript",
+		"",
+	},
+	{
+		"nf-custom-v_lang",
+		"",
+	},
+	{
+		"nf-custom-vim",
+		"",
+	},
+	{
+		"nf-custom-windows",
+		"",
+	},
+	{
+		"nf-dev-android",
+		"",
+	},
+	{
+		"nf-dev-angular",
+		"",
+	},
+	{
+		"nf-dev-appcelerator",
+		"",
+	},
+	{
+		"nf-dev-apple",
+		"",
+	},
+	{
+		"nf-dev-appstore",
+		"",
+	},
+	{
+		"nf-dev-aptana",
+		"",
+	},
+	{
+		"nf-dev-asterisk",
+		"",
+	},
+	{
+		"nf-dev-atlassian",
+		"",
+	},
+	{
+		"nf-dev-atom",
+		"",
+	},
+	{
+		"nf-dev-aws",
+		"",
+	},
+	{
+		"nf-dev-backbone",
+		"",
+	},
+	{
+		"nf-dev-bing_small",
+		"",
+	},
+	{
+		"nf-dev-bintray",
+		"",
+	},
+	{
+		"nf-dev-bitbucket",
+		"",
+	},
+	{
+		"nf-dev-blackberry",
+		"",
+	},
+	{
+		"nf-dev-bootstrap",
+		"",
+	},
+	{
+		"nf-dev-bower",
+		"",
+	},
+	{
+		"nf-dev-brackets",
+		"",
+	},
+	{
+		"nf-dev-bugsense",
+		"",
+	},
+	{
+		"nf-dev-celluloid",
+		"",
+	},
+	{
+		"nf-dev-chart",
+		"",
+	},
+	{
+		"nf-dev-chrome",
+		"",
+	},
+	{
+		"nf-dev-cisco",
+		"",
+	},
+	{
+		"nf-dev-clojure",
+		"",
+	},
+	{
+		"nf-dev-clojure_alt",
+		"",
+	},
+	{
+		"nf-dev-cloud9",
+		"",
+	},
+	{
+		"nf-dev-coda",
+		"",
+	},
+	{
+		"nf-dev-code",
+		"",
+	},
+	{
+		"nf-dev-code_badge",
+		"",
+	},
+	{
+		"nf-dev-codeigniter",
+		"",
+	},
+	{
+		"nf-dev-codepen",
+		"",
+	},
+	{
+		"nf-dev-codrops",
+		"",
+	},
+	{
+		"nf-dev-coffeescript",
+		"",
+	},
+	{
+		"nf-dev-compass",
+		"",
+	},
+	{
+		"nf-dev-composer",
+		"",
+	},
+	{
+		"nf-dev-creativecommons",
+		"",
+	},
+	{
+		"nf-dev-creativecommons_badge",
+		"",
+	},
+	{
+		"nf-dev-css3",
+		"",
+	},
+	{
+		"nf-dev-css3_full",
+		"",
+	},
+	{
+		"nf-dev-css_tricks",
+		"",
+	},
+	{
+		"nf-dev-cssdeck",
+		"",
+	},
+	{
+		"nf-dev-dart",
+		"",
+	},
+	{
+		"nf-dev-database",
+		"",
+	},
+	{
+		"nf-dev-debian",
+		"",
+	},
+	{
+		"nf-dev-digital_ocean",
+		"",
+	},
+	{
+		"nf-dev-django",
+		"",
+	},
+	{
+		"nf-dev-dlang",
+		"",
+	},
+	{
+		"nf-dev-docker",
+		"",
+	},
+	{
+		"nf-dev-doctrine",
+		"",
+	},
+	{
+		"nf-dev-dojo",
+		"",
+	},
+	{
+		"nf-dev-dotnet",
+		"",
+	},
+	{
+		"nf-dev-dreamweaver",
+		"",
+	},
+	{
+		"nf-dev-dropbox",
+		"",
+	},
+	{
+		"nf-dev-drupal",
+		"",
+	},
+	{
+		"nf-dev-eclipse",
+		"",
+	},
+	{
+		"nf-dev-ember",
+		"",
+	},
+	{
+		"nf-dev-envato",
+		"",
+	},
+	{
+		"nf-dev-erlang",
+		"",
+	},
+	{
+		"nf-dev-extjs",
+		"",
+	},
+	{
+		"nf-dev-firebase",
+		"",
+	},
+	{
+		"nf-dev-firefox",
+		"",
+	},
+	{
+		"nf-dev-fsharp",
+		"",
+	},
+	{
+		"nf-dev-ghost",
+		"",
+	},
+	{
+		"nf-dev-ghost_small",
+		"",
+	},
+	{
+		"nf-dev-git",
+		"",
+	},
+	{
+		"nf-dev-git_branch",
+		"",
+	},
+	{
+		"nf-dev-git_commit",
+		"",
+	},
+	{
+		"nf-dev-git_compare",
+		"",
+	},
+	{
+		"nf-dev-git_merge",
+		"",
+	},
+	{
+		"nf-dev-git_pull_request",
+		"",
+	},
+	{
+		"nf-dev-github",
+		"",
+	},
+	{
+		"nf-dev-github_alt",
+		"",
+	},
+	{
+		"nf-dev-github_badge",
+		"",
+	},
+	{
+		"nf-dev-github_full",
+		"",
+	},
+	{
+		"nf-dev-gnu",
+		"",
+	},
+	{
+		"nf-dev-go",
+		"",
+	},
+	{
+		"nf-dev-google_cloud_platform",
+		"",
+	},
+	{
+		"nf-dev-google_drive",
+		"",
+	},
+	{
+		"nf-dev-grails",
+		"",
+	},
+	{
+		"nf-dev-groovy",
+		"",
+	},
+	{
+		"nf-dev-grunt",
+		"",
+	},
+	{
+		"nf-dev-gulp",
+		"",
+	},
+	{
+		"nf-dev-hackernews",
+		"",
+	},
+	{
+		"nf-dev-haskell",
+		"",
+	},
+	{
+		"nf-dev-heroku",
+		"",
+	},
+	{
+		"nf-dev-html5",
+		"",
+	},
+	{
+		"nf-dev-html5_3d_effects",
+		"",
+	},
+	{
+		"nf-dev-html5_connectivity",
+		"",
+	},
+	{
+		"nf-dev-html5_device_access",
+		"",
+	},
+	{
+		"nf-dev-html5_multimedia",
+		"",
+	},
+	{
+		"nf-dev-ie",
+		"",
+	},
+	{
+		"nf-dev-illustrator",
+		"",
+	},
+	{
+		"nf-dev-intellij",
+		"",
+	},
+	{
+		"nf-dev-ionic",
+		"",
+	},
+	{
+		"nf-dev-java",
+		"",
+	},
+	{
+		"nf-dev-javascript",
+		"",
+	},
+	{
+		"nf-dev-javascript_badge",
+		"",
+	},
+	{
+		"nf-dev-javascript_shield",
+		"",
+	},
+	{
+		"nf-dev-jekyll_small",
+		"",
+	},
+	{
+		"nf-dev-jenkins",
+		"",
+	},
+	{
+		"nf-dev-jira",
+		"",
+	},
+	{
+		"nf-dev-joomla",
+		"",
+	},
+	{
+		"nf-dev-jquery",
+		"",
+	},
+	{
+		"nf-dev-jquery_ui",
+		"",
+	},
+	{
+		"nf-dev-komodo",
+		"",
+	},
+	{
+		"nf-dev-krakenjs",
+		"",
+	},
+	{
+		"nf-dev-krakenjs_badge",
+		"",
+	},
+	{
+		"nf-dev-laravel",
+		"",
+	},
+	{
+		"nf-dev-less",
+		"",
+	},
+	{
+		"nf-dev-linux",
+		"",
+	},
+	{
+		"nf-dev-magento",
+		"",
+	},
+	{
+		"nf-dev-mailchimp",
+		"",
+	},
+	{
+		"nf-dev-markdown",
+		"",
+	},
+	{
+		"nf-dev-materializecss",
+		"",
+	},
+	{
+		"nf-dev-meteor",
+		"",
+	},
+	{
+		"nf-dev-meteorfull",
+		"",
+	},
+	{
+		"nf-dev-mitlicence",
+		"",
+	},
+	{
+		"nf-dev-modernizr",
+		"",
+	},
+	{
+		"nf-dev-mongodb",
+		"",
+	},
+	{
+		"nf-dev-mootools",
+		"",
+	},
+	{
+		"nf-dev-mootools_badge",
+		"",
+	},
+	{
+		"nf-dev-mozilla",
+		"",
+	},
+	{
+		"nf-dev-msql_server",
+		"",
+	},
+	{
+		"nf-dev-mysql",
+		"",
+	},
+	{
+		"nf-dev-nancy",
+		"",
+	},
+	{
+		"nf-dev-netbeans",
+		"",
+	},
+	{
+		"nf-dev-netmagazine",
+		"",
+	},
+	{
+		"nf-dev-nginx",
+		"",
+	},
+	{
+		"nf-dev-nodejs",
+		"",
+	},
+	{
+		"nf-dev-nodejs_small",
+		"",
+	},
+	{
+		"nf-dev-npm",
+		"",
+	},
+	{
+		"nf-dev-onedrive",
+		"",
+	},
+	{
+		"nf-dev-openshift",
+		"",
+	},
+	{
+		"nf-dev-opensource",
+		"",
+	},
+	{
+		"nf-dev-opera",
+		"",
+	},
+	{
+		"nf-dev-perl",
+		"",
+	},
+	{
+		"nf-dev-phonegap",
+		"",
+	},
+	{
+		"nf-dev-photoshop",
+		"",
+	},
+	{
+		"nf-dev-php",
+		"",
+	},
+	{
+		"nf-dev-postgresql",
+		"",
+	},
+	{
+		"nf-dev-prolog",
+		"",
+	},
+	{
+		"nf-dev-python",
+		"",
+	},
+	{
+		"nf-dev-rackspace",
+		"",
+	},
+	{
+		"nf-dev-raphael",
+		"",
+	},
+	{
+		"nf-dev-rasberry_pi",
+		"",
+	},
+	{
+		"nf-dev-react",
+		"",
+	},
+	{
+		"nf-dev-redhat",
+		"",
+	},
+	{
+		"nf-dev-redis",
+		"",
+	},
+	{
+		"nf-dev-requirejs",
+		"",
+	},
+	{
+		"nf-dev-responsive",
+		"",
+	},
+	{
+		"nf-dev-ruby",
+		"",
+	},
+	{
+		"nf-dev-ruby_on_rails",
+		"",
+	},
+	{
+		"nf-dev-ruby_rough",
+		"",
+	},
+	{
+		"nf-dev-rust",
+		"",
+	},
+	{
+		"nf-dev-safari",
+		"",
+	},
+	{
+		"nf-dev-sass",
+		"",
+	},
+	{
+		"nf-dev-scala",
+		"",
+	},
+	{
+		"nf-dev-scriptcs",
+		"",
+	},
+	{
+		"nf-dev-scrum",
+		"",
+	},
+	{
+		"nf-dev-senchatouch",
+		"",
+	},
+	{
+		"nf-dev-sizzlejs",
+		"",
+	},
+	{
+		"nf-dev-smashing_magazine",
+		"",
+	},
+	{
+		"nf-dev-snap_svg",
+		"",
+	},
+	{
+		"nf-dev-sqllite",
+		"",
+	},
+	{
+		"nf-dev-stackoverflow",
+		"",
+	},
+	{
+		"nf-dev-streamline",
+		"",
+	},
+	{
+		"nf-dev-stylus",
+		"",
+	},
+	{
+		"nf-dev-sublime",
+		"",
+	},
+	{
+		"nf-dev-swift",
+		"",
+	},
+	{
+		"nf-dev-symfony",
+		"",
+	},
+	{
+		"nf-dev-symfony_badge",
+		"",
+	},
+	{
+		"nf-dev-techcrunch",
+		"",
+	},
+	{
+		"nf-dev-terminal",
+		"",
+	},
+	{
+		"nf-dev-terminal_badge",
+		"",
+	},
+	{
+		"nf-dev-travis",
+		"",
+	},
+	{
+		"nf-dev-trello",
+		"",
+	},
+	{
+		"nf-dev-typo3",
+		"",
+	},
+	{
+		"nf-dev-ubuntu",
+		"",
+	},
+	{
+		"nf-dev-uikit",
+		"",
+	},
+	{
+		"nf-dev-unity_small",
+		"",
+	},
+	{
+		"nf-dev-vim",
+		"",
+	},
+	{
+		"nf-dev-visualstudio",
+		"",
+	},
+	{
+		"nf-dev-w3c",
+		"",
+	},
+	{
+		"nf-dev-webplatform",
+		"",
+	},
+	{
+		"nf-dev-windows",
+		"",
+	},
+	{
+		"nf-dev-wordpress",
+		"",
+	},
+	{
+		"nf-dev-yahoo",
+		"",
+	},
+	{
+		"nf-dev-yahoo_small",
+		"",
+	},
+	{
+		"nf-dev-yeoman",
+		"",
+	},
+	{
+		"nf-dev-yii",
+		"",
+	},
+	{
+		"nf-dev-zend",
+		"",
+	},
+	{
+		"nf-fa-500px",
+		"",
+	},
+	{
+		"nf-fa-address_book",
+		"",
+	},
+	{
+		"nf-fa-address_book_o",
+		"",
+	},
+	{
+		"nf-fa-address_card",
+		"",
+	},
+	{
+		"nf-fa-address_card_o",
+		"",
+	},
+	{
+		"nf-fa-adjust",
+		"",
+	},
+	{
+		"nf-fa-adn",
+		"",
+	},
+	{
+		"nf-fa-align_center",
+		"",
+	},
+	{
+		"nf-fa-align_justify",
+		"",
+	},
+	{
+		"nf-fa-align_left",
+		"",
+	},
+	{
+		"nf-fa-align_right",
+		"",
+	},
+	{
+		"nf-fa-amazon",
+		"",
+	},
+	{
+		"nf-fa-ambulance",
+		"",
+	},
+	{
+		"nf-fa-american_sign_language_interpreting",
+		"",
+	},
+	{
+		"nf-fa-anchor",
+		"",
+	},
+	{
+		"nf-fa-android",
+		"",
+	},
+	{
+		"nf-fa-angellist",
+		"",
+	},
+	{
+		"nf-fa-angle_double_down",
+		"",
+	},
+	{
+		"nf-fa-angle_double_left",
+		"",
+	},
+	{
+		"nf-fa-angle_double_right",
+		"",
+	},
+	{
+		"nf-fa-angle_double_up",
+		"",
+	},
+	{
+		"nf-fa-angle_down",
+		"",
+	},
+	{
+		"nf-fa-angle_left",
+		"",
+	},
+	{
+		"nf-fa-angle_right",
+		"",
+	},
+	{
+		"nf-fa-angle_up",
+		"",
+	},
+	{
+		"nf-fa-apple",
+		"",
+	},
+	{
+		"nf-fa-archive",
+		"",
+	},
+	{
+		"nf-fa-area_chart",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_down",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_left",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_o_down",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_o_left",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_o_right",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_o_up",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_right",
+		"",
+	},
+	{
+		"nf-fa-arrow_circle_up",
+		"",
+	},
+	{
+		"nf-fa-arrow_down",
+		"",
+	},
+	{
+		"nf-fa-arrow_left",
+		"",
+	},
+	{
+		"nf-fa-arrow_right",
+		"",
+	},
+	{
+		"nf-fa-arrow_up",
+		"",
+	},
+	{
+		"nf-fa-arrows",
+		"",
+	},
+	{
+		"nf-fa-arrows_alt",
+		"",
+	},
+	{
+		"nf-fa-arrows_h",
+		"",
+	},
+	{
+		"nf-fa-arrows_v",
+		"",
+	},
+	{
+		"nf-fa-asl_interpreting",
+		"",
+	},
+	{
+		"nf-fa-assistive_listening_systems",
+		"",
+	},
+	{
+		"nf-fa-asterisk",
+		"",
+	},
+	{
+		"nf-fa-at",
+		"",
+	},
+	{
+		"nf-fa-audio_description",
+		"",
+	},
+	{
+		"nf-fa-automobile",
+		"",
+	},
+	{
+		"nf-fa-backward",
+		"",
+	},
+	{
+		"nf-fa-balance_scale",
+		"",
+	},
+	{
+		"nf-fa-ban",
+		"",
+	},
+	{
+		"nf-fa-bandcamp",
+		"",
+	},
+	{
+		"nf-fa-bank",
+		"",
+	},
+	{
+		"nf-fa-bar_chart",
+		"",
+	},
+	{
+		"nf-fa-bar_chart_o",
+		"",
+	},
+	{
+		"nf-fa-barcode",
+		"",
+	},
+	{
+		"nf-fa-bars",
+		"",
+	},
+	{
+		"nf-fa-bath",
+		"",
+	},
+	{
+		"nf-fa-bathtub",
+		"",
+	},
+	{
+		"nf-fa-battery",
+		"",
+	},
+	{
+		"nf-fa-battery_0",
+		"",
+	},
+	{
+		"nf-fa-battery_1",
+		"",
+	},
+	{
+		"nf-fa-battery_2",
+		"",
+	},
+	{
+		"nf-fa-battery_3",
+		"",
+	},
+	{
+		"nf-fa-battery_4",
+		"",
+	},
+	{
+		"nf-fa-battery_empty",
+		"",
+	},
+	{
+		"nf-fa-battery_full",
+		"",
+	},
+	{
+		"nf-fa-battery_half",
+		"",
+	},
+	{
+		"nf-fa-battery_quarter",
+		"",
+	},
+	{
+		"nf-fa-battery_three_quarters",
+		"",
+	},
+	{
+		"nf-fa-bed",
+		"",
+	},
+	{
+		"nf-fa-beer",
+		"",
+	},
+	{
+		"nf-fa-behance",
+		"",
+	},
+	{
+		"nf-fa-behance_square",
+		"",
+	},
+	{
+		"nf-fa-bell",
+		"",
+	},
+	{
+		"nf-fa-bell_o",
+		"",
+	},
+	{
+		"nf-fa-bell_slash",
+		"",
+	},
+	{
+		"nf-fa-bell_slash_o",
+		"",
+	},
+	{
+		"nf-fa-bicycle",
+		"",
+	},
+	{
+		"nf-fa-binoculars",
+		"",
+	},
+	{
+		"nf-fa-birthday_cake",
+		"",
+	},
+	{
+		"nf-fa-bitbucket",
+		"",
+	},
+	{
+		"nf-fa-bitbucket_square",
+		"",
+	},
+	{
+		"nf-fa-bitcoin",
+		"",
+	},
+	{
+		"nf-fa-black_tie",
+		"",
+	},
+	{
+		"nf-fa-blind",
+		"",
+	},
+	{
+		"nf-fa-bluetooth",
+		"",
+	},
+	{
+		"nf-fa-bluetooth_b",
+		"",
+	},
+	{
+		"nf-fa-bold",
+		"",
+	},
+	{
+		"nf-fa-bolt",
+		"",
+	},
+	{
+		"nf-fa-bomb",
+		"",
+	},
+	{
+		"nf-fa-book",
+		"",
+	},
+	{
+		"nf-fa-bookmark",
+		"",
+	},
+	{
+		"nf-fa-bookmark_o",
+		"",
+	},
+	{
+		"nf-fa-braille",
+		"",
+	},
+	{
+		"nf-fa-briefcase",
+		"",
+	},
+	{
+		"nf-fa-btc",
+		"",
+	},
+	{
+		"nf-fa-bug",
+		"",
+	},
+	{
+		"nf-fa-building",
+		"",
+	},
+	{
+		"nf-fa-building_o",
+		"",
+	},
+	{
+		"nf-fa-bullhorn",
+		"",
+	},
+	{
+		"nf-fa-bullseye",
+		"",
+	},
+	{
+		"nf-fa-bus",
+		"",
+	},
+	{
+		"nf-fa-buysellads",
+		"",
+	},
+	{
+		"nf-fa-cab",
+		"",
+	},
+	{
+		"nf-fa-calculator",
+		"",
+	},
+	{
+		"nf-fa-calendar",
+		"",
+	},
+	{
+		"nf-fa-calendar_check_o",
+		"",
+	},
+	{
+		"nf-fa-calendar_minus_o",
+		"",
+	},
+	{
+		"nf-fa-calendar_o",
+		"",
+	},
+	{
+		"nf-fa-calendar_plus_o",
+		"",
+	},
+	{
+		"nf-fa-calendar_times_o",
+		"",
+	},
+	{
+		"nf-fa-camera",
+		"",
+	},
+	{
+		"nf-fa-camera_retro",
+		"",
+	},
+	{
+		"nf-fa-car",
+		"",
+	},
+	{
+		"nf-fa-caret_down",
+		"",
+	},
+	{
+		"nf-fa-caret_left",
+		"",
+	},
+	{
+		"nf-fa-caret_right",
+		"",
+	},
+	{
+		"nf-fa-caret_square_o_down",
+		"",
+	},
+	{
+		"nf-fa-caret_square_o_left",
+		"",
+	},
+	{
+		"nf-fa-caret_square_o_right",
+		"",
+	},
+	{
+		"nf-fa-caret_square_o_up",
+		"",
+	},
+	{
+		"nf-fa-caret_up",
+		"",
+	},
+	{
+		"nf-fa-cart_arrow_down",
+		"",
+	},
+	{
+		"nf-fa-cart_plus",
+		"",
+	},
+	{
+		"nf-fa-cc",
+		"",
+	},
+	{
+		"nf-fa-cc_amex",
+		"",
+	},
+	{
+		"nf-fa-cc_diners_club",
+		"",
+	},
+	{
+		"nf-fa-cc_discover",
+		"",
+	},
+	{
+		"nf-fa-cc_jcb",
+		"",
+	},
+	{
+		"nf-fa-cc_mastercard",
+		"",
+	},
+	{
+		"nf-fa-cc_paypal",
+		"",
+	},
+	{
+		"nf-fa-cc_stripe",
+		"",
+	},
+	{
+		"nf-fa-cc_visa",
+		"",
+	},
+	{
+		"nf-fa-certificate",
+		"",
+	},
+	{
+		"nf-fa-chain",
+		"",
+	},
+	{
+		"nf-fa-chain_broken",
+		"",
+	},
+	{
+		"nf-fa-check",
+		"",
+	},
+	{
+		"nf-fa-check_circle",
+		"",
+	},
+	{
+		"nf-fa-check_circle_o",
+		"",
+	},
+	{
+		"nf-fa-check_square",
+		"",
+	},
+	{
+		"nf-fa-check_square_o",
+		"",
+	},
+	{
+		"nf-fa-chevron_circle_down",
+		"",
+	},
+	{
+		"nf-fa-chevron_circle_left",
+		"",
+	},
+	{
+		"nf-fa-chevron_circle_right",
+		"",
+	},
+	{
+		"nf-fa-chevron_circle_up",
+		"",
+	},
+	{
+		"nf-fa-chevron_down",
+		"",
+	},
+	{
+		"nf-fa-chevron_left",
+		"",
+	},
+	{
+		"nf-fa-chevron_right",
+		"",
+	},
+	{
+		"nf-fa-chevron_up",
+		"",
+	},
+	{
+		"nf-fa-child",
+		"",
+	},
+	{
+		"nf-fa-chrome",
+		"",
+	},
+	{
+		"nf-fa-circle",
+		"",
+	},
+	{
+		"nf-fa-circle_o",
+		"",
+	},
+	{
+		"nf-fa-circle_o_notch",
+		"",
+	},
+	{
+		"nf-fa-circle_thin",
+		"",
+	},
+	{
+		"nf-fa-clipboard",
+		"",
+	},
+	{
+		"nf-fa-clock_o",
+		"",
+	},
+	{
+		"nf-fa-clone",
+		"",
+	},
+	{
+		"nf-fa-close",
+		"",
+	},
+	{
+		"nf-fa-cloud",
+		"",
+	},
+	{
+		"nf-fa-cloud_download",
+		"",
+	},
+	{
+		"nf-fa-cloud_upload",
+		"",
+	},
+	{
+		"nf-fa-cny",
+		"",
+	},
+	{
+		"nf-fa-code",
+		"",
+	},
+	{
+		"nf-fa-code_fork",
+		"",
+	},
+	{
+		"nf-fa-codepen",
+		"",
+	},
+	{
+		"nf-fa-codiepie",
+		"",
+	},
+	{
+		"nf-fa-coffee",
+		"",
+	},
+	{
+		"nf-fa-cog",
+		"",
+	},
+	{
+		"nf-fa-cogs",
+		"",
+	},
+	{
+		"nf-fa-columns",
+		"",
+	},
+	{
+		"nf-fa-comment",
+		"",
+	},
+	{
+		"nf-fa-comment_o",
+		"",
+	},
+	{
+		"nf-fa-commenting",
+		"",
+	},
+	{
+		"nf-fa-commenting_o",
+		"",
+	},
+	{
+		"nf-fa-comments",
+		"",
+	},
+	{
+		"nf-fa-comments_o",
+		"",
+	},
+	{
+		"nf-fa-compass",
+		"",
+	},
+	{
+		"nf-fa-compress",
+		"",
+	},
+	{
+		"nf-fa-connectdevelop",
+		"",
+	},
+	{
+		"nf-fa-contao",
+		"",
+	},
+	{
+		"nf-fa-copy",
+		"",
+	},
+	{
+		"nf-fa-copyright",
+		"",
+	},
+	{
+		"nf-fa-creative_commons",
+		"",
+	},
+	{
+		"nf-fa-credit_card",
+		"",
+	},
+	{
+		"nf-fa-credit_card_alt",
+		"",
+	},
+	{
+		"nf-fa-crop",
+		"",
+	},
+	{
+		"nf-fa-crosshairs",
+		"",
+	},
+	{
+		"nf-fa-css3",
+		"",
+	},
+	{
+		"nf-fa-cube",
+		"",
+	},
+	{
+		"nf-fa-cubes",
+		"",
+	},
+	{
+		"nf-fa-cut",
+		"",
+	},
+	{
+		"nf-fa-cutlery",
+		"",
+	},
+	{
+		"nf-fa-dashboard",
+		"",
+	},
+	{
+		"nf-fa-dashcube",
+		"",
+	},
+	{
+		"nf-fa-database",
+		"",
+	},
+	{
+		"nf-fa-deaf",
+		"",
+	},
+	{
+		"nf-fa-deafness",
+		"",
+	},
+	{
+		"nf-fa-dedent",
+		"",
+	},
+	{
+		"nf-fa-delicious",
+		"",
+	},
+	{
+		"nf-fa-desktop",
+		"",
+	},
+	{
+		"nf-fa-deviantart",
+		"",
+	},
+	{
+		"nf-fa-diamond",
+		"",
+	},
+	{
+		"nf-fa-digg",
+		"",
+	},
+	{
+		"nf-fa-dollar",
+		"",
+	},
+	{
+		"nf-fa-dot_circle_o",
+		"",
+	},
+	{
+		"nf-fa-download",
+		"",
+	},
+	{
+		"nf-fa-dribbble",
+		"",
+	},
+	{
+		"nf-fa-drivers_license",
+		"",
+	},
+	{
+		"nf-fa-drivers_license_o",
+		"",
+	},
+	{
+		"nf-fa-dropbox",
+		"",
+	},
+	{
+		"nf-fa-drupal",
+		"",
+	},
+	{
+		"nf-fa-edge",
+		"",
+	},
+	{
+		"nf-fa-edit",
+		"",
+	},
+	{
+		"nf-fa-eercast",
+		"",
+	},
+	{
+		"nf-fa-eject",
+		"",
+	},
+	{
+		"nf-fa-ellipsis_h",
+		"",
+	},
+	{
+		"nf-fa-ellipsis_v",
+		"",
+	},
+	{
+		"nf-fa-empire",
+		"",
+	},
+	{
+		"nf-fa-envelope",
+		"",
+	},
+	{
+		"nf-fa-envelope_o",
+		"",
+	},
+	{
+		"nf-fa-envelope_open",
+		"",
+	},
+	{
+		"nf-fa-envelope_open_o",
+		"",
+	},
+	{
+		"nf-fa-envelope_square",
+		"",
+	},
+	{
+		"nf-fa-envira",
+		"",
+	},
+	{
+		"nf-fa-eraser",
+		"",
+	},
+	{
+		"nf-fa-etsy",
+		"",
+	},
+	{
+		"nf-fa-eur",
+		"",
+	},
+	{
+		"nf-fa-euro",
+		"",
+	},
+	{
+		"nf-fa-exchange",
+		"",
+	},
+	{
+		"nf-fa-exclamation",
+		"",
+	},
+	{
+		"nf-fa-exclamation_circle",
+		"",
+	},
+	{
+		"nf-fa-exclamation_triangle",
+		"",
+	},
+	{
+		"nf-fa-expand",
+		"",
+	},
+	{
+		"nf-fa-expeditedssl",
+		"",
+	},
+	{
+		"nf-fa-external_link",
+		"",
+	},
+	{
+		"nf-fa-external_link_square",
+		"",
+	},
+	{
+		"nf-fa-eye",
+		"",
+	},
+	{
+		"nf-fa-eye_slash",
+		"",
+	},
+	{
+		"nf-fa-eyedropper",
+		"",
+	},
+	{
+		"nf-fa-fa",
+		"",
+	},
+	{
+		"nf-fa-facebook",
+		"",
+	},
+	{
+		"nf-fa-facebook_f",
+		"",
+	},
+	{
+		"nf-fa-facebook_official",
+		"",
+	},
+	{
+		"nf-fa-facebook_square",
+		"",
+	},
+	{
+		"nf-fa-fast_backward",
+		"",
+	},
+	{
+		"nf-fa-fast_forward",
+		"",
+	},
+	{
+		"nf-fa-fax",
+		"",
+	},
+	{
+		"nf-fa-feed",
+		"",
+	},
+	{
+		"nf-fa-female",
+		"",
+	},
+	{
+		"nf-fa-fighter_jet",
+		"",
+	},
+	{
+		"nf-fa-file",
+		"",
+	},
+	{
+		"nf-fa-file_archive_o",
+		"",
+	},
+	{
+		"nf-fa-file_audio_o",
+		"",
+	},
+	{
+		"nf-fa-file_code_o",
+		"",
+	},
+	{
+		"nf-fa-file_excel_o",
+		"",
+	},
+	{
+		"nf-fa-file_image_o",
+		"",
+	},
+	{
+		"nf-fa-file_movie_o",
+		"",
+	},
+	{
+		"nf-fa-file_o",
+		"",
+	},
+	{
+		"nf-fa-file_pdf_o",
+		"",
+	},
+	{
+		"nf-fa-file_photo_o",
+		"",
+	},
+	{
+		"nf-fa-file_picture_o",
+		"",
+	},
+	{
+		"nf-fa-file_powerpoint_o",
+		"",
+	},
+	{
+		"nf-fa-file_sound_o",
+		"",
+	},
+	{
+		"nf-fa-file_text",
+		"",
+	},
+	{
+		"nf-fa-file_text_o",
+		"",
+	},
+	{
+		"nf-fa-file_video_o",
+		"",
+	},
+	{
+		"nf-fa-file_word_o",
+		"",
+	},
+	{
+		"nf-fa-file_zip_o",
+		"",
+	},
+	{
+		"nf-fa-files_o",
+		"",
+	},
+	{
+		"nf-fa-film",
+		"",
+	},
+	{
+		"nf-fa-filter",
+		"",
+	},
+	{
+		"nf-fa-fire",
+		"",
+	},
+	{
+		"nf-fa-fire_extinguisher",
+		"",
+	},
+	{
+		"nf-fa-firefox",
+		"",
+	},
+	{
+		"nf-fa-first_order",
+		"",
+	},
+	{
+		"nf-fa-flag",
+		"",
+	},
+	{
+		"nf-fa-flag_checkered",
+		"",
+	},
+	{
+		"nf-fa-flag_o",
+		"",
+	},
+	{
+		"nf-fa-flash",
+		"",
+	},
+	{
+		"nf-fa-flask",
+		"",
+	},
+	{
+		"nf-fa-flickr",
+		"",
+	},
+	{
+		"nf-fa-floppy_o",
+		"",
+	},
+	{
+		"nf-fa-folder",
+		"",
+	},
+	{
+		"nf-fa-folder_o",
+		"",
+	},
+	{
+		"nf-fa-folder_open",
+		"",
+	},
+	{
+		"nf-fa-folder_open_o",
+		"",
+	},
+	{
+		"nf-fa-font",
+		"",
+	},
+	{
+		"nf-fa-font_awesome",
+		"",
+	},
+	{
+		"nf-fa-fonticons",
+		"",
+	},
+	{
+		"nf-fa-fort_awesome",
+		"",
+	},
+	{
+		"nf-fa-forumbee",
+		"",
+	},
+	{
+		"nf-fa-forward",
+		"",
+	},
+	{
+		"nf-fa-foursquare",
+		"",
+	},
+	{
+		"nf-fa-free_code_camp",
+		"",
+	},
+	{
+		"nf-fa-frown_o",
+		"",
+	},
+	{
+		"nf-fa-futbol_o",
+		"",
+	},
+	{
+		"nf-fa-gamepad",
+		"",
+	},
+	{
+		"nf-fa-gavel",
+		"",
+	},
+	{
+		"nf-fa-gbp",
+		"",
+	},
+	{
+		"nf-fa-ge",
+		"",
+	},
+	{
+		"nf-fa-gear",
+		"",
+	},
+	{
+		"nf-fa-gears",
+		"",
+	},
+	{
+		"nf-fa-genderless",
+		"",
+	},
+	{
+		"nf-fa-get_pocket",
+		"",
+	},
+	{
+		"nf-fa-gg",
+		"",
+	},
+	{
+		"nf-fa-gg_circle",
+		"",
+	},
+	{
+		"nf-fa-gift",
+		"",
+	},
+	{
+		"nf-fa-git",
+		"",
+	},
+	{
+		"nf-fa-git_square",
+		"",
+	},
+	{
+		"nf-fa-github",
+		"",
+	},
+	{
+		"nf-fa-github_alt",
+		"",
+	},
+	{
+		"nf-fa-github_square",
+		"",
+	},
+	{
+		"nf-fa-gitlab",
+		"",
+	},
+	{
+		"nf-fa-gittip",
+		"",
+	},
+	{
+		"nf-fa-glass",
+		"",
+	},
+	{
+		"nf-fa-glide",
+		"",
+	},
+	{
+		"nf-fa-glide_g",
+		"",
+	},
+	{
+		"nf-fa-globe",
+		"",
+	},
+	{
+		"nf-fa-google",
+		"",
+	},
+	{
+		"nf-fa-google_plus",
+		"",
+	},
+	{
+		"nf-fa-google_plus_circle",
+		"",
+	},
+	{
+		"nf-fa-google_plus_official",
+		"",
+	},
+	{
+		"nf-fa-google_plus_square",
+		"",
+	},
+	{
+		"nf-fa-google_wallet",
+		"",
+	},
+	{
+		"nf-fa-graduation_cap",
+		"",
+	},
+	{
+		"nf-fa-gratipay",
+		"",
+	},
+	{
+		"nf-fa-grav",
+		"",
+	},
+	{
+		"nf-fa-group",
+		"",
+	},
+	{
+		"nf-fa-h_square",
+		"",
+	},
+	{
+		"nf-fa-hacker_news",
+		"",
+	},
+	{
+		"nf-fa-hand_grab_o",
+		"",
+	},
+	{
+		"nf-fa-hand_lizard_o",
+		"",
+	},
+	{
+		"nf-fa-hand_o_down",
+		"",
+	},
+	{
+		"nf-fa-hand_o_left",
+		"",
+	},
+	{
+		"nf-fa-hand_o_right",
+		"",
+	},
+	{
+		"nf-fa-hand_o_up",
+		"",
+	},
+	{
+		"nf-fa-hand_paper_o",
+		"",
+	},
+	{
+		"nf-fa-hand_peace_o",
+		"",
+	},
+	{
+		"nf-fa-hand_pointer_o",
+		"",
+	},
+	{
+		"nf-fa-hand_rock_o",
+		"",
+	},
+	{
+		"nf-fa-hand_scissors_o",
+		"",
+	},
+	{
+		"nf-fa-hand_spock_o",
+		"",
+	},
+	{
+		"nf-fa-hand_stop_o",
+		"",
+	},
+	{
+		"nf-fa-handshake_o",
+		"",
+	},
+	{
+		"nf-fa-hard_of_hearing",
+		"",
+	},
+	{
+		"nf-fa-hashtag",
+		"",
+	},
+	{
+		"nf-fa-hdd_o",
+		"",
+	},
+	{
+		"nf-fa-header",
+		"",
+	},
+	{
+		"nf-fa-headphones",
+		"",
+	},
+	{
+		"nf-fa-heart",
+		"",
+	},
+	{
+		"nf-fa-heart_o",
+		"",
+	},
+	{
+		"nf-fa-heartbeat",
+		"",
+	},
+	{
+		"nf-fa-history",
+		"",
+	},
+	{
+		"nf-fa-home",
+		"",
+	},
+	{
+		"nf-fa-hospital_o",
+		"",
+	},
+	{
+		"nf-fa-hotel",
+		"",
+	},
+	{
+		"nf-fa-hourglass",
+		"",
+	},
+	{
+		"nf-fa-hourglass_1",
+		"",
+	},
+	{
+		"nf-fa-hourglass_2",
+		"",
+	},
+	{
+		"nf-fa-hourglass_3",
+		"",
+	},
+	{
+		"nf-fa-hourglass_end",
+		"",
+	},
+	{
+		"nf-fa-hourglass_half",
+		"",
+	},
+	{
+		"nf-fa-hourglass_o",
+		"",
+	},
+	{
+		"nf-fa-hourglass_start",
+		"",
+	},
+	{
+		"nf-fa-houzz",
+		"",
+	},
+	{
+		"nf-fa-html5",
+		"",
+	},
+	{
+		"nf-fa-i_cursor",
+		"",
+	},
+	{
+		"nf-fa-id_badge",
+		"",
+	},
+	{
+		"nf-fa-id_card",
+		"",
+	},
+	{
+		"nf-fa-id_card_o",
+		"",
+	},
+	{
+		"nf-fa-ils",
+		"",
+	},
+	{
+		"nf-fa-image",
+		"",
+	},
+	{
+		"nf-fa-imdb",
+		"",
+	},
+	{
+		"nf-fa-inbox",
+		"",
+	},
+	{
+		"nf-fa-indent",
+		"",
+	},
+	{
+		"nf-fa-industry",
+		"",
+	},
+	{
+		"nf-fa-info",
+		"",
+	},
+	{
+		"nf-fa-info_circle",
+		"",
+	},
+	{
+		"nf-fa-inr",
+		"",
+	},
+	{
+		"nf-fa-instagram",
+		"",
+	},
+	{
+		"nf-fa-institution",
+		"",
+	},
+	{
+		"nf-fa-internet_explorer",
+		"",
+	},
+	{
+		"nf-fa-intersex",
+		"",
+	},
+	{
+		"nf-fa-ioxhost",
+		"",
+	},
+	{
+		"nf-fa-italic",
+		"",
+	},
+	{
+		"nf-fa-joomla",
+		"",
+	},
+	{
+		"nf-fa-jpy",
+		"",
+	},
+	{
+		"nf-fa-jsfiddle",
+		"",
+	},
+	{
+		"nf-fa-key",
+		"",
+	},
+	{
+		"nf-fa-keyboard_o",
+		"",
+	},
+	{
+		"nf-fa-krw",
+		"",
+	},
+	{
+		"nf-fa-language",
+		"",
+	},
+	{
+		"nf-fa-laptop",
+		"",
+	},
+	{
+		"nf-fa-lastfm",
+		"",
+	},
+	{
+		"nf-fa-lastfm_square",
+		"",
+	},
+	{
+		"nf-fa-leaf",
+		"",
+	},
+	{
+		"nf-fa-leanpub",
+		"",
+	},
+	{
+		"nf-fa-legal",
+		"",
+	},
+	{
+		"nf-fa-lemon_o",
+		"",
+	},
+	{
+		"nf-fa-level_down",
+		"",
+	},
+	{
+		"nf-fa-level_up",
+		"",
+	},
+	{
+		"nf-fa-life_bouy",
+		"",
+	},
+	{
+		"nf-fa-life_buoy",
+		"",
+	},
+	{
+		"nf-fa-life_ring",
+		"",
+	},
+	{
+		"nf-fa-life_saver",
+		"",
+	},
+	{
+		"nf-fa-lightbulb_o",
+		"",
+	},
+	{
+		"nf-fa-line_chart",
+		"",
+	},
+	{
+		"nf-fa-link",
+		"",
+	},
+	{
+		"nf-fa-linkedin",
+		"",
+	},
+	{
+		"nf-fa-linkedin_square",
+		"",
+	},
+	{
+		"nf-fa-linode",
+		"",
+	},
+	{
+		"nf-fa-linux",
+		"",
+	},
+	{
+		"nf-fa-list",
+		"",
+	},
+	{
+		"nf-fa-list_alt",
+		"",
+	},
+	{
+		"nf-fa-list_ol",
+		"",
+	},
+	{
+		"nf-fa-list_ul",
+		"",
+	},
+	{
+		"nf-fa-location_arrow",
+		"",
+	},
+	{
+		"nf-fa-lock",
+		"",
+	},
+	{
+		"nf-fa-long_arrow_down",
+		"",
+	},
+	{
+		"nf-fa-long_arrow_left",
+		"",
+	},
+	{
+		"nf-fa-long_arrow_right",
+		"",
+	},
+	{
+		"nf-fa-long_arrow_up",
+		"",
+	},
+	{
+		"nf-fa-low_vision",
+		"",
+	},
+	{
+		"nf-fa-magic",
+		"",
+	},
+	{
+		"nf-fa-magnet",
+		"",
+	},
+	{
+		"nf-fa-mail_forward",
+		"",
+	},
+	{
+		"nf-fa-mail_reply",
+		"",
+	},
+	{
+		"nf-fa-mail_reply_all",
+		"",
+	},
+	{
+		"nf-fa-male",
+		"",
+	},
+	{
+		"nf-fa-map",
+		"",
+	},
+	{
+		"nf-fa-map_marker",
+		"",
+	},
+	{
+		"nf-fa-map_o",
+		"",
+	},
+	{
+		"nf-fa-map_pin",
+		"",
+	},
+	{
+		"nf-fa-map_signs",
+		"",
+	},
+	{
+		"nf-fa-mars",
+		"",
+	},
+	{
+		"nf-fa-mars_double",
+		"",
+	},
+	{
+		"nf-fa-mars_stroke",
+		"",
+	},
+	{
+		"nf-fa-mars_stroke_h",
+		"",
+	},
+	{
+		"nf-fa-mars_stroke_v",
+		"",
+	},
+	{
+		"nf-fa-maxcdn",
+		"",
+	},
+	{
+		"nf-fa-meanpath",
+		"",
+	},
+	{
+		"nf-fa-medium",
+		"",
+	},
+	{
+		"nf-fa-medkit",
+		"",
+	},
+	{
+		"nf-fa-meetup",
+		"",
+	},
+	{
+		"nf-fa-meh_o",
+		"",
+	},
+	{
+		"nf-fa-mercury",
+		"",
+	},
+	{
+		"nf-fa-microchip",
+		"",
+	},
+	{
+		"nf-fa-microphone",
+		"",
+	},
+	{
+		"nf-fa-microphone_slash",
+		"",
+	},
+	{
+		"nf-fa-minus",
+		"",
+	},
+	{
+		"nf-fa-minus_circle",
+		"",
+	},
+	{
+		"nf-fa-minus_square",
+		"",
+	},
+	{
+		"nf-fa-minus_square_o",
+		"",
+	},
+	{
+		"nf-fa-mixcloud",
+		"",
+	},
+	{
+		"nf-fa-mobile",
+		"",
+	},
+	{
+		"nf-fa-mobile_phone",
+		"",
+	},
+	{
+		"nf-fa-modx",
+		"",
+	},
+	{
+		"nf-fa-money",
+		"",
+	},
+	{
+		"nf-fa-moon_o",
+		"",
+	},
+	{
+		"nf-fa-mortar_board",
+		"",
+	},
+	{
+		"nf-fa-motorcycle",
+		"",
+	},
+	{
+		"nf-fa-mouse_pointer",
+		"",
+	},
+	{
+		"nf-fa-music",
+		"",
+	},
+	{
+		"nf-fa-navicon",
+		"",
+	},
+	{
+		"nf-fa-neuter",
+		"",
+	},
+	{
+		"nf-fa-newspaper_o",
+		"",
+	},
+	{
+		"nf-fa-object_group",
+		"",
+	},
+	{
+		"nf-fa-object_ungroup",
+		"",
+	},
+	{
+		"nf-fa-odnoklassniki",
+		"",
+	},
+	{
+		"nf-fa-odnoklassniki_square",
+		"",
+	},
+	{
+		"nf-fa-opencart",
+		"",
+	},
+	{
+		"nf-fa-openid",
+		"",
+	},
+	{
+		"nf-fa-opera",
+		"",
+	},
+	{
+		"nf-fa-optin_monster",
+		"",
+	},
+	{
+		"nf-fa-outdent",
+		"",
+	},
+	{
+		"nf-fa-pagelines",
+		"",
+	},
+	{
+		"nf-fa-paint_brush",
+		"",
+	},
+	{
+		"nf-fa-paper_plane",
+		"",
+	},
+	{
+		"nf-fa-paper_plane_o",
+		"",
+	},
+	{
+		"nf-fa-paperclip",
+		"",
+	},
+	{
+		"nf-fa-paragraph",
+		"",
+	},
+	{
+		"nf-fa-paste",
+		"",
+	},
+	{
+		"nf-fa-pause",
+		"",
+	},
+	{
+		"nf-fa-pause_circle",
+		"",
+	},
+	{
+		"nf-fa-pause_circle_o",
+		"",
+	},
+	{
+		"nf-fa-paw",
+		"",
+	},
+	{
+		"nf-fa-paypal",
+		"",
+	},
+	{
+		"nf-fa-pencil",
+		"",
+	},
+	{
+		"nf-fa-pencil_square",
+		"",
+	},
+	{
+		"nf-fa-pencil_square_o",
+		"",
+	},
+	{
+		"nf-fa-percent",
+		"",
+	},
+	{
+		"nf-fa-phone",
+		"",
+	},
+	{
+		"nf-fa-phone_square",
+		"",
+	},
+	{
+		"nf-fa-photo",
+		"",
+	},
+	{
+		"nf-fa-picture_o",
+		"",
+	},
+	{
+		"nf-fa-pie_chart",
+		"",
+	},
+	{
+		"nf-fa-pied_piper",
+		"",
+	},
+	{
+		"nf-fa-pied_piper_alt",
+		"",
+	},
+	{
+		"nf-fa-pied_piper_pp",
+		"",
+	},
+	{
+		"nf-fa-pinterest",
+		"",
+	},
+	{
+		"nf-fa-pinterest_p",
+		"",
+	},
+	{
+		"nf-fa-pinterest_square",
+		"",
+	},
+	{
+		"nf-fa-plane",
+		"",
+	},
+	{
+		"nf-fa-play",
+		"",
+	},
+	{
+		"nf-fa-play_circle",
+		"",
+	},
+	{
+		"nf-fa-play_circle_o",
+		"",
+	},
+	{
+		"nf-fa-plug",
+		"",
+	},
+	{
+		"nf-fa-plus",
+		"",
+	},
+	{
+		"nf-fa-plus_circle",
+		"",
+	},
+	{
+		"nf-fa-plus_square",
+		"",
+	},
+	{
+		"nf-fa-plus_square_o",
+		"",
+	},
+	{
+		"nf-fa-podcast",
+		"",
+	},
+	{
+		"nf-fa-power_off",
+		"",
+	},
+	{
+		"nf-fa-print",
+		"",
+	},
+	{
+		"nf-fa-product_hunt",
+		"",
+	},
+	{
+		"nf-fa-puzzle_piece",
+		"",
+	},
+	{
+		"nf-fa-qq",
+		"",
+	},
+	{
+		"nf-fa-qrcode",
+		"",
+	},
+	{
+		"nf-fa-question",
+		"",
+	},
+	{
+		"nf-fa-question_circle",
+		"",
+	},
+	{
+		"nf-fa-question_circle_o",
+		"",
+	},
+	{
+		"nf-fa-quora",
+		"",
+	},
+	{
+		"nf-fa-quote_left",
+		"",
+	},
+	{
+		"nf-fa-quote_right",
+		"",
+	},
+	{
+		"nf-fa-ra",
+		"",
+	},
+	{
+		"nf-fa-random",
+		"",
+	},
+	{
+		"nf-fa-ravelry",
+		"",
+	},
+	{
+		"nf-fa-rebel",
+		"",
+	},
+	{
+		"nf-fa-recycle",
+		"",
+	},
+	{
+		"nf-fa-reddit",
+		"",
+	},
+	{
+		"nf-fa-reddit_alien",
+		"",
+	},
+	{
+		"nf-fa-reddit_square",
+		"",
+	},
+	{
+		"nf-fa-refresh",
+		"",
+	},
+	{
+		"nf-fa-registered",
+		"",
+	},
+	{
+		"nf-fa-remove",
+		"",
+	},
+	{
+		"nf-fa-renren",
+		"",
+	},
+	{
+		"nf-fa-reorder",
+		"",
+	},
+	{
+		"nf-fa-repeat",
+		"",
+	},
+	{
+		"nf-fa-reply",
+		"",
+	},
+	{
+		"nf-fa-reply_all",
+		"",
+	},
+	{
+		"nf-fa-resistance",
+		"",
+	},
+	{
+		"nf-fa-retweet",
+		"",
+	},
+	{
+		"nf-fa-rmb",
+		"",
+	},
+	{
+		"nf-fa-road",
+		"",
+	},
+	{
+		"nf-fa-rocket",
+		"",
+	},
+	{
+		"nf-fa-rotate_left",
+		"",
+	},
+	{
+		"nf-fa-rotate_right",
+		"",
+	},
+	{
+		"nf-fa-rouble",
+		"",
+	},
+	{
+		"nf-fa-rss",
+		"",
+	},
+	{
+		"nf-fa-rss_square",
+		"",
+	},
+	{
+		"nf-fa-rub",
+		"",
+	},
+	{
+		"nf-fa-ruble",
+		"",
+	},
+	{
+		"nf-fa-rupee",
+		"",
+	},
+	{
+		"nf-fa-s15",
+		"",
+	},
+	{
+		"nf-fa-safari",
+		"",
+	},
+	{
+		"nf-fa-save",
+		"",
+	},
+	{
+		"nf-fa-scissors",
+		"",
+	},
+	{
+		"nf-fa-scribd",
+		"",
+	},
+	{
+		"nf-fa-search",
+		"",
+	},
+	{
+		"nf-fa-search_minus",
+		"",
+	},
+	{
+		"nf-fa-search_plus",
+		"",
+	},
+	{
+		"nf-fa-sellsy",
+		"",
+	},
+	{
+		"nf-fa-send",
+		"",
+	},
+	{
+		"nf-fa-send_o",
+		"",
+	},
+	{
+		"nf-fa-server",
+		"",
+	},
+	{
+		"nf-fa-share",
+		"",
+	},
+	{
+		"nf-fa-share_alt",
+		"",
+	},
+	{
+		"nf-fa-share_alt_square",
+		"",
+	},
+	{
+		"nf-fa-share_square",
+		"",
+	},
+	{
+		"nf-fa-share_square_o",
+		"",
+	},
+	{
+		"nf-fa-shekel",
+		"",
+	},
+	{
+		"nf-fa-sheqel",
+		"",
+	},
+	{
+		"nf-fa-shield",
+		"",
+	},
+	{
+		"nf-fa-ship",
+		"",
+	},
+	{
+		"nf-fa-shirtsinbulk",
+		"",
+	},
+	{
+		"nf-fa-shopping_bag",
+		"",
+	},
+	{
+		"nf-fa-shopping_basket",
+		"",
+	},
+	{
+		"nf-fa-shopping_cart",
+		"",
+	},
+	{
+		"nf-fa-shower",
+		"",
+	},
+	{
+		"nf-fa-sign_in",
+		"",
+	},
+	{
+		"nf-fa-sign_language",
+		"",
+	},
+	{
+		"nf-fa-sign_out",
+		"",
+	},
+	{
+		"nf-fa-signal",
+		"",
+	},
+	{
+		"nf-fa-signing",
+		"",
+	},
+	{
+		"nf-fa-simplybuilt",
+		"",
+	},
+	{
+		"nf-fa-sitemap",
+		"",
+	},
+	{
+		"nf-fa-skyatlas",
+		"",
+	},
+	{
+		"nf-fa-skype",
+		"",
+	},
+	{
+		"nf-fa-slack",
+		"",
+	},
+	{
+		"nf-fa-sliders",
+		"",
+	},
+	{
+		"nf-fa-slideshare",
+		"",
+	},
+	{
+		"nf-fa-smile_o",
+		"",
+	},
+	{
+		"nf-fa-snapchat",
+		"",
+	},
+	{
+		"nf-fa-snapchat_ghost",
+		"",
+	},
+	{
+		"nf-fa-snapchat_square",
+		"",
+	},
+	{
+		"nf-fa-snowflake_o",
+		"",
+	},
+	{
+		"nf-fa-soccer_ball_o",
+		"",
+	},
+	{
+		"nf-fa-sort",
+		"",
+	},
+	{
+		"nf-fa-sort_alpha_asc",
+		"",
+	},
+	{
+		"nf-fa-sort_alpha_desc",
+		"",
+	},
+	{
+		"nf-fa-sort_amount_asc",
+		"",
+	},
+	{
+		"nf-fa-sort_amount_desc",
+		"",
+	},
+	{
+		"nf-fa-sort_asc",
+		"",
+	},
+	{
+		"nf-fa-sort_desc",
+		"",
+	},
+	{
+		"nf-fa-sort_down",
+		"",
+	},
+	{
+		"nf-fa-sort_numeric_asc",
+		"",
+	},
+	{
+		"nf-fa-sort_numeric_desc",
+		"",
+	},
+	{
+		"nf-fa-sort_up",
+		"",
+	},
+	{
+		"nf-fa-soundcloud",
+		"",
+	},
+	{
+		"nf-fa-space_shuttle",
+		"",
+	},
+	{
+		"nf-fa-spinner",
+		"",
+	},
+	{
+		"nf-fa-spoon",
+		"",
+	},
+	{
+		"nf-fa-spotify",
+		"",
+	},
+	{
+		"nf-fa-square",
+		"",
+	},
+	{
+		"nf-fa-square_o",
+		"",
+	},
+	{
+		"nf-fa-stack_exchange",
+		"",
+	},
+	{
+		"nf-fa-stack_overflow",
+		"",
+	},
+	{
+		"nf-fa-star",
+		"",
+	},
+	{
+		"nf-fa-star_half",
+		"",
+	},
+	{
+		"nf-fa-star_half_empty",
+		"",
+	},
+	{
+		"nf-fa-star_half_full",
+		"",
+	},
+	{
+		"nf-fa-star_half_o",
+		"",
+	},
+	{
+		"nf-fa-star_o",
+		"",
+	},
+	{
+		"nf-fa-steam",
+		"",
+	},
+	{
+		"nf-fa-steam_square",
+		"",
+	},
+	{
+		"nf-fa-step_backward",
+		"",
+	},
+	{
+		"nf-fa-step_forward",
+		"",
+	},
+	{
+		"nf-fa-stethoscope",
+		"",
+	},
+	{
+		"nf-fa-sticky_note",
+		"",
+	},
+	{
+		"nf-fa-sticky_note_o",
+		"",
+	},
+	{
+		"nf-fa-stop",
+		"",
+	},
+	{
+		"nf-fa-stop_circle",
+		"",
+	},
+	{
+		"nf-fa-stop_circle_o",
+		"",
+	},
+	{
+		"nf-fa-street_view",
+		"",
+	},
+	{
+		"nf-fa-strikethrough",
+		"",
+	},
+	{
+		"nf-fa-stumbleupon",
+		"",
+	},
+	{
+		"nf-fa-stumbleupon_circle",
+		"",
+	},
+	{
+		"nf-fa-subscript",
+		"",
+	},
+	{
+		"nf-fa-subway",
+		"",
+	},
+	{
+		"nf-fa-suitcase",
+		"",
+	},
+	{
+		"nf-fa-sun_o",
+		"",
+	},
+	{
+		"nf-fa-superpowers",
+		"",
+	},
+	{
+		"nf-fa-superscript",
+		"",
+	},
+	{
+		"nf-fa-support",
+		"",
+	},
+	{
+		"nf-fa-table",
+		"",
+	},
+	{
+		"nf-fa-tablet",
+		"",
+	},
+	{
+		"nf-fa-tachometer",
+		"",
+	},
+	{
+		"nf-fa-tag",
+		"",
+	},
+	{
+		"nf-fa-tags",
+		"",
+	},
+	{
+		"nf-fa-tasks",
+		"",
+	},
+	{
+		"nf-fa-taxi",
+		"",
+	},
+	{
+		"nf-fa-telegram",
+		"",
+	},
+	{
+		"nf-fa-television",
+		"",
+	},
+	{
+		"nf-fa-tencent_weibo",
+		"",
+	},
+	{
+		"nf-fa-terminal",
+		"",
+	},
+	{
+		"nf-fa-text_height",
+		"",
+	},
+	{
+		"nf-fa-text_width",
+		"",
+	},
+	{
+		"nf-fa-th",
+		"",
+	},
+	{
+		"nf-fa-th_large",
+		"",
+	},
+	{
+		"nf-fa-th_list",
+		"",
+	},
+	{
+		"nf-fa-themeisle",
+		"",
+	},
+	{
+		"nf-fa-thermometer",
+		"",
+	},
+	{
+		"nf-fa-thermometer_0",
+		"",
+	},
+	{
+		"nf-fa-thermometer_1",
+		"",
+	},
+	{
+		"nf-fa-thermometer_2",
+		"",
+	},
+	{
+		"nf-fa-thermometer_3",
+		"",
+	},
+	{
+		"nf-fa-thermometer_4",
+		"",
+	},
+	{
+		"nf-fa-thermometer_empty",
+		"",
+	},
+	{
+		"nf-fa-thermometer_full",
+		"",
+	},
+	{
+		"nf-fa-thermometer_half",
+		"",
+	},
+	{
+		"nf-fa-thermometer_quarter",
+		"",
+	},
+	{
+		"nf-fa-thermometer_three_quarters",
+		"",
+	},
+	{
+		"nf-fa-thumb_tack",
+		"",
+	},
+	{
+		"nf-fa-thumbs_down",
+		"",
+	},
+	{
+		"nf-fa-thumbs_o_down",
+		"",
+	},
+	{
+		"nf-fa-thumbs_o_up",
+		"",
+	},
+	{
+		"nf-fa-thumbs_up",
+		"",
+	},
+	{
+		"nf-fa-ticket",
+		"",
+	},
+	{
+		"nf-fa-times",
+		"",
+	},
+	{
+		"nf-fa-times_circle",
+		"",
+	},
+	{
+		"nf-fa-times_circle_o",
+		"",
+	},
+	{
+		"nf-fa-times_rectangle",
+		"",
+	},
+	{
+		"nf-fa-times_rectangle_o",
+		"",
+	},
+	{
+		"nf-fa-tint",
+		"",
+	},
+	{
+		"nf-fa-toggle_down",
+		"",
+	},
+	{
+		"nf-fa-toggle_left",
+		"",
+	},
+	{
+		"nf-fa-toggle_off",
+		"",
+	},
+	{
+		"nf-fa-toggle_on",
+		"",
+	},
+	{
+		"nf-fa-toggle_right",
+		"",
+	},
+	{
+		"nf-fa-toggle_up",
+		"",
+	},
+	{
+		"nf-fa-trademark",
+		"",
+	},
+	{
+		"nf-fa-train",
+		"",
+	},
+	{
+		"nf-fa-transgender",
+		"",
+	},
+	{
+		"nf-fa-transgender_alt",
+		"",
+	},
+	{
+		"nf-fa-trash",
+		"",
+	},
+	{
+		"nf-fa-trash_o",
+		"",
+	},
+	{
+		"nf-fa-tree",
+		"",
+	},
+	{
+		"nf-fa-trello",
+		"",
+	},
+	{
+		"nf-fa-tripadvisor",
+		"",
+	},
+	{
+		"nf-fa-trophy",
+		"",
+	},
+	{
+		"nf-fa-truck",
+		"",
+	},
+	{
+		"nf-fa-try",
+		"",
+	},
+	{
+		"nf-fa-tty",
+		"",
+	},
+	{
+		"nf-fa-tumblr",
+		"",
+	},
+	{
+		"nf-fa-tumblr_square",
+		"",
+	},
+	{
+		"nf-fa-turkish_lira",
+		"",
+	},
+	{
+		"nf-fa-tv",
+		"",
+	},
+	{
+		"nf-fa-twitch",
+		"",
+	},
+	{
+		"nf-fa-twitter",
+		"",
+	},
+	{
+		"nf-fa-twitter_square",
+		"",
+	},
+	{
+		"nf-fa-umbrella",
+		"",
+	},
+	{
+		"nf-fa-underline",
+		"",
+	},
+	{
+		"nf-fa-undo",
+		"",
+	},
+	{
+		"nf-fa-universal_access",
+		"",
+	},
+	{
+		"nf-fa-university",
+		"",
+	},
+	{
+		"nf-fa-unlink",
+		"",
+	},
+	{
+		"nf-fa-unlock",
+		"",
+	},
+	{
+		"nf-fa-unlock_alt",
+		"",
+	},
+	{
+		"nf-fa-unsorted",
+		"",
+	},
+	{
+		"nf-fa-upload",
+		"",
+	},
+	{
+		"nf-fa-usb",
+		"",
+	},
+	{
+		"nf-fa-usd",
+		"",
+	},
+	{
+		"nf-fa-user",
+		"",
+	},
+	{
+		"nf-fa-user_circle",
+		"",
+	},
+	{
+		"nf-fa-user_circle_o",
+		"",
+	},
+	{
+		"nf-fa-user_md",
+		"",
+	},
+	{
+		"nf-fa-user_o",
+		"",
+	},
+	{
+		"nf-fa-user_plus",
+		"",
+	},
+	{
+		"nf-fa-user_secret",
+		"",
+	},
+	{
+		"nf-fa-user_times",
+		"",
+	},
+	{
+		"nf-fa-users",
+		"",
+	},
+	{
+		"nf-fa-vcard",
+		"",
+	},
+	{
+		"nf-fa-vcard_o",
+		"",
+	},
+	{
+		"nf-fa-venus",
+		"",
+	},
+	{
+		"nf-fa-venus_double",
+		"",
+	},
+	{
+		"nf-fa-venus_mars",
+		"",
+	},
+	{
+		"nf-fa-viacoin",
+		"",
+	},
+	{
+		"nf-fa-viadeo",
+		"",
+	},
+	{
+		"nf-fa-viadeo_square",
+		"",
+	},
+	{
+		"nf-fa-video_camera",
+		"",
+	},
+	{
+		"nf-fa-vimeo",
+		"",
+	},
+	{
+		"nf-fa-vimeo_square",
+		"",
+	},
+	{
+		"nf-fa-vine",
+		"",
+	},
+	{
+		"nf-fa-vk",
+		"",
+	},
+	{
+		"nf-fa-volume_control_phone",
+		"",
+	},
+	{
+		"nf-fa-volume_down",
+		"",
+	},
+	{
+		"nf-fa-volume_off",
+		"",
+	},
+	{
+		"nf-fa-volume_up",
+		"",
+	},
+	{
+		"nf-fa-warning",
+		"",
+	},
+	{
+		"nf-fa-wechat",
+		"",
+	},
+	{
+		"nf-fa-weibo",
+		"",
+	},
+	{
+		"nf-fa-weixin",
+		"",
+	},
+	{
+		"nf-fa-whatsapp",
+		"",
+	},
+	{
+		"nf-fa-wheelchair",
+		"",
+	},
+	{
+		"nf-fa-wheelchair_alt",
+		"",
+	},
+	{
+		"nf-fa-wifi",
+		"",
+	},
+	{
+		"nf-fa-wikipedia_w",
+		"",
+	},
+	{
+		"nf-fa-window_close",
+		"",
+	},
+	{
+		"nf-fa-window_close_o",
+		"",
+	},
+	{
+		"nf-fa-window_maximize",
+		"",
+	},
+	{
+		"nf-fa-window_minimize",
+		"",
+	},
+	{
+		"nf-fa-window_restore",
+		"",
+	},
+	{
+		"nf-fa-windows",
+		"",
+	},
+	{
+		"nf-fa-won",
+		"",
+	},
+	{
+		"nf-fa-wordpress",
+		"",
+	},
+	{
+		"nf-fa-wpbeginner",
+		"",
+	},
+	{
+		"nf-fa-wpexplorer",
+		"",
+	},
+	{
+		"nf-fa-wpforms",
+		"",
+	},
+	{
+		"nf-fa-wrench",
+		"",
+	},
+	{
+		"nf-fa-xing",
+		"",
+	},
+	{
+		"nf-fa-xing_square",
+		"",
+	},
+	{
+		"nf-fa-y_combinator",
+		"",
+	},
+	{
+		"nf-fa-y_combinator_square",
+		"",
+	},
+	{
+		"nf-fa-yahoo",
+		"",
+	},
+	{
+		"nf-fa-yc",
+		"",
+	},
+	{
+		"nf-fa-yc_square",
+		"",
+	},
+	{
+		"nf-fa-yelp",
+		"",
+	},
+	{
+		"nf-fa-yen",
+		"",
+	},
+	{
+		"nf-fa-yoast",
+		"",
+	},
+	{
+		"nf-fa-youtube",
+		"",
+	},
+	{
+		"nf-fa-youtube_play",
+		"",
+	},
+	{
+		"nf-fa-youtube_square",
+		"",
+	},
+	{
+		"nf-fae-apple_fruit",
+		"",
+	},
+	{
+		"nf-fae-atom",
+		"",
+	},
+	{
+		"nf-fae-bacteria",
+		"",
+	},
+	{
+		"nf-fae-banana",
+		"",
+	},
+	{
+		"nf-fae-bath",
+		"",
+	},
+	{
+		"nf-fae-bed",
+		"",
+	},
+	{
+		"nf-fae-benzene",
+		"",
+	},
+	{
+		"nf-fae-bigger",
+		"",
+	},
+	{
+		"nf-fae-biohazard",
+		"",
+	},
+	{
+		"nf-fae-blogger_circle",
+		"",
+	},
+	{
+		"nf-fae-blogger_square",
+		"",
+	},
+	{
+		"nf-fae-bones",
+		"",
+	},
+	{
+		"nf-fae-book_open",
+		"",
+	},
+	{
+		"nf-fae-book_open_o",
+		"",
+	},
+	{
+		"nf-fae-brain",
+		"",
+	},
+	{
+		"nf-fae-bread",
+		"",
+	},
+	{
+		"nf-fae-butterfly",
+		"",
+	},
+	{
+		"nf-fae-carot",
+		"",
+	},
+	{
+		"nf-fae-cc_by",
+		"",
+	},
+	{
+		"nf-fae-cc_cc",
+		"",
+	},
+	{
+		"nf-fae-cc_nc",
+		"",
+	},
+	{
+		"nf-fae-cc_nc_eu",
+		"",
+	},
+	{
+		"nf-fae-cc_nc_jp",
+		"",
+	},
+	{
+		"nf-fae-cc_nd",
+		"",
+	},
+	{
+		"nf-fae-cc_remix",
+		"",
+	},
+	{
+		"nf-fae-cc_sa",
+		"",
+	},
+	{
+		"nf-fae-cc_share",
+		"",
+	},
+	{
+		"nf-fae-cc_zero",
+		"",
+	},
+	{
+		"nf-fae-checklist_o",
+		"",
+	},
+	{
+		"nf-fae-cheese",
+		"",
+	},
+	{
+		"nf-fae-cherry",
+		"",
+	},
+	{
+		"nf-fae-chess_bishop",
+		"",
+	},
+	{
+		"nf-fae-chess_horse",
+		"",
+	},
+	{
+		"nf-fae-chess_king",
+		"",
+	},
+	{
+		"nf-fae-chess_pawn",
+		"",
+	},
+	{
+		"nf-fae-chess_queen",
+		"",
+	},
+	{
+		"nf-fae-chess_tower",
+		"",
+	},
+	{
+		"nf-fae-chicken_thigh",
+		"",
+	},
+	{
+		"nf-fae-chilli",
+		"",
+	},
+	{
+		"nf-fae-chip",
+		"",
+	},
+	{
+		"nf-fae-cicling",
+		"",
+	},
+	{
+		"nf-fae-cloud",
+		"",
+	},
+	{
+		"nf-fae-cockroach",
+		"",
+	},
+	{
+		"nf-fae-coffe_beans",
+		"",
+	},
+	{
+		"nf-fae-coins",
+		"",
+	},
+	{
+		"nf-fae-comb",
+		"",
+	},
+	{
+		"nf-fae-comet",
+		"",
+	},
+	{
+		"nf-fae-crown",
+		"",
+	},
+	{
+		"nf-fae-cup_coffe",
+		"",
+	},
+	{
+		"nf-fae-dice",
+		"",
+	},
+	{
+		"nf-fae-disco",
+		"",
+	},
+	{
+		"nf-fae-dna",
+		"",
+	},
+	{
+		"nf-fae-donut",
+		"",
+	},
+	{
+		"nf-fae-dress",
+		"",
+	},
+	{
+		"nf-fae-drop",
+		"",
+	},
+	{
+		"nf-fae-ello",
+		"",
+	},
+	{
+		"nf-fae-envelope_open",
+		"",
+	},
+	{
+		"nf-fae-envelope_open_o",
+		"",
+	},
+	{
+		"nf-fae-equal",
+		"",
+	},
+	{
+		"nf-fae-equal_bigger",
+		"",
+	},
+	{
+		"nf-fae-feedly",
+		"",
+	},
+	{
+		"nf-fae-file_export",
+		"",
+	},
+	{
+		"nf-fae-file_import",
+		"",
+	},
+	{
+		"nf-fae-fingerprint",
+		"",
+	},
+	{
+		"nf-fae-floppy",
+		"",
+	},
+	{
+		"nf-fae-footprint",
+		"",
+	},
+	{
+		"nf-fae-freecodecamp",
+		"",
+	},
+	{
+		"nf-fae-galaxy",
+		"",
+	},
+	{
+		"nf-fae-galery",
+		"",
+	},
+	{
+		"nf-fae-gift_card",
+		"",
+	},
+	{
+		"nf-fae-glass",
+		"",
+	},
+	{
+		"nf-fae-google_drive",
+		"",
+	},
+	{
+		"nf-fae-google_play",
+		"",
+	},
+	{
+		"nf-fae-gps",
+		"",
+	},
+	{
+		"nf-fae-grav",
+		"",
+	},
+	{
+		"nf-fae-guitar",
+		"",
+	},
+	{
+		"nf-fae-gut",
+		"",
+	},
+	{
+		"nf-fae-halter",
+		"",
+	},
+	{
+		"nf-fae-hamburger",
+		"",
+	},
+	{
+		"nf-fae-hat",
+		"",
+	},
+	{
+		"nf-fae-hexagon",
+		"",
+	},
+	{
+		"nf-fae-high_heel",
+		"",
+	},
+	{
+		"nf-fae-hotdog",
+		"",
+	},
+	{
+		"nf-fae-ice_cream",
+		"",
+	},
+	{
+		"nf-fae-id_card",
+		"",
+	},
+	{
+		"nf-fae-imdb",
+		"",
+	},
+	{
+		"nf-fae-infinity",
+		"",
+	},
+	{
+		"nf-fae-injection",
+		"",
+	},
+	{
+		"nf-fae-isle",
+		"",
+	},
+	{
+		"nf-fae-java",
+		"",
+	},
+	{
+		"nf-fae-layers",
+		"",
+	},
+	{
+		"nf-fae-lips",
+		"",
+	},
+	{
+		"nf-fae-lipstick",
+		"",
+	},
+	{
+		"nf-fae-liver",
+		"",
+	},
+	{
+		"nf-fae-lollipop",
+		"",
+	},
+	{
+		"nf-fae-loyalty_card",
+		"",
+	},
+	{
+		"nf-fae-lung",
+		"",
+	},
+	{
+		"nf-fae-makeup_brushes",
+		"",
+	},
+	{
+		"nf-fae-maximize",
+		"",
+	},
+	{
+		"nf-fae-meat",
+		"",
+	},
+	{
+		"nf-fae-medicine",
+		"",
+	},
+	{
+		"nf-fae-microscope",
+		"",
+	},
+	{
+		"nf-fae-milk_bottle",
+		"",
+	},
+	{
+		"nf-fae-minimize",
+		"",
+	},
+	{
+		"nf-fae-molecule",
+		"",
+	},
+	{
+		"nf-fae-moon_cloud",
+		"",
+	},
+	{
+		"nf-fae-mountains",
+		"",
+	},
+	{
+		"nf-fae-mushroom",
+		"",
+	},
+	{
+		"nf-fae-mustache",
+		"",
+	},
+	{
+		"nf-fae-mysql",
+		"",
+	},
+	{
+		"nf-fae-nintendo",
+		"",
+	},
+	{
+		"nf-fae-orange",
+		"",
+	},
+	{
+		"nf-fae-palette_color",
+		"",
+	},
+	{
+		"nf-fae-peach",
+		"",
+	},
+	{
+		"nf-fae-pear",
+		"",
+	},
+	{
+		"nf-fae-pi",
+		"",
+	},
+	{
+		"nf-fae-pizza",
+		"",
+	},
+	{
+		"nf-fae-planet",
+		"",
+	},
+	{
+		"nf-fae-plant",
+		"",
+	},
+	{
+		"nf-fae-playstation",
+		"",
+	},
+	{
+		"nf-fae-poison",
+		"",
+	},
+	{
+		"nf-fae-popcorn",
+		"",
+	},
+	{
+		"nf-fae-popsicle",
+		"",
+	},
+	{
+		"nf-fae-pulse",
+		"",
+	},
+	{
+		"nf-fae-python",
+		"",
+	},
+	{
+		"nf-fae-quora_circle",
+		"",
+	},
+	{
+		"nf-fae-quora_square",
+		"",
+	},
+	{
+		"nf-fae-radioactive",
+		"",
+	},
+	{
+		"nf-fae-raining",
+		"",
+	},
+	{
+		"nf-fae-real_heart",
+		"",
+	},
+	{
+		"nf-fae-refrigerator",
+		"",
+	},
+	{
+		"nf-fae-restore",
+		"",
+	},
+	{
+		"nf-fae-ring",
+		"",
+	},
+	{
+		"nf-fae-ruby",
+		"",
+	},
+	{
+		"nf-fae-ruby_o",
+		"",
+	},
+	{
+		"nf-fae-ruler",
+		"",
+	},
+	{
+		"nf-fae-shirt",
+		"",
+	},
+	{
+		"nf-fae-slash",
+		"",
+	},
+	{
+		"nf-fae-smaller",
+		"",
+	},
+	{
+		"nf-fae-snowing",
+		"",
+	},
+	{
+		"nf-fae-soda",
+		"",
+	},
+	{
+		"nf-fae-sofa",
+		"",
+	},
+	{
+		"nf-fae-soup",
+		"",
+	},
+	{
+		"nf-fae-spermatozoon",
+		"",
+	},
+	{
+		"nf-fae-spin_double",
+		"",
+	},
+	{
+		"nf-fae-stomach",
+		"",
+	},
+	{
+		"nf-fae-storm",
+		"",
+	},
+	{
+		"nf-fae-sun_cloud",
+		"",
+	},
+	{
+		"nf-fae-sushi",
+		"",
+	},
+	{
+		"nf-fae-tacos",
+		"",
+	},
+	{
+		"nf-fae-telegram",
+		"",
+	},
+	{
+		"nf-fae-telegram_circle",
+		"",
+	},
+	{
+		"nf-fae-telescope",
+		"",
+	},
+	{
+		"nf-fae-thermometer",
+		"",
+	},
+	{
+		"nf-fae-thermometer_high",
+		"",
+	},
+	{
+		"nf-fae-thermometer_low",
+		"",
+	},
+	{
+		"nf-fae-thin_close",
+		"",
+	},
+	{
+		"nf-fae-toilet",
+		"",
+	},
+	{
+		"nf-fae-tools",
+		"",
+	},
+	{
+		"nf-fae-tooth",
+		"",
+	},
+	{
+		"nf-fae-tree",
+		"",
+	},
+	{
+		"nf-fae-triangle_ruler",
+		"",
+	},
+	{
+		"nf-fae-umbrella",
+		"",
+	},
+	{
+		"nf-fae-uterus",
+		"",
+	},
+	{
+		"nf-fae-virus",
+		"",
+	},
+	{
+		"nf-fae-w3c",
+		"",
+	},
+	{
+		"nf-fae-walking",
+		"",
+	},
+	{
+		"nf-fae-wallet",
+		"",
+	},
+	{
+		"nf-fae-wind",
+		"",
+	},
+	{
+		"nf-fae-xbox",
+		"",
+	},
+	{
+		"nf-iec-power",
+		"⏻",
+	},
+	{
+		"nf-iec-power_off",
+		"⭘",
+	},
+	{
+		"nf-iec-power_on",
+		"⏽",
+	},
+	{
+		"nf-iec-sleep_mode",
+		"⏾",
+	},
+	{
+		"nf-iec-toggle_power",
+		"⏼",
+	},
+	{
+		"nf-indent-dotted_guide",
+		"",
+	},
+	{
+		"nf-indent-line",
+		"",
+	},
+	{
+		"nf-indentation-line",
+		"",
+	},
+	{
+		"nf-linux-almalinux",
+		"",
+	},
+	{
+		"nf-linux-alpine",
+		"",
+	},
+	{
+		"nf-linux-aosc",
+		"",
+	},
+	{
+		"nf-linux-apple",
+		"",
+	},
+	{
+		"nf-linux-archlabs",
+		"",
+	},
+	{
+		"nf-linux-archlinux",
+		"",
+	},
+	{
+		"nf-linux-artix",
+		"",
+	},
+	{
+		"nf-linux-budgie",
+		"",
+	},
+	{
+		"nf-linux-centos",
+		"",
+	},
+	{
+		"nf-linux-coreos",
+		"",
+	},
+	{
+		"nf-linux-debian",
+		"",
+	},
+	{
+		"nf-linux-deepin",
+		"",
+	},
+	{
+		"nf-linux-devuan",
+		"",
+	},
+	{
+		"nf-linux-docker",
+		"",
+	},
+	{
+		"nf-linux-elementary",
+		"",
+	},
+	{
+		"nf-linux-endeavour",
+		"",
+	},
+	{
+		"nf-linux-fedora",
+		"",
+	},
+	{
+		"nf-linux-fedora_inverse",
+		"",
+	},
+	{
+		"nf-linux-ferris",
+		"",
+	},
+	{
+		"nf-linux-flathub",
+		"",
+	},
+	{
+		"nf-linux-freebsd",
+		"",
+	},
+	{
+		"nf-linux-gentoo",
+		"",
+	},
+	{
+		"nf-linux-gnu_guix",
+		"",
+	},
+	{
+		"nf-linux-illumos",
+		"",
+	},
+	{
+		"nf-linux-kali_linux",
+		"",
+	},
+	{
+		"nf-linux-linuxmint",
+		"",
+	},
+	{
+		"nf-linux-linuxmint_inverse",
+		"",
+	},
+	{
+		"nf-linux-mageia",
+		"",
+	},
+	{
+		"nf-linux-mandriva",
+		"",
+	},
+	{
+		"nf-linux-manjaro",
+		"",
+	},
+	{
+		"nf-linux-nixos",
+		"",
+	},
+	{
+		"nf-linux-openbsd",
+		"",
+	},
+	{
+		"nf-linux-opensuse",
+		"",
+	},
+	{
+		"nf-linux-parrot",
+		"",
+	},
+	{
+		"nf-linux-pop_os",
+		"",
+	},
+	{
+		"nf-linux-raspberry_pi",
+		"",
+	},
+	{
+		"nf-linux-redhat",
+		"",
+	},
+	{
+		"nf-linux-rocky_linux",
+		"",
+	},
+	{
+		"nf-linux-sabayon",
+		"",
+	},
+	{
+		"nf-linux-slackware",
+		"",
+	},
+	{
+		"nf-linux-slackware_inverse",
+		"",
+	},
+	{
+		"nf-linux-snappy",
+		"",
+	},
+	{
+		"nf-linux-solus",
+		"",
+	},
+	{
+		"nf-linux-tux",
+		"",
+	},
+	{
+		"nf-linux-ubuntu",
+		"",
+	},
+	{
+		"nf-linux-ubuntu_inverse",
+		"",
+	},
+	{
+		"nf-linux-void",
+		"",
+	},
+	{
+		"nf-linux-zorin",
+		"",
+	},
+	{
+		"nf-md-ab_testing",
+		"󰇉",
+	},
+	{
+		"nf-md-abacus",
+		"󱛠",
+	},
+	{
+		"nf-md-abjad_arabic",
+		"󱌨",
+	},
+	{
+		"nf-md-abjad_hebrew",
+		"󱌩",
+	},
+	{
+		"nf-md-abugida_devanagari",
+		"󱌪",
+	},
+	{
+		"nf-md-abugida_thai",
+		"󱌫",
+	},
+	{
+		"nf-md-access_point",
+		"󰀃",
+	},
+	{
+		"nf-md-access_point_check",
+		"󱔸",
+	},
+	{
+		"nf-md-access_point_minus",
+		"󱔹",
+	},
+	{
+		"nf-md-access_point_network",
+		"󰀂",
+	},
+	{
+		"nf-md-access_point_network_off",
+		"󰯡",
+	},
+	{
+		"nf-md-access_point_off",
+		"󱔑",
+	},
+	{
+		"nf-md-access_point_plus",
+		"󱔺",
+	},
+	{
+		"nf-md-access_point_remove",
+		"󱔻",
+	},
+	{
+		"nf-md-account",
+		"󰀄",
+	},
+	{
+		"nf-md-account_alert",
+		"󰀅",
+	},
+	{
+		"nf-md-account_alert_outline",
+		"󰭐",
+	},
+	{
+		"nf-md-account_arrow_down",
+		"󱡨",
+	},
+	{
+		"nf-md-account_arrow_down_outline",
+		"󱡩",
+	},
+	{
+		"nf-md-account_arrow_left",
+		"󰭑",
+	},
+	{
+		"nf-md-account_arrow_left_outline",
+		"󰭒",
+	},
+	{
+		"nf-md-account_arrow_right",
+		"󰭓",
+	},
+	{
+		"nf-md-account_arrow_right_outline",
+		"󰭔",
+	},
+	{
+		"nf-md-account_arrow_up",
+		"󱡧",
+	},
+	{
+		"nf-md-account_arrow_up_outline",
+		"󱡪",
+	},
+	{
+		"nf-md-account_box",
+		"󰀆",
+	},
+	{
+		"nf-md-account_box_multiple",
+		"󰤴",
+	},
+	{
+		"nf-md-account_box_multiple_outline",
+		"󱀊",
+	},
+	{
+		"nf-md-account_box_outline",
+		"󰀇",
+	},
+	{
+		"nf-md-account_cancel",
+		"󱋟",
+	},
+	{
+		"nf-md-account_cancel_outline",
+		"󱋠",
+	},
+	{
+		"nf-md-account_cash",
+		"󱂗",
+	},
+	{
+		"nf-md-account_cash_outline",
+		"󱂘",
+	},
+	{
+		"nf-md-account_check",
+		"󰀈",
+	},
+	{
+		"nf-md-account_check_outline",
+		"󰯢",
+	},
+	{
+		"nf-md-account_child",
+		"󰪉",
+	},
+	{
+		"nf-md-account_child_circle",
+		"󰪊",
+	},
+	{
+		"nf-md-account_child_outline",
+		"󱃈",
+	},
+	{
+		"nf-md-account_circle",
+		"󰀉",
+	},
+	{
+		"nf-md-account_circle_outline",
+		"󰭕",
+	},
+	{
+		"nf-md-account_clock",
+		"󰭖",
+	},
+	{
+		"nf-md-account_clock_outline",
+		"󰭗",
+	},
+	{
+		"nf-md-account_cog",
+		"󱍰",
+	},
+	{
+		"nf-md-account_cog_outline",
+		"󱍱",
+	},
+	{
+		"nf-md-account_convert",
+		"󰀊",
+	},
+	{
+		"nf-md-account_convert_outline",
+		"󱌁",
+	},
+	{
+		"nf-md-account_cowboy_hat",
+		"󰺛",
+	},
+	{
+		"nf-md-account_cowboy_hat_outline",
+		"󱟳",
+	},
+	{
+		"nf-md-account_details",
+		"󰘱",
+	},
+	{
+		"nf-md-account_details_outline",
+		"󱍲",
+	},
+	{
+		"nf-md-account_edit",
+		"󰚼",
+	},
+	{
+		"nf-md-account_edit_outline",
+		"󰿻",
+	},
+	{
+		"nf-md-account_eye",
+		"󰐠",
+	},
+	{
+		"nf-md-account_eye_outline",
+		"󱉻",
+	},
+	{
+		"nf-md-account_filter",
+		"󰤶",
+	},
+	{
+		"nf-md-account_filter_outline",
+		"󰾝",
+	},
+	{
+		"nf-md-account_group",
+		"󰡉",
+	},
+	{
+		"nf-md-account_group_outline",
+		"󰭘",
+	},
+	{
+		"nf-md-account_hard_hat",
+		"󰖵",
+	},
+	{
+		"nf-md-account_hard_hat_outline",
+		"󱨟",
+	},
+	{
+		"nf-md-account_heart",
+		"󰢙",
+	},
+	{
+		"nf-md-account_heart_outline",
+		"󰯣",
+	},
+	{
+		"nf-md-account_injury",
+		"󱠕",
+	},
+	{
+		"nf-md-account_injury_outline",
+		"󱠖",
+	},
+	{
+		"nf-md-account_key",
+		"󰀋",
+	},
+	{
+		"nf-md-account_key_outline",
+		"󰯤",
+	},
+	{
+		"nf-md-account_lock",
+		"󱅞",
+	},
+	{
+		"nf-md-account_lock_open",
+		"󱥠",
+	},
+	{
+		"nf-md-account_lock_open_outline",
+		"󱥡",
+	},
+	{
+		"nf-md-account_lock_outline",
+		"󱅟",
+	},
+	{
+		"nf-md-account_minus",
+		"󰀍",
+	},
+	{
+		"nf-md-account_minus_outline",
+		"󰫬",
+	},
+	{
+		"nf-md-account_multiple",
+		"󰀎",
+	},
+	{
+		"nf-md-account_multiple_check",
+		"󰣅",
+	},
+	{
+		"nf-md-account_multiple_check_outline",
+		"󱇾",
+	},
+	{
+		"nf-md-account_multiple_minus",
+		"󰗓",
+	},
+	{
+		"nf-md-account_multiple_minus_outline",
+		"󰯥",
+	},
+	{
+		"nf-md-account_multiple_outline",
+		"󰀏",
+	},
+	{
+		"nf-md-account_multiple_plus",
+		"󰀐",
+	},
+	{
+		"nf-md-account_multiple_plus_outline",
+		"󰠀",
+	},
+	{
+		"nf-md-account_multiple_remove",
+		"󱈊",
+	},
+	{
+		"nf-md-account_multiple_remove_outline",
+		"󱈋",
+	},
+	{
+		"nf-md-account_music",
+		"󰠃",
+	},
+	{
+		"nf-md-account_music_outline",
+		"󰳩",
+	},
+	{
+		"nf-md-account_network",
+		"󰀑",
+	},
+	{
+		"nf-md-account_network_outline",
+		"󰯦",
+	},
+	{
+		"nf-md-account_off",
+		"󰀒",
+	},
+	{
+		"nf-md-account_off_outline",
+		"󰯧",
+	},
+	{
+		"nf-md-account_outline",
+		"󰀓",
+	},
+	{
+		"nf-md-account_plus",
+		"󰀔",
+	},
+	{
+		"nf-md-account_plus_outline",
+		"󰠁",
+	},
+	{
+		"nf-md-account_question",
+		"󰭙",
+	},
+	{
+		"nf-md-account_question_outline",
+		"󰭚",
+	},
+	{
+		"nf-md-account_reactivate",
+		"󱔫",
+	},
+	{
+		"nf-md-account_reactivate_outline",
+		"󱔬",
+	},
+	{
+		"nf-md-account_remove",
+		"󰀕",
+	},
+	{
+		"nf-md-account_remove_outline",
+		"󰫭",
+	},
+	{
+		"nf-md-account_school",
+		"󱨠",
+	},
+	{
+		"nf-md-account_school_outline",
+		"󱨡",
+	},
+	{
+		"nf-md-account_search",
+		"󰀖",
+	},
+	{
+		"nf-md-account_search_outline",
+		"󰤵",
+	},
+	{
+		"nf-md-account_settings",
+		"󰘰",
+	},
+	{
+		"nf-md-account_settings_outline",
+		"󱃉",
+	},
+	{
+		"nf-md-account_star",
+		"󰀗",
+	},
+	{
+		"nf-md-account_star_outline",
+		"󰯨",
+	},
+	{
+		"nf-md-account_supervisor",
+		"󰪋",
+	},
+	{
+		"nf-md-account_supervisor_circle",
+		"󰪌",
+	},
+	{
+		"nf-md-account_supervisor_circle_outline",
+		"󱓬",
+	},
+	{
+		"nf-md-account_supervisor_outline",
+		"󱄭",
+	},
+	{
+		"nf-md-account_switch",
+		"󰀙",
+	},
+	{
+		"nf-md-account_switch_outline",
+		"󰓋",
+	},
+	{
+		"nf-md-account_sync",
+		"󱤛",
+	},
+	{
+		"nf-md-account_sync_outline",
+		"󱤜",
+	},
+	{
+		"nf-md-account_tie",
+		"󰳣",
+	},
+	{
+		"nf-md-account_tie_hat",
+		"󱢘",
+	},
+	{
+		"nf-md-account_tie_hat_outline",
+		"󱢙",
+	},
+	{
+		"nf-md-account_tie_outline",
+		"󱃊",
+	},
+	{
+		"nf-md-account_tie_voice",
+		"󱌈",
+	},
+	{
+		"nf-md-account_tie_voice_off",
+		"󱌊",
+	},
+	{
+		"nf-md-account_tie_voice_off_outline",
+		"󱌋",
+	},
+	{
+		"nf-md-account_tie_voice_outline",
+		"󱌉",
+	},
+	{
+		"nf-md-account_tie_woman",
+		"󱪌",
+	},
+	{
+		"nf-md-account_voice",
+		"󰗋",
+	},
+	{
+		"nf-md-account_voice_off",
+		"󰻔",
+	},
+	{
+		"nf-md-account_wrench",
+		"󱢚",
+	},
+	{
+		"nf-md-account_wrench_outline",
+		"󱢛",
+	},
+	{
+		"nf-md-adjust",
+		"󰀚",
+	},
+	{
+		"nf-md-advertisements",
+		"󱤪",
+	},
+	{
+		"nf-md-advertisements_off",
+		"󱤫",
+	},
+	{
+		"nf-md-air_conditioner",
+		"󰀛",
+	},
+	{
+		"nf-md-air_filter",
+		"󰵃",
+	},
+	{
+		"nf-md-air_horn",
+		"󰶬",
+	},
+	{
+		"nf-md-air_humidifier",
+		"󱂙",
+	},
+	{
+		"nf-md-air_humidifier_off",
+		"󱑦",
+	},
+	{
+		"nf-md-air_purifier",
+		"󰵄",
+	},
+	{
+		"nf-md-airbag",
+		"󰯩",
+	},
+	{
+		"nf-md-airballoon",
+		"󰀜",
+	},
+	{
+		"nf-md-airballoon_outline",
+		"󱀋",
+	},
+	{
+		"nf-md-airplane",
+		"󰀝",
+	},
+	{
+		"nf-md-airplane_alert",
+		"󱡺",
+	},
+	{
+		"nf-md-airplane_check",
+		"󱡻",
+	},
+	{
+		"nf-md-airplane_clock",
+		"󱡼",
+	},
+	{
+		"nf-md-airplane_cog",
+		"󱡽",
+	},
+	{
+		"nf-md-airplane_edit",
+		"󱡾",
+	},
+	{
+		"nf-md-airplane_landing",
+		"󰗔",
+	},
+	{
+		"nf-md-airplane_marker",
+		"󱡿",
+	},
+	{
+		"nf-md-airplane_minus",
+		"󱢀",
+	},
+	{
+		"nf-md-airplane_off",
+		"󰀞",
+	},
+	{
+		"nf-md-airplane_plus",
+		"󱢁",
+	},
+	{
+		"nf-md-airplane_remove",
+		"󱢂",
+	},
+	{
+		"nf-md-airplane_search",
+		"󱢃",
+	},
+	{
+		"nf-md-airplane_settings",
+		"󱢄",
+	},
+	{
+		"nf-md-airplane_takeoff",
+		"󰗕",
+	},
+	{
+		"nf-md-airport",
+		"󰡋",
+	},
+	{
+		"nf-md-alarm",
+		"󰀠",
+	},
+	{
+		"nf-md-alarm_bell",
+		"󰞎",
+	},
+	{
+		"nf-md-alarm_check",
+		"󰀡",
+	},
+	{
+		"nf-md-alarm_light",
+		"󰞏",
+	},
+	{
+		"nf-md-alarm_light_off",
+		"󱜞",
+	},
+	{
+		"nf-md-alarm_light_off_outline",
+		"󱜟",
+	},
+	{
+		"nf-md-alarm_light_outline",
+		"󰯪",
+	},
+	{
+		"nf-md-alarm_multiple",
+		"󰀢",
+	},
+	{
+		"nf-md-alarm_note",
+		"󰹱",
+	},
+	{
+		"nf-md-alarm_note_off",
+		"󰹲",
+	},
+	{
+		"nf-md-alarm_off",
+		"󰀣",
+	},
+	{
+		"nf-md-alarm_panel",
+		"󱗄",
+	},
+	{
+		"nf-md-alarm_panel_outline",
+		"󱗅",
+	},
+	{
+		"nf-md-alarm_plus",
+		"󰀤",
+	},
+	{
+		"nf-md-alarm_snooze",
+		"󰚎",
+	},
+	{
+		"nf-md-album",
+		"󰀥",
+	},
+	{
+		"nf-md-alert",
+		"󰀦",
+	},
+	{
+		"nf-md-alert_box",
+		"󰀧",
+	},
+	{
+		"nf-md-alert_box_outline",
+		"󰳤",
+	},
+	{
+		"nf-md-alert_circle",
+		"󰀨",
+	},
+	{
+		"nf-md-alert_circle_check",
+		"󱇭",
+	},
+	{
+		"nf-md-alert_circle_check_outline",
+		"󱇮",
+	},
+	{
+		"nf-md-alert_circle_outline",
+		"󰗖",
+	},
+	{
+		"nf-md-alert_decagram",
+		"󰚽",
+	},
+	{
+		"nf-md-alert_decagram_outline",
+		"󰳥",
+	},
+	{
+		"nf-md-alert_minus",
+		"󱒻",
+	},
+	{
+		"nf-md-alert_minus_outline",
+		"󱒾",
+	},
+	{
+		"nf-md-alert_octagon",
+		"󰀩",
+	},
+	{
+		"nf-md-alert_octagon_outline",
+		"󰳦",
+	},
+	{
+		"nf-md-alert_octagram",
+		"󰝧",
+	},
+	{
+		"nf-md-alert_octagram_outline",
+		"󰳧",
+	},
+	{
+		"nf-md-alert_outline",
+		"󰀪",
+	},
+	{
+		"nf-md-alert_plus",
+		"󱒺",
+	},
+	{
+		"nf-md-alert_plus_outline",
+		"󱒽",
+	},
+	{
+		"nf-md-alert_remove",
+		"󱒼",
+	},
+	{
+		"nf-md-alert_remove_outline",
+		"󱒿",
+	},
+	{
+		"nf-md-alert_rhombus",
+		"󱇎",
+	},
+	{
+		"nf-md-alert_rhombus_outline",
+		"󱇏",
+	},
+	{
+		"nf-md-alien",
+		"󰢚",
+	},
+	{
+		"nf-md-alien_outline",
+		"󱃋",
+	},
+	{
+		"nf-md-align_horizontal_center",
+		"󱇃",
+	},
+	{
+		"nf-md-align_horizontal_distribute",
+		"󱥢",
+	},
+	{
+		"nf-md-align_horizontal_left",
+		"󱇂",
+	},
+	{
+		"nf-md-align_horizontal_right",
+		"󱇄",
+	},
+	{
+		"nf-md-align_vertical_bottom",
+		"󱇅",
+	},
+	{
+		"nf-md-align_vertical_center",
+		"󱇆",
+	},
+	{
+		"nf-md-align_vertical_distribute",
+		"󱥣",
+	},
+	{
+		"nf-md-align_vertical_top",
+		"󱇇",
+	},
+	{
+		"nf-md-all_inclusive",
+		"󰚾",
+	},
+	{
+		"nf-md-all_inclusive_box",
+		"󱢍",
+	},
+	{
+		"nf-md-all_inclusive_box_outline",
+		"󱢎",
+	},
+	{
+		"nf-md-allergy",
+		"󱉘",
+	},
+	{
+		"nf-md-alpha",
+		"󰀫",
+	},
+	{
+		"nf-md-alpha_a",
+		"󰫮",
+	},
+	{
+		"nf-md-alpha_a_box",
+		"󰬈",
+	},
+	{
+		"nf-md-alpha_a_box_outline",
+		"󰯫",
+	},
+	{
+		"nf-md-alpha_a_circle",
+		"󰯬",
+	},
+	{
+		"nf-md-alpha_a_circle_outline",
+		"󰯭",
+	},
+	{
+		"nf-md-alpha_b",
+		"󰫯",
+	},
+	{
+		"nf-md-alpha_b_box",
+		"󰬉",
+	},
+	{
+		"nf-md-alpha_b_box_outline",
+		"󰯮",
+	},
+	{
+		"nf-md-alpha_b_circle",
+		"󰯯",
+	},
+	{
+		"nf-md-alpha_b_circle_outline",
+		"󰯰",
+	},
+	{
+		"nf-md-alpha_c",
+		"󰫰",
+	},
+	{
+		"nf-md-alpha_c_box",
+		"󰬊",
+	},
+	{
+		"nf-md-alpha_c_box_outline",
+		"󰯱",
+	},
+	{
+		"nf-md-alpha_c_circle",
+		"󰯲",
+	},
+	{
+		"nf-md-alpha_c_circle_outline",
+		"󰯳",
+	},
+	{
+		"nf-md-alpha_d",
+		"󰫱",
+	},
+	{
+		"nf-md-alpha_d_box",
+		"󰬋",
+	},
+	{
+		"nf-md-alpha_d_box_outline",
+		"󰯴",
+	},
+	{
+		"nf-md-alpha_d_circle",
+		"󰯵",
+	},
+	{
+		"nf-md-alpha_d_circle_outline",
+		"󰯶",
+	},
+	{
+		"nf-md-alpha_e",
+		"󰫲",
+	},
+	{
+		"nf-md-alpha_e_box",
+		"󰬌",
+	},
+	{
+		"nf-md-alpha_e_box_outline",
+		"󰯷",
+	},
+	{
+		"nf-md-alpha_e_circle",
+		"󰯸",
+	},
+	{
+		"nf-md-alpha_e_circle_outline",
+		"󰯹",
+	},
+	{
+		"nf-md-alpha_f",
+		"󰫳",
+	},
+	{
+		"nf-md-alpha_f_box",
+		"󰬍",
+	},
+	{
+		"nf-md-alpha_f_box_outline",
+		"󰯺",
+	},
+	{
+		"nf-md-alpha_f_circle",
+		"󰯻",
+	},
+	{
+		"nf-md-alpha_f_circle_outline",
+		"󰯼",
+	},
+	{
+		"nf-md-alpha_g",
+		"󰫴",
+	},
+	{
+		"nf-md-alpha_g_box",
+		"󰬎",
+	},
+	{
+		"nf-md-alpha_g_box_outline",
+		"󰯽",
+	},
+	{
+		"nf-md-alpha_g_circle",
+		"󰯾",
+	},
+	{
+		"nf-md-alpha_g_circle_outline",
+		"󰯿",
+	},
+	{
+		"nf-md-alpha_h",
+		"󰫵",
+	},
+	{
+		"nf-md-alpha_h_box",
+		"󰬏",
+	},
+	{
+		"nf-md-alpha_h_box_outline",
+		"󰰀",
+	},
+	{
+		"nf-md-alpha_h_circle",
+		"󰰁",
+	},
+	{
+		"nf-md-alpha_h_circle_outline",
+		"󰰂",
+	},
+	{
+		"nf-md-alpha_i",
+		"󱂈",
+	},
+	{
+		"nf-md-alpha_i_box",
+		"󰬐",
+	},
+	{
+		"nf-md-alpha_i_box_outline",
+		"󰰃",
+	},
+	{
+		"nf-md-alpha_i_circle",
+		"󰰄",
+	},
+	{
+		"nf-md-alpha_i_circle_outline",
+		"󰰅",
+	},
+	{
+		"nf-md-alpha_j",
+		"󰫷",
+	},
+	{
+		"nf-md-alpha_j_box",
+		"󰬑",
+	},
+	{
+		"nf-md-alpha_j_box_outline",
+		"󰰆",
+	},
+	{
+		"nf-md-alpha_j_circle",
+		"󰰇",
+	},
+	{
+		"nf-md-alpha_j_circle_outline",
+		"󰰈",
+	},
+	{
+		"nf-md-alpha_k",
+		"󰫸",
+	},
+	{
+		"nf-md-alpha_k_box",
+		"󰬒",
+	},
+	{
+		"nf-md-alpha_k_box_outline",
+		"󰰉",
+	},
+	{
+		"nf-md-alpha_k_circle",
+		"󰰊",
+	},
+	{
+		"nf-md-alpha_k_circle_outline",
+		"󰰋",
+	},
+	{
+		"nf-md-alpha_l",
+		"󱎦",
+	},
+	{
+		"nf-md-alpha_l_box",
+		"󰬓",
+	},
+	{
+		"nf-md-alpha_l_box_outline",
+		"󰰌",
+	},
+	{
+		"nf-md-alpha_l_circle",
+		"󰰍",
+	},
+	{
+		"nf-md-alpha_l_circle_outline",
+		"󰰎",
+	},
+	{
+		"nf-md-alpha_m",
+		"󰫺",
+	},
+	{
+		"nf-md-alpha_m_box",
+		"󰬔",
+	},
+	{
+		"nf-md-alpha_m_box_outline",
+		"󰰏",
+	},
+	{
+		"nf-md-alpha_m_circle",
+		"󰰐",
+	},
+	{
+		"nf-md-alpha_m_circle_outline",
+		"󰰑",
+	},
+	{
+		"nf-md-alpha_n",
+		"󰫻",
+	},
+	{
+		"nf-md-alpha_n_box",
+		"󰬕",
+	},
+	{
+		"nf-md-alpha_n_box_outline",
+		"󰰒",
+	},
+	{
+		"nf-md-alpha_n_circle",
+		"󰰓",
+	},
+	{
+		"nf-md-alpha_n_circle_outline",
+		"󰰔",
+	},
+	{
+		"nf-md-alpha_o",
+		"󰬹",
+	},
+	{
+		"nf-md-alpha_o_box",
+		"󰬖",
+	},
+	{
+		"nf-md-alpha_o_box_outline",
+		"󰰕",
+	},
+	{
+		"nf-md-alpha_o_circle",
+		"󰲞",
+	},
+	{
+		"nf-md-alpha_o_circle_outline",
+		"󰲟",
+	},
+	{
+		"nf-md-alpha_p",
+		"󰫽",
+	},
+	{
+		"nf-md-alpha_p_box",
+		"󰬗",
+	},
+	{
+		"nf-md-alpha_p_box_outline",
+		"󰰘",
+	},
+	{
+		"nf-md-alpha_p_circle",
+		"󰰙",
+	},
+	{
+		"nf-md-alpha_p_circle_outline",
+		"󰰚",
+	},
+	{
+		"nf-md-alpha_q",
+		"󰫾",
+	},
+	{
+		"nf-md-alpha_q_box",
+		"󰬘",
+	},
+	{
+		"nf-md-alpha_q_box_outline",
+		"󰰛",
+	},
+	{
+		"nf-md-alpha_q_circle",
+		"󰰜",
+	},
+	{
+		"nf-md-alpha_q_circle_outline",
+		"󰰝",
+	},
+	{
+		"nf-md-alpha_r",
+		"󰫿",
+	},
+	{
+		"nf-md-alpha_r_box",
+		"󰬙",
+	},
+	{
+		"nf-md-alpha_r_box_outline",
+		"󰰞",
+	},
+	{
+		"nf-md-alpha_r_circle",
+		"󰰟",
+	},
+	{
+		"nf-md-alpha_r_circle_outline",
+		"󰰠",
+	},
+	{
+		"nf-md-alpha_s",
+		"󰬀",
+	},
+	{
+		"nf-md-alpha_s_box",
+		"󰬚",
+	},
+	{
+		"nf-md-alpha_s_box_outline",
+		"󰰡",
+	},
+	{
+		"nf-md-alpha_s_circle",
+		"󰰢",
+	},
+	{
+		"nf-md-alpha_s_circle_outline",
+		"󰰣",
+	},
+	{
+		"nf-md-alpha_t",
+		"󰬁",
+	},
+	{
+		"nf-md-alpha_t_box",
+		"󰬛",
+	},
+	{
+		"nf-md-alpha_t_box_outline",
+		"󰰤",
+	},
+	{
+		"nf-md-alpha_t_circle",
+		"󰰥",
+	},
+	{
+		"nf-md-alpha_t_circle_outline",
+		"󰰦",
+	},
+	{
+		"nf-md-alpha_u",
+		"󰬂",
+	},
+	{
+		"nf-md-alpha_u_box",
+		"󰬜",
+	},
+	{
+		"nf-md-alpha_u_box_outline",
+		"󰰧",
+	},
+	{
+		"nf-md-alpha_u_circle",
+		"󰰨",
+	},
+	{
+		"nf-md-alpha_u_circle_outline",
+		"󰰩",
+	},
+	{
+		"nf-md-alpha_v",
+		"󱂌",
+	},
+	{
+		"nf-md-alpha_v_box",
+		"󰬝",
+	},
+	{
+		"nf-md-alpha_v_box_outline",
+		"󰰪",
+	},
+	{
+		"nf-md-alpha_v_circle",
+		"󰰫",
+	},
+	{
+		"nf-md-alpha_v_circle_outline",
+		"󰰬",
+	},
+	{
+		"nf-md-alpha_w",
+		"󰬄",
+	},
+	{
+		"nf-md-alpha_w_box",
+		"󰬞",
+	},
+	{
+		"nf-md-alpha_w_box_outline",
+		"󰰭",
+	},
+	{
+		"nf-md-alpha_w_circle",
+		"󰰮",
+	},
+	{
+		"nf-md-alpha_w_circle_outline",
+		"󰰯",
+	},
+	{
+		"nf-md-alpha_x",
+		"󱂑",
+	},
+	{
+		"nf-md-alpha_x_box",
+		"󰬟",
+	},
+	{
+		"nf-md-alpha_x_box_outline",
+		"󰰰",
+	},
+	{
+		"nf-md-alpha_x_circle",
+		"󰰱",
+	},
+	{
+		"nf-md-alpha_x_circle_outline",
+		"󰰲",
+	},
+	{
+		"nf-md-alpha_y",
+		"󰬆",
+	},
+	{
+		"nf-md-alpha_y_box",
+		"󰬠",
+	},
+	{
+		"nf-md-alpha_y_box_outline",
+		"󰰳",
+	},
+	{
+		"nf-md-alpha_y_circle",
+		"󰰴",
+	},
+	{
+		"nf-md-alpha_y_circle_outline",
+		"󰰵",
+	},
+	{
+		"nf-md-alpha_z",
+		"󰬇",
+	},
+	{
+		"nf-md-alpha_z_box",
+		"󰬡",
+	},
+	{
+		"nf-md-alpha_z_box_outline",
+		"󰰶",
+	},
+	{
+		"nf-md-alpha_z_circle",
+		"󰰷",
+	},
+	{
+		"nf-md-alpha_z_circle_outline",
+		"󰰸",
+	},
+	{
+		"nf-md-alphabet_aurebesh",
+		"󱌬",
+	},
+	{
+		"nf-md-alphabet_cyrillic",
+		"󱌭",
+	},
+	{
+		"nf-md-alphabet_greek",
+		"󱌮",
+	},
+	{
+		"nf-md-alphabet_latin",
+		"󱌯",
+	},
+	{
+		"nf-md-alphabet_piqad",
+		"󱌰",
+	},
+	{
+		"nf-md-alphabet_tengwar",
+		"󱌷",
+	},
+	{
+		"nf-md-alphabetical",
+		"󰀬",
+	},
+	{
+		"nf-md-alphabetical_off",
+		"󱀌",
+	},
+	{
+		"nf-md-alphabetical_variant",
+		"󱀍",
+	},
+	{
+		"nf-md-alphabetical_variant_off",
+		"󱀎",
+	},
+	{
+		"nf-md-altimeter",
+		"󰗗",
+	},
+	{
+		"nf-md-ambulance",
+		"󰀯",
+	},
+	{
+		"nf-md-ammunition",
+		"󰳨",
+	},
+	{
+		"nf-md-ampersand",
+		"󰪍",
+	},
+	{
+		"nf-md-amplifier",
+		"󰀰",
+	},
+	{
+		"nf-md-amplifier_off",
+		"󱆵",
+	},
+	{
+		"nf-md-anchor",
+		"󰀱",
+	},
+	{
+		"nf-md-android",
+		"󰀲",
+	},
+	{
+		"nf-md-android_messages",
+		"󰵅",
+	},
+	{
+		"nf-md-android_studio",
+		"󰀴",
+	},
+	{
+		"nf-md-angle_acute",
+		"󰤷",
+	},
+	{
+		"nf-md-angle_obtuse",
+		"󰤸",
+	},
+	{
+		"nf-md-angle_right",
+		"󰤹",
+	},
+	{
+		"nf-md-angular",
+		"󰚲",
+	},
+	{
+		"nf-md-angularjs",
+		"󰚿",
+	},
+	{
+		"nf-md-animation",
+		"󰗘",
+	},
+	{
+		"nf-md-animation_outline",
+		"󰪏",
+	},
+	{
+		"nf-md-animation_play",
+		"󰤺",
+	},
+	{
+		"nf-md-animation_play_outline",
+		"󰪐",
+	},
+	{
+		"nf-md-ansible",
+		"󱂚",
+	},
+	{
+		"nf-md-antenna",
+		"󱄙",
+	},
+	{
+		"nf-md-anvil",
+		"󰢛",
+	},
+	{
+		"nf-md-apache_kafka",
+		"󱀏",
+	},
+	{
+		"nf-md-api",
+		"󱂛",
+	},
+	{
+		"nf-md-api_off",
+		"󱉗",
+	},
+	{
+		"nf-md-apple",
+		"󰀵",
+	},
+	{
+		"nf-md-apple_finder",
+		"󰀶",
+	},
+	{
+		"nf-md-apple_icloud",
+		"󰀸",
+	},
+	{
+		"nf-md-apple_ios",
+		"󰀷",
+	},
+	{
+		"nf-md-apple_keyboard_caps",
+		"󰘲",
+	},
+	{
+		"nf-md-apple_keyboard_command",
+		"󰘳",
+	},
+	{
+		"nf-md-apple_keyboard_control",
+		"󰘴",
+	},
+	{
+		"nf-md-apple_keyboard_option",
+		"󰘵",
+	},
+	{
+		"nf-md-apple_keyboard_shift",
+		"󰘶",
+	},
+	{
+		"nf-md-apple_safari",
+		"󰀹",
+	},
+	{
+		"nf-md-application",
+		"󰣆",
+	},
+	{
+		"nf-md-application_array",
+		"󱃵",
+	},
+	{
+		"nf-md-application_array_outline",
+		"󱃶",
+	},
+	{
+		"nf-md-application_braces",
+		"󱃷",
+	},
+	{
+		"nf-md-application_braces_outline",
+		"󱃸",
+	},
+	{
+		"nf-md-application_brackets",
+		"󰲋",
+	},
+	{
+		"nf-md-application_brackets_outline",
+		"󰲌",
+	},
+	{
+		"nf-md-application_cog",
+		"󰙵",
+	},
+	{
+		"nf-md-application_cog_outline",
+		"󱕷",
+	},
+	{
+		"nf-md-application_edit",
+		"󰂮",
+	},
+	{
+		"nf-md-application_edit_outline",
+		"󰘙",
+	},
+	{
+		"nf-md-application_export",
+		"󰶭",
+	},
+	{
+		"nf-md-application_import",
+		"󰶮",
+	},
+	{
+		"nf-md-application_outline",
+		"󰘔",
+	},
+	{
+		"nf-md-application_parentheses",
+		"󱃹",
+	},
+	{
+		"nf-md-application_parentheses_outline",
+		"󱃺",
+	},
+	{
+		"nf-md-application_settings",
+		"󰭠",
+	},
+	{
+		"nf-md-application_settings_outline",
+		"󱕕",
+	},
+	{
+		"nf-md-application_variable",
+		"󱃻",
+	},
+	{
+		"nf-md-application_variable_outline",
+		"󱃼",
+	},
+	{
+		"nf-md-approximately_equal",
+		"󰾞",
+	},
+	{
+		"nf-md-approximately_equal_box",
+		"󰾟",
+	},
+	{
+		"nf-md-apps",
+		"󰀻",
+	},
+	{
+		"nf-md-apps_box",
+		"󰵆",
+	},
+	{
+		"nf-md-arch",
+		"󰣇",
+	},
+	{
+		"nf-md-archive",
+		"󰀼",
+	},
+	{
+		"nf-md-archive_alert",
+		"󱓽",
+	},
+	{
+		"nf-md-archive_alert_outline",
+		"󱓾",
+	},
+	{
+		"nf-md-archive_arrow_down",
+		"󱉙",
+	},
+	{
+		"nf-md-archive_arrow_down_outline",
+		"󱉚",
+	},
+	{
+		"nf-md-archive_arrow_up",
+		"󱉛",
+	},
+	{
+		"nf-md-archive_arrow_up_outline",
+		"󱉜",
+	},
+	{
+		"nf-md-archive_cancel",
+		"󱝋",
+	},
+	{
+		"nf-md-archive_cancel_outline",
+		"󱝌",
+	},
+	{
+		"nf-md-archive_check",
+		"󱝍",
+	},
+	{
+		"nf-md-archive_check_outline",
+		"󱝎",
+	},
+	{
+		"nf-md-archive_clock",
+		"󱝏",
+	},
+	{
+		"nf-md-archive_clock_outline",
+		"󱝐",
+	},
+	{
+		"nf-md-archive_cog",
+		"󱝑",
+	},
+	{
+		"nf-md-archive_cog_outline",
+		"󱝒",
+	},
+	{
+		"nf-md-archive_edit",
+		"󱝓",
+	},
+	{
+		"nf-md-archive_edit_outline",
+		"󱝔",
+	},
+	{
+		"nf-md-archive_eye",
+		"󱝕",
+	},
+	{
+		"nf-md-archive_eye_outline",
+		"󱝖",
+	},
+	{
+		"nf-md-archive_lock",
+		"󱝗",
+	},
+	{
+		"nf-md-archive_lock_open",
+		"󱝘",
+	},
+	{
+		"nf-md-archive_lock_open_outline",
+		"󱝙",
+	},
+	{
+		"nf-md-archive_lock_outline",
+		"󱝚",
+	},
+	{
+		"nf-md-archive_marker",
+		"󱝛",
+	},
+	{
+		"nf-md-archive_marker_outline",
+		"󱝜",
+	},
+	{
+		"nf-md-archive_minus",
+		"󱝝",
+	},
+	{
+		"nf-md-archive_minus_outline",
+		"󱝞",
+	},
+	{
+		"nf-md-archive_music",
+		"󱝟",
+	},
+	{
+		"nf-md-archive_music_outline",
+		"󱝠",
+	},
+	{
+		"nf-md-archive_off",
+		"󱝡",
+	},
+	{
+		"nf-md-archive_off_outline",
+		"󱝢",
+	},
+	{
+		"nf-md-archive_outline",
+		"󱈎",
+	},
+	{
+		"nf-md-archive_plus",
+		"󱝣",
+	},
+	{
+		"nf-md-archive_plus_outline",
+		"󱝤",
+	},
+	{
+		"nf-md-archive_refresh",
+		"󱝥",
+	},
+	{
+		"nf-md-archive_refresh_outline",
+		"󱝦",
+	},
+	{
+		"nf-md-archive_remove",
+		"󱝧",
+	},
+	{
+		"nf-md-archive_remove_outline",
+		"󱝨",
+	},
+	{
+		"nf-md-archive_search",
+		"󱝩",
+	},
+	{
+		"nf-md-archive_search_outline",
+		"󱝪",
+	},
+	{
+		"nf-md-archive_settings",
+		"󱝫",
+	},
+	{
+		"nf-md-archive_settings_outline",
+		"󱝬",
+	},
+	{
+		"nf-md-archive_star",
+		"󱝭",
+	},
+	{
+		"nf-md-archive_star_outline",
+		"󱝮",
+	},
+	{
+		"nf-md-archive_sync",
+		"󱝯",
+	},
+	{
+		"nf-md-archive_sync_outline",
+		"󱝰",
+	},
+	{
+		"nf-md-arm_flex",
+		"󰿗",
+	},
+	{
+		"nf-md-arm_flex_outline",
+		"󰿖",
+	},
+	{
+		"nf-md-arrange_bring_forward",
+		"󰀽",
+	},
+	{
+		"nf-md-arrange_bring_to_front",
+		"󰀾",
+	},
+	{
+		"nf-md-arrange_send_backward",
+		"󰀿",
+	},
+	{
+		"nf-md-arrange_send_to_back",
+		"󰁀",
+	},
+	{
+		"nf-md-arrow_all",
+		"󰁁",
+	},
+	{
+		"nf-md-arrow_bottom_left",
+		"󰁂",
+	},
+	{
+		"nf-md-arrow_bottom_left_bold_box",
+		"󱥤",
+	},
+	{
+		"nf-md-arrow_bottom_left_bold_box_outline",
+		"󱥥",
+	},
+	{
+		"nf-md-arrow_bottom_left_bold_outline",
+		"󰦷",
+	},
+	{
+		"nf-md-arrow_bottom_left_thick",
+		"󰦸",
+	},
+	{
+		"nf-md-arrow_bottom_left_thin",
+		"󱦶",
+	},
+	{
+		"nf-md-arrow_bottom_left_thin_circle_outline",
+		"󱖖",
+	},
+	{
+		"nf-md-arrow_bottom_right",
+		"󰁃",
+	},
+	{
+		"nf-md-arrow_bottom_right_bold_box",
+		"󱥦",
+	},
+	{
+		"nf-md-arrow_bottom_right_bold_box_outline",
+		"󱥧",
+	},
+	{
+		"nf-md-arrow_bottom_right_bold_outline",
+		"󰦹",
+	},
+	{
+		"nf-md-arrow_bottom_right_thick",
+		"󰦺",
+	},
+	{
+		"nf-md-arrow_bottom_right_thin",
+		"󱦷",
+	},
+	{
+		"nf-md-arrow_bottom_right_thin_circle_outline",
+		"󱖕",
+	},
+	{
+		"nf-md-arrow_collapse",
+		"󰘕",
+	},
+	{
+		"nf-md-arrow_collapse_all",
+		"󰁄",
+	},
+	{
+		"nf-md-arrow_collapse_down",
+		"󰞒",
+	},
+	{
+		"nf-md-arrow_collapse_horizontal",
+		"󰡌",
+	},
+	{
+		"nf-md-arrow_collapse_left",
+		"󰞓",
+	},
+	{
+		"nf-md-arrow_collapse_right",
+		"󰞔",
+	},
+	{
+		"nf-md-arrow_collapse_up",
+		"󰞕",
+	},
+	{
+		"nf-md-arrow_collapse_vertical",
+		"󰡍",
+	},
+	{
+		"nf-md-arrow_decision",
+		"󰦻",
+	},
+	{
+		"nf-md-arrow_decision_auto",
+		"󰦼",
+	},
+	{
+		"nf-md-arrow_decision_auto_outline",
+		"󰦽",
+	},
+	{
+		"nf-md-arrow_decision_outline",
+		"󰦾",
+	},
+	{
+		"nf-md-arrow_down",
+		"󰁅",
+	},
+	{
+		"nf-md-arrow_down_bold",
+		"󰜮",
+	},
+	{
+		"nf-md-arrow_down_bold_box",
+		"󰜯",
+	},
+	{
+		"nf-md-arrow_down_bold_box_outline",
+		"󰜰",
+	},
+	{
+		"nf-md-arrow_down_bold_circle",
+		"󰁇",
+	},
+	{
+		"nf-md-arrow_down_bold_circle_outline",
+		"󰁈",
+	},
+	{
+		"nf-md-arrow_down_bold_hexagon_outline",
+		"󰁉",
+	},
+	{
+		"nf-md-arrow_down_bold_outline",
+		"󰦿",
+	},
+	{
+		"nf-md-arrow_down_box",
+		"󰛀",
+	},
+	{
+		"nf-md-arrow_down_circle",
+		"󰳛",
+	},
+	{
+		"nf-md-arrow_down_circle_outline",
+		"󰳜",
+	},
+	{
+		"nf-md-arrow_down_drop_circle",
+		"󰁊",
+	},
+	{
+		"nf-md-arrow_down_drop_circle_outline",
+		"󰁋",
+	},
+	{
+		"nf-md-arrow_down_left",
+		"󱞡",
+	},
+	{
+		"nf-md-arrow_down_left_bold",
+		"󱞢",
+	},
+	{
+		"nf-md-arrow_down_right",
+		"󱞣",
+	},
+	{
+		"nf-md-arrow_down_right_bold",
+		"󱞤",
+	},
+	{
+		"nf-md-arrow_down_thick",
+		"󰁆",
+	},
+	{
+		"nf-md-arrow_down_thin",
+		"󱦳",
+	},
+	{
+		"nf-md-arrow_down_thin_circle_outline",
+		"󱖙",
+	},
+	{
+		"nf-md-arrow_expand",
+		"󰘖",
+	},
+	{
+		"nf-md-arrow_expand_all",
+		"󰁌",
+	},
+	{
+		"nf-md-arrow_expand_down",
+		"󰞖",
+	},
+	{
+		"nf-md-arrow_expand_horizontal",
+		"󰡎",
+	},
+	{
+		"nf-md-arrow_expand_left",
+		"󰞗",
+	},
+	{
+		"nf-md-arrow_expand_right",
+		"󰞘",
+	},
+	{
+		"nf-md-arrow_expand_up",
+		"󰞙",
+	},
+	{
+		"nf-md-arrow_expand_vertical",
+		"󰡏",
+	},
+	{
+		"nf-md-arrow_horizontal_lock",
+		"󱅛",
+	},
+	{
+		"nf-md-arrow_left",
+		"󰁍",
+	},
+	{
+		"nf-md-arrow_left_bold",
+		"󰜱",
+	},
+	{
+		"nf-md-arrow_left_bold_box",
+		"󰜲",
+	},
+	{
+		"nf-md-arrow_left_bold_box_outline",
+		"󰜳",
+	},
+	{
+		"nf-md-arrow_left_bold_circle",
+		"󰁏",
+	},
+	{
+		"nf-md-arrow_left_bold_circle_outline",
+		"󰁐",
+	},
+	{
+		"nf-md-arrow_left_bold_hexagon_outline",
+		"󰁑",
+	},
+	{
+		"nf-md-arrow_left_bold_outline",
+		"󰧀",
+	},
+	{
+		"nf-md-arrow_left_bottom",
+		"󱞥",
+	},
+	{
+		"nf-md-arrow_left_bottom_bold",
+		"󱞦",
+	},
+	{
+		"nf-md-arrow_left_box",
+		"󰛁",
+	},
+	{
+		"nf-md-arrow_left_circle",
+		"󰳝",
+	},
+	{
+		"nf-md-arrow_left_circle_outline",
+		"󰳞",
+	},
+	{
+		"nf-md-arrow_left_drop_circle",
+		"󰁒",
+	},
+	{
+		"nf-md-arrow_left_drop_circle_outline",
+		"󰁓",
+	},
+	{
+		"nf-md-arrow_left_right",
+		"󰹳",
+	},
+	{
+		"nf-md-arrow_left_right_bold",
+		"󰹴",
+	},
+	{
+		"nf-md-arrow_left_right_bold_outline",
+		"󰧁",
+	},
+	{
+		"nf-md-arrow_left_thick",
+		"󰁎",
+	},
+	{
+		"nf-md-arrow_left_thin",
+		"󱦱",
+	},
+	{
+		"nf-md-arrow_left_thin_circle_outline",
+		"󱖚",
+	},
+	{
+		"nf-md-arrow_left_top",
+		"󱞧",
+	},
+	{
+		"nf-md-arrow_left_top_bold",
+		"󱞨",
+	},
+	{
+		"nf-md-arrow_projectile",
+		"󱡀",
+	},
+	{
+		"nf-md-arrow_projectile_multiple",
+		"󱠿",
+	},
+	{
+		"nf-md-arrow_right",
+		"󰁔",
+	},
+	{
+		"nf-md-arrow_right_bold",
+		"󰜴",
+	},
+	{
+		"nf-md-arrow_right_bold_box",
+		"󰜵",
+	},
+	{
+		"nf-md-arrow_right_bold_box_outline",
+		"󰜶",
+	},
+	{
+		"nf-md-arrow_right_bold_circle",
+		"󰁖",
+	},
+	{
+		"nf-md-arrow_right_bold_circle_outline",
+		"󰁗",
+	},
+	{
+		"nf-md-arrow_right_bold_hexagon_outline",
+		"󰁘",
+	},
+	{
+		"nf-md-arrow_right_bold_outline",
+		"󰧂",
+	},
+	{
+		"nf-md-arrow_right_bottom",
+		"󱞩",
+	},
+	{
+		"nf-md-arrow_right_bottom_bold",
+		"󱞪",
+	},
+	{
+		"nf-md-arrow_right_box",
+		"󰛂",
+	},
+	{
+		"nf-md-arrow_right_circle",
+		"󰳟",
+	},
+	{
+		"nf-md-arrow_right_circle_outline",
+		"󰳠",
+	},
+	{
+		"nf-md-arrow_right_drop_circle",
+		"󰁙",
+	},
+	{
+		"nf-md-arrow_right_drop_circle_outline",
+		"󰁚",
+	},
+	{
+		"nf-md-arrow_right_thick",
+		"󰁕",
+	},
+	{
+		"nf-md-arrow_right_thin",
+		"󱦰",
+	},
+	{
+		"nf-md-arrow_right_thin_circle_outline",
+		"󱖘",
+	},
+	{
+		"nf-md-arrow_right_top",
+		"󱞫",
+	},
+	{
+		"nf-md-arrow_right_top_bold",
+		"󱞬",
+	},
+	{
+		"nf-md-arrow_split_horizontal",
+		"󰤻",
+	},
+	{
+		"nf-md-arrow_split_vertical",
+		"󰤼",
+	},
+	{
+		"nf-md-arrow_top_left",
+		"󰁛",
+	},
+	{
+		"nf-md-arrow_top_left_bold_box",
+		"󱥨",
+	},
+	{
+		"nf-md-arrow_top_left_bold_box_outline",
+		"󱥩",
+	},
+	{
+		"nf-md-arrow_top_left_bold_outline",
+		"󰧃",
+	},
+	{
+		"nf-md-arrow_top_left_bottom_right",
+		"󰹵",
+	},
+	{
+		"nf-md-arrow_top_left_bottom_right_bold",
+		"󰹶",
+	},
+	{
+		"nf-md-arrow_top_left_thick",
+		"󰧄",
+	},
+	{
+		"nf-md-arrow_top_left_thin",
+		"󱦵",
+	},
+	{
+		"nf-md-arrow_top_left_thin_circle_outline",
+		"󱖓",
+	},
+	{
+		"nf-md-arrow_top_right",
+		"󰁜",
+	},
+	{
+		"nf-md-arrow_top_right_bold_box",
+		"󱥪",
+	},
+	{
+		"nf-md-arrow_top_right_bold_box_outline",
+		"󱥫",
+	},
+	{
+		"nf-md-arrow_top_right_bold_outline",
+		"󰧅",
+	},
+	{
+		"nf-md-arrow_top_right_bottom_left",
+		"󰹷",
+	},
+	{
+		"nf-md-arrow_top_right_bottom_left_bold",
+		"󰹸",
+	},
+	{
+		"nf-md-arrow_top_right_thick",
+		"󰧆",
+	},
+	{
+		"nf-md-arrow_top_right_thin",
+		"󱦴",
+	},
+	{
+		"nf-md-arrow_top_right_thin_circle_outline",
+		"󱖔",
+	},
+	{
+		"nf-md-arrow_u_down_left",
+		"󱞭",
+	},
+	{
+		"nf-md-arrow_u_down_left_bold",
+		"󱞮",
+	},
+	{
+		"nf-md-arrow_u_down_right",
+		"󱞯",
+	},
+	{
+		"nf-md-arrow_u_down_right_bold",
+		"󱞰",
+	},
+	{
+		"nf-md-arrow_u_left_bottom",
+		"󱞱",
+	},
+	{
+		"nf-md-arrow_u_left_bottom_bold",
+		"󱞲",
+	},
+	{
+		"nf-md-arrow_u_left_top",
+		"󱞳",
+	},
+	{
+		"nf-md-arrow_u_left_top_bold",
+		"󱞴",
+	},
+	{
+		"nf-md-arrow_u_right_bottom",
+		"󱞵",
+	},
+	{
+		"nf-md-arrow_u_right_bottom_bold",
+		"󱞶",
+	},
+	{
+		"nf-md-arrow_u_right_top",
+		"󱞷",
+	},
+	{
+		"nf-md-arrow_u_right_top_bold",
+		"󱞸",
+	},
+	{
+		"nf-md-arrow_u_up_left",
+		"󱞹",
+	},
+	{
+		"nf-md-arrow_u_up_left_bold",
+		"󱞺",
+	},
+	{
+		"nf-md-arrow_u_up_right",
+		"󱞻",
+	},
+	{
+		"nf-md-arrow_u_up_right_bold",
+		"󱞼",
+	},
+	{
+		"nf-md-arrow_up",
+		"󰁝",
+	},
+	{
+		"nf-md-arrow_up_bold",
+		"󰜷",
+	},
+	{
+		"nf-md-arrow_up_bold_box",
+		"󰜸",
+	},
+	{
+		"nf-md-arrow_up_bold_box_outline",
+		"󰜹",
+	},
+	{
+		"nf-md-arrow_up_bold_circle",
+		"󰁟",
+	},
+	{
+		"nf-md-arrow_up_bold_circle_outline",
+		"󰁠",
+	},
+	{
+		"nf-md-arrow_up_bold_hexagon_outline",
+		"󰁡",
+	},
+	{
+		"nf-md-arrow_up_bold_outline",
+		"󰧇",
+	},
+	{
+		"nf-md-arrow_up_box",
+		"󰛃",
+	},
+	{
+		"nf-md-arrow_up_circle",
+		"󰳡",
+	},
+	{
+		"nf-md-arrow_up_circle_outline",
+		"󰳢",
+	},
+	{
+		"nf-md-arrow_up_down",
+		"󰹹",
+	},
+	{
+		"nf-md-arrow_up_down_bold",
+		"󰹺",
+	},
+	{
+		"nf-md-arrow_up_down_bold_outline",
+		"󰧈",
+	},
+	{
+		"nf-md-arrow_up_drop_circle",
+		"󰁢",
+	},
+	{
+		"nf-md-arrow_up_drop_circle_outline",
+		"󰁣",
+	},
+	{
+		"nf-md-arrow_up_left",
+		"󱞽",
+	},
+	{
+		"nf-md-arrow_up_left_bold",
+		"󱞾",
+	},
+	{
+		"nf-md-arrow_up_right",
+		"󱞿",
+	},
+	{
+		"nf-md-arrow_up_right_bold",
+		"󱟀",
+	},
+	{
+		"nf-md-arrow_up_thick",
+		"󰁞",
+	},
+	{
+		"nf-md-arrow_up_thin",
+		"󱦲",
+	},
+	{
+		"nf-md-arrow_up_thin_circle_outline",
+		"󱖗",
+	},
+	{
+		"nf-md-arrow_vertical_lock",
+		"󱅜",
+	},
+	{
+		"nf-md-artstation",
+		"󰭛",
+	},
+	{
+		"nf-md-aspect_ratio",
+		"󰨤",
+	},
+	{
+		"nf-md-assistant",
+		"󰁤",
+	},
+	{
+		"nf-md-asterisk",
+		"󰛄",
+	},
+	{
+		"nf-md-asterisk_circle_outline",
+		"󱨧",
+	},
+	{
+		"nf-md-at",
+		"󰁥",
+	},
+	{
+		"nf-md-atlassian",
+		"󰠄",
+	},
+	{
+		"nf-md-atm",
+		"󰵇",
+	},
+	{
+		"nf-md-atom",
+		"󰝨",
+	},
+	{
+		"nf-md-atom_variant",
+		"󰹻",
+	},
+	{
+		"nf-md-attachment",
+		"󰁦",
+	},
+	{
+		"nf-md-attachment_check",
+		"󱫁",
+	},
+	{
+		"nf-md-attachment_lock",
+		"󱧄",
+	},
+	{
+		"nf-md-attachment_minus",
+		"󱫂",
+	},
+	{
+		"nf-md-attachment_off",
+		"󱫃",
+	},
+	{
+		"nf-md-attachment_plus",
+		"󱫄",
+	},
+	{
+		"nf-md-attachment_remove",
+		"󱫅",
+	},
+	{
+		"nf-md-audio_input_rca",
+		"󱡫",
+	},
+	{
+		"nf-md-audio_input_stereo_minijack",
+		"󱡬",
+	},
+	{
+		"nf-md-audio_input_xlr",
+		"󱡭",
+	},
+	{
+		"nf-md-audio_video",
+		"󰤽",
+	},
+	{
+		"nf-md-audio_video_off",
+		"󱆶",
+	},
+	{
+		"nf-md-augmented_reality",
+		"󰡐",
+	},
+	{
+		"nf-md-auto_download",
+		"󱍾",
+	},
+	{
+		"nf-md-auto_fix",
+		"󰁨",
+	},
+	{
+		"nf-md-auto_upload",
+		"󰁩",
+	},
+	{
+		"nf-md-autorenew",
+		"󰁪",
+	},
+	{
+		"nf-md-autorenew_off",
+		"󱧧",
+	},
+	{
+		"nf-md-av_timer",
+		"󰁫",
+	},
+	{
+		"nf-md-aws",
+		"󰸏",
+	},
+	{
+		"nf-md-axe",
+		"󰣈",
+	},
+	{
+		"nf-md-axe_battle",
+		"󱡂",
+	},
+	{
+		"nf-md-axis",
+		"󰵈",
+	},
+	{
+		"nf-md-axis_arrow",
+		"󰵉",
+	},
+	{
+		"nf-md-axis_arrow_info",
+		"󱐎",
+	},
+	{
+		"nf-md-axis_arrow_lock",
+		"󰵊",
+	},
+	{
+		"nf-md-axis_lock",
+		"󰵋",
+	},
+	{
+		"nf-md-axis_x_arrow",
+		"󰵌",
+	},
+	{
+		"nf-md-axis_x_arrow_lock",
+		"󰵍",
+	},
+	{
+		"nf-md-axis_x_rotate_clockwise",
+		"󰵎",
+	},
+	{
+		"nf-md-axis_x_rotate_counterclockwise",
+		"󰵏",
+	},
+	{
+		"nf-md-axis_x_y_arrow_lock",
+		"󰵐",
+	},
+	{
+		"nf-md-axis_y_arrow",
+		"󰵑",
+	},
+	{
+		"nf-md-axis_y_arrow_lock",
+		"󰵒",
+	},
+	{
+		"nf-md-axis_y_rotate_clockwise",
+		"󰵓",
+	},
+	{
+		"nf-md-axis_y_rotate_counterclockwise",
+		"󰵔",
+	},
+	{
+		"nf-md-axis_z_arrow",
+		"󰵕",
+	},
+	{
+		"nf-md-axis_z_arrow_lock",
+		"󰵖",
+	},
+	{
+		"nf-md-axis_z_rotate_clockwise",
+		"󰵗",
+	},
+	{
+		"nf-md-axis_z_rotate_counterclockwise",
+		"󰵘",
+	},
+	{
+		"nf-md-babel",
+		"󰨥",
+	},
+	{
+		"nf-md-baby",
+		"󰁬",
+	},
+	{
+		"nf-md-baby_bottle",
+		"󰼹",
+	},
+	{
+		"nf-md-baby_bottle_outline",
+		"󰼺",
+	},
+	{
+		"nf-md-baby_buggy",
+		"󱏠",
+	},
+	{
+		"nf-md-baby_carriage",
+		"󰚏",
+	},
+	{
+		"nf-md-baby_carriage_off",
+		"󰾠",
+	},
+	{
+		"nf-md-baby_face",
+		"󰹼",
+	},
+	{
+		"nf-md-baby_face_outline",
+		"󰹽",
+	},
+	{
+		"nf-md-backburger",
+		"󰁭",
+	},
+	{
+		"nf-md-backspace",
+		"󰁮",
+	},
+	{
+		"nf-md-backspace_outline",
+		"󰭜",
+	},
+	{
+		"nf-md-backspace_reverse",
+		"󰹾",
+	},
+	{
+		"nf-md-backspace_reverse_outline",
+		"󰹿",
+	},
+	{
+		"nf-md-backup_restore",
+		"󰁯",
+	},
+	{
+		"nf-md-bacteria",
+		"󰻕",
+	},
+	{
+		"nf-md-bacteria_outline",
+		"󰻖",
+	},
+	{
+		"nf-md-badge_account",
+		"󰶧",
+	},
+	{
+		"nf-md-badge_account_alert",
+		"󰶨",
+	},
+	{
+		"nf-md-badge_account_alert_outline",
+		"󰶩",
+	},
+	{
+		"nf-md-badge_account_horizontal",
+		"󰸍",
+	},
+	{
+		"nf-md-badge_account_horizontal_outline",
+		"󰸎",
+	},
+	{
+		"nf-md-badge_account_outline",
+		"󰶪",
+	},
+	{
+		"nf-md-badminton",
+		"󰡑",
+	},
+	{
+		"nf-md-bag_carry_on",
+		"󰼻",
+	},
+	{
+		"nf-md-bag_carry_on_check",
+		"󰵥",
+	},
+	{
+		"nf-md-bag_carry_on_off",
+		"󰼼",
+	},
+	{
+		"nf-md-bag_checked",
+		"󰼽",
+	},
+	{
+		"nf-md-bag_personal",
+		"󰸐",
+	},
+	{
+		"nf-md-bag_personal_off",
+		"󰸑",
+	},
+	{
+		"nf-md-bag_personal_off_outline",
+		"󰸒",
+	},
+	{
+		"nf-md-bag_personal_outline",
+		"󰸓",
+	},
+	{
+		"nf-md-bag_suitcase",
+		"󱖋",
+	},
+	{
+		"nf-md-bag_suitcase_off",
+		"󱖍",
+	},
+	{
+		"nf-md-bag_suitcase_off_outline",
+		"󱖎",
+	},
+	{
+		"nf-md-bag_suitcase_outline",
+		"󱖌",
+	},
+	{
+		"nf-md-baguette",
+		"󰼾",
+	},
+	{
+		"nf-md-balcony",
+		"󱠗",
+	},
+	{
+		"nf-md-balloon",
+		"󰨦",
+	},
+	{
+		"nf-md-ballot",
+		"󰧉",
+	},
+	{
+		"nf-md-ballot_outline",
+		"󰧊",
+	},
+	{
+		"nf-md-ballot_recount",
+		"󰰹",
+	},
+	{
+		"nf-md-ballot_recount_outline",
+		"󰰺",
+	},
+	{
+		"nf-md-bandage",
+		"󰶯",
+	},
+	{
+		"nf-md-bank",
+		"󰁰",
+	},
+	{
+		"nf-md-bank_check",
+		"󱙕",
+	},
+	{
+		"nf-md-bank_minus",
+		"󰶰",
+	},
+	{
+		"nf-md-bank_off",
+		"󱙖",
+	},
+	{
+		"nf-md-bank_off_outline",
+		"󱙗",
+	},
+	{
+		"nf-md-bank_outline",
+		"󰺀",
+	},
+	{
+		"nf-md-bank_plus",
+		"󰶱",
+	},
+	{
+		"nf-md-bank_remove",
+		"󰶲",
+	},
+	{
+		"nf-md-bank_transfer",
+		"󰨧",
+	},
+	{
+		"nf-md-bank_transfer_in",
+		"󰨨",
+	},
+	{
+		"nf-md-bank_transfer_out",
+		"󰨩",
+	},
+	{
+		"nf-md-barcode",
+		"󰁱",
+	},
+	{
+		"nf-md-barcode_off",
+		"󱈶",
+	},
+	{
+		"nf-md-barcode_scan",
+		"󰁲",
+	},
+	{
+		"nf-md-barley",
+		"󰁳",
+	},
+	{
+		"nf-md-barley_off",
+		"󰭝",
+	},
+	{
+		"nf-md-barn",
+		"󰭞",
+	},
+	{
+		"nf-md-barrel",
+		"󰁴",
+	},
+	{
+		"nf-md-barrel_outline",
+		"󱨨",
+	},
+	{
+		"nf-md-baseball",
+		"󰡒",
+	},
+	{
+		"nf-md-baseball_bat",
+		"󰡓",
+	},
+	{
+		"nf-md-baseball_diamond",
+		"󱗬",
+	},
+	{
+		"nf-md-baseball_diamond_outline",
+		"󱗭",
+	},
+	{
+		"nf-md-bash",
+		"󱆃",
+	},
+	{
+		"nf-md-basket",
+		"󰁶",
+	},
+	{
+		"nf-md-basket_check",
+		"󱣥",
+	},
+	{
+		"nf-md-basket_check_outline",
+		"󱣦",
+	},
+	{
+		"nf-md-basket_fill",
+		"󰁷",
+	},
+	{
+		"nf-md-basket_minus",
+		"󱔣",
+	},
+	{
+		"nf-md-basket_minus_outline",
+		"󱔤",
+	},
+	{
+		"nf-md-basket_off",
+		"󱔥",
+	},
+	{
+		"nf-md-basket_off_outline",
+		"󱔦",
+	},
+	{
+		"nf-md-basket_outline",
+		"󱆁",
+	},
+	{
+		"nf-md-basket_plus",
+		"󱔧",
+	},
+	{
+		"nf-md-basket_plus_outline",
+		"󱔨",
+	},
+	{
+		"nf-md-basket_remove",
+		"󱔩",
+	},
+	{
+		"nf-md-basket_remove_outline",
+		"󱔪",
+	},
+	{
+		"nf-md-basket_unfill",
+		"󰁸",
+	},
+	{
+		"nf-md-basketball",
+		"󰠆",
+	},
+	{
+		"nf-md-basketball_hoop",
+		"󰰻",
+	},
+	{
+		"nf-md-basketball_hoop_outline",
+		"󰰼",
+	},
+	{
+		"nf-md-bat",
+		"󰭟",
+	},
+	{
+		"nf-md-bathtub",
+		"󱠘",
+	},
+	{
+		"nf-md-bathtub_outline",
+		"󱠙",
+	},
+	{
+		"nf-md-battery",
+		"󰁹",
+	},
+	{
+		"nf-md-battery_10",
+		"󰁺",
+	},
+	{
+		"nf-md-battery_10_bluetooth",
+		"󰤾",
+	},
+	{
+		"nf-md-battery_20",
+		"󰁻",
+	},
+	{
+		"nf-md-battery_20_bluetooth",
+		"󰤿",
+	},
+	{
+		"nf-md-battery_30",
+		"󰁼",
+	},
+	{
+		"nf-md-battery_30_bluetooth",
+		"󰥀",
+	},
+	{
+		"nf-md-battery_40",
+		"󰁽",
+	},
+	{
+		"nf-md-battery_40_bluetooth",
+		"󰥁",
+	},
+	{
+		"nf-md-battery_50",
+		"󰁾",
+	},
+	{
+		"nf-md-battery_50_bluetooth",
+		"󰥂",
+	},
+	{
+		"nf-md-battery_60",
+		"󰁿",
+	},
+	{
+		"nf-md-battery_60_bluetooth",
+		"󰥃",
+	},
+	{
+		"nf-md-battery_70",
+		"󰂀",
+	},
+	{
+		"nf-md-battery_70_bluetooth",
+		"󰥄",
+	},
+	{
+		"nf-md-battery_80",
+		"󰂁",
+	},
+	{
+		"nf-md-battery_80_bluetooth",
+		"󰥅",
+	},
+	{
+		"nf-md-battery_90",
+		"󰂂",
+	},
+	{
+		"nf-md-battery_90_bluetooth",
+		"󰥆",
+	},
+	{
+		"nf-md-battery_alert",
+		"󰂃",
+	},
+	{
+		"nf-md-battery_alert_bluetooth",
+		"󰥇",
+	},
+	{
+		"nf-md-battery_alert_variant",
+		"󱃌",
+	},
+	{
+		"nf-md-battery_alert_variant_outline",
+		"󱃍",
+	},
+	{
+		"nf-md-battery_arrow_down",
+		"󱟞",
+	},
+	{
+		"nf-md-battery_arrow_down_outline",
+		"󱟟",
+	},
+	{
+		"nf-md-battery_arrow_up",
+		"󱟠",
+	},
+	{
+		"nf-md-battery_arrow_up_outline",
+		"󱟡",
+	},
+	{
+		"nf-md-battery_bluetooth",
+		"󰥈",
+	},
+	{
+		"nf-md-battery_bluetooth_variant",
+		"󰥉",
+	},
+	{
+		"nf-md-battery_charging",
+		"󰂄",
+	},
+	{
+		"nf-md-battery_charging_10",
+		"󰢜",
+	},
+	{
+		"nf-md-battery_charging_100",
+		"󰂅",
+	},
+	{
+		"nf-md-battery_charging_20",
+		"󰂆",
+	},
+	{
+		"nf-md-battery_charging_30",
+		"󰂇",
+	},
+	{
+		"nf-md-battery_charging_40",
+		"󰂈",
+	},
+	{
+		"nf-md-battery_charging_50",
+		"󰢝",
+	},
+	{
+		"nf-md-battery_charging_60",
+		"󰂉",
+	},
+	{
+		"nf-md-battery_charging_70",
+		"󰢞",
+	},
+	{
+		"nf-md-battery_charging_80",
+		"󰂊",
+	},
+	{
+		"nf-md-battery_charging_90",
+		"󰂋",
+	},
+	{
+		"nf-md-battery_charging_high",
+		"󱊦",
+	},
+	{
+		"nf-md-battery_charging_low",
+		"󱊤",
+	},
+	{
+		"nf-md-battery_charging_medium",
+		"󱊥",
+	},
+	{
+		"nf-md-battery_charging_outline",
+		"󰢟",
+	},
+	{
+		"nf-md-battery_charging_wireless",
+		"󰠇",
+	},
+	{
+		"nf-md-battery_charging_wireless_10",
+		"󰠈",
+	},
+	{
+		"nf-md-battery_charging_wireless_20",
+		"󰠉",
+	},
+	{
+		"nf-md-battery_charging_wireless_30",
+		"󰠊",
+	},
+	{
+		"nf-md-battery_charging_wireless_40",
+		"󰠋",
+	},
+	{
+		"nf-md-battery_charging_wireless_50",
+		"󰠌",
+	},
+	{
+		"nf-md-battery_charging_wireless_60",
+		"󰠍",
+	},
+	{
+		"nf-md-battery_charging_wireless_70",
+		"󰠎",
+	},
+	{
+		"nf-md-battery_charging_wireless_80",
+		"󰠏",
+	},
+	{
+		"nf-md-battery_charging_wireless_90",
+		"󰠐",
+	},
+	{
+		"nf-md-battery_charging_wireless_alert",
+		"󰠑",
+	},
+	{
+		"nf-md-battery_charging_wireless_outline",
+		"󰠒",
+	},
+	{
+		"nf-md-battery_check",
+		"󱟢",
+	},
+	{
+		"nf-md-battery_check_outline",
+		"󱟣",
+	},
+	{
+		"nf-md-battery_clock",
+		"󱧥",
+	},
+	{
+		"nf-md-battery_clock_outline",
+		"󱧦",
+	},
+	{
+		"nf-md-battery_heart",
+		"󱈏",
+	},
+	{
+		"nf-md-battery_heart_outline",
+		"󱈐",
+	},
+	{
+		"nf-md-battery_heart_variant",
+		"󱈑",
+	},
+	{
+		"nf-md-battery_high",
+		"󱊣",
+	},
+	{
+		"nf-md-battery_lock",
+		"󱞜",
+	},
+	{
+		"nf-md-battery_lock_open",
+		"󱞝",
+	},
+	{
+		"nf-md-battery_low",
+		"󱊡",
+	},
+	{
+		"nf-md-battery_medium",
+		"󱊢",
+	},
+	{
+		"nf-md-battery_minus",
+		"󱟤",
+	},
+	{
+		"nf-md-battery_minus_outline",
+		"󱟥",
+	},
+	{
+		"nf-md-battery_minus_variant",
+		"󰂌",
+	},
+	{
+		"nf-md-battery_negative",
+		"󰂍",
+	},
+	{
+		"nf-md-battery_off",
+		"󱉝",
+	},
+	{
+		"nf-md-battery_off_outline",
+		"󱉞",
+	},
+	{
+		"nf-md-battery_outline",
+		"󰂎",
+	},
+	{
+		"nf-md-battery_plus",
+		"󱟦",
+	},
+	{
+		"nf-md-battery_plus_outline",
+		"󱟧",
+	},
+	{
+		"nf-md-battery_plus_variant",
+		"󰂏",
+	},
+	{
+		"nf-md-battery_positive",
+		"󰂐",
+	},
+	{
+		"nf-md-battery_remove",
+		"󱟨",
+	},
+	{
+		"nf-md-battery_remove_outline",
+		"󱟩",
+	},
+	{
+		"nf-md-battery_sync",
+		"󱠴",
+	},
+	{
+		"nf-md-battery_sync_outline",
+		"󱠵",
+	},
+	{
+		"nf-md-battery_unknown",
+		"󰂑",
+	},
+	{
+		"nf-md-battery_unknown_bluetooth",
+		"󰥊",
+	},
+	{
+		"nf-md-beach",
+		"󰂒",
+	},
+	{
+		"nf-md-beaker",
+		"󰳪",
+	},
+	{
+		"nf-md-beaker_alert",
+		"󱈩",
+	},
+	{
+		"nf-md-beaker_alert_outline",
+		"󱈪",
+	},
+	{
+		"nf-md-beaker_check",
+		"󱈫",
+	},
+	{
+		"nf-md-beaker_check_outline",
+		"󱈬",
+	},
+	{
+		"nf-md-beaker_minus",
+		"󱈭",
+	},
+	{
+		"nf-md-beaker_minus_outline",
+		"󱈮",
+	},
+	{
+		"nf-md-beaker_outline",
+		"󰚐",
+	},
+	{
+		"nf-md-beaker_plus",
+		"󱈯",
+	},
+	{
+		"nf-md-beaker_plus_outline",
+		"󱈰",
+	},
+	{
+		"nf-md-beaker_question",
+		"󱈱",
+	},
+	{
+		"nf-md-beaker_question_outline",
+		"󱈲",
+	},
+	{
+		"nf-md-beaker_remove",
+		"󱈳",
+	},
+	{
+		"nf-md-beaker_remove_outline",
+		"󱈴",
+	},
+	{
+		"nf-md-bed",
+		"󰋣",
+	},
+	{
+		"nf-md-bed_double",
+		"󰿔",
+	},
+	{
+		"nf-md-bed_double_outline",
+		"󰿓",
+	},
+	{
+		"nf-md-bed_empty",
+		"󰢠",
+	},
+	{
+		"nf-md-bed_king",
+		"󰿒",
+	},
+	{
+		"nf-md-bed_king_outline",
+		"󰿑",
+	},
+	{
+		"nf-md-bed_outline",
+		"󰂙",
+	},
+	{
+		"nf-md-bed_queen",
+		"󰿐",
+	},
+	{
+		"nf-md-bed_queen_outline",
+		"󰿛",
+	},
+	{
+		"nf-md-bed_single",
+		"󱁭",
+	},
+	{
+		"nf-md-bed_single_outline",
+		"󱁮",
+	},
+	{
+		"nf-md-bee",
+		"󰾡",
+	},
+	{
+		"nf-md-bee_flower",
+		"󰾢",
+	},
+	{
+		"nf-md-beehive_off_outline",
+		"󱏭",
+	},
+	{
+		"nf-md-beehive_outline",
+		"󱃎",
+	},
+	{
+		"nf-md-beekeeper",
+		"󱓢",
+	},
+	{
+		"nf-md-beer",
+		"󰂘",
+	},
+	{
+		"nf-md-beer_outline",
+		"󱌌",
+	},
+	{
+		"nf-md-bell",
+		"󰂚",
+	},
+	{
+		"nf-md-bell_alert",
+		"󰵙",
+	},
+	{
+		"nf-md-bell_alert_outline",
+		"󰺁",
+	},
+	{
+		"nf-md-bell_badge",
+		"󱅫",
+	},
+	{
+		"nf-md-bell_badge_outline",
+		"󰅸",
+	},
+	{
+		"nf-md-bell_cancel",
+		"󱏧",
+	},
+	{
+		"nf-md-bell_cancel_outline",
+		"󱏨",
+	},
+	{
+		"nf-md-bell_check",
+		"󱇥",
+	},
+	{
+		"nf-md-bell_check_outline",
+		"󱇦",
+	},
+	{
+		"nf-md-bell_circle",
+		"󰵚",
+	},
+	{
+		"nf-md-bell_circle_outline",
+		"󰵛",
+	},
+	{
+		"nf-md-bell_cog",
+		"󱨩",
+	},
+	{
+		"nf-md-bell_cog_outline",
+		"󱨪",
+	},
+	{
+		"nf-md-bell_minus",
+		"󱏩",
+	},
+	{
+		"nf-md-bell_minus_outline",
+		"󱏪",
+	},
+	{
+		"nf-md-bell_off",
+		"󰂛",
+	},
+	{
+		"nf-md-bell_off_outline",
+		"󰪑",
+	},
+	{
+		"nf-md-bell_outline",
+		"󰂜",
+	},
+	{
+		"nf-md-bell_plus",
+		"󰂝",
+	},
+	{
+		"nf-md-bell_plus_outline",
+		"󰪒",
+	},
+	{
+		"nf-md-bell_remove",
+		"󱏫",
+	},
+	{
+		"nf-md-bell_remove_outline",
+		"󱏬",
+	},
+	{
+		"nf-md-bell_ring",
+		"󰂞",
+	},
+	{
+		"nf-md-bell_ring_outline",
+		"󰂟",
+	},
+	{
+		"nf-md-bell_sleep",
+		"󰂠",
+	},
+	{
+		"nf-md-bell_sleep_outline",
+		"󰪓",
+	},
+	{
+		"nf-md-beta",
+		"󰂡",
+	},
+	{
+		"nf-md-betamax",
+		"󰧋",
+	},
+	{
+		"nf-md-biathlon",
+		"󰸔",
+	},
+	{
+		"nf-md-bicycle",
+		"󱂜",
+	},
+	{
+		"nf-md-bicycle_basket",
+		"󱈵",
+	},
+	{
+		"nf-md-bicycle_cargo",
+		"󱢜",
+	},
+	{
+		"nf-md-bicycle_electric",
+		"󱖴",
+	},
+	{
+		"nf-md-bicycle_penny_farthing",
+		"󱗩",
+	},
+	{
+		"nf-md-bike",
+		"󰂣",
+	},
+	{
+		"nf-md-bike_fast",
+		"󱄟",
+	},
+	{
+		"nf-md-billboard",
+		"󱀐",
+	},
+	{
+		"nf-md-billiards",
+		"󰭡",
+	},
+	{
+		"nf-md-billiards_rack",
+		"󰭢",
+	},
+	{
+		"nf-md-binoculars",
+		"󰂥",
+	},
+	{
+		"nf-md-bio",
+		"󰂦",
+	},
+	{
+		"nf-md-biohazard",
+		"󰂧",
+	},
+	{
+		"nf-md-bird",
+		"󱗆",
+	},
+	{
+		"nf-md-bitbucket",
+		"󰂨",
+	},
+	{
+		"nf-md-bitcoin",
+		"󰠓",
+	},
+	{
+		"nf-md-black_mesa",
+		"󰂩",
+	},
+	{
+		"nf-md-blender",
+		"󰳫",
+	},
+	{
+		"nf-md-blender_outline",
+		"󱠚",
+	},
+	{
+		"nf-md-blender_software",
+		"󰂫",
+	},
+	{
+		"nf-md-blinds",
+		"󰂬",
+	},
+	{
+		"nf-md-blinds_horizontal",
+		"󱨫",
+	},
+	{
+		"nf-md-blinds_horizontal_closed",
+		"󱨬",
+	},
+	{
+		"nf-md-blinds_open",
+		"󱀑",
+	},
+	{
+		"nf-md-blinds_vertical",
+		"󱨭",
+	},
+	{
+		"nf-md-blinds_vertical_closed",
+		"󱨮",
+	},
+	{
+		"nf-md-block_helper",
+		"󰂭",
+	},
+	{
+		"nf-md-blood_bag",
+		"󰳬",
+	},
+	{
+		"nf-md-bluetooth",
+		"󰂯",
+	},
+	{
+		"nf-md-bluetooth_audio",
+		"󰂰",
+	},
+	{
+		"nf-md-bluetooth_connect",
+		"󰂱",
+	},
+	{
+		"nf-md-bluetooth_off",
+		"󰂲",
+	},
+	{
+		"nf-md-bluetooth_settings",
+		"󰂳",
+	},
+	{
+		"nf-md-bluetooth_transfer",
+		"󰂴",
+	},
+	{
+		"nf-md-blur",
+		"󰂵",
+	},
+	{
+		"nf-md-blur_linear",
+		"󰂶",
+	},
+	{
+		"nf-md-blur_off",
+		"󰂷",
+	},
+	{
+		"nf-md-blur_radial",
+		"󰂸",
+	},
+	{
+		"nf-md-bolt",
+		"󰶳",
+	},
+	{
+		"nf-md-bomb",
+		"󰚑",
+	},
+	{
+		"nf-md-bomb_off",
+		"󰛅",
+	},
+	{
+		"nf-md-bone",
+		"󰂹",
+	},
+	{
+		"nf-md-bone_off",
+		"󱧠",
+	},
+	{
+		"nf-md-book",
+		"󰂺",
+	},
+	{
+		"nf-md-book_account",
+		"󱎭",
+	},
+	{
+		"nf-md-book_account_outline",
+		"󱎮",
+	},
+	{
+		"nf-md-book_alert",
+		"󱙼",
+	},
+	{
+		"nf-md-book_alert_outline",
+		"󱙽",
+	},
+	{
+		"nf-md-book_alphabet",
+		"󰘝",
+	},
+	{
+		"nf-md-book_arrow_down",
+		"󱙾",
+	},
+	{
+		"nf-md-book_arrow_down_outline",
+		"󱙿",
+	},
+	{
+		"nf-md-book_arrow_left",
+		"󱚀",
+	},
+	{
+		"nf-md-book_arrow_left_outline",
+		"󱚁",
+	},
+	{
+		"nf-md-book_arrow_right",
+		"󱚂",
+	},
+	{
+		"nf-md-book_arrow_right_outline",
+		"󱚃",
+	},
+	{
+		"nf-md-book_arrow_up",
+		"󱚄",
+	},
+	{
+		"nf-md-book_arrow_up_outline",
+		"󱚅",
+	},
+	{
+		"nf-md-book_cancel",
+		"󱚆",
+	},
+	{
+		"nf-md-book_cancel_outline",
+		"󱚇",
+	},
+	{
+		"nf-md-book_check",
+		"󱓳",
+	},
+	{
+		"nf-md-book_check_outline",
+		"󱓴",
+	},
+	{
+		"nf-md-book_clock",
+		"󱚈",
+	},
+	{
+		"nf-md-book_clock_outline",
+		"󱚉",
+	},
+	{
+		"nf-md-book_cog",
+		"󱚊",
+	},
+	{
+		"nf-md-book_cog_outline",
+		"󱚋",
+	},
+	{
+		"nf-md-book_cross",
+		"󰂢",
+	},
+	{
+		"nf-md-book_edit",
+		"󱚌",
+	},
+	{
+		"nf-md-book_edit_outline",
+		"󱚍",
+	},
+	{
+		"nf-md-book_education",
+		"󱛉",
+	},
+	{
+		"nf-md-book_education_outline",
+		"󱛊",
+	},
+	{
+		"nf-md-book_heart",
+		"󱨝",
+	},
+	{
+		"nf-md-book_heart_outline",
+		"󱨞",
+	},
+	{
+		"nf-md-book_information_variant",
+		"󱁯",
+	},
+	{
+		"nf-md-book_lock",
+		"󰞚",
+	},
+	{
+		"nf-md-book_lock_open",
+		"󰞛",
+	},
+	{
+		"nf-md-book_lock_open_outline",
+		"󱚎",
+	},
+	{
+		"nf-md-book_lock_outline",
+		"󱚏",
+	},
+	{
+		"nf-md-book_marker",
+		"󱚐",
+	},
+	{
+		"nf-md-book_marker_outline",
+		"󱚑",
+	},
+	{
+		"nf-md-book_minus",
+		"󰗙",
+	},
+	{
+		"nf-md-book_minus_multiple",
+		"󰪔",
+	},
+	{
+		"nf-md-book_minus_multiple_outline",
+		"󰤋",
+	},
+	{
+		"nf-md-book_minus_outline",
+		"󱚒",
+	},
+	{
+		"nf-md-book_multiple",
+		"󰂻",
+	},
+	{
+		"nf-md-book_multiple_outline",
+		"󰐶",
+	},
+	{
+		"nf-md-book_music",
+		"󰁧",
+	},
+	{
+		"nf-md-book_music_outline",
+		"󱚓",
+	},
+	{
+		"nf-md-book_off",
+		"󱚔",
+	},
+	{
+		"nf-md-book_off_outline",
+		"󱚕",
+	},
+	{
+		"nf-md-book_open",
+		"󰂽",
+	},
+	{
+		"nf-md-book_open_blank_variant",
+		"󰂾",
+	},
+	{
+		"nf-md-book_open_outline",
+		"󰭣",
+	},
+	{
+		"nf-md-book_open_page_variant",
+		"󰗚",
+	},
+	{
+		"nf-md-book_open_page_variant_outline",
+		"󱗖",
+	},
+	{
+		"nf-md-book_open_variant",
+		"󱓷",
+	},
+	{
+		"nf-md-book_outline",
+		"󰭤",
+	},
+	{
+		"nf-md-book_play",
+		"󰺂",
+	},
+	{
+		"nf-md-book_play_outline",
+		"󰺃",
+	},
+	{
+		"nf-md-book_plus",
+		"󰗛",
+	},
+	{
+		"nf-md-book_plus_multiple",
+		"󰪕",
+	},
+	{
+		"nf-md-book_plus_multiple_outline",
+		"󰫞",
+	},
+	{
+		"nf-md-book_plus_outline",
+		"󱚖",
+	},
+	{
+		"nf-md-book_refresh",
+		"󱚗",
+	},
+	{
+		"nf-md-book_refresh_outline",
+		"󱚘",
+	},
+	{
+		"nf-md-book_remove",
+		"󰪗",
+	},
+	{
+		"nf-md-book_remove_multiple",
+		"󰪖",
+	},
+	{
+		"nf-md-book_remove_multiple_outline",
+		"󰓊",
+	},
+	{
+		"nf-md-book_remove_outline",
+		"󱚙",
+	},
+	{
+		"nf-md-book_search",
+		"󰺄",
+	},
+	{
+		"nf-md-book_search_outline",
+		"󰺅",
+	},
+	{
+		"nf-md-book_settings",
+		"󱚚",
+	},
+	{
+		"nf-md-book_settings_outline",
+		"󱚛",
+	},
+	{
+		"nf-md-book_sync",
+		"󱚜",
+	},
+	{
+		"nf-md-book_sync_outline",
+		"󱛈",
+	},
+	{
+		"nf-md-book_variant",
+		"󰂿",
+	},
+	{
+		"nf-md-book_variant_multiple",
+		"󰂼",
+	},
+	{
+		"nf-md-bookmark",
+		"󰃀",
+	},
+	{
+		"nf-md-bookmark_box_multiple",
+		"󱥬",
+	},
+	{
+		"nf-md-bookmark_box_multiple_outline",
+		"󱥭",
+	},
+	{
+		"nf-md-bookmark_check",
+		"󰃁",
+	},
+	{
+		"nf-md-bookmark_check_outline",
+		"󱍻",
+	},
+	{
+		"nf-md-bookmark_minus",
+		"󰧌",
+	},
+	{
+		"nf-md-bookmark_minus_outline",
+		"󰧍",
+	},
+	{
+		"nf-md-bookmark_multiple",
+		"󰸕",
+	},
+	{
+		"nf-md-bookmark_multiple_outline",
+		"󰸖",
+	},
+	{
+		"nf-md-bookmark_music",
+		"󰃂",
+	},
+	{
+		"nf-md-bookmark_music_outline",
+		"󱍹",
+	},
+	{
+		"nf-md-bookmark_off",
+		"󰧎",
+	},
+	{
+		"nf-md-bookmark_off_outline",
+		"󰧏",
+	},
+	{
+		"nf-md-bookmark_outline",
+		"󰃃",
+	},
+	{
+		"nf-md-bookmark_plus",
+		"󰃅",
+	},
+	{
+		"nf-md-bookmark_plus_outline",
+		"󰃄",
+	},
+	{
+		"nf-md-bookmark_remove",
+		"󰃆",
+	},
+	{
+		"nf-md-bookmark_remove_outline",
+		"󱍺",
+	},
+	{
+		"nf-md-bookshelf",
+		"󱉟",
+	},
+	{
+		"nf-md-boom_gate",
+		"󰺆",
+	},
+	{
+		"nf-md-boom_gate_alert",
+		"󰺇",
+	},
+	{
+		"nf-md-boom_gate_alert_outline",
+		"󰺈",
+	},
+	{
+		"nf-md-boom_gate_arrow_down",
+		"󰺉",
+	},
+	{
+		"nf-md-boom_gate_arrow_down_outline",
+		"󰺊",
+	},
+	{
+		"nf-md-boom_gate_arrow_up",
+		"󰺌",
+	},
+	{
+		"nf-md-boom_gate_arrow_up_outline",
+		"󰺍",
+	},
+	{
+		"nf-md-boom_gate_outline",
+		"󰺋",
+	},
+	{
+		"nf-md-boom_gate_up",
+		"󱟹",
+	},
+	{
+		"nf-md-boom_gate_up_outline",
+		"󱟺",
+	},
+	{
+		"nf-md-boombox",
+		"󰗜",
+	},
+	{
+		"nf-md-boomerang",
+		"󱃏",
+	},
+	{
+		"nf-md-bootstrap",
+		"󰛆",
+	},
+	{
+		"nf-md-border_all",
+		"󰃇",
+	},
+	{
+		"nf-md-border_all_variant",
+		"󰢡",
+	},
+	{
+		"nf-md-border_bottom",
+		"󰃈",
+	},
+	{
+		"nf-md-border_bottom_variant",
+		"󰢢",
+	},
+	{
+		"nf-md-border_color",
+		"󰃉",
+	},
+	{
+		"nf-md-border_horizontal",
+		"󰃊",
+	},
+	{
+		"nf-md-border_inside",
+		"󰃋",
+	},
+	{
+		"nf-md-border_left",
+		"󰃌",
+	},
+	{
+		"nf-md-border_left_variant",
+		"󰢣",
+	},
+	{
+		"nf-md-border_none",
+		"󰃍",
+	},
+	{
+		"nf-md-border_none_variant",
+		"󰢤",
+	},
+	{
+		"nf-md-border_outside",
+		"󰃎",
+	},
+	{
+		"nf-md-border_right",
+		"󰃏",
+	},
+	{
+		"nf-md-border_right_variant",
+		"󰢥",
+	},
+	{
+		"nf-md-border_style",
+		"󰃐",
+	},
+	{
+		"nf-md-border_top",
+		"󰃑",
+	},
+	{
+		"nf-md-border_top_variant",
+		"󰢦",
+	},
+	{
+		"nf-md-border_vertical",
+		"󰃒",
+	},
+	{
+		"nf-md-bottle_soda",
+		"󱁰",
+	},
+	{
+		"nf-md-bottle_soda_classic",
+		"󱁱",
+	},
+	{
+		"nf-md-bottle_soda_classic_outline",
+		"󱍣",
+	},
+	{
+		"nf-md-bottle_soda_outline",
+		"󱁲",
+	},
+	{
+		"nf-md-bottle_tonic",
+		"󱄮",
+	},
+	{
+		"nf-md-bottle_tonic_outline",
+		"󱄯",
+	},
+	{
+		"nf-md-bottle_tonic_plus",
+		"󱄰",
+	},
+	{
+		"nf-md-bottle_tonic_plus_outline",
+		"󱄱",
+	},
+	{
+		"nf-md-bottle_tonic_skull",
+		"󱄲",
+	},
+	{
+		"nf-md-bottle_tonic_skull_outline",
+		"󱄳",
+	},
+	{
+		"nf-md-bottle_wine",
+		"󰡔",
+	},
+	{
+		"nf-md-bottle_wine_outline",
+		"󱌐",
+	},
+	{
+		"nf-md-bow_arrow",
+		"󱡁",
+	},
+	{
+		"nf-md-bow_tie",
+		"󰙸",
+	},
+	{
+		"nf-md-bowl",
+		"󰊎",
+	},
+	{
+		"nf-md-bowl_mix",
+		"󰘗",
+	},
+	{
+		"nf-md-bowl_mix_outline",
+		"󰋤",
+	},
+	{
+		"nf-md-bowl_outline",
+		"󰊩",
+	},
+	{
+		"nf-md-bowling",
+		"󰃓",
+	},
+	{
+		"nf-md-box",
+		"󰃔",
+	},
+	{
+		"nf-md-box_cutter",
+		"󰃕",
+	},
+	{
+		"nf-md-box_cutter_off",
+		"󰭊",
+	},
+	{
+		"nf-md-box_shadow",
+		"󰘷",
+	},
+	{
+		"nf-md-boxing_glove",
+		"󰭥",
+	},
+	{
+		"nf-md-braille",
+		"󰧐",
+	},
+	{
+		"nf-md-brain",
+		"󰧑",
+	},
+	{
+		"nf-md-bread_slice",
+		"󰳮",
+	},
+	{
+		"nf-md-bread_slice_outline",
+		"󰳯",
+	},
+	{
+		"nf-md-bridge",
+		"󰘘",
+	},
+	{
+		"nf-md-briefcase",
+		"󰃖",
+	},
+	{
+		"nf-md-briefcase_account",
+		"󰳰",
+	},
+	{
+		"nf-md-briefcase_account_outline",
+		"󰳱",
+	},
+	{
+		"nf-md-briefcase_arrow_left_right",
+		"󱪍",
+	},
+	{
+		"nf-md-briefcase_arrow_left_right_outline",
+		"󱪎",
+	},
+	{
+		"nf-md-briefcase_arrow_up_down",
+		"󱪏",
+	},
+	{
+		"nf-md-briefcase_arrow_up_down_outline",
+		"󱪐",
+	},
+	{
+		"nf-md-briefcase_check",
+		"󰃗",
+	},
+	{
+		"nf-md-briefcase_check_outline",
+		"󱌞",
+	},
+	{
+		"nf-md-briefcase_clock",
+		"󱃐",
+	},
+	{
+		"nf-md-briefcase_clock_outline",
+		"󱃑",
+	},
+	{
+		"nf-md-briefcase_download",
+		"󰃘",
+	},
+	{
+		"nf-md-briefcase_download_outline",
+		"󰰽",
+	},
+	{
+		"nf-md-briefcase_edit",
+		"󰪘",
+	},
+	{
+		"nf-md-briefcase_edit_outline",
+		"󰰾",
+	},
+	{
+		"nf-md-briefcase_eye",
+		"󱟙",
+	},
+	{
+		"nf-md-briefcase_eye_outline",
+		"󱟚",
+	},
+	{
+		"nf-md-briefcase_minus",
+		"󰨪",
+	},
+	{
+		"nf-md-briefcase_minus_outline",
+		"󰰿",
+	},
+	{
+		"nf-md-briefcase_off",
+		"󱙘",
+	},
+	{
+		"nf-md-briefcase_off_outline",
+		"󱙙",
+	},
+	{
+		"nf-md-briefcase_outline",
+		"󰠔",
+	},
+	{
+		"nf-md-briefcase_plus",
+		"󰨫",
+	},
+	{
+		"nf-md-briefcase_plus_outline",
+		"󰱀",
+	},
+	{
+		"nf-md-briefcase_remove",
+		"󰨬",
+	},
+	{
+		"nf-md-briefcase_remove_outline",
+		"󰱁",
+	},
+	{
+		"nf-md-briefcase_search",
+		"󰨭",
+	},
+	{
+		"nf-md-briefcase_search_outline",
+		"󰱂",
+	},
+	{
+		"nf-md-briefcase_upload",
+		"󰃙",
+	},
+	{
+		"nf-md-briefcase_upload_outline",
+		"󰱃",
+	},
+	{
+		"nf-md-briefcase_variant",
+		"󱒔",
+	},
+	{
+		"nf-md-briefcase_variant_off",
+		"󱙚",
+	},
+	{
+		"nf-md-briefcase_variant_off_outline",
+		"󱙛",
+	},
+	{
+		"nf-md-briefcase_variant_outline",
+		"󱒕",
+	},
+	{
+		"nf-md-brightness_1",
+		"󰃚",
+	},
+	{
+		"nf-md-brightness_2",
+		"󰃛",
+	},
+	{
+		"nf-md-brightness_3",
+		"󰃜",
+	},
+	{
+		"nf-md-brightness_4",
+		"󰃝",
+	},
+	{
+		"nf-md-brightness_5",
+		"󰃞",
+	},
+	{
+		"nf-md-brightness_6",
+		"󰃟",
+	},
+	{
+		"nf-md-brightness_7",
+		"󰃠",
+	},
+	{
+		"nf-md-brightness_auto",
+		"󰃡",
+	},
+	{
+		"nf-md-brightness_percent",
+		"󰳲",
+	},
+	{
+		"nf-md-broadcast",
+		"󱜠",
+	},
+	{
+		"nf-md-broadcast_off",
+		"󱜡",
+	},
+	{
+		"nf-md-broom",
+		"󰃢",
+	},
+	{
+		"nf-md-brush",
+		"󰃣",
+	},
+	{
+		"nf-md-brush_off",
+		"󱝱",
+	},
+	{
+		"nf-md-brush_outline",
+		"󱨍",
+	},
+	{
+		"nf-md-brush_variant",
+		"󱠓",
+	},
+	{
+		"nf-md-bucket",
+		"󱐕",
+	},
+	{
+		"nf-md-bucket_outline",
+		"󱐖",
+	},
+	{
+		"nf-md-buffet",
+		"󰕸",
+	},
+	{
+		"nf-md-bug",
+		"󰃤",
+	},
+	{
+		"nf-md-bug_check",
+		"󰨮",
+	},
+	{
+		"nf-md-bug_check_outline",
+		"󰨯",
+	},
+	{
+		"nf-md-bug_outline",
+		"󰨰",
+	},
+	{
+		"nf-md-bugle",
+		"󰶴",
+	},
+	{
+		"nf-md-bulkhead_light",
+		"󱨯",
+	},
+	{
+		"nf-md-bulldozer",
+		"󰬢",
+	},
+	{
+		"nf-md-bullet",
+		"󰳳",
+	},
+	{
+		"nf-md-bulletin_board",
+		"󰃥",
+	},
+	{
+		"nf-md-bullhorn",
+		"󰃦",
+	},
+	{
+		"nf-md-bullhorn_outline",
+		"󰬣",
+	},
+	{
+		"nf-md-bullhorn_variant",
+		"󱥮",
+	},
+	{
+		"nf-md-bullhorn_variant_outline",
+		"󱥯",
+	},
+	{
+		"nf-md-bullseye",
+		"󰗝",
+	},
+	{
+		"nf-md-bullseye_arrow",
+		"󰣉",
+	},
+	{
+		"nf-md-bulma",
+		"󱋧",
+	},
+	{
+		"nf-md-bunk_bed",
+		"󱌂",
+	},
+	{
+		"nf-md-bunk_bed_outline",
+		"󰂗",
+	},
+	{
+		"nf-md-bus",
+		"󰃧",
+	},
+	{
+		"nf-md-bus_alert",
+		"󰪙",
+	},
+	{
+		"nf-md-bus_articulated_end",
+		"󰞜",
+	},
+	{
+		"nf-md-bus_articulated_front",
+		"󰞝",
+	},
+	{
+		"nf-md-bus_clock",
+		"󰣊",
+	},
+	{
+		"nf-md-bus_double_decker",
+		"󰞞",
+	},
+	{
+		"nf-md-bus_electric",
+		"󱤝",
+	},
+	{
+		"nf-md-bus_marker",
+		"󱈒",
+	},
+	{
+		"nf-md-bus_multiple",
+		"󰼿",
+	},
+	{
+		"nf-md-bus_school",
+		"󰞟",
+	},
+	{
+		"nf-md-bus_side",
+		"󰞠",
+	},
+	{
+		"nf-md-bus_stop",
+		"󱀒",
+	},
+	{
+		"nf-md-bus_stop_covered",
+		"󱀓",
+	},
+	{
+		"nf-md-bus_stop_uncovered",
+		"󱀔",
+	},
+	{
+		"nf-md-butterfly",
+		"󱖉",
+	},
+	{
+		"nf-md-butterfly_outline",
+		"󱖊",
+	},
+	{
+		"nf-md-cabin_a_frame",
+		"󱢌",
+	},
+	{
+		"nf-md-cable_data",
+		"󱎔",
+	},
+	{
+		"nf-md-cached",
+		"󰃨",
+	},
+	{
+		"nf-md-cactus",
+		"󰶵",
+	},
+	{
+		"nf-md-cake",
+		"󰃩",
+	},
+	{
+		"nf-md-cake_layered",
+		"󰃪",
+	},
+	{
+		"nf-md-cake_variant",
+		"󰃫",
+	},
+	{
+		"nf-md-cake_variant_outline",
+		"󱟰",
+	},
+	{
+		"nf-md-calculator",
+		"󰃬",
+	},
+	{
+		"nf-md-calculator_variant",
+		"󰪚",
+	},
+	{
+		"nf-md-calculator_variant_outline",
+		"󱖦",
+	},
+	{
+		"nf-md-calendar",
+		"󰃭",
+	},
+	{
+		"nf-md-calendar_account",
+		"󰻗",
+	},
+	{
+		"nf-md-calendar_account_outline",
+		"󰻘",
+	},
+	{
+		"nf-md-calendar_alert",
+		"󰨱",
+	},
+	{
+		"nf-md-calendar_arrow_left",
+		"󱄴",
+	},
+	{
+		"nf-md-calendar_arrow_right",
+		"󱄵",
+	},
+	{
+		"nf-md-calendar_blank",
+		"󰃮",
+	},
+	{
+		"nf-md-calendar_blank_multiple",
+		"󱁳",
+	},
+	{
+		"nf-md-calendar_blank_outline",
+		"󰭦",
+	},
+	{
+		"nf-md-calendar_check",
+		"󰃯",
+	},
+	{
+		"nf-md-calendar_check_outline",
+		"󰱄",
+	},
+	{
+		"nf-md-calendar_clock",
+		"󰃰",
+	},
+	{
+		"nf-md-calendar_clock_outline",
+		"󱛡",
+	},
+	{
+		"nf-md-calendar_collapse_horizontal",
+		"󱢝",
+	},
+	{
+		"nf-md-calendar_cursor",
+		"󱕻",
+	},
+	{
+		"nf-md-calendar_edit",
+		"󰢧",
+	},
+	{
+		"nf-md-calendar_end",
+		"󱙬",
+	},
+	{
+		"nf-md-calendar_expand_horizontal",
+		"󱢞",
+	},
+	{
+		"nf-md-calendar_export",
+		"󰬤",
+	},
+	{
+		"nf-md-calendar_heart",
+		"󰧒",
+	},
+	{
+		"nf-md-calendar_import",
+		"󰬥",
+	},
+	{
+		"nf-md-calendar_lock",
+		"󱙁",
+	},
+	{
+		"nf-md-calendar_lock_outline",
+		"󱙂",
+	},
+	{
+		"nf-md-calendar_minus",
+		"󰵜",
+	},
+	{
+		"nf-md-calendar_month",
+		"󰸗",
+	},
+	{
+		"nf-md-calendar_month_outline",
+		"󰸘",
+	},
+	{
+		"nf-md-calendar_multiple",
+		"󰃱",
+	},
+	{
+		"nf-md-calendar_multiple_check",
+		"󰃲",
+	},
+	{
+		"nf-md-calendar_multiselect",
+		"󰨲",
+	},
+	{
+		"nf-md-calendar_outline",
+		"󰭧",
+	},
+	{
+		"nf-md-calendar_plus",
+		"󰃳",
+	},
+	{
+		"nf-md-calendar_question",
+		"󰚒",
+	},
+	{
+		"nf-md-calendar_range",
+		"󰙹",
+	},
+	{
+		"nf-md-calendar_range_outline",
+		"󰭨",
+	},
+	{
+		"nf-md-calendar_refresh",
+		"󰇡",
+	},
+	{
+		"nf-md-calendar_refresh_outline",
+		"󰈃",
+	},
+	{
+		"nf-md-calendar_remove",
+		"󰃴",
+	},
+	{
+		"nf-md-calendar_remove_outline",
+		"󰱅",
+	},
+	{
+		"nf-md-calendar_search",
+		"󰥌",
+	},
+	{
+		"nf-md-calendar_star",
+		"󰧓",
+	},
+	{
+		"nf-md-calendar_start",
+		"󱙭",
+	},
+	{
+		"nf-md-calendar_sync",
+		"󰺎",
+	},
+	{
+		"nf-md-calendar_sync_outline",
+		"󰺏",
+	},
+	{
+		"nf-md-calendar_text",
+		"󰃵",
+	},
+	{
+		"nf-md-calendar_text_outline",
+		"󰱆",
+	},
+	{
+		"nf-md-calendar_today",
+		"󰃶",
+	},
+	{
+		"nf-md-calendar_today_outline",
+		"󱨰",
+	},
+	{
+		"nf-md-calendar_week",
+		"󰨳",
+	},
+	{
+		"nf-md-calendar_week_begin",
+		"󰨴",
+	},
+	{
+		"nf-md-calendar_week_begin_outline",
+		"󱨱",
+	},
+	{
+		"nf-md-calendar_week_end",
+		"󱨲",
+	},
+	{
+		"nf-md-calendar_week_end_outline",
+		"󱨳",
+	},
+	{
+		"nf-md-calendar_week_outline",
+		"󱨴",
+	},
+	{
+		"nf-md-calendar_weekend",
+		"󰻙",
+	},
+	{
+		"nf-md-calendar_weekend_outline",
+		"󰻚",
+	},
+	{
+		"nf-md-call_made",
+		"󰃷",
+	},
+	{
+		"nf-md-call_merge",
+		"󰃸",
+	},
+	{
+		"nf-md-call_missed",
+		"󰃹",
+	},
+	{
+		"nf-md-call_received",
+		"󰃺",
+	},
+	{
+		"nf-md-call_split",
+		"󰃻",
+	},
+	{
+		"nf-md-camcorder",
+		"󰃼",
+	},
+	{
+		"nf-md-camcorder_off",
+		"󰃿",
+	},
+	{
+		"nf-md-camera",
+		"󰄀",
+	},
+	{
+		"nf-md-camera_account",
+		"󰣋",
+	},
+	{
+		"nf-md-camera_burst",
+		"󰚓",
+	},
+	{
+		"nf-md-camera_control",
+		"󰭩",
+	},
+	{
+		"nf-md-camera_document",
+		"󱡱",
+	},
+	{
+		"nf-md-camera_document_off",
+		"󱡲",
+	},
+	{
+		"nf-md-camera_enhance",
+		"󰄁",
+	},
+	{
+		"nf-md-camera_enhance_outline",
+		"󰭪",
+	},
+	{
+		"nf-md-camera_flip",
+		"󱗙",
+	},
+	{
+		"nf-md-camera_flip_outline",
+		"󱗚",
+	},
+	{
+		"nf-md-camera_front",
+		"󰄂",
+	},
+	{
+		"nf-md-camera_front_variant",
+		"󰄃",
+	},
+	{
+		"nf-md-camera_gopro",
+		"󰞡",
+	},
+	{
+		"nf-md-camera_image",
+		"󰣌",
+	},
+	{
+		"nf-md-camera_iris",
+		"󰄄",
+	},
+	{
+		"nf-md-camera_lock",
+		"󱨔",
+	},
+	{
+		"nf-md-camera_lock_outline",
+		"󱨕",
+	},
+	{
+		"nf-md-camera_marker",
+		"󱦧",
+	},
+	{
+		"nf-md-camera_marker_outline",
+		"󱦨",
+	},
+	{
+		"nf-md-camera_metering_center",
+		"󰞢",
+	},
+	{
+		"nf-md-camera_metering_matrix",
+		"󰞣",
+	},
+	{
+		"nf-md-camera_metering_partial",
+		"󰞤",
+	},
+	{
+		"nf-md-camera_metering_spot",
+		"󰞥",
+	},
+	{
+		"nf-md-camera_off",
+		"󰗟",
+	},
+	{
+		"nf-md-camera_off_outline",
+		"󱦿",
+	},
+	{
+		"nf-md-camera_outline",
+		"󰵝",
+	},
+	{
+		"nf-md-camera_party_mode",
+		"󰄅",
+	},
+	{
+		"nf-md-camera_plus",
+		"󰻛",
+	},
+	{
+		"nf-md-camera_plus_outline",
+		"󰻜",
+	},
+	{
+		"nf-md-camera_rear",
+		"󰄆",
+	},
+	{
+		"nf-md-camera_rear_variant",
+		"󰄇",
+	},
+	{
+		"nf-md-camera_retake",
+		"󰸙",
+	},
+	{
+		"nf-md-camera_retake_outline",
+		"󰸚",
+	},
+	{
+		"nf-md-camera_switch",
+		"󰄈",
+	},
+	{
+		"nf-md-camera_switch_outline",
+		"󰡊",
+	},
+	{
+		"nf-md-camera_timer",
+		"󰄉",
+	},
+	{
+		"nf-md-camera_wireless",
+		"󰶶",
+	},
+	{
+		"nf-md-camera_wireless_outline",
+		"󰶷",
+	},
+	{
+		"nf-md-campfire",
+		"󰻝",
+	},
+	{
+		"nf-md-cancel",
+		"󰜺",
+	},
+	{
+		"nf-md-candelabra",
+		"󱟒",
+	},
+	{
+		"nf-md-candelabra_fire",
+		"󱟓",
+	},
+	{
+		"nf-md-candle",
+		"󰗢",
+	},
+	{
+		"nf-md-candy",
+		"󱥰",
+	},
+	{
+		"nf-md-candy_off",
+		"󱥱",
+	},
+	{
+		"nf-md-candy_off_outline",
+		"󱥲",
+	},
+	{
+		"nf-md-candy_outline",
+		"󱥳",
+	},
+	{
+		"nf-md-candycane",
+		"󰄊",
+	},
+	{
+		"nf-md-cannabis",
+		"󰞦",
+	},
+	{
+		"nf-md-cannabis_off",
+		"󱙮",
+	},
+	{
+		"nf-md-caps_lock",
+		"󰪛",
+	},
+	{
+		"nf-md-car",
+		"󰄋",
+	},
+	{
+		"nf-md-car_2_plus",
+		"󱀕",
+	},
+	{
+		"nf-md-car_3_plus",
+		"󱀖",
+	},
+	{
+		"nf-md-car_arrow_left",
+		"󱎲",
+	},
+	{
+		"nf-md-car_arrow_right",
+		"󱎳",
+	},
+	{
+		"nf-md-car_back",
+		"󰸛",
+	},
+	{
+		"nf-md-car_battery",
+		"󰄌",
+	},
+	{
+		"nf-md-car_brake_abs",
+		"󰱇",
+	},
+	{
+		"nf-md-car_brake_alert",
+		"󰱈",
+	},
+	{
+		"nf-md-car_brake_fluid_level",
+		"󱤉",
+	},
+	{
+		"nf-md-car_brake_hold",
+		"󰵞",
+	},
+	{
+		"nf-md-car_brake_low_pressure",
+		"󱤊",
+	},
+	{
+		"nf-md-car_brake_parking",
+		"󰵟",
+	},
+	{
+		"nf-md-car_brake_retarder",
+		"󱀗",
+	},
+	{
+		"nf-md-car_brake_temperature",
+		"󱤋",
+	},
+	{
+		"nf-md-car_brake_worn_linings",
+		"󱤌",
+	},
+	{
+		"nf-md-car_child_seat",
+		"󰾣",
+	},
+	{
+		"nf-md-car_clock",
+		"󱥴",
+	},
+	{
+		"nf-md-car_clutch",
+		"󱀘",
+	},
+	{
+		"nf-md-car_cog",
+		"󱏌",
+	},
+	{
+		"nf-md-car_connected",
+		"󰄍",
+	},
+	{
+		"nf-md-car_convertible",
+		"󰞧",
+	},
+	{
+		"nf-md-car_coolant_level",
+		"󱀙",
+	},
+	{
+		"nf-md-car_cruise_control",
+		"󰵠",
+	},
+	{
+		"nf-md-car_defrost_front",
+		"󰵡",
+	},
+	{
+		"nf-md-car_defrost_rear",
+		"󰵢",
+	},
+	{
+		"nf-md-car_door",
+		"󰭫",
+	},
+	{
+		"nf-md-car_door_lock",
+		"󱂝",
+	},
+	{
+		"nf-md-car_electric",
+		"󰭬",
+	},
+	{
+		"nf-md-car_electric_outline",
+		"󱖵",
+	},
+	{
+		"nf-md-car_emergency",
+		"󱘏",
+	},
+	{
+		"nf-md-car_esp",
+		"󰱉",
+	},
+	{
+		"nf-md-car_estate",
+		"󰞨",
+	},
+	{
+		"nf-md-car_hatchback",
+		"󰞩",
+	},
+	{
+		"nf-md-car_info",
+		"󱆾",
+	},
+	{
+		"nf-md-car_key",
+		"󰭭",
+	},
+	{
+		"nf-md-car_lifted_pickup",
+		"󱔭",
+	},
+	{
+		"nf-md-car_light_alert",
+		"󱤍",
+	},
+	{
+		"nf-md-car_light_dimmed",
+		"󰱊",
+	},
+	{
+		"nf-md-car_light_fog",
+		"󰱋",
+	},
+	{
+		"nf-md-car_light_high",
+		"󰱌",
+	},
+	{
+		"nf-md-car_limousine",
+		"󰣍",
+	},
+	{
+		"nf-md-car_multiple",
+		"󰭮",
+	},
+	{
+		"nf-md-car_off",
+		"󰸜",
+	},
+	{
+		"nf-md-car_outline",
+		"󱓭",
+	},
+	{
+		"nf-md-car_parking_lights",
+		"󰵣",
+	},
+	{
+		"nf-md-car_pickup",
+		"󰞪",
+	},
+	{
+		"nf-md-car_seat",
+		"󰾤",
+	},
+	{
+		"nf-md-car_seat_cooler",
+		"󰾥",
+	},
+	{
+		"nf-md-car_seat_heater",
+		"󰾦",
+	},
+	{
+		"nf-md-car_select",
+		"󱡹",
+	},
+	{
+		"nf-md-car_settings",
+		"󱏍",
+	},
+	{
+		"nf-md-car_shift_pattern",
+		"󰽀",
+	},
+	{
+		"nf-md-car_side",
+		"󰞫",
+	},
+	{
+		"nf-md-car_speed_limiter",
+		"󱤎",
+	},
+	{
+		"nf-md-car_sports",
+		"󰞬",
+	},
+	{
+		"nf-md-car_tire_alert",
+		"󰱍",
+	},
+	{
+		"nf-md-car_traction_control",
+		"󰵤",
+	},
+	{
+		"nf-md-car_turbocharger",
+		"󱀚",
+	},
+	{
+		"nf-md-car_wash",
+		"󰄎",
+	},
+	{
+		"nf-md-car_windshield",
+		"󱀛",
+	},
+	{
+		"nf-md-car_windshield_outline",
+		"󱀜",
+	},
+	{
+		"nf-md-car_wireless",
+		"󱡸",
+	},
+	{
+		"nf-md-car_wrench",
+		"󱠔",
+	},
+	{
+		"nf-md-carabiner",
+		"󱓀",
+	},
+	{
+		"nf-md-caravan",
+		"󰞭",
+	},
+	{
+		"nf-md-card",
+		"󰭯",
+	},
+	{
+		"nf-md-card_account_details",
+		"󰗒",
+	},
+	{
+		"nf-md-card_account_details_outline",
+		"󰶫",
+	},
+	{
+		"nf-md-card_account_details_star",
+		"󰊣",
+	},
+	{
+		"nf-md-card_account_details_star_outline",
+		"󰛛",
+	},
+	{
+		"nf-md-card_account_mail",
+		"󰆎",
+	},
+	{
+		"nf-md-card_account_mail_outline",
+		"󰺘",
+	},
+	{
+		"nf-md-card_account_phone",
+		"󰺙",
+	},
+	{
+		"nf-md-card_account_phone_outline",
+		"󰺚",
+	},
+	{
+		"nf-md-card_bulleted",
+		"󰭰",
+	},
+	{
+		"nf-md-card_bulleted_off",
+		"󰭱",
+	},
+	{
+		"nf-md-card_bulleted_off_outline",
+		"󰭲",
+	},
+	{
+		"nf-md-card_bulleted_outline",
+		"󰭳",
+	},
+	{
+		"nf-md-card_bulleted_settings",
+		"󰭴",
+	},
+	{
+		"nf-md-card_bulleted_settings_outline",
+		"󰭵",
+	},
+	{
+		"nf-md-card_minus",
+		"󱘀",
+	},
+	{
+		"nf-md-card_minus_outline",
+		"󱘁",
+	},
+	{
+		"nf-md-card_multiple",
+		"󱟱",
+	},
+	{
+		"nf-md-card_multiple_outline",
+		"󱟲",
+	},
+	{
+		"nf-md-card_off",
+		"󱘂",
+	},
+	{
+		"nf-md-card_off_outline",
+		"󱘃",
+	},
+	{
+		"nf-md-card_outline",
+		"󰭶",
+	},
+	{
+		"nf-md-card_plus",
+		"󱇿",
+	},
+	{
+		"nf-md-card_plus_outline",
+		"󱈀",
+	},
+	{
+		"nf-md-card_remove",
+		"󱘄",
+	},
+	{
+		"nf-md-card_remove_outline",
+		"󱘅",
+	},
+	{
+		"nf-md-card_search",
+		"󱁴",
+	},
+	{
+		"nf-md-card_search_outline",
+		"󱁵",
+	},
+	{
+		"nf-md-card_text",
+		"󰭷",
+	},
+	{
+		"nf-md-card_text_outline",
+		"󰭸",
+	},
+	{
+		"nf-md-cards",
+		"󰘸",
+	},
+	{
+		"nf-md-cards_club",
+		"󰣎",
+	},
+	{
+		"nf-md-cards_club_outline",
+		"󱢟",
+	},
+	{
+		"nf-md-cards_diamond",
+		"󰣏",
+	},
+	{
+		"nf-md-cards_diamond_outline",
+		"󱀝",
+	},
+	{
+		"nf-md-cards_outline",
+		"󰘹",
+	},
+	{
+		"nf-md-cards_playing",
+		"󱢡",
+	},
+	{
+		"nf-md-cards_playing_club",
+		"󱢢",
+	},
+	{
+		"nf-md-cards_playing_club_multiple",
+		"󱢣",
+	},
+	{
+		"nf-md-cards_playing_club_multiple_outline",
+		"󱢤",
+	},
+	{
+		"nf-md-cards_playing_club_outline",
+		"󱢥",
+	},
+	{
+		"nf-md-cards_playing_diamond",
+		"󱢦",
+	},
+	{
+		"nf-md-cards_playing_diamond_multiple",
+		"󱢧",
+	},
+	{
+		"nf-md-cards_playing_diamond_multiple_outline",
+		"󱢨",
+	},
+	{
+		"nf-md-cards_playing_diamond_outline",
+		"󱢩",
+	},
+	{
+		"nf-md-cards_playing_heart",
+		"󱢪",
+	},
+	{
+		"nf-md-cards_playing_heart_multiple",
+		"󱢫",
+	},
+	{
+		"nf-md-cards_playing_heart_multiple_outline",
+		"󱢬",
+	},
+	{
+		"nf-md-cards_playing_heart_outline",
+		"󱢭",
+	},
+	{
+		"nf-md-cards_playing_outline",
+		"󰘺",
+	},
+	{
+		"nf-md-cards_playing_spade",
+		"󱢮",
+	},
+	{
+		"nf-md-cards_playing_spade_multiple",
+		"󱢯",
+	},
+	{
+		"nf-md-cards_playing_spade_multiple_outline",
+		"󱢰",
+	},
+	{
+		"nf-md-cards_playing_spade_outline",
+		"󱢱",
+	},
+	{
+		"nf-md-cards_spade",
+		"󰣑",
+	},
+	{
+		"nf-md-cards_spade_outline",
+		"󱢲",
+	},
+	{
+		"nf-md-cards_variant",
+		"󰛇",
+	},
+	{
+		"nf-md-carrot",
+		"󰄏",
+	},
+	{
+		"nf-md-cart",
+		"󰄐",
+	},
+	{
+		"nf-md-cart_arrow_down",
+		"󰵦",
+	},
+	{
+		"nf-md-cart_arrow_right",
+		"󰱎",
+	},
+	{
+		"nf-md-cart_arrow_up",
+		"󰵧",
+	},
+	{
+		"nf-md-cart_check",
+		"󱗪",
+	},
+	{
+		"nf-md-cart_heart",
+		"󱣠",
+	},
+	{
+		"nf-md-cart_minus",
+		"󰵨",
+	},
+	{
+		"nf-md-cart_off",
+		"󰙫",
+	},
+	{
+		"nf-md-cart_outline",
+		"󰄑",
+	},
+	{
+		"nf-md-cart_plus",
+		"󰄒",
+	},
+	{
+		"nf-md-cart_remove",
+		"󰵩",
+	},
+	{
+		"nf-md-cart_variant",
+		"󱗫",
+	},
+	{
+		"nf-md-case_sensitive_alt",
+		"󰄓",
+	},
+	{
+		"nf-md-cash",
+		"󰄔",
+	},
+	{
+		"nf-md-cash_100",
+		"󰄕",
+	},
+	{
+		"nf-md-cash_check",
+		"󱓮",
+	},
+	{
+		"nf-md-cash_clock",
+		"󱪑",
+	},
+	{
+		"nf-md-cash_fast",
+		"󱡜",
+	},
+	{
+		"nf-md-cash_lock",
+		"󱓪",
+	},
+	{
+		"nf-md-cash_lock_open",
+		"󱓫",
+	},
+	{
+		"nf-md-cash_marker",
+		"󰶸",
+	},
+	{
+		"nf-md-cash_minus",
+		"󱉠",
+	},
+	{
+		"nf-md-cash_multiple",
+		"󰄖",
+	},
+	{
+		"nf-md-cash_plus",
+		"󱉡",
+	},
+	{
+		"nf-md-cash_refund",
+		"󰪜",
+	},
+	{
+		"nf-md-cash_register",
+		"󰳴",
+	},
+	{
+		"nf-md-cash_remove",
+		"󱉢",
+	},
+	{
+		"nf-md-cash_sync",
+		"󱪒",
+	},
+	{
+		"nf-md-cassette",
+		"󰧔",
+	},
+	{
+		"nf-md-cast",
+		"󰄘",
+	},
+	{
+		"nf-md-cast_audio",
+		"󱀞",
+	},
+	{
+		"nf-md-cast_audio_variant",
+		"󱝉",
+	},
+	{
+		"nf-md-cast_connected",
+		"󰄙",
+	},
+	{
+		"nf-md-cast_education",
+		"󰸝",
+	},
+	{
+		"nf-md-cast_off",
+		"󰞊",
+	},
+	{
+		"nf-md-cast_variant",
+		"󰀟",
+	},
+	{
+		"nf-md-castle",
+		"󰄚",
+	},
+	{
+		"nf-md-cat",
+		"󰄛",
+	},
+	{
+		"nf-md-cctv",
+		"󰞮",
+	},
+	{
+		"nf-md-cctv_off",
+		"󱡟",
+	},
+	{
+		"nf-md-ceiling_fan",
+		"󱞗",
+	},
+	{
+		"nf-md-ceiling_fan_light",
+		"󱞘",
+	},
+	{
+		"nf-md-ceiling_light",
+		"󰝩",
+	},
+	{
+		"nf-md-ceiling_light_multiple",
+		"󱣝",
+	},
+	{
+		"nf-md-ceiling_light_multiple_outline",
+		"󱣞",
+	},
+	{
+		"nf-md-ceiling_light_outline",
+		"󱟇",
+	},
+	{
+		"nf-md-cellphone",
+		"󰄜",
+	},
+	{
+		"nf-md-cellphone_arrow_down",
+		"󰧕",
+	},
+	{
+		"nf-md-cellphone_arrow_down_variant",
+		"󱧅",
+	},
+	{
+		"nf-md-cellphone_basic",
+		"󰄞",
+	},
+	{
+		"nf-md-cellphone_charging",
+		"󱎗",
+	},
+	{
+		"nf-md-cellphone_check",
+		"󱟽",
+	},
+	{
+		"nf-md-cellphone_cog",
+		"󰥑",
+	},
+	{
+		"nf-md-cellphone_dock",
+		"󰄟",
+	},
+	{
+		"nf-md-cellphone_information",
+		"󰽁",
+	},
+	{
+		"nf-md-cellphone_key",
+		"󰥎",
+	},
+	{
+		"nf-md-cellphone_link",
+		"󰄡",
+	},
+	{
+		"nf-md-cellphone_link_off",
+		"󰄢",
+	},
+	{
+		"nf-md-cellphone_lock",
+		"󰥏",
+	},
+	{
+		"nf-md-cellphone_marker",
+		"󱠺",
+	},
+	{
+		"nf-md-cellphone_message",
+		"󰣓",
+	},
+	{
+		"nf-md-cellphone_message_off",
+		"󱃒",
+	},
+	{
+		"nf-md-cellphone_nfc",
+		"󰺐",
+	},
+	{
+		"nf-md-cellphone_nfc_off",
+		"󱋘",
+	},
+	{
+		"nf-md-cellphone_off",
+		"󰥐",
+	},
+	{
+		"nf-md-cellphone_play",
+		"󱀟",
+	},
+	{
+		"nf-md-cellphone_remove",
+		"󰥍",
+	},
+	{
+		"nf-md-cellphone_screenshot",
+		"󰨵",
+	},
+	{
+		"nf-md-cellphone_settings",
+		"󰄣",
+	},
+	{
+		"nf-md-cellphone_sound",
+		"󰥒",
+	},
+	{
+		"nf-md-cellphone_text",
+		"󰣒",
+	},
+	{
+		"nf-md-cellphone_wireless",
+		"󰠕",
+	},
+	{
+		"nf-md-centos",
+		"󱄚",
+	},
+	{
+		"nf-md-certificate",
+		"󰄤",
+	},
+	{
+		"nf-md-certificate_outline",
+		"󱆈",
+	},
+	{
+		"nf-md-chair_rolling",
+		"󰽈",
+	},
+	{
+		"nf-md-chair_school",
+		"󰄥",
+	},
+	{
+		"nf-md-chandelier",
+		"󱞓",
+	},
+	{
+		"nf-md-charity",
+		"󰱏",
+	},
+	{
+		"nf-md-chart_arc",
+		"󰄦",
+	},
+	{
+		"nf-md-chart_areaspline",
+		"󰄧",
+	},
+	{
+		"nf-md-chart_areaspline_variant",
+		"󰺑",
+	},
+	{
+		"nf-md-chart_bar",
+		"󰄨",
+	},
+	{
+		"nf-md-chart_bar_stacked",
+		"󰝪",
+	},
+	{
+		"nf-md-chart_bell_curve",
+		"󰱐",
+	},
+	{
+		"nf-md-chart_bell_curve_cumulative",
+		"󰾧",
+	},
+	{
+		"nf-md-chart_box",
+		"󱕍",
+	},
+	{
+		"nf-md-chart_box_outline",
+		"󱕎",
+	},
+	{
+		"nf-md-chart_box_plus_outline",
+		"󱕏",
+	},
+	{
+		"nf-md-chart_bubble",
+		"󰗣",
+	},
+	{
+		"nf-md-chart_donut",
+		"󰞯",
+	},
+	{
+		"nf-md-chart_donut_variant",
+		"󰞰",
+	},
+	{
+		"nf-md-chart_gantt",
+		"󰙬",
+	},
+	{
+		"nf-md-chart_histogram",
+		"󰄩",
+	},
+	{
+		"nf-md-chart_line",
+		"󰄪",
+	},
+	{
+		"nf-md-chart_line_stacked",
+		"󰝫",
+	},
+	{
+		"nf-md-chart_line_variant",
+		"󰞱",
+	},
+	{
+		"nf-md-chart_multiline",
+		"󰣔",
+	},
+	{
+		"nf-md-chart_multiple",
+		"󱈓",
+	},
+	{
+		"nf-md-chart_pie",
+		"󰄫",
+	},
+	{
+		"nf-md-chart_ppf",
+		"󱎀",
+	},
+	{
+		"nf-md-chart_sankey",
+		"󱇟",
+	},
+	{
+		"nf-md-chart_sankey_variant",
+		"󱇠",
+	},
+	{
+		"nf-md-chart_scatter_plot",
+		"󰺒",
+	},
+	{
+		"nf-md-chart_scatter_plot_hexbin",
+		"󰙭",
+	},
+	{
+		"nf-md-chart_timeline",
+		"󰙮",
+	},
+	{
+		"nf-md-chart_timeline_variant",
+		"󰺓",
+	},
+	{
+		"nf-md-chart_timeline_variant_shimmer",
+		"󱖶",
+	},
+	{
+		"nf-md-chart_tree",
+		"󰺔",
+	},
+	{
+		"nf-md-chart_waterfall",
+		"󱤘",
+	},
+	{
+		"nf-md-chat",
+		"󰭹",
+	},
+	{
+		"nf-md-chat_alert",
+		"󰭺",
+	},
+	{
+		"nf-md-chat_alert_outline",
+		"󱋉",
+	},
+	{
+		"nf-md-chat_minus",
+		"󱐐",
+	},
+	{
+		"nf-md-chat_minus_outline",
+		"󱐓",
+	},
+	{
+		"nf-md-chat_outline",
+		"󰻞",
+	},
+	{
+		"nf-md-chat_plus",
+		"󱐏",
+	},
+	{
+		"nf-md-chat_plus_outline",
+		"󱐒",
+	},
+	{
+		"nf-md-chat_processing",
+		"󰭻",
+	},
+	{
+		"nf-md-chat_processing_outline",
+		"󱋊",
+	},
+	{
+		"nf-md-chat_question",
+		"󱜸",
+	},
+	{
+		"nf-md-chat_question_outline",
+		"󱜹",
+	},
+	{
+		"nf-md-chat_remove",
+		"󱐑",
+	},
+	{
+		"nf-md-chat_remove_outline",
+		"󱐔",
+	},
+	{
+		"nf-md-chat_sleep",
+		"󱋑",
+	},
+	{
+		"nf-md-chat_sleep_outline",
+		"󱋒",
+	},
+	{
+		"nf-md-check",
+		"󰄬",
+	},
+	{
+		"nf-md-check_all",
+		"󰄭",
+	},
+	{
+		"nf-md-check_bold",
+		"󰸞",
+	},
+	{
+		"nf-md-check_circle",
+		"󰗠",
+	},
+	{
+		"nf-md-check_circle_outline",
+		"󰗡",
+	},
+	{
+		"nf-md-check_decagram",
+		"󰞑",
+	},
+	{
+		"nf-md-check_decagram_outline",
+		"󱝀",
+	},
+	{
+		"nf-md-check_network",
+		"󰱓",
+	},
+	{
+		"nf-md-check_network_outline",
+		"󰱔",
+	},
+	{
+		"nf-md-check_outline",
+		"󰡕",
+	},
+	{
+		"nf-md-check_underline",
+		"󰸟",
+	},
+	{
+		"nf-md-check_underline_circle",
+		"󰸠",
+	},
+	{
+		"nf-md-check_underline_circle_outline",
+		"󰸡",
+	},
+	{
+		"nf-md-checkbook",
+		"󰪝",
+	},
+	{
+		"nf-md-checkbox_blank",
+		"󰄮",
+	},
+	{
+		"nf-md-checkbox_blank_badge",
+		"󱅶",
+	},
+	{
+		"nf-md-checkbox_blank_badge_outline",
+		"󰄗",
+	},
+	{
+		"nf-md-checkbox_blank_circle",
+		"󰝥",
+	},
+	{
+		"nf-md-checkbox_blank_circle_outline",
+		"󰝦",
+	},
+	{
+		"nf-md-checkbox_blank_off",
+		"󱋬",
+	},
+	{
+		"nf-md-checkbox_blank_off_outline",
+		"󱋭",
+	},
+	{
+		"nf-md-checkbox_blank_outline",
+		"󰄱",
+	},
+	{
+		"nf-md-checkbox_intermediate",
+		"󰡖",
+	},
+	{
+		"nf-md-checkbox_marked",
+		"󰄲",
+	},
+	{
+		"nf-md-checkbox_marked_circle",
+		"󰄳",
+	},
+	{
+		"nf-md-checkbox_marked_circle_outline",
+		"󰄴",
+	},
+	{
+		"nf-md-checkbox_marked_circle_plus_outline",
+		"󱤧",
+	},
+	{
+		"nf-md-checkbox_marked_outline",
+		"󰄵",
+	},
+	{
+		"nf-md-checkbox_multiple_blank",
+		"󰄶",
+	},
+	{
+		"nf-md-checkbox_multiple_blank_circle",
+		"󰘻",
+	},
+	{
+		"nf-md-checkbox_multiple_blank_circle_outline",
+		"󰘼",
+	},
+	{
+		"nf-md-checkbox_multiple_blank_outline",
+		"󰄷",
+	},
+	{
+		"nf-md-checkbox_multiple_marked",
+		"󰄸",
+	},
+	{
+		"nf-md-checkbox_multiple_marked_circle",
+		"󰘽",
+	},
+	{
+		"nf-md-checkbox_multiple_marked_circle_outline",
+		"󰘾",
+	},
+	{
+		"nf-md-checkbox_multiple_marked_outline",
+		"󰄹",
+	},
+	{
+		"nf-md-checkbox_multiple_outline",
+		"󰱑",
+	},
+	{
+		"nf-md-checkbox_outline",
+		"󰱒",
+	},
+	{
+		"nf-md-checkerboard",
+		"󰄺",
+	},
+	{
+		"nf-md-checkerboard_minus",
+		"󱈂",
+	},
+	{
+		"nf-md-checkerboard_plus",
+		"󱈁",
+	},
+	{
+		"nf-md-checkerboard_remove",
+		"󱈃",
+	},
+	{
+		"nf-md-cheese",
+		"󱊹",
+	},
+	{
+		"nf-md-cheese_off",
+		"󱏮",
+	},
+	{
+		"nf-md-chef_hat",
+		"󰭼",
+	},
+	{
+		"nf-md-chemical_weapon",
+		"󰄻",
+	},
+	{
+		"nf-md-chess_bishop",
+		"󰡜",
+	},
+	{
+		"nf-md-chess_king",
+		"󰡗",
+	},
+	{
+		"nf-md-chess_knight",
+		"󰡘",
+	},
+	{
+		"nf-md-chess_pawn",
+		"󰡙",
+	},
+	{
+		"nf-md-chess_queen",
+		"󰡚",
+	},
+	{
+		"nf-md-chess_rook",
+		"󰡛",
+	},
+	{
+		"nf-md-chevron_double_down",
+		"󰄼",
+	},
+	{
+		"nf-md-chevron_double_left",
+		"󰄽",
+	},
+	{
+		"nf-md-chevron_double_right",
+		"󰄾",
+	},
+	{
+		"nf-md-chevron_double_up",
+		"󰄿",
+	},
+	{
+		"nf-md-chevron_down",
+		"󰅀",
+	},
+	{
+		"nf-md-chevron_down_box",
+		"󰧖",
+	},
+	{
+		"nf-md-chevron_down_box_outline",
+		"󰧗",
+	},
+	{
+		"nf-md-chevron_down_circle",
+		"󰬦",
+	},
+	{
+		"nf-md-chevron_down_circle_outline",
+		"󰬧",
+	},
+	{
+		"nf-md-chevron_left",
+		"󰅁",
+	},
+	{
+		"nf-md-chevron_left_box",
+		"󰧘",
+	},
+	{
+		"nf-md-chevron_left_box_outline",
+		"󰧙",
+	},
+	{
+		"nf-md-chevron_left_circle",
+		"󰬨",
+	},
+	{
+		"nf-md-chevron_left_circle_outline",
+		"󰬩",
+	},
+	{
+		"nf-md-chevron_right",
+		"󰅂",
+	},
+	{
+		"nf-md-chevron_right_box",
+		"󰧚",
+	},
+	{
+		"nf-md-chevron_right_box_outline",
+		"󰧛",
+	},
+	{
+		"nf-md-chevron_right_circle",
+		"󰬪",
+	},
+	{
+		"nf-md-chevron_right_circle_outline",
+		"󰬫",
+	},
+	{
+		"nf-md-chevron_triple_down",
+		"󰶹",
+	},
+	{
+		"nf-md-chevron_triple_left",
+		"󰶺",
+	},
+	{
+		"nf-md-chevron_triple_right",
+		"󰶻",
+	},
+	{
+		"nf-md-chevron_triple_up",
+		"󰶼",
+	},
+	{
+		"nf-md-chevron_up",
+		"󰅃",
+	},
+	{
+		"nf-md-chevron_up_box",
+		"󰧜",
+	},
+	{
+		"nf-md-chevron_up_box_outline",
+		"󰧝",
+	},
+	{
+		"nf-md-chevron_up_circle",
+		"󰬬",
+	},
+	{
+		"nf-md-chevron_up_circle_outline",
+		"󰬭",
+	},
+	{
+		"nf-md-chili_alert",
+		"󱟪",
+	},
+	{
+		"nf-md-chili_alert_outline",
+		"󱟫",
+	},
+	{
+		"nf-md-chili_hot",
+		"󰞲",
+	},
+	{
+		"nf-md-chili_hot_outline",
+		"󱟬",
+	},
+	{
+		"nf-md-chili_medium",
+		"󰞳",
+	},
+	{
+		"nf-md-chili_medium_outline",
+		"󱟭",
+	},
+	{
+		"nf-md-chili_mild",
+		"󰞴",
+	},
+	{
+		"nf-md-chili_mild_outline",
+		"󱟮",
+	},
+	{
+		"nf-md-chili_off",
+		"󱑧",
+	},
+	{
+		"nf-md-chili_off_outline",
+		"󱟯",
+	},
+	{
+		"nf-md-chip",
+		"󰘚",
+	},
+	{
+		"nf-md-church",
+		"󰅄",
+	},
+	{
+		"nf-md-cigar",
+		"󱆉",
+	},
+	{
+		"nf-md-cigar_off",
+		"󱐛",
+	},
+	{
+		"nf-md-circle_box",
+		"󱗜",
+	},
+	{
+		"nf-md-circle_box_outline",
+		"󱗝",
+	},
+	{
+		"nf-md-circle_double",
+		"󰺕",
+	},
+	{
+		"nf-md-circle_edit_outline",
+		"󰣕",
+	},
+	{
+		"nf-md-circle_expand",
+		"󰺖",
+	},
+	{
+		"nf-md-circle_half",
+		"󱎕",
+	},
+	{
+		"nf-md-circle_half_full",
+		"󱎖",
+	},
+	{
+		"nf-md-circle_medium",
+		"󰧞",
+	},
+	{
+		"nf-md-circle_multiple",
+		"󰬸",
+	},
+	{
+		"nf-md-circle_multiple_outline",
+		"󰚕",
+	},
+	{
+		"nf-md-circle_off_outline",
+		"󱃓",
+	},
+	{
+		"nf-md-circle_opacity",
+		"󱡓",
+	},
+	{
+		"nf-md-circle_slice_1",
+		"󰪞",
+	},
+	{
+		"nf-md-circle_slice_2",
+		"󰪟",
+	},
+	{
+		"nf-md-circle_slice_3",
+		"󰪠",
+	},
+	{
+		"nf-md-circle_slice_4",
+		"󰪡",
+	},
+	{
+		"nf-md-circle_slice_5",
+		"󰪢",
+	},
+	{
+		"nf-md-circle_slice_6",
+		"󰪣",
+	},
+	{
+		"nf-md-circle_slice_7",
+		"󰪤",
+	},
+	{
+		"nf-md-circle_slice_8",
+		"󰪥",
+	},
+	{
+		"nf-md-circle_small",
+		"󰧟",
+	},
+	{
+		"nf-md-circular_saw",
+		"󰸢",
+	},
+	{
+		"nf-md-city",
+		"󰅆",
+	},
+	{
+		"nf-md-city_variant",
+		"󰨶",
+	},
+	{
+		"nf-md-city_variant_outline",
+		"󰨷",
+	},
+	{
+		"nf-md-clipboard",
+		"󰅇",
+	},
+	{
+		"nf-md-clipboard_account",
+		"󰅈",
+	},
+	{
+		"nf-md-clipboard_account_outline",
+		"󰱕",
+	},
+	{
+		"nf-md-clipboard_alert",
+		"󰅉",
+	},
+	{
+		"nf-md-clipboard_alert_outline",
+		"󰳷",
+	},
+	{
+		"nf-md-clipboard_arrow_down",
+		"󰅊",
+	},
+	{
+		"nf-md-clipboard_arrow_down_outline",
+		"󰱖",
+	},
+	{
+		"nf-md-clipboard_arrow_left",
+		"󰅋",
+	},
+	{
+		"nf-md-clipboard_arrow_left_outline",
+		"󰳸",
+	},
+	{
+		"nf-md-clipboard_arrow_right",
+		"󰳹",
+	},
+	{
+		"nf-md-clipboard_arrow_right_outline",
+		"󰳺",
+	},
+	{
+		"nf-md-clipboard_arrow_up",
+		"󰱗",
+	},
+	{
+		"nf-md-clipboard_arrow_up_outline",
+		"󰱘",
+	},
+	{
+		"nf-md-clipboard_check",
+		"󰅎",
+	},
+	{
+		"nf-md-clipboard_check_multiple",
+		"󱉣",
+	},
+	{
+		"nf-md-clipboard_check_multiple_outline",
+		"󱉤",
+	},
+	{
+		"nf-md-clipboard_check_outline",
+		"󰢨",
+	},
+	{
+		"nf-md-clipboard_clock",
+		"󱛢",
+	},
+	{
+		"nf-md-clipboard_clock_outline",
+		"󱛣",
+	},
+	{
+		"nf-md-clipboard_edit",
+		"󱓥",
+	},
+	{
+		"nf-md-clipboard_edit_outline",
+		"󱓦",
+	},
+	{
+		"nf-md-clipboard_file",
+		"󱉥",
+	},
+	{
+		"nf-md-clipboard_file_outline",
+		"󱉦",
+	},
+	{
+		"nf-md-clipboard_flow",
+		"󰛈",
+	},
+	{
+		"nf-md-clipboard_flow_outline",
+		"󱄗",
+	},
+	{
+		"nf-md-clipboard_list",
+		"󱃔",
+	},
+	{
+		"nf-md-clipboard_list_outline",
+		"󱃕",
+	},
+	{
+		"nf-md-clipboard_minus",
+		"󱘘",
+	},
+	{
+		"nf-md-clipboard_minus_outline",
+		"󱘙",
+	},
+	{
+		"nf-md-clipboard_multiple",
+		"󱉧",
+	},
+	{
+		"nf-md-clipboard_multiple_outline",
+		"󱉨",
+	},
+	{
+		"nf-md-clipboard_off",
+		"󱘚",
+	},
+	{
+		"nf-md-clipboard_off_outline",
+		"󱘛",
+	},
+	{
+		"nf-md-clipboard_outline",
+		"󰅌",
+	},
+	{
+		"nf-md-clipboard_play",
+		"󰱙",
+	},
+	{
+		"nf-md-clipboard_play_multiple",
+		"󱉩",
+	},
+	{
+		"nf-md-clipboard_play_multiple_outline",
+		"󱉪",
+	},
+	{
+		"nf-md-clipboard_play_outline",
+		"󰱚",
+	},
+	{
+		"nf-md-clipboard_plus",
+		"󰝑",
+	},
+	{
+		"nf-md-clipboard_plus_outline",
+		"󱌟",
+	},
+	{
+		"nf-md-clipboard_pulse",
+		"󰡝",
+	},
+	{
+		"nf-md-clipboard_pulse_outline",
+		"󰡞",
+	},
+	{
+		"nf-md-clipboard_remove",
+		"󱘜",
+	},
+	{
+		"nf-md-clipboard_remove_outline",
+		"󱘝",
+	},
+	{
+		"nf-md-clipboard_search",
+		"󱘞",
+	},
+	{
+		"nf-md-clipboard_search_outline",
+		"󱘟",
+	},
+	{
+		"nf-md-clipboard_text",
+		"󰅍",
+	},
+	{
+		"nf-md-clipboard_text_clock",
+		"󱣹",
+	},
+	{
+		"nf-md-clipboard_text_clock_outline",
+		"󱣺",
+	},
+	{
+		"nf-md-clipboard_text_multiple",
+		"󱉫",
+	},
+	{
+		"nf-md-clipboard_text_multiple_outline",
+		"󱉬",
+	},
+	{
+		"nf-md-clipboard_text_off",
+		"󱘠",
+	},
+	{
+		"nf-md-clipboard_text_off_outline",
+		"󱘡",
+	},
+	{
+		"nf-md-clipboard_text_outline",
+		"󰨸",
+	},
+	{
+		"nf-md-clipboard_text_play",
+		"󰱛",
+	},
+	{
+		"nf-md-clipboard_text_play_outline",
+		"󰱜",
+	},
+	{
+		"nf-md-clipboard_text_search",
+		"󱘢",
+	},
+	{
+		"nf-md-clipboard_text_search_outline",
+		"󱘣",
+	},
+	{
+		"nf-md-clippy",
+		"󰅏",
+	},
+	{
+		"nf-md-clock",
+		"󰥔",
+	},
+	{
+		"nf-md-clock_alert",
+		"󰥕",
+	},
+	{
+		"nf-md-clock_alert_outline",
+		"󰗎",
+	},
+	{
+		"nf-md-clock_check",
+		"󰾨",
+	},
+	{
+		"nf-md-clock_check_outline",
+		"󰾩",
+	},
+	{
+		"nf-md-clock_digital",
+		"󰺗",
+	},
+	{
+		"nf-md-clock_edit",
+		"󱦺",
+	},
+	{
+		"nf-md-clock_edit_outline",
+		"󱦻",
+	},
+	{
+		"nf-md-clock_end",
+		"󰅑",
+	},
+	{
+		"nf-md-clock_fast",
+		"󰅒",
+	},
+	{
+		"nf-md-clock_in",
+		"󰅓",
+	},
+	{
+		"nf-md-clock_minus",
+		"󱡣",
+	},
+	{
+		"nf-md-clock_minus_outline",
+		"󱡤",
+	},
+	{
+		"nf-md-clock_out",
+		"󰅔",
+	},
+	{
+		"nf-md-clock_outline",
+		"󰅐",
+	},
+	{
+		"nf-md-clock_plus",
+		"󱡡",
+	},
+	{
+		"nf-md-clock_plus_outline",
+		"󱡢",
+	},
+	{
+		"nf-md-clock_remove",
+		"󱡥",
+	},
+	{
+		"nf-md-clock_remove_outline",
+		"󱡦",
+	},
+	{
+		"nf-md-clock_start",
+		"󰅕",
+	},
+	{
+		"nf-md-clock_time_eight",
+		"󱑆",
+	},
+	{
+		"nf-md-clock_time_eight_outline",
+		"󱑒",
+	},
+	{
+		"nf-md-clock_time_eleven",
+		"󱑉",
+	},
+	{
+		"nf-md-clock_time_eleven_outline",
+		"󱑕",
+	},
+	{
+		"nf-md-clock_time_five",
+		"󱑃",
+	},
+	{
+		"nf-md-clock_time_five_outline",
+		"󱑏",
+	},
+	{
+		"nf-md-clock_time_four",
+		"󱑂",
+	},
+	{
+		"nf-md-clock_time_four_outline",
+		"󱑎",
+	},
+	{
+		"nf-md-clock_time_nine",
+		"󱑇",
+	},
+	{
+		"nf-md-clock_time_nine_outline",
+		"󱑓",
+	},
+	{
+		"nf-md-clock_time_one",
+		"󱐿",
+	},
+	{
+		"nf-md-clock_time_one_outline",
+		"󱑋",
+	},
+	{
+		"nf-md-clock_time_seven",
+		"󱑅",
+	},
+	{
+		"nf-md-clock_time_seven_outline",
+		"󱑑",
+	},
+	{
+		"nf-md-clock_time_six",
+		"󱑄",
+	},
+	{
+		"nf-md-clock_time_six_outline",
+		"󱑐",
+	},
+	{
+		"nf-md-clock_time_ten",
+		"󱑈",
+	},
+	{
+		"nf-md-clock_time_ten_outline",
+		"󱑔",
+	},
+	{
+		"nf-md-clock_time_three",
+		"󱑁",
+	},
+	{
+		"nf-md-clock_time_three_outline",
+		"󱑍",
+	},
+	{
+		"nf-md-clock_time_twelve",
+		"󱑊",
+	},
+	{
+		"nf-md-clock_time_twelve_outline",
+		"󱑖",
+	},
+	{
+		"nf-md-clock_time_two",
+		"󱑀",
+	},
+	{
+		"nf-md-clock_time_two_outline",
+		"󱑌",
+	},
+	{
+		"nf-md-close",
+		"󰅖",
+	},
+	{
+		"nf-md-close_box",
+		"󰅗",
+	},
+	{
+		"nf-md-close_box_multiple",
+		"󰱝",
+	},
+	{
+		"nf-md-close_box_multiple_outline",
+		"󰱞",
+	},
+	{
+		"nf-md-close_box_outline",
+		"󰅘",
+	},
+	{
+		"nf-md-close_circle",
+		"󰅙",
+	},
+	{
+		"nf-md-close_circle_multiple",
+		"󰘪",
+	},
+	{
+		"nf-md-close_circle_multiple_outline",
+		"󰢃",
+	},
+	{
+		"nf-md-close_circle_outline",
+		"󰅚",
+	},
+	{
+		"nf-md-close_network",
+		"󰅛",
+	},
+	{
+		"nf-md-close_network_outline",
+		"󰱟",
+	},
+	{
+		"nf-md-close_octagon",
+		"󰅜",
+	},
+	{
+		"nf-md-close_octagon_outline",
+		"󰅝",
+	},
+	{
+		"nf-md-close_outline",
+		"󰛉",
+	},
+	{
+		"nf-md-close_thick",
+		"󱎘",
+	},
+	{
+		"nf-md-closed_caption",
+		"󰅞",
+	},
+	{
+		"nf-md-closed_caption_outline",
+		"󰶽",
+	},
+	{
+		"nf-md-cloud",
+		"󰅟",
+	},
+	{
+		"nf-md-cloud_alert",
+		"󰧠",
+	},
+	{
+		"nf-md-cloud_braces",
+		"󰞵",
+	},
+	{
+		"nf-md-cloud_check",
+		"󰅠",
+	},
+	{
+		"nf-md-cloud_check_outline",
+		"󱋌",
+	},
+	{
+		"nf-md-cloud_circle",
+		"󰅡",
+	},
+	{
+		"nf-md-cloud_download",
+		"󰅢",
+	},
+	{
+		"nf-md-cloud_download_outline",
+		"󰭽",
+	},
+	{
+		"nf-md-cloud_lock",
+		"󱇱",
+	},
+	{
+		"nf-md-cloud_lock_outline",
+		"󱇲",
+	},
+	{
+		"nf-md-cloud_off_outline",
+		"󰅤",
+	},
+	{
+		"nf-md-cloud_outline",
+		"󰅣",
+	},
+	{
+		"nf-md-cloud_percent",
+		"󱨵",
+	},
+	{
+		"nf-md-cloud_percent_outline",
+		"󱨶",
+	},
+	{
+		"nf-md-cloud_print",
+		"󰅥",
+	},
+	{
+		"nf-md-cloud_print_outline",
+		"󰅦",
+	},
+	{
+		"nf-md-cloud_question",
+		"󰨹",
+	},
+	{
+		"nf-md-cloud_refresh",
+		"󰔪",
+	},
+	{
+		"nf-md-cloud_search",
+		"󰥖",
+	},
+	{
+		"nf-md-cloud_search_outline",
+		"󰥗",
+	},
+	{
+		"nf-md-cloud_sync",
+		"󰘿",
+	},
+	{
+		"nf-md-cloud_sync_outline",
+		"󱋖",
+	},
+	{
+		"nf-md-cloud_tags",
+		"󰞶",
+	},
+	{
+		"nf-md-cloud_upload",
+		"󰅧",
+	},
+	{
+		"nf-md-cloud_upload_outline",
+		"󰭾",
+	},
+	{
+		"nf-md-clover",
+		"󰠖",
+	},
+	{
+		"nf-md-coach_lamp",
+		"󱀠",
+	},
+	{
+		"nf-md-coach_lamp_variant",
+		"󱨷",
+	},
+	{
+		"nf-md-coat_rack",
+		"󱂞",
+	},
+	{
+		"nf-md-code_array",
+		"󰅨",
+	},
+	{
+		"nf-md-code_braces",
+		"󰅩",
+	},
+	{
+		"nf-md-code_braces_box",
+		"󱃖",
+	},
+	{
+		"nf-md-code_brackets",
+		"󰅪",
+	},
+	{
+		"nf-md-code_equal",
+		"󰅫",
+	},
+	{
+		"nf-md-code_greater_than",
+		"󰅬",
+	},
+	{
+		"nf-md-code_greater_than_or_equal",
+		"󰅭",
+	},
+	{
+		"nf-md-code_json",
+		"󰘦",
+	},
+	{
+		"nf-md-code_less_than",
+		"󰅮",
+	},
+	{
+		"nf-md-code_less_than_or_equal",
+		"󰅯",
+	},
+	{
+		"nf-md-code_not_equal",
+		"󰅰",
+	},
+	{
+		"nf-md-code_not_equal_variant",
+		"󰅱",
+	},
+	{
+		"nf-md-code_parentheses",
+		"󰅲",
+	},
+	{
+		"nf-md-code_parentheses_box",
+		"󱃗",
+	},
+	{
+		"nf-md-code_string",
+		"󰅳",
+	},
+	{
+		"nf-md-code_tags",
+		"󰅴",
+	},
+	{
+		"nf-md-code_tags_check",
+		"󰚔",
+	},
+	{
+		"nf-md-codepen",
+		"󰅵",
+	},
+	{
+		"nf-md-coffee",
+		"󰅶",
+	},
+	{
+		"nf-md-coffee_maker",
+		"󱂟",
+	},
+	{
+		"nf-md-coffee_maker_check",
+		"󱤱",
+	},
+	{
+		"nf-md-coffee_maker_check_outline",
+		"󱤲",
+	},
+	{
+		"nf-md-coffee_maker_outline",
+		"󱠛",
+	},
+	{
+		"nf-md-coffee_off",
+		"󰾪",
+	},
+	{
+		"nf-md-coffee_off_outline",
+		"󰾫",
+	},
+	{
+		"nf-md-coffee_outline",
+		"󰛊",
+	},
+	{
+		"nf-md-coffee_to_go",
+		"󰅷",
+	},
+	{
+		"nf-md-coffee_to_go_outline",
+		"󱌎",
+	},
+	{
+		"nf-md-coffin",
+		"󰭿",
+	},
+	{
+		"nf-md-cog",
+		"󰒓",
+	},
+	{
+		"nf-md-cog_box",
+		"󰒔",
+	},
+	{
+		"nf-md-cog_clockwise",
+		"󱇝",
+	},
+	{
+		"nf-md-cog_counterclockwise",
+		"󱇞",
+	},
+	{
+		"nf-md-cog_off",
+		"󱏎",
+	},
+	{
+		"nf-md-cog_off_outline",
+		"󱏏",
+	},
+	{
+		"nf-md-cog_outline",
+		"󰢻",
+	},
+	{
+		"nf-md-cog_pause",
+		"󱤳",
+	},
+	{
+		"nf-md-cog_pause_outline",
+		"󱤴",
+	},
+	{
+		"nf-md-cog_play",
+		"󱤵",
+	},
+	{
+		"nf-md-cog_play_outline",
+		"󱤶",
+	},
+	{
+		"nf-md-cog_refresh",
+		"󱑞",
+	},
+	{
+		"nf-md-cog_refresh_outline",
+		"󱑟",
+	},
+	{
+		"nf-md-cog_stop",
+		"󱤷",
+	},
+	{
+		"nf-md-cog_stop_outline",
+		"󱤸",
+	},
+	{
+		"nf-md-cog_sync",
+		"󱑠",
+	},
+	{
+		"nf-md-cog_sync_outline",
+		"󱑡",
+	},
+	{
+		"nf-md-cog_transfer",
+		"󱁛",
+	},
+	{
+		"nf-md-cog_transfer_outline",
+		"󱁜",
+	},
+	{
+		"nf-md-cogs",
+		"󰣖",
+	},
+	{
+		"nf-md-collage",
+		"󰙀",
+	},
+	{
+		"nf-md-collapse_all",
+		"󰪦",
+	},
+	{
+		"nf-md-collapse_all_outline",
+		"󰪧",
+	},
+	{
+		"nf-md-color_helper",
+		"󰅹",
+	},
+	{
+		"nf-md-comma",
+		"󰸣",
+	},
+	{
+		"nf-md-comma_box",
+		"󰸫",
+	},
+	{
+		"nf-md-comma_box_outline",
+		"󰸤",
+	},
+	{
+		"nf-md-comma_circle",
+		"󰸥",
+	},
+	{
+		"nf-md-comma_circle_outline",
+		"󰸦",
+	},
+	{
+		"nf-md-comment",
+		"󰅺",
+	},
+	{
+		"nf-md-comment_account",
+		"󰅻",
+	},
+	{
+		"nf-md-comment_account_outline",
+		"󰅼",
+	},
+	{
+		"nf-md-comment_alert",
+		"󰅽",
+	},
+	{
+		"nf-md-comment_alert_outline",
+		"󰅾",
+	},
+	{
+		"nf-md-comment_arrow_left",
+		"󰧡",
+	},
+	{
+		"nf-md-comment_arrow_left_outline",
+		"󰧢",
+	},
+	{
+		"nf-md-comment_arrow_right",
+		"󰧣",
+	},
+	{
+		"nf-md-comment_arrow_right_outline",
+		"󰧤",
+	},
+	{
+		"nf-md-comment_bookmark",
+		"󱖮",
+	},
+	{
+		"nf-md-comment_bookmark_outline",
+		"󱖯",
+	},
+	{
+		"nf-md-comment_check",
+		"󰅿",
+	},
+	{
+		"nf-md-comment_check_outline",
+		"󰆀",
+	},
+	{
+		"nf-md-comment_edit",
+		"󱆿",
+	},
+	{
+		"nf-md-comment_edit_outline",
+		"󱋄",
+	},
+	{
+		"nf-md-comment_eye",
+		"󰨺",
+	},
+	{
+		"nf-md-comment_eye_outline",
+		"󰨻",
+	},
+	{
+		"nf-md-comment_flash",
+		"󱖰",
+	},
+	{
+		"nf-md-comment_flash_outline",
+		"󱖱",
+	},
+	{
+		"nf-md-comment_minus",
+		"󱗟",
+	},
+	{
+		"nf-md-comment_minus_outline",
+		"󱗠",
+	},
+	{
+		"nf-md-comment_multiple",
+		"󰡟",
+	},
+	{
+		"nf-md-comment_multiple_outline",
+		"󰆁",
+	},
+	{
+		"nf-md-comment_off",
+		"󱗡",
+	},
+	{
+		"nf-md-comment_off_outline",
+		"󱗢",
+	},
+	{
+		"nf-md-comment_outline",
+		"󰆂",
+	},
+	{
+		"nf-md-comment_plus",
+		"󰧥",
+	},
+	{
+		"nf-md-comment_plus_outline",
+		"󰆃",
+	},
+	{
+		"nf-md-comment_processing",
+		"󰆄",
+	},
+	{
+		"nf-md-comment_processing_outline",
+		"󰆅",
+	},
+	{
+		"nf-md-comment_question",
+		"󰠗",
+	},
+	{
+		"nf-md-comment_question_outline",
+		"󰆆",
+	},
+	{
+		"nf-md-comment_quote",
+		"󱀡",
+	},
+	{
+		"nf-md-comment_quote_outline",
+		"󱀢",
+	},
+	{
+		"nf-md-comment_remove",
+		"󰗞",
+	},
+	{
+		"nf-md-comment_remove_outline",
+		"󰆇",
+	},
+	{
+		"nf-md-comment_search",
+		"󰨼",
+	},
+	{
+		"nf-md-comment_search_outline",
+		"󰨽",
+	},
+	{
+		"nf-md-comment_text",
+		"󰆈",
+	},
+	{
+		"nf-md-comment_text_multiple",
+		"󰡠",
+	},
+	{
+		"nf-md-comment_text_multiple_outline",
+		"󰡡",
+	},
+	{
+		"nf-md-comment_text_outline",
+		"󰆉",
+	},
+	{
+		"nf-md-compare",
+		"󰆊",
+	},
+	{
+		"nf-md-compare_horizontal",
+		"󱒒",
+	},
+	{
+		"nf-md-compare_remove",
+		"󱢳",
+	},
+	{
+		"nf-md-compare_vertical",
+		"󱒓",
+	},
+	{
+		"nf-md-compass",
+		"󰆋",
+	},
+	{
+		"nf-md-compass_off",
+		"󰮀",
+	},
+	{
+		"nf-md-compass_off_outline",
+		"󰮁",
+	},
+	{
+		"nf-md-compass_outline",
+		"󰆌",
+	},
+	{
+		"nf-md-compass_rose",
+		"󱎂",
+	},
+	{
+		"nf-md-compost",
+		"󱨸",
+	},
+	{
+		"nf-md-cone",
+		"󱥌",
+	},
+	{
+		"nf-md-cone_off",
+		"󱥍",
+	},
+	{
+		"nf-md-connection",
+		"󱘖",
+	},
+	{
+		"nf-md-console",
+		"󰆍",
+	},
+	{
+		"nf-md-console_line",
+		"󰞷",
+	},
+	{
+		"nf-md-console_network",
+		"󰢩",
+	},
+	{
+		"nf-md-console_network_outline",
+		"󰱠",
+	},
+	{
+		"nf-md-consolidate",
+		"󱃘",
+	},
+	{
+		"nf-md-contactless_payment",
+		"󰵪",
+	},
+	{
+		"nf-md-contactless_payment_circle",
+		"󰌡",
+	},
+	{
+		"nf-md-contactless_payment_circle_outline",
+		"󰐈",
+	},
+	{
+		"nf-md-contacts",
+		"󰛋",
+	},
+	{
+		"nf-md-contacts_outline",
+		"󰖸",
+	},
+	{
+		"nf-md-contain",
+		"󰨾",
+	},
+	{
+		"nf-md-contain_end",
+		"󰨿",
+	},
+	{
+		"nf-md-contain_start",
+		"󰩀",
+	},
+	{
+		"nf-md-content_copy",
+		"󰆏",
+	},
+	{
+		"nf-md-content_cut",
+		"󰆐",
+	},
+	{
+		"nf-md-content_duplicate",
+		"󰆑",
+	},
+	{
+		"nf-md-content_paste",
+		"󰆒",
+	},
+	{
+		"nf-md-content_save",
+		"󰆓",
+	},
+	{
+		"nf-md-content_save_alert",
+		"󰽂",
+	},
+	{
+		"nf-md-content_save_alert_outline",
+		"󰽃",
+	},
+	{
+		"nf-md-content_save_all",
+		"󰆔",
+	},
+	{
+		"nf-md-content_save_all_outline",
+		"󰽄",
+	},
+	{
+		"nf-md-content_save_check",
+		"󱣪",
+	},
+	{
+		"nf-md-content_save_check_outline",
+		"󱣫",
+	},
+	{
+		"nf-md-content_save_cog",
+		"󱑛",
+	},
+	{
+		"nf-md-content_save_cog_outline",
+		"󱑜",
+	},
+	{
+		"nf-md-content_save_edit",
+		"󰳻",
+	},
+	{
+		"nf-md-content_save_edit_outline",
+		"󰳼",
+	},
+	{
+		"nf-md-content_save_move",
+		"󰸧",
+	},
+	{
+		"nf-md-content_save_move_outline",
+		"󰸨",
+	},
+	{
+		"nf-md-content_save_off",
+		"󱙃",
+	},
+	{
+		"nf-md-content_save_off_outline",
+		"󱙄",
+	},
+	{
+		"nf-md-content_save_outline",
+		"󰠘",
+	},
+	{
+		"nf-md-content_save_settings",
+		"󰘛",
+	},
+	{
+		"nf-md-content_save_settings_outline",
+		"󰬮",
+	},
+	{
+		"nf-md-contrast",
+		"󰆕",
+	},
+	{
+		"nf-md-contrast_box",
+		"󰆖",
+	},
+	{
+		"nf-md-contrast_circle",
+		"󰆗",
+	},
+	{
+		"nf-md-controller_classic",
+		"󰮂",
+	},
+	{
+		"nf-md-controller_classic_outline",
+		"󰮃",
+	},
+	{
+		"nf-md-cookie",
+		"󰆘",
+	},
+	{
+		"nf-md-cookie_alert",
+		"󱛐",
+	},
+	{
+		"nf-md-cookie_alert_outline",
+		"󱛑",
+	},
+	{
+		"nf-md-cookie_check",
+		"󱛒",
+	},
+	{
+		"nf-md-cookie_check_outline",
+		"󱛓",
+	},
+	{
+		"nf-md-cookie_clock",
+		"󱛤",
+	},
+	{
+		"nf-md-cookie_clock_outline",
+		"󱛥",
+	},
+	{
+		"nf-md-cookie_cog",
+		"󱛔",
+	},
+	{
+		"nf-md-cookie_cog_outline",
+		"󱛕",
+	},
+	{
+		"nf-md-cookie_edit",
+		"󱛦",
+	},
+	{
+		"nf-md-cookie_edit_outline",
+		"󱛧",
+	},
+	{
+		"nf-md-cookie_lock",
+		"󱛨",
+	},
+	{
+		"nf-md-cookie_lock_outline",
+		"󱛩",
+	},
+	{
+		"nf-md-cookie_minus",
+		"󱛚",
+	},
+	{
+		"nf-md-cookie_minus_outline",
+		"󱛛",
+	},
+	{
+		"nf-md-cookie_off",
+		"󱛪",
+	},
+	{
+		"nf-md-cookie_off_outline",
+		"󱛫",
+	},
+	{
+		"nf-md-cookie_outline",
+		"󱛞",
+	},
+	{
+		"nf-md-cookie_plus",
+		"󱛖",
+	},
+	{
+		"nf-md-cookie_plus_outline",
+		"󱛗",
+	},
+	{
+		"nf-md-cookie_refresh",
+		"󱛬",
+	},
+	{
+		"nf-md-cookie_refresh_outline",
+		"󱛭",
+	},
+	{
+		"nf-md-cookie_remove",
+		"󱛘",
+	},
+	{
+		"nf-md-cookie_remove_outline",
+		"󱛙",
+	},
+	{
+		"nf-md-cookie_settings",
+		"󱛜",
+	},
+	{
+		"nf-md-cookie_settings_outline",
+		"󱛝",
+	},
+	{
+		"nf-md-coolant_temperature",
+		"󰏈",
+	},
+	{
+		"nf-md-copyleft",
+		"󱤹",
+	},
+	{
+		"nf-md-copyright",
+		"󰗦",
+	},
+	{
+		"nf-md-cordova",
+		"󰥘",
+	},
+	{
+		"nf-md-corn",
+		"󰞸",
+	},
+	{
+		"nf-md-corn_off",
+		"󱏯",
+	},
+	{
+		"nf-md-cosine_wave",
+		"󱑹",
+	},
+	{
+		"nf-md-counter",
+		"󰆙",
+	},
+	{
+		"nf-md-countertop",
+		"󱠜",
+	},
+	{
+		"nf-md-countertop_outline",
+		"󱠝",
+	},
+	{
+		"nf-md-cow",
+		"󰆚",
+	},
+	{
+		"nf-md-cow_off",
+		"󱣼",
+	},
+	{
+		"nf-md-cpu_32_bit",
+		"󰻟",
+	},
+	{
+		"nf-md-cpu_64_bit",
+		"󰻠",
+	},
+	{
+		"nf-md-cradle",
+		"󱦋",
+	},
+	{
+		"nf-md-cradle_outline",
+		"󱦑",
+	},
+	{
+		"nf-md-crane",
+		"󰡢",
+	},
+	{
+		"nf-md-creation",
+		"󰙴",
+	},
+	{
+		"nf-md-creative_commons",
+		"󰵫",
+	},
+	{
+		"nf-md-credit_card",
+		"󰿯",
+	},
+	{
+		"nf-md-credit_card_check",
+		"󱏐",
+	},
+	{
+		"nf-md-credit_card_check_outline",
+		"󱏑",
+	},
+	{
+		"nf-md-credit_card_chip",
+		"󱤏",
+	},
+	{
+		"nf-md-credit_card_chip_outline",
+		"󱤐",
+	},
+	{
+		"nf-md-credit_card_clock",
+		"󰻡",
+	},
+	{
+		"nf-md-credit_card_clock_outline",
+		"󰻢",
+	},
+	{
+		"nf-md-credit_card_edit",
+		"󱟗",
+	},
+	{
+		"nf-md-credit_card_edit_outline",
+		"󱟘",
+	},
+	{
+		"nf-md-credit_card_fast",
+		"󱤑",
+	},
+	{
+		"nf-md-credit_card_fast_outline",
+		"󱤒",
+	},
+	{
+		"nf-md-credit_card_lock",
+		"󱣧",
+	},
+	{
+		"nf-md-credit_card_lock_outline",
+		"󱣨",
+	},
+	{
+		"nf-md-credit_card_marker",
+		"󰚨",
+	},
+	{
+		"nf-md-credit_card_marker_outline",
+		"󰶾",
+	},
+	{
+		"nf-md-credit_card_minus",
+		"󰾬",
+	},
+	{
+		"nf-md-credit_card_minus_outline",
+		"󰾭",
+	},
+	{
+		"nf-md-credit_card_multiple",
+		"󰿰",
+	},
+	{
+		"nf-md-credit_card_multiple_outline",
+		"󰆜",
+	},
+	{
+		"nf-md-credit_card_off",
+		"󰿱",
+	},
+	{
+		"nf-md-credit_card_off_outline",
+		"󰗤",
+	},
+	{
+		"nf-md-credit_card_outline",
+		"󰆛",
+	},
+	{
+		"nf-md-credit_card_plus",
+		"󰿲",
+	},
+	{
+		"nf-md-credit_card_plus_outline",
+		"󰙶",
+	},
+	{
+		"nf-md-credit_card_refresh",
+		"󱙅",
+	},
+	{
+		"nf-md-credit_card_refresh_outline",
+		"󱙆",
+	},
+	{
+		"nf-md-credit_card_refund",
+		"󰿳",
+	},
+	{
+		"nf-md-credit_card_refund_outline",
+		"󰪨",
+	},
+	{
+		"nf-md-credit_card_remove",
+		"󰾮",
+	},
+	{
+		"nf-md-credit_card_remove_outline",
+		"󰾯",
+	},
+	{
+		"nf-md-credit_card_scan",
+		"󰿴",
+	},
+	{
+		"nf-md-credit_card_scan_outline",
+		"󰆝",
+	},
+	{
+		"nf-md-credit_card_search",
+		"󱙇",
+	},
+	{
+		"nf-md-credit_card_search_outline",
+		"󱙈",
+	},
+	{
+		"nf-md-credit_card_settings",
+		"󰿵",
+	},
+	{
+		"nf-md-credit_card_settings_outline",
+		"󰣗",
+	},
+	{
+		"nf-md-credit_card_sync",
+		"󱙉",
+	},
+	{
+		"nf-md-credit_card_sync_outline",
+		"󱙊",
+	},
+	{
+		"nf-md-credit_card_wireless",
+		"󰠂",
+	},
+	{
+		"nf-md-credit_card_wireless_off",
+		"󰕺",
+	},
+	{
+		"nf-md-credit_card_wireless_off_outline",
+		"󰕻",
+	},
+	{
+		"nf-md-credit_card_wireless_outline",
+		"󰵬",
+	},
+	{
+		"nf-md-cricket",
+		"󰵭",
+	},
+	{
+		"nf-md-crop",
+		"󰆞",
+	},
+	{
+		"nf-md-crop_free",
+		"󰆟",
+	},
+	{
+		"nf-md-crop_landscape",
+		"󰆠",
+	},
+	{
+		"nf-md-crop_portrait",
+		"󰆡",
+	},
+	{
+		"nf-md-crop_rotate",
+		"󰚖",
+	},
+	{
+		"nf-md-crop_square",
+		"󰆢",
+	},
+	{
+		"nf-md-cross",
+		"󰥓",
+	},
+	{
+		"nf-md-cross_bolnisi",
+		"󰳭",
+	},
+	{
+		"nf-md-cross_celtic",
+		"󰳵",
+	},
+	{
+		"nf-md-cross_outline",
+		"󰳶",
+	},
+	{
+		"nf-md-crosshairs",
+		"󰆣",
+	},
+	{
+		"nf-md-crosshairs_gps",
+		"󰆤",
+	},
+	{
+		"nf-md-crosshairs_off",
+		"󰽅",
+	},
+	{
+		"nf-md-crosshairs_question",
+		"󱄶",
+	},
+	{
+		"nf-md-crowd",
+		"󱥵",
+	},
+	{
+		"nf-md-crown",
+		"󰆥",
+	},
+	{
+		"nf-md-crown_circle",
+		"󱟜",
+	},
+	{
+		"nf-md-crown_circle_outline",
+		"󱟝",
+	},
+	{
+		"nf-md-crown_outline",
+		"󱇐",
+	},
+	{
+		"nf-md-cryengine",
+		"󰥙",
+	},
+	{
+		"nf-md-crystal_ball",
+		"󰬯",
+	},
+	{
+		"nf-md-cube",
+		"󰆦",
+	},
+	{
+		"nf-md-cube_off",
+		"󱐜",
+	},
+	{
+		"nf-md-cube_off_outline",
+		"󱐝",
+	},
+	{
+		"nf-md-cube_outline",
+		"󰆧",
+	},
+	{
+		"nf-md-cube_scan",
+		"󰮄",
+	},
+	{
+		"nf-md-cube_send",
+		"󰆨",
+	},
+	{
+		"nf-md-cube_unfolded",
+		"󰆩",
+	},
+	{
+		"nf-md-cup",
+		"󰆪",
+	},
+	{
+		"nf-md-cup_off",
+		"󰗥",
+	},
+	{
+		"nf-md-cup_off_outline",
+		"󱍽",
+	},
+	{
+		"nf-md-cup_outline",
+		"󱌏",
+	},
+	{
+		"nf-md-cup_water",
+		"󰆫",
+	},
+	{
+		"nf-md-cupboard",
+		"󰽆",
+	},
+	{
+		"nf-md-cupboard_outline",
+		"󰽇",
+	},
+	{
+		"nf-md-cupcake",
+		"󰥚",
+	},
+	{
+		"nf-md-curling",
+		"󰡣",
+	},
+	{
+		"nf-md-currency_bdt",
+		"󰡤",
+	},
+	{
+		"nf-md-currency_brl",
+		"󰮅",
+	},
+	{
+		"nf-md-currency_btc",
+		"󰆬",
+	},
+	{
+		"nf-md-currency_cny",
+		"󰞺",
+	},
+	{
+		"nf-md-currency_eth",
+		"󰞻",
+	},
+	{
+		"nf-md-currency_eur",
+		"󰆭",
+	},
+	{
+		"nf-md-currency_eur_off",
+		"󱌕",
+	},
+	{
+		"nf-md-currency_fra",
+		"󱨹",
+	},
+	{
+		"nf-md-currency_gbp",
+		"󰆮",
+	},
+	{
+		"nf-md-currency_ils",
+		"󰱡",
+	},
+	{
+		"nf-md-currency_inr",
+		"󰆯",
+	},
+	{
+		"nf-md-currency_jpy",
+		"󰞼",
+	},
+	{
+		"nf-md-currency_krw",
+		"󰞽",
+	},
+	{
+		"nf-md-currency_kzt",
+		"󰡥",
+	},
+	{
+		"nf-md-currency_mnt",
+		"󱔒",
+	},
+	{
+		"nf-md-currency_ngn",
+		"󰆰",
+	},
+	{
+		"nf-md-currency_php",
+		"󰧦",
+	},
+	{
+		"nf-md-currency_rial",
+		"󰺜",
+	},
+	{
+		"nf-md-currency_rub",
+		"󰆱",
+	},
+	{
+		"nf-md-currency_rupee",
+		"󱥶",
+	},
+	{
+		"nf-md-currency_sign",
+		"󰞾",
+	},
+	{
+		"nf-md-currency_try",
+		"󰆲",
+	},
+	{
+		"nf-md-currency_twd",
+		"󰞿",
+	},
+	{
+		"nf-md-currency_usd",
+		"󰇁",
+	},
+	{
+		"nf-md-currency_usd_off",
+		"󰙺",
+	},
+	{
+		"nf-md-current_ac",
+		"󱒀",
+	},
+	{
+		"nf-md-current_dc",
+		"󰥜",
+	},
+	{
+		"nf-md-cursor_default",
+		"󰇀",
+	},
+	{
+		"nf-md-cursor_default_click",
+		"󰳽",
+	},
+	{
+		"nf-md-cursor_default_click_outline",
+		"󰳾",
+	},
+	{
+		"nf-md-cursor_default_gesture",
+		"󱄧",
+	},
+	{
+		"nf-md-cursor_default_gesture_outline",
+		"󱄨",
+	},
+	{
+		"nf-md-cursor_default_outline",
+		"󰆿",
+	},
+	{
+		"nf-md-cursor_move",
+		"󰆾",
+	},
+	{
+		"nf-md-cursor_pointer",
+		"󰆽",
+	},
+	{
+		"nf-md-cursor_text",
+		"󰗧",
+	},
+	{
+		"nf-md-curtains",
+		"󱡆",
+	},
+	{
+		"nf-md-curtains_closed",
+		"󱡇",
+	},
+	{
+		"nf-md-cylinder",
+		"󱥎",
+	},
+	{
+		"nf-md-cylinder_off",
+		"󱥏",
+	},
+	{
+		"nf-md-dance_ballroom",
+		"󱗻",
+	},
+	{
+		"nf-md-dance_pole",
+		"󱕸",
+	},
+	{
+		"nf-md-data_matrix",
+		"󱔼",
+	},
+	{
+		"nf-md-data_matrix_edit",
+		"󱔽",
+	},
+	{
+		"nf-md-data_matrix_minus",
+		"󱔾",
+	},
+	{
+		"nf-md-data_matrix_plus",
+		"󱔿",
+	},
+	{
+		"nf-md-data_matrix_remove",
+		"󱕀",
+	},
+	{
+		"nf-md-data_matrix_scan",
+		"󱕁",
+	},
+	{
+		"nf-md-database",
+		"󰆼",
+	},
+	{
+		"nf-md-database_alert",
+		"󱘺",
+	},
+	{
+		"nf-md-database_alert_outline",
+		"󱘤",
+	},
+	{
+		"nf-md-database_arrow_down",
+		"󱘻",
+	},
+	{
+		"nf-md-database_arrow_down_outline",
+		"󱘥",
+	},
+	{
+		"nf-md-database_arrow_left",
+		"󱘼",
+	},
+	{
+		"nf-md-database_arrow_left_outline",
+		"󱘦",
+	},
+	{
+		"nf-md-database_arrow_right",
+		"󱘽",
+	},
+	{
+		"nf-md-database_arrow_right_outline",
+		"󱘧",
+	},
+	{
+		"nf-md-database_arrow_up",
+		"󱘾",
+	},
+	{
+		"nf-md-database_arrow_up_outline",
+		"󱘨",
+	},
+	{
+		"nf-md-database_check",
+		"󰪩",
+	},
+	{
+		"nf-md-database_check_outline",
+		"󱘩",
+	},
+	{
+		"nf-md-database_clock",
+		"󱘿",
+	},
+	{
+		"nf-md-database_clock_outline",
+		"󱘪",
+	},
+	{
+		"nf-md-database_cog",
+		"󱙋",
+	},
+	{
+		"nf-md-database_cog_outline",
+		"󱙌",
+	},
+	{
+		"nf-md-database_edit",
+		"󰮆",
+	},
+	{
+		"nf-md-database_edit_outline",
+		"󱘫",
+	},
+	{
+		"nf-md-database_export",
+		"󰥞",
+	},
+	{
+		"nf-md-database_export_outline",
+		"󱘬",
+	},
+	{
+		"nf-md-database_eye",
+		"󱤟",
+	},
+	{
+		"nf-md-database_eye_off",
+		"󱤠",
+	},
+	{
+		"nf-md-database_eye_off_outline",
+		"󱤡",
+	},
+	{
+		"nf-md-database_eye_outline",
+		"󱤢",
+	},
+	{
+		"nf-md-database_import",
+		"󰥝",
+	},
+	{
+		"nf-md-database_import_outline",
+		"󱘭",
+	},
+	{
+		"nf-md-database_lock",
+		"󰪪",
+	},
+	{
+		"nf-md-database_lock_outline",
+		"󱘮",
+	},
+	{
+		"nf-md-database_marker",
+		"󱋶",
+	},
+	{
+		"nf-md-database_marker_outline",
+		"󱘯",
+	},
+	{
+		"nf-md-database_minus",
+		"󰆻",
+	},
+	{
+		"nf-md-database_minus_outline",
+		"󱘰",
+	},
+	{
+		"nf-md-database_off",
+		"󱙀",
+	},
+	{
+		"nf-md-database_off_outline",
+		"󱘱",
+	},
+	{
+		"nf-md-database_outline",
+		"󱘲",
+	},
+	{
+		"nf-md-database_plus",
+		"󰆺",
+	},
+	{
+		"nf-md-database_plus_outline",
+		"󱘳",
+	},
+	{
+		"nf-md-database_refresh",
+		"󰗂",
+	},
+	{
+		"nf-md-database_refresh_outline",
+		"󱘴",
+	},
+	{
+		"nf-md-database_remove",
+		"󰴀",
+	},
+	{
+		"nf-md-database_remove_outline",
+		"󱘵",
+	},
+	{
+		"nf-md-database_search",
+		"󰡦",
+	},
+	{
+		"nf-md-database_search_outline",
+		"󱘶",
+	},
+	{
+		"nf-md-database_settings",
+		"󰴁",
+	},
+	{
+		"nf-md-database_settings_outline",
+		"󱘷",
+	},
+	{
+		"nf-md-database_sync",
+		"󰳿",
+	},
+	{
+		"nf-md-database_sync_outline",
+		"󱘸",
+	},
+	{
+		"nf-md-death_star",
+		"󰣘",
+	},
+	{
+		"nf-md-death_star_variant",
+		"󰣙",
+	},
+	{
+		"nf-md-deathly_hallows",
+		"󰮇",
+	},
+	{
+		"nf-md-debian",
+		"󰣚",
+	},
+	{
+		"nf-md-debug_step_into",
+		"󰆹",
+	},
+	{
+		"nf-md-debug_step_out",
+		"󰆸",
+	},
+	{
+		"nf-md-debug_step_over",
+		"󰆷",
+	},
+	{
+		"nf-md-decagram",
+		"󰝬",
+	},
+	{
+		"nf-md-decagram_outline",
+		"󰝭",
+	},
+	{
+		"nf-md-decimal",
+		"󱂡",
+	},
+	{
+		"nf-md-decimal_comma",
+		"󱂢",
+	},
+	{
+		"nf-md-decimal_comma_decrease",
+		"󱂣",
+	},
+	{
+		"nf-md-decimal_comma_increase",
+		"󱂤",
+	},
+	{
+		"nf-md-decimal_decrease",
+		"󰆶",
+	},
+	{
+		"nf-md-decimal_increase",
+		"󰆵",
+	},
+	{
+		"nf-md-delete",
+		"󰆴",
+	},
+	{
+		"nf-md-delete_alert",
+		"󱂥",
+	},
+	{
+		"nf-md-delete_alert_outline",
+		"󱂦",
+	},
+	{
+		"nf-md-delete_circle",
+		"󰚃",
+	},
+	{
+		"nf-md-delete_circle_outline",
+		"󰮈",
+	},
+	{
+		"nf-md-delete_clock",
+		"󱕖",
+	},
+	{
+		"nf-md-delete_clock_outline",
+		"󱕗",
+	},
+	{
+		"nf-md-delete_empty",
+		"󰛌",
+	},
+	{
+		"nf-md-delete_empty_outline",
+		"󰺝",
+	},
+	{
+		"nf-md-delete_forever",
+		"󰗨",
+	},
+	{
+		"nf-md-delete_forever_outline",
+		"󰮉",
+	},
+	{
+		"nf-md-delete_off",
+		"󱂧",
+	},
+	{
+		"nf-md-delete_off_outline",
+		"󱂨",
+	},
+	{
+		"nf-md-delete_outline",
+		"󰧧",
+	},
+	{
+		"nf-md-delete_restore",
+		"󰠙",
+	},
+	{
+		"nf-md-delete_sweep",
+		"󰗩",
+	},
+	{
+		"nf-md-delete_sweep_outline",
+		"󰱢",
+	},
+	{
+		"nf-md-delete_variant",
+		"󰆳",
+	},
+	{
+		"nf-md-delta",
+		"󰇂",
+	},
+	{
+		"nf-md-desk",
+		"󱈹",
+	},
+	{
+		"nf-md-desk_lamp",
+		"󰥟",
+	},
+	{
+		"nf-md-deskphone",
+		"󰇃",
+	},
+	{
+		"nf-md-desktop_classic",
+		"󰟀",
+	},
+	{
+		"nf-md-desktop_mac",
+		"󰇄",
+	},
+	{
+		"nf-md-desktop_mac_dashboard",
+		"󰧨",
+	},
+	{
+		"nf-md-desktop_tower",
+		"󰇅",
+	},
+	{
+		"nf-md-desktop_tower_monitor",
+		"󰪫",
+	},
+	{
+		"nf-md-details",
+		"󰇆",
+	},
+	{
+		"nf-md-dev_to",
+		"󰵮",
+	},
+	{
+		"nf-md-developer_board",
+		"󰚗",
+	},
+	{
+		"nf-md-deviantart",
+		"󰇇",
+	},
+	{
+		"nf-md-devices",
+		"󰾰",
+	},
+	{
+		"nf-md-dharmachakra",
+		"󰥋",
+	},
+	{
+		"nf-md-diabetes",
+		"󱄦",
+	},
+	{
+		"nf-md-dialpad",
+		"󰘜",
+	},
+	{
+		"nf-md-diameter",
+		"󰱣",
+	},
+	{
+		"nf-md-diameter_outline",
+		"󰱤",
+	},
+	{
+		"nf-md-diameter_variant",
+		"󰱥",
+	},
+	{
+		"nf-md-diamond",
+		"󰮊",
+	},
+	{
+		"nf-md-diamond_outline",
+		"󰮋",
+	},
+	{
+		"nf-md-diamond_stone",
+		"󰇈",
+	},
+	{
+		"nf-md-dice_1",
+		"󰇊",
+	},
+	{
+		"nf-md-dice_1_outline",
+		"󱅊",
+	},
+	{
+		"nf-md-dice_2",
+		"󰇋",
+	},
+	{
+		"nf-md-dice_2_outline",
+		"󱅋",
+	},
+	{
+		"nf-md-dice_3",
+		"󰇌",
+	},
+	{
+		"nf-md-dice_3_outline",
+		"󱅌",
+	},
+	{
+		"nf-md-dice_4",
+		"󰇍",
+	},
+	{
+		"nf-md-dice_4_outline",
+		"󱅍",
+	},
+	{
+		"nf-md-dice_5",
+		"󰇎",
+	},
+	{
+		"nf-md-dice_5_outline",
+		"󱅎",
+	},
+	{
+		"nf-md-dice_6",
+		"󰇏",
+	},
+	{
+		"nf-md-dice_6_outline",
+		"󱅏",
+	},
+	{
+		"nf-md-dice_d10",
+		"󱅓",
+	},
+	{
+		"nf-md-dice_d10_outline",
+		"󰝯",
+	},
+	{
+		"nf-md-dice_d12",
+		"󱅔",
+	},
+	{
+		"nf-md-dice_d12_outline",
+		"󰡧",
+	},
+	{
+		"nf-md-dice_d20",
+		"󱅕",
+	},
+	{
+		"nf-md-dice_d20_outline",
+		"󰗪",
+	},
+	{
+		"nf-md-dice_d4",
+		"󱅐",
+	},
+	{
+		"nf-md-dice_d4_outline",
+		"󰗫",
+	},
+	{
+		"nf-md-dice_d6",
+		"󱅑",
+	},
+	{
+		"nf-md-dice_d6_outline",
+		"󰗭",
+	},
+	{
+		"nf-md-dice_d8",
+		"󱅒",
+	},
+	{
+		"nf-md-dice_d8_outline",
+		"󰗬",
+	},
+	{
+		"nf-md-dice_multiple",
+		"󰝮",
+	},
+	{
+		"nf-md-dice_multiple_outline",
+		"󱅖",
+	},
+	{
+		"nf-md-digital_ocean",
+		"󱈷",
+	},
+	{
+		"nf-md-dip_switch",
+		"󰟁",
+	},
+	{
+		"nf-md-directions",
+		"󰇐",
+	},
+	{
+		"nf-md-directions_fork",
+		"󰙁",
+	},
+	{
+		"nf-md-disc",
+		"󰗮",
+	},
+	{
+		"nf-md-disc_alert",
+		"󰇑",
+	},
+	{
+		"nf-md-disc_player",
+		"󰥠",
+	},
+	{
+		"nf-md-discord",
+		"󰙯",
+	},
+	{
+		"nf-md-dishwasher",
+		"󰪬",
+	},
+	{
+		"nf-md-dishwasher_alert",
+		"󱆸",
+	},
+	{
+		"nf-md-dishwasher_off",
+		"󱆹",
+	},
+	{
+		"nf-md-disqus",
+		"󰇒",
+	},
+	{
+		"nf-md-distribute_horizontal_center",
+		"󱇉",
+	},
+	{
+		"nf-md-distribute_horizontal_left",
+		"󱇈",
+	},
+	{
+		"nf-md-distribute_horizontal_right",
+		"󱇊",
+	},
+	{
+		"nf-md-distribute_vertical_bottom",
+		"󱇋",
+	},
+	{
+		"nf-md-distribute_vertical_center",
+		"󱇌",
+	},
+	{
+		"nf-md-distribute_vertical_top",
+		"󱇍",
+	},
+	{
+		"nf-md-diversify",
+		"󱡷",
+	},
+	{
+		"nf-md-diving",
+		"󱥷",
+	},
+	{
+		"nf-md-diving_flippers",
+		"󰶿",
+	},
+	{
+		"nf-md-diving_helmet",
+		"󰷀",
+	},
+	{
+		"nf-md-diving_scuba",
+		"󰷁",
+	},
+	{
+		"nf-md-diving_scuba_flag",
+		"󰷂",
+	},
+	{
+		"nf-md-diving_scuba_tank",
+		"󰷃",
+	},
+	{
+		"nf-md-diving_scuba_tank_multiple",
+		"󰷄",
+	},
+	{
+		"nf-md-diving_snorkel",
+		"󰷅",
+	},
+	{
+		"nf-md-division",
+		"󰇔",
+	},
+	{
+		"nf-md-division_box",
+		"󰇕",
+	},
+	{
+		"nf-md-dlna",
+		"󰩁",
+	},
+	{
+		"nf-md-dna",
+		"󰚄",
+	},
+	{
+		"nf-md-dns",
+		"󰇖",
+	},
+	{
+		"nf-md-dns_outline",
+		"󰮌",
+	},
+	{
+		"nf-md-dock_bottom",
+		"󱂩",
+	},
+	{
+		"nf-md-dock_left",
+		"󱂪",
+	},
+	{
+		"nf-md-dock_right",
+		"󱂫",
+	},
+	{
+		"nf-md-dock_top",
+		"󱔓",
+	},
+	{
+		"nf-md-dock_window",
+		"󱂬",
+	},
+	{
+		"nf-md-docker",
+		"󰡨",
+	},
+	{
+		"nf-md-doctor",
+		"󰩂",
+	},
+	{
+		"nf-md-dog",
+		"󰩃",
+	},
+	{
+		"nf-md-dog_service",
+		"󰪭",
+	},
+	{
+		"nf-md-dog_side",
+		"󰩄",
+	},
+	{
+		"nf-md-dog_side_off",
+		"󱛮",
+	},
+	{
+		"nf-md-dolby",
+		"󰚳",
+	},
+	{
+		"nf-md-dolly",
+		"󰺞",
+	},
+	{
+		"nf-md-dolphin",
+		"󱢴",
+	},
+	{
+		"nf-md-domain",
+		"󰇗",
+	},
+	{
+		"nf-md-domain_off",
+		"󰵯",
+	},
+	{
+		"nf-md-domain_plus",
+		"󱂭",
+	},
+	{
+		"nf-md-domain_remove",
+		"󱂮",
+	},
+	{
+		"nf-md-dome_light",
+		"󱐞",
+	},
+	{
+		"nf-md-domino_mask",
+		"󱀣",
+	},
+	{
+		"nf-md-donkey",
+		"󰟂",
+	},
+	{
+		"nf-md-door",
+		"󰠚",
+	},
+	{
+		"nf-md-door_closed",
+		"󰠛",
+	},
+	{
+		"nf-md-door_closed_lock",
+		"󱂯",
+	},
+	{
+		"nf-md-door_open",
+		"󰠜",
+	},
+	{
+		"nf-md-door_sliding",
+		"󱠞",
+	},
+	{
+		"nf-md-door_sliding_lock",
+		"󱠟",
+	},
+	{
+		"nf-md-door_sliding_open",
+		"󱠠",
+	},
+	{
+		"nf-md-doorbell",
+		"󱋦",
+	},
+	{
+		"nf-md-doorbell_video",
+		"󰡩",
+	},
+	{
+		"nf-md-dot_net",
+		"󰪮",
+	},
+	{
+		"nf-md-dots_circle",
+		"󱥸",
+	},
+	{
+		"nf-md-dots_grid",
+		"󱗼",
+	},
+	{
+		"nf-md-dots_hexagon",
+		"󱗿",
+	},
+	{
+		"nf-md-dots_horizontal",
+		"󰇘",
+	},
+	{
+		"nf-md-dots_horizontal_circle",
+		"󰟃",
+	},
+	{
+		"nf-md-dots_horizontal_circle_outline",
+		"󰮍",
+	},
+	{
+		"nf-md-dots_square",
+		"󱗽",
+	},
+	{
+		"nf-md-dots_triangle",
+		"󱗾",
+	},
+	{
+		"nf-md-dots_vertical",
+		"󰇙",
+	},
+	{
+		"nf-md-dots_vertical_circle",
+		"󰟄",
+	},
+	{
+		"nf-md-dots_vertical_circle_outline",
+		"󰮎",
+	},
+	{
+		"nf-md-download",
+		"󰇚",
+	},
+	{
+		"nf-md-download_box",
+		"󱑢",
+	},
+	{
+		"nf-md-download_box_outline",
+		"󱑣",
+	},
+	{
+		"nf-md-download_circle",
+		"󱑤",
+	},
+	{
+		"nf-md-download_circle_outline",
+		"󱑥",
+	},
+	{
+		"nf-md-download_lock",
+		"󱌠",
+	},
+	{
+		"nf-md-download_lock_outline",
+		"󱌡",
+	},
+	{
+		"nf-md-download_multiple",
+		"󰧩",
+	},
+	{
+		"nf-md-download_network",
+		"󰛴",
+	},
+	{
+		"nf-md-download_network_outline",
+		"󰱦",
+	},
+	{
+		"nf-md-download_off",
+		"󱂰",
+	},
+	{
+		"nf-md-download_off_outline",
+		"󱂱",
+	},
+	{
+		"nf-md-download_outline",
+		"󰮏",
+	},
+	{
+		"nf-md-drag",
+		"󰇛",
+	},
+	{
+		"nf-md-drag_horizontal",
+		"󰇜",
+	},
+	{
+		"nf-md-drag_horizontal_variant",
+		"󱋰",
+	},
+	{
+		"nf-md-drag_variant",
+		"󰮐",
+	},
+	{
+		"nf-md-drag_vertical",
+		"󰇝",
+	},
+	{
+		"nf-md-drag_vertical_variant",
+		"󱋱",
+	},
+	{
+		"nf-md-drama_masks",
+		"󰴂",
+	},
+	{
+		"nf-md-draw",
+		"󰽉",
+	},
+	{
+		"nf-md-draw_pen",
+		"󱦹",
+	},
+	{
+		"nf-md-drawing",
+		"󰇞",
+	},
+	{
+		"nf-md-drawing_box",
+		"󰇟",
+	},
+	{
+		"nf-md-dresser",
+		"󰽊",
+	},
+	{
+		"nf-md-dresser_outline",
+		"󰽋",
+	},
+	{
+		"nf-md-drone",
+		"󰇢",
+	},
+	{
+		"nf-md-dropbox",
+		"󰇣",
+	},
+	{
+		"nf-md-drupal",
+		"󰇤",
+	},
+	{
+		"nf-md-duck",
+		"󰇥",
+	},
+	{
+		"nf-md-dumbbell",
+		"󰇦",
+	},
+	{
+		"nf-md-dump_truck",
+		"󰱧",
+	},
+	{
+		"nf-md-ear_hearing",
+		"󰟅",
+	},
+	{
+		"nf-md-ear_hearing_loop",
+		"󱫮",
+	},
+	{
+		"nf-md-ear_hearing_off",
+		"󰩅",
+	},
+	{
+		"nf-md-earbuds",
+		"󱡏",
+	},
+	{
+		"nf-md-earbuds_off",
+		"󱡐",
+	},
+	{
+		"nf-md-earbuds_off_outline",
+		"󱡑",
+	},
+	{
+		"nf-md-earbuds_outline",
+		"󱡒",
+	},
+	{
+		"nf-md-earth",
+		"󰇧",
+	},
+	{
+		"nf-md-earth_arrow_right",
+		"󱌑",
+	},
+	{
+		"nf-md-earth_box",
+		"󰛍",
+	},
+	{
+		"nf-md-earth_box_minus",
+		"󱐇",
+	},
+	{
+		"nf-md-earth_box_off",
+		"󰛎",
+	},
+	{
+		"nf-md-earth_box_plus",
+		"󱐆",
+	},
+	{
+		"nf-md-earth_box_remove",
+		"󱐈",
+	},
+	{
+		"nf-md-earth_minus",
+		"󱐄",
+	},
+	{
+		"nf-md-earth_off",
+		"󰇨",
+	},
+	{
+		"nf-md-earth_plus",
+		"󱐃",
+	},
+	{
+		"nf-md-earth_remove",
+		"󱐅",
+	},
+	{
+		"nf-md-egg",
+		"󰪯",
+	},
+	{
+		"nf-md-egg_easter",
+		"󰪰",
+	},
+	{
+		"nf-md-egg_fried",
+		"󱡊",
+	},
+	{
+		"nf-md-egg_off",
+		"󱏰",
+	},
+	{
+		"nf-md-egg_off_outline",
+		"󱏱",
+	},
+	{
+		"nf-md-egg_outline",
+		"󱏲",
+	},
+	{
+		"nf-md-eiffel_tower",
+		"󱕫",
+	},
+	{
+		"nf-md-eight_track",
+		"󰧪",
+	},
+	{
+		"nf-md-eject",
+		"󰇪",
+	},
+	{
+		"nf-md-eject_outline",
+		"󰮑",
+	},
+	{
+		"nf-md-electric_switch",
+		"󰺟",
+	},
+	{
+		"nf-md-electric_switch_closed",
+		"󱃙",
+	},
+	{
+		"nf-md-electron_framework",
+		"󱀤",
+	},
+	{
+		"nf-md-elephant",
+		"󰟆",
+	},
+	{
+		"nf-md-elevation_decline",
+		"󰇫",
+	},
+	{
+		"nf-md-elevation_rise",
+		"󰇬",
+	},
+	{
+		"nf-md-elevator",
+		"󰇭",
+	},
+	{
+		"nf-md-elevator_down",
+		"󱋂",
+	},
+	{
+		"nf-md-elevator_passenger",
+		"󱎁",
+	},
+	{
+		"nf-md-elevator_passenger_off",
+		"󱥹",
+	},
+	{
+		"nf-md-elevator_passenger_off_outline",
+		"󱥺",
+	},
+	{
+		"nf-md-elevator_passenger_outline",
+		"󱥻",
+	},
+	{
+		"nf-md-elevator_up",
+		"󱋁",
+	},
+	{
+		"nf-md-ellipse",
+		"󰺠",
+	},
+	{
+		"nf-md-ellipse_outline",
+		"󰺡",
+	},
+	{
+		"nf-md-email",
+		"󰇮",
+	},
+	{
+		"nf-md-email_alert",
+		"󰛏",
+	},
+	{
+		"nf-md-email_alert_outline",
+		"󰵂",
+	},
+	{
+		"nf-md-email_box",
+		"󰴃",
+	},
+	{
+		"nf-md-email_check",
+		"󰪱",
+	},
+	{
+		"nf-md-email_check_outline",
+		"󰪲",
+	},
+	{
+		"nf-md-email_edit",
+		"󰻣",
+	},
+	{
+		"nf-md-email_edit_outline",
+		"󰻤",
+	},
+	{
+		"nf-md-email_fast",
+		"󱡯",
+	},
+	{
+		"nf-md-email_fast_outline",
+		"󱡰",
+	},
+	{
+		"nf-md-email_lock",
+		"󰇱",
+	},
+	{
+		"nf-md-email_mark_as_unread",
+		"󰮒",
+	},
+	{
+		"nf-md-email_minus",
+		"󰻥",
+	},
+	{
+		"nf-md-email_minus_outline",
+		"󰻦",
+	},
+	{
+		"nf-md-email_multiple",
+		"󰻧",
+	},
+	{
+		"nf-md-email_multiple_outline",
+		"󰻨",
+	},
+	{
+		"nf-md-email_newsletter",
+		"󰾱",
+	},
+	{
+		"nf-md-email_off",
+		"󱏣",
+	},
+	{
+		"nf-md-email_off_outline",
+		"󱏤",
+	},
+	{
+		"nf-md-email_open",
+		"󰇯",
+	},
+	{
+		"nf-md-email_open_multiple",
+		"󰻩",
+	},
+	{
+		"nf-md-email_open_multiple_outline",
+		"󰻪",
+	},
+	{
+		"nf-md-email_open_outline",
+		"󰗯",
+	},
+	{
+		"nf-md-email_outline",
+		"󰇰",
+	},
+	{
+		"nf-md-email_plus",
+		"󰧫",
+	},
+	{
+		"nf-md-email_plus_outline",
+		"󰧬",
+	},
+	{
+		"nf-md-email_receive",
+		"󱃚",
+	},
+	{
+		"nf-md-email_receive_outline",
+		"󱃛",
+	},
+	{
+		"nf-md-email_remove",
+		"󱙡",
+	},
+	{
+		"nf-md-email_remove_outline",
+		"󱙢",
+	},
+	{
+		"nf-md-email_seal",
+		"󱥛",
+	},
+	{
+		"nf-md-email_seal_outline",
+		"󱥜",
+	},
+	{
+		"nf-md-email_search",
+		"󰥡",
+	},
+	{
+		"nf-md-email_search_outline",
+		"󰥢",
+	},
+	{
+		"nf-md-email_send",
+		"󱃜",
+	},
+	{
+		"nf-md-email_send_outline",
+		"󱃝",
+	},
+	{
+		"nf-md-email_sync",
+		"󱋇",
+	},
+	{
+		"nf-md-email_sync_outline",
+		"󱋈",
+	},
+	{
+		"nf-md-email_variant",
+		"󰗰",
+	},
+	{
+		"nf-md-ember",
+		"󰬰",
+	},
+	{
+		"nf-md-emby",
+		"󰚴",
+	},
+	{
+		"nf-md-emoticon",
+		"󰱨",
+	},
+	{
+		"nf-md-emoticon_angry",
+		"󰱩",
+	},
+	{
+		"nf-md-emoticon_angry_outline",
+		"󰱪",
+	},
+	{
+		"nf-md-emoticon_confused",
+		"󱃞",
+	},
+	{
+		"nf-md-emoticon_confused_outline",
+		"󱃟",
+	},
+	{
+		"nf-md-emoticon_cool",
+		"󰱫",
+	},
+	{
+		"nf-md-emoticon_cool_outline",
+		"󰇳",
+	},
+	{
+		"nf-md-emoticon_cry",
+		"󰱬",
+	},
+	{
+		"nf-md-emoticon_cry_outline",
+		"󰱭",
+	},
+	{
+		"nf-md-emoticon_dead",
+		"󰱮",
+	},
+	{
+		"nf-md-emoticon_dead_outline",
+		"󰚛",
+	},
+	{
+		"nf-md-emoticon_devil",
+		"󰱯",
+	},
+	{
+		"nf-md-emoticon_devil_outline",
+		"󰇴",
+	},
+	{
+		"nf-md-emoticon_excited",
+		"󰱰",
+	},
+	{
+		"nf-md-emoticon_excited_outline",
+		"󰚜",
+	},
+	{
+		"nf-md-emoticon_frown",
+		"󰽌",
+	},
+	{
+		"nf-md-emoticon_frown_outline",
+		"󰽍",
+	},
+	{
+		"nf-md-emoticon_happy",
+		"󰱱",
+	},
+	{
+		"nf-md-emoticon_happy_outline",
+		"󰇵",
+	},
+	{
+		"nf-md-emoticon_kiss",
+		"󰱲",
+	},
+	{
+		"nf-md-emoticon_kiss_outline",
+		"󰱳",
+	},
+	{
+		"nf-md-emoticon_lol",
+		"󱈔",
+	},
+	{
+		"nf-md-emoticon_lol_outline",
+		"󱈕",
+	},
+	{
+		"nf-md-emoticon_neutral",
+		"󰱴",
+	},
+	{
+		"nf-md-emoticon_neutral_outline",
+		"󰇶",
+	},
+	{
+		"nf-md-emoticon_outline",
+		"󰇲",
+	},
+	{
+		"nf-md-emoticon_poop",
+		"󰇷",
+	},
+	{
+		"nf-md-emoticon_poop_outline",
+		"󰱵",
+	},
+	{
+		"nf-md-emoticon_sad",
+		"󰱶",
+	},
+	{
+		"nf-md-emoticon_sad_outline",
+		"󰇸",
+	},
+	{
+		"nf-md-emoticon_sick",
+		"󱕼",
+	},
+	{
+		"nf-md-emoticon_sick_outline",
+		"󱕽",
+	},
+	{
+		"nf-md-emoticon_tongue",
+		"󰇹",
+	},
+	{
+		"nf-md-emoticon_tongue_outline",
+		"󰱷",
+	},
+	{
+		"nf-md-emoticon_wink",
+		"󰱸",
+	},
+	{
+		"nf-md-emoticon_wink_outline",
+		"󰱹",
+	},
+	{
+		"nf-md-engine",
+		"󰇺",
+	},
+	{
+		"nf-md-engine_off",
+		"󰩆",
+	},
+	{
+		"nf-md-engine_off_outline",
+		"󰩇",
+	},
+	{
+		"nf-md-engine_outline",
+		"󰇻",
+	},
+	{
+		"nf-md-epsilon",
+		"󱃠",
+	},
+	{
+		"nf-md-equal",
+		"󰇼",
+	},
+	{
+		"nf-md-equal_box",
+		"󰇽",
+	},
+	{
+		"nf-md-equalizer",
+		"󰺢",
+	},
+	{
+		"nf-md-equalizer_outline",
+		"󰺣",
+	},
+	{
+		"nf-md-eraser",
+		"󰇾",
+	},
+	{
+		"nf-md-eraser_variant",
+		"󰙂",
+	},
+	{
+		"nf-md-escalator",
+		"󰇿",
+	},
+	{
+		"nf-md-escalator_box",
+		"󱎙",
+	},
+	{
+		"nf-md-escalator_down",
+		"󱋀",
+	},
+	{
+		"nf-md-escalator_up",
+		"󱊿",
+	},
+	{
+		"nf-md-eslint",
+		"󰱺",
+	},
+	{
+		"nf-md-et",
+		"󰪳",
+	},
+	{
+		"nf-md-ethereum",
+		"󰡪",
+	},
+	{
+		"nf-md-ethernet",
+		"󰈀",
+	},
+	{
+		"nf-md-ethernet_cable",
+		"󰈁",
+	},
+	{
+		"nf-md-ethernet_cable_off",
+		"󰈂",
+	},
+	{
+		"nf-md-ev_plug_ccs1",
+		"󱔙",
+	},
+	{
+		"nf-md-ev_plug_ccs2",
+		"󱔚",
+	},
+	{
+		"nf-md-ev_plug_chademo",
+		"󱔛",
+	},
+	{
+		"nf-md-ev_plug_tesla",
+		"󱔜",
+	},
+	{
+		"nf-md-ev_plug_type1",
+		"󱔝",
+	},
+	{
+		"nf-md-ev_plug_type2",
+		"󱔞",
+	},
+	{
+		"nf-md-ev_station",
+		"󰗱",
+	},
+	{
+		"nf-md-evernote",
+		"󰈄",
+	},
+	{
+		"nf-md-excavator",
+		"󱀥",
+	},
+	{
+		"nf-md-exclamation",
+		"󰈅",
+	},
+	{
+		"nf-md-exclamation_thick",
+		"󱈸",
+	},
+	{
+		"nf-md-exit_run",
+		"󰩈",
+	},
+	{
+		"nf-md-exit_to_app",
+		"󰗼",
+	},
+	{
+		"nf-md-expand_all",
+		"󰪴",
+	},
+	{
+		"nf-md-expand_all_outline",
+		"󰪵",
+	},
+	{
+		"nf-md-expansion_card",
+		"󰢮",
+	},
+	{
+		"nf-md-expansion_card_variant",
+		"󰾲",
+	},
+	{
+		"nf-md-exponent",
+		"󰥣",
+	},
+	{
+		"nf-md-exponent_box",
+		"󰥤",
+	},
+	{
+		"nf-md-export",
+		"󰈇",
+	},
+	{
+		"nf-md-export_variant",
+		"󰮓",
+	},
+	{
+		"nf-md-eye",
+		"󰈈",
+	},
+	{
+		"nf-md-eye_arrow_left",
+		"󱣽",
+	},
+	{
+		"nf-md-eye_arrow_left_outline",
+		"󱣾",
+	},
+	{
+		"nf-md-eye_arrow_right",
+		"󱣿",
+	},
+	{
+		"nf-md-eye_arrow_right_outline",
+		"󱤀",
+	},
+	{
+		"nf-md-eye_check",
+		"󰴄",
+	},
+	{
+		"nf-md-eye_check_outline",
+		"󰴅",
+	},
+	{
+		"nf-md-eye_circle",
+		"󰮔",
+	},
+	{
+		"nf-md-eye_circle_outline",
+		"󰮕",
+	},
+	{
+		"nf-md-eye_minus",
+		"󱀦",
+	},
+	{
+		"nf-md-eye_minus_outline",
+		"󱀧",
+	},
+	{
+		"nf-md-eye_off",
+		"󰈉",
+	},
+	{
+		"nf-md-eye_off_outline",
+		"󰛑",
+	},
+	{
+		"nf-md-eye_outline",
+		"󰛐",
+	},
+	{
+		"nf-md-eye_plus",
+		"󰡫",
+	},
+	{
+		"nf-md-eye_plus_outline",
+		"󰡬",
+	},
+	{
+		"nf-md-eye_refresh",
+		"󱥼",
+	},
+	{
+		"nf-md-eye_refresh_outline",
+		"󱥽",
+	},
+	{
+		"nf-md-eye_remove",
+		"󱗣",
+	},
+	{
+		"nf-md-eye_remove_outline",
+		"󱗤",
+	},
+	{
+		"nf-md-eye_settings",
+		"󰡭",
+	},
+	{
+		"nf-md-eye_settings_outline",
+		"󰡮",
+	},
+	{
+		"nf-md-eyedropper",
+		"󰈊",
+	},
+	{
+		"nf-md-eyedropper_minus",
+		"󱏝",
+	},
+	{
+		"nf-md-eyedropper_off",
+		"󱏟",
+	},
+	{
+		"nf-md-eyedropper_plus",
+		"󱏜",
+	},
+	{
+		"nf-md-eyedropper_remove",
+		"󱏞",
+	},
+	{
+		"nf-md-eyedropper_variant",
+		"󰈋",
+	},
+	{
+		"nf-md-face_agent",
+		"󰵰",
+	},
+	{
+		"nf-md-face_man",
+		"󰙃",
+	},
+	{
+		"nf-md-face_man_outline",
+		"󰮖",
+	},
+	{
+		"nf-md-face_man_profile",
+		"󰙄",
+	},
+	{
+		"nf-md-face_man_shimmer",
+		"󱗌",
+	},
+	{
+		"nf-md-face_man_shimmer_outline",
+		"󱗍",
+	},
+	{
+		"nf-md-face_mask",
+		"󱖆",
+	},
+	{
+		"nf-md-face_mask_outline",
+		"󱖇",
+	},
+	{
+		"nf-md-face_recognition",
+		"󰱻",
+	},
+	{
+		"nf-md-face_woman",
+		"󱁷",
+	},
+	{
+		"nf-md-face_woman_outline",
+		"󱁸",
+	},
+	{
+		"nf-md-face_woman_profile",
+		"󱁶",
+	},
+	{
+		"nf-md-face_woman_shimmer",
+		"󱗎",
+	},
+	{
+		"nf-md-face_woman_shimmer_outline",
+		"󱗏",
+	},
+	{
+		"nf-md-facebook",
+		"󰈌",
+	},
+	{
+		"nf-md-facebook_gaming",
+		"󰟝",
+	},
+	{
+		"nf-md-facebook_messenger",
+		"󰈎",
+	},
+	{
+		"nf-md-facebook_workplace",
+		"󰬱",
+	},
+	{
+		"nf-md-factory",
+		"󰈏",
+	},
+	{
+		"nf-md-family_tree",
+		"󱘎",
+	},
+	{
+		"nf-md-fan",
+		"󰈐",
+	},
+	{
+		"nf-md-fan_alert",
+		"󱑬",
+	},
+	{
+		"nf-md-fan_auto",
+		"󱜝",
+	},
+	{
+		"nf-md-fan_chevron_down",
+		"󱑭",
+	},
+	{
+		"nf-md-fan_chevron_up",
+		"󱑮",
+	},
+	{
+		"nf-md-fan_clock",
+		"󱨺",
+	},
+	{
+		"nf-md-fan_minus",
+		"󱑰",
+	},
+	{
+		"nf-md-fan_off",
+		"󰠝",
+	},
+	{
+		"nf-md-fan_plus",
+		"󱑯",
+	},
+	{
+		"nf-md-fan_remove",
+		"󱑱",
+	},
+	{
+		"nf-md-fan_speed_1",
+		"󱑲",
+	},
+	{
+		"nf-md-fan_speed_2",
+		"󱑳",
+	},
+	{
+		"nf-md-fan_speed_3",
+		"󱑴",
+	},
+	{
+		"nf-md-fast_forward",
+		"󰈑",
+	},
+	{
+		"nf-md-fast_forward_10",
+		"󰵱",
+	},
+	{
+		"nf-md-fast_forward_15",
+		"󱤺",
+	},
+	{
+		"nf-md-fast_forward_30",
+		"󰴆",
+	},
+	{
+		"nf-md-fast_forward_5",
+		"󱇸",
+	},
+	{
+		"nf-md-fast_forward_60",
+		"󱘋",
+	},
+	{
+		"nf-md-fast_forward_outline",
+		"󰛒",
+	},
+	{
+		"nf-md-fax",
+		"󰈒",
+	},
+	{
+		"nf-md-feather",
+		"󰛓",
+	},
+	{
+		"nf-md-feature_search",
+		"󰩉",
+	},
+	{
+		"nf-md-feature_search_outline",
+		"󰩊",
+	},
+	{
+		"nf-md-fedora",
+		"󰣛",
+	},
+	{
+		"nf-md-fence",
+		"󱞚",
+	},
+	{
+		"nf-md-fence_electric",
+		"󱟶",
+	},
+	{
+		"nf-md-fencing",
+		"󱓁",
+	},
+	{
+		"nf-md-ferris_wheel",
+		"󰺤",
+	},
+	{
+		"nf-md-ferry",
+		"󰈓",
+	},
+	{
+		"nf-md-file",
+		"󰈔",
+	},
+	{
+		"nf-md-file_account",
+		"󰜻",
+	},
+	{
+		"nf-md-file_account_outline",
+		"󱀨",
+	},
+	{
+		"nf-md-file_alert",
+		"󰩋",
+	},
+	{
+		"nf-md-file_alert_outline",
+		"󰩌",
+	},
+	{
+		"nf-md-file_arrow_left_right",
+		"󱪓",
+	},
+	{
+		"nf-md-file_arrow_left_right_outline",
+		"󱪔",
+	},
+	{
+		"nf-md-file_arrow_up_down",
+		"󱪕",
+	},
+	{
+		"nf-md-file_arrow_up_down_outline",
+		"󱪖",
+	},
+	{
+		"nf-md-file_cabinet",
+		"󰪶",
+	},
+	{
+		"nf-md-file_cad",
+		"󰻫",
+	},
+	{
+		"nf-md-file_cad_box",
+		"󰻬",
+	},
+	{
+		"nf-md-file_cancel",
+		"󰷆",
+	},
+	{
+		"nf-md-file_cancel_outline",
+		"󰷇",
+	},
+	{
+		"nf-md-file_certificate",
+		"󱆆",
+	},
+	{
+		"nf-md-file_certificate_outline",
+		"󱆇",
+	},
+	{
+		"nf-md-file_chart",
+		"󰈕",
+	},
+	{
+		"nf-md-file_chart_check",
+		"󱧆",
+	},
+	{
+		"nf-md-file_chart_check_outline",
+		"󱧇",
+	},
+	{
+		"nf-md-file_chart_outline",
+		"󱀩",
+	},
+	{
+		"nf-md-file_check",
+		"󰈖",
+	},
+	{
+		"nf-md-file_check_outline",
+		"󰸩",
+	},
+	{
+		"nf-md-file_clock",
+		"󱋡",
+	},
+	{
+		"nf-md-file_clock_outline",
+		"󱋢",
+	},
+	{
+		"nf-md-file_cloud",
+		"󰈗",
+	},
+	{
+		"nf-md-file_cloud_outline",
+		"󱀪",
+	},
+	{
+		"nf-md-file_code",
+		"󰈮",
+	},
+	{
+		"nf-md-file_code_outline",
+		"󱀫",
+	},
+	{
+		"nf-md-file_cog",
+		"󱁻",
+	},
+	{
+		"nf-md-file_cog_outline",
+		"󱁼",
+	},
+	{
+		"nf-md-file_compare",
+		"󰢪",
+	},
+	{
+		"nf-md-file_delimited",
+		"󰈘",
+	},
+	{
+		"nf-md-file_delimited_outline",
+		"󰺥",
+	},
+	{
+		"nf-md-file_document",
+		"󰈙",
+	},
+	{
+		"nf-md-file_document_alert",
+		"󱪗",
+	},
+	{
+		"nf-md-file_document_alert_outline",
+		"󱪘",
+	},
+	{
+		"nf-md-file_document_check",
+		"󱪙",
+	},
+	{
+		"nf-md-file_document_check_outline",
+		"󱪚",
+	},
+	{
+		"nf-md-file_document_edit",
+		"󰷈",
+	},
+	{
+		"nf-md-file_document_edit_outline",
+		"󰷉",
+	},
+	{
+		"nf-md-file_document_minus",
+		"󱪛",
+	},
+	{
+		"nf-md-file_document_minus_outline",
+		"󱪜",
+	},
+	{
+		"nf-md-file_document_multiple",
+		"󱔗",
+	},
+	{
+		"nf-md-file_document_multiple_outline",
+		"󱔘",
+	},
+	{
+		"nf-md-file_document_outline",
+		"󰧮",
+	},
+	{
+		"nf-md-file_document_plus",
+		"󱪝",
+	},
+	{
+		"nf-md-file_document_plus_outline",
+		"󱪞",
+	},
+	{
+		"nf-md-file_document_remove",
+		"󱪟",
+	},
+	{
+		"nf-md-file_document_remove_outline",
+		"󱪠",
+	},
+	{
+		"nf-md-file_download",
+		"󰥥",
+	},
+	{
+		"nf-md-file_download_outline",
+		"󰥦",
+	},
+	{
+		"nf-md-file_edit",
+		"󱇧",
+	},
+	{
+		"nf-md-file_edit_outline",
+		"󱇨",
+	},
+	{
+		"nf-md-file_excel",
+		"󰈛",
+	},
+	{
+		"nf-md-file_excel_box",
+		"󰈜",
+	},
+	{
+		"nf-md-file_excel_box_outline",
+		"󱀬",
+	},
+	{
+		"nf-md-file_excel_outline",
+		"󱀭",
+	},
+	{
+		"nf-md-file_export",
+		"󰈝",
+	},
+	{
+		"nf-md-file_export_outline",
+		"󱀮",
+	},
+	{
+		"nf-md-file_eye",
+		"󰷊",
+	},
+	{
+		"nf-md-file_eye_outline",
+		"󰷋",
+	},
+	{
+		"nf-md-file_find",
+		"󰈞",
+	},
+	{
+		"nf-md-file_find_outline",
+		"󰮗",
+	},
+	{
+		"nf-md-file_gif_box",
+		"󰵸",
+	},
+	{
+		"nf-md-file_hidden",
+		"󰘓",
+	},
+	{
+		"nf-md-file_image",
+		"󰈟",
+	},
+	{
+		"nf-md-file_image_marker",
+		"󱝲",
+	},
+	{
+		"nf-md-file_image_marker_outline",
+		"󱝳",
+	},
+	{
+		"nf-md-file_image_minus",
+		"󱤻",
+	},
+	{
+		"nf-md-file_image_minus_outline",
+		"󱤼",
+	},
+	{
+		"nf-md-file_image_outline",
+		"󰺰",
+	},
+	{
+		"nf-md-file_image_plus",
+		"󱤽",
+	},
+	{
+		"nf-md-file_image_plus_outline",
+		"󱤾",
+	},
+	{
+		"nf-md-file_image_remove",
+		"󱤿",
+	},
+	{
+		"nf-md-file_image_remove_outline",
+		"󱥀",
+	},
+	{
+		"nf-md-file_import",
+		"󰈠",
+	},
+	{
+		"nf-md-file_import_outline",
+		"󱀯",
+	},
+	{
+		"nf-md-file_jpg_box",
+		"󰈥",
+	},
+	{
+		"nf-md-file_key",
+		"󱆄",
+	},
+	{
+		"nf-md-file_key_outline",
+		"󱆅",
+	},
+	{
+		"nf-md-file_link",
+		"󱅷",
+	},
+	{
+		"nf-md-file_link_outline",
+		"󱅸",
+	},
+	{
+		"nf-md-file_lock",
+		"󰈡",
+	},
+	{
+		"nf-md-file_lock_open",
+		"󱧈",
+	},
+	{
+		"nf-md-file_lock_open_outline",
+		"󱧉",
+	},
+	{
+		"nf-md-file_lock_outline",
+		"󱀰",
+	},
+	{
+		"nf-md-file_marker",
+		"󱝴",
+	},
+	{
+		"nf-md-file_marker_outline",
+		"󱝵",
+	},
+	{
+		"nf-md-file_minus",
+		"󱪡",
+	},
+	{
+		"nf-md-file_minus_outline",
+		"󱪢",
+	},
+	{
+		"nf-md-file_move",
+		"󰪹",
+	},
+	{
+		"nf-md-file_move_outline",
+		"󱀱",
+	},
+	{
+		"nf-md-file_multiple",
+		"󰈢",
+	},
+	{
+		"nf-md-file_multiple_outline",
+		"󱀲",
+	},
+	{
+		"nf-md-file_music",
+		"󰈣",
+	},
+	{
+		"nf-md-file_music_outline",
+		"󰸪",
+	},
+	{
+		"nf-md-file_outline",
+		"󰈤",
+	},
+	{
+		"nf-md-file_pdf_box",
+		"󰈦",
+	},
+	{
+		"nf-md-file_percent",
+		"󰠞",
+	},
+	{
+		"nf-md-file_percent_outline",
+		"󱀳",
+	},
+	{
+		"nf-md-file_phone",
+		"󱅹",
+	},
+	{
+		"nf-md-file_phone_outline",
+		"󱅺",
+	},
+	{
+		"nf-md-file_plus",
+		"󰝒",
+	},
+	{
+		"nf-md-file_plus_outline",
+		"󰻭",
+	},
+	{
+		"nf-md-file_png_box",
+		"󰸭",
+	},
+	{
+		"nf-md-file_powerpoint",
+		"󰈧",
+	},
+	{
+		"nf-md-file_powerpoint_box",
+		"󰈨",
+	},
+	{
+		"nf-md-file_powerpoint_box_outline",
+		"󱀴",
+	},
+	{
+		"nf-md-file_powerpoint_outline",
+		"󱀵",
+	},
+	{
+		"nf-md-file_presentation_box",
+		"󰈩",
+	},
+	{
+		"nf-md-file_question",
+		"󰡯",
+	},
+	{
+		"nf-md-file_question_outline",
+		"󱀶",
+	},
+	{
+		"nf-md-file_refresh",
+		"󰤘",
+	},
+	{
+		"nf-md-file_refresh_outline",
+		"󰕁",
+	},
+	{
+		"nf-md-file_remove",
+		"󰮘",
+	},
+	{
+		"nf-md-file_remove_outline",
+		"󱀷",
+	},
+	{
+		"nf-md-file_replace",
+		"󰬲",
+	},
+	{
+		"nf-md-file_replace_outline",
+		"󰬳",
+	},
+	{
+		"nf-md-file_restore",
+		"󰙰",
+	},
+	{
+		"nf-md-file_restore_outline",
+		"󱀸",
+	},
+	{
+		"nf-md-file_rotate_left",
+		"󱨻",
+	},
+	{
+		"nf-md-file_rotate_left_outline",
+		"󱨼",
+	},
+	{
+		"nf-md-file_rotate_right",
+		"󱨽",
+	},
+	{
+		"nf-md-file_rotate_right_outline",
+		"󱨾",
+	},
+	{
+		"nf-md-file_search",
+		"󰱼",
+	},
+	{
+		"nf-md-file_search_outline",
+		"󰱽",
+	},
+	{
+		"nf-md-file_send",
+		"󰈪",
+	},
+	{
+		"nf-md-file_send_outline",
+		"󱀹",
+	},
+	{
+		"nf-md-file_settings",
+		"󱁹",
+	},
+	{
+		"nf-md-file_settings_outline",
+		"󱁺",
+	},
+	{
+		"nf-md-file_sign",
+		"󱧃",
+	},
+	{
+		"nf-md-file_star",
+		"󱀺",
+	},
+	{
+		"nf-md-file_star_outline",
+		"󱀻",
+	},
+	{
+		"nf-md-file_swap",
+		"󰾴",
+	},
+	{
+		"nf-md-file_swap_outline",
+		"󰾵",
+	},
+	{
+		"nf-md-file_sync",
+		"󱈖",
+	},
+	{
+		"nf-md-file_sync_outline",
+		"󱈗",
+	},
+	{
+		"nf-md-file_table",
+		"󰱾",
+	},
+	{
+		"nf-md-file_table_box",
+		"󱃡",
+	},
+	{
+		"nf-md-file_table_box_multiple",
+		"󱃢",
+	},
+	{
+		"nf-md-file_table_box_multiple_outline",
+		"󱃣",
+	},
+	{
+		"nf-md-file_table_box_outline",
+		"󱃤",
+	},
+	{
+		"nf-md-file_table_outline",
+		"󰱿",
+	},
+	{
+		"nf-md-file_tree",
+		"󰙅",
+	},
+	{
+		"nf-md-file_tree_outline",
+		"󱏒",
+	},
+	{
+		"nf-md-file_undo",
+		"󰣜",
+	},
+	{
+		"nf-md-file_undo_outline",
+		"󱀼",
+	},
+	{
+		"nf-md-file_upload",
+		"󰩍",
+	},
+	{
+		"nf-md-file_upload_outline",
+		"󰩎",
+	},
+	{
+		"nf-md-file_video",
+		"󰈫",
+	},
+	{
+		"nf-md-file_video_outline",
+		"󰸬",
+	},
+	{
+		"nf-md-file_word",
+		"󰈬",
+	},
+	{
+		"nf-md-file_word_box",
+		"󰈭",
+	},
+	{
+		"nf-md-file_word_box_outline",
+		"󱀽",
+	},
+	{
+		"nf-md-file_word_outline",
+		"󱀾",
+	},
+	{
+		"nf-md-film",
+		"󰈯",
+	},
+	{
+		"nf-md-filmstrip",
+		"󰈰",
+	},
+	{
+		"nf-md-filmstrip_box",
+		"󰌲",
+	},
+	{
+		"nf-md-filmstrip_box_multiple",
+		"󰴘",
+	},
+	{
+		"nf-md-filmstrip_off",
+		"󰈱",
+	},
+	{
+		"nf-md-filter",
+		"󰈲",
+	},
+	{
+		"nf-md-filter_check",
+		"󱣬",
+	},
+	{
+		"nf-md-filter_check_outline",
+		"󱣭",
+	},
+	{
+		"nf-md-filter_cog",
+		"󱪣",
+	},
+	{
+		"nf-md-filter_cog_outline",
+		"󱪤",
+	},
+	{
+		"nf-md-filter_menu",
+		"󱃥",
+	},
+	{
+		"nf-md-filter_menu_outline",
+		"󱃦",
+	},
+	{
+		"nf-md-filter_minus",
+		"󰻮",
+	},
+	{
+		"nf-md-filter_minus_outline",
+		"󰻯",
+	},
+	{
+		"nf-md-filter_multiple",
+		"󱨿",
+	},
+	{
+		"nf-md-filter_multiple_outline",
+		"󱩀",
+	},
+	{
+		"nf-md-filter_off",
+		"󱓯",
+	},
+	{
+		"nf-md-filter_off_outline",
+		"󱓰",
+	},
+	{
+		"nf-md-filter_outline",
+		"󰈳",
+	},
+	{
+		"nf-md-filter_plus",
+		"󰻰",
+	},
+	{
+		"nf-md-filter_plus_outline",
+		"󰻱",
+	},
+	{
+		"nf-md-filter_remove",
+		"󰈴",
+	},
+	{
+		"nf-md-filter_remove_outline",
+		"󰈵",
+	},
+	{
+		"nf-md-filter_settings",
+		"󱪥",
+	},
+	{
+		"nf-md-filter_settings_outline",
+		"󱪦",
+	},
+	{
+		"nf-md-filter_variant",
+		"󰈶",
+	},
+	{
+		"nf-md-filter_variant_minus",
+		"󱄒",
+	},
+	{
+		"nf-md-filter_variant_plus",
+		"󱄓",
+	},
+	{
+		"nf-md-filter_variant_remove",
+		"󱀿",
+	},
+	{
+		"nf-md-finance",
+		"󰠟",
+	},
+	{
+		"nf-md-find_replace",
+		"󰛔",
+	},
+	{
+		"nf-md-fingerprint",
+		"󰈷",
+	},
+	{
+		"nf-md-fingerprint_off",
+		"󰺱",
+	},
+	{
+		"nf-md-fire",
+		"󰈸",
+	},
+	{
+		"nf-md-fire_alert",
+		"󱗗",
+	},
+	{
+		"nf-md-fire_circle",
+		"󱠇",
+	},
+	{
+		"nf-md-fire_extinguisher",
+		"󰻲",
+	},
+	{
+		"nf-md-fire_hydrant",
+		"󱄷",
+	},
+	{
+		"nf-md-fire_hydrant_alert",
+		"󱄸",
+	},
+	{
+		"nf-md-fire_hydrant_off",
+		"󱄹",
+	},
+	{
+		"nf-md-fire_off",
+		"󱜢",
+	},
+	{
+		"nf-md-fire_truck",
+		"󰢫",
+	},
+	{
+		"nf-md-firebase",
+		"󰥧",
+	},
+	{
+		"nf-md-firefox",
+		"󰈹",
+	},
+	{
+		"nf-md-fireplace",
+		"󰸮",
+	},
+	{
+		"nf-md-fireplace_off",
+		"󰸯",
+	},
+	{
+		"nf-md-firewire",
+		"󰖾",
+	},
+	{
+		"nf-md-firework",
+		"󰸰",
+	},
+	{
+		"nf-md-firework_off",
+		"󱜣",
+	},
+	{
+		"nf-md-fish",
+		"󰈺",
+	},
+	{
+		"nf-md-fish_off",
+		"󱏳",
+	},
+	{
+		"nf-md-fishbowl",
+		"󰻳",
+	},
+	{
+		"nf-md-fishbowl_outline",
+		"󰻴",
+	},
+	{
+		"nf-md-fit_to_page",
+		"󰻵",
+	},
+	{
+		"nf-md-fit_to_page_outline",
+		"󰻶",
+	},
+	{
+		"nf-md-fit_to_screen",
+		"󱣴",
+	},
+	{
+		"nf-md-fit_to_screen_outline",
+		"󱣵",
+	},
+	{
+		"nf-md-flag",
+		"󰈻",
+	},
+	{
+		"nf-md-flag_checkered",
+		"󰈼",
+	},
+	{
+		"nf-md-flag_minus",
+		"󰮙",
+	},
+	{
+		"nf-md-flag_minus_outline",
+		"󱂲",
+	},
+	{
+		"nf-md-flag_off",
+		"󱣮",
+	},
+	{
+		"nf-md-flag_off_outline",
+		"󱣯",
+	},
+	{
+		"nf-md-flag_outline",
+		"󰈽",
+	},
+	{
+		"nf-md-flag_plus",
+		"󰮚",
+	},
+	{
+		"nf-md-flag_plus_outline",
+		"󱂳",
+	},
+	{
+		"nf-md-flag_remove",
+		"󰮛",
+	},
+	{
+		"nf-md-flag_remove_outline",
+		"󱂴",
+	},
+	{
+		"nf-md-flag_triangle",
+		"󰈿",
+	},
+	{
+		"nf-md-flag_variant",
+		"󰉀",
+	},
+	{
+		"nf-md-flag_variant_outline",
+		"󰈾",
+	},
+	{
+		"nf-md-flare",
+		"󰵲",
+	},
+	{
+		"nf-md-flash",
+		"󰉁",
+	},
+	{
+		"nf-md-flash_alert",
+		"󰻷",
+	},
+	{
+		"nf-md-flash_alert_outline",
+		"󰻸",
+	},
+	{
+		"nf-md-flash_auto",
+		"󰉂",
+	},
+	{
+		"nf-md-flash_off",
+		"󰉃",
+	},
+	{
+		"nf-md-flash_outline",
+		"󰛕",
+	},
+	{
+		"nf-md-flash_red_eye",
+		"󰙻",
+	},
+	{
+		"nf-md-flashlight",
+		"󰉄",
+	},
+	{
+		"nf-md-flashlight_off",
+		"󰉅",
+	},
+	{
+		"nf-md-flask",
+		"󰂓",
+	},
+	{
+		"nf-md-flask_empty",
+		"󰂔",
+	},
+	{
+		"nf-md-flask_empty_minus",
+		"󱈺",
+	},
+	{
+		"nf-md-flask_empty_minus_outline",
+		"󱈻",
+	},
+	{
+		"nf-md-flask_empty_off",
+		"󱏴",
+	},
+	{
+		"nf-md-flask_empty_off_outline",
+		"󱏵",
+	},
+	{
+		"nf-md-flask_empty_outline",
+		"󰂕",
+	},
+	{
+		"nf-md-flask_empty_plus",
+		"󱈼",
+	},
+	{
+		"nf-md-flask_empty_plus_outline",
+		"󱈽",
+	},
+	{
+		"nf-md-flask_empty_remove",
+		"󱈾",
+	},
+	{
+		"nf-md-flask_empty_remove_outline",
+		"󱈿",
+	},
+	{
+		"nf-md-flask_minus",
+		"󱉀",
+	},
+	{
+		"nf-md-flask_minus_outline",
+		"󱉁",
+	},
+	{
+		"nf-md-flask_off",
+		"󱏶",
+	},
+	{
+		"nf-md-flask_off_outline",
+		"󱏷",
+	},
+	{
+		"nf-md-flask_outline",
+		"󰂖",
+	},
+	{
+		"nf-md-flask_plus",
+		"󱉂",
+	},
+	{
+		"nf-md-flask_plus_outline",
+		"󱉃",
+	},
+	{
+		"nf-md-flask_remove",
+		"󱉄",
+	},
+	{
+		"nf-md-flask_remove_outline",
+		"󱉅",
+	},
+	{
+		"nf-md-flask_round_bottom",
+		"󱉋",
+	},
+	{
+		"nf-md-flask_round_bottom_empty",
+		"󱉌",
+	},
+	{
+		"nf-md-flask_round_bottom_empty_outline",
+		"󱉍",
+	},
+	{
+		"nf-md-flask_round_bottom_outline",
+		"󱉎",
+	},
+	{
+		"nf-md-fleur_de_lis",
+		"󱌃",
+	},
+	{
+		"nf-md-flip_horizontal",
+		"󱃧",
+	},
+	{
+		"nf-md-flip_to_back",
+		"󰉇",
+	},
+	{
+		"nf-md-flip_to_front",
+		"󰉈",
+	},
+	{
+		"nf-md-flip_vertical",
+		"󱃨",
+	},
+	{
+		"nf-md-floor_lamp",
+		"󰣝",
+	},
+	{
+		"nf-md-floor_lamp_dual",
+		"󱁀",
+	},
+	{
+		"nf-md-floor_lamp_dual_outline",
+		"󱟎",
+	},
+	{
+		"nf-md-floor_lamp_outline",
+		"󱟈",
+	},
+	{
+		"nf-md-floor_lamp_torchiere",
+		"󱝇",
+	},
+	{
+		"nf-md-floor_lamp_torchiere_outline",
+		"󱟖",
+	},
+	{
+		"nf-md-floor_lamp_torchiere_variant",
+		"󱁁",
+	},
+	{
+		"nf-md-floor_lamp_torchiere_variant_outline",
+		"󱟏",
+	},
+	{
+		"nf-md-floor_plan",
+		"󰠡",
+	},
+	{
+		"nf-md-floppy",
+		"󰉉",
+	},
+	{
+		"nf-md-floppy_variant",
+		"󰧯",
+	},
+	{
+		"nf-md-flower",
+		"󰉊",
+	},
+	{
+		"nf-md-flower_outline",
+		"󰧰",
+	},
+	{
+		"nf-md-flower_pollen",
+		"󱢅",
+	},
+	{
+		"nf-md-flower_pollen_outline",
+		"󱢆",
+	},
+	{
+		"nf-md-flower_poppy",
+		"󰴈",
+	},
+	{
+		"nf-md-flower_tulip",
+		"󰧱",
+	},
+	{
+		"nf-md-flower_tulip_outline",
+		"󰧲",
+	},
+	{
+		"nf-md-focus_auto",
+		"󰽎",
+	},
+	{
+		"nf-md-focus_field",
+		"󰽏",
+	},
+	{
+		"nf-md-focus_field_horizontal",
+		"󰽐",
+	},
+	{
+		"nf-md-focus_field_vertical",
+		"󰽑",
+	},
+	{
+		"nf-md-folder",
+		"󰉋",
+	},
+	{
+		"nf-md-folder_account",
+		"󰉌",
+	},
+	{
+		"nf-md-folder_account_outline",
+		"󰮜",
+	},
+	{
+		"nf-md-folder_alert",
+		"󰷌",
+	},
+	{
+		"nf-md-folder_alert_outline",
+		"󰷍",
+	},
+	{
+		"nf-md-folder_arrow_down",
+		"󱧨",
+	},
+	{
+		"nf-md-folder_arrow_down_outline",
+		"󱧩",
+	},
+	{
+		"nf-md-folder_arrow_left",
+		"󱧪",
+	},
+	{
+		"nf-md-folder_arrow_left_outline",
+		"󱧫",
+	},
+	{
+		"nf-md-folder_arrow_left_right",
+		"󱧬",
+	},
+	{
+		"nf-md-folder_arrow_left_right_outline",
+		"󱧭",
+	},
+	{
+		"nf-md-folder_arrow_right",
+		"󱧮",
+	},
+	{
+		"nf-md-folder_arrow_right_outline",
+		"󱧯",
+	},
+	{
+		"nf-md-folder_arrow_up",
+		"󱧰",
+	},
+	{
+		"nf-md-folder_arrow_up_down",
+		"󱧱",
+	},
+	{
+		"nf-md-folder_arrow_up_down_outline",
+		"󱧲",
+	},
+	{
+		"nf-md-folder_arrow_up_outline",
+		"󱧳",
+	},
+	{
+		"nf-md-folder_cancel",
+		"󱧴",
+	},
+	{
+		"nf-md-folder_cancel_outline",
+		"󱧵",
+	},
+	{
+		"nf-md-folder_check",
+		"󱥾",
+	},
+	{
+		"nf-md-folder_check_outline",
+		"󱥿",
+	},
+	{
+		"nf-md-folder_clock",
+		"󰪺",
+	},
+	{
+		"nf-md-folder_clock_outline",
+		"󰪻",
+	},
+	{
+		"nf-md-folder_cog",
+		"󱁿",
+	},
+	{
+		"nf-md-folder_cog_outline",
+		"󱂀",
+	},
+	{
+		"nf-md-folder_download",
+		"󰉍",
+	},
+	{
+		"nf-md-folder_download_outline",
+		"󱃩",
+	},
+	{
+		"nf-md-folder_edit",
+		"󰣞",
+	},
+	{
+		"nf-md-folder_edit_outline",
+		"󰷎",
+	},
+	{
+		"nf-md-folder_eye",
+		"󱞊",
+	},
+	{
+		"nf-md-folder_eye_outline",
+		"󱞋",
+	},
+	{
+		"nf-md-folder_file",
+		"󱧶",
+	},
+	{
+		"nf-md-folder_file_outline",
+		"󱧷",
+	},
+	{
+		"nf-md-folder_google_drive",
+		"󰉎",
+	},
+	{
+		"nf-md-folder_heart",
+		"󱃪",
+	},
+	{
+		"nf-md-folder_heart_outline",
+		"󱃫",
+	},
+	{
+		"nf-md-folder_hidden",
+		"󱞞",
+	},
+	{
+		"nf-md-folder_home",
+		"󱂵",
+	},
+	{
+		"nf-md-folder_home_outline",
+		"󱂶",
+	},
+	{
+		"nf-md-folder_image",
+		"󰉏",
+	},
+	{
+		"nf-md-folder_information",
+		"󱂷",
+	},
+	{
+		"nf-md-folder_information_outline",
+		"󱂸",
+	},
+	{
+		"nf-md-folder_key",
+		"󰢬",
+	},
+	{
+		"nf-md-folder_key_network",
+		"󰢭",
+	},
+	{
+		"nf-md-folder_key_network_outline",
+		"󰲀",
+	},
+	{
+		"nf-md-folder_key_outline",
+		"󱃬",
+	},
+	{
+		"nf-md-folder_lock",
+		"󰉐",
+	},
+	{
+		"nf-md-folder_lock_open",
+		"󰉑",
+	},
+	{
+		"nf-md-folder_lock_open_outline",
+		"󱪧",
+	},
+	{
+		"nf-md-folder_lock_outline",
+		"󱪨",
+	},
+	{
+		"nf-md-folder_marker",
+		"󱉭",
+	},
+	{
+		"nf-md-folder_marker_outline",
+		"󱉮",
+	},
+	{
+		"nf-md-folder_move",
+		"󰉒",
+	},
+	{
+		"nf-md-folder_move_outline",
+		"󱉆",
+	},
+	{
+		"nf-md-folder_multiple",
+		"󰉓",
+	},
+	{
+		"nf-md-folder_multiple_image",
+		"󰉔",
+	},
+	{
+		"nf-md-folder_multiple_outline",
+		"󰉕",
+	},
+	{
+		"nf-md-folder_multiple_plus",
+		"󱑾",
+	},
+	{
+		"nf-md-folder_multiple_plus_outline",
+		"󱑿",
+	},
+	{
+		"nf-md-folder_music",
+		"󱍙",
+	},
+	{
+		"nf-md-folder_music_outline",
+		"󱍚",
+	},
+	{
+		"nf-md-folder_network",
+		"󰡰",
+	},
+	{
+		"nf-md-folder_network_outline",
+		"󰲁",
+	},
+	{
+		"nf-md-folder_off",
+		"󱧸",
+	},
+	{
+		"nf-md-folder_off_outline",
+		"󱧹",
+	},
+	{
+		"nf-md-folder_open",
+		"󰝰",
+	},
+	{
+		"nf-md-folder_open_outline",
+		"󰷏",
+	},
+	{
+		"nf-md-folder_outline",
+		"󰉖",
+	},
+	{
+		"nf-md-folder_play",
+		"󱧺",
+	},
+	{
+		"nf-md-folder_play_outline",
+		"󱧻",
+	},
+	{
+		"nf-md-folder_plus",
+		"󰉗",
+	},
+	{
+		"nf-md-folder_plus_outline",
+		"󰮝",
+	},
+	{
+		"nf-md-folder_pound",
+		"󰴉",
+	},
+	{
+		"nf-md-folder_pound_outline",
+		"󰴊",
+	},
+	{
+		"nf-md-folder_question",
+		"󱧊",
+	},
+	{
+		"nf-md-folder_question_outline",
+		"󱧋",
+	},
+	{
+		"nf-md-folder_refresh",
+		"󰝉",
+	},
+	{
+		"nf-md-folder_refresh_outline",
+		"󰕂",
+	},
+	{
+		"nf-md-folder_remove",
+		"󰉘",
+	},
+	{
+		"nf-md-folder_remove_outline",
+		"󰮞",
+	},
+	{
+		"nf-md-folder_search",
+		"󰥨",
+	},
+	{
+		"nf-md-folder_search_outline",
+		"󰥩",
+	},
+	{
+		"nf-md-folder_settings",
+		"󱁽",
+	},
+	{
+		"nf-md-folder_settings_outline",
+		"󱁾",
+	},
+	{
+		"nf-md-folder_star",
+		"󰚝",
+	},
+	{
+		"nf-md-folder_star_multiple",
+		"󱏓",
+	},
+	{
+		"nf-md-folder_star_multiple_outline",
+		"󱏔",
+	},
+	{
+		"nf-md-folder_star_outline",
+		"󰮟",
+	},
+	{
+		"nf-md-folder_swap",
+		"󰾶",
+	},
+	{
+		"nf-md-folder_swap_outline",
+		"󰾷",
+	},
+	{
+		"nf-md-folder_sync",
+		"󰴋",
+	},
+	{
+		"nf-md-folder_sync_outline",
+		"󰴌",
+	},
+	{
+		"nf-md-folder_table",
+		"󱋣",
+	},
+	{
+		"nf-md-folder_table_outline",
+		"󱋤",
+	},
+	{
+		"nf-md-folder_text",
+		"󰲂",
+	},
+	{
+		"nf-md-folder_text_outline",
+		"󰲃",
+	},
+	{
+		"nf-md-folder_upload",
+		"󰉙",
+	},
+	{
+		"nf-md-folder_upload_outline",
+		"󱃭",
+	},
+	{
+		"nf-md-folder_wrench",
+		"󱧼",
+	},
+	{
+		"nf-md-folder_wrench_outline",
+		"󱧽",
+	},
+	{
+		"nf-md-folder_zip",
+		"󰛫",
+	},
+	{
+		"nf-md-folder_zip_outline",
+		"󰞹",
+	},
+	{
+		"nf-md-font_awesome",
+		"󰀺",
+	},
+	{
+		"nf-md-food",
+		"󰉚",
+	},
+	{
+		"nf-md-food_apple",
+		"󰉛",
+	},
+	{
+		"nf-md-food_apple_outline",
+		"󰲄",
+	},
+	{
+		"nf-md-food_croissant",
+		"󰟈",
+	},
+	{
+		"nf-md-food_drumstick",
+		"󱐟",
+	},
+	{
+		"nf-md-food_drumstick_off",
+		"󱑨",
+	},
+	{
+		"nf-md-food_drumstick_off_outline",
+		"󱑩",
+	},
+	{
+		"nf-md-food_drumstick_outline",
+		"󱐠",
+	},
+	{
+		"nf-md-food_fork_drink",
+		"󰗲",
+	},
+	{
+		"nf-md-food_halal",
+		"󱕲",
+	},
+	{
+		"nf-md-food_hot_dog",
+		"󱡋",
+	},
+	{
+		"nf-md-food_kosher",
+		"󱕳",
+	},
+	{
+		"nf-md-food_off",
+		"󰗳",
+	},
+	{
+		"nf-md-food_off_outline",
+		"󱤕",
+	},
+	{
+		"nf-md-food_outline",
+		"󱤖",
+	},
+	{
+		"nf-md-food_steak",
+		"󱑪",
+	},
+	{
+		"nf-md-food_steak_off",
+		"󱑫",
+	},
+	{
+		"nf-md-food_takeout_box",
+		"󱠶",
+	},
+	{
+		"nf-md-food_takeout_box_outline",
+		"󱠷",
+	},
+	{
+		"nf-md-food_turkey",
+		"󱜜",
+	},
+	{
+		"nf-md-food_variant",
+		"󰉜",
+	},
+	{
+		"nf-md-food_variant_off",
+		"󱏥",
+	},
+	{
+		"nf-md-foot_print",
+		"󰽒",
+	},
+	{
+		"nf-md-football",
+		"󰉝",
+	},
+	{
+		"nf-md-football_australian",
+		"󰉞",
+	},
+	{
+		"nf-md-football_helmet",
+		"󰉟",
+	},
+	{
+		"nf-md-forest",
+		"󱢗",
+	},
+	{
+		"nf-md-forklift",
+		"󰟉",
+	},
+	{
+		"nf-md-form_dropdown",
+		"󱐀",
+	},
+	{
+		"nf-md-form_select",
+		"󱐁",
+	},
+	{
+		"nf-md-form_textarea",
+		"󱂕",
+	},
+	{
+		"nf-md-form_textbox",
+		"󰘎",
+	},
+	{
+		"nf-md-form_textbox_lock",
+		"󱍝",
+	},
+	{
+		"nf-md-form_textbox_password",
+		"󰟵",
+	},
+	{
+		"nf-md-format_align_bottom",
+		"󰝓",
+	},
+	{
+		"nf-md-format_align_center",
+		"󰉠",
+	},
+	{
+		"nf-md-format_align_justify",
+		"󰉡",
+	},
+	{
+		"nf-md-format_align_left",
+		"󰉢",
+	},
+	{
+		"nf-md-format_align_middle",
+		"󰝔",
+	},
+	{
+		"nf-md-format_align_right",
+		"󰉣",
+	},
+	{
+		"nf-md-format_align_top",
+		"󰝕",
+	},
+	{
+		"nf-md-format_annotation_minus",
+		"󰪼",
+	},
+	{
+		"nf-md-format_annotation_plus",
+		"󰙆",
+	},
+	{
+		"nf-md-format_bold",
+		"󰉤",
+	},
+	{
+		"nf-md-format_clear",
+		"󰉥",
+	},
+	{
+		"nf-md-format_color_fill",
+		"󰉦",
+	},
+	{
+		"nf-md-format_color_highlight",
+		"󰸱",
+	},
+	{
+		"nf-md-format_color_marker_cancel",
+		"󱌓",
+	},
+	{
+		"nf-md-format_color_text",
+		"󰚞",
+	},
+	{
+		"nf-md-format_columns",
+		"󰣟",
+	},
+	{
+		"nf-md-format_float_center",
+		"󰉧",
+	},
+	{
+		"nf-md-format_float_left",
+		"󰉨",
+	},
+	{
+		"nf-md-format_float_none",
+		"󰉩",
+	},
+	{
+		"nf-md-format_float_right",
+		"󰉪",
+	},
+	{
+		"nf-md-format_font",
+		"󰛖",
+	},
+	{
+		"nf-md-format_font_size_decrease",
+		"󰧳",
+	},
+	{
+		"nf-md-format_font_size_increase",
+		"󰧴",
+	},
+	{
+		"nf-md-format_header_1",
+		"󰉫",
+	},
+	{
+		"nf-md-format_header_2",
+		"󰉬",
+	},
+	{
+		"nf-md-format_header_3",
+		"󰉭",
+	},
+	{
+		"nf-md-format_header_4",
+		"󰉮",
+	},
+	{
+		"nf-md-format_header_5",
+		"󰉯",
+	},
+	{
+		"nf-md-format_header_6",
+		"󰉰",
+	},
+	{
+		"nf-md-format_header_decrease",
+		"󰉱",
+	},
+	{
+		"nf-md-format_header_equal",
+		"󰉲",
+	},
+	{
+		"nf-md-format_header_increase",
+		"󰉳",
+	},
+	{
+		"nf-md-format_header_pound",
+		"󰉴",
+	},
+	{
+		"nf-md-format_horizontal_align_center",
+		"󰘞",
+	},
+	{
+		"nf-md-format_horizontal_align_left",
+		"󰘟",
+	},
+	{
+		"nf-md-format_horizontal_align_right",
+		"󰘠",
+	},
+	{
+		"nf-md-format_indent_decrease",
+		"󰉵",
+	},
+	{
+		"nf-md-format_indent_increase",
+		"󰉶",
+	},
+	{
+		"nf-md-format_italic",
+		"󰉷",
+	},
+	{
+		"nf-md-format_letter_case",
+		"󰬴",
+	},
+	{
+		"nf-md-format_letter_case_lower",
+		"󰬵",
+	},
+	{
+		"nf-md-format_letter_case_upper",
+		"󰬶",
+	},
+	{
+		"nf-md-format_letter_ends_with",
+		"󰾸",
+	},
+	{
+		"nf-md-format_letter_matches",
+		"󰾹",
+	},
+	{
+		"nf-md-format_letter_spacing",
+		"󱥖",
+	},
+	{
+		"nf-md-format_letter_starts_with",
+		"󰾺",
+	},
+	{
+		"nf-md-format_line_spacing",
+		"󰉸",
+	},
+	{
+		"nf-md-format_line_style",
+		"󰗈",
+	},
+	{
+		"nf-md-format_line_weight",
+		"󰗉",
+	},
+	{
+		"nf-md-format_list_bulleted",
+		"󰉹",
+	},
+	{
+		"nf-md-format_list_bulleted_square",
+		"󰷐",
+	},
+	{
+		"nf-md-format_list_bulleted_triangle",
+		"󰺲",
+	},
+	{
+		"nf-md-format_list_bulleted_type",
+		"󰉺",
+	},
+	{
+		"nf-md-format_list_checkbox",
+		"󰥪",
+	},
+	{
+		"nf-md-format_list_checks",
+		"󰝖",
+	},
+	{
+		"nf-md-format_list_group",
+		"󱡠",
+	},
+	{
+		"nf-md-format_list_numbered",
+		"󰉻",
+	},
+	{
+		"nf-md-format_list_numbered_rtl",
+		"󰴍",
+	},
+	{
+		"nf-md-format_list_text",
+		"󱉯",
+	},
+	{
+		"nf-md-format_overline",
+		"󰺳",
+	},
+	{
+		"nf-md-format_page_break",
+		"󰛗",
+	},
+	{
+		"nf-md-format_page_split",
+		"󱤗",
+	},
+	{
+		"nf-md-format_paint",
+		"󰉼",
+	},
+	{
+		"nf-md-format_paragraph",
+		"󰉽",
+	},
+	{
+		"nf-md-format_pilcrow",
+		"󰛘",
+	},
+	{
+		"nf-md-format_quote_close",
+		"󰉾",
+	},
+	{
+		"nf-md-format_quote_close_outline",
+		"󱆨",
+	},
+	{
+		"nf-md-format_quote_open",
+		"󰝗",
+	},
+	{
+		"nf-md-format_quote_open_outline",
+		"󱆧",
+	},
+	{
+		"nf-md-format_rotate_90",
+		"󰚪",
+	},
+	{
+		"nf-md-format_section",
+		"󰚟",
+	},
+	{
+		"nf-md-format_size",
+		"󰉿",
+	},
+	{
+		"nf-md-format_strikethrough",
+		"󰊀",
+	},
+	{
+		"nf-md-format_strikethrough_variant",
+		"󰊁",
+	},
+	{
+		"nf-md-format_subscript",
+		"󰊂",
+	},
+	{
+		"nf-md-format_superscript",
+		"󰊃",
+	},
+	{
+		"nf-md-format_text",
+		"󰊄",
+	},
+	{
+		"nf-md-format_text_rotation_angle_down",
+		"󰾻",
+	},
+	{
+		"nf-md-format_text_rotation_angle_up",
+		"󰾼",
+	},
+	{
+		"nf-md-format_text_rotation_down",
+		"󰵳",
+	},
+	{
+		"nf-md-format_text_rotation_down_vertical",
+		"󰾽",
+	},
+	{
+		"nf-md-format_text_rotation_none",
+		"󰵴",
+	},
+	{
+		"nf-md-format_text_rotation_up",
+		"󰾾",
+	},
+	{
+		"nf-md-format_text_rotation_vertical",
+		"󰾿",
+	},
+	{
+		"nf-md-format_text_variant",
+		"󰸲",
+	},
+	{
+		"nf-md-format_text_variant_outline",
+		"󱔏",
+	},
+	{
+		"nf-md-format_text_wrapping_clip",
+		"󰴎",
+	},
+	{
+		"nf-md-format_text_wrapping_overflow",
+		"󰴏",
+	},
+	{
+		"nf-md-format_text_wrapping_wrap",
+		"󰴐",
+	},
+	{
+		"nf-md-format_textbox",
+		"󰴑",
+	},
+	{
+		"nf-md-format_textdirection_l_to_r",
+		"󰊅",
+	},
+	{
+		"nf-md-format_textdirection_r_to_l",
+		"󰊆",
+	},
+	{
+		"nf-md-format_title",
+		"󰗴",
+	},
+	{
+		"nf-md-format_underline",
+		"󰊇",
+	},
+	{
+		"nf-md-format_underline_wavy",
+		"󱣩",
+	},
+	{
+		"nf-md-format_vertical_align_bottom",
+		"󰘡",
+	},
+	{
+		"nf-md-format_vertical_align_center",
+		"󰘢",
+	},
+	{
+		"nf-md-format_vertical_align_top",
+		"󰘣",
+	},
+	{
+		"nf-md-format_wrap_inline",
+		"󰊈",
+	},
+	{
+		"nf-md-format_wrap_square",
+		"󰊉",
+	},
+	{
+		"nf-md-format_wrap_tight",
+		"󰊊",
+	},
+	{
+		"nf-md-format_wrap_top_bottom",
+		"󰊋",
+	},
+	{
+		"nf-md-forum",
+		"󰊌",
+	},
+	{
+		"nf-md-forum_minus",
+		"󱪩",
+	},
+	{
+		"nf-md-forum_minus_outline",
+		"󱪪",
+	},
+	{
+		"nf-md-forum_outline",
+		"󰠢",
+	},
+	{
+		"nf-md-forum_plus",
+		"󱪫",
+	},
+	{
+		"nf-md-forum_plus_outline",
+		"󱪬",
+	},
+	{
+		"nf-md-forum_remove",
+		"󱪭",
+	},
+	{
+		"nf-md-forum_remove_outline",
+		"󱪮",
+	},
+	{
+		"nf-md-forward",
+		"󰊍",
+	},
+	{
+		"nf-md-forwardburger",
+		"󰵵",
+	},
+	{
+		"nf-md-fountain",
+		"󰥫",
+	},
+	{
+		"nf-md-fountain_pen",
+		"󰴒",
+	},
+	{
+		"nf-md-fountain_pen_tip",
+		"󰴓",
+	},
+	{
+		"nf-md-fraction_one_half",
+		"󱦒",
+	},
+	{
+		"nf-md-freebsd",
+		"󰣠",
+	},
+	{
+		"nf-md-french_fries",
+		"󱥗",
+	},
+	{
+		"nf-md-frequently_asked_questions",
+		"󰺴",
+	},
+	{
+		"nf-md-fridge",
+		"󰊐",
+	},
+	{
+		"nf-md-fridge_alert",
+		"󱆱",
+	},
+	{
+		"nf-md-fridge_alert_outline",
+		"󱆲",
+	},
+	{
+		"nf-md-fridge_bottom",
+		"󰊒",
+	},
+	{
+		"nf-md-fridge_industrial",
+		"󱗮",
+	},
+	{
+		"nf-md-fridge_industrial_alert",
+		"󱗯",
+	},
+	{
+		"nf-md-fridge_industrial_alert_outline",
+		"󱗰",
+	},
+	{
+		"nf-md-fridge_industrial_off",
+		"󱗱",
+	},
+	{
+		"nf-md-fridge_industrial_off_outline",
+		"󱗲",
+	},
+	{
+		"nf-md-fridge_industrial_outline",
+		"󱗳",
+	},
+	{
+		"nf-md-fridge_off",
+		"󱆯",
+	},
+	{
+		"nf-md-fridge_off_outline",
+		"󱆰",
+	},
+	{
+		"nf-md-fridge_outline",
+		"󰊏",
+	},
+	{
+		"nf-md-fridge_top",
+		"󰊑",
+	},
+	{
+		"nf-md-fridge_variant",
+		"󱗴",
+	},
+	{
+		"nf-md-fridge_variant_alert",
+		"󱗵",
+	},
+	{
+		"nf-md-fridge_variant_alert_outline",
+		"󱗶",
+	},
+	{
+		"nf-md-fridge_variant_off",
+		"󱗷",
+	},
+	{
+		"nf-md-fridge_variant_off_outline",
+		"󱗸",
+	},
+	{
+		"nf-md-fridge_variant_outline",
+		"󱗹",
+	},
+	{
+		"nf-md-fruit_cherries",
+		"󱁂",
+	},
+	{
+		"nf-md-fruit_cherries_off",
+		"󱏸",
+	},
+	{
+		"nf-md-fruit_citrus",
+		"󱁃",
+	},
+	{
+		"nf-md-fruit_citrus_off",
+		"󱏹",
+	},
+	{
+		"nf-md-fruit_grapes",
+		"󱁄",
+	},
+	{
+		"nf-md-fruit_grapes_outline",
+		"󱁅",
+	},
+	{
+		"nf-md-fruit_pear",
+		"󱨎",
+	},
+	{
+		"nf-md-fruit_pineapple",
+		"󱁆",
+	},
+	{
+		"nf-md-fruit_watermelon",
+		"󱁇",
+	},
+	{
+		"nf-md-fuel",
+		"󰟊",
+	},
+	{
+		"nf-md-fuel_cell",
+		"󱢵",
+	},
+	{
+		"nf-md-fullscreen",
+		"󰊓",
+	},
+	{
+		"nf-md-fullscreen_exit",
+		"󰊔",
+	},
+	{
+		"nf-md-function",
+		"󰊕",
+	},
+	{
+		"nf-md-function_variant",
+		"󰡱",
+	},
+	{
+		"nf-md-furigana_horizontal",
+		"󱂁",
+	},
+	{
+		"nf-md-furigana_vertical",
+		"󱂂",
+	},
+	{
+		"nf-md-fuse",
+		"󰲅",
+	},
+	{
+		"nf-md-fuse_alert",
+		"󱐭",
+	},
+	{
+		"nf-md-fuse_blade",
+		"󰲆",
+	},
+	{
+		"nf-md-fuse_off",
+		"󱐬",
+	},
+	{
+		"nf-md-gamepad",
+		"󰊖",
+	},
+	{
+		"nf-md-gamepad_circle",
+		"󰸳",
+	},
+	{
+		"nf-md-gamepad_circle_down",
+		"󰸴",
+	},
+	{
+		"nf-md-gamepad_circle_left",
+		"󰸵",
+	},
+	{
+		"nf-md-gamepad_circle_outline",
+		"󰸶",
+	},
+	{
+		"nf-md-gamepad_circle_right",
+		"󰸷",
+	},
+	{
+		"nf-md-gamepad_circle_up",
+		"󰸸",
+	},
+	{
+		"nf-md-gamepad_down",
+		"󰸹",
+	},
+	{
+		"nf-md-gamepad_left",
+		"󰸺",
+	},
+	{
+		"nf-md-gamepad_outline",
+		"󱤙",
+	},
+	{
+		"nf-md-gamepad_right",
+		"󰸻",
+	},
+	{
+		"nf-md-gamepad_round",
+		"󰸼",
+	},
+	{
+		"nf-md-gamepad_round_down",
+		"󰸽",
+	},
+	{
+		"nf-md-gamepad_round_left",
+		"󰸾",
+	},
+	{
+		"nf-md-gamepad_round_outline",
+		"󰸿",
+	},
+	{
+		"nf-md-gamepad_round_right",
+		"󰹀",
+	},
+	{
+		"nf-md-gamepad_round_up",
+		"󰹁",
+	},
+	{
+		"nf-md-gamepad_square",
+		"󰺵",
+	},
+	{
+		"nf-md-gamepad_square_outline",
+		"󰺶",
+	},
+	{
+		"nf-md-gamepad_up",
+		"󰹂",
+	},
+	{
+		"nf-md-gamepad_variant",
+		"󰊗",
+	},
+	{
+		"nf-md-gamepad_variant_outline",
+		"󰺷",
+	},
+	{
+		"nf-md-gamma",
+		"󱃮",
+	},
+	{
+		"nf-md-gantry_crane",
+		"󰷑",
+	},
+	{
+		"nf-md-garage",
+		"󰛙",
+	},
+	{
+		"nf-md-garage_alert",
+		"󰡲",
+	},
+	{
+		"nf-md-garage_alert_variant",
+		"󱋕",
+	},
+	{
+		"nf-md-garage_lock",
+		"󱟻",
+	},
+	{
+		"nf-md-garage_open",
+		"󰛚",
+	},
+	{
+		"nf-md-garage_open_variant",
+		"󱋔",
+	},
+	{
+		"nf-md-garage_variant",
+		"󱋓",
+	},
+	{
+		"nf-md-garage_variant_lock",
+		"󱟼",
+	},
+	{
+		"nf-md-gas_burner",
+		"󱨛",
+	},
+	{
+		"nf-md-gas_cylinder",
+		"󰙇",
+	},
+	{
+		"nf-md-gas_station",
+		"󰊘",
+	},
+	{
+		"nf-md-gas_station_off",
+		"󱐉",
+	},
+	{
+		"nf-md-gas_station_off_outline",
+		"󱐊",
+	},
+	{
+		"nf-md-gas_station_outline",
+		"󰺸",
+	},
+	{
+		"nf-md-gate",
+		"󰊙",
+	},
+	{
+		"nf-md-gate_alert",
+		"󱟸",
+	},
+	{
+		"nf-md-gate_and",
+		"󰣡",
+	},
+	{
+		"nf-md-gate_arrow_left",
+		"󱟷",
+	},
+	{
+		"nf-md-gate_arrow_right",
+		"󱅩",
+	},
+	{
+		"nf-md-gate_nand",
+		"󰣢",
+	},
+	{
+		"nf-md-gate_nor",
+		"󰣣",
+	},
+	{
+		"nf-md-gate_not",
+		"󰣤",
+	},
+	{
+		"nf-md-gate_open",
+		"󱅪",
+	},
+	{
+		"nf-md-gate_or",
+		"󰣥",
+	},
+	{
+		"nf-md-gate_xnor",
+		"󰣦",
+	},
+	{
+		"nf-md-gate_xor",
+		"󰣧",
+	},
+	{
+		"nf-md-gatsby",
+		"󰹃",
+	},
+	{
+		"nf-md-gauge",
+		"󰊚",
+	},
+	{
+		"nf-md-gauge_empty",
+		"󰡳",
+	},
+	{
+		"nf-md-gauge_full",
+		"󰡴",
+	},
+	{
+		"nf-md-gauge_low",
+		"󰡵",
+	},
+	{
+		"nf-md-gavel",
+		"󰊛",
+	},
+	{
+		"nf-md-gender_female",
+		"󰊜",
+	},
+	{
+		"nf-md-gender_male",
+		"󰊝",
+	},
+	{
+		"nf-md-gender_male_female",
+		"󰊞",
+	},
+	{
+		"nf-md-gender_male_female_variant",
+		"󱄿",
+	},
+	{
+		"nf-md-gender_non_binary",
+		"󱅀",
+	},
+	{
+		"nf-md-gender_transgender",
+		"󰊟",
+	},
+	{
+		"nf-md-gentoo",
+		"󰣨",
+	},
+	{
+		"nf-md-gesture",
+		"󰟋",
+	},
+	{
+		"nf-md-gesture_double_tap",
+		"󰜼",
+	},
+	{
+		"nf-md-gesture_pinch",
+		"󰪽",
+	},
+	{
+		"nf-md-gesture_spread",
+		"󰪾",
+	},
+	{
+		"nf-md-gesture_swipe",
+		"󰵶",
+	},
+	{
+		"nf-md-gesture_swipe_down",
+		"󰜽",
+	},
+	{
+		"nf-md-gesture_swipe_horizontal",
+		"󰪿",
+	},
+	{
+		"nf-md-gesture_swipe_left",
+		"󰜾",
+	},
+	{
+		"nf-md-gesture_swipe_right",
+		"󰜿",
+	},
+	{
+		"nf-md-gesture_swipe_up",
+		"󰝀",
+	},
+	{
+		"nf-md-gesture_swipe_vertical",
+		"󰫀",
+	},
+	{
+		"nf-md-gesture_tap",
+		"󰝁",
+	},
+	{
+		"nf-md-gesture_tap_box",
+		"󱊩",
+	},
+	{
+		"nf-md-gesture_tap_button",
+		"󱊨",
+	},
+	{
+		"nf-md-gesture_tap_hold",
+		"󰵷",
+	},
+	{
+		"nf-md-gesture_two_double_tap",
+		"󰝂",
+	},
+	{
+		"nf-md-gesture_two_tap",
+		"󰝃",
+	},
+	{
+		"nf-md-ghost",
+		"󰊠",
+	},
+	{
+		"nf-md-ghost_off",
+		"󰧵",
+	},
+	{
+		"nf-md-ghost_off_outline",
+		"󱙜",
+	},
+	{
+		"nf-md-ghost_outline",
+		"󱙝",
+	},
+	{
+		"nf-md-gift",
+		"󰹄",
+	},
+	{
+		"nf-md-gift_off",
+		"󱛯",
+	},
+	{
+		"nf-md-gift_off_outline",
+		"󱛰",
+	},
+	{
+		"nf-md-gift_open",
+		"󱛱",
+	},
+	{
+		"nf-md-gift_open_outline",
+		"󱛲",
+	},
+	{
+		"nf-md-gift_outline",
+		"󰊡",
+	},
+	{
+		"nf-md-git",
+		"󰊢",
+	},
+	{
+		"nf-md-github",
+		"󰊤",
+	},
+	{
+		"nf-md-gitlab",
+		"󰮠",
+	},
+	{
+		"nf-md-glass_cocktail",
+		"󰍖",
+	},
+	{
+		"nf-md-glass_cocktail_off",
+		"󱗦",
+	},
+	{
+		"nf-md-glass_flute",
+		"󰊥",
+	},
+	{
+		"nf-md-glass_fragile",
+		"󱡳",
+	},
+	{
+		"nf-md-glass_mug",
+		"󰊦",
+	},
+	{
+		"nf-md-glass_mug_off",
+		"󱗧",
+	},
+	{
+		"nf-md-glass_mug_variant",
+		"󱄖",
+	},
+	{
+		"nf-md-glass_mug_variant_off",
+		"󱗨",
+	},
+	{
+		"nf-md-glass_pint_outline",
+		"󱌍",
+	},
+	{
+		"nf-md-glass_stange",
+		"󰊧",
+	},
+	{
+		"nf-md-glass_tulip",
+		"󰊨",
+	},
+	{
+		"nf-md-glass_wine",
+		"󰡶",
+	},
+	{
+		"nf-md-glasses",
+		"󰊪",
+	},
+	{
+		"nf-md-globe_light",
+		"󱋗",
+	},
+	{
+		"nf-md-globe_model",
+		"󰣩",
+	},
+	{
+		"nf-md-gmail",
+		"󰊫",
+	},
+	{
+		"nf-md-gnome",
+		"󰊬",
+	},
+	{
+		"nf-md-go_kart",
+		"󰵹",
+	},
+	{
+		"nf-md-go_kart_track",
+		"󰵺",
+	},
+	{
+		"nf-md-gog",
+		"󰮡",
+	},
+	{
+		"nf-md-gold",
+		"󱉏",
+	},
+	{
+		"nf-md-golf",
+		"󰠣",
+	},
+	{
+		"nf-md-golf_cart",
+		"󱆤",
+	},
+	{
+		"nf-md-golf_tee",
+		"󱂃",
+	},
+	{
+		"nf-md-gondola",
+		"󰚆",
+	},
+	{
+		"nf-md-goodreads",
+		"󰵻",
+	},
+	{
+		"nf-md-google",
+		"󰊭",
+	},
+	{
+		"nf-md-google_ads",
+		"󰲇",
+	},
+	{
+		"nf-md-google_analytics",
+		"󰟌",
+	},
+	{
+		"nf-md-google_assistant",
+		"󰟍",
+	},
+	{
+		"nf-md-google_cardboard",
+		"󰊮",
+	},
+	{
+		"nf-md-google_chrome",
+		"󰊯",
+	},
+	{
+		"nf-md-google_circles",
+		"󰊰",
+	},
+	{
+		"nf-md-google_circles_communities",
+		"󰊱",
+	},
+	{
+		"nf-md-google_circles_extended",
+		"󰊲",
+	},
+	{
+		"nf-md-google_circles_group",
+		"󰊳",
+	},
+	{
+		"nf-md-google_classroom",
+		"󰋀",
+	},
+	{
+		"nf-md-google_cloud",
+		"󱇶",
+	},
+	{
+		"nf-md-google_controller",
+		"󰊴",
+	},
+	{
+		"nf-md-google_controller_off",
+		"󰊵",
+	},
+	{
+		"nf-md-google_downasaur",
+		"󱍢",
+	},
+	{
+		"nf-md-google_drive",
+		"󰊶",
+	},
+	{
+		"nf-md-google_earth",
+		"󰊷",
+	},
+	{
+		"nf-md-google_fit",
+		"󰥬",
+	},
+	{
+		"nf-md-google_glass",
+		"󰊸",
+	},
+	{
+		"nf-md-google_hangouts",
+		"󰋉",
+	},
+	{
+		"nf-md-google_home",
+		"󰠤",
+	},
+	{
+		"nf-md-google_keep",
+		"󰛜",
+	},
+	{
+		"nf-md-google_lens",
+		"󰧶",
+	},
+	{
+		"nf-md-google_maps",
+		"󰗵",
+	},
+	{
+		"nf-md-google_my_business",
+		"󱁈",
+	},
+	{
+		"nf-md-google_nearby",
+		"󰊹",
+	},
+	{
+		"nf-md-google_play",
+		"󰊼",
+	},
+	{
+		"nf-md-google_plus",
+		"󰊽",
+	},
+	{
+		"nf-md-google_podcast",
+		"󰺹",
+	},
+	{
+		"nf-md-google_spreadsheet",
+		"󰧷",
+	},
+	{
+		"nf-md-google_street_view",
+		"󰲈",
+	},
+	{
+		"nf-md-google_translate",
+		"󰊿",
+	},
+	{
+		"nf-md-gradient_horizontal",
+		"󱝊",
+	},
+	{
+		"nf-md-gradient_vertical",
+		"󰚠",
+	},
+	{
+		"nf-md-grain",
+		"󰵼",
+	},
+	{
+		"nf-md-graph",
+		"󱁉",
+	},
+	{
+		"nf-md-graph_outline",
+		"󱁊",
+	},
+	{
+		"nf-md-graphql",
+		"󰡷",
+	},
+	{
+		"nf-md-grass",
+		"󱔐",
+	},
+	{
+		"nf-md-grave_stone",
+		"󰮢",
+	},
+	{
+		"nf-md-grease_pencil",
+		"󰙈",
+	},
+	{
+		"nf-md-greater_than",
+		"󰥭",
+	},
+	{
+		"nf-md-greater_than_or_equal",
+		"󰥮",
+	},
+	{
+		"nf-md-greenhouse",
+		"󰀭",
+	},
+	{
+		"nf-md-grid",
+		"󰋁",
+	},
+	{
+		"nf-md-grid_large",
+		"󰝘",
+	},
+	{
+		"nf-md-grid_off",
+		"󰋂",
+	},
+	{
+		"nf-md-grill",
+		"󰹅",
+	},
+	{
+		"nf-md-grill_outline",
+		"󱆊",
+	},
+	{
+		"nf-md-group",
+		"󰋃",
+	},
+	{
+		"nf-md-guitar_acoustic",
+		"󰝱",
+	},
+	{
+		"nf-md-guitar_electric",
+		"󰋄",
+	},
+	{
+		"nf-md-guitar_pick",
+		"󰋅",
+	},
+	{
+		"nf-md-guitar_pick_outline",
+		"󰋆",
+	},
+	{
+		"nf-md-guy_fawkes_mask",
+		"󰠥",
+	},
+	{
+		"nf-md-gymnastics",
+		"󱩁",
+	},
+	{
+		"nf-md-hail",
+		"󰫁",
+	},
+	{
+		"nf-md-hair_dryer",
+		"󱃯",
+	},
+	{
+		"nf-md-hair_dryer_outline",
+		"󱃰",
+	},
+	{
+		"nf-md-halloween",
+		"󰮣",
+	},
+	{
+		"nf-md-hamburger",
+		"󰚅",
+	},
+	{
+		"nf-md-hamburger_check",
+		"󱝶",
+	},
+	{
+		"nf-md-hamburger_minus",
+		"󱝷",
+	},
+	{
+		"nf-md-hamburger_off",
+		"󱝸",
+	},
+	{
+		"nf-md-hamburger_plus",
+		"󱝹",
+	},
+	{
+		"nf-md-hamburger_remove",
+		"󱝺",
+	},
+	{
+		"nf-md-hammer",
+		"󰣪",
+	},
+	{
+		"nf-md-hammer_screwdriver",
+		"󱌢",
+	},
+	{
+		"nf-md-hammer_sickle",
+		"󱢇",
+	},
+	{
+		"nf-md-hammer_wrench",
+		"󱌣",
+	},
+	{
+		"nf-md-hand_back_left",
+		"󰹆",
+	},
+	{
+		"nf-md-hand_back_left_off",
+		"󱠰",
+	},
+	{
+		"nf-md-hand_back_left_off_outline",
+		"󱠲",
+	},
+	{
+		"nf-md-hand_back_left_outline",
+		"󱠬",
+	},
+	{
+		"nf-md-hand_back_right",
+		"󰹇",
+	},
+	{
+		"nf-md-hand_back_right_off",
+		"󱠱",
+	},
+	{
+		"nf-md-hand_back_right_off_outline",
+		"󱠳",
+	},
+	{
+		"nf-md-hand_back_right_outline",
+		"󱠭",
+	},
+	{
+		"nf-md-hand_clap",
+		"󱥋",
+	},
+	{
+		"nf-md-hand_clap_off",
+		"󱩂",
+	},
+	{
+		"nf-md-hand_coin",
+		"󱢏",
+	},
+	{
+		"nf-md-hand_coin_outline",
+		"󱢐",
+	},
+	{
+		"nf-md-hand_extended",
+		"󱢶",
+	},
+	{
+		"nf-md-hand_extended_outline",
+		"󱢷",
+	},
+	{
+		"nf-md-hand_front_left",
+		"󱠫",
+	},
+	{
+		"nf-md-hand_front_left_outline",
+		"󱠮",
+	},
+	{
+		"nf-md-hand_front_right",
+		"󰩏",
+	},
+	{
+		"nf-md-hand_front_right_outline",
+		"󱠯",
+	},
+	{
+		"nf-md-hand_heart",
+		"󱃱",
+	},
+	{
+		"nf-md-hand_heart_outline",
+		"󱕾",
+	},
+	{
+		"nf-md-hand_okay",
+		"󰩐",
+	},
+	{
+		"nf-md-hand_peace",
+		"󰩑",
+	},
+	{
+		"nf-md-hand_peace_variant",
+		"󰩒",
+	},
+	{
+		"nf-md-hand_pointing_down",
+		"󰩓",
+	},
+	{
+		"nf-md-hand_pointing_left",
+		"󰩔",
+	},
+	{
+		"nf-md-hand_pointing_right",
+		"󰋇",
+	},
+	{
+		"nf-md-hand_pointing_up",
+		"󰩕",
+	},
+	{
+		"nf-md-hand_saw",
+		"󰹈",
+	},
+	{
+		"nf-md-hand_wash",
+		"󱕿",
+	},
+	{
+		"nf-md-hand_wash_outline",
+		"󱖀",
+	},
+	{
+		"nf-md-hand_water",
+		"󱎟",
+	},
+	{
+		"nf-md-hand_wave",
+		"󱠡",
+	},
+	{
+		"nf-md-hand_wave_outline",
+		"󱠢",
+	},
+	{
+		"nf-md-handball",
+		"󰽓",
+	},
+	{
+		"nf-md-handcuffs",
+		"󱄾",
+	},
+	{
+		"nf-md-hands_pray",
+		"󰕹",
+	},
+	{
+		"nf-md-handshake",
+		"󱈘",
+	},
+	{
+		"nf-md-handshake_outline",
+		"󱖡",
+	},
+	{
+		"nf-md-hanger",
+		"󰋈",
+	},
+	{
+		"nf-md-hard_hat",
+		"󰥯",
+	},
+	{
+		"nf-md-harddisk",
+		"󰋊",
+	},
+	{
+		"nf-md-harddisk_plus",
+		"󱁋",
+	},
+	{
+		"nf-md-harddisk_remove",
+		"󱁌",
+	},
+	{
+		"nf-md-hat_fedora",
+		"󰮤",
+	},
+	{
+		"nf-md-hazard_lights",
+		"󰲉",
+	},
+	{
+		"nf-md-hdr",
+		"󰵽",
+	},
+	{
+		"nf-md-hdr_off",
+		"󰵾",
+	},
+	{
+		"nf-md-head",
+		"󱍞",
+	},
+	{
+		"nf-md-head_alert",
+		"󱌸",
+	},
+	{
+		"nf-md-head_alert_outline",
+		"󱌹",
+	},
+	{
+		"nf-md-head_check",
+		"󱌺",
+	},
+	{
+		"nf-md-head_check_outline",
+		"󱌻",
+	},
+	{
+		"nf-md-head_cog",
+		"󱌼",
+	},
+	{
+		"nf-md-head_cog_outline",
+		"󱌽",
+	},
+	{
+		"nf-md-head_dots_horizontal",
+		"󱌾",
+	},
+	{
+		"nf-md-head_dots_horizontal_outline",
+		"󱌿",
+	},
+	{
+		"nf-md-head_flash",
+		"󱍀",
+	},
+	{
+		"nf-md-head_flash_outline",
+		"󱍁",
+	},
+	{
+		"nf-md-head_heart",
+		"󱍂",
+	},
+	{
+		"nf-md-head_heart_outline",
+		"󱍃",
+	},
+	{
+		"nf-md-head_lightbulb",
+		"󱍄",
+	},
+	{
+		"nf-md-head_lightbulb_outline",
+		"󱍅",
+	},
+	{
+		"nf-md-head_minus",
+		"󱍆",
+	},
+	{
+		"nf-md-head_minus_outline",
+		"󱍇",
+	},
+	{
+		"nf-md-head_outline",
+		"󱍟",
+	},
+	{
+		"nf-md-head_plus",
+		"󱍈",
+	},
+	{
+		"nf-md-head_plus_outline",
+		"󱍉",
+	},
+	{
+		"nf-md-head_question",
+		"󱍊",
+	},
+	{
+		"nf-md-head_question_outline",
+		"󱍋",
+	},
+	{
+		"nf-md-head_remove",
+		"󱍌",
+	},
+	{
+		"nf-md-head_remove_outline",
+		"󱍍",
+	},
+	{
+		"nf-md-head_snowflake",
+		"󱍎",
+	},
+	{
+		"nf-md-head_snowflake_outline",
+		"󱍏",
+	},
+	{
+		"nf-md-head_sync",
+		"󱍐",
+	},
+	{
+		"nf-md-head_sync_outline",
+		"󱍑",
+	},
+	{
+		"nf-md-headphones",
+		"󰋋",
+	},
+	{
+		"nf-md-headphones_bluetooth",
+		"󰥰",
+	},
+	{
+		"nf-md-headphones_box",
+		"󰋌",
+	},
+	{
+		"nf-md-headphones_off",
+		"󰟎",
+	},
+	{
+		"nf-md-headphones_settings",
+		"󰋍",
+	},
+	{
+		"nf-md-headset",
+		"󰋎",
+	},
+	{
+		"nf-md-headset_dock",
+		"󰋏",
+	},
+	{
+		"nf-md-headset_off",
+		"󰋐",
+	},
+	{
+		"nf-md-heart",
+		"󰣐",
+	},
+	{
+		"nf-md-heart_box",
+		"󰋒",
+	},
+	{
+		"nf-md-heart_box_outline",
+		"󰋓",
+	},
+	{
+		"nf-md-heart_broken",
+		"󰋔",
+	},
+	{
+		"nf-md-heart_broken_outline",
+		"󰴔",
+	},
+	{
+		"nf-md-heart_circle",
+		"󰥱",
+	},
+	{
+		"nf-md-heart_circle_outline",
+		"󰥲",
+	},
+	{
+		"nf-md-heart_cog",
+		"󱙣",
+	},
+	{
+		"nf-md-heart_cog_outline",
+		"󱙤",
+	},
+	{
+		"nf-md-heart_flash",
+		"󰻹",
+	},
+	{
+		"nf-md-heart_half",
+		"󰛟",
+	},
+	{
+		"nf-md-heart_half_full",
+		"󰛞",
+	},
+	{
+		"nf-md-heart_half_outline",
+		"󰛠",
+	},
+	{
+		"nf-md-heart_minus",
+		"󱐯",
+	},
+	{
+		"nf-md-heart_minus_outline",
+		"󱐲",
+	},
+	{
+		"nf-md-heart_multiple",
+		"󰩖",
+	},
+	{
+		"nf-md-heart_multiple_outline",
+		"󰩗",
+	},
+	{
+		"nf-md-heart_off",
+		"󰝙",
+	},
+	{
+		"nf-md-heart_off_outline",
+		"󱐴",
+	},
+	{
+		"nf-md-heart_outline",
+		"󱢠",
+	},
+	{
+		"nf-md-heart_plus",
+		"󱐮",
+	},
+	{
+		"nf-md-heart_plus_outline",
+		"󱐱",
+	},
+	{
+		"nf-md-heart_pulse",
+		"󰗶",
+	},
+	{
+		"nf-md-heart_remove",
+		"󱐰",
+	},
+	{
+		"nf-md-heart_remove_outline",
+		"󱐳",
+	},
+	{
+		"nf-md-heart_settings",
+		"󱙥",
+	},
+	{
+		"nf-md-heart_settings_outline",
+		"󱙦",
+	},
+	{
+		"nf-md-heat_pump",
+		"󱩃",
+	},
+	{
+		"nf-md-heat_pump_outline",
+		"󱩄",
+	},
+	{
+		"nf-md-heat_wave",
+		"󱩅",
+	},
+	{
+		"nf-md-heating_coil",
+		"󱪯",
+	},
+	{
+		"nf-md-helicopter",
+		"󰫂",
+	},
+	{
+		"nf-md-help",
+		"󰋖",
+	},
+	{
+		"nf-md-help_box",
+		"󰞋",
+	},
+	{
+		"nf-md-help_circle",
+		"󰋗",
+	},
+	{
+		"nf-md-help_circle_outline",
+		"󰘥",
+	},
+	{
+		"nf-md-help_network",
+		"󰛵",
+	},
+	{
+		"nf-md-help_network_outline",
+		"󰲊",
+	},
+	{
+		"nf-md-help_rhombus",
+		"󰮥",
+	},
+	{
+		"nf-md-help_rhombus_outline",
+		"󰮦",
+	},
+	{
+		"nf-md-hexadecimal",
+		"󱊧",
+	},
+	{
+		"nf-md-hexagon",
+		"󰋘",
+	},
+	{
+		"nf-md-hexagon_multiple",
+		"󰛡",
+	},
+	{
+		"nf-md-hexagon_multiple_outline",
+		"󱃲",
+	},
+	{
+		"nf-md-hexagon_outline",
+		"󰋙",
+	},
+	{
+		"nf-md-hexagon_slice_1",
+		"󰫃",
+	},
+	{
+		"nf-md-hexagon_slice_2",
+		"󰫄",
+	},
+	{
+		"nf-md-hexagon_slice_3",
+		"󰫅",
+	},
+	{
+		"nf-md-hexagon_slice_4",
+		"󰫆",
+	},
+	{
+		"nf-md-hexagon_slice_5",
+		"󰫇",
+	},
+	{
+		"nf-md-hexagon_slice_6",
+		"󰫈",
+	},
+	{
+		"nf-md-hexagram",
+		"󰫉",
+	},
+	{
+		"nf-md-hexagram_outline",
+		"󰫊",
+	},
+	{
+		"nf-md-high_definition",
+		"󰟏",
+	},
+	{
+		"nf-md-high_definition_box",
+		"󰡸",
+	},
+	{
+		"nf-md-highway",
+		"󰗷",
+	},
+	{
+		"nf-md-hiking",
+		"󰵿",
+	},
+	{
+		"nf-md-history",
+		"󰋚",
+	},
+	{
+		"nf-md-hockey_puck",
+		"󰡹",
+	},
+	{
+		"nf-md-hockey_sticks",
+		"󰡺",
+	},
+	{
+		"nf-md-hololens",
+		"󰋛",
+	},
+	{
+		"nf-md-home",
+		"󰋜",
+	},
+	{
+		"nf-md-home_account",
+		"󰠦",
+	},
+	{
+		"nf-md-home_alert",
+		"󰡻",
+	},
+	{
+		"nf-md-home_alert_outline",
+		"󱗐",
+	},
+	{
+		"nf-md-home_analytics",
+		"󰺺",
+	},
+	{
+		"nf-md-home_assistant",
+		"󰟐",
+	},
+	{
+		"nf-md-home_automation",
+		"󰟑",
+	},
+	{
+		"nf-md-home_battery",
+		"󱤁",
+	},
+	{
+		"nf-md-home_battery_outline",
+		"󱤂",
+	},
+	{
+		"nf-md-home_circle",
+		"󰟒",
+	},
+	{
+		"nf-md-home_circle_outline",
+		"󱁍",
+	},
+	{
+		"nf-md-home_city",
+		"󰴕",
+	},
+	{
+		"nf-md-home_city_outline",
+		"󰴖",
+	},
+	{
+		"nf-md-home_clock",
+		"󱨒",
+	},
+	{
+		"nf-md-home_clock_outline",
+		"󱨓",
+	},
+	{
+		"nf-md-home_edit",
+		"󱅙",
+	},
+	{
+		"nf-md-home_edit_outline",
+		"󱅚",
+	},
+	{
+		"nf-md-home_export_outline",
+		"󰾛",
+	},
+	{
+		"nf-md-home_flood",
+		"󰻺",
+	},
+	{
+		"nf-md-home_floor_0",
+		"󰷒",
+	},
+	{
+		"nf-md-home_floor_1",
+		"󰶀",
+	},
+	{
+		"nf-md-home_floor_2",
+		"󰶁",
+	},
+	{
+		"nf-md-home_floor_3",
+		"󰶂",
+	},
+	{
+		"nf-md-home_floor_a",
+		"󰶃",
+	},
+	{
+		"nf-md-home_floor_b",
+		"󰶄",
+	},
+	{
+		"nf-md-home_floor_g",
+		"󰶅",
+	},
+	{
+		"nf-md-home_floor_l",
+		"󰶆",
+	},
+	{
+		"nf-md-home_floor_negative_1",
+		"󰷓",
+	},
+	{
+		"nf-md-home_group",
+		"󰷔",
+	},
+	{
+		"nf-md-home_group_minus",
+		"󱧁",
+	},
+	{
+		"nf-md-home_group_plus",
+		"󱧀",
+	},
+	{
+		"nf-md-home_group_remove",
+		"󱧂",
+	},
+	{
+		"nf-md-home_heart",
+		"󰠧",
+	},
+	{
+		"nf-md-home_import_outline",
+		"󰾜",
+	},
+	{
+		"nf-md-home_lightbulb",
+		"󱉑",
+	},
+	{
+		"nf-md-home_lightbulb_outline",
+		"󱉒",
+	},
+	{
+		"nf-md-home_lightning_bolt",
+		"󱤃",
+	},
+	{
+		"nf-md-home_lightning_bolt_outline",
+		"󱤄",
+	},
+	{
+		"nf-md-home_lock",
+		"󰣫",
+	},
+	{
+		"nf-md-home_lock_open",
+		"󰣬",
+	},
+	{
+		"nf-md-home_map_marker",
+		"󰗸",
+	},
+	{
+		"nf-md-home_minus",
+		"󰥴",
+	},
+	{
+		"nf-md-home_minus_outline",
+		"󱏕",
+	},
+	{
+		"nf-md-home_modern",
+		"󰋝",
+	},
+	{
+		"nf-md-home_off",
+		"󱩆",
+	},
+	{
+		"nf-md-home_off_outline",
+		"󱩇",
+	},
+	{
+		"nf-md-home_outline",
+		"󰚡",
+	},
+	{
+		"nf-md-home_plus",
+		"󰥵",
+	},
+	{
+		"nf-md-home_plus_outline",
+		"󱏖",
+	},
+	{
+		"nf-md-home_remove",
+		"󱉇",
+	},
+	{
+		"nf-md-home_remove_outline",
+		"󱏗",
+	},
+	{
+		"nf-md-home_roof",
+		"󱄫",
+	},
+	{
+		"nf-md-home_search",
+		"󱎰",
+	},
+	{
+		"nf-md-home_search_outline",
+		"󱎱",
+	},
+	{
+		"nf-md-home_switch",
+		"󱞔",
+	},
+	{
+		"nf-md-home_switch_outline",
+		"󱞕",
+	},
+	{
+		"nf-md-home_thermometer",
+		"󰽔",
+	},
+	{
+		"nf-md-home_thermometer_outline",
+		"󰽕",
+	},
+	{
+		"nf-md-home_variant",
+		"󰋞",
+	},
+	{
+		"nf-md-home_variant_outline",
+		"󰮧",
+	},
+	{
+		"nf-md-hook",
+		"󰛢",
+	},
+	{
+		"nf-md-hook_off",
+		"󰛣",
+	},
+	{
+		"nf-md-hoop_house",
+		"󰹖",
+	},
+	{
+		"nf-md-hops",
+		"󰋟",
+	},
+	{
+		"nf-md-horizontal_rotate_clockwise",
+		"󱃳",
+	},
+	{
+		"nf-md-horizontal_rotate_counterclockwise",
+		"󱃴",
+	},
+	{
+		"nf-md-horse",
+		"󱖿",
+	},
+	{
+		"nf-md-horse_human",
+		"󱗀",
+	},
+	{
+		"nf-md-horse_variant",
+		"󱗁",
+	},
+	{
+		"nf-md-horse_variant_fast",
+		"󱡮",
+	},
+	{
+		"nf-md-horseshoe",
+		"󰩘",
+	},
+	{
+		"nf-md-hospital",
+		"󰿶",
+	},
+	{
+		"nf-md-hospital_box",
+		"󰋠",
+	},
+	{
+		"nf-md-hospital_box_outline",
+		"󰿷",
+	},
+	{
+		"nf-md-hospital_building",
+		"󰋡",
+	},
+	{
+		"nf-md-hospital_marker",
+		"󰋢",
+	},
+	{
+		"nf-md-hot_tub",
+		"󰠨",
+	},
+	{
+		"nf-md-hours_24",
+		"󱑸",
+	},
+	{
+		"nf-md-hubspot",
+		"󰴗",
+	},
+	{
+		"nf-md-hulu",
+		"󰠩",
+	},
+	{
+		"nf-md-human",
+		"󰋦",
+	},
+	{
+		"nf-md-human_baby_changing_table",
+		"󱎋",
+	},
+	{
+		"nf-md-human_cane",
+		"󱖁",
+	},
+	{
+		"nf-md-human_capacity_decrease",
+		"󱖛",
+	},
+	{
+		"nf-md-human_capacity_increase",
+		"󱖜",
+	},
+	{
+		"nf-md-human_child",
+		"󰋧",
+	},
+	{
+		"nf-md-human_dolly",
+		"󱦀",
+	},
+	{
+		"nf-md-human_edit",
+		"󱓨",
+	},
+	{
+		"nf-md-human_female",
+		"󰙉",
+	},
+	{
+		"nf-md-human_female_boy",
+		"󰩙",
+	},
+	{
+		"nf-md-human_female_dance",
+		"󱗉",
+	},
+	{
+		"nf-md-human_female_female",
+		"󰩚",
+	},
+	{
+		"nf-md-human_female_girl",
+		"󰩛",
+	},
+	{
+		"nf-md-human_greeting",
+		"󱟄",
+	},
+	{
+		"nf-md-human_greeting_proximity",
+		"󱖝",
+	},
+	{
+		"nf-md-human_greeting_variant",
+		"󰙊",
+	},
+	{
+		"nf-md-human_handsdown",
+		"󰙋",
+	},
+	{
+		"nf-md-human_handsup",
+		"󰙌",
+	},
+	{
+		"nf-md-human_male",
+		"󰙍",
+	},
+	{
+		"nf-md-human_male_board",
+		"󰢐",
+	},
+	{
+		"nf-md-human_male_board_poll",
+		"󰡆",
+	},
+	{
+		"nf-md-human_male_boy",
+		"󰩜",
+	},
+	{
+		"nf-md-human_male_child",
+		"󱎌",
+	},
+	{
+		"nf-md-human_male_female",
+		"󰋨",
+	},
+	{
+		"nf-md-human_male_female_child",
+		"󱠣",
+	},
+	{
+		"nf-md-human_male_girl",
+		"󰩝",
+	},
+	{
+		"nf-md-human_male_height",
+		"󰻻",
+	},
+	{
+		"nf-md-human_male_height_variant",
+		"󰻼",
+	},
+	{
+		"nf-md-human_male_male",
+		"󰩞",
+	},
+	{
+		"nf-md-human_non_binary",
+		"󱡈",
+	},
+	{
+		"nf-md-human_pregnant",
+		"󰗏",
+	},
+	{
+		"nf-md-human_queue",
+		"󱕱",
+	},
+	{
+		"nf-md-human_scooter",
+		"󱇩",
+	},
+	{
+		"nf-md-human_wheelchair",
+		"󱎍",
+	},
+	{
+		"nf-md-human_white_cane",
+		"󱦁",
+	},
+	{
+		"nf-md-humble_bundle",
+		"󰝄",
+	},
+	{
+		"nf-md-hvac",
+		"󱍒",
+	},
+	{
+		"nf-md-hvac_off",
+		"󱖞",
+	},
+	{
+		"nf-md-hydraulic_oil_level",
+		"󱌤",
+	},
+	{
+		"nf-md-hydraulic_oil_temperature",
+		"󱌥",
+	},
+	{
+		"nf-md-hydro_power",
+		"󱋥",
+	},
+	{
+		"nf-md-hydrogen_station",
+		"󱢔",
+	},
+	{
+		"nf-md-ice_cream",
+		"󰠪",
+	},
+	{
+		"nf-md-ice_cream_off",
+		"󰹒",
+	},
+	{
+		"nf-md-ice_pop",
+		"󰻽",
+	},
+	{
+		"nf-md-id_card",
+		"󰿀",
+	},
+	{
+		"nf-md-identifier",
+		"󰻾",
+	},
+	{
+		"nf-md-ideogram_cjk",
+		"󱌱",
+	},
+	{
+		"nf-md-ideogram_cjk_variant",
+		"󱌲",
+	},
+	{
+		"nf-md-image",
+		"󰋩",
+	},
+	{
+		"nf-md-image_album",
+		"󰋪",
+	},
+	{
+		"nf-md-image_area",
+		"󰋫",
+	},
+	{
+		"nf-md-image_area_close",
+		"󰋬",
+	},
+	{
+		"nf-md-image_auto_adjust",
+		"󰿁",
+	},
+	{
+		"nf-md-image_broken",
+		"󰋭",
+	},
+	{
+		"nf-md-image_broken_variant",
+		"󰋮",
+	},
+	{
+		"nf-md-image_edit",
+		"󱇣",
+	},
+	{
+		"nf-md-image_edit_outline",
+		"󱇤",
+	},
+	{
+		"nf-md-image_filter_black_white",
+		"󰋰",
+	},
+	{
+		"nf-md-image_filter_center_focus",
+		"󰋱",
+	},
+	{
+		"nf-md-image_filter_center_focus_strong",
+		"󰻿",
+	},
+	{
+		"nf-md-image_filter_center_focus_strong_outline",
+		"󰼀",
+	},
+	{
+		"nf-md-image_filter_center_focus_weak",
+		"󰋲",
+	},
+	{
+		"nf-md-image_filter_drama",
+		"󰋳",
+	},
+	{
+		"nf-md-image_filter_frames",
+		"󰋴",
+	},
+	{
+		"nf-md-image_filter_hdr",
+		"󰔉",
+	},
+	{
+		"nf-md-image_filter_none",
+		"󰋶",
+	},
+	{
+		"nf-md-image_filter_tilt_shift",
+		"󰋷",
+	},
+	{
+		"nf-md-image_filter_vintage",
+		"󰋸",
+	},
+	{
+		"nf-md-image_frame",
+		"󰹉",
+	},
+	{
+		"nf-md-image_lock",
+		"󱪰",
+	},
+	{
+		"nf-md-image_lock_outline",
+		"󱪱",
+	},
+	{
+		"nf-md-image_marker",
+		"󱝻",
+	},
+	{
+		"nf-md-image_marker_outline",
+		"󱝼",
+	},
+	{
+		"nf-md-image_minus",
+		"󱐙",
+	},
+	{
+		"nf-md-image_move",
+		"󰧸",
+	},
+	{
+		"nf-md-image_multiple",
+		"󰋹",
+	},
+	{
+		"nf-md-image_multiple_outline",
+		"󰋯",
+	},
+	{
+		"nf-md-image_off",
+		"󰠫",
+	},
+	{
+		"nf-md-image_off_outline",
+		"󱇑",
+	},
+	{
+		"nf-md-image_outline",
+		"󰥶",
+	},
+	{
+		"nf-md-image_plus",
+		"󰡼",
+	},
+	{
+		"nf-md-image_refresh",
+		"󱧾",
+	},
+	{
+		"nf-md-image_refresh_outline",
+		"󱧿",
+	},
+	{
+		"nf-md-image_remove",
+		"󱐘",
+	},
+	{
+		"nf-md-image_search",
+		"󰥷",
+	},
+	{
+		"nf-md-image_search_outline",
+		"󰥸",
+	},
+	{
+		"nf-md-image_size_select_actual",
+		"󰲍",
+	},
+	{
+		"nf-md-image_size_select_large",
+		"󰲎",
+	},
+	{
+		"nf-md-image_size_select_small",
+		"󰲏",
+	},
+	{
+		"nf-md-image_sync",
+		"󱨀",
+	},
+	{
+		"nf-md-image_sync_outline",
+		"󱨁",
+	},
+	{
+		"nf-md-image_text",
+		"󱘍",
+	},
+	{
+		"nf-md-import",
+		"󰋺",
+	},
+	{
+		"nf-md-inbox",
+		"󰚇",
+	},
+	{
+		"nf-md-inbox_arrow_down",
+		"󰋻",
+	},
+	{
+		"nf-md-inbox_arrow_down_outline",
+		"󱉰",
+	},
+	{
+		"nf-md-inbox_arrow_up",
+		"󰏑",
+	},
+	{
+		"nf-md-inbox_arrow_up_outline",
+		"󱉱",
+	},
+	{
+		"nf-md-inbox_full",
+		"󱉲",
+	},
+	{
+		"nf-md-inbox_full_outline",
+		"󱉳",
+	},
+	{
+		"nf-md-inbox_multiple",
+		"󰢰",
+	},
+	{
+		"nf-md-inbox_multiple_outline",
+		"󰮨",
+	},
+	{
+		"nf-md-inbox_outline",
+		"󱉴",
+	},
+	{
+		"nf-md-inbox_remove",
+		"󱖟",
+	},
+	{
+		"nf-md-inbox_remove_outline",
+		"󱖠",
+	},
+	{
+		"nf-md-incognito",
+		"󰗹",
+	},
+	{
+		"nf-md-incognito_circle",
+		"󱐡",
+	},
+	{
+		"nf-md-incognito_circle_off",
+		"󱐢",
+	},
+	{
+		"nf-md-incognito_off",
+		"󰁵",
+	},
+	{
+		"nf-md-induction",
+		"󱡌",
+	},
+	{
+		"nf-md-infinity",
+		"󰛤",
+	},
+	{
+		"nf-md-information",
+		"󰋼",
+	},
+	{
+		"nf-md-information_off",
+		"󱞌",
+	},
+	{
+		"nf-md-information_off_outline",
+		"󱞍",
+	},
+	{
+		"nf-md-information_outline",
+		"󰋽",
+	},
+	{
+		"nf-md-information_variant",
+		"󰙎",
+	},
+	{
+		"nf-md-instagram",
+		"󰋾",
+	},
+	{
+		"nf-md-instrument_triangle",
+		"󱁎",
+	},
+	{
+		"nf-md-integrated_circuit_chip",
+		"󱤓",
+	},
+	{
+		"nf-md-invert_colors",
+		"󰌁",
+	},
+	{
+		"nf-md-invert_colors_off",
+		"󰹊",
+	},
+	{
+		"nf-md-iobroker",
+		"󱋨",
+	},
+	{
+		"nf-md-ip",
+		"󰩟",
+	},
+	{
+		"nf-md-ip_network",
+		"󰩠",
+	},
+	{
+		"nf-md-ip_network_outline",
+		"󰲐",
+	},
+	{
+		"nf-md-ip_outline",
+		"󱦂",
+	},
+	{
+		"nf-md-ipod",
+		"󰲑",
+	},
+	{
+		"nf-md-iron",
+		"󱠤",
+	},
+	{
+		"nf-md-iron_board",
+		"󱠸",
+	},
+	{
+		"nf-md-iron_outline",
+		"󱠥",
+	},
+	{
+		"nf-md-island",
+		"󱁏",
+	},
+	{
+		"nf-md-iv_bag",
+		"󱂹",
+	},
+	{
+		"nf-md-jabber",
+		"󰷕",
+	},
+	{
+		"nf-md-jeepney",
+		"󰌂",
+	},
+	{
+		"nf-md-jellyfish",
+		"󰼁",
+	},
+	{
+		"nf-md-jellyfish_outline",
+		"󰼂",
+	},
+	{
+		"nf-md-jira",
+		"󰌃",
+	},
+	{
+		"nf-md-jquery",
+		"󰡽",
+	},
+	{
+		"nf-md-jsfiddle",
+		"󰌄",
+	},
+	{
+		"nf-md-jump_rope",
+		"󱋿",
+	},
+	{
+		"nf-md-kabaddi",
+		"󰶇",
+	},
+	{
+		"nf-md-kangaroo",
+		"󱕘",
+	},
+	{
+		"nf-md-karate",
+		"󰠬",
+	},
+	{
+		"nf-md-kayaking",
+		"󰢯",
+	},
+	{
+		"nf-md-keg",
+		"󰌅",
+	},
+	{
+		"nf-md-kettle",
+		"󰗺",
+	},
+	{
+		"nf-md-kettle_alert",
+		"󱌗",
+	},
+	{
+		"nf-md-kettle_alert_outline",
+		"󱌘",
+	},
+	{
+		"nf-md-kettle_off",
+		"󱌛",
+	},
+	{
+		"nf-md-kettle_off_outline",
+		"󱌜",
+	},
+	{
+		"nf-md-kettle_outline",
+		"󰽖",
+	},
+	{
+		"nf-md-kettle_pour_over",
+		"󱜼",
+	},
+	{
+		"nf-md-kettle_steam",
+		"󱌙",
+	},
+	{
+		"nf-md-kettle_steam_outline",
+		"󱌚",
+	},
+	{
+		"nf-md-kettlebell",
+		"󱌀",
+	},
+	{
+		"nf-md-key",
+		"󰌆",
+	},
+	{
+		"nf-md-key_alert",
+		"󱦃",
+	},
+	{
+		"nf-md-key_alert_outline",
+		"󱦄",
+	},
+	{
+		"nf-md-key_arrow_right",
+		"󱌒",
+	},
+	{
+		"nf-md-key_chain",
+		"󱕴",
+	},
+	{
+		"nf-md-key_chain_variant",
+		"󱕵",
+	},
+	{
+		"nf-md-key_change",
+		"󰌇",
+	},
+	{
+		"nf-md-key_link",
+		"󱆟",
+	},
+	{
+		"nf-md-key_minus",
+		"󰌈",
+	},
+	{
+		"nf-md-key_outline",
+		"󰷖",
+	},
+	{
+		"nf-md-key_plus",
+		"󰌉",
+	},
+	{
+		"nf-md-key_remove",
+		"󰌊",
+	},
+	{
+		"nf-md-key_star",
+		"󱆞",
+	},
+	{
+		"nf-md-key_variant",
+		"󰌋",
+	},
+	{
+		"nf-md-key_wireless",
+		"󰿂",
+	},
+	{
+		"nf-md-keyboard",
+		"󰌌",
+	},
+	{
+		"nf-md-keyboard_backspace",
+		"󰌍",
+	},
+	{
+		"nf-md-keyboard_caps",
+		"󰌎",
+	},
+	{
+		"nf-md-keyboard_close",
+		"󰌏",
+	},
+	{
+		"nf-md-keyboard_esc",
+		"󱊷",
+	},
+	{
+		"nf-md-keyboard_f1",
+		"󱊫",
+	},
+	{
+		"nf-md-keyboard_f10",
+		"󱊴",
+	},
+	{
+		"nf-md-keyboard_f11",
+		"󱊵",
+	},
+	{
+		"nf-md-keyboard_f12",
+		"󱊶",
+	},
+	{
+		"nf-md-keyboard_f2",
+		"󱊬",
+	},
+	{
+		"nf-md-keyboard_f3",
+		"󱊭",
+	},
+	{
+		"nf-md-keyboard_f4",
+		"󱊮",
+	},
+	{
+		"nf-md-keyboard_f5",
+		"󱊯",
+	},
+	{
+		"nf-md-keyboard_f6",
+		"󱊰",
+	},
+	{
+		"nf-md-keyboard_f7",
+		"󱊱",
+	},
+	{
+		"nf-md-keyboard_f8",
+		"󱊲",
+	},
+	{
+		"nf-md-keyboard_f9",
+		"󱊳",
+	},
+	{
+		"nf-md-keyboard_off",
+		"󰌐",
+	},
+	{
+		"nf-md-keyboard_off_outline",
+		"󰹋",
+	},
+	{
+		"nf-md-keyboard_outline",
+		"󰥻",
+	},
+	{
+		"nf-md-keyboard_return",
+		"󰌑",
+	},
+	{
+		"nf-md-keyboard_settings",
+		"󰧹",
+	},
+	{
+		"nf-md-keyboard_settings_outline",
+		"󰧺",
+	},
+	{
+		"nf-md-keyboard_space",
+		"󱁐",
+	},
+	{
+		"nf-md-keyboard_tab",
+		"󰌒",
+	},
+	{
+		"nf-md-keyboard_tab_reverse",
+		"󰌥",
+	},
+	{
+		"nf-md-keyboard_variant",
+		"󰌓",
+	},
+	{
+		"nf-md-khanda",
+		"󱃽",
+	},
+	{
+		"nf-md-kickstarter",
+		"󰝅",
+	},
+	{
+		"nf-md-kite",
+		"󱦅",
+	},
+	{
+		"nf-md-kite_outline",
+		"󱦆",
+	},
+	{
+		"nf-md-kitesurfing",
+		"󱝄",
+	},
+	{
+		"nf-md-klingon",
+		"󱍛",
+	},
+	{
+		"nf-md-knife",
+		"󰧻",
+	},
+	{
+		"nf-md-knife_military",
+		"󰧼",
+	},
+	{
+		"nf-md-koala",
+		"󱜿",
+	},
+	{
+		"nf-md-kodi",
+		"󰌔",
+	},
+	{
+		"nf-md-kubernetes",
+		"󱃾",
+	},
+	{
+		"nf-md-label",
+		"󰌕",
+	},
+	{
+		"nf-md-label_multiple",
+		"󱍵",
+	},
+	{
+		"nf-md-label_multiple_outline",
+		"󱍶",
+	},
+	{
+		"nf-md-label_off",
+		"󰫋",
+	},
+	{
+		"nf-md-label_off_outline",
+		"󰫌",
+	},
+	{
+		"nf-md-label_outline",
+		"󰌖",
+	},
+	{
+		"nf-md-label_percent",
+		"󱋪",
+	},
+	{
+		"nf-md-label_percent_outline",
+		"󱋫",
+	},
+	{
+		"nf-md-label_variant",
+		"󰫍",
+	},
+	{
+		"nf-md-label_variant_outline",
+		"󰫎",
+	},
+	{
+		"nf-md-ladder",
+		"󱖢",
+	},
+	{
+		"nf-md-ladybug",
+		"󰠭",
+	},
+	{
+		"nf-md-lambda",
+		"󰘧",
+	},
+	{
+		"nf-md-lamp",
+		"󰚵",
+	},
+	{
+		"nf-md-lamp_outline",
+		"󱟐",
+	},
+	{
+		"nf-md-lamps",
+		"󱕶",
+	},
+	{
+		"nf-md-lamps_outline",
+		"󱟑",
+	},
+	{
+		"nf-md-lan",
+		"󰌗",
+	},
+	{
+		"nf-md-lan_check",
+		"󱊪",
+	},
+	{
+		"nf-md-lan_connect",
+		"󰌘",
+	},
+	{
+		"nf-md-lan_disconnect",
+		"󰌙",
+	},
+	{
+		"nf-md-lan_pending",
+		"󰌚",
+	},
+	{
+		"nf-md-land_fields",
+		"󱪲",
+	},
+	{
+		"nf-md-land_plots",
+		"󱪳",
+	},
+	{
+		"nf-md-land_plots_circle",
+		"󱪴",
+	},
+	{
+		"nf-md-land_plots_circle_variant",
+		"󱪵",
+	},
+	{
+		"nf-md-land_rows_horizontal",
+		"󱪶",
+	},
+	{
+		"nf-md-land_rows_vertical",
+		"󱪷",
+	},
+	{
+		"nf-md-landslide",
+		"󱩈",
+	},
+	{
+		"nf-md-landslide_outline",
+		"󱩉",
+	},
+	{
+		"nf-md-language_c",
+		"󰙱",
+	},
+	{
+		"nf-md-language_cpp",
+		"󰙲",
+	},
+	{
+		"nf-md-language_csharp",
+		"󰌛",
+	},
+	{
+		"nf-md-language_css3",
+		"󰌜",
+	},
+	{
+		"nf-md-language_fortran",
+		"󱈚",
+	},
+	{
+		"nf-md-language_go",
+		"󰟓",
+	},
+	{
+		"nf-md-language_haskell",
+		"󰲒",
+	},
+	{
+		"nf-md-language_html5",
+		"󰌝",
+	},
+	{
+		"nf-md-language_java",
+		"󰬷",
+	},
+	{
+		"nf-md-language_javascript",
+		"󰌞",
+	},
+	{
+		"nf-md-language_kotlin",
+		"󱈙",
+	},
+	{
+		"nf-md-language_lua",
+		"󰢱",
+	},
+	{
+		"nf-md-language_markdown",
+		"󰍔",
+	},
+	{
+		"nf-md-language_markdown_outline",
+		"󰽛",
+	},
+	{
+		"nf-md-language_php",
+		"󰌟",
+	},
+	{
+		"nf-md-language_python",
+		"󰌠",
+	},
+	{
+		"nf-md-language_r",
+		"󰟔",
+	},
+	{
+		"nf-md-language_ruby",
+		"󰴭",
+	},
+	{
+		"nf-md-language_ruby_on_rails",
+		"󰫏",
+	},
+	{
+		"nf-md-language_rust",
+		"󱘗",
+	},
+	{
+		"nf-md-language_swift",
+		"󰛥",
+	},
+	{
+		"nf-md-language_typescript",
+		"󰛦",
+	},
+	{
+		"nf-md-language_xaml",
+		"󰙳",
+	},
+	{
+		"nf-md-laptop",
+		"󰌢",
+	},
+	{
+		"nf-md-laptop_account",
+		"󱩊",
+	},
+	{
+		"nf-md-laptop_off",
+		"󰛧",
+	},
+	{
+		"nf-md-laravel",
+		"󰫐",
+	},
+	{
+		"nf-md-laser_pointer",
+		"󱒄",
+	},
+	{
+		"nf-md-lasso",
+		"󰼃",
+	},
+	{
+		"nf-md-lastpass",
+		"󰑆",
+	},
+	{
+		"nf-md-latitude",
+		"󰽗",
+	},
+	{
+		"nf-md-launch",
+		"󰌧",
+	},
+	{
+		"nf-md-lava_lamp",
+		"󰟕",
+	},
+	{
+		"nf-md-layers",
+		"󰌨",
+	},
+	{
+		"nf-md-layers_edit",
+		"󱢒",
+	},
+	{
+		"nf-md-layers_minus",
+		"󰹌",
+	},
+	{
+		"nf-md-layers_off",
+		"󰌩",
+	},
+	{
+		"nf-md-layers_off_outline",
+		"󰧽",
+	},
+	{
+		"nf-md-layers_outline",
+		"󰧾",
+	},
+	{
+		"nf-md-layers_plus",
+		"󰹍",
+	},
+	{
+		"nf-md-layers_remove",
+		"󰹎",
+	},
+	{
+		"nf-md-layers_search",
+		"󱈆",
+	},
+	{
+		"nf-md-layers_search_outline",
+		"󱈇",
+	},
+	{
+		"nf-md-layers_triple",
+		"󰽘",
+	},
+	{
+		"nf-md-layers_triple_outline",
+		"󰽙",
+	},
+	{
+		"nf-md-lead_pencil",
+		"󰙏",
+	},
+	{
+		"nf-md-leaf",
+		"󰌪",
+	},
+	{
+		"nf-md-leaf_circle",
+		"󱤅",
+	},
+	{
+		"nf-md-leaf_circle_outline",
+		"󱤆",
+	},
+	{
+		"nf-md-leaf_maple",
+		"󰲓",
+	},
+	{
+		"nf-md-leaf_maple_off",
+		"󱋚",
+	},
+	{
+		"nf-md-leaf_off",
+		"󱋙",
+	},
+	{
+		"nf-md-leak",
+		"󰷗",
+	},
+	{
+		"nf-md-leak_off",
+		"󰷘",
+	},
+	{
+		"nf-md-lecturn",
+		"󱫰",
+	},
+	{
+		"nf-md-led_off",
+		"󰌫",
+	},
+	{
+		"nf-md-led_on",
+		"󰌬",
+	},
+	{
+		"nf-md-led_outline",
+		"󰌭",
+	},
+	{
+		"nf-md-led_strip",
+		"󰟖",
+	},
+	{
+		"nf-md-led_strip_variant",
+		"󱁑",
+	},
+	{
+		"nf-md-led_strip_variant_off",
+		"󱩋",
+	},
+	{
+		"nf-md-led_variant_off",
+		"󰌮",
+	},
+	{
+		"nf-md-led_variant_on",
+		"󰌯",
+	},
+	{
+		"nf-md-led_variant_outline",
+		"󰌰",
+	},
+	{
+		"nf-md-leek",
+		"󱅽",
+	},
+	{
+		"nf-md-less_than",
+		"󰥼",
+	},
+	{
+		"nf-md-less_than_or_equal",
+		"󰥽",
+	},
+	{
+		"nf-md-library",
+		"󰌱",
+	},
+	{
+		"nf-md-library_outline",
+		"󱨢",
+	},
+	{
+		"nf-md-library_shelves",
+		"󰮩",
+	},
+	{
+		"nf-md-license",
+		"󰿃",
+	},
+	{
+		"nf-md-lifebuoy",
+		"󰡾",
+	},
+	{
+		"nf-md-light_flood_down",
+		"󱦇",
+	},
+	{
+		"nf-md-light_flood_up",
+		"󱦈",
+	},
+	{
+		"nf-md-light_recessed",
+		"󱞛",
+	},
+	{
+		"nf-md-light_switch",
+		"󰥾",
+	},
+	{
+		"nf-md-light_switch_off",
+		"󱨤",
+	},
+	{
+		"nf-md-lightbulb",
+		"󰌵",
+	},
+	{
+		"nf-md-lightbulb_alert",
+		"󱧡",
+	},
+	{
+		"nf-md-lightbulb_alert_outline",
+		"󱧢",
+	},
+	{
+		"nf-md-lightbulb_auto",
+		"󱠀",
+	},
+	{
+		"nf-md-lightbulb_auto_outline",
+		"󱠁",
+	},
+	{
+		"nf-md-lightbulb_cfl",
+		"󱈈",
+	},
+	{
+		"nf-md-lightbulb_cfl_off",
+		"󱈉",
+	},
+	{
+		"nf-md-lightbulb_cfl_spiral",
+		"󱉵",
+	},
+	{
+		"nf-md-lightbulb_cfl_spiral_off",
+		"󱋃",
+	},
+	{
+		"nf-md-lightbulb_fluorescent_tube",
+		"󱠄",
+	},
+	{
+		"nf-md-lightbulb_fluorescent_tube_outline",
+		"󱠅",
+	},
+	{
+		"nf-md-lightbulb_group",
+		"󱉓",
+	},
+	{
+		"nf-md-lightbulb_group_off",
+		"󱋍",
+	},
+	{
+		"nf-md-lightbulb_group_off_outline",
+		"󱋎",
+	},
+	{
+		"nf-md-lightbulb_group_outline",
+		"󱉔",
+	},
+	{
+		"nf-md-lightbulb_multiple",
+		"󱉕",
+	},
+	{
+		"nf-md-lightbulb_multiple_off",
+		"󱋏",
+	},
+	{
+		"nf-md-lightbulb_multiple_off_outline",
+		"󱋐",
+	},
+	{
+		"nf-md-lightbulb_multiple_outline",
+		"󱉖",
+	},
+	{
+		"nf-md-lightbulb_night",
+		"󱩌",
+	},
+	{
+		"nf-md-lightbulb_night_outline",
+		"󱩍",
+	},
+	{
+		"nf-md-lightbulb_off",
+		"󰹏",
+	},
+	{
+		"nf-md-lightbulb_off_outline",
+		"󰹐",
+	},
+	{
+		"nf-md-lightbulb_on",
+		"󰛨",
+	},
+	{
+		"nf-md-lightbulb_on_10",
+		"󱩎",
+	},
+	{
+		"nf-md-lightbulb_on_20",
+		"󱩏",
+	},
+	{
+		"nf-md-lightbulb_on_30",
+		"󱩐",
+	},
+	{
+		"nf-md-lightbulb_on_40",
+		"󱩑",
+	},
+	{
+		"nf-md-lightbulb_on_50",
+		"󱩒",
+	},
+	{
+		"nf-md-lightbulb_on_60",
+		"󱩓",
+	},
+	{
+		"nf-md-lightbulb_on_70",
+		"󱩔",
+	},
+	{
+		"nf-md-lightbulb_on_80",
+		"󱩕",
+	},
+	{
+		"nf-md-lightbulb_on_90",
+		"󱩖",
+	},
+	{
+		"nf-md-lightbulb_on_outline",
+		"󰛩",
+	},
+	{
+		"nf-md-lightbulb_outline",
+		"󰌶",
+	},
+	{
+		"nf-md-lightbulb_question",
+		"󱧣",
+	},
+	{
+		"nf-md-lightbulb_question_outline",
+		"󱧤",
+	},
+	{
+		"nf-md-lightbulb_spot",
+		"󱟴",
+	},
+	{
+		"nf-md-lightbulb_spot_off",
+		"󱟵",
+	},
+	{
+		"nf-md-lightbulb_variant",
+		"󱠂",
+	},
+	{
+		"nf-md-lightbulb_variant_outline",
+		"󱠃",
+	},
+	{
+		"nf-md-lighthouse",
+		"󰧿",
+	},
+	{
+		"nf-md-lighthouse_on",
+		"󰨀",
+	},
+	{
+		"nf-md-lightning_bolt",
+		"󱐋",
+	},
+	{
+		"nf-md-lightning_bolt_circle",
+		"󰠠",
+	},
+	{
+		"nf-md-lightning_bolt_outline",
+		"󱐌",
+	},
+	{
+		"nf-md-line_scan",
+		"󰘤",
+	},
+	{
+		"nf-md-lingerie",
+		"󱑶",
+	},
+	{
+		"nf-md-link",
+		"󰌷",
+	},
+	{
+		"nf-md-link_box",
+		"󰴚",
+	},
+	{
+		"nf-md-link_box_outline",
+		"󰴛",
+	},
+	{
+		"nf-md-link_box_variant",
+		"󰴜",
+	},
+	{
+		"nf-md-link_box_variant_outline",
+		"󰴝",
+	},
+	{
+		"nf-md-link_lock",
+		"󱂺",
+	},
+	{
+		"nf-md-link_off",
+		"󰌸",
+	},
+	{
+		"nf-md-link_plus",
+		"󰲔",
+	},
+	{
+		"nf-md-link_variant",
+		"󰌹",
+	},
+	{
+		"nf-md-link_variant_minus",
+		"󱃿",
+	},
+	{
+		"nf-md-link_variant_off",
+		"󰌺",
+	},
+	{
+		"nf-md-link_variant_plus",
+		"󱄀",
+	},
+	{
+		"nf-md-link_variant_remove",
+		"󱄁",
+	},
+	{
+		"nf-md-linkedin",
+		"󰌻",
+	},
+	{
+		"nf-md-linux",
+		"󰌽",
+	},
+	{
+		"nf-md-linux_mint",
+		"󰣭",
+	},
+	{
+		"nf-md-lipstick",
+		"󱎵",
+	},
+	{
+		"nf-md-liquid_spot",
+		"󱠦",
+	},
+	{
+		"nf-md-liquor",
+		"󱤞",
+	},
+	{
+		"nf-md-list_status",
+		"󱖫",
+	},
+	{
+		"nf-md-litecoin",
+		"󰩡",
+	},
+	{
+		"nf-md-loading",
+		"󰝲",
+	},
+	{
+		"nf-md-location_enter",
+		"󰿄",
+	},
+	{
+		"nf-md-location_exit",
+		"󰿅",
+	},
+	{
+		"nf-md-lock",
+		"󰌾",
+	},
+	{
+		"nf-md-lock_alert",
+		"󰣮",
+	},
+	{
+		"nf-md-lock_alert_outline",
+		"󱗑",
+	},
+	{
+		"nf-md-lock_check",
+		"󱎚",
+	},
+	{
+		"nf-md-lock_check_outline",
+		"󱚨",
+	},
+	{
+		"nf-md-lock_clock",
+		"󰥿",
+	},
+	{
+		"nf-md-lock_minus",
+		"󱚩",
+	},
+	{
+		"nf-md-lock_minus_outline",
+		"󱚪",
+	},
+	{
+		"nf-md-lock_off",
+		"󱙱",
+	},
+	{
+		"nf-md-lock_off_outline",
+		"󱙲",
+	},
+	{
+		"nf-md-lock_open",
+		"󰌿",
+	},
+	{
+		"nf-md-lock_open_alert",
+		"󱎛",
+	},
+	{
+		"nf-md-lock_open_alert_outline",
+		"󱗒",
+	},
+	{
+		"nf-md-lock_open_check",
+		"󱎜",
+	},
+	{
+		"nf-md-lock_open_check_outline",
+		"󱚫",
+	},
+	{
+		"nf-md-lock_open_minus",
+		"󱚬",
+	},
+	{
+		"nf-md-lock_open_minus_outline",
+		"󱚭",
+	},
+	{
+		"nf-md-lock_open_outline",
+		"󰍀",
+	},
+	{
+		"nf-md-lock_open_plus",
+		"󱚮",
+	},
+	{
+		"nf-md-lock_open_plus_outline",
+		"󱚯",
+	},
+	{
+		"nf-md-lock_open_remove",
+		"󱚰",
+	},
+	{
+		"nf-md-lock_open_remove_outline",
+		"󱚱",
+	},
+	{
+		"nf-md-lock_open_variant",
+		"󰿆",
+	},
+	{
+		"nf-md-lock_open_variant_outline",
+		"󰿇",
+	},
+	{
+		"nf-md-lock_outline",
+		"󰍁",
+	},
+	{
+		"nf-md-lock_pattern",
+		"󰛪",
+	},
+	{
+		"nf-md-lock_plus",
+		"󰗻",
+	},
+	{
+		"nf-md-lock_plus_outline",
+		"󱚲",
+	},
+	{
+		"nf-md-lock_question",
+		"󰣯",
+	},
+	{
+		"nf-md-lock_remove",
+		"󱚳",
+	},
+	{
+		"nf-md-lock_remove_outline",
+		"󱚴",
+	},
+	{
+		"nf-md-lock_reset",
+		"󰝳",
+	},
+	{
+		"nf-md-lock_smart",
+		"󰢲",
+	},
+	{
+		"nf-md-locker",
+		"󰟗",
+	},
+	{
+		"nf-md-locker_multiple",
+		"󰟘",
+	},
+	{
+		"nf-md-login",
+		"󰍂",
+	},
+	{
+		"nf-md-logout",
+		"󰍃",
+	},
+	{
+		"nf-md-logout_variant",
+		"󰗽",
+	},
+	{
+		"nf-md-longitude",
+		"󰽚",
+	},
+	{
+		"nf-md-looks",
+		"󰍄",
+	},
+	{
+		"nf-md-lotion",
+		"󱖂",
+	},
+	{
+		"nf-md-lotion_outline",
+		"󱖃",
+	},
+	{
+		"nf-md-lotion_plus",
+		"󱖄",
+	},
+	{
+		"nf-md-lotion_plus_outline",
+		"󱖅",
+	},
+	{
+		"nf-md-loupe",
+		"󰍅",
+	},
+	{
+		"nf-md-lumx",
+		"󰍆",
+	},
+	{
+		"nf-md-lungs",
+		"󱂄",
+	},
+	{
+		"nf-md-mace",
+		"󱡃",
+	},
+	{
+		"nf-md-magazine_pistol",
+		"󰌤",
+	},
+	{
+		"nf-md-magazine_rifle",
+		"󰌣",
+	},
+	{
+		"nf-md-magic_staff",
+		"󱡄",
+	},
+	{
+		"nf-md-magnet",
+		"󰍇",
+	},
+	{
+		"nf-md-magnet_on",
+		"󰍈",
+	},
+	{
+		"nf-md-magnify",
+		"󰍉",
+	},
+	{
+		"nf-md-magnify_close",
+		"󰦀",
+	},
+	{
+		"nf-md-magnify_expand",
+		"󱡴",
+	},
+	{
+		"nf-md-magnify_minus",
+		"󰍊",
+	},
+	{
+		"nf-md-magnify_minus_cursor",
+		"󰩢",
+	},
+	{
+		"nf-md-magnify_minus_outline",
+		"󰛬",
+	},
+	{
+		"nf-md-magnify_plus",
+		"󰍋",
+	},
+	{
+		"nf-md-magnify_plus_cursor",
+		"󰩣",
+	},
+	{
+		"nf-md-magnify_plus_outline",
+		"󰛭",
+	},
+	{
+		"nf-md-magnify_remove_cursor",
+		"󱈌",
+	},
+	{
+		"nf-md-magnify_remove_outline",
+		"󱈍",
+	},
+	{
+		"nf-md-magnify_scan",
+		"󱉶",
+	},
+	{
+		"nf-md-mail",
+		"󰺻",
+	},
+	{
+		"nf-md-mailbox",
+		"󰛮",
+	},
+	{
+		"nf-md-mailbox_open",
+		"󰶈",
+	},
+	{
+		"nf-md-mailbox_open_outline",
+		"󰶉",
+	},
+	{
+		"nf-md-mailbox_open_up",
+		"󰶊",
+	},
+	{
+		"nf-md-mailbox_open_up_outline",
+		"󰶋",
+	},
+	{
+		"nf-md-mailbox_outline",
+		"󰶌",
+	},
+	{
+		"nf-md-mailbox_up",
+		"󰶍",
+	},
+	{
+		"nf-md-mailbox_up_outline",
+		"󰶎",
+	},
+	{
+		"nf-md-manjaro",
+		"󱘊",
+	},
+	{
+		"nf-md-map",
+		"󰍍",
+	},
+	{
+		"nf-md-map_check",
+		"󰺼",
+	},
+	{
+		"nf-md-map_check_outline",
+		"󰺽",
+	},
+	{
+		"nf-md-map_clock",
+		"󰴞",
+	},
+	{
+		"nf-md-map_clock_outline",
+		"󰴟",
+	},
+	{
+		"nf-md-map_legend",
+		"󰨁",
+	},
+	{
+		"nf-md-map_marker",
+		"󰍎",
+	},
+	{
+		"nf-md-map_marker_account",
+		"󱣣",
+	},
+	{
+		"nf-md-map_marker_account_outline",
+		"󱣤",
+	},
+	{
+		"nf-md-map_marker_alert",
+		"󰼅",
+	},
+	{
+		"nf-md-map_marker_alert_outline",
+		"󰼆",
+	},
+	{
+		"nf-md-map_marker_check",
+		"󰲕",
+	},
+	{
+		"nf-md-map_marker_check_outline",
+		"󱋻",
+	},
+	{
+		"nf-md-map_marker_circle",
+		"󰍏",
+	},
+	{
+		"nf-md-map_marker_distance",
+		"󰣰",
+	},
+	{
+		"nf-md-map_marker_down",
+		"󱄂",
+	},
+	{
+		"nf-md-map_marker_left",
+		"󱋛",
+	},
+	{
+		"nf-md-map_marker_left_outline",
+		"󱋝",
+	},
+	{
+		"nf-md-map_marker_minus",
+		"󰙐",
+	},
+	{
+		"nf-md-map_marker_minus_outline",
+		"󱋹",
+	},
+	{
+		"nf-md-map_marker_multiple",
+		"󰍐",
+	},
+	{
+		"nf-md-map_marker_multiple_outline",
+		"󱉷",
+	},
+	{
+		"nf-md-map_marker_off",
+		"󰍑",
+	},
+	{
+		"nf-md-map_marker_off_outline",
+		"󱋽",
+	},
+	{
+		"nf-md-map_marker_outline",
+		"󰟙",
+	},
+	{
+		"nf-md-map_marker_path",
+		"󰴠",
+	},
+	{
+		"nf-md-map_marker_plus",
+		"󰙑",
+	},
+	{
+		"nf-md-map_marker_plus_outline",
+		"󱋸",
+	},
+	{
+		"nf-md-map_marker_question",
+		"󰼇",
+	},
+	{
+		"nf-md-map_marker_question_outline",
+		"󰼈",
+	},
+	{
+		"nf-md-map_marker_radius",
+		"󰍒",
+	},
+	{
+		"nf-md-map_marker_radius_outline",
+		"󱋼",
+	},
+	{
+		"nf-md-map_marker_remove",
+		"󰼉",
+	},
+	{
+		"nf-md-map_marker_remove_outline",
+		"󱋺",
+	},
+	{
+		"nf-md-map_marker_remove_variant",
+		"󰼊",
+	},
+	{
+		"nf-md-map_marker_right",
+		"󱋜",
+	},
+	{
+		"nf-md-map_marker_right_outline",
+		"󱋞",
+	},
+	{
+		"nf-md-map_marker_star",
+		"󱘈",
+	},
+	{
+		"nf-md-map_marker_star_outline",
+		"󱘉",
+	},
+	{
+		"nf-md-map_marker_up",
+		"󱄃",
+	},
+	{
+		"nf-md-map_minus",
+		"󰦁",
+	},
+	{
+		"nf-md-map_outline",
+		"󰦂",
+	},
+	{
+		"nf-md-map_plus",
+		"󰦃",
+	},
+	{
+		"nf-md-map_search",
+		"󰦄",
+	},
+	{
+		"nf-md-map_search_outline",
+		"󰦅",
+	},
+	{
+		"nf-md-mapbox",
+		"󰮪",
+	},
+	{
+		"nf-md-margin",
+		"󰍓",
+	},
+	{
+		"nf-md-marker",
+		"󰙒",
+	},
+	{
+		"nf-md-marker_cancel",
+		"󰷙",
+	},
+	{
+		"nf-md-marker_check",
+		"󰍕",
+	},
+	{
+		"nf-md-mastodon",
+		"󰫑",
+	},
+	{
+		"nf-md-material_design",
+		"󰦆",
+	},
+	{
+		"nf-md-material_ui",
+		"󰍗",
+	},
+	{
+		"nf-md-math_compass",
+		"󰍘",
+	},
+	{
+		"nf-md-math_cos",
+		"󰲖",
+	},
+	{
+		"nf-md-math_integral",
+		"󰿈",
+	},
+	{
+		"nf-md-math_integral_box",
+		"󰿉",
+	},
+	{
+		"nf-md-math_log",
+		"󱂅",
+	},
+	{
+		"nf-md-math_norm",
+		"󰿊",
+	},
+	{
+		"nf-md-math_norm_box",
+		"󰿋",
+	},
+	{
+		"nf-md-math_sin",
+		"󰲗",
+	},
+	{
+		"nf-md-math_tan",
+		"󰲘",
+	},
+	{
+		"nf-md-matrix",
+		"󰘨",
+	},
+	{
+		"nf-md-medal",
+		"󰦇",
+	},
+	{
+		"nf-md-medal_outline",
+		"󱌦",
+	},
+	{
+		"nf-md-medical_bag",
+		"󰛯",
+	},
+	{
+		"nf-md-medical_cotton_swab",
+		"󱪸",
+	},
+	{
+		"nf-md-meditation",
+		"󱅻",
+	},
+	{
+		"nf-md-memory",
+		"󰍛",
+	},
+	{
+		"nf-md-menorah",
+		"󱟔",
+	},
+	{
+		"nf-md-menorah_fire",
+		"󱟕",
+	},
+	{
+		"nf-md-menu",
+		"󰍜",
+	},
+	{
+		"nf-md-menu_down",
+		"󰍝",
+	},
+	{
+		"nf-md-menu_down_outline",
+		"󰚶",
+	},
+	{
+		"nf-md-menu_left",
+		"󰍞",
+	},
+	{
+		"nf-md-menu_left_outline",
+		"󰨂",
+	},
+	{
+		"nf-md-menu_open",
+		"󰮫",
+	},
+	{
+		"nf-md-menu_right",
+		"󰍟",
+	},
+	{
+		"nf-md-menu_right_outline",
+		"󰨃",
+	},
+	{
+		"nf-md-menu_swap",
+		"󰩤",
+	},
+	{
+		"nf-md-menu_swap_outline",
+		"󰩥",
+	},
+	{
+		"nf-md-menu_up",
+		"󰍠",
+	},
+	{
+		"nf-md-menu_up_outline",
+		"󰚷",
+	},
+	{
+		"nf-md-merge",
+		"󰽜",
+	},
+	{
+		"nf-md-message",
+		"󰍡",
+	},
+	{
+		"nf-md-message_alert",
+		"󰍢",
+	},
+	{
+		"nf-md-message_alert_outline",
+		"󰨄",
+	},
+	{
+		"nf-md-message_arrow_left",
+		"󱋲",
+	},
+	{
+		"nf-md-message_arrow_left_outline",
+		"󱋳",
+	},
+	{
+		"nf-md-message_arrow_right",
+		"󱋴",
+	},
+	{
+		"nf-md-message_arrow_right_outline",
+		"󱋵",
+	},
+	{
+		"nf-md-message_badge",
+		"󱥁",
+	},
+	{
+		"nf-md-message_badge_outline",
+		"󱥂",
+	},
+	{
+		"nf-md-message_bookmark",
+		"󱖬",
+	},
+	{
+		"nf-md-message_bookmark_outline",
+		"󱖭",
+	},
+	{
+		"nf-md-message_bulleted",
+		"󰚢",
+	},
+	{
+		"nf-md-message_bulleted_off",
+		"󰚣",
+	},
+	{
+		"nf-md-message_cog",
+		"󰛱",
+	},
+	{
+		"nf-md-message_cog_outline",
+		"󱅲",
+	},
+	{
+		"nf-md-message_draw",
+		"󰍣",
+	},
+	{
+		"nf-md-message_fast",
+		"󱧌",
+	},
+	{
+		"nf-md-message_fast_outline",
+		"󱧍",
+	},
+	{
+		"nf-md-message_flash",
+		"󱖩",
+	},
+	{
+		"nf-md-message_flash_outline",
+		"󱖪",
+	},
+	{
+		"nf-md-message_image",
+		"󰍤",
+	},
+	{
+		"nf-md-message_image_outline",
+		"󱅬",
+	},
+	{
+		"nf-md-message_lock",
+		"󰿌",
+	},
+	{
+		"nf-md-message_lock_outline",
+		"󱅭",
+	},
+	{
+		"nf-md-message_minus",
+		"󱅮",
+	},
+	{
+		"nf-md-message_minus_outline",
+		"󱅯",
+	},
+	{
+		"nf-md-message_off",
+		"󱙍",
+	},
+	{
+		"nf-md-message_off_outline",
+		"󱙎",
+	},
+	{
+		"nf-md-message_outline",
+		"󰍥",
+	},
+	{
+		"nf-md-message_plus",
+		"󰙓",
+	},
+	{
+		"nf-md-message_plus_outline",
+		"󱂻",
+	},
+	{
+		"nf-md-message_processing",
+		"󰍦",
+	},
+	{
+		"nf-md-message_processing_outline",
+		"󱅰",
+	},
+	{
+		"nf-md-message_question",
+		"󱜺",
+	},
+	{
+		"nf-md-message_question_outline",
+		"󱜻",
+	},
+	{
+		"nf-md-message_reply",
+		"󰍧",
+	},
+	{
+		"nf-md-message_reply_outline",
+		"󱜽",
+	},
+	{
+		"nf-md-message_reply_text",
+		"󰍨",
+	},
+	{
+		"nf-md-message_reply_text_outline",
+		"󱜾",
+	},
+	{
+		"nf-md-message_settings",
+		"󰛰",
+	},
+	{
+		"nf-md-message_settings_outline",
+		"󱅱",
+	},
+	{
+		"nf-md-message_star",
+		"󰚚",
+	},
+	{
+		"nf-md-message_star_outline",
+		"󱉐",
+	},
+	{
+		"nf-md-message_text",
+		"󰍩",
+	},
+	{
+		"nf-md-message_text_clock",
+		"󱅳",
+	},
+	{
+		"nf-md-message_text_clock_outline",
+		"󱅴",
+	},
+	{
+		"nf-md-message_text_fast",
+		"󱧎",
+	},
+	{
+		"nf-md-message_text_fast_outline",
+		"󱧏",
+	},
+	{
+		"nf-md-message_text_lock",
+		"󰿍",
+	},
+	{
+		"nf-md-message_text_lock_outline",
+		"󱅵",
+	},
+	{
+		"nf-md-message_text_outline",
+		"󰍪",
+	},
+	{
+		"nf-md-message_video",
+		"󰍫",
+	},
+	{
+		"nf-md-meteor",
+		"󰘩",
+	},
+	{
+		"nf-md-meter_electric",
+		"󱩗",
+	},
+	{
+		"nf-md-meter_electric_outline",
+		"󱩘",
+	},
+	{
+		"nf-md-meter_gas",
+		"󱩙",
+	},
+	{
+		"nf-md-meter_gas_outline",
+		"󱩚",
+	},
+	{
+		"nf-md-metronome",
+		"󰟚",
+	},
+	{
+		"nf-md-metronome_tick",
+		"󰟛",
+	},
+	{
+		"nf-md-micro_sd",
+		"󰟜",
+	},
+	{
+		"nf-md-microphone",
+		"󰍬",
+	},
+	{
+		"nf-md-microphone_minus",
+		"󰢳",
+	},
+	{
+		"nf-md-microphone_off",
+		"󰍭",
+	},
+	{
+		"nf-md-microphone_outline",
+		"󰍮",
+	},
+	{
+		"nf-md-microphone_plus",
+		"󰢴",
+	},
+	{
+		"nf-md-microphone_question",
+		"󱦉",
+	},
+	{
+		"nf-md-microphone_question_outline",
+		"󱦊",
+	},
+	{
+		"nf-md-microphone_settings",
+		"󰍯",
+	},
+	{
+		"nf-md-microphone_variant",
+		"󰍰",
+	},
+	{
+		"nf-md-microphone_variant_off",
+		"󰍱",
+	},
+	{
+		"nf-md-microscope",
+		"󰙔",
+	},
+	{
+		"nf-md-microsoft",
+		"󰍲",
+	},
+	{
+		"nf-md-microsoft_access",
+		"󱎎",
+	},
+	{
+		"nf-md-microsoft_azure",
+		"󰠅",
+	},
+	{
+		"nf-md-microsoft_azure_devops",
+		"󰿕",
+	},
+	{
+		"nf-md-microsoft_bing",
+		"󰂤",
+	},
+	{
+		"nf-md-microsoft_dynamics_365",
+		"󰦈",
+	},
+	{
+		"nf-md-microsoft_edge",
+		"󰇩",
+	},
+	{
+		"nf-md-microsoft_excel",
+		"󱎏",
+	},
+	{
+		"nf-md-microsoft_internet_explorer",
+		"󰌀",
+	},
+	{
+		"nf-md-microsoft_office",
+		"󰏆",
+	},
+	{
+		"nf-md-microsoft_onedrive",
+		"󰏊",
+	},
+	{
+		"nf-md-microsoft_onenote",
+		"󰝇",
+	},
+	{
+		"nf-md-microsoft_outlook",
+		"󰴢",
+	},
+	{
+		"nf-md-microsoft_powerpoint",
+		"󱎐",
+	},
+	{
+		"nf-md-microsoft_sharepoint",
+		"󱎑",
+	},
+	{
+		"nf-md-microsoft_teams",
+		"󰊻",
+	},
+	{
+		"nf-md-microsoft_visual_studio",
+		"󰘐",
+	},
+	{
+		"nf-md-microsoft_visual_studio_code",
+		"󰨞",
+	},
+	{
+		"nf-md-microsoft_windows",
+		"󰖳",
+	},
+	{
+		"nf-md-microsoft_windows_classic",
+		"󰨡",
+	},
+	{
+		"nf-md-microsoft_word",
+		"󱎒",
+	},
+	{
+		"nf-md-microsoft_xbox",
+		"󰖹",
+	},
+	{
+		"nf-md-microsoft_xbox_controller",
+		"󰖺",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_alert",
+		"󰝋",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_charging",
+		"󰨢",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_empty",
+		"󰝌",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_full",
+		"󰝍",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_low",
+		"󰝎",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_medium",
+		"󰝏",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_battery_unknown",
+		"󰝐",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_menu",
+		"󰹯",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_off",
+		"󰖻",
+	},
+	{
+		"nf-md-microsoft_xbox_controller_view",
+		"󰹰",
+	},
+	{
+		"nf-md-microwave",
+		"󰲙",
+	},
+	{
+		"nf-md-microwave_off",
+		"󱐣",
+	},
+	{
+		"nf-md-middleware",
+		"󰽝",
+	},
+	{
+		"nf-md-middleware_outline",
+		"󰽞",
+	},
+	{
+		"nf-md-midi",
+		"󰣱",
+	},
+	{
+		"nf-md-midi_port",
+		"󰣲",
+	},
+	{
+		"nf-md-mine",
+		"󰷚",
+	},
+	{
+		"nf-md-minecraft",
+		"󰍳",
+	},
+	{
+		"nf-md-mini_sd",
+		"󰨅",
+	},
+	{
+		"nf-md-minidisc",
+		"󰨆",
+	},
+	{
+		"nf-md-minus",
+		"󰍴",
+	},
+	{
+		"nf-md-minus_box",
+		"󰍵",
+	},
+	{
+		"nf-md-minus_box_multiple",
+		"󱅁",
+	},
+	{
+		"nf-md-minus_box_multiple_outline",
+		"󱅂",
+	},
+	{
+		"nf-md-minus_box_outline",
+		"󰛲",
+	},
+	{
+		"nf-md-minus_circle",
+		"󰍶",
+	},
+	{
+		"nf-md-minus_circle_multiple",
+		"󰍚",
+	},
+	{
+		"nf-md-minus_circle_multiple_outline",
+		"󰫓",
+	},
+	{
+		"nf-md-minus_circle_off",
+		"󱑙",
+	},
+	{
+		"nf-md-minus_circle_off_outline",
+		"󱑚",
+	},
+	{
+		"nf-md-minus_circle_outline",
+		"󰍷",
+	},
+	{
+		"nf-md-minus_network",
+		"󰍸",
+	},
+	{
+		"nf-md-minus_network_outline",
+		"󰲚",
+	},
+	{
+		"nf-md-minus_thick",
+		"󱘹",
+	},
+	{
+		"nf-md-mirror",
+		"󱇽",
+	},
+	{
+		"nf-md-mirror_rectangle",
+		"󱞟",
+	},
+	{
+		"nf-md-mirror_variant",
+		"󱞠",
+	},
+	{
+		"nf-md-mixed_martial_arts",
+		"󰶏",
+	},
+	{
+		"nf-md-mixed_reality",
+		"󰡿",
+	},
+	{
+		"nf-md-molecule",
+		"󰮬",
+	},
+	{
+		"nf-md-molecule_co",
+		"󱋾",
+	},
+	{
+		"nf-md-molecule_co2",
+		"󰟤",
+	},
+	{
+		"nf-md-monitor",
+		"󰍹",
+	},
+	{
+		"nf-md-monitor_account",
+		"󱩛",
+	},
+	{
+		"nf-md-monitor_arrow_down",
+		"󱧐",
+	},
+	{
+		"nf-md-monitor_arrow_down_variant",
+		"󱧑",
+	},
+	{
+		"nf-md-monitor_cellphone",
+		"󰦉",
+	},
+	{
+		"nf-md-monitor_cellphone_star",
+		"󰦊",
+	},
+	{
+		"nf-md-monitor_dashboard",
+		"󰨇",
+	},
+	{
+		"nf-md-monitor_edit",
+		"󱋆",
+	},
+	{
+		"nf-md-monitor_eye",
+		"󱎴",
+	},
+	{
+		"nf-md-monitor_lock",
+		"󰷛",
+	},
+	{
+		"nf-md-monitor_multiple",
+		"󰍺",
+	},
+	{
+		"nf-md-monitor_off",
+		"󰶐",
+	},
+	{
+		"nf-md-monitor_screenshot",
+		"󰹑",
+	},
+	{
+		"nf-md-monitor_share",
+		"󱒃",
+	},
+	{
+		"nf-md-monitor_shimmer",
+		"󱄄",
+	},
+	{
+		"nf-md-monitor_small",
+		"󱡶",
+	},
+	{
+		"nf-md-monitor_speaker",
+		"󰽟",
+	},
+	{
+		"nf-md-monitor_speaker_off",
+		"󰽠",
+	},
+	{
+		"nf-md-monitor_star",
+		"󰷜",
+	},
+	{
+		"nf-md-moon_first_quarter",
+		"󰽡",
+	},
+	{
+		"nf-md-moon_full",
+		"󰽢",
+	},
+	{
+		"nf-md-moon_last_quarter",
+		"󰽣",
+	},
+	{
+		"nf-md-moon_new",
+		"󰽤",
+	},
+	{
+		"nf-md-moon_waning_crescent",
+		"󰽥",
+	},
+	{
+		"nf-md-moon_waning_gibbous",
+		"󰽦",
+	},
+	{
+		"nf-md-moon_waxing_crescent",
+		"󰽧",
+	},
+	{
+		"nf-md-moon_waxing_gibbous",
+		"󰽨",
+	},
+	{
+		"nf-md-moped",
+		"󱂆",
+	},
+	{
+		"nf-md-moped_electric",
+		"󱖷",
+	},
+	{
+		"nf-md-moped_electric_outline",
+		"󱖸",
+	},
+	{
+		"nf-md-moped_outline",
+		"󱖹",
+	},
+	{
+		"nf-md-more",
+		"󰍻",
+	},
+	{
+		"nf-md-mortar_pestle",
+		"󱝈",
+	},
+	{
+		"nf-md-mortar_pestle_plus",
+		"󰏱",
+	},
+	{
+		"nf-md-mosque",
+		"󱠧",
+	},
+	{
+		"nf-md-mother_heart",
+		"󱌔",
+	},
+	{
+		"nf-md-mother_nurse",
+		"󰴡",
+	},
+	{
+		"nf-md-motion",
+		"󱖲",
+	},
+	{
+		"nf-md-motion_outline",
+		"󱖳",
+	},
+	{
+		"nf-md-motion_pause",
+		"󱖐",
+	},
+	{
+		"nf-md-motion_pause_outline",
+		"󱖒",
+	},
+	{
+		"nf-md-motion_play",
+		"󱖏",
+	},
+	{
+		"nf-md-motion_play_outline",
+		"󱖑",
+	},
+	{
+		"nf-md-motion_sensor",
+		"󰶑",
+	},
+	{
+		"nf-md-motion_sensor_off",
+		"󱐵",
+	},
+	{
+		"nf-md-motorbike",
+		"󰍼",
+	},
+	{
+		"nf-md-motorbike_electric",
+		"󱖺",
+	},
+	{
+		"nf-md-mouse",
+		"󰍽",
+	},
+	{
+		"nf-md-mouse_bluetooth",
+		"󰦋",
+	},
+	{
+		"nf-md-mouse_move_down",
+		"󱕐",
+	},
+	{
+		"nf-md-mouse_move_up",
+		"󱕑",
+	},
+	{
+		"nf-md-mouse_move_vertical",
+		"󱕒",
+	},
+	{
+		"nf-md-mouse_off",
+		"󰍾",
+	},
+	{
+		"nf-md-mouse_variant",
+		"󰍿",
+	},
+	{
+		"nf-md-mouse_variant_off",
+		"󰎀",
+	},
+	{
+		"nf-md-move_resize",
+		"󰙕",
+	},
+	{
+		"nf-md-move_resize_variant",
+		"󰙖",
+	},
+	{
+		"nf-md-movie",
+		"󰎁",
+	},
+	{
+		"nf-md-movie_check",
+		"󱛳",
+	},
+	{
+		"nf-md-movie_check_outline",
+		"󱛴",
+	},
+	{
+		"nf-md-movie_cog",
+		"󱛵",
+	},
+	{
+		"nf-md-movie_cog_outline",
+		"󱛶",
+	},
+	{
+		"nf-md-movie_edit",
+		"󱄢",
+	},
+	{
+		"nf-md-movie_edit_outline",
+		"󱄣",
+	},
+	{
+		"nf-md-movie_filter",
+		"󱄤",
+	},
+	{
+		"nf-md-movie_filter_outline",
+		"󱄥",
+	},
+	{
+		"nf-md-movie_minus",
+		"󱛷",
+	},
+	{
+		"nf-md-movie_minus_outline",
+		"󱛸",
+	},
+	{
+		"nf-md-movie_off",
+		"󱛹",
+	},
+	{
+		"nf-md-movie_off_outline",
+		"󱛺",
+	},
+	{
+		"nf-md-movie_open",
+		"󰿎",
+	},
+	{
+		"nf-md-movie_open_check",
+		"󱛻",
+	},
+	{
+		"nf-md-movie_open_check_outline",
+		"󱛼",
+	},
+	{
+		"nf-md-movie_open_cog",
+		"󱛽",
+	},
+	{
+		"nf-md-movie_open_cog_outline",
+		"󱛾",
+	},
+	{
+		"nf-md-movie_open_edit",
+		"󱛿",
+	},
+	{
+		"nf-md-movie_open_edit_outline",
+		"󱜀",
+	},
+	{
+		"nf-md-movie_open_minus",
+		"󱜁",
+	},
+	{
+		"nf-md-movie_open_minus_outline",
+		"󱜂",
+	},
+	{
+		"nf-md-movie_open_off",
+		"󱜃",
+	},
+	{
+		"nf-md-movie_open_off_outline",
+		"󱜄",
+	},
+	{
+		"nf-md-movie_open_outline",
+		"󰿏",
+	},
+	{
+		"nf-md-movie_open_play",
+		"󱜅",
+	},
+	{
+		"nf-md-movie_open_play_outline",
+		"󱜆",
+	},
+	{
+		"nf-md-movie_open_plus",
+		"󱜇",
+	},
+	{
+		"nf-md-movie_open_plus_outline",
+		"󱜈",
+	},
+	{
+		"nf-md-movie_open_remove",
+		"󱜉",
+	},
+	{
+		"nf-md-movie_open_remove_outline",
+		"󱜊",
+	},
+	{
+		"nf-md-movie_open_settings",
+		"󱜋",
+	},
+	{
+		"nf-md-movie_open_settings_outline",
+		"󱜌",
+	},
+	{
+		"nf-md-movie_open_star",
+		"󱜍",
+	},
+	{
+		"nf-md-movie_open_star_outline",
+		"󱜎",
+	},
+	{
+		"nf-md-movie_outline",
+		"󰷝",
+	},
+	{
+		"nf-md-movie_play",
+		"󱜏",
+	},
+	{
+		"nf-md-movie_play_outline",
+		"󱜐",
+	},
+	{
+		"nf-md-movie_plus",
+		"󱜑",
+	},
+	{
+		"nf-md-movie_plus_outline",
+		"󱜒",
+	},
+	{
+		"nf-md-movie_remove",
+		"󱜓",
+	},
+	{
+		"nf-md-movie_remove_outline",
+		"󱜔",
+	},
+	{
+		"nf-md-movie_roll",
+		"󰟞",
+	},
+	{
+		"nf-md-movie_search",
+		"󱇒",
+	},
+	{
+		"nf-md-movie_search_outline",
+		"󱇓",
+	},
+	{
+		"nf-md-movie_settings",
+		"󱜕",
+	},
+	{
+		"nf-md-movie_settings_outline",
+		"󱜖",
+	},
+	{
+		"nf-md-movie_star",
+		"󱜗",
+	},
+	{
+		"nf-md-movie_star_outline",
+		"󱜘",
+	},
+	{
+		"nf-md-mower",
+		"󱙯",
+	},
+	{
+		"nf-md-mower_bag",
+		"󱙰",
+	},
+	{
+		"nf-md-muffin",
+		"󰦌",
+	},
+	{
+		"nf-md-multicast",
+		"󱢓",
+	},
+	{
+		"nf-md-multiplication",
+		"󰎂",
+	},
+	{
+		"nf-md-multiplication_box",
+		"󰎃",
+	},
+	{
+		"nf-md-mushroom",
+		"󰟟",
+	},
+	{
+		"nf-md-mushroom_off",
+		"󱏺",
+	},
+	{
+		"nf-md-mushroom_off_outline",
+		"󱏻",
+	},
+	{
+		"nf-md-mushroom_outline",
+		"󰟠",
+	},
+	{
+		"nf-md-music",
+		"󰝚",
+	},
+	{
+		"nf-md-music_accidental_double_flat",
+		"󰽩",
+	},
+	{
+		"nf-md-music_accidental_double_sharp",
+		"󰽪",
+	},
+	{
+		"nf-md-music_accidental_flat",
+		"󰽫",
+	},
+	{
+		"nf-md-music_accidental_natural",
+		"󰽬",
+	},
+	{
+		"nf-md-music_accidental_sharp",
+		"󰽭",
+	},
+	{
+		"nf-md-music_box",
+		"󰎄",
+	},
+	{
+		"nf-md-music_box_multiple",
+		"󰌳",
+	},
+	{
+		"nf-md-music_box_multiple_outline",
+		"󰼄",
+	},
+	{
+		"nf-md-music_box_outline",
+		"󰎅",
+	},
+	{
+		"nf-md-music_circle",
+		"󰎆",
+	},
+	{
+		"nf-md-music_circle_outline",
+		"󰫔",
+	},
+	{
+		"nf-md-music_clef_alto",
+		"󰽮",
+	},
+	{
+		"nf-md-music_clef_bass",
+		"󰽯",
+	},
+	{
+		"nf-md-music_clef_treble",
+		"󰽰",
+	},
+	{
+		"nf-md-music_note",
+		"󰎈",
+	},
+	{
+		"nf-md-music_note_bluetooth",
+		"󰗾",
+	},
+	{
+		"nf-md-music_note_bluetooth_off",
+		"󰗿",
+	},
+	{
+		"nf-md-music_note_eighth_dotted",
+		"󰽱",
+	},
+	{
+		"nf-md-music_note_half",
+		"󰎉",
+	},
+	{
+		"nf-md-music_note_half_dotted",
+		"󰽲",
+	},
+	{
+		"nf-md-music_note_off",
+		"󰎊",
+	},
+	{
+		"nf-md-music_note_off_outline",
+		"󰽳",
+	},
+	{
+		"nf-md-music_note_outline",
+		"󰽴",
+	},
+	{
+		"nf-md-music_note_plus",
+		"󰷞",
+	},
+	{
+		"nf-md-music_note_quarter",
+		"󰎋",
+	},
+	{
+		"nf-md-music_note_quarter_dotted",
+		"󰽵",
+	},
+	{
+		"nf-md-music_note_sixteenth",
+		"󰎌",
+	},
+	{
+		"nf-md-music_note_sixteenth_dotted",
+		"󰽶",
+	},
+	{
+		"nf-md-music_note_whole",
+		"󰎍",
+	},
+	{
+		"nf-md-music_note_whole_dotted",
+		"󰽷",
+	},
+	{
+		"nf-md-music_off",
+		"󰝛",
+	},
+	{
+		"nf-md-music_rest_eighth",
+		"󰽸",
+	},
+	{
+		"nf-md-music_rest_half",
+		"󰽹",
+	},
+	{
+		"nf-md-music_rest_quarter",
+		"󰽺",
+	},
+	{
+		"nf-md-music_rest_sixteenth",
+		"󰽻",
+	},
+	{
+		"nf-md-music_rest_whole",
+		"󰽼",
+	},
+	{
+		"nf-md-mustache",
+		"󱗞",
+	},
+	{
+		"nf-md-nail",
+		"󰷟",
+	},
+	{
+		"nf-md-nas",
+		"󰣳",
+	},
+	{
+		"nf-md-nativescript",
+		"󰢀",
+	},
+	{
+		"nf-md-nature",
+		"󰎎",
+	},
+	{
+		"nf-md-nature_people",
+		"󰎏",
+	},
+	{
+		"nf-md-navigation",
+		"󰎐",
+	},
+	{
+		"nf-md-navigation_outline",
+		"󱘇",
+	},
+	{
+		"nf-md-navigation_variant_outline",
+		"󱣱",
+	},
+	{
+		"nf-md-near_me",
+		"󱣰",
+	},
+	{
+		"nf-md-necklace",
+		"󰼋",
+	},
+	{
+		"nf-md-needle",
+		"󰎑",
+	},
+	{
+		"nf-md-needle_off",
+		"󱧒",
+	},
+	{
+		"nf-md-netflix",
+		"󰝆",
+	},
+	{
+		"nf-md-network",
+		"󰛳",
+	},
+	{
+		"nf-md-network_off",
+		"󰲛",
+	},
+	{
+		"nf-md-network_off_outline",
+		"󰲜",
+	},
+	{
+		"nf-md-network_outline",
+		"󰲝",
+	},
+	{
+		"nf-md-network_pos",
+		"󱫋",
+	},
+	{
+		"nf-md-network_strength_1",
+		"󰣴",
+	},
+	{
+		"nf-md-network_strength_1_alert",
+		"󰣵",
+	},
+	{
+		"nf-md-network_strength_2",
+		"󰣶",
+	},
+	{
+		"nf-md-network_strength_2_alert",
+		"󰣷",
+	},
+	{
+		"nf-md-network_strength_3",
+		"󰣸",
+	},
+	{
+		"nf-md-network_strength_3_alert",
+		"󰣹",
+	},
+	{
+		"nf-md-network_strength_4",
+		"󰣺",
+	},
+	{
+		"nf-md-network_strength_4_alert",
+		"󰣻",
+	},
+	{
+		"nf-md-network_strength_4_cog",
+		"󱤚",
+	},
+	{
+		"nf-md-network_strength_off",
+		"󰣼",
+	},
+	{
+		"nf-md-network_strength_off_outline",
+		"󰣽",
+	},
+	{
+		"nf-md-network_strength_outline",
+		"󰣾",
+	},
+	{
+		"nf-md-new_box",
+		"󰎔",
+	},
+	{
+		"nf-md-newspaper",
+		"󰎕",
+	},
+	{
+		"nf-md-newspaper_check",
+		"󱥃",
+	},
+	{
+		"nf-md-newspaper_minus",
+		"󰼌",
+	},
+	{
+		"nf-md-newspaper_plus",
+		"󰼍",
+	},
+	{
+		"nf-md-newspaper_remove",
+		"󱥄",
+	},
+	{
+		"nf-md-newspaper_variant",
+		"󱀁",
+	},
+	{
+		"nf-md-newspaper_variant_multiple",
+		"󱀂",
+	},
+	{
+		"nf-md-newspaper_variant_multiple_outline",
+		"󱀃",
+	},
+	{
+		"nf-md-newspaper_variant_outline",
+		"󱀄",
+	},
+	{
+		"nf-md-nfc",
+		"󰎖",
+	},
+	{
+		"nf-md-nfc_search_variant",
+		"󰹓",
+	},
+	{
+		"nf-md-nfc_tap",
+		"󰎗",
+	},
+	{
+		"nf-md-nfc_variant",
+		"󰎘",
+	},
+	{
+		"nf-md-nfc_variant_off",
+		"󰹔",
+	},
+	{
+		"nf-md-ninja",
+		"󰝴",
+	},
+	{
+		"nf-md-nintendo_game_boy",
+		"󱎓",
+	},
+	{
+		"nf-md-nintendo_switch",
+		"󰟡",
+	},
+	{
+		"nf-md-nintendo_wii",
+		"󰖫",
+	},
+	{
+		"nf-md-nintendo_wiiu",
+		"󰜭",
+	},
+	{
+		"nf-md-nix",
+		"󱄅",
+	},
+	{
+		"nf-md-nodejs",
+		"󰎙",
+	},
+	{
+		"nf-md-noodles",
+		"󱅾",
+	},
+	{
+		"nf-md-not_equal",
+		"󰦍",
+	},
+	{
+		"nf-md-not_equal_variant",
+		"󰦎",
+	},
+	{
+		"nf-md-note",
+		"󰎚",
+	},
+	{
+		"nf-md-note_alert",
+		"󱝽",
+	},
+	{
+		"nf-md-note_alert_outline",
+		"󱝾",
+	},
+	{
+		"nf-md-note_check",
+		"󱝿",
+	},
+	{
+		"nf-md-note_check_outline",
+		"󱞀",
+	},
+	{
+		"nf-md-note_edit",
+		"󱞁",
+	},
+	{
+		"nf-md-note_edit_outline",
+		"󱞂",
+	},
+	{
+		"nf-md-note_minus",
+		"󱙏",
+	},
+	{
+		"nf-md-note_minus_outline",
+		"󱙐",
+	},
+	{
+		"nf-md-note_multiple",
+		"󰚸",
+	},
+	{
+		"nf-md-note_multiple_outline",
+		"󰚹",
+	},
+	{
+		"nf-md-note_off",
+		"󱞃",
+	},
+	{
+		"nf-md-note_off_outline",
+		"󱞄",
+	},
+	{
+		"nf-md-note_outline",
+		"󰎛",
+	},
+	{
+		"nf-md-note_plus",
+		"󰎜",
+	},
+	{
+		"nf-md-note_plus_outline",
+		"󰎝",
+	},
+	{
+		"nf-md-note_remove",
+		"󱙑",
+	},
+	{
+		"nf-md-note_remove_outline",
+		"󱙒",
+	},
+	{
+		"nf-md-note_search",
+		"󱙓",
+	},
+	{
+		"nf-md-note_search_outline",
+		"󱙔",
+	},
+	{
+		"nf-md-note_text",
+		"󰎞",
+	},
+	{
+		"nf-md-note_text_outline",
+		"󱇗",
+	},
+	{
+		"nf-md-notebook",
+		"󰠮",
+	},
+	{
+		"nf-md-notebook_check",
+		"󱓵",
+	},
+	{
+		"nf-md-notebook_check_outline",
+		"󱓶",
+	},
+	{
+		"nf-md-notebook_edit",
+		"󱓧",
+	},
+	{
+		"nf-md-notebook_edit_outline",
+		"󱓩",
+	},
+	{
+		"nf-md-notebook_heart",
+		"󱨋",
+	},
+	{
+		"nf-md-notebook_heart_outline",
+		"󱨌",
+	},
+	{
+		"nf-md-notebook_minus",
+		"󱘐",
+	},
+	{
+		"nf-md-notebook_minus_outline",
+		"󱘑",
+	},
+	{
+		"nf-md-notebook_multiple",
+		"󰹕",
+	},
+	{
+		"nf-md-notebook_outline",
+		"󰺿",
+	},
+	{
+		"nf-md-notebook_plus",
+		"󱘒",
+	},
+	{
+		"nf-md-notebook_plus_outline",
+		"󱘓",
+	},
+	{
+		"nf-md-notebook_remove",
+		"󱘔",
+	},
+	{
+		"nf-md-notebook_remove_outline",
+		"󱘕",
+	},
+	{
+		"nf-md-notification_clear_all",
+		"󰎟",
+	},
+	{
+		"nf-md-npm",
+		"󰛷",
+	},
+	{
+		"nf-md-nuke",
+		"󰚤",
+	},
+	{
+		"nf-md-null",
+		"󰟢",
+	},
+	{
+		"nf-md-numeric",
+		"󰎠",
+	},
+	{
+		"nf-md-numeric_0_box",
+		"󰎡",
+	},
+	{
+		"nf-md-numeric_0_box_multiple",
+		"󰼎",
+	},
+	{
+		"nf-md-numeric_0_box_multiple_outline",
+		"󰎢",
+	},
+	{
+		"nf-md-numeric_0_box_outline",
+		"󰎣",
+	},
+	{
+		"nf-md-numeric_1",
+		"󰬺",
+	},
+	{
+		"nf-md-numeric_10",
+		"󰿩",
+	},
+	{
+		"nf-md-numeric_10_box",
+		"󰽽",
+	},
+	{
+		"nf-md-numeric_10_box_multiple",
+		"󰿪",
+	},
+	{
+		"nf-md-numeric_10_box_multiple_outline",
+		"󰿫",
+	},
+	{
+		"nf-md-numeric_10_box_outline",
+		"󰽾",
+	},
+	{
+		"nf-md-numeric_10_circle",
+		"󰿬",
+	},
+	{
+		"nf-md-numeric_10_circle_outline",
+		"󰿭",
+	},
+	{
+		"nf-md-numeric_1_box",
+		"󰎤",
+	},
+	{
+		"nf-md-numeric_1_box_multiple",
+		"󰼏",
+	},
+	{
+		"nf-md-numeric_1_box_multiple_outline",
+		"󰎥",
+	},
+	{
+		"nf-md-numeric_1_box_outline",
+		"󰎦",
+	},
+	{
+		"nf-md-numeric_1_circle",
+		"󰲠",
+	},
+	{
+		"nf-md-numeric_1_circle_outline",
+		"󰲡",
+	},
+	{
+		"nf-md-numeric_2",
+		"󰬻",
+	},
+	{
+		"nf-md-numeric_2_box",
+		"󰎧",
+	},
+	{
+		"nf-md-numeric_2_box_multiple",
+		"󰼐",
+	},
+	{
+		"nf-md-numeric_2_box_multiple_outline",
+		"󰎨",
+	},
+	{
+		"nf-md-numeric_2_box_outline",
+		"󰎩",
+	},
+	{
+		"nf-md-numeric_2_circle",
+		"󰲢",
+	},
+	{
+		"nf-md-numeric_2_circle_outline",
+		"󰲣",
+	},
+	{
+		"nf-md-numeric_3",
+		"󰬼",
+	},
+	{
+		"nf-md-numeric_3_box",
+		"󰎪",
+	},
+	{
+		"nf-md-numeric_3_box_multiple",
+		"󰼑",
+	},
+	{
+		"nf-md-numeric_3_box_multiple_outline",
+		"󰎫",
+	},
+	{
+		"nf-md-numeric_3_box_outline",
+		"󰎬",
+	},
+	{
+		"nf-md-numeric_3_circle",
+		"󰲤",
+	},
+	{
+		"nf-md-numeric_3_circle_outline",
+		"󰲥",
+	},
+	{
+		"nf-md-numeric_4",
+		"󰬽",
+	},
+	{
+		"nf-md-numeric_4_box",
+		"󰎭",
+	},
+	{
+		"nf-md-numeric_4_box_multiple",
+		"󰼒",
+	},
+	{
+		"nf-md-numeric_4_box_multiple_outline",
+		"󰎲",
+	},
+	{
+		"nf-md-numeric_4_box_outline",
+		"󰎮",
+	},
+	{
+		"nf-md-numeric_4_circle",
+		"󰲦",
+	},
+	{
+		"nf-md-numeric_4_circle_outline",
+		"󰲧",
+	},
+	{
+		"nf-md-numeric_5",
+		"󰬾",
+	},
+	{
+		"nf-md-numeric_5_box",
+		"󰎱",
+	},
+	{
+		"nf-md-numeric_5_box_multiple",
+		"󰼓",
+	},
+	{
+		"nf-md-numeric_5_box_multiple_outline",
+		"󰎯",
+	},
+	{
+		"nf-md-numeric_5_box_outline",
+		"󰎰",
+	},
+	{
+		"nf-md-numeric_5_circle",
+		"󰲨",
+	},
+	{
+		"nf-md-numeric_5_circle_outline",
+		"󰲩",
+	},
+	{
+		"nf-md-numeric_6",
+		"󰬿",
+	},
+	{
+		"nf-md-numeric_6_box",
+		"󰎳",
+	},
+	{
+		"nf-md-numeric_6_box_multiple",
+		"󰼔",
+	},
+	{
+		"nf-md-numeric_6_box_multiple_outline",
+		"󰎴",
+	},
+	{
+		"nf-md-numeric_6_box_outline",
+		"󰎵",
+	},
+	{
+		"nf-md-numeric_6_circle",
+		"󰲪",
+	},
+	{
+		"nf-md-numeric_6_circle_outline",
+		"󰲫",
+	},
+	{
+		"nf-md-numeric_7",
+		"󰭀",
+	},
+	{
+		"nf-md-numeric_7_box",
+		"󰎶",
+	},
+	{
+		"nf-md-numeric_7_box_multiple",
+		"󰼕",
+	},
+	{
+		"nf-md-numeric_7_box_multiple_outline",
+		"󰎷",
+	},
+	{
+		"nf-md-numeric_7_box_outline",
+		"󰎸",
+	},
+	{
+		"nf-md-numeric_7_circle",
+		"󰲬",
+	},
+	{
+		"nf-md-numeric_7_circle_outline",
+		"󰲭",
+	},
+	{
+		"nf-md-numeric_8",
+		"󰭁",
+	},
+	{
+		"nf-md-numeric_8_box",
+		"󰎹",
+	},
+	{
+		"nf-md-numeric_8_box_multiple",
+		"󰼖",
+	},
+	{
+		"nf-md-numeric_8_box_multiple_outline",
+		"󰎺",
+	},
+	{
+		"nf-md-numeric_8_box_outline",
+		"󰎻",
+	},
+	{
+		"nf-md-numeric_8_circle",
+		"󰲮",
+	},
+	{
+		"nf-md-numeric_8_circle_outline",
+		"󰲯",
+	},
+	{
+		"nf-md-numeric_9",
+		"󰭂",
+	},
+	{
+		"nf-md-numeric_9_box",
+		"󰎼",
+	},
+	{
+		"nf-md-numeric_9_box_multiple",
+		"󰼗",
+	},
+	{
+		"nf-md-numeric_9_box_multiple_outline",
+		"󰎽",
+	},
+	{
+		"nf-md-numeric_9_box_outline",
+		"󰎾",
+	},
+	{
+		"nf-md-numeric_9_circle",
+		"󰲰",
+	},
+	{
+		"nf-md-numeric_9_circle_outline",
+		"󰲱",
+	},
+	{
+		"nf-md-numeric_9_plus",
+		"󰿮",
+	},
+	{
+		"nf-md-numeric_9_plus_box",
+		"󰎿",
+	},
+	{
+		"nf-md-numeric_9_plus_box_multiple",
+		"󰼘",
+	},
+	{
+		"nf-md-numeric_9_plus_box_multiple_outline",
+		"󰏀",
+	},
+	{
+		"nf-md-numeric_9_plus_box_outline",
+		"󰏁",
+	},
+	{
+		"nf-md-numeric_9_plus_circle",
+		"󰲲",
+	},
+	{
+		"nf-md-numeric_9_plus_circle_outline",
+		"󰲳",
+	},
+	{
+		"nf-md-numeric_negative_1",
+		"󱁒",
+	},
+	{
+		"nf-md-numeric_off",
+		"󱧓",
+	},
+	{
+		"nf-md-numeric_positive_1",
+		"󱗋",
+	},
+	{
+		"nf-md-nut",
+		"󰛸",
+	},
+	{
+		"nf-md-nutrition",
+		"󰏂",
+	},
+	{
+		"nf-md-nuxt",
+		"󱄆",
+	},
+	{
+		"nf-md-oar",
+		"󰙼",
+	},
+	{
+		"nf-md-ocarina",
+		"󰷠",
+	},
+	{
+		"nf-md-oci",
+		"󱋩",
+	},
+	{
+		"nf-md-ocr",
+		"󱄺",
+	},
+	{
+		"nf-md-octagon",
+		"󰏃",
+	},
+	{
+		"nf-md-octagon_outline",
+		"󰏄",
+	},
+	{
+		"nf-md-octagram",
+		"󰛹",
+	},
+	{
+		"nf-md-octagram_outline",
+		"󰝵",
+	},
+	{
+		"nf-md-octahedron",
+		"󱥐",
+	},
+	{
+		"nf-md-octahedron_off",
+		"󱥑",
+	},
+	{
+		"nf-md-odnoklassniki",
+		"󰏅",
+	},
+	{
+		"nf-md-offer",
+		"󱈛",
+	},
+	{
+		"nf-md-office_building",
+		"󰦑",
+	},
+	{
+		"nf-md-office_building_cog",
+		"󱥉",
+	},
+	{
+		"nf-md-office_building_cog_outline",
+		"󱥊",
+	},
+	{
+		"nf-md-office_building_marker",
+		"󱔠",
+	},
+	{
+		"nf-md-office_building_marker_outline",
+		"󱔡",
+	},
+	{
+		"nf-md-office_building_outline",
+		"󱔟",
+	},
+	{
+		"nf-md-oil",
+		"󰏇",
+	},
+	{
+		"nf-md-oil_lamp",
+		"󰼙",
+	},
+	{
+		"nf-md-oil_level",
+		"󱁓",
+	},
+	{
+		"nf-md-oil_temperature",
+		"󰿸",
+	},
+	{
+		"nf-md-om",
+		"󰥳",
+	},
+	{
+		"nf-md-omega",
+		"󰏉",
+	},
+	{
+		"nf-md-one_up",
+		"󰮭",
+	},
+	{
+		"nf-md-onepassword",
+		"󰢁",
+	},
+	{
+		"nf-md-opacity",
+		"󰗌",
+	},
+	{
+		"nf-md-open_in_app",
+		"󰏋",
+	},
+	{
+		"nf-md-open_in_new",
+		"󰏌",
+	},
+	{
+		"nf-md-open_source_initiative",
+		"󰮮",
+	},
+	{
+		"nf-md-openid",
+		"󰏍",
+	},
+	{
+		"nf-md-opera",
+		"󰏎",
+	},
+	{
+		"nf-md-orbit",
+		"󰀘",
+	},
+	{
+		"nf-md-orbit_variant",
+		"󱗛",
+	},
+	{
+		"nf-md-order_alphabetical_ascending",
+		"󰈍",
+	},
+	{
+		"nf-md-order_alphabetical_descending",
+		"󰴇",
+	},
+	{
+		"nf-md-order_bool_ascending",
+		"󰊾",
+	},
+	{
+		"nf-md-order_bool_ascending_variant",
+		"󰦏",
+	},
+	{
+		"nf-md-order_bool_descending",
+		"󱎄",
+	},
+	{
+		"nf-md-order_bool_descending_variant",
+		"󰦐",
+	},
+	{
+		"nf-md-order_numeric_ascending",
+		"󰕅",
+	},
+	{
+		"nf-md-order_numeric_descending",
+		"󰕆",
+	},
+	{
+		"nf-md-origin",
+		"󰭃",
+	},
+	{
+		"nf-md-ornament",
+		"󰏏",
+	},
+	{
+		"nf-md-ornament_variant",
+		"󰏐",
+	},
+	{
+		"nf-md-outdoor_lamp",
+		"󱁔",
+	},
+	{
+		"nf-md-overscan",
+		"󱀅",
+	},
+	{
+		"nf-md-owl",
+		"󰏒",
+	},
+	{
+		"nf-md-pac_man",
+		"󰮯",
+	},
+	{
+		"nf-md-package",
+		"󰏓",
+	},
+	{
+		"nf-md-package_down",
+		"󰏔",
+	},
+	{
+		"nf-md-package_up",
+		"󰏕",
+	},
+	{
+		"nf-md-package_variant",
+		"󰏖",
+	},
+	{
+		"nf-md-package_variant_closed",
+		"󰏗",
+	},
+	{
+		"nf-md-package_variant_closed_minus",
+		"󱧔",
+	},
+	{
+		"nf-md-package_variant_closed_plus",
+		"󱧕",
+	},
+	{
+		"nf-md-package_variant_closed_remove",
+		"󱧖",
+	},
+	{
+		"nf-md-package_variant_minus",
+		"󱧗",
+	},
+	{
+		"nf-md-package_variant_plus",
+		"󱧘",
+	},
+	{
+		"nf-md-package_variant_remove",
+		"󱧙",
+	},
+	{
+		"nf-md-page_first",
+		"󰘀",
+	},
+	{
+		"nf-md-page_last",
+		"󰘁",
+	},
+	{
+		"nf-md-page_layout_body",
+		"󰛺",
+	},
+	{
+		"nf-md-page_layout_footer",
+		"󰛻",
+	},
+	{
+		"nf-md-page_layout_header",
+		"󰛼",
+	},
+	{
+		"nf-md-page_layout_header_footer",
+		"󰽿",
+	},
+	{
+		"nf-md-page_layout_sidebar_left",
+		"󰛽",
+	},
+	{
+		"nf-md-page_layout_sidebar_right",
+		"󰛾",
+	},
+	{
+		"nf-md-page_next",
+		"󰮰",
+	},
+	{
+		"nf-md-page_next_outline",
+		"󰮱",
+	},
+	{
+		"nf-md-page_previous",
+		"󰮲",
+	},
+	{
+		"nf-md-page_previous_outline",
+		"󰮳",
+	},
+	{
+		"nf-md-pail",
+		"󱐗",
+	},
+	{
+		"nf-md-pail_minus",
+		"󱐷",
+	},
+	{
+		"nf-md-pail_minus_outline",
+		"󱐼",
+	},
+	{
+		"nf-md-pail_off",
+		"󱐹",
+	},
+	{
+		"nf-md-pail_off_outline",
+		"󱐾",
+	},
+	{
+		"nf-md-pail_outline",
+		"󱐺",
+	},
+	{
+		"nf-md-pail_plus",
+		"󱐶",
+	},
+	{
+		"nf-md-pail_plus_outline",
+		"󱐻",
+	},
+	{
+		"nf-md-pail_remove",
+		"󱐸",
+	},
+	{
+		"nf-md-pail_remove_outline",
+		"󱐽",
+	},
+	{
+		"nf-md-palette",
+		"󰏘",
+	},
+	{
+		"nf-md-palette_advanced",
+		"󰏙",
+	},
+	{
+		"nf-md-palette_outline",
+		"󰸌",
+	},
+	{
+		"nf-md-palette_swatch",
+		"󰢵",
+	},
+	{
+		"nf-md-palette_swatch_outline",
+		"󱍜",
+	},
+	{
+		"nf-md-palette_swatch_variant",
+		"󱥚",
+	},
+	{
+		"nf-md-palm_tree",
+		"󱁕",
+	},
+	{
+		"nf-md-pan",
+		"󰮴",
+	},
+	{
+		"nf-md-pan_bottom_left",
+		"󰮵",
+	},
+	{
+		"nf-md-pan_bottom_right",
+		"󰮶",
+	},
+	{
+		"nf-md-pan_down",
+		"󰮷",
+	},
+	{
+		"nf-md-pan_horizontal",
+		"󰮸",
+	},
+	{
+		"nf-md-pan_left",
+		"󰮹",
+	},
+	{
+		"nf-md-pan_right",
+		"󰮺",
+	},
+	{
+		"nf-md-pan_top_left",
+		"󰮻",
+	},
+	{
+		"nf-md-pan_top_right",
+		"󰮼",
+	},
+	{
+		"nf-md-pan_up",
+		"󰮽",
+	},
+	{
+		"nf-md-pan_vertical",
+		"󰮾",
+	},
+	{
+		"nf-md-panda",
+		"󰏚",
+	},
+	{
+		"nf-md-pandora",
+		"󰏛",
+	},
+	{
+		"nf-md-panorama",
+		"󰏜",
+	},
+	{
+		"nf-md-panorama_fisheye",
+		"󰏝",
+	},
+	{
+		"nf-md-panorama_horizontal",
+		"󱤨",
+	},
+	{
+		"nf-md-panorama_horizontal_outline",
+		"󰏞",
+	},
+	{
+		"nf-md-panorama_outline",
+		"󱦌",
+	},
+	{
+		"nf-md-panorama_sphere",
+		"󱦍",
+	},
+	{
+		"nf-md-panorama_sphere_outline",
+		"󱦎",
+	},
+	{
+		"nf-md-panorama_variant",
+		"󱦏",
+	},
+	{
+		"nf-md-panorama_variant_outline",
+		"󱦐",
+	},
+	{
+		"nf-md-panorama_vertical",
+		"󱤩",
+	},
+	{
+		"nf-md-panorama_vertical_outline",
+		"󰏟",
+	},
+	{
+		"nf-md-panorama_wide_angle",
+		"󱥟",
+	},
+	{
+		"nf-md-panorama_wide_angle_outline",
+		"󰏠",
+	},
+	{
+		"nf-md-paper_cut_vertical",
+		"󰏡",
+	},
+	{
+		"nf-md-paper_roll",
+		"󱅗",
+	},
+	{
+		"nf-md-paper_roll_outline",
+		"󱅘",
+	},
+	{
+		"nf-md-paperclip",
+		"󰏢",
+	},
+	{
+		"nf-md-paperclip_check",
+		"󱫆",
+	},
+	{
+		"nf-md-paperclip_lock",
+		"󱧚",
+	},
+	{
+		"nf-md-paperclip_minus",
+		"󱫇",
+	},
+	{
+		"nf-md-paperclip_off",
+		"󱫈",
+	},
+	{
+		"nf-md-paperclip_plus",
+		"󱫉",
+	},
+	{
+		"nf-md-paperclip_remove",
+		"󱫊",
+	},
+	{
+		"nf-md-parachute",
+		"󰲴",
+	},
+	{
+		"nf-md-parachute_outline",
+		"󰲵",
+	},
+	{
+		"nf-md-paragliding",
+		"󱝅",
+	},
+	{
+		"nf-md-parking",
+		"󰏣",
+	},
+	{
+		"nf-md-party_popper",
+		"󱁖",
+	},
+	{
+		"nf-md-passport",
+		"󰟣",
+	},
+	{
+		"nf-md-passport_biometric",
+		"󰷡",
+	},
+	{
+		"nf-md-pasta",
+		"󱅠",
+	},
+	{
+		"nf-md-patio_heater",
+		"󰾀",
+	},
+	{
+		"nf-md-patreon",
+		"󰢂",
+	},
+	{
+		"nf-md-pause",
+		"󰏤",
+	},
+	{
+		"nf-md-pause_circle",
+		"󰏥",
+	},
+	{
+		"nf-md-pause_circle_outline",
+		"󰏦",
+	},
+	{
+		"nf-md-pause_octagon",
+		"󰏧",
+	},
+	{
+		"nf-md-pause_octagon_outline",
+		"󰏨",
+	},
+	{
+		"nf-md-paw",
+		"󰏩",
+	},
+	{
+		"nf-md-paw_off",
+		"󰙗",
+	},
+	{
+		"nf-md-paw_off_outline",
+		"󱙶",
+	},
+	{
+		"nf-md-paw_outline",
+		"󱙵",
+	},
+	{
+		"nf-md-peace",
+		"󰢄",
+	},
+	{
+		"nf-md-peanut",
+		"󰿼",
+	},
+	{
+		"nf-md-peanut_off",
+		"󰿽",
+	},
+	{
+		"nf-md-peanut_off_outline",
+		"󰿿",
+	},
+	{
+		"nf-md-peanut_outline",
+		"󰿾",
+	},
+	{
+		"nf-md-pen",
+		"󰏪",
+	},
+	{
+		"nf-md-pen_lock",
+		"󰷢",
+	},
+	{
+		"nf-md-pen_minus",
+		"󰷣",
+	},
+	{
+		"nf-md-pen_off",
+		"󰷤",
+	},
+	{
+		"nf-md-pen_plus",
+		"󰷥",
+	},
+	{
+		"nf-md-pen_remove",
+		"󰷦",
+	},
+	{
+		"nf-md-pencil",
+		"󰏫",
+	},
+	{
+		"nf-md-pencil_box",
+		"󰏬",
+	},
+	{
+		"nf-md-pencil_box_multiple",
+		"󱅄",
+	},
+	{
+		"nf-md-pencil_box_multiple_outline",
+		"󱅅",
+	},
+	{
+		"nf-md-pencil_box_outline",
+		"󰏭",
+	},
+	{
+		"nf-md-pencil_circle",
+		"󰛿",
+	},
+	{
+		"nf-md-pencil_circle_outline",
+		"󰝶",
+	},
+	{
+		"nf-md-pencil_lock",
+		"󰏮",
+	},
+	{
+		"nf-md-pencil_lock_outline",
+		"󰷧",
+	},
+	{
+		"nf-md-pencil_minus",
+		"󰷨",
+	},
+	{
+		"nf-md-pencil_minus_outline",
+		"󰷩",
+	},
+	{
+		"nf-md-pencil_off",
+		"󰏯",
+	},
+	{
+		"nf-md-pencil_off_outline",
+		"󰷪",
+	},
+	{
+		"nf-md-pencil_outline",
+		"󰲶",
+	},
+	{
+		"nf-md-pencil_plus",
+		"󰷫",
+	},
+	{
+		"nf-md-pencil_plus_outline",
+		"󰷬",
+	},
+	{
+		"nf-md-pencil_remove",
+		"󰷭",
+	},
+	{
+		"nf-md-pencil_remove_outline",
+		"󰷮",
+	},
+	{
+		"nf-md-pencil_ruler",
+		"󱍓",
+	},
+	{
+		"nf-md-penguin",
+		"󰻀",
+	},
+	{
+		"nf-md-pentagon",
+		"󰜁",
+	},
+	{
+		"nf-md-pentagon_outline",
+		"󰜀",
+	},
+	{
+		"nf-md-pentagram",
+		"󱙧",
+	},
+	{
+		"nf-md-percent",
+		"󰏰",
+	},
+	{
+		"nf-md-percent_box",
+		"󱨂",
+	},
+	{
+		"nf-md-percent_box_outline",
+		"󱨃",
+	},
+	{
+		"nf-md-percent_circle",
+		"󱨄",
+	},
+	{
+		"nf-md-percent_circle_outline",
+		"󱨅",
+	},
+	{
+		"nf-md-percent_outline",
+		"󱉸",
+	},
+	{
+		"nf-md-periodic_table",
+		"󰢶",
+	},
+	{
+		"nf-md-perspective_less",
+		"󰴣",
+	},
+	{
+		"nf-md-perspective_more",
+		"󰴤",
+	},
+	{
+		"nf-md-ph",
+		"󱟅",
+	},
+	{
+		"nf-md-phone",
+		"󰏲",
+	},
+	{
+		"nf-md-phone_alert",
+		"󰼚",
+	},
+	{
+		"nf-md-phone_alert_outline",
+		"󱆎",
+	},
+	{
+		"nf-md-phone_bluetooth",
+		"󰏳",
+	},
+	{
+		"nf-md-phone_bluetooth_outline",
+		"󱆏",
+	},
+	{
+		"nf-md-phone_cancel",
+		"󱂼",
+	},
+	{
+		"nf-md-phone_cancel_outline",
+		"󱆐",
+	},
+	{
+		"nf-md-phone_check",
+		"󱆩",
+	},
+	{
+		"nf-md-phone_check_outline",
+		"󱆪",
+	},
+	{
+		"nf-md-phone_classic",
+		"󰘂",
+	},
+	{
+		"nf-md-phone_classic_off",
+		"󱉹",
+	},
+	{
+		"nf-md-phone_clock",
+		"󱧛",
+	},
+	{
+		"nf-md-phone_dial",
+		"󱕙",
+	},
+	{
+		"nf-md-phone_dial_outline",
+		"󱕚",
+	},
+	{
+		"nf-md-phone_forward",
+		"󰏴",
+	},
+	{
+		"nf-md-phone_forward_outline",
+		"󱆑",
+	},
+	{
+		"nf-md-phone_hangup",
+		"󰏵",
+	},
+	{
+		"nf-md-phone_hangup_outline",
+		"󱆒",
+	},
+	{
+		"nf-md-phone_in_talk",
+		"󰏶",
+	},
+	{
+		"nf-md-phone_in_talk_outline",
+		"󱆂",
+	},
+	{
+		"nf-md-phone_incoming",
+		"󰏷",
+	},
+	{
+		"nf-md-phone_incoming_outline",
+		"󱆓",
+	},
+	{
+		"nf-md-phone_lock",
+		"󰏸",
+	},
+	{
+		"nf-md-phone_lock_outline",
+		"󱆔",
+	},
+	{
+		"nf-md-phone_log",
+		"󰏹",
+	},
+	{
+		"nf-md-phone_log_outline",
+		"󱆕",
+	},
+	{
+		"nf-md-phone_message",
+		"󱆖",
+	},
+	{
+		"nf-md-phone_message_outline",
+		"󱆗",
+	},
+	{
+		"nf-md-phone_minus",
+		"󰙘",
+	},
+	{
+		"nf-md-phone_minus_outline",
+		"󱆘",
+	},
+	{
+		"nf-md-phone_missed",
+		"󰏺",
+	},
+	{
+		"nf-md-phone_missed_outline",
+		"󱆥",
+	},
+	{
+		"nf-md-phone_off",
+		"󰷯",
+	},
+	{
+		"nf-md-phone_off_outline",
+		"󱆦",
+	},
+	{
+		"nf-md-phone_outgoing",
+		"󰏻",
+	},
+	{
+		"nf-md-phone_outgoing_outline",
+		"󱆙",
+	},
+	{
+		"nf-md-phone_outline",
+		"󰷰",
+	},
+	{
+		"nf-md-phone_paused",
+		"󰏼",
+	},
+	{
+		"nf-md-phone_paused_outline",
+		"󱆚",
+	},
+	{
+		"nf-md-phone_plus",
+		"󰙙",
+	},
+	{
+		"nf-md-phone_plus_outline",
+		"󱆛",
+	},
+	{
+		"nf-md-phone_refresh",
+		"󱦓",
+	},
+	{
+		"nf-md-phone_refresh_outline",
+		"󱦔",
+	},
+	{
+		"nf-md-phone_remove",
+		"󱔯",
+	},
+	{
+		"nf-md-phone_remove_outline",
+		"󱔰",
+	},
+	{
+		"nf-md-phone_return",
+		"󰠯",
+	},
+	{
+		"nf-md-phone_return_outline",
+		"󱆜",
+	},
+	{
+		"nf-md-phone_ring",
+		"󱆫",
+	},
+	{
+		"nf-md-phone_ring_outline",
+		"󱆬",
+	},
+	{
+		"nf-md-phone_rotate_landscape",
+		"󰢅",
+	},
+	{
+		"nf-md-phone_rotate_portrait",
+		"󰢆",
+	},
+	{
+		"nf-md-phone_settings",
+		"󰏽",
+	},
+	{
+		"nf-md-phone_settings_outline",
+		"󱆝",
+	},
+	{
+		"nf-md-phone_sync",
+		"󱦕",
+	},
+	{
+		"nf-md-phone_sync_outline",
+		"󱦖",
+	},
+	{
+		"nf-md-phone_voip",
+		"󰏾",
+	},
+	{
+		"nf-md-pi",
+		"󰏿",
+	},
+	{
+		"nf-md-pi_box",
+		"󰐀",
+	},
+	{
+		"nf-md-pi_hole",
+		"󰷱",
+	},
+	{
+		"nf-md-piano",
+		"󰙽",
+	},
+	{
+		"nf-md-piano_off",
+		"󰚘",
+	},
+	{
+		"nf-md-pickaxe",
+		"󰢷",
+	},
+	{
+		"nf-md-picture_in_picture_bottom_right",
+		"󰹗",
+	},
+	{
+		"nf-md-picture_in_picture_bottom_right_outline",
+		"󰹘",
+	},
+	{
+		"nf-md-picture_in_picture_top_right",
+		"󰹙",
+	},
+	{
+		"nf-md-picture_in_picture_top_right_outline",
+		"󰹚",
+	},
+	{
+		"nf-md-pier",
+		"󰢇",
+	},
+	{
+		"nf-md-pier_crane",
+		"󰢈",
+	},
+	{
+		"nf-md-pig",
+		"󰐁",
+	},
+	{
+		"nf-md-pig_variant",
+		"󱀆",
+	},
+	{
+		"nf-md-pig_variant_outline",
+		"󱙸",
+	},
+	{
+		"nf-md-piggy_bank",
+		"󱀇",
+	},
+	{
+		"nf-md-piggy_bank_outline",
+		"󱙹",
+	},
+	{
+		"nf-md-pill",
+		"󰐂",
+	},
+	{
+		"nf-md-pill_off",
+		"󱩜",
+	},
+	{
+		"nf-md-pillar",
+		"󰜂",
+	},
+	{
+		"nf-md-pin",
+		"󰐃",
+	},
+	{
+		"nf-md-pin_off",
+		"󰐄",
+	},
+	{
+		"nf-md-pin_off_outline",
+		"󰤰",
+	},
+	{
+		"nf-md-pin_outline",
+		"󰤱",
+	},
+	{
+		"nf-md-pine_tree",
+		"󰐅",
+	},
+	{
+		"nf-md-pine_tree_box",
+		"󰐆",
+	},
+	{
+		"nf-md-pine_tree_fire",
+		"󱐚",
+	},
+	{
+		"nf-md-pinterest",
+		"󰐇",
+	},
+	{
+		"nf-md-pinwheel",
+		"󰫕",
+	},
+	{
+		"nf-md-pinwheel_outline",
+		"󰫖",
+	},
+	{
+		"nf-md-pipe",
+		"󰟥",
+	},
+	{
+		"nf-md-pipe_disconnected",
+		"󰟦",
+	},
+	{
+		"nf-md-pipe_leak",
+		"󰢉",
+	},
+	{
+		"nf-md-pipe_valve",
+		"󱡍",
+	},
+	{
+		"nf-md-pipe_wrench",
+		"󱍔",
+	},
+	{
+		"nf-md-pirate",
+		"󰨈",
+	},
+	{
+		"nf-md-pistol",
+		"󰜃",
+	},
+	{
+		"nf-md-piston",
+		"󰢊",
+	},
+	{
+		"nf-md-pitchfork",
+		"󱕓",
+	},
+	{
+		"nf-md-pizza",
+		"󰐉",
+	},
+	{
+		"nf-md-play",
+		"󰐊",
+	},
+	{
+		"nf-md-play_box",
+		"󱉺",
+	},
+	{
+		"nf-md-play_box_lock",
+		"󱨖",
+	},
+	{
+		"nf-md-play_box_lock_open",
+		"󱨗",
+	},
+	{
+		"nf-md-play_box_lock_open_outline",
+		"󱨘",
+	},
+	{
+		"nf-md-play_box_lock_outline",
+		"󱨙",
+	},
+	{
+		"nf-md-play_box_multiple",
+		"󰴙",
+	},
+	{
+		"nf-md-play_box_multiple_outline",
+		"󱏦",
+	},
+	{
+		"nf-md-play_box_outline",
+		"󰐋",
+	},
+	{
+		"nf-md-play_circle",
+		"󰐌",
+	},
+	{
+		"nf-md-play_circle_outline",
+		"󰐍",
+	},
+	{
+		"nf-md-play_network",
+		"󰢋",
+	},
+	{
+		"nf-md-play_network_outline",
+		"󰲷",
+	},
+	{
+		"nf-md-play_outline",
+		"󰼛",
+	},
+	{
+		"nf-md-play_pause",
+		"󰐎",
+	},
+	{
+		"nf-md-play_protected_content",
+		"󰐏",
+	},
+	{
+		"nf-md-play_speed",
+		"󰣿",
+	},
+	{
+		"nf-md-playlist_check",
+		"󰗇",
+	},
+	{
+		"nf-md-playlist_edit",
+		"󰤀",
+	},
+	{
+		"nf-md-playlist_minus",
+		"󰐐",
+	},
+	{
+		"nf-md-playlist_music",
+		"󰲸",
+	},
+	{
+		"nf-md-playlist_music_outline",
+		"󰲹",
+	},
+	{
+		"nf-md-playlist_play",
+		"󰐑",
+	},
+	{
+		"nf-md-playlist_plus",
+		"󰐒",
+	},
+	{
+		"nf-md-playlist_remove",
+		"󰐓",
+	},
+	{
+		"nf-md-playlist_star",
+		"󰷲",
+	},
+	{
+		"nf-md-plex",
+		"󰚺",
+	},
+	{
+		"nf-md-pliers",
+		"󱦤",
+	},
+	{
+		"nf-md-plus",
+		"󰐕",
+	},
+	{
+		"nf-md-plus_box",
+		"󰐖",
+	},
+	{
+		"nf-md-plus_box_multiple",
+		"󰌴",
+	},
+	{
+		"nf-md-plus_box_multiple_outline",
+		"󱅃",
+	},
+	{
+		"nf-md-plus_box_outline",
+		"󰜄",
+	},
+	{
+		"nf-md-plus_circle",
+		"󰐗",
+	},
+	{
+		"nf-md-plus_circle_multiple",
+		"󰍌",
+	},
+	{
+		"nf-md-plus_circle_multiple_outline",
+		"󰐘",
+	},
+	{
+		"nf-md-plus_circle_outline",
+		"󰐙",
+	},
+	{
+		"nf-md-plus_lock",
+		"󱩝",
+	},
+	{
+		"nf-md-plus_lock_open",
+		"󱩞",
+	},
+	{
+		"nf-md-plus_minus",
+		"󰦒",
+	},
+	{
+		"nf-md-plus_minus_box",
+		"󰦓",
+	},
+	{
+		"nf-md-plus_minus_variant",
+		"󱓉",
+	},
+	{
+		"nf-md-plus_network",
+		"󰐚",
+	},
+	{
+		"nf-md-plus_network_outline",
+		"󰲺",
+	},
+	{
+		"nf-md-plus_outline",
+		"󰜅",
+	},
+	{
+		"nf-md-plus_thick",
+		"󱇬",
+	},
+	{
+		"nf-md-podcast",
+		"󰦔",
+	},
+	{
+		"nf-md-podium",
+		"󰴥",
+	},
+	{
+		"nf-md-podium_bronze",
+		"󰴦",
+	},
+	{
+		"nf-md-podium_gold",
+		"󰴧",
+	},
+	{
+		"nf-md-podium_silver",
+		"󰴨",
+	},
+	{
+		"nf-md-point_of_sale",
+		"󰶒",
+	},
+	{
+		"nf-md-pokeball",
+		"󰐝",
+	},
+	{
+		"nf-md-pokemon_go",
+		"󰨉",
+	},
+	{
+		"nf-md-poker_chip",
+		"󰠰",
+	},
+	{
+		"nf-md-polaroid",
+		"󰐞",
+	},
+	{
+		"nf-md-police_badge",
+		"󱅧",
+	},
+	{
+		"nf-md-police_badge_outline",
+		"󱅨",
+	},
+	{
+		"nf-md-police_station",
+		"󱠹",
+	},
+	{
+		"nf-md-poll",
+		"󰐟",
+	},
+	{
+		"nf-md-polo",
+		"󱓃",
+	},
+	{
+		"nf-md-polymer",
+		"󰐡",
+	},
+	{
+		"nf-md-pool",
+		"󰘆",
+	},
+	{
+		"nf-md-pool_thermometer",
+		"󱩟",
+	},
+	{
+		"nf-md-popcorn",
+		"󰐢",
+	},
+	{
+		"nf-md-post",
+		"󱀈",
+	},
+	{
+		"nf-md-post_lamp",
+		"󱩠",
+	},
+	{
+		"nf-md-post_outline",
+		"󱀉",
+	},
+	{
+		"nf-md-postage_stamp",
+		"󰲻",
+	},
+	{
+		"nf-md-pot",
+		"󰋥",
+	},
+	{
+		"nf-md-pot_mix",
+		"󰙛",
+	},
+	{
+		"nf-md-pot_mix_outline",
+		"󰙷",
+	},
+	{
+		"nf-md-pot_outline",
+		"󰋿",
+	},
+	{
+		"nf-md-pot_steam",
+		"󰙚",
+	},
+	{
+		"nf-md-pot_steam_outline",
+		"󰌦",
+	},
+	{
+		"nf-md-pound",
+		"󰐣",
+	},
+	{
+		"nf-md-pound_box",
+		"󰐤",
+	},
+	{
+		"nf-md-pound_box_outline",
+		"󱅿",
+	},
+	{
+		"nf-md-power",
+		"󰐥",
+	},
+	{
+		"nf-md-power_cycle",
+		"󰤁",
+	},
+	{
+		"nf-md-power_off",
+		"󰤂",
+	},
+	{
+		"nf-md-power_on",
+		"󰤃",
+	},
+	{
+		"nf-md-power_plug",
+		"󰚥",
+	},
+	{
+		"nf-md-power_plug_off",
+		"󰚦",
+	},
+	{
+		"nf-md-power_plug_off_outline",
+		"󱐤",
+	},
+	{
+		"nf-md-power_plug_outline",
+		"󱐥",
+	},
+	{
+		"nf-md-power_settings",
+		"󰐦",
+	},
+	{
+		"nf-md-power_sleep",
+		"󰤄",
+	},
+	{
+		"nf-md-power_socket",
+		"󰐧",
+	},
+	{
+		"nf-md-power_socket_au",
+		"󰤅",
+	},
+	{
+		"nf-md-power_socket_ch",
+		"󰾳",
+	},
+	{
+		"nf-md-power_socket_de",
+		"󱄇",
+	},
+	{
+		"nf-md-power_socket_eu",
+		"󰟧",
+	},
+	{
+		"nf-md-power_socket_fr",
+		"󱄈",
+	},
+	{
+		"nf-md-power_socket_it",
+		"󱓿",
+	},
+	{
+		"nf-md-power_socket_jp",
+		"󱄉",
+	},
+	{
+		"nf-md-power_socket_uk",
+		"󰟨",
+	},
+	{
+		"nf-md-power_socket_us",
+		"󰟩",
+	},
+	{
+		"nf-md-power_standby",
+		"󰤆",
+	},
+	{
+		"nf-md-powershell",
+		"󰨊",
+	},
+	{
+		"nf-md-prescription",
+		"󰜆",
+	},
+	{
+		"nf-md-presentation",
+		"󰐨",
+	},
+	{
+		"nf-md-presentation_play",
+		"󰐩",
+	},
+	{
+		"nf-md-pretzel",
+		"󱕢",
+	},
+	{
+		"nf-md-printer",
+		"󰐪",
+	},
+	{
+		"nf-md-printer_3d",
+		"󰐫",
+	},
+	{
+		"nf-md-printer_3d_nozzle",
+		"󰹛",
+	},
+	{
+		"nf-md-printer_3d_nozzle_alert",
+		"󱇀",
+	},
+	{
+		"nf-md-printer_3d_nozzle_alert_outline",
+		"󱇁",
+	},
+	{
+		"nf-md-printer_3d_nozzle_heat",
+		"󱢸",
+	},
+	{
+		"nf-md-printer_3d_nozzle_heat_outline",
+		"󱢹",
+	},
+	{
+		"nf-md-printer_3d_nozzle_outline",
+		"󰹜",
+	},
+	{
+		"nf-md-printer_alert",
+		"󰐬",
+	},
+	{
+		"nf-md-printer_check",
+		"󱅆",
+	},
+	{
+		"nf-md-printer_eye",
+		"󱑘",
+	},
+	{
+		"nf-md-printer_off",
+		"󰹝",
+	},
+	{
+		"nf-md-printer_off_outline",
+		"󱞅",
+	},
+	{
+		"nf-md-printer_outline",
+		"󱞆",
+	},
+	{
+		"nf-md-printer_pos",
+		"󱁗",
+	},
+	{
+		"nf-md-printer_search",
+		"󱑗",
+	},
+	{
+		"nf-md-printer_settings",
+		"󰜇",
+	},
+	{
+		"nf-md-printer_wireless",
+		"󰨋",
+	},
+	{
+		"nf-md-priority_high",
+		"󰘃",
+	},
+	{
+		"nf-md-priority_low",
+		"󰘄",
+	},
+	{
+		"nf-md-professional_hexagon",
+		"󰐭",
+	},
+	{
+		"nf-md-progress_alert",
+		"󰲼",
+	},
+	{
+		"nf-md-progress_check",
+		"󰦕",
+	},
+	{
+		"nf-md-progress_clock",
+		"󰦖",
+	},
+	{
+		"nf-md-progress_close",
+		"󱄊",
+	},
+	{
+		"nf-md-progress_download",
+		"󰦗",
+	},
+	{
+		"nf-md-progress_pencil",
+		"󱞇",
+	},
+	{
+		"nf-md-progress_question",
+		"󱔢",
+	},
+	{
+		"nf-md-progress_star",
+		"󱞈",
+	},
+	{
+		"nf-md-progress_upload",
+		"󰦘",
+	},
+	{
+		"nf-md-progress_wrench",
+		"󰲽",
+	},
+	{
+		"nf-md-projector",
+		"󰐮",
+	},
+	{
+		"nf-md-projector_off",
+		"󱨣",
+	},
+	{
+		"nf-md-projector_screen",
+		"󰐯",
+	},
+	{
+		"nf-md-projector_screen_off",
+		"󱠍",
+	},
+	{
+		"nf-md-projector_screen_off_outline",
+		"󱠎",
+	},
+	{
+		"nf-md-projector_screen_outline",
+		"󱜤",
+	},
+	{
+		"nf-md-projector_screen_variant",
+		"󱠏",
+	},
+	{
+		"nf-md-projector_screen_variant_off",
+		"󱠐",
+	},
+	{
+		"nf-md-projector_screen_variant_off_outline",
+		"󱠑",
+	},
+	{
+		"nf-md-projector_screen_variant_outline",
+		"󱠒",
+	},
+	{
+		"nf-md-propane_tank",
+		"󱍗",
+	},
+	{
+		"nf-md-propane_tank_outline",
+		"󱍘",
+	},
+	{
+		"nf-md-protocol",
+		"󰿘",
+	},
+	{
+		"nf-md-publish",
+		"󰚧",
+	},
+	{
+		"nf-md-publish_off",
+		"󱥅",
+	},
+	{
+		"nf-md-pulse",
+		"󰐰",
+	},
+	{
+		"nf-md-pump",
+		"󱐂",
+	},
+	{
+		"nf-md-pumpkin",
+		"󰮿",
+	},
+	{
+		"nf-md-purse",
+		"󰼜",
+	},
+	{
+		"nf-md-purse_outline",
+		"󰼝",
+	},
+	{
+		"nf-md-puzzle",
+		"󰐱",
+	},
+	{
+		"nf-md-puzzle_check",
+		"󱐦",
+	},
+	{
+		"nf-md-puzzle_check_outline",
+		"󱐧",
+	},
+	{
+		"nf-md-puzzle_edit",
+		"󱓓",
+	},
+	{
+		"nf-md-puzzle_edit_outline",
+		"󱓙",
+	},
+	{
+		"nf-md-puzzle_heart",
+		"󱓔",
+	},
+	{
+		"nf-md-puzzle_heart_outline",
+		"󱓚",
+	},
+	{
+		"nf-md-puzzle_minus",
+		"󱓑",
+	},
+	{
+		"nf-md-puzzle_minus_outline",
+		"󱓗",
+	},
+	{
+		"nf-md-puzzle_outline",
+		"󰩦",
+	},
+	{
+		"nf-md-puzzle_plus",
+		"󱓐",
+	},
+	{
+		"nf-md-puzzle_plus_outline",
+		"󱓖",
+	},
+	{
+		"nf-md-puzzle_remove",
+		"󱓒",
+	},
+	{
+		"nf-md-puzzle_remove_outline",
+		"󱓘",
+	},
+	{
+		"nf-md-puzzle_star",
+		"󱓕",
+	},
+	{
+		"nf-md-puzzle_star_outline",
+		"󱓛",
+	},
+	{
+		"nf-md-pyramid",
+		"󱥒",
+	},
+	{
+		"nf-md-pyramid_off",
+		"󱥓",
+	},
+	{
+		"nf-md-qi",
+		"󰦙",
+	},
+	{
+		"nf-md-qqchat",
+		"󰘅",
+	},
+	{
+		"nf-md-qrcode",
+		"󰐲",
+	},
+	{
+		"nf-md-qrcode_edit",
+		"󰢸",
+	},
+	{
+		"nf-md-qrcode_minus",
+		"󱆌",
+	},
+	{
+		"nf-md-qrcode_plus",
+		"󱆋",
+	},
+	{
+		"nf-md-qrcode_remove",
+		"󱆍",
+	},
+	{
+		"nf-md-qrcode_scan",
+		"󰐳",
+	},
+	{
+		"nf-md-quadcopter",
+		"󰐴",
+	},
+	{
+		"nf-md-quality_high",
+		"󰐵",
+	},
+	{
+		"nf-md-quality_low",
+		"󰨌",
+	},
+	{
+		"nf-md-quality_medium",
+		"󰨍",
+	},
+	{
+		"nf-md-quora",
+		"󰴩",
+	},
+	{
+		"nf-md-rabbit",
+		"󰤇",
+	},
+	{
+		"nf-md-rabbit_variant",
+		"󱩡",
+	},
+	{
+		"nf-md-rabbit_variant_outline",
+		"󱩢",
+	},
+	{
+		"nf-md-racing_helmet",
+		"󰶓",
+	},
+	{
+		"nf-md-racquetball",
+		"󰶔",
+	},
+	{
+		"nf-md-radar",
+		"󰐷",
+	},
+	{
+		"nf-md-radiator",
+		"󰐸",
+	},
+	{
+		"nf-md-radiator_disabled",
+		"󰫗",
+	},
+	{
+		"nf-md-radiator_off",
+		"󰫘",
+	},
+	{
+		"nf-md-radio",
+		"󰐹",
+	},
+	{
+		"nf-md-radio_am",
+		"󰲾",
+	},
+	{
+		"nf-md-radio_fm",
+		"󰲿",
+	},
+	{
+		"nf-md-radio_handheld",
+		"󰐺",
+	},
+	{
+		"nf-md-radio_off",
+		"󱈜",
+	},
+	{
+		"nf-md-radio_tower",
+		"󰐻",
+	},
+	{
+		"nf-md-radioactive",
+		"󰐼",
+	},
+	{
+		"nf-md-radioactive_circle",
+		"󱡝",
+	},
+	{
+		"nf-md-radioactive_circle_outline",
+		"󱡞",
+	},
+	{
+		"nf-md-radioactive_off",
+		"󰻁",
+	},
+	{
+		"nf-md-radiobox_marked",
+		"󰐾",
+	},
+	{
+		"nf-md-radiology_box",
+		"󱓅",
+	},
+	{
+		"nf-md-radiology_box_outline",
+		"󱓆",
+	},
+	{
+		"nf-md-radius",
+		"󰳀",
+	},
+	{
+		"nf-md-radius_outline",
+		"󰳁",
+	},
+	{
+		"nf-md-railroad_light",
+		"󰼞",
+	},
+	{
+		"nf-md-rake",
+		"󱕄",
+	},
+	{
+		"nf-md-raspberry_pi",
+		"󰐿",
+	},
+	{
+		"nf-md-raw",
+		"󱨏",
+	},
+	{
+		"nf-md-raw_off",
+		"󱨐",
+	},
+	{
+		"nf-md-ray_end",
+		"󰑀",
+	},
+	{
+		"nf-md-ray_end_arrow",
+		"󰑁",
+	},
+	{
+		"nf-md-ray_start",
+		"󰑂",
+	},
+	{
+		"nf-md-ray_start_arrow",
+		"󰑃",
+	},
+	{
+		"nf-md-ray_start_end",
+		"󰑄",
+	},
+	{
+		"nf-md-ray_start_vertex_end",
+		"󱗘",
+	},
+	{
+		"nf-md-ray_vertex",
+		"󰑅",
+	},
+	{
+		"nf-md-razor_double_edge",
+		"󱦗",
+	},
+	{
+		"nf-md-razor_single_edge",
+		"󱦘",
+	},
+	{
+		"nf-md-react",
+		"󰜈",
+	},
+	{
+		"nf-md-read",
+		"󰑇",
+	},
+	{
+		"nf-md-receipt",
+		"󰑉",
+	},
+	{
+		"nf-md-receipt_outline",
+		"󱧜",
+	},
+	{
+		"nf-md-receipt_text_check",
+		"󱩣",
+	},
+	{
+		"nf-md-receipt_text_check_outline",
+		"󱩤",
+	},
+	{
+		"nf-md-receipt_text_minus",
+		"󱩥",
+	},
+	{
+		"nf-md-receipt_text_minus_outline",
+		"󱩦",
+	},
+	{
+		"nf-md-receipt_text_plus",
+		"󱩧",
+	},
+	{
+		"nf-md-receipt_text_plus_outline",
+		"󱩨",
+	},
+	{
+		"nf-md-receipt_text_remove",
+		"󱩩",
+	},
+	{
+		"nf-md-receipt_text_remove_outline",
+		"󱩪",
+	},
+	{
+		"nf-md-record",
+		"󰑊",
+	},
+	{
+		"nf-md-record_circle",
+		"󰻂",
+	},
+	{
+		"nf-md-record_circle_outline",
+		"󰻃",
+	},
+	{
+		"nf-md-record_player",
+		"󰦚",
+	},
+	{
+		"nf-md-record_rec",
+		"󰑋",
+	},
+	{
+		"nf-md-rectangle",
+		"󰹞",
+	},
+	{
+		"nf-md-rectangle_outline",
+		"󰹟",
+	},
+	{
+		"nf-md-recycle",
+		"󰑌",
+	},
+	{
+		"nf-md-recycle_variant",
+		"󱎝",
+	},
+	{
+		"nf-md-reddit",
+		"󰑍",
+	},
+	{
+		"nf-md-redhat",
+		"󱄛",
+	},
+	{
+		"nf-md-redo",
+		"󰑎",
+	},
+	{
+		"nf-md-redo_variant",
+		"󰑏",
+	},
+	{
+		"nf-md-reflect_horizontal",
+		"󰨎",
+	},
+	{
+		"nf-md-reflect_vertical",
+		"󰨏",
+	},
+	{
+		"nf-md-refresh",
+		"󰑐",
+	},
+	{
+		"nf-md-refresh_auto",
+		"󱣲",
+	},
+	{
+		"nf-md-refresh_circle",
+		"󱍷",
+	},
+	{
+		"nf-md-regex",
+		"󰑑",
+	},
+	{
+		"nf-md-registered_trademark",
+		"󰩧",
+	},
+	{
+		"nf-md-reiterate",
+		"󱖈",
+	},
+	{
+		"nf-md-relation_many_to_many",
+		"󱒖",
+	},
+	{
+		"nf-md-relation_many_to_one",
+		"󱒗",
+	},
+	{
+		"nf-md-relation_many_to_one_or_many",
+		"󱒘",
+	},
+	{
+		"nf-md-relation_many_to_only_one",
+		"󱒙",
+	},
+	{
+		"nf-md-relation_many_to_zero_or_many",
+		"󱒚",
+	},
+	{
+		"nf-md-relation_many_to_zero_or_one",
+		"󱒛",
+	},
+	{
+		"nf-md-relation_one_or_many_to_many",
+		"󱒜",
+	},
+	{
+		"nf-md-relation_one_or_many_to_one",
+		"󱒝",
+	},
+	{
+		"nf-md-relation_one_or_many_to_one_or_many",
+		"󱒞",
+	},
+	{
+		"nf-md-relation_one_or_many_to_only_one",
+		"󱒟",
+	},
+	{
+		"nf-md-relation_one_or_many_to_zero_or_many",
+		"󱒠",
+	},
+	{
+		"nf-md-relation_one_or_many_to_zero_or_one",
+		"󱒡",
+	},
+	{
+		"nf-md-relation_one_to_many",
+		"󱒢",
+	},
+	{
+		"nf-md-relation_one_to_one",
+		"󱒣",
+	},
+	{
+		"nf-md-relation_one_to_one_or_many",
+		"󱒤",
+	},
+	{
+		"nf-md-relation_one_to_only_one",
+		"󱒥",
+	},
+	{
+		"nf-md-relation_one_to_zero_or_many",
+		"󱒦",
+	},
+	{
+		"nf-md-relation_one_to_zero_or_one",
+		"󱒧",
+	},
+	{
+		"nf-md-relation_only_one_to_many",
+		"󱒨",
+	},
+	{
+		"nf-md-relation_only_one_to_one",
+		"󱒩",
+	},
+	{
+		"nf-md-relation_only_one_to_one_or_many",
+		"󱒪",
+	},
+	{
+		"nf-md-relation_only_one_to_only_one",
+		"󱒫",
+	},
+	{
+		"nf-md-relation_only_one_to_zero_or_many",
+		"󱒬",
+	},
+	{
+		"nf-md-relation_only_one_to_zero_or_one",
+		"󱒭",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_many",
+		"󱒮",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_one",
+		"󱒯",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_one_or_many",
+		"󱒰",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_only_one",
+		"󱒱",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_zero_or_many",
+		"󱒲",
+	},
+	{
+		"nf-md-relation_zero_or_many_to_zero_or_one",
+		"󱒳",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_many",
+		"󱒴",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_one",
+		"󱒵",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_one_or_many",
+		"󱒶",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_only_one",
+		"󱒷",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_zero_or_many",
+		"󱒸",
+	},
+	{
+		"nf-md-relation_zero_or_one_to_zero_or_one",
+		"󱒹",
+	},
+	{
+		"nf-md-relative_scale",
+		"󰑒",
+	},
+	{
+		"nf-md-reload",
+		"󰑓",
+	},
+	{
+		"nf-md-reload_alert",
+		"󱄋",
+	},
+	{
+		"nf-md-reminder",
+		"󰢌",
+	},
+	{
+		"nf-md-remote",
+		"󰑔",
+	},
+	{
+		"nf-md-remote_desktop",
+		"󰢹",
+	},
+	{
+		"nf-md-remote_off",
+		"󰻄",
+	},
+	{
+		"nf-md-remote_tv",
+		"󰻅",
+	},
+	{
+		"nf-md-remote_tv_off",
+		"󰻆",
+	},
+	{
+		"nf-md-rename_box",
+		"󰑕",
+	},
+	{
+		"nf-md-reorder_horizontal",
+		"󰚈",
+	},
+	{
+		"nf-md-reorder_vertical",
+		"󰚉",
+	},
+	{
+		"nf-md-repeat",
+		"󰑖",
+	},
+	{
+		"nf-md-repeat_off",
+		"󰑗",
+	},
+	{
+		"nf-md-repeat_once",
+		"󰑘",
+	},
+	{
+		"nf-md-repeat_variant",
+		"󰕇",
+	},
+	{
+		"nf-md-replay",
+		"󰑙",
+	},
+	{
+		"nf-md-reply",
+		"󰑚",
+	},
+	{
+		"nf-md-reply_all",
+		"󰑛",
+	},
+	{
+		"nf-md-reply_all_outline",
+		"󰼟",
+	},
+	{
+		"nf-md-reply_circle",
+		"󱆮",
+	},
+	{
+		"nf-md-reply_outline",
+		"󰼠",
+	},
+	{
+		"nf-md-reproduction",
+		"󰑜",
+	},
+	{
+		"nf-md-resistor",
+		"󰭄",
+	},
+	{
+		"nf-md-resistor_nodes",
+		"󰭅",
+	},
+	{
+		"nf-md-resize",
+		"󰩨",
+	},
+	{
+		"nf-md-resize_bottom_right",
+		"󰑝",
+	},
+	{
+		"nf-md-responsive",
+		"󰑞",
+	},
+	{
+		"nf-md-restart",
+		"󰜉",
+	},
+	{
+		"nf-md-restart_alert",
+		"󱄌",
+	},
+	{
+		"nf-md-restart_off",
+		"󰶕",
+	},
+	{
+		"nf-md-restore",
+		"󰦛",
+	},
+	{
+		"nf-md-restore_alert",
+		"󱄍",
+	},
+	{
+		"nf-md-rewind",
+		"󰑟",
+	},
+	{
+		"nf-md-rewind_10",
+		"󰴪",
+	},
+	{
+		"nf-md-rewind_15",
+		"󱥆",
+	},
+	{
+		"nf-md-rewind_30",
+		"󰶖",
+	},
+	{
+		"nf-md-rewind_5",
+		"󱇹",
+	},
+	{
+		"nf-md-rewind_60",
+		"󱘌",
+	},
+	{
+		"nf-md-rewind_outline",
+		"󰜊",
+	},
+	{
+		"nf-md-rhombus",
+		"󰜋",
+	},
+	{
+		"nf-md-rhombus_medium",
+		"󰨐",
+	},
+	{
+		"nf-md-rhombus_medium_outline",
+		"󱓜",
+	},
+	{
+		"nf-md-rhombus_outline",
+		"󰜌",
+	},
+	{
+		"nf-md-rhombus_split",
+		"󰨑",
+	},
+	{
+		"nf-md-rhombus_split_outline",
+		"󱓝",
+	},
+	{
+		"nf-md-ribbon",
+		"󰑠",
+	},
+	{
+		"nf-md-rice",
+		"󰟪",
+	},
+	{
+		"nf-md-rickshaw",
+		"󱖻",
+	},
+	{
+		"nf-md-rickshaw_electric",
+		"󱖼",
+	},
+	{
+		"nf-md-ring",
+		"󰟫",
+	},
+	{
+		"nf-md-rivet",
+		"󰹠",
+	},
+	{
+		"nf-md-road",
+		"󰑡",
+	},
+	{
+		"nf-md-road_variant",
+		"󰑢",
+	},
+	{
+		"nf-md-robber",
+		"󱁘",
+	},
+	{
+		"nf-md-robot",
+		"󰚩",
+	},
+	{
+		"nf-md-robot_angry",
+		"󱚝",
+	},
+	{
+		"nf-md-robot_angry_outline",
+		"󱚞",
+	},
+	{
+		"nf-md-robot_confused",
+		"󱚟",
+	},
+	{
+		"nf-md-robot_confused_outline",
+		"󱚠",
+	},
+	{
+		"nf-md-robot_dead",
+		"󱚡",
+	},
+	{
+		"nf-md-robot_dead_outline",
+		"󱚢",
+	},
+	{
+		"nf-md-robot_excited",
+		"󱚣",
+	},
+	{
+		"nf-md-robot_excited_outline",
+		"󱚤",
+	},
+	{
+		"nf-md-robot_happy",
+		"󱜙",
+	},
+	{
+		"nf-md-robot_happy_outline",
+		"󱜚",
+	},
+	{
+		"nf-md-robot_industrial",
+		"󰭆",
+	},
+	{
+		"nf-md-robot_industrial_outline",
+		"󱨚",
+	},
+	{
+		"nf-md-robot_love",
+		"󱚥",
+	},
+	{
+		"nf-md-robot_love_outline",
+		"󱚦",
+	},
+	{
+		"nf-md-robot_mower",
+		"󱇷",
+	},
+	{
+		"nf-md-robot_mower_outline",
+		"󱇳",
+	},
+	{
+		"nf-md-robot_off",
+		"󱚧",
+	},
+	{
+		"nf-md-robot_off_outline",
+		"󱙻",
+	},
+	{
+		"nf-md-robot_outline",
+		"󱙺",
+	},
+	{
+		"nf-md-robot_vacuum",
+		"󰜍",
+	},
+	{
+		"nf-md-robot_vacuum_variant",
+		"󰤈",
+	},
+	{
+		"nf-md-rocket",
+		"󰑣",
+	},
+	{
+		"nf-md-rocket_launch",
+		"󱓞",
+	},
+	{
+		"nf-md-rocket_launch_outline",
+		"󱓟",
+	},
+	{
+		"nf-md-rocket_outline",
+		"󱎯",
+	},
+	{
+		"nf-md-rodent",
+		"󱌧",
+	},
+	{
+		"nf-md-roller_shade",
+		"󱩫",
+	},
+	{
+		"nf-md-roller_shade_closed",
+		"󱩬",
+	},
+	{
+		"nf-md-roller_skate",
+		"󰴫",
+	},
+	{
+		"nf-md-roller_skate_off",
+		"󰅅",
+	},
+	{
+		"nf-md-rollerblade",
+		"󰴬",
+	},
+	{
+		"nf-md-rollerblade_off",
+		"󰀮",
+	},
+	{
+		"nf-md-rollupjs",
+		"󰯀",
+	},
+	{
+		"nf-md-rolodex",
+		"󱪹",
+	},
+	{
+		"nf-md-rolodex_outline",
+		"󱪺",
+	},
+	{
+		"nf-md-roman_numeral_2",
+		"󱂉",
+	},
+	{
+		"nf-md-roman_numeral_3",
+		"󱂊",
+	},
+	{
+		"nf-md-roman_numeral_4",
+		"󱂋",
+	},
+	{
+		"nf-md-roman_numeral_6",
+		"󱂍",
+	},
+	{
+		"nf-md-roman_numeral_7",
+		"󱂎",
+	},
+	{
+		"nf-md-roman_numeral_8",
+		"󱂏",
+	},
+	{
+		"nf-md-roman_numeral_9",
+		"󱂐",
+	},
+	{
+		"nf-md-room_service",
+		"󰢍",
+	},
+	{
+		"nf-md-room_service_outline",
+		"󰶗",
+	},
+	{
+		"nf-md-rotate_360",
+		"󱦙",
+	},
+	{
+		"nf-md-rotate_3d",
+		"󰻇",
+	},
+	{
+		"nf-md-rotate_3d_variant",
+		"󰑤",
+	},
+	{
+		"nf-md-rotate_left",
+		"󰑥",
+	},
+	{
+		"nf-md-rotate_left_variant",
+		"󰑦",
+	},
+	{
+		"nf-md-rotate_orbit",
+		"󰶘",
+	},
+	{
+		"nf-md-rotate_right",
+		"󰑧",
+	},
+	{
+		"nf-md-rotate_right_variant",
+		"󰑨",
+	},
+	{
+		"nf-md-rounded_corner",
+		"󰘇",
+	},
+	{
+		"nf-md-router",
+		"󱇢",
+	},
+	{
+		"nf-md-router_network",
+		"󱂇",
+	},
+	{
+		"nf-md-router_wireless",
+		"󰑩",
+	},
+	{
+		"nf-md-router_wireless_off",
+		"󱖣",
+	},
+	{
+		"nf-md-router_wireless_settings",
+		"󰩩",
+	},
+	{
+		"nf-md-routes",
+		"󰑪",
+	},
+	{
+		"nf-md-routes_clock",
+		"󱁙",
+	},
+	{
+		"nf-md-rowing",
+		"󰘈",
+	},
+	{
+		"nf-md-rss",
+		"󰑫",
+	},
+	{
+		"nf-md-rss_box",
+		"󰑬",
+	},
+	{
+		"nf-md-rss_off",
+		"󰼡",
+	},
+	{
+		"nf-md-rug",
+		"󱑵",
+	},
+	{
+		"nf-md-rugby",
+		"󰶙",
+	},
+	{
+		"nf-md-ruler",
+		"󰑭",
+	},
+	{
+		"nf-md-ruler_square",
+		"󰳂",
+	},
+	{
+		"nf-md-ruler_square_compass",
+		"󰺾",
+	},
+	{
+		"nf-md-run",
+		"󰜎",
+	},
+	{
+		"nf-md-run_fast",
+		"󰑮",
+	},
+	{
+		"nf-md-rv_truck",
+		"󱇔",
+	},
+	{
+		"nf-md-sack",
+		"󰴮",
+	},
+	{
+		"nf-md-sack_percent",
+		"󰴯",
+	},
+	{
+		"nf-md-safe",
+		"󰩪",
+	},
+	{
+		"nf-md-safe_square",
+		"󱉼",
+	},
+	{
+		"nf-md-safe_square_outline",
+		"󱉽",
+	},
+	{
+		"nf-md-safety_goggles",
+		"󰴰",
+	},
+	{
+		"nf-md-sail_boat",
+		"󰻈",
+	},
+	{
+		"nf-md-sail_boat_sink",
+		"󱫯",
+	},
+	{
+		"nf-md-sale",
+		"󰑯",
+	},
+	{
+		"nf-md-sale_outline",
+		"󱨆",
+	},
+	{
+		"nf-md-salesforce",
+		"󰢎",
+	},
+	{
+		"nf-md-sass",
+		"󰟬",
+	},
+	{
+		"nf-md-satellite",
+		"󰑰",
+	},
+	{
+		"nf-md-satellite_uplink",
+		"󰤉",
+	},
+	{
+		"nf-md-satellite_variant",
+		"󰑱",
+	},
+	{
+		"nf-md-sausage",
+		"󰢺",
+	},
+	{
+		"nf-md-sausage_off",
+		"󱞉",
+	},
+	{
+		"nf-md-saw_blade",
+		"󰹡",
+	},
+	{
+		"nf-md-sawtooth_wave",
+		"󱑺",
+	},
+	{
+		"nf-md-saxophone",
+		"󰘉",
+	},
+	{
+		"nf-md-scale",
+		"󰑲",
+	},
+	{
+		"nf-md-scale_balance",
+		"󰗑",
+	},
+	{
+		"nf-md-scale_bathroom",
+		"󰑳",
+	},
+	{
+		"nf-md-scale_off",
+		"󱁚",
+	},
+	{
+		"nf-md-scale_unbalanced",
+		"󱦸",
+	},
+	{
+		"nf-md-scan_helper",
+		"󱏘",
+	},
+	{
+		"nf-md-scanner",
+		"󰚫",
+	},
+	{
+		"nf-md-scanner_off",
+		"󰤊",
+	},
+	{
+		"nf-md-scatter_plot",
+		"󰻉",
+	},
+	{
+		"nf-md-scatter_plot_outline",
+		"󰻊",
+	},
+	{
+		"nf-md-scent",
+		"󱥘",
+	},
+	{
+		"nf-md-scent_off",
+		"󱥙",
+	},
+	{
+		"nf-md-school",
+		"󰑴",
+	},
+	{
+		"nf-md-school_outline",
+		"󱆀",
+	},
+	{
+		"nf-md-scissors_cutting",
+		"󰩫",
+	},
+	{
+		"nf-md-scooter",
+		"󱖽",
+	},
+	{
+		"nf-md-scooter_electric",
+		"󱖾",
+	},
+	{
+		"nf-md-scoreboard",
+		"󱉾",
+	},
+	{
+		"nf-md-scoreboard_outline",
+		"󱉿",
+	},
+	{
+		"nf-md-screen_rotation",
+		"󰑵",
+	},
+	{
+		"nf-md-screen_rotation_lock",
+		"󰑸",
+	},
+	{
+		"nf-md-screw_flat_top",
+		"󰷳",
+	},
+	{
+		"nf-md-screw_lag",
+		"󰷴",
+	},
+	{
+		"nf-md-screw_machine_flat_top",
+		"󰷵",
+	},
+	{
+		"nf-md-screw_machine_round_top",
+		"󰷶",
+	},
+	{
+		"nf-md-screw_round_top",
+		"󰷷",
+	},
+	{
+		"nf-md-screwdriver",
+		"󰑶",
+	},
+	{
+		"nf-md-script",
+		"󰯁",
+	},
+	{
+		"nf-md-script_outline",
+		"󰑷",
+	},
+	{
+		"nf-md-script_text",
+		"󰯂",
+	},
+	{
+		"nf-md-script_text_key",
+		"󱜥",
+	},
+	{
+		"nf-md-script_text_key_outline",
+		"󱜦",
+	},
+	{
+		"nf-md-script_text_outline",
+		"󰯃",
+	},
+	{
+		"nf-md-script_text_play",
+		"󱜧",
+	},
+	{
+		"nf-md-script_text_play_outline",
+		"󱜨",
+	},
+	{
+		"nf-md-sd",
+		"󰑹",
+	},
+	{
+		"nf-md-seal",
+		"󰑺",
+	},
+	{
+		"nf-md-seal_variant",
+		"󰿙",
+	},
+	{
+		"nf-md-search_web",
+		"󰜏",
+	},
+	{
+		"nf-md-seat",
+		"󰳃",
+	},
+	{
+		"nf-md-seat_flat",
+		"󰑻",
+	},
+	{
+		"nf-md-seat_flat_angled",
+		"󰑼",
+	},
+	{
+		"nf-md-seat_individual_suite",
+		"󰑽",
+	},
+	{
+		"nf-md-seat_legroom_extra",
+		"󰑾",
+	},
+	{
+		"nf-md-seat_legroom_normal",
+		"󰑿",
+	},
+	{
+		"nf-md-seat_legroom_reduced",
+		"󰒀",
+	},
+	{
+		"nf-md-seat_outline",
+		"󰳄",
+	},
+	{
+		"nf-md-seat_passenger",
+		"󱉉",
+	},
+	{
+		"nf-md-seat_recline_extra",
+		"󰒁",
+	},
+	{
+		"nf-md-seat_recline_normal",
+		"󰒂",
+	},
+	{
+		"nf-md-seatbelt",
+		"󰳅",
+	},
+	{
+		"nf-md-security",
+		"󰒃",
+	},
+	{
+		"nf-md-security_network",
+		"󰒄",
+	},
+	{
+		"nf-md-seed",
+		"󰹢",
+	},
+	{
+		"nf-md-seed_off",
+		"󱏽",
+	},
+	{
+		"nf-md-seed_off_outline",
+		"󱏾",
+	},
+	{
+		"nf-md-seed_outline",
+		"󰹣",
+	},
+	{
+		"nf-md-seed_plus",
+		"󱩭",
+	},
+	{
+		"nf-md-seed_plus_outline",
+		"󱩮",
+	},
+	{
+		"nf-md-seesaw",
+		"󱖤",
+	},
+	{
+		"nf-md-segment",
+		"󰻋",
+	},
+	{
+		"nf-md-select",
+		"󰒅",
+	},
+	{
+		"nf-md-select_all",
+		"󰒆",
+	},
+	{
+		"nf-md-select_color",
+		"󰴱",
+	},
+	{
+		"nf-md-select_compare",
+		"󰫙",
+	},
+	{
+		"nf-md-select_drag",
+		"󰩬",
+	},
+	{
+		"nf-md-select_group",
+		"󰾂",
+	},
+	{
+		"nf-md-select_inverse",
+		"󰒇",
+	},
+	{
+		"nf-md-select_marker",
+		"󱊀",
+	},
+	{
+		"nf-md-select_multiple",
+		"󱊁",
+	},
+	{
+		"nf-md-select_multiple_marker",
+		"󱊂",
+	},
+	{
+		"nf-md-select_off",
+		"󰒈",
+	},
+	{
+		"nf-md-select_place",
+		"󰿚",
+	},
+	{
+		"nf-md-select_remove",
+		"󱟁",
+	},
+	{
+		"nf-md-select_search",
+		"󱈄",
+	},
+	{
+		"nf-md-selection",
+		"󰒉",
+	},
+	{
+		"nf-md-selection_drag",
+		"󰩭",
+	},
+	{
+		"nf-md-selection_ellipse",
+		"󰴲",
+	},
+	{
+		"nf-md-selection_ellipse_arrow_inside",
+		"󰼢",
+	},
+	{
+		"nf-md-selection_ellipse_remove",
+		"󱟂",
+	},
+	{
+		"nf-md-selection_marker",
+		"󱊃",
+	},
+	{
+		"nf-md-selection_multiple",
+		"󱊅",
+	},
+	{
+		"nf-md-selection_multiple_marker",
+		"󱊄",
+	},
+	{
+		"nf-md-selection_off",
+		"󰝷",
+	},
+	{
+		"nf-md-selection_remove",
+		"󱟃",
+	},
+	{
+		"nf-md-selection_search",
+		"󱈅",
+	},
+	{
+		"nf-md-semantic_web",
+		"󱌖",
+	},
+	{
+		"nf-md-send",
+		"󰒊",
+	},
+	{
+		"nf-md-send_check",
+		"󱅡",
+	},
+	{
+		"nf-md-send_check_outline",
+		"󱅢",
+	},
+	{
+		"nf-md-send_circle",
+		"󰷸",
+	},
+	{
+		"nf-md-send_circle_outline",
+		"󰷹",
+	},
+	{
+		"nf-md-send_clock",
+		"󱅣",
+	},
+	{
+		"nf-md-send_clock_outline",
+		"󱅤",
+	},
+	{
+		"nf-md-send_lock",
+		"󰟭",
+	},
+	{
+		"nf-md-send_lock_outline",
+		"󱅦",
+	},
+	{
+		"nf-md-send_outline",
+		"󱅥",
+	},
+	{
+		"nf-md-serial_port",
+		"󰙜",
+	},
+	{
+		"nf-md-server",
+		"󰒋",
+	},
+	{
+		"nf-md-server_minus",
+		"󰒌",
+	},
+	{
+		"nf-md-server_network",
+		"󰒍",
+	},
+	{
+		"nf-md-server_network_off",
+		"󰒎",
+	},
+	{
+		"nf-md-server_off",
+		"󰒏",
+	},
+	{
+		"nf-md-server_plus",
+		"󰒐",
+	},
+	{
+		"nf-md-server_remove",
+		"󰒑",
+	},
+	{
+		"nf-md-server_security",
+		"󰒒",
+	},
+	{
+		"nf-md-set_all",
+		"󰝸",
+	},
+	{
+		"nf-md-set_center",
+		"󰝹",
+	},
+	{
+		"nf-md-set_center_right",
+		"󰝺",
+	},
+	{
+		"nf-md-set_left",
+		"󰝻",
+	},
+	{
+		"nf-md-set_left_center",
+		"󰝼",
+	},
+	{
+		"nf-md-set_left_right",
+		"󰝽",
+	},
+	{
+		"nf-md-set_merge",
+		"󱓠",
+	},
+	{
+		"nf-md-set_none",
+		"󰝾",
+	},
+	{
+		"nf-md-set_right",
+		"󰝿",
+	},
+	{
+		"nf-md-set_split",
+		"󱓡",
+	},
+	{
+		"nf-md-set_square",
+		"󱑝",
+	},
+	{
+		"nf-md-set_top_box",
+		"󰦟",
+	},
+	{
+		"nf-md-settings_helper",
+		"󰩮",
+	},
+	{
+		"nf-md-shaker",
+		"󱄎",
+	},
+	{
+		"nf-md-shaker_outline",
+		"󱄏",
+	},
+	{
+		"nf-md-shape",
+		"󰠱",
+	},
+	{
+		"nf-md-shape_circle_plus",
+		"󰙝",
+	},
+	{
+		"nf-md-shape_outline",
+		"󰠲",
+	},
+	{
+		"nf-md-shape_oval_plus",
+		"󱇺",
+	},
+	{
+		"nf-md-shape_plus",
+		"󰒕",
+	},
+	{
+		"nf-md-shape_polygon_plus",
+		"󰙞",
+	},
+	{
+		"nf-md-shape_rectangle_plus",
+		"󰙟",
+	},
+	{
+		"nf-md-shape_square_plus",
+		"󰙠",
+	},
+	{
+		"nf-md-shape_square_rounded_plus",
+		"󱓺",
+	},
+	{
+		"nf-md-share",
+		"󰒖",
+	},
+	{
+		"nf-md-share_all",
+		"󱇴",
+	},
+	{
+		"nf-md-share_all_outline",
+		"󱇵",
+	},
+	{
+		"nf-md-share_circle",
+		"󱆭",
+	},
+	{
+		"nf-md-share_off",
+		"󰼣",
+	},
+	{
+		"nf-md-share_off_outline",
+		"󰼤",
+	},
+	{
+		"nf-md-share_outline",
+		"󰤲",
+	},
+	{
+		"nf-md-share_variant",
+		"󰒗",
+	},
+	{
+		"nf-md-share_variant_outline",
+		"󱔔",
+	},
+	{
+		"nf-md-shark",
+		"󱢺",
+	},
+	{
+		"nf-md-shark_fin",
+		"󱙳",
+	},
+	{
+		"nf-md-shark_fin_outline",
+		"󱙴",
+	},
+	{
+		"nf-md-shark_off",
+		"󱢻",
+	},
+	{
+		"nf-md-sheep",
+		"󰳆",
+	},
+	{
+		"nf-md-shield",
+		"󰒘",
+	},
+	{
+		"nf-md-shield_account",
+		"󰢏",
+	},
+	{
+		"nf-md-shield_account_outline",
+		"󰨒",
+	},
+	{
+		"nf-md-shield_account_variant",
+		"󱖧",
+	},
+	{
+		"nf-md-shield_account_variant_outline",
+		"󱖨",
+	},
+	{
+		"nf-md-shield_airplane",
+		"󰚻",
+	},
+	{
+		"nf-md-shield_airplane_outline",
+		"󰳇",
+	},
+	{
+		"nf-md-shield_alert",
+		"󰻌",
+	},
+	{
+		"nf-md-shield_alert_outline",
+		"󰻍",
+	},
+	{
+		"nf-md-shield_bug",
+		"󱏚",
+	},
+	{
+		"nf-md-shield_bug_outline",
+		"󱏛",
+	},
+	{
+		"nf-md-shield_car",
+		"󰾃",
+	},
+	{
+		"nf-md-shield_check",
+		"󰕥",
+	},
+	{
+		"nf-md-shield_check_outline",
+		"󰳈",
+	},
+	{
+		"nf-md-shield_cross",
+		"󰳉",
+	},
+	{
+		"nf-md-shield_cross_outline",
+		"󰳊",
+	},
+	{
+		"nf-md-shield_crown",
+		"󱢼",
+	},
+	{
+		"nf-md-shield_crown_outline",
+		"󱢽",
+	},
+	{
+		"nf-md-shield_edit",
+		"󱆠",
+	},
+	{
+		"nf-md-shield_edit_outline",
+		"󱆡",
+	},
+	{
+		"nf-md-shield_half",
+		"󱍠",
+	},
+	{
+		"nf-md-shield_half_full",
+		"󰞀",
+	},
+	{
+		"nf-md-shield_home",
+		"󰚊",
+	},
+	{
+		"nf-md-shield_home_outline",
+		"󰳋",
+	},
+	{
+		"nf-md-shield_key",
+		"󰯄",
+	},
+	{
+		"nf-md-shield_key_outline",
+		"󰯅",
+	},
+	{
+		"nf-md-shield_link_variant",
+		"󰴳",
+	},
+	{
+		"nf-md-shield_link_variant_outline",
+		"󰴴",
+	},
+	{
+		"nf-md-shield_lock",
+		"󰦝",
+	},
+	{
+		"nf-md-shield_lock_open",
+		"󱦚",
+	},
+	{
+		"nf-md-shield_lock_open_outline",
+		"󱦛",
+	},
+	{
+		"nf-md-shield_lock_outline",
+		"󰳌",
+	},
+	{
+		"nf-md-shield_moon",
+		"󱠨",
+	},
+	{
+		"nf-md-shield_moon_outline",
+		"󱠩",
+	},
+	{
+		"nf-md-shield_off",
+		"󰦞",
+	},
+	{
+		"nf-md-shield_off_outline",
+		"󰦜",
+	},
+	{
+		"nf-md-shield_outline",
+		"󰒙",
+	},
+	{
+		"nf-md-shield_plus",
+		"󰫚",
+	},
+	{
+		"nf-md-shield_plus_outline",
+		"󰫛",
+	},
+	{
+		"nf-md-shield_refresh",
+		"󰂪",
+	},
+	{
+		"nf-md-shield_refresh_outline",
+		"󰇠",
+	},
+	{
+		"nf-md-shield_remove",
+		"󰫜",
+	},
+	{
+		"nf-md-shield_remove_outline",
+		"󰫝",
+	},
+	{
+		"nf-md-shield_search",
+		"󰶚",
+	},
+	{
+		"nf-md-shield_star",
+		"󱄻",
+	},
+	{
+		"nf-md-shield_star_outline",
+		"󱄼",
+	},
+	{
+		"nf-md-shield_sun",
+		"󱁝",
+	},
+	{
+		"nf-md-shield_sun_outline",
+		"󱁞",
+	},
+	{
+		"nf-md-shield_sword",
+		"󱢾",
+	},
+	{
+		"nf-md-shield_sword_outline",
+		"󱢿",
+	},
+	{
+		"nf-md-shield_sync",
+		"󱆢",
+	},
+	{
+		"nf-md-shield_sync_outline",
+		"󱆣",
+	},
+	{
+		"nf-md-shimmer",
+		"󱕅",
+	},
+	{
+		"nf-md-ship_wheel",
+		"󰠳",
+	},
+	{
+		"nf-md-shipping_pallet",
+		"󱡎",
+	},
+	{
+		"nf-md-shoe_ballet",
+		"󱗊",
+	},
+	{
+		"nf-md-shoe_cleat",
+		"󱗇",
+	},
+	{
+		"nf-md-shoe_formal",
+		"󰭇",
+	},
+	{
+		"nf-md-shoe_heel",
+		"󰭈",
+	},
+	{
+		"nf-md-shoe_print",
+		"󰷺",
+	},
+	{
+		"nf-md-shoe_sneaker",
+		"󱗈",
+	},
+	{
+		"nf-md-shopping",
+		"󰒚",
+	},
+	{
+		"nf-md-shopping_music",
+		"󰒛",
+	},
+	{
+		"nf-md-shopping_outline",
+		"󱇕",
+	},
+	{
+		"nf-md-shopping_search",
+		"󰾄",
+	},
+	{
+		"nf-md-shopping_search_outline",
+		"󱩯",
+	},
+	{
+		"nf-md-shore",
+		"󱓹",
+	},
+	{
+		"nf-md-shovel",
+		"󰜐",
+	},
+	{
+		"nf-md-shovel_off",
+		"󰜑",
+	},
+	{
+		"nf-md-shower",
+		"󰦠",
+	},
+	{
+		"nf-md-shower_head",
+		"󰦡",
+	},
+	{
+		"nf-md-shredder",
+		"󰒜",
+	},
+	{
+		"nf-md-shuffle",
+		"󰒝",
+	},
+	{
+		"nf-md-shuffle_disabled",
+		"󰒞",
+	},
+	{
+		"nf-md-shuffle_variant",
+		"󰒟",
+	},
+	{
+		"nf-md-shuriken",
+		"󱍿",
+	},
+	{
+		"nf-md-sickle",
+		"󱣀",
+	},
+	{
+		"nf-md-sigma",
+		"󰒠",
+	},
+	{
+		"nf-md-sigma_lower",
+		"󰘫",
+	},
+	{
+		"nf-md-sign_caution",
+		"󰒡",
+	},
+	{
+		"nf-md-sign_direction",
+		"󰞁",
+	},
+	{
+		"nf-md-sign_direction_minus",
+		"󱀀",
+	},
+	{
+		"nf-md-sign_direction_plus",
+		"󰿜",
+	},
+	{
+		"nf-md-sign_direction_remove",
+		"󰿝",
+	},
+	{
+		"nf-md-sign_pole",
+		"󱓸",
+	},
+	{
+		"nf-md-sign_real_estate",
+		"󱄘",
+	},
+	{
+		"nf-md-sign_text",
+		"󰞂",
+	},
+	{
+		"nf-md-signal",
+		"󰒢",
+	},
+	{
+		"nf-md-signal_2g",
+		"󰜒",
+	},
+	{
+		"nf-md-signal_3g",
+		"󰜓",
+	},
+	{
+		"nf-md-signal_4g",
+		"󰜔",
+	},
+	{
+		"nf-md-signal_5g",
+		"󰩯",
+	},
+	{
+		"nf-md-signal_cellular_1",
+		"󰢼",
+	},
+	{
+		"nf-md-signal_cellular_2",
+		"󰢽",
+	},
+	{
+		"nf-md-signal_cellular_3",
+		"󰢾",
+	},
+	{
+		"nf-md-signal_cellular_outline",
+		"󰢿",
+	},
+	{
+		"nf-md-signal_distance_variant",
+		"󰹤",
+	},
+	{
+		"nf-md-signal_hspa",
+		"󰜕",
+	},
+	{
+		"nf-md-signal_hspa_plus",
+		"󰜖",
+	},
+	{
+		"nf-md-signal_off",
+		"󰞃",
+	},
+	{
+		"nf-md-signal_variant",
+		"󰘊",
+	},
+	{
+		"nf-md-signature",
+		"󰷻",
+	},
+	{
+		"nf-md-signature_freehand",
+		"󰷼",
+	},
+	{
+		"nf-md-signature_image",
+		"󰷽",
+	},
+	{
+		"nf-md-signature_text",
+		"󰷾",
+	},
+	{
+		"nf-md-silo",
+		"󰭉",
+	},
+	{
+		"nf-md-silverware",
+		"󰒣",
+	},
+	{
+		"nf-md-silverware_clean",
+		"󰿞",
+	},
+	{
+		"nf-md-silverware_fork",
+		"󰒤",
+	},
+	{
+		"nf-md-silverware_fork_knife",
+		"󰩰",
+	},
+	{
+		"nf-md-silverware_spoon",
+		"󰒥",
+	},
+	{
+		"nf-md-silverware_variant",
+		"󰒦",
+	},
+	{
+		"nf-md-sim",
+		"󰒧",
+	},
+	{
+		"nf-md-sim_alert",
+		"󰒨",
+	},
+	{
+		"nf-md-sim_alert_outline",
+		"󱗓",
+	},
+	{
+		"nf-md-sim_off",
+		"󰒩",
+	},
+	{
+		"nf-md-sim_off_outline",
+		"󱗔",
+	},
+	{
+		"nf-md-sim_outline",
+		"󱗕",
+	},
+	{
+		"nf-md-simple_icons",
+		"󱌝",
+	},
+	{
+		"nf-md-sina_weibo",
+		"󰫟",
+	},
+	{
+		"nf-md-sine_wave",
+		"󰥛",
+	},
+	{
+		"nf-md-sitemap",
+		"󰒪",
+	},
+	{
+		"nf-md-sitemap_outline",
+		"󱦜",
+	},
+	{
+		"nf-md-size_m",
+		"󱎥",
+	},
+	{
+		"nf-md-size_s",
+		"󱎤",
+	},
+	{
+		"nf-md-size_xl",
+		"󱎧",
+	},
+	{
+		"nf-md-size_xs",
+		"󱎣",
+	},
+	{
+		"nf-md-size_xxl",
+		"󱎨",
+	},
+	{
+		"nf-md-size_xxs",
+		"󱎢",
+	},
+	{
+		"nf-md-size_xxxl",
+		"󱎩",
+	},
+	{
+		"nf-md-skate",
+		"󰴵",
+	},
+	{
+		"nf-md-skate_off",
+		"󰚙",
+	},
+	{
+		"nf-md-skateboard",
+		"󱓂",
+	},
+	{
+		"nf-md-skateboarding",
+		"󰔁",
+	},
+	{
+		"nf-md-skew_less",
+		"󰴶",
+	},
+	{
+		"nf-md-skew_more",
+		"󰴷",
+	},
+	{
+		"nf-md-ski",
+		"󱌄",
+	},
+	{
+		"nf-md-ski_cross_country",
+		"󱌅",
+	},
+	{
+		"nf-md-ski_water",
+		"󱌆",
+	},
+	{
+		"nf-md-skip_backward",
+		"󰒫",
+	},
+	{
+		"nf-md-skip_backward_outline",
+		"󰼥",
+	},
+	{
+		"nf-md-skip_forward",
+		"󰒬",
+	},
+	{
+		"nf-md-skip_forward_outline",
+		"󰼦",
+	},
+	{
+		"nf-md-skip_next",
+		"󰒭",
+	},
+	{
+		"nf-md-skip_next_circle",
+		"󰙡",
+	},
+	{
+		"nf-md-skip_next_circle_outline",
+		"󰙢",
+	},
+	{
+		"nf-md-skip_next_outline",
+		"󰼧",
+	},
+	{
+		"nf-md-skip_previous",
+		"󰒮",
+	},
+	{
+		"nf-md-skip_previous_circle",
+		"󰙣",
+	},
+	{
+		"nf-md-skip_previous_circle_outline",
+		"󰙤",
+	},
+	{
+		"nf-md-skip_previous_outline",
+		"󰼨",
+	},
+	{
+		"nf-md-skull",
+		"󰚌",
+	},
+	{
+		"nf-md-skull_crossbones",
+		"󰯆",
+	},
+	{
+		"nf-md-skull_crossbones_outline",
+		"󰯇",
+	},
+	{
+		"nf-md-skull_outline",
+		"󰯈",
+	},
+	{
+		"nf-md-skull_scan",
+		"󱓇",
+	},
+	{
+		"nf-md-skull_scan_outline",
+		"󱓈",
+	},
+	{
+		"nf-md-skype",
+		"󰒯",
+	},
+	{
+		"nf-md-skype_business",
+		"󰒰",
+	},
+	{
+		"nf-md-slack",
+		"󰒱",
+	},
+	{
+		"nf-md-slash_forward",
+		"󰿟",
+	},
+	{
+		"nf-md-slash_forward_box",
+		"󰿠",
+	},
+	{
+		"nf-md-sledding",
+		"󰐛",
+	},
+	{
+		"nf-md-sleep",
+		"󰒲",
+	},
+	{
+		"nf-md-sleep_off",
+		"󰒳",
+	},
+	{
+		"nf-md-slide",
+		"󱖥",
+	},
+	{
+		"nf-md-slope_downhill",
+		"󰷿",
+	},
+	{
+		"nf-md-slope_uphill",
+		"󰸀",
+	},
+	{
+		"nf-md-slot_machine",
+		"󱄔",
+	},
+	{
+		"nf-md-slot_machine_outline",
+		"󱄕",
+	},
+	{
+		"nf-md-smart_card",
+		"󱂽",
+	},
+	{
+		"nf-md-smart_card_off",
+		"󱣷",
+	},
+	{
+		"nf-md-smart_card_off_outline",
+		"󱣸",
+	},
+	{
+		"nf-md-smart_card_outline",
+		"󱂾",
+	},
+	{
+		"nf-md-smart_card_reader",
+		"󱂿",
+	},
+	{
+		"nf-md-smart_card_reader_outline",
+		"󱃀",
+	},
+	{
+		"nf-md-smog",
+		"󰩱",
+	},
+	{
+		"nf-md-smoke",
+		"󱞙",
+	},
+	{
+		"nf-md-smoke_detector",
+		"󰎒",
+	},
+	{
+		"nf-md-smoke_detector_alert",
+		"󱤮",
+	},
+	{
+		"nf-md-smoke_detector_alert_outline",
+		"󱤯",
+	},
+	{
+		"nf-md-smoke_detector_off",
+		"󱠉",
+	},
+	{
+		"nf-md-smoke_detector_off_outline",
+		"󱠊",
+	},
+	{
+		"nf-md-smoke_detector_outline",
+		"󱠈",
+	},
+	{
+		"nf-md-smoke_detector_variant",
+		"󱠋",
+	},
+	{
+		"nf-md-smoke_detector_variant_alert",
+		"󱤰",
+	},
+	{
+		"nf-md-smoke_detector_variant_off",
+		"󱠌",
+	},
+	{
+		"nf-md-smoking",
+		"󰒴",
+	},
+	{
+		"nf-md-smoking_off",
+		"󰒵",
+	},
+	{
+		"nf-md-smoking_pipe",
+		"󱐍",
+	},
+	{
+		"nf-md-smoking_pipe_off",
+		"󱐨",
+	},
+	{
+		"nf-md-snail",
+		"󱙷",
+	},
+	{
+		"nf-md-snake",
+		"󱔎",
+	},
+	{
+		"nf-md-snapchat",
+		"󰒶",
+	},
+	{
+		"nf-md-snowboard",
+		"󱌇",
+	},
+	{
+		"nf-md-snowflake",
+		"󰜗",
+	},
+	{
+		"nf-md-snowflake_alert",
+		"󰼩",
+	},
+	{
+		"nf-md-snowflake_check",
+		"󱩰",
+	},
+	{
+		"nf-md-snowflake_melt",
+		"󱋋",
+	},
+	{
+		"nf-md-snowflake_off",
+		"󱓣",
+	},
+	{
+		"nf-md-snowflake_thermometer",
+		"󱩱",
+	},
+	{
+		"nf-md-snowflake_variant",
+		"󰼪",
+	},
+	{
+		"nf-md-snowman",
+		"󰒷",
+	},
+	{
+		"nf-md-snowmobile",
+		"󰛝",
+	},
+	{
+		"nf-md-snowshoeing",
+		"󱩲",
+	},
+	{
+		"nf-md-soccer",
+		"󰒸",
+	},
+	{
+		"nf-md-soccer_field",
+		"󰠴",
+	},
+	{
+		"nf-md-social_distance_2_meters",
+		"󱕹",
+	},
+	{
+		"nf-md-social_distance_6_feet",
+		"󱕺",
+	},
+	{
+		"nf-md-sofa",
+		"󰒹",
+	},
+	{
+		"nf-md-sofa_outline",
+		"󱕭",
+	},
+	{
+		"nf-md-sofa_single",
+		"󱕮",
+	},
+	{
+		"nf-md-sofa_single_outline",
+		"󱕯",
+	},
+	{
+		"nf-md-solar_panel",
+		"󰶛",
+	},
+	{
+		"nf-md-solar_panel_large",
+		"󰶜",
+	},
+	{
+		"nf-md-solar_power",
+		"󰩲",
+	},
+	{
+		"nf-md-solar_power_variant",
+		"󱩳",
+	},
+	{
+		"nf-md-solar_power_variant_outline",
+		"󱩴",
+	},
+	{
+		"nf-md-soldering_iron",
+		"󱂒",
+	},
+	{
+		"nf-md-solid",
+		"󰚍",
+	},
+	{
+		"nf-md-sony_playstation",
+		"󰐔",
+	},
+	{
+		"nf-md-sort",
+		"󰒺",
+	},
+	{
+		"nf-md-sort_alphabetical_ascending",
+		"󰖽",
+	},
+	{
+		"nf-md-sort_alphabetical_ascending_variant",
+		"󱅈",
+	},
+	{
+		"nf-md-sort_alphabetical_descending",
+		"󰖿",
+	},
+	{
+		"nf-md-sort_alphabetical_descending_variant",
+		"󱅉",
+	},
+	{
+		"nf-md-sort_alphabetical_variant",
+		"󰒻",
+	},
+	{
+		"nf-md-sort_ascending",
+		"󰒼",
+	},
+	{
+		"nf-md-sort_bool_ascending",
+		"󱎅",
+	},
+	{
+		"nf-md-sort_bool_ascending_variant",
+		"󱎆",
+	},
+	{
+		"nf-md-sort_bool_descending",
+		"󱎇",
+	},
+	{
+		"nf-md-sort_bool_descending_variant",
+		"󱎈",
+	},
+	{
+		"nf-md-sort_calendar_ascending",
+		"󱕇",
+	},
+	{
+		"nf-md-sort_calendar_descending",
+		"󱕈",
+	},
+	{
+		"nf-md-sort_clock_ascending",
+		"󱕉",
+	},
+	{
+		"nf-md-sort_clock_ascending_outline",
+		"󱕊",
+	},
+	{
+		"nf-md-sort_clock_descending",
+		"󱕋",
+	},
+	{
+		"nf-md-sort_clock_descending_outline",
+		"󱕌",
+	},
+	{
+		"nf-md-sort_descending",
+		"󰒽",
+	},
+	{
+		"nf-md-sort_numeric_ascending",
+		"󱎉",
+	},
+	{
+		"nf-md-sort_numeric_ascending_variant",
+		"󰤍",
+	},
+	{
+		"nf-md-sort_numeric_descending",
+		"󱎊",
+	},
+	{
+		"nf-md-sort_numeric_descending_variant",
+		"󰫒",
+	},
+	{
+		"nf-md-sort_numeric_variant",
+		"󰒾",
+	},
+	{
+		"nf-md-sort_reverse_variant",
+		"󰌼",
+	},
+	{
+		"nf-md-sort_variant",
+		"󰒿",
+	},
+	{
+		"nf-md-sort_variant_lock",
+		"󰳍",
+	},
+	{
+		"nf-md-sort_variant_lock_open",
+		"󰳎",
+	},
+	{
+		"nf-md-sort_variant_off",
+		"󱪻",
+	},
+	{
+		"nf-md-sort_variant_remove",
+		"󱅇",
+	},
+	{
+		"nf-md-soundbar",
+		"󱟛",
+	},
+	{
+		"nf-md-soundcloud",
+		"󰓀",
+	},
+	{
+		"nf-md-source_branch",
+		"󰘬",
+	},
+	{
+		"nf-md-source_branch_check",
+		"󱓏",
+	},
+	{
+		"nf-md-source_branch_minus",
+		"󱓋",
+	},
+	{
+		"nf-md-source_branch_plus",
+		"󱓊",
+	},
+	{
+		"nf-md-source_branch_refresh",
+		"󱓍",
+	},
+	{
+		"nf-md-source_branch_remove",
+		"󱓌",
+	},
+	{
+		"nf-md-source_branch_sync",
+		"󱓎",
+	},
+	{
+		"nf-md-source_commit",
+		"󰜘",
+	},
+	{
+		"nf-md-source_commit_end",
+		"󰜙",
+	},
+	{
+		"nf-md-source_commit_end_local",
+		"󰜚",
+	},
+	{
+		"nf-md-source_commit_local",
+		"󰜛",
+	},
+	{
+		"nf-md-source_commit_next_local",
+		"󰜜",
+	},
+	{
+		"nf-md-source_commit_start",
+		"󰜝",
+	},
+	{
+		"nf-md-source_commit_start_next_local",
+		"󰜞",
+	},
+	{
+		"nf-md-source_fork",
+		"󰓁",
+	},
+	{
+		"nf-md-source_merge",
+		"󰘭",
+	},
+	{
+		"nf-md-source_pull",
+		"󰓂",
+	},
+	{
+		"nf-md-source_repository",
+		"󰳏",
+	},
+	{
+		"nf-md-source_repository_multiple",
+		"󰳐",
+	},
+	{
+		"nf-md-soy_sauce",
+		"󰟮",
+	},
+	{
+		"nf-md-soy_sauce_off",
+		"󱏼",
+	},
+	{
+		"nf-md-spa",
+		"󰳑",
+	},
+	{
+		"nf-md-spa_outline",
+		"󰳒",
+	},
+	{
+		"nf-md-space_invaders",
+		"󰯉",
+	},
+	{
+		"nf-md-space_station",
+		"󱎃",
+	},
+	{
+		"nf-md-spade",
+		"󰹥",
+	},
+	{
+		"nf-md-speaker",
+		"󰓃",
+	},
+	{
+		"nf-md-speaker_bluetooth",
+		"󰦢",
+	},
+	{
+		"nf-md-speaker_multiple",
+		"󰴸",
+	},
+	{
+		"nf-md-speaker_off",
+		"󰓄",
+	},
+	{
+		"nf-md-speaker_wireless",
+		"󰜟",
+	},
+	{
+		"nf-md-spear",
+		"󱡅",
+	},
+	{
+		"nf-md-speedometer",
+		"󰓅",
+	},
+	{
+		"nf-md-speedometer_medium",
+		"󰾅",
+	},
+	{
+		"nf-md-speedometer_slow",
+		"󰾆",
+	},
+	{
+		"nf-md-spellcheck",
+		"󰓆",
+	},
+	{
+		"nf-md-sphere",
+		"󱥔",
+	},
+	{
+		"nf-md-sphere_off",
+		"󱥕",
+	},
+	{
+		"nf-md-spider",
+		"󱇪",
+	},
+	{
+		"nf-md-spider_thread",
+		"󱇫",
+	},
+	{
+		"nf-md-spider_web",
+		"󰯊",
+	},
+	{
+		"nf-md-spirit_level",
+		"󱓱",
+	},
+	{
+		"nf-md-spoon_sugar",
+		"󱐩",
+	},
+	{
+		"nf-md-spotify",
+		"󰓇",
+	},
+	{
+		"nf-md-spotlight",
+		"󰓈",
+	},
+	{
+		"nf-md-spotlight_beam",
+		"󰓉",
+	},
+	{
+		"nf-md-spray",
+		"󰙥",
+	},
+	{
+		"nf-md-spray_bottle",
+		"󰫠",
+	},
+	{
+		"nf-md-sprinkler",
+		"󱁟",
+	},
+	{
+		"nf-md-sprinkler_fire",
+		"󱦝",
+	},
+	{
+		"nf-md-sprinkler_variant",
+		"󱁠",
+	},
+	{
+		"nf-md-sprout",
+		"󰹦",
+	},
+	{
+		"nf-md-sprout_outline",
+		"󰹧",
+	},
+	{
+		"nf-md-square",
+		"󰝤",
+	},
+	{
+		"nf-md-square_circle",
+		"󱔀",
+	},
+	{
+		"nf-md-square_edit_outline",
+		"󰤌",
+	},
+	{
+		"nf-md-square_medium",
+		"󰨓",
+	},
+	{
+		"nf-md-square_medium_outline",
+		"󰨔",
+	},
+	{
+		"nf-md-square_off",
+		"󱋮",
+	},
+	{
+		"nf-md-square_off_outline",
+		"󱋯",
+	},
+	{
+		"nf-md-square_opacity",
+		"󱡔",
+	},
+	{
+		"nf-md-square_outline",
+		"󰝣",
+	},
+	{
+		"nf-md-square_root",
+		"󰞄",
+	},
+	{
+		"nf-md-square_root_box",
+		"󰦣",
+	},
+	{
+		"nf-md-square_rounded",
+		"󱓻",
+	},
+	{
+		"nf-md-square_rounded_badge",
+		"󱨇",
+	},
+	{
+		"nf-md-square_rounded_badge_outline",
+		"󱨈",
+	},
+	{
+		"nf-md-square_rounded_outline",
+		"󱓼",
+	},
+	{
+		"nf-md-square_small",
+		"󰨕",
+	},
+	{
+		"nf-md-square_wave",
+		"󱑻",
+	},
+	{
+		"nf-md-squeegee",
+		"󰫡",
+	},
+	{
+		"nf-md-ssh",
+		"󰣀",
+	},
+	{
+		"nf-md-stack_exchange",
+		"󰘋",
+	},
+	{
+		"nf-md-stack_overflow",
+		"󰓌",
+	},
+	{
+		"nf-md-stackpath",
+		"󰍙",
+	},
+	{
+		"nf-md-stadium",
+		"󰿹",
+	},
+	{
+		"nf-md-stadium_variant",
+		"󰜠",
+	},
+	{
+		"nf-md-stairs",
+		"󰓍",
+	},
+	{
+		"nf-md-stairs_box",
+		"󱎞",
+	},
+	{
+		"nf-md-stairs_down",
+		"󱊾",
+	},
+	{
+		"nf-md-stairs_up",
+		"󱊽",
+	},
+	{
+		"nf-md-stamper",
+		"󰴹",
+	},
+	{
+		"nf-md-standard_definition",
+		"󰟯",
+	},
+	{
+		"nf-md-star",
+		"󰓎",
+	},
+	{
+		"nf-md-star_box",
+		"󰩳",
+	},
+	{
+		"nf-md-star_box_multiple",
+		"󱊆",
+	},
+	{
+		"nf-md-star_box_multiple_outline",
+		"󱊇",
+	},
+	{
+		"nf-md-star_box_outline",
+		"󰩴",
+	},
+	{
+		"nf-md-star_check",
+		"󱕦",
+	},
+	{
+		"nf-md-star_check_outline",
+		"󱕪",
+	},
+	{
+		"nf-md-star_circle",
+		"󰓏",
+	},
+	{
+		"nf-md-star_circle_outline",
+		"󰦤",
+	},
+	{
+		"nf-md-star_cog",
+		"󱙨",
+	},
+	{
+		"nf-md-star_cog_outline",
+		"󱙩",
+	},
+	{
+		"nf-md-star_crescent",
+		"󰥹",
+	},
+	{
+		"nf-md-star_david",
+		"󰥺",
+	},
+	{
+		"nf-md-star_face",
+		"󰦥",
+	},
+	{
+		"nf-md-star_four_points",
+		"󰫢",
+	},
+	{
+		"nf-md-star_four_points_outline",
+		"󰫣",
+	},
+	{
+		"nf-md-star_half",
+		"󰉆",
+	},
+	{
+		"nf-md-star_half_full",
+		"󰓐",
+	},
+	{
+		"nf-md-star_minus",
+		"󱕤",
+	},
+	{
+		"nf-md-star_minus_outline",
+		"󱕨",
+	},
+	{
+		"nf-md-star_off",
+		"󰓑",
+	},
+	{
+		"nf-md-star_off_outline",
+		"󱕛",
+	},
+	{
+		"nf-md-star_outline",
+		"󰓒",
+	},
+	{
+		"nf-md-star_plus",
+		"󱕣",
+	},
+	{
+		"nf-md-star_plus_outline",
+		"󱕧",
+	},
+	{
+		"nf-md-star_remove",
+		"󱕥",
+	},
+	{
+		"nf-md-star_remove_outline",
+		"󱕩",
+	},
+	{
+		"nf-md-star_settings",
+		"󱙪",
+	},
+	{
+		"nf-md-star_settings_outline",
+		"󱙫",
+	},
+	{
+		"nf-md-star_shooting",
+		"󱝁",
+	},
+	{
+		"nf-md-star_shooting_outline",
+		"󱝂",
+	},
+	{
+		"nf-md-star_three_points",
+		"󰫤",
+	},
+	{
+		"nf-md-star_three_points_outline",
+		"󰫥",
+	},
+	{
+		"nf-md-state_machine",
+		"󱇯",
+	},
+	{
+		"nf-md-steam",
+		"󰓓",
+	},
+	{
+		"nf-md-steering",
+		"󰓔",
+	},
+	{
+		"nf-md-steering_off",
+		"󰤎",
+	},
+	{
+		"nf-md-step_backward",
+		"󰓕",
+	},
+	{
+		"nf-md-step_backward_2",
+		"󰓖",
+	},
+	{
+		"nf-md-step_forward",
+		"󰓗",
+	},
+	{
+		"nf-md-step_forward_2",
+		"󰓘",
+	},
+	{
+		"nf-md-stethoscope",
+		"󰓙",
+	},
+	{
+		"nf-md-sticker",
+		"󱍤",
+	},
+	{
+		"nf-md-sticker_alert",
+		"󱍥",
+	},
+	{
+		"nf-md-sticker_alert_outline",
+		"󱍦",
+	},
+	{
+		"nf-md-sticker_check",
+		"󱍧",
+	},
+	{
+		"nf-md-sticker_check_outline",
+		"󱍨",
+	},
+	{
+		"nf-md-sticker_circle_outline",
+		"󰗐",
+	},
+	{
+		"nf-md-sticker_emoji",
+		"󰞅",
+	},
+	{
+		"nf-md-sticker_minus",
+		"󱍩",
+	},
+	{
+		"nf-md-sticker_minus_outline",
+		"󱍪",
+	},
+	{
+		"nf-md-sticker_outline",
+		"󱍫",
+	},
+	{
+		"nf-md-sticker_plus",
+		"󱍬",
+	},
+	{
+		"nf-md-sticker_plus_outline",
+		"󱍭",
+	},
+	{
+		"nf-md-sticker_remove",
+		"󱍮",
+	},
+	{
+		"nf-md-sticker_remove_outline",
+		"󱍯",
+	},
+	{
+		"nf-md-sticker_text",
+		"󱞎",
+	},
+	{
+		"nf-md-sticker_text_outline",
+		"󱞏",
+	},
+	{
+		"nf-md-stocking",
+		"󰓚",
+	},
+	{
+		"nf-md-stomach",
+		"󱂓",
+	},
+	{
+		"nf-md-stool",
+		"󱥝",
+	},
+	{
+		"nf-md-stool_outline",
+		"󱥞",
+	},
+	{
+		"nf-md-stop",
+		"󰓛",
+	},
+	{
+		"nf-md-stop_circle",
+		"󰙦",
+	},
+	{
+		"nf-md-stop_circle_outline",
+		"󰙧",
+	},
+	{
+		"nf-md-storage_tank",
+		"󱩵",
+	},
+	{
+		"nf-md-storage_tank_outline",
+		"󱩶",
+	},
+	{
+		"nf-md-store",
+		"󰓜",
+	},
+	{
+		"nf-md-store_24_hour",
+		"󰓝",
+	},
+	{
+		"nf-md-store_alert",
+		"󱣁",
+	},
+	{
+		"nf-md-store_alert_outline",
+		"󱣂",
+	},
+	{
+		"nf-md-store_check",
+		"󱣃",
+	},
+	{
+		"nf-md-store_check_outline",
+		"󱣄",
+	},
+	{
+		"nf-md-store_clock",
+		"󱣅",
+	},
+	{
+		"nf-md-store_clock_outline",
+		"󱣆",
+	},
+	{
+		"nf-md-store_cog",
+		"󱣇",
+	},
+	{
+		"nf-md-store_cog_outline",
+		"󱣈",
+	},
+	{
+		"nf-md-store_edit",
+		"󱣉",
+	},
+	{
+		"nf-md-store_edit_outline",
+		"󱣊",
+	},
+	{
+		"nf-md-store_marker",
+		"󱣋",
+	},
+	{
+		"nf-md-store_marker_outline",
+		"󱣌",
+	},
+	{
+		"nf-md-store_minus",
+		"󱙞",
+	},
+	{
+		"nf-md-store_minus_outline",
+		"󱣍",
+	},
+	{
+		"nf-md-store_off",
+		"󱣎",
+	},
+	{
+		"nf-md-store_off_outline",
+		"󱣏",
+	},
+	{
+		"nf-md-store_outline",
+		"󱍡",
+	},
+	{
+		"nf-md-store_plus",
+		"󱙟",
+	},
+	{
+		"nf-md-store_plus_outline",
+		"󱣐",
+	},
+	{
+		"nf-md-store_remove",
+		"󱙠",
+	},
+	{
+		"nf-md-store_remove_outline",
+		"󱣑",
+	},
+	{
+		"nf-md-store_search",
+		"󱣒",
+	},
+	{
+		"nf-md-store_search_outline",
+		"󱣓",
+	},
+	{
+		"nf-md-store_settings",
+		"󱣔",
+	},
+	{
+		"nf-md-store_settings_outline",
+		"󱣕",
+	},
+	{
+		"nf-md-storefront",
+		"󰟇",
+	},
+	{
+		"nf-md-storefront_outline",
+		"󱃁",
+	},
+	{
+		"nf-md-stove",
+		"󰓞",
+	},
+	{
+		"nf-md-strategy",
+		"󱇖",
+	},
+	{
+		"nf-md-stretch_to_page",
+		"󰼫",
+	},
+	{
+		"nf-md-stretch_to_page_outline",
+		"󰼬",
+	},
+	{
+		"nf-md-string_lights",
+		"󱊺",
+	},
+	{
+		"nf-md-string_lights_off",
+		"󱊻",
+	},
+	{
+		"nf-md-subdirectory_arrow_left",
+		"󰘌",
+	},
+	{
+		"nf-md-subdirectory_arrow_right",
+		"󰘍",
+	},
+	{
+		"nf-md-submarine",
+		"󱕬",
+	},
+	{
+		"nf-md-subtitles",
+		"󰨖",
+	},
+	{
+		"nf-md-subtitles_outline",
+		"󰨗",
+	},
+	{
+		"nf-md-subway",
+		"󰚬",
+	},
+	{
+		"nf-md-subway_alert_variant",
+		"󰶝",
+	},
+	{
+		"nf-md-subway_variant",
+		"󰓟",
+	},
+	{
+		"nf-md-summit",
+		"󰞆",
+	},
+	{
+		"nf-md-sun_clock",
+		"󱩷",
+	},
+	{
+		"nf-md-sun_clock_outline",
+		"󱩸",
+	},
+	{
+		"nf-md-sun_compass",
+		"󱦥",
+	},
+	{
+		"nf-md-sun_snowflake",
+		"󱞖",
+	},
+	{
+		"nf-md-sun_snowflake_variant",
+		"󱩹",
+	},
+	{
+		"nf-md-sun_thermometer",
+		"󱣖",
+	},
+	{
+		"nf-md-sun_thermometer_outline",
+		"󱣗",
+	},
+	{
+		"nf-md-sun_wireless",
+		"󱟾",
+	},
+	{
+		"nf-md-sun_wireless_outline",
+		"󱟿",
+	},
+	{
+		"nf-md-sunglasses",
+		"󰓠",
+	},
+	{
+		"nf-md-surfing",
+		"󱝆",
+	},
+	{
+		"nf-md-surround_sound",
+		"󰗅",
+	},
+	{
+		"nf-md-surround_sound_2_0",
+		"󰟰",
+	},
+	{
+		"nf-md-surround_sound_2_1",
+		"󱜩",
+	},
+	{
+		"nf-md-surround_sound_3_1",
+		"󰟱",
+	},
+	{
+		"nf-md-surround_sound_5_1",
+		"󰟲",
+	},
+	{
+		"nf-md-surround_sound_5_1_2",
+		"󱜪",
+	},
+	{
+		"nf-md-surround_sound_7_1",
+		"󰟳",
+	},
+	{
+		"nf-md-svg",
+		"󰜡",
+	},
+	{
+		"nf-md-swap_horizontal",
+		"󰓡",
+	},
+	{
+		"nf-md-swap_horizontal_bold",
+		"󰯍",
+	},
+	{
+		"nf-md-swap_horizontal_circle",
+		"󰿡",
+	},
+	{
+		"nf-md-swap_horizontal_circle_outline",
+		"󰿢",
+	},
+	{
+		"nf-md-swap_horizontal_variant",
+		"󰣁",
+	},
+	{
+		"nf-md-swap_vertical",
+		"󰓢",
+	},
+	{
+		"nf-md-swap_vertical_bold",
+		"󰯎",
+	},
+	{
+		"nf-md-swap_vertical_circle",
+		"󰿣",
+	},
+	{
+		"nf-md-swap_vertical_circle_outline",
+		"󰿤",
+	},
+	{
+		"nf-md-swap_vertical_variant",
+		"󰣂",
+	},
+	{
+		"nf-md-swim",
+		"󰓣",
+	},
+	{
+		"nf-md-switch",
+		"󰓤",
+	},
+	{
+		"nf-md-sword",
+		"󰓥",
+	},
+	{
+		"nf-md-sword_cross",
+		"󰞇",
+	},
+	{
+		"nf-md-syllabary_hangul",
+		"󱌳",
+	},
+	{
+		"nf-md-syllabary_hiragana",
+		"󱌴",
+	},
+	{
+		"nf-md-syllabary_katakana",
+		"󱌵",
+	},
+	{
+		"nf-md-syllabary_katakana_halfwidth",
+		"󱌶",
+	},
+	{
+		"nf-md-symbol",
+		"󱔁",
+	},
+	{
+		"nf-md-symfony",
+		"󰫦",
+	},
+	{
+		"nf-md-sync",
+		"󰓦",
+	},
+	{
+		"nf-md-sync_alert",
+		"󰓧",
+	},
+	{
+		"nf-md-sync_circle",
+		"󱍸",
+	},
+	{
+		"nf-md-sync_off",
+		"󰓨",
+	},
+	{
+		"nf-md-tab",
+		"󰓩",
+	},
+	{
+		"nf-md-tab_minus",
+		"󰭋",
+	},
+	{
+		"nf-md-tab_plus",
+		"󰝜",
+	},
+	{
+		"nf-md-tab_remove",
+		"󰭌",
+	},
+	{
+		"nf-md-tab_search",
+		"󱦞",
+	},
+	{
+		"nf-md-tab_unselected",
+		"󰓪",
+	},
+	{
+		"nf-md-table",
+		"󰓫",
+	},
+	{
+		"nf-md-table_account",
+		"󱎹",
+	},
+	{
+		"nf-md-table_alert",
+		"󱎺",
+	},
+	{
+		"nf-md-table_arrow_down",
+		"󱎻",
+	},
+	{
+		"nf-md-table_arrow_left",
+		"󱎼",
+	},
+	{
+		"nf-md-table_arrow_right",
+		"󱎽",
+	},
+	{
+		"nf-md-table_arrow_up",
+		"󱎾",
+	},
+	{
+		"nf-md-table_border",
+		"󰨘",
+	},
+	{
+		"nf-md-table_cancel",
+		"󱎿",
+	},
+	{
+		"nf-md-table_chair",
+		"󱁡",
+	},
+	{
+		"nf-md-table_check",
+		"󱏀",
+	},
+	{
+		"nf-md-table_clock",
+		"󱏁",
+	},
+	{
+		"nf-md-table_cog",
+		"󱏂",
+	},
+	{
+		"nf-md-table_column",
+		"󰠵",
+	},
+	{
+		"nf-md-table_column_plus_after",
+		"󰓬",
+	},
+	{
+		"nf-md-table_column_plus_before",
+		"󰓭",
+	},
+	{
+		"nf-md-table_column_remove",
+		"󰓮",
+	},
+	{
+		"nf-md-table_column_width",
+		"󰓯",
+	},
+	{
+		"nf-md-table_edit",
+		"󰓰",
+	},
+	{
+		"nf-md-table_eye",
+		"󱂔",
+	},
+	{
+		"nf-md-table_eye_off",
+		"󱏃",
+	},
+	{
+		"nf-md-table_furniture",
+		"󰖼",
+	},
+	{
+		"nf-md-table_headers_eye",
+		"󱈝",
+	},
+	{
+		"nf-md-table_headers_eye_off",
+		"󱈞",
+	},
+	{
+		"nf-md-table_heart",
+		"󱏄",
+	},
+	{
+		"nf-md-table_key",
+		"󱏅",
+	},
+	{
+		"nf-md-table_large",
+		"󰓱",
+	},
+	{
+		"nf-md-table_large_plus",
+		"󰾇",
+	},
+	{
+		"nf-md-table_large_remove",
+		"󰾈",
+	},
+	{
+		"nf-md-table_lock",
+		"󱏆",
+	},
+	{
+		"nf-md-table_merge_cells",
+		"󰦦",
+	},
+	{
+		"nf-md-table_minus",
+		"󱏇",
+	},
+	{
+		"nf-md-table_multiple",
+		"󱏈",
+	},
+	{
+		"nf-md-table_network",
+		"󱏉",
+	},
+	{
+		"nf-md-table_of_contents",
+		"󰠶",
+	},
+	{
+		"nf-md-table_off",
+		"󱏊",
+	},
+	{
+		"nf-md-table_picnic",
+		"󱝃",
+	},
+	{
+		"nf-md-table_pivot",
+		"󱠼",
+	},
+	{
+		"nf-md-table_plus",
+		"󰩵",
+	},
+	{
+		"nf-md-table_refresh",
+		"󱎠",
+	},
+	{
+		"nf-md-table_remove",
+		"󰩶",
+	},
+	{
+		"nf-md-table_row",
+		"󰠷",
+	},
+	{
+		"nf-md-table_row_height",
+		"󰓲",
+	},
+	{
+		"nf-md-table_row_plus_after",
+		"󰓳",
+	},
+	{
+		"nf-md-table_row_plus_before",
+		"󰓴",
+	},
+	{
+		"nf-md-table_row_remove",
+		"󰓵",
+	},
+	{
+		"nf-md-table_search",
+		"󰤏",
+	},
+	{
+		"nf-md-table_settings",
+		"󰠸",
+	},
+	{
+		"nf-md-table_split_cell",
+		"󱐪",
+	},
+	{
+		"nf-md-table_star",
+		"󱏋",
+	},
+	{
+		"nf-md-table_sync",
+		"󱎡",
+	},
+	{
+		"nf-md-table_tennis",
+		"󰹨",
+	},
+	{
+		"nf-md-tablet",
+		"󰓶",
+	},
+	{
+		"nf-md-tablet_android",
+		"󰓷",
+	},
+	{
+		"nf-md-tablet_cellphone",
+		"󰦧",
+	},
+	{
+		"nf-md-tablet_dashboard",
+		"󰻎",
+	},
+	{
+		"nf-md-taco",
+		"󰝢",
+	},
+	{
+		"nf-md-tag",
+		"󰓹",
+	},
+	{
+		"nf-md-tag_arrow_down",
+		"󱜫",
+	},
+	{
+		"nf-md-tag_arrow_down_outline",
+		"󱜬",
+	},
+	{
+		"nf-md-tag_arrow_left",
+		"󱜭",
+	},
+	{
+		"nf-md-tag_arrow_left_outline",
+		"󱜮",
+	},
+	{
+		"nf-md-tag_arrow_right",
+		"󱜯",
+	},
+	{
+		"nf-md-tag_arrow_right_outline",
+		"󱜰",
+	},
+	{
+		"nf-md-tag_arrow_up",
+		"󱜱",
+	},
+	{
+		"nf-md-tag_arrow_up_outline",
+		"󱜲",
+	},
+	{
+		"nf-md-tag_check",
+		"󱩺",
+	},
+	{
+		"nf-md-tag_check_outline",
+		"󱩻",
+	},
+	{
+		"nf-md-tag_faces",
+		"󰓺",
+	},
+	{
+		"nf-md-tag_heart",
+		"󰚋",
+	},
+	{
+		"nf-md-tag_heart_outline",
+		"󰯏",
+	},
+	{
+		"nf-md-tag_minus",
+		"󰤐",
+	},
+	{
+		"nf-md-tag_minus_outline",
+		"󱈟",
+	},
+	{
+		"nf-md-tag_multiple",
+		"󰓻",
+	},
+	{
+		"nf-md-tag_multiple_outline",
+		"󱋷",
+	},
+	{
+		"nf-md-tag_off",
+		"󱈠",
+	},
+	{
+		"nf-md-tag_off_outline",
+		"󱈡",
+	},
+	{
+		"nf-md-tag_outline",
+		"󰓼",
+	},
+	{
+		"nf-md-tag_plus",
+		"󰜢",
+	},
+	{
+		"nf-md-tag_plus_outline",
+		"󱈢",
+	},
+	{
+		"nf-md-tag_remove",
+		"󰜣",
+	},
+	{
+		"nf-md-tag_remove_outline",
+		"󱈣",
+	},
+	{
+		"nf-md-tag_search",
+		"󱤇",
+	},
+	{
+		"nf-md-tag_search_outline",
+		"󱤈",
+	},
+	{
+		"nf-md-tag_text",
+		"󱈤",
+	},
+	{
+		"nf-md-tag_text_outline",
+		"󰓽",
+	},
+	{
+		"nf-md-tailwind",
+		"󱏿",
+	},
+	{
+		"nf-md-tally_mark_1",
+		"󱪼",
+	},
+	{
+		"nf-md-tally_mark_2",
+		"󱪽",
+	},
+	{
+		"nf-md-tally_mark_3",
+		"󱪾",
+	},
+	{
+		"nf-md-tally_mark_4",
+		"󱪿",
+	},
+	{
+		"nf-md-tally_mark_5",
+		"󱫀",
+	},
+	{
+		"nf-md-tangram",
+		"󰓸",
+	},
+	{
+		"nf-md-tank",
+		"󰴺",
+	},
+	{
+		"nf-md-tanker_truck",
+		"󰿥",
+	},
+	{
+		"nf-md-tape_drive",
+		"󱛟",
+	},
+	{
+		"nf-md-tape_measure",
+		"󰭍",
+	},
+	{
+		"nf-md-target",
+		"󰓾",
+	},
+	{
+		"nf-md-target_account",
+		"󰯐",
+	},
+	{
+		"nf-md-target_variant",
+		"󰩷",
+	},
+	{
+		"nf-md-taxi",
+		"󰓿",
+	},
+	{
+		"nf-md-tea",
+		"󰶞",
+	},
+	{
+		"nf-md-tea_outline",
+		"󰶟",
+	},
+	{
+		"nf-md-teamviewer",
+		"󰔀",
+	},
+	{
+		"nf-md-teddy_bear",
+		"󱣻",
+	},
+	{
+		"nf-md-telescope",
+		"󰭎",
+	},
+	{
+		"nf-md-television",
+		"󰔂",
+	},
+	{
+		"nf-md-television_ambient_light",
+		"󱍖",
+	},
+	{
+		"nf-md-television_box",
+		"󰠹",
+	},
+	{
+		"nf-md-television_classic",
+		"󰟴",
+	},
+	{
+		"nf-md-television_classic_off",
+		"󰠺",
+	},
+	{
+		"nf-md-television_guide",
+		"󰔃",
+	},
+	{
+		"nf-md-television_off",
+		"󰠻",
+	},
+	{
+		"nf-md-television_pause",
+		"󰾉",
+	},
+	{
+		"nf-md-television_play",
+		"󰻏",
+	},
+	{
+		"nf-md-television_shimmer",
+		"󱄐",
+	},
+	{
+		"nf-md-television_stop",
+		"󰾊",
+	},
+	{
+		"nf-md-temperature_celsius",
+		"󰔄",
+	},
+	{
+		"nf-md-temperature_fahrenheit",
+		"󰔅",
+	},
+	{
+		"nf-md-temperature_kelvin",
+		"󰔆",
+	},
+	{
+		"nf-md-tennis",
+		"󰶠",
+	},
+	{
+		"nf-md-tennis_ball",
+		"󰔇",
+	},
+	{
+		"nf-md-tent",
+		"󰔈",
+	},
+	{
+		"nf-md-terraform",
+		"󱁢",
+	},
+	{
+		"nf-md-test_tube",
+		"󰙨",
+	},
+	{
+		"nf-md-test_tube_empty",
+		"󰤑",
+	},
+	{
+		"nf-md-test_tube_off",
+		"󰤒",
+	},
+	{
+		"nf-md-text",
+		"󰦨",
+	},
+	{
+		"nf-md-text_account",
+		"󱕰",
+	},
+	{
+		"nf-md-text_box",
+		"󰈚",
+	},
+	{
+		"nf-md-text_box_check",
+		"󰺦",
+	},
+	{
+		"nf-md-text_box_check_outline",
+		"󰺧",
+	},
+	{
+		"nf-md-text_box_edit",
+		"󱩼",
+	},
+	{
+		"nf-md-text_box_edit_outline",
+		"󱩽",
+	},
+	{
+		"nf-md-text_box_minus",
+		"󰺨",
+	},
+	{
+		"nf-md-text_box_minus_outline",
+		"󰺩",
+	},
+	{
+		"nf-md-text_box_multiple",
+		"󰪷",
+	},
+	{
+		"nf-md-text_box_multiple_outline",
+		"󰪸",
+	},
+	{
+		"nf-md-text_box_outline",
+		"󰧭",
+	},
+	{
+		"nf-md-text_box_plus",
+		"󰺪",
+	},
+	{
+		"nf-md-text_box_plus_outline",
+		"󰺫",
+	},
+	{
+		"nf-md-text_box_remove",
+		"󰺬",
+	},
+	{
+		"nf-md-text_box_remove_outline",
+		"󰺭",
+	},
+	{
+		"nf-md-text_box_search",
+		"󰺮",
+	},
+	{
+		"nf-md-text_box_search_outline",
+		"󰺯",
+	},
+	{
+		"nf-md-text_long",
+		"󰦪",
+	},
+	{
+		"nf-md-text_recognition",
+		"󱄽",
+	},
+	{
+		"nf-md-text_search",
+		"󱎸",
+	},
+	{
+		"nf-md-text_search_variant",
+		"󱩾",
+	},
+	{
+		"nf-md-text_shadow",
+		"󰙩",
+	},
+	{
+		"nf-md-text_short",
+		"󰦩",
+	},
+	{
+		"nf-md-text_to_speech",
+		"󰔊",
+	},
+	{
+		"nf-md-text_to_speech_off",
+		"󰔋",
+	},
+	{
+		"nf-md-texture",
+		"󰔌",
+	},
+	{
+		"nf-md-texture_box",
+		"󰿦",
+	},
+	{
+		"nf-md-theater",
+		"󰔍",
+	},
+	{
+		"nf-md-theme_light_dark",
+		"󰔎",
+	},
+	{
+		"nf-md-thermometer",
+		"󰔏",
+	},
+	{
+		"nf-md-thermometer_alert",
+		"󰸁",
+	},
+	{
+		"nf-md-thermometer_bluetooth",
+		"󱢕",
+	},
+	{
+		"nf-md-thermometer_check",
+		"󱩿",
+	},
+	{
+		"nf-md-thermometer_chevron_down",
+		"󰸂",
+	},
+	{
+		"nf-md-thermometer_chevron_up",
+		"󰸃",
+	},
+	{
+		"nf-md-thermometer_high",
+		"󱃂",
+	},
+	{
+		"nf-md-thermometer_lines",
+		"󰔐",
+	},
+	{
+		"nf-md-thermometer_low",
+		"󱃃",
+	},
+	{
+		"nf-md-thermometer_minus",
+		"󰸄",
+	},
+	{
+		"nf-md-thermometer_off",
+		"󱔱",
+	},
+	{
+		"nf-md-thermometer_plus",
+		"󰸅",
+	},
+	{
+		"nf-md-thermometer_water",
+		"󱪀",
+	},
+	{
+		"nf-md-thermostat",
+		"󰎓",
+	},
+	{
+		"nf-md-thermostat_box",
+		"󰢑",
+	},
+	{
+		"nf-md-thought_bubble",
+		"󰟶",
+	},
+	{
+		"nf-md-thought_bubble_outline",
+		"󰟷",
+	},
+	{
+		"nf-md-thumb_down",
+		"󰔑",
+	},
+	{
+		"nf-md-thumb_down_outline",
+		"󰔒",
+	},
+	{
+		"nf-md-thumb_up",
+		"󰔓",
+	},
+	{
+		"nf-md-thumb_up_outline",
+		"󰔔",
+	},
+	{
+		"nf-md-thumbs_up_down",
+		"󰔕",
+	},
+	{
+		"nf-md-thumbs_up_down_outline",
+		"󱤔",
+	},
+	{
+		"nf-md-ticket",
+		"󰔖",
+	},
+	{
+		"nf-md-ticket_account",
+		"󰔗",
+	},
+	{
+		"nf-md-ticket_confirmation",
+		"󰔘",
+	},
+	{
+		"nf-md-ticket_confirmation_outline",
+		"󱎪",
+	},
+	{
+		"nf-md-ticket_outline",
+		"󰤓",
+	},
+	{
+		"nf-md-ticket_percent",
+		"󰜤",
+	},
+	{
+		"nf-md-ticket_percent_outline",
+		"󱐫",
+	},
+	{
+		"nf-md-tie",
+		"󰔙",
+	},
+	{
+		"nf-md-tilde",
+		"󰜥",
+	},
+	{
+		"nf-md-tilde_off",
+		"󱣳",
+	},
+	{
+		"nf-md-timelapse",
+		"󰔚",
+	},
+	{
+		"nf-md-timeline",
+		"󰯑",
+	},
+	{
+		"nf-md-timeline_alert",
+		"󰾕",
+	},
+	{
+		"nf-md-timeline_alert_outline",
+		"󰾘",
+	},
+	{
+		"nf-md-timeline_check",
+		"󱔲",
+	},
+	{
+		"nf-md-timeline_check_outline",
+		"󱔳",
+	},
+	{
+		"nf-md-timeline_clock",
+		"󱇻",
+	},
+	{
+		"nf-md-timeline_clock_outline",
+		"󱇼",
+	},
+	{
+		"nf-md-timeline_help",
+		"󰾙",
+	},
+	{
+		"nf-md-timeline_help_outline",
+		"󰾚",
+	},
+	{
+		"nf-md-timeline_minus",
+		"󱔴",
+	},
+	{
+		"nf-md-timeline_minus_outline",
+		"󱔵",
+	},
+	{
+		"nf-md-timeline_outline",
+		"󰯒",
+	},
+	{
+		"nf-md-timeline_plus",
+		"󰾖",
+	},
+	{
+		"nf-md-timeline_plus_outline",
+		"󰾗",
+	},
+	{
+		"nf-md-timeline_remove",
+		"󱔶",
+	},
+	{
+		"nf-md-timeline_remove_outline",
+		"󱔷",
+	},
+	{
+		"nf-md-timeline_text",
+		"󰯓",
+	},
+	{
+		"nf-md-timeline_text_outline",
+		"󰯔",
+	},
+	{
+		"nf-md-timer",
+		"󱎫",
+	},
+	{
+		"nf-md-timer_10",
+		"󰔜",
+	},
+	{
+		"nf-md-timer_3",
+		"󰔝",
+	},
+	{
+		"nf-md-timer_alert",
+		"󱫌",
+	},
+	{
+		"nf-md-timer_alert_outline",
+		"󱫍",
+	},
+	{
+		"nf-md-timer_cancel",
+		"󱫎",
+	},
+	{
+		"nf-md-timer_cancel_outline",
+		"󱫏",
+	},
+	{
+		"nf-md-timer_check",
+		"󱫐",
+	},
+	{
+		"nf-md-timer_check_outline",
+		"󱫑",
+	},
+	{
+		"nf-md-timer_cog",
+		"󱤥",
+	},
+	{
+		"nf-md-timer_cog_outline",
+		"󱤦",
+	},
+	{
+		"nf-md-timer_edit",
+		"󱫒",
+	},
+	{
+		"nf-md-timer_edit_outline",
+		"󱫓",
+	},
+	{
+		"nf-md-timer_lock",
+		"󱫔",
+	},
+	{
+		"nf-md-timer_lock_open",
+		"󱫕",
+	},
+	{
+		"nf-md-timer_lock_open_outline",
+		"󱫖",
+	},
+	{
+		"nf-md-timer_lock_outline",
+		"󱫗",
+	},
+	{
+		"nf-md-timer_marker",
+		"󱫘",
+	},
+	{
+		"nf-md-timer_marker_outline",
+		"󱫙",
+	},
+	{
+		"nf-md-timer_minus",
+		"󱫚",
+	},
+	{
+		"nf-md-timer_minus_outline",
+		"󱫛",
+	},
+	{
+		"nf-md-timer_music",
+		"󱫜",
+	},
+	{
+		"nf-md-timer_music_outline",
+		"󱫝",
+	},
+	{
+		"nf-md-timer_off",
+		"󱎬",
+	},
+	{
+		"nf-md-timer_off_outline",
+		"󰔞",
+	},
+	{
+		"nf-md-timer_outline",
+		"󰔛",
+	},
+	{
+		"nf-md-timer_pause",
+		"󱫞",
+	},
+	{
+		"nf-md-timer_pause_outline",
+		"󱫟",
+	},
+	{
+		"nf-md-timer_play",
+		"󱫠",
+	},
+	{
+		"nf-md-timer_play_outline",
+		"󱫡",
+	},
+	{
+		"nf-md-timer_plus",
+		"󱫢",
+	},
+	{
+		"nf-md-timer_plus_outline",
+		"󱫣",
+	},
+	{
+		"nf-md-timer_refresh",
+		"󱫤",
+	},
+	{
+		"nf-md-timer_refresh_outline",
+		"󱫥",
+	},
+	{
+		"nf-md-timer_remove",
+		"󱫦",
+	},
+	{
+		"nf-md-timer_remove_outline",
+		"󱫧",
+	},
+	{
+		"nf-md-timer_sand",
+		"󰔟",
+	},
+	{
+		"nf-md-timer_sand_complete",
+		"󱦟",
+	},
+	{
+		"nf-md-timer_sand_empty",
+		"󰚭",
+	},
+	{
+		"nf-md-timer_sand_full",
+		"󰞌",
+	},
+	{
+		"nf-md-timer_sand_paused",
+		"󱦠",
+	},
+	{
+		"nf-md-timer_settings",
+		"󱤣",
+	},
+	{
+		"nf-md-timer_settings_outline",
+		"󱤤",
+	},
+	{
+		"nf-md-timer_star",
+		"󱫨",
+	},
+	{
+		"nf-md-timer_star_outline",
+		"󱫩",
+	},
+	{
+		"nf-md-timer_stop",
+		"󱫪",
+	},
+	{
+		"nf-md-timer_stop_outline",
+		"󱫫",
+	},
+	{
+		"nf-md-timer_sync",
+		"󱫬",
+	},
+	{
+		"nf-md-timer_sync_outline",
+		"󱫭",
+	},
+	{
+		"nf-md-timetable",
+		"󰔠",
+	},
+	{
+		"nf-md-tire",
+		"󱢖",
+	},
+	{
+		"nf-md-toaster",
+		"󱁣",
+	},
+	{
+		"nf-md-toaster_off",
+		"󱆷",
+	},
+	{
+		"nf-md-toaster_oven",
+		"󰳓",
+	},
+	{
+		"nf-md-toggle_switch",
+		"󰔡",
+	},
+	{
+		"nf-md-toggle_switch_off",
+		"󰔢",
+	},
+	{
+		"nf-md-toggle_switch_off_outline",
+		"󰨙",
+	},
+	{
+		"nf-md-toggle_switch_outline",
+		"󰨚",
+	},
+	{
+		"nf-md-toggle_switch_variant",
+		"󱨥",
+	},
+	{
+		"nf-md-toggle_switch_variant_off",
+		"󱨦",
+	},
+	{
+		"nf-md-toilet",
+		"󰦫",
+	},
+	{
+		"nf-md-toolbox",
+		"󰦬",
+	},
+	{
+		"nf-md-toolbox_outline",
+		"󰦭",
+	},
+	{
+		"nf-md-tools",
+		"󱁤",
+	},
+	{
+		"nf-md-tooltip",
+		"󰔣",
+	},
+	{
+		"nf-md-tooltip_account",
+		"󰀌",
+	},
+	{
+		"nf-md-tooltip_cellphone",
+		"󱠻",
+	},
+	{
+		"nf-md-tooltip_check",
+		"󱕜",
+	},
+	{
+		"nf-md-tooltip_check_outline",
+		"󱕝",
+	},
+	{
+		"nf-md-tooltip_edit",
+		"󰔤",
+	},
+	{
+		"nf-md-tooltip_edit_outline",
+		"󱋅",
+	},
+	{
+		"nf-md-tooltip_image",
+		"󰔥",
+	},
+	{
+		"nf-md-tooltip_image_outline",
+		"󰯕",
+	},
+	{
+		"nf-md-tooltip_minus",
+		"󱕞",
+	},
+	{
+		"nf-md-tooltip_minus_outline",
+		"󱕟",
+	},
+	{
+		"nf-md-tooltip_outline",
+		"󰔦",
+	},
+	{
+		"nf-md-tooltip_plus",
+		"󰯖",
+	},
+	{
+		"nf-md-tooltip_plus_outline",
+		"󰔧",
+	},
+	{
+		"nf-md-tooltip_remove",
+		"󱕠",
+	},
+	{
+		"nf-md-tooltip_remove_outline",
+		"󱕡",
+	},
+	{
+		"nf-md-tooltip_text",
+		"󰔨",
+	},
+	{
+		"nf-md-tooltip_text_outline",
+		"󰯗",
+	},
+	{
+		"nf-md-tooth",
+		"󰣃",
+	},
+	{
+		"nf-md-tooth_outline",
+		"󰔩",
+	},
+	{
+		"nf-md-toothbrush",
+		"󱄩",
+	},
+	{
+		"nf-md-toothbrush_electric",
+		"󱄬",
+	},
+	{
+		"nf-md-toothbrush_paste",
+		"󱄪",
+	},
+	{
+		"nf-md-torch",
+		"󱘆",
+	},
+	{
+		"nf-md-tortoise",
+		"󰴻",
+	},
+	{
+		"nf-md-toslink",
+		"󱊸",
+	},
+	{
+		"nf-md-tournament",
+		"󰦮",
+	},
+	{
+		"nf-md-tow_truck",
+		"󰠼",
+	},
+	{
+		"nf-md-tower_beach",
+		"󰚁",
+	},
+	{
+		"nf-md-tower_fire",
+		"󰚂",
+	},
+	{
+		"nf-md-town_hall",
+		"󱡵",
+	},
+	{
+		"nf-md-toy_brick",
+		"󱊈",
+	},
+	{
+		"nf-md-toy_brick_marker",
+		"󱊉",
+	},
+	{
+		"nf-md-toy_brick_marker_outline",
+		"󱊊",
+	},
+	{
+		"nf-md-toy_brick_minus",
+		"󱊋",
+	},
+	{
+		"nf-md-toy_brick_minus_outline",
+		"󱊌",
+	},
+	{
+		"nf-md-toy_brick_outline",
+		"󱊍",
+	},
+	{
+		"nf-md-toy_brick_plus",
+		"󱊎",
+	},
+	{
+		"nf-md-toy_brick_plus_outline",
+		"󱊏",
+	},
+	{
+		"nf-md-toy_brick_remove",
+		"󱊐",
+	},
+	{
+		"nf-md-toy_brick_remove_outline",
+		"󱊑",
+	},
+	{
+		"nf-md-toy_brick_search",
+		"󱊒",
+	},
+	{
+		"nf-md-toy_brick_search_outline",
+		"󱊓",
+	},
+	{
+		"nf-md-track_light",
+		"󰤔",
+	},
+	{
+		"nf-md-trackpad",
+		"󰟸",
+	},
+	{
+		"nf-md-trackpad_lock",
+		"󰤳",
+	},
+	{
+		"nf-md-tractor",
+		"󰢒",
+	},
+	{
+		"nf-md-tractor_variant",
+		"󱓄",
+	},
+	{
+		"nf-md-trademark",
+		"󰩸",
+	},
+	{
+		"nf-md-traffic_cone",
+		"󱍼",
+	},
+	{
+		"nf-md-traffic_light",
+		"󰔫",
+	},
+	{
+		"nf-md-traffic_light_outline",
+		"󱠪",
+	},
+	{
+		"nf-md-train",
+		"󰔬",
+	},
+	{
+		"nf-md-train_car",
+		"󰯘",
+	},
+	{
+		"nf-md-train_car_passenger",
+		"󱜳",
+	},
+	{
+		"nf-md-train_car_passenger_door",
+		"󱜴",
+	},
+	{
+		"nf-md-train_car_passenger_door_open",
+		"󱜵",
+	},
+	{
+		"nf-md-train_car_passenger_variant",
+		"󱜶",
+	},
+	{
+		"nf-md-train_variant",
+		"󰣄",
+	},
+	{
+		"nf-md-tram",
+		"󰔭",
+	},
+	{
+		"nf-md-tram_side",
+		"󰿧",
+	},
+	{
+		"nf-md-transcribe",
+		"󰔮",
+	},
+	{
+		"nf-md-transcribe_close",
+		"󰔯",
+	},
+	{
+		"nf-md-transfer",
+		"󱁥",
+	},
+	{
+		"nf-md-transfer_down",
+		"󰶡",
+	},
+	{
+		"nf-md-transfer_left",
+		"󰶢",
+	},
+	{
+		"nf-md-transfer_right",
+		"󰔰",
+	},
+	{
+		"nf-md-transfer_up",
+		"󰶣",
+	},
+	{
+		"nf-md-transit_connection",
+		"󰴼",
+	},
+	{
+		"nf-md-transit_connection_horizontal",
+		"󱕆",
+	},
+	{
+		"nf-md-transit_connection_variant",
+		"󰴽",
+	},
+	{
+		"nf-md-transit_detour",
+		"󰾋",
+	},
+	{
+		"nf-md-transit_skip",
+		"󱔕",
+	},
+	{
+		"nf-md-transit_transfer",
+		"󰚮",
+	},
+	{
+		"nf-md-transition",
+		"󰤕",
+	},
+	{
+		"nf-md-transition_masked",
+		"󰤖",
+	},
+	{
+		"nf-md-translate",
+		"󰗊",
+	},
+	{
+		"nf-md-translate_off",
+		"󰸆",
+	},
+	{
+		"nf-md-transmission_tower",
+		"󰴾",
+	},
+	{
+		"nf-md-transmission_tower_export",
+		"󱤬",
+	},
+	{
+		"nf-md-transmission_tower_import",
+		"󱤭",
+	},
+	{
+		"nf-md-transmission_tower_off",
+		"󱧝",
+	},
+	{
+		"nf-md-trash_can",
+		"󰩹",
+	},
+	{
+		"nf-md-trash_can_outline",
+		"󰩺",
+	},
+	{
+		"nf-md-tray",
+		"󱊔",
+	},
+	{
+		"nf-md-tray_alert",
+		"󱊕",
+	},
+	{
+		"nf-md-tray_arrow_down",
+		"󰄠",
+	},
+	{
+		"nf-md-tray_arrow_up",
+		"󰄝",
+	},
+	{
+		"nf-md-tray_full",
+		"󱊖",
+	},
+	{
+		"nf-md-tray_minus",
+		"󱊗",
+	},
+	{
+		"nf-md-tray_plus",
+		"󱊘",
+	},
+	{
+		"nf-md-tray_remove",
+		"󱊙",
+	},
+	{
+		"nf-md-treasure_chest",
+		"󰜦",
+	},
+	{
+		"nf-md-tree",
+		"󰔱",
+	},
+	{
+		"nf-md-tree_outline",
+		"󰹩",
+	},
+	{
+		"nf-md-trello",
+		"󰔲",
+	},
+	{
+		"nf-md-trending_down",
+		"󰔳",
+	},
+	{
+		"nf-md-trending_neutral",
+		"󰔴",
+	},
+	{
+		"nf-md-trending_up",
+		"󰔵",
+	},
+	{
+		"nf-md-triangle",
+		"󰔶",
+	},
+	{
+		"nf-md-triangle_outline",
+		"󰔷",
+	},
+	{
+		"nf-md-triangle_small_down",
+		"󱨉",
+	},
+	{
+		"nf-md-triangle_small_up",
+		"󱨊",
+	},
+	{
+		"nf-md-triangle_wave",
+		"󱑼",
+	},
+	{
+		"nf-md-triforce",
+		"󰯙",
+	},
+	{
+		"nf-md-trophy",
+		"󰔸",
+	},
+	{
+		"nf-md-trophy_award",
+		"󰔹",
+	},
+	{
+		"nf-md-trophy_broken",
+		"󰶤",
+	},
+	{
+		"nf-md-trophy_outline",
+		"󰔺",
+	},
+	{
+		"nf-md-trophy_variant",
+		"󰔻",
+	},
+	{
+		"nf-md-trophy_variant_outline",
+		"󰔼",
+	},
+	{
+		"nf-md-truck",
+		"󰔽",
+	},
+	{
+		"nf-md-truck_alert",
+		"󱧞",
+	},
+	{
+		"nf-md-truck_alert_outline",
+		"󱧟",
+	},
+	{
+		"nf-md-truck_cargo_container",
+		"󱣘",
+	},
+	{
+		"nf-md-truck_check",
+		"󰳔",
+	},
+	{
+		"nf-md-truck_check_outline",
+		"󱊚",
+	},
+	{
+		"nf-md-truck_delivery",
+		"󰔾",
+	},
+	{
+		"nf-md-truck_delivery_outline",
+		"󱊛",
+	},
+	{
+		"nf-md-truck_fast",
+		"󰞈",
+	},
+	{
+		"nf-md-truck_fast_outline",
+		"󱊜",
+	},
+	{
+		"nf-md-truck_flatbed",
+		"󱢑",
+	},
+	{
+		"nf-md-truck_minus",
+		"󱦮",
+	},
+	{
+		"nf-md-truck_minus_outline",
+		"󱦽",
+	},
+	{
+		"nf-md-truck_outline",
+		"󱊝",
+	},
+	{
+		"nf-md-truck_plus",
+		"󱦭",
+	},
+	{
+		"nf-md-truck_plus_outline",
+		"󱦼",
+	},
+	{
+		"nf-md-truck_remove",
+		"󱦯",
+	},
+	{
+		"nf-md-truck_remove_outline",
+		"󱦾",
+	},
+	{
+		"nf-md-truck_snowflake",
+		"󱦦",
+	},
+	{
+		"nf-md-truck_trailer",
+		"󰜧",
+	},
+	{
+		"nf-md-trumpet",
+		"󱂖",
+	},
+	{
+		"nf-md-tshirt_crew",
+		"󰩻",
+	},
+	{
+		"nf-md-tshirt_crew_outline",
+		"󰔿",
+	},
+	{
+		"nf-md-tshirt_v",
+		"󰩼",
+	},
+	{
+		"nf-md-tshirt_v_outline",
+		"󰕀",
+	},
+	{
+		"nf-md-tsunami",
+		"󱪁",
+	},
+	{
+		"nf-md-tumble_dryer",
+		"󰤗",
+	},
+	{
+		"nf-md-tumble_dryer_alert",
+		"󱆺",
+	},
+	{
+		"nf-md-tumble_dryer_off",
+		"󱆻",
+	},
+	{
+		"nf-md-tune",
+		"󰘮",
+	},
+	{
+		"nf-md-tune_variant",
+		"󱕂",
+	},
+	{
+		"nf-md-tune_vertical",
+		"󰙪",
+	},
+	{
+		"nf-md-tune_vertical_variant",
+		"󱕃",
+	},
+	{
+		"nf-md-tunnel",
+		"󱠽",
+	},
+	{
+		"nf-md-tunnel_outline",
+		"󱠾",
+	},
+	{
+		"nf-md-turbine",
+		"󱪂",
+	},
+	{
+		"nf-md-turkey",
+		"󱜛",
+	},
+	{
+		"nf-md-turnstile",
+		"󰳕",
+	},
+	{
+		"nf-md-turnstile_outline",
+		"󰳖",
+	},
+	{
+		"nf-md-turtle",
+		"󰳗",
+	},
+	{
+		"nf-md-twitch",
+		"󰕃",
+	},
+	{
+		"nf-md-twitter",
+		"󰕄",
+	},
+	{
+		"nf-md-two_factor_authentication",
+		"󰦯",
+	},
+	{
+		"nf-md-typewriter",
+		"󰼭",
+	},
+	{
+		"nf-md-ubisoft",
+		"󰯚",
+	},
+	{
+		"nf-md-ubuntu",
+		"󰕈",
+	},
+	{
+		"nf-md-ufo",
+		"󱃄",
+	},
+	{
+		"nf-md-ufo_outline",
+		"󱃅",
+	},
+	{
+		"nf-md-ultra_high_definition",
+		"󰟹",
+	},
+	{
+		"nf-md-umbraco",
+		"󰕉",
+	},
+	{
+		"nf-md-umbrella",
+		"󰕊",
+	},
+	{
+		"nf-md-umbrella_beach",
+		"󱢊",
+	},
+	{
+		"nf-md-umbrella_beach_outline",
+		"󱢋",
+	},
+	{
+		"nf-md-umbrella_closed",
+		"󰦰",
+	},
+	{
+		"nf-md-umbrella_closed_outline",
+		"󱏢",
+	},
+	{
+		"nf-md-umbrella_closed_variant",
+		"󱏡",
+	},
+	{
+		"nf-md-umbrella_outline",
+		"󰕋",
+	},
+	{
+		"nf-md-undo",
+		"󰕌",
+	},
+	{
+		"nf-md-undo_variant",
+		"󰕍",
+	},
+	{
+		"nf-md-unfold_less_horizontal",
+		"󰕎",
+	},
+	{
+		"nf-md-unfold_less_vertical",
+		"󰝠",
+	},
+	{
+		"nf-md-unfold_more_horizontal",
+		"󰕏",
+	},
+	{
+		"nf-md-unfold_more_vertical",
+		"󰝡",
+	},
+	{
+		"nf-md-ungroup",
+		"󰕐",
+	},
+	{
+		"nf-md-unicode",
+		"󰻐",
+	},
+	{
+		"nf-md-unicorn",
+		"󱗂",
+	},
+	{
+		"nf-md-unicorn_variant",
+		"󱗃",
+	},
+	{
+		"nf-md-unicycle",
+		"󱗥",
+	},
+	{
+		"nf-md-unity",
+		"󰚯",
+	},
+	{
+		"nf-md-unreal",
+		"󰦱",
+	},
+	{
+		"nf-md-update",
+		"󰚰",
+	},
+	{
+		"nf-md-upload",
+		"󰕒",
+	},
+	{
+		"nf-md-upload_lock",
+		"󱍳",
+	},
+	{
+		"nf-md-upload_lock_outline",
+		"󱍴",
+	},
+	{
+		"nf-md-upload_multiple",
+		"󰠽",
+	},
+	{
+		"nf-md-upload_network",
+		"󰛶",
+	},
+	{
+		"nf-md-upload_network_outline",
+		"󰳘",
+	},
+	{
+		"nf-md-upload_off",
+		"󱃆",
+	},
+	{
+		"nf-md-upload_off_outline",
+		"󱃇",
+	},
+	{
+		"nf-md-upload_outline",
+		"󰸇",
+	},
+	{
+		"nf-md-usb",
+		"󰕓",
+	},
+	{
+		"nf-md-usb_flash_drive",
+		"󱊞",
+	},
+	{
+		"nf-md-usb_flash_drive_outline",
+		"󱊟",
+	},
+	{
+		"nf-md-usb_port",
+		"󱇰",
+	},
+	{
+		"nf-md-vacuum",
+		"󱦡",
+	},
+	{
+		"nf-md-vacuum_outline",
+		"󱦢",
+	},
+	{
+		"nf-md-valve",
+		"󱁦",
+	},
+	{
+		"nf-md-valve_closed",
+		"󱁧",
+	},
+	{
+		"nf-md-valve_open",
+		"󱁨",
+	},
+	{
+		"nf-md-van_passenger",
+		"󰟺",
+	},
+	{
+		"nf-md-van_utility",
+		"󰟻",
+	},
+	{
+		"nf-md-vanish",
+		"󰟼",
+	},
+	{
+		"nf-md-vanish_quarter",
+		"󱕔",
+	},
+	{
+		"nf-md-vanity_light",
+		"󱇡",
+	},
+	{
+		"nf-md-variable",
+		"󰫧",
+	},
+	{
+		"nf-md-variable_box",
+		"󱄑",
+	},
+	{
+		"nf-md-vector_arrange_above",
+		"󰕔",
+	},
+	{
+		"nf-md-vector_arrange_below",
+		"󰕕",
+	},
+	{
+		"nf-md-vector_bezier",
+		"󰫨",
+	},
+	{
+		"nf-md-vector_circle",
+		"󰕖",
+	},
+	{
+		"nf-md-vector_circle_variant",
+		"󰕗",
+	},
+	{
+		"nf-md-vector_combine",
+		"󰕘",
+	},
+	{
+		"nf-md-vector_curve",
+		"󰕙",
+	},
+	{
+		"nf-md-vector_difference",
+		"󰕚",
+	},
+	{
+		"nf-md-vector_difference_ab",
+		"󰕛",
+	},
+	{
+		"nf-md-vector_difference_ba",
+		"󰕜",
+	},
+	{
+		"nf-md-vector_ellipse",
+		"󰢓",
+	},
+	{
+		"nf-md-vector_intersection",
+		"󰕝",
+	},
+	{
+		"nf-md-vector_line",
+		"󰕞",
+	},
+	{
+		"nf-md-vector_link",
+		"󰿨",
+	},
+	{
+		"nf-md-vector_point",
+		"󰕟",
+	},
+	{
+		"nf-md-vector_polygon",
+		"󰕠",
+	},
+	{
+		"nf-md-vector_polygon_variant",
+		"󱡖",
+	},
+	{
+		"nf-md-vector_polyline",
+		"󰕡",
+	},
+	{
+		"nf-md-vector_polyline_edit",
+		"󱈥",
+	},
+	{
+		"nf-md-vector_polyline_minus",
+		"󱈦",
+	},
+	{
+		"nf-md-vector_polyline_plus",
+		"󱈧",
+	},
+	{
+		"nf-md-vector_polyline_remove",
+		"󱈨",
+	},
+	{
+		"nf-md-vector_radius",
+		"󰝊",
+	},
+	{
+		"nf-md-vector_rectangle",
+		"󰗆",
+	},
+	{
+		"nf-md-vector_selection",
+		"󰕢",
+	},
+	{
+		"nf-md-vector_square",
+		"󰀁",
+	},
+	{
+		"nf-md-vector_square_close",
+		"󱡗",
+	},
+	{
+		"nf-md-vector_square_edit",
+		"󱣙",
+	},
+	{
+		"nf-md-vector_square_minus",
+		"󱣚",
+	},
+	{
+		"nf-md-vector_square_open",
+		"󱡘",
+	},
+	{
+		"nf-md-vector_square_plus",
+		"󱣛",
+	},
+	{
+		"nf-md-vector_square_remove",
+		"󱣜",
+	},
+	{
+		"nf-md-vector_triangle",
+		"󰕣",
+	},
+	{
+		"nf-md-vector_union",
+		"󰕤",
+	},
+	{
+		"nf-md-vhs",
+		"󰨛",
+	},
+	{
+		"nf-md-vibrate",
+		"󰕦",
+	},
+	{
+		"nf-md-vibrate_off",
+		"󰳙",
+	},
+	{
+		"nf-md-video",
+		"󰕧",
+	},
+	{
+		"nf-md-video_2d",
+		"󱨜",
+	},
+	{
+		"nf-md-video_3d",
+		"󰟽",
+	},
+	{
+		"nf-md-video_3d_off",
+		"󱏙",
+	},
+	{
+		"nf-md-video_3d_variant",
+		"󰻑",
+	},
+	{
+		"nf-md-video_4k_box",
+		"󰠾",
+	},
+	{
+		"nf-md-video_account",
+		"󰤙",
+	},
+	{
+		"nf-md-video_box",
+		"󰃽",
+	},
+	{
+		"nf-md-video_box_off",
+		"󰃾",
+	},
+	{
+		"nf-md-video_check",
+		"󱁩",
+	},
+	{
+		"nf-md-video_check_outline",
+		"󱁪",
+	},
+	{
+		"nf-md-video_high_definition",
+		"󱔮",
+	},
+	{
+		"nf-md-video_image",
+		"󰤚",
+	},
+	{
+		"nf-md-video_input_antenna",
+		"󰠿",
+	},
+	{
+		"nf-md-video_input_component",
+		"󰡀",
+	},
+	{
+		"nf-md-video_input_hdmi",
+		"󰡁",
+	},
+	{
+		"nf-md-video_input_scart",
+		"󰾌",
+	},
+	{
+		"nf-md-video_input_svideo",
+		"󰡂",
+	},
+	{
+		"nf-md-video_marker",
+		"󱦩",
+	},
+	{
+		"nf-md-video_marker_outline",
+		"󱦪",
+	},
+	{
+		"nf-md-video_minus",
+		"󰦲",
+	},
+	{
+		"nf-md-video_minus_outline",
+		"󰊺",
+	},
+	{
+		"nf-md-video_off",
+		"󰕨",
+	},
+	{
+		"nf-md-video_off_outline",
+		"󰯛",
+	},
+	{
+		"nf-md-video_outline",
+		"󰯜",
+	},
+	{
+		"nf-md-video_plus",
+		"󰦳",
+	},
+	{
+		"nf-md-video_plus_outline",
+		"󰇓",
+	},
+	{
+		"nf-md-video_stabilization",
+		"󰤛",
+	},
+	{
+		"nf-md-video_switch",
+		"󰕩",
+	},
+	{
+		"nf-md-video_switch_outline",
+		"󰞐",
+	},
+	{
+		"nf-md-video_vintage",
+		"󰨜",
+	},
+	{
+		"nf-md-video_wireless",
+		"󰻒",
+	},
+	{
+		"nf-md-video_wireless_outline",
+		"󰻓",
+	},
+	{
+		"nf-md-view_agenda",
+		"󰕪",
+	},
+	{
+		"nf-md-view_agenda_outline",
+		"󱇘",
+	},
+	{
+		"nf-md-view_array",
+		"󰕫",
+	},
+	{
+		"nf-md-view_array_outline",
+		"󱒅",
+	},
+	{
+		"nf-md-view_carousel",
+		"󰕬",
+	},
+	{
+		"nf-md-view_carousel_outline",
+		"󱒆",
+	},
+	{
+		"nf-md-view_column",
+		"󰕭",
+	},
+	{
+		"nf-md-view_column_outline",
+		"󱒇",
+	},
+	{
+		"nf-md-view_comfy",
+		"󰹪",
+	},
+	{
+		"nf-md-view_comfy_outline",
+		"󱒈",
+	},
+	{
+		"nf-md-view_compact",
+		"󰹫",
+	},
+	{
+		"nf-md-view_compact_outline",
+		"󰹬",
+	},
+	{
+		"nf-md-view_dashboard",
+		"󰕮",
+	},
+	{
+		"nf-md-view_dashboard_edit",
+		"󱥇",
+	},
+	{
+		"nf-md-view_dashboard_edit_outline",
+		"󱥈",
+	},
+	{
+		"nf-md-view_dashboard_outline",
+		"󰨝",
+	},
+	{
+		"nf-md-view_dashboard_variant",
+		"󰡃",
+	},
+	{
+		"nf-md-view_dashboard_variant_outline",
+		"󱒉",
+	},
+	{
+		"nf-md-view_day",
+		"󰕯",
+	},
+	{
+		"nf-md-view_day_outline",
+		"󱒊",
+	},
+	{
+		"nf-md-view_gallery",
+		"󱢈",
+	},
+	{
+		"nf-md-view_gallery_outline",
+		"󱢉",
+	},
+	{
+		"nf-md-view_grid",
+		"󰕰",
+	},
+	{
+		"nf-md-view_grid_outline",
+		"󱇙",
+	},
+	{
+		"nf-md-view_grid_plus",
+		"󰾍",
+	},
+	{
+		"nf-md-view_grid_plus_outline",
+		"󱇚",
+	},
+	{
+		"nf-md-view_headline",
+		"󰕱",
+	},
+	{
+		"nf-md-view_list",
+		"󰕲",
+	},
+	{
+		"nf-md-view_list_outline",
+		"󱒋",
+	},
+	{
+		"nf-md-view_module",
+		"󰕳",
+	},
+	{
+		"nf-md-view_module_outline",
+		"󱒌",
+	},
+	{
+		"nf-md-view_parallel",
+		"󰜨",
+	},
+	{
+		"nf-md-view_parallel_outline",
+		"󱒍",
+	},
+	{
+		"nf-md-view_quilt",
+		"󰕴",
+	},
+	{
+		"nf-md-view_quilt_outline",
+		"󱒎",
+	},
+	{
+		"nf-md-view_sequential",
+		"󰜩",
+	},
+	{
+		"nf-md-view_sequential_outline",
+		"󱒏",
+	},
+	{
+		"nf-md-view_split_horizontal",
+		"󰯋",
+	},
+	{
+		"nf-md-view_split_vertical",
+		"󰯌",
+	},
+	{
+		"nf-md-view_stream",
+		"󰕵",
+	},
+	{
+		"nf-md-view_stream_outline",
+		"󱒐",
+	},
+	{
+		"nf-md-view_week",
+		"󰕶",
+	},
+	{
+		"nf-md-view_week_outline",
+		"󱒑",
+	},
+	{
+		"nf-md-vimeo",
+		"󰕷",
+	},
+	{
+		"nf-md-violin",
+		"󰘏",
+	},
+	{
+		"nf-md-virtual_reality",
+		"󰢔",
+	},
+	{
+		"nf-md-virus",
+		"󱎶",
+	},
+	{
+		"nf-md-virus_off",
+		"󱣡",
+	},
+	{
+		"nf-md-virus_off_outline",
+		"󱣢",
+	},
+	{
+		"nf-md-virus_outline",
+		"󱎷",
+	},
+	{
+		"nf-md-vlc",
+		"󰕼",
+	},
+	{
+		"nf-md-voicemail",
+		"󰕽",
+	},
+	{
+		"nf-md-volcano",
+		"󱪃",
+	},
+	{
+		"nf-md-volcano_outline",
+		"󱪄",
+	},
+	{
+		"nf-md-volleyball",
+		"󰦴",
+	},
+	{
+		"nf-md-volume_high",
+		"󰕾",
+	},
+	{
+		"nf-md-volume_low",
+		"󰕿",
+	},
+	{
+		"nf-md-volume_medium",
+		"󰖀",
+	},
+	{
+		"nf-md-volume_minus",
+		"󰝞",
+	},
+	{
+		"nf-md-volume_mute",
+		"󰝟",
+	},
+	{
+		"nf-md-volume_off",
+		"󰖁",
+	},
+	{
+		"nf-md-volume_plus",
+		"󰝝",
+	},
+	{
+		"nf-md-volume_source",
+		"󱄠",
+	},
+	{
+		"nf-md-volume_variant_off",
+		"󰸈",
+	},
+	{
+		"nf-md-volume_vibrate",
+		"󱄡",
+	},
+	{
+		"nf-md-vote",
+		"󰨟",
+	},
+	{
+		"nf-md-vote_outline",
+		"󰨠",
+	},
+	{
+		"nf-md-vpn",
+		"󰖂",
+	},
+	{
+		"nf-md-vuejs",
+		"󰡄",
+	},
+	{
+		"nf-md-vuetify",
+		"󰹭",
+	},
+	{
+		"nf-md-walk",
+		"󰖃",
+	},
+	{
+		"nf-md-wall",
+		"󰟾",
+	},
+	{
+		"nf-md-wall_fire",
+		"󱨑",
+	},
+	{
+		"nf-md-wall_sconce",
+		"󰤜",
+	},
+	{
+		"nf-md-wall_sconce_flat",
+		"󰤝",
+	},
+	{
+		"nf-md-wall_sconce_flat_outline",
+		"󱟉",
+	},
+	{
+		"nf-md-wall_sconce_flat_variant",
+		"󰐜",
+	},
+	{
+		"nf-md-wall_sconce_flat_variant_outline",
+		"󱟊",
+	},
+	{
+		"nf-md-wall_sconce_outline",
+		"󱟋",
+	},
+	{
+		"nf-md-wall_sconce_round",
+		"󰝈",
+	},
+	{
+		"nf-md-wall_sconce_round_outline",
+		"󱟌",
+	},
+	{
+		"nf-md-wall_sconce_round_variant",
+		"󰤞",
+	},
+	{
+		"nf-md-wall_sconce_round_variant_outline",
+		"󱟍",
+	},
+	{
+		"nf-md-wallet",
+		"󰖄",
+	},
+	{
+		"nf-md-wallet_giftcard",
+		"󰖅",
+	},
+	{
+		"nf-md-wallet_membership",
+		"󰖆",
+	},
+	{
+		"nf-md-wallet_outline",
+		"󰯝",
+	},
+	{
+		"nf-md-wallet_plus",
+		"󰾎",
+	},
+	{
+		"nf-md-wallet_plus_outline",
+		"󰾏",
+	},
+	{
+		"nf-md-wallet_travel",
+		"󰖇",
+	},
+	{
+		"nf-md-wallpaper",
+		"󰸉",
+	},
+	{
+		"nf-md-wan",
+		"󰖈",
+	},
+	{
+		"nf-md-wardrobe",
+		"󰾐",
+	},
+	{
+		"nf-md-wardrobe_outline",
+		"󰾑",
+	},
+	{
+		"nf-md-warehouse",
+		"󰾁",
+	},
+	{
+		"nf-md-washing_machine",
+		"󰜪",
+	},
+	{
+		"nf-md-washing_machine_alert",
+		"󱆼",
+	},
+	{
+		"nf-md-washing_machine_off",
+		"󱆽",
+	},
+	{
+		"nf-md-watch",
+		"󰖉",
+	},
+	{
+		"nf-md-watch_export",
+		"󰖊",
+	},
+	{
+		"nf-md-watch_export_variant",
+		"󰢕",
+	},
+	{
+		"nf-md-watch_import",
+		"󰖋",
+	},
+	{
+		"nf-md-watch_import_variant",
+		"󰢖",
+	},
+	{
+		"nf-md-watch_variant",
+		"󰢗",
+	},
+	{
+		"nf-md-watch_vibrate",
+		"󰚱",
+	},
+	{
+		"nf-md-watch_vibrate_off",
+		"󰳚",
+	},
+	{
+		"nf-md-water",
+		"󰖌",
+	},
+	{
+		"nf-md-water_alert",
+		"󱔂",
+	},
+	{
+		"nf-md-water_alert_outline",
+		"󱔃",
+	},
+	{
+		"nf-md-water_boiler",
+		"󰾒",
+	},
+	{
+		"nf-md-water_boiler_alert",
+		"󱆳",
+	},
+	{
+		"nf-md-water_boiler_off",
+		"󱆴",
+	},
+	{
+		"nf-md-water_check",
+		"󱔄",
+	},
+	{
+		"nf-md-water_check_outline",
+		"󱔅",
+	},
+	{
+		"nf-md-water_circle",
+		"󱠆",
+	},
+	{
+		"nf-md-water_minus",
+		"󱔆",
+	},
+	{
+		"nf-md-water_minus_outline",
+		"󱔇",
+	},
+	{
+		"nf-md-water_off",
+		"󰖍",
+	},
+	{
+		"nf-md-water_off_outline",
+		"󱔈",
+	},
+	{
+		"nf-md-water_opacity",
+		"󱡕",
+	},
+	{
+		"nf-md-water_outline",
+		"󰸊",
+	},
+	{
+		"nf-md-water_percent",
+		"󰖎",
+	},
+	{
+		"nf-md-water_percent_alert",
+		"󱔉",
+	},
+	{
+		"nf-md-water_plus",
+		"󱔊",
+	},
+	{
+		"nf-md-water_plus_outline",
+		"󱔋",
+	},
+	{
+		"nf-md-water_polo",
+		"󱊠",
+	},
+	{
+		"nf-md-water_pump",
+		"󰖏",
+	},
+	{
+		"nf-md-water_pump_off",
+		"󰾓",
+	},
+	{
+		"nf-md-water_remove",
+		"󱔌",
+	},
+	{
+		"nf-md-water_remove_outline",
+		"󱔍",
+	},
+	{
+		"nf-md-water_sync",
+		"󱟆",
+	},
+	{
+		"nf-md-water_thermometer",
+		"󱪅",
+	},
+	{
+		"nf-md-water_thermometer_outline",
+		"󱪆",
+	},
+	{
+		"nf-md-water_well",
+		"󱁫",
+	},
+	{
+		"nf-md-water_well_outline",
+		"󱁬",
+	},
+	{
+		"nf-md-waterfall",
+		"󱡉",
+	},
+	{
+		"nf-md-watering_can",
+		"󱒁",
+	},
+	{
+		"nf-md-watering_can_outline",
+		"󱒂",
+	},
+	{
+		"nf-md-watermark",
+		"󰘒",
+	},
+	{
+		"nf-md-wave",
+		"󰼮",
+	},
+	{
+		"nf-md-waveform",
+		"󱑽",
+	},
+	{
+		"nf-md-waves",
+		"󰞍",
+	},
+	{
+		"nf-md-waves_arrow_left",
+		"󱡙",
+	},
+	{
+		"nf-md-waves_arrow_right",
+		"󱡚",
+	},
+	{
+		"nf-md-waves_arrow_up",
+		"󱡛",
+	},
+	{
+		"nf-md-waze",
+		"󰯞",
+	},
+	{
+		"nf-md-weather_cloudy",
+		"󰖐",
+	},
+	{
+		"nf-md-weather_cloudy_alert",
+		"󰼯",
+	},
+	{
+		"nf-md-weather_cloudy_arrow_right",
+		"󰹮",
+	},
+	{
+		"nf-md-weather_cloudy_clock",
+		"󱣶",
+	},
+	{
+		"nf-md-weather_fog",
+		"󰖑",
+	},
+	{
+		"nf-md-weather_hail",
+		"󰖒",
+	},
+	{
+		"nf-md-weather_hazy",
+		"󰼰",
+	},
+	{
+		"nf-md-weather_hurricane",
+		"󰢘",
+	},
+	{
+		"nf-md-weather_lightning",
+		"󰖓",
+	},
+	{
+		"nf-md-weather_lightning_rainy",
+		"󰙾",
+	},
+	{
+		"nf-md-weather_night",
+		"󰖔",
+	},
+	{
+		"nf-md-weather_night_partly_cloudy",
+		"󰼱",
+	},
+	{
+		"nf-md-weather_partly_cloudy",
+		"󰖕",
+	},
+	{
+		"nf-md-weather_partly_lightning",
+		"󰼲",
+	},
+	{
+		"nf-md-weather_partly_rainy",
+		"󰼳",
+	},
+	{
+		"nf-md-weather_partly_snowy",
+		"󰼴",
+	},
+	{
+		"nf-md-weather_partly_snowy_rainy",
+		"󰼵",
+	},
+	{
+		"nf-md-weather_pouring",
+		"󰖖",
+	},
+	{
+		"nf-md-weather_rainy",
+		"󰖗",
+	},
+	{
+		"nf-md-weather_snowy",
+		"󰖘",
+	},
+	{
+		"nf-md-weather_snowy_heavy",
+		"󰼶",
+	},
+	{
+		"nf-md-weather_snowy_rainy",
+		"󰙿",
+	},
+	{
+		"nf-md-weather_sunny",
+		"󰖙",
+	},
+	{
+		"nf-md-weather_sunny_alert",
+		"󰼷",
+	},
+	{
+		"nf-md-weather_sunny_off",
+		"󱓤",
+	},
+	{
+		"nf-md-weather_sunset",
+		"󰖚",
+	},
+	{
+		"nf-md-weather_sunset_down",
+		"󰖛",
+	},
+	{
+		"nf-md-weather_sunset_up",
+		"󰖜",
+	},
+	{
+		"nf-md-weather_tornado",
+		"󰼸",
+	},
+	{
+		"nf-md-weather_windy",
+		"󰖝",
+	},
+	{
+		"nf-md-weather_windy_variant",
+		"󰖞",
+	},
+	{
+		"nf-md-web",
+		"󰖟",
+	},
+	{
+		"nf-md-web_box",
+		"󰾔",
+	},
+	{
+		"nf-md-web_cancel",
+		"󱞐",
+	},
+	{
+		"nf-md-web_check",
+		"󰞉",
+	},
+	{
+		"nf-md-web_clock",
+		"󱉊",
+	},
+	{
+		"nf-md-web_minus",
+		"󱂠",
+	},
+	{
+		"nf-md-web_off",
+		"󰪎",
+	},
+	{
+		"nf-md-web_plus",
+		"󰀳",
+	},
+	{
+		"nf-md-web_refresh",
+		"󱞑",
+	},
+	{
+		"nf-md-web_remove",
+		"󰕑",
+	},
+	{
+		"nf-md-web_sync",
+		"󱞒",
+	},
+	{
+		"nf-md-webcam",
+		"󰖠",
+	},
+	{
+		"nf-md-webcam_off",
+		"󱜷",
+	},
+	{
+		"nf-md-webhook",
+		"󰘯",
+	},
+	{
+		"nf-md-webpack",
+		"󰜫",
+	},
+	{
+		"nf-md-webrtc",
+		"󱉈",
+	},
+	{
+		"nf-md-wechat",
+		"󰘑",
+	},
+	{
+		"nf-md-weight",
+		"󰖡",
+	},
+	{
+		"nf-md-weight_gram",
+		"󰴿",
+	},
+	{
+		"nf-md-weight_kilogram",
+		"󰖢",
+	},
+	{
+		"nf-md-weight_lifter",
+		"󱅝",
+	},
+	{
+		"nf-md-weight_pound",
+		"󰦵",
+	},
+	{
+		"nf-md-whatsapp",
+		"󰖣",
+	},
+	{
+		"nf-md-wheel_barrow",
+		"󱓲",
+	},
+	{
+		"nf-md-wheelchair",
+		"󱪇",
+	},
+	{
+		"nf-md-wheelchair_accessibility",
+		"󰖤",
+	},
+	{
+		"nf-md-whistle",
+		"󰦶",
+	},
+	{
+		"nf-md-whistle_outline",
+		"󱊼",
+	},
+	{
+		"nf-md-white_balance_auto",
+		"󰖥",
+	},
+	{
+		"nf-md-white_balance_incandescent",
+		"󰖦",
+	},
+	{
+		"nf-md-white_balance_iridescent",
+		"󰖧",
+	},
+	{
+		"nf-md-white_balance_sunny",
+		"󰖨",
+	},
+	{
+		"nf-md-widgets",
+		"󰜬",
+	},
+	{
+		"nf-md-widgets_outline",
+		"󱍕",
+	},
+	{
+		"nf-md-wifi",
+		"󰖩",
+	},
+	{
+		"nf-md-wifi_alert",
+		"󱚵",
+	},
+	{
+		"nf-md-wifi_arrow_down",
+		"󱚶",
+	},
+	{
+		"nf-md-wifi_arrow_left",
+		"󱚷",
+	},
+	{
+		"nf-md-wifi_arrow_left_right",
+		"󱚸",
+	},
+	{
+		"nf-md-wifi_arrow_right",
+		"󱚹",
+	},
+	{
+		"nf-md-wifi_arrow_up",
+		"󱚺",
+	},
+	{
+		"nf-md-wifi_arrow_up_down",
+		"󱚻",
+	},
+	{
+		"nf-md-wifi_cancel",
+		"󱚼",
+	},
+	{
+		"nf-md-wifi_check",
+		"󱚽",
+	},
+	{
+		"nf-md-wifi_cog",
+		"󱚾",
+	},
+	{
+		"nf-md-wifi_lock",
+		"󱚿",
+	},
+	{
+		"nf-md-wifi_lock_open",
+		"󱛀",
+	},
+	{
+		"nf-md-wifi_marker",
+		"󱛁",
+	},
+	{
+		"nf-md-wifi_minus",
+		"󱛂",
+	},
+	{
+		"nf-md-wifi_off",
+		"󰖪",
+	},
+	{
+		"nf-md-wifi_plus",
+		"󱛃",
+	},
+	{
+		"nf-md-wifi_refresh",
+		"󱛄",
+	},
+	{
+		"nf-md-wifi_remove",
+		"󱛅",
+	},
+	{
+		"nf-md-wifi_settings",
+		"󱛆",
+	},
+	{
+		"nf-md-wifi_star",
+		"󰸋",
+	},
+	{
+		"nf-md-wifi_strength_1",
+		"󰤟",
+	},
+	{
+		"nf-md-wifi_strength_1_alert",
+		"󰤠",
+	},
+	{
+		"nf-md-wifi_strength_1_lock",
+		"󰤡",
+	},
+	{
+		"nf-md-wifi_strength_1_lock_open",
+		"󱛋",
+	},
+	{
+		"nf-md-wifi_strength_2",
+		"󰤢",
+	},
+	{
+		"nf-md-wifi_strength_2_alert",
+		"󰤣",
+	},
+	{
+		"nf-md-wifi_strength_2_lock",
+		"󰤤",
+	},
+	{
+		"nf-md-wifi_strength_2_lock_open",
+		"󱛌",
+	},
+	{
+		"nf-md-wifi_strength_3",
+		"󰤥",
+	},
+	{
+		"nf-md-wifi_strength_3_alert",
+		"󰤦",
+	},
+	{
+		"nf-md-wifi_strength_3_lock",
+		"󰤧",
+	},
+	{
+		"nf-md-wifi_strength_3_lock_open",
+		"󱛍",
+	},
+	{
+		"nf-md-wifi_strength_4",
+		"󰤨",
+	},
+	{
+		"nf-md-wifi_strength_4_alert",
+		"󰤩",
+	},
+	{
+		"nf-md-wifi_strength_4_lock",
+		"󰤪",
+	},
+	{
+		"nf-md-wifi_strength_4_lock_open",
+		"󱛎",
+	},
+	{
+		"nf-md-wifi_strength_alert_outline",
+		"󰤫",
+	},
+	{
+		"nf-md-wifi_strength_lock_open_outline",
+		"󱛏",
+	},
+	{
+		"nf-md-wifi_strength_lock_outline",
+		"󰤬",
+	},
+	{
+		"nf-md-wifi_strength_off",
+		"󰤭",
+	},
+	{
+		"nf-md-wifi_strength_off_outline",
+		"󰤮",
+	},
+	{
+		"nf-md-wifi_strength_outline",
+		"󰤯",
+	},
+	{
+		"nf-md-wifi_sync",
+		"󱛇",
+	},
+	{
+		"nf-md-wikipedia",
+		"󰖬",
+	},
+	{
+		"nf-md-wind_power",
+		"󱪈",
+	},
+	{
+		"nf-md-wind_power_outline",
+		"󱪉",
+	},
+	{
+		"nf-md-wind_turbine",
+		"󰶥",
+	},
+	{
+		"nf-md-wind_turbine_alert",
+		"󱦫",
+	},
+	{
+		"nf-md-wind_turbine_check",
+		"󱦬",
+	},
+	{
+		"nf-md-window_close",
+		"󰖭",
+	},
+	{
+		"nf-md-window_closed",
+		"󰖮",
+	},
+	{
+		"nf-md-window_closed_variant",
+		"󱇛",
+	},
+	{
+		"nf-md-window_maximize",
+		"󰖯",
+	},
+	{
+		"nf-md-window_minimize",
+		"󰖰",
+	},
+	{
+		"nf-md-window_open",
+		"󰖱",
+	},
+	{
+		"nf-md-window_open_variant",
+		"󱇜",
+	},
+	{
+		"nf-md-window_restore",
+		"󰖲",
+	},
+	{
+		"nf-md-window_shutter",
+		"󱄜",
+	},
+	{
+		"nf-md-window_shutter_alert",
+		"󱄝",
+	},
+	{
+		"nf-md-window_shutter_cog",
+		"󱪊",
+	},
+	{
+		"nf-md-window_shutter_open",
+		"󱄞",
+	},
+	{
+		"nf-md-window_shutter_settings",
+		"󱪋",
+	},
+	{
+		"nf-md-windsock",
+		"󱗺",
+	},
+	{
+		"nf-md-wiper",
+		"󰫩",
+	},
+	{
+		"nf-md-wiper_wash",
+		"󰶦",
+	},
+	{
+		"nf-md-wiper_wash_alert",
+		"󱣟",
+	},
+	{
+		"nf-md-wizard_hat",
+		"󱑷",
+	},
+	{
+		"nf-md-wordpress",
+		"󰖴",
+	},
+	{
+		"nf-md-wrap",
+		"󰖶",
+	},
+	{
+		"nf-md-wrap_disabled",
+		"󰯟",
+	},
+	{
+		"nf-md-wrench",
+		"󰖷",
+	},
+	{
+		"nf-md-wrench_clock",
+		"󱦣",
+	},
+	{
+		"nf-md-wrench_outline",
+		"󰯠",
+	},
+	{
+		"nf-md-xamarin",
+		"󰡅",
+	},
+	{
+		"nf-md-xml",
+		"󰗀",
+	},
+	{
+		"nf-md-xmpp",
+		"󰟿",
+	},
+	{
+		"nf-md-yahoo",
+		"󰭏",
+	},
+	{
+		"nf-md-yeast",
+		"󰗁",
+	},
+	{
+		"nf-md-yin_yang",
+		"󰚀",
+	},
+	{
+		"nf-md-yoga",
+		"󱅼",
+	},
+	{
+		"nf-md-youtube",
+		"󰗃",
+	},
+	{
+		"nf-md-youtube_gaming",
+		"󰡈",
+	},
+	{
+		"nf-md-youtube_studio",
+		"󰡇",
+	},
+	{
+		"nf-md-youtube_subscription",
+		"󰵀",
+	},
+	{
+		"nf-md-youtube_tv",
+		"󰑈",
+	},
+	{
+		"nf-md-yurt",
+		"󱔖",
+	},
+	{
+		"nf-md-z_wave",
+		"󰫪",
+	},
+	{
+		"nf-md-zend",
+		"󰫫",
+	},
+	{
+		"nf-md-zigbee",
+		"󰵁",
+	},
+	{
+		"nf-md-zip_box",
+		"󰗄",
+	},
+	{
+		"nf-md-zip_box_outline",
+		"󰿺",
+	},
+	{
+		"nf-md-zip_disk",
+		"󰨣",
+	},
+	{
+		"nf-md-zodiac_aquarius",
+		"󰩽",
+	},
+	{
+		"nf-md-zodiac_aries",
+		"󰩾",
+	},
+	{
+		"nf-md-zodiac_cancer",
+		"󰩿",
+	},
+	{
+		"nf-md-zodiac_capricorn",
+		"󰪀",
+	},
+	{
+		"nf-md-zodiac_gemini",
+		"󰪁",
+	},
+	{
+		"nf-md-zodiac_leo",
+		"󰪂",
+	},
+	{
+		"nf-md-zodiac_libra",
+		"󰪃",
+	},
+	{
+		"nf-md-zodiac_pisces",
+		"󰪄",
+	},
+	{
+		"nf-md-zodiac_sagittarius",
+		"󰪅",
+	},
+	{
+		"nf-md-zodiac_scorpio",
+		"󰪆",
+	},
+	{
+		"nf-md-zodiac_taurus",
+		"󰪇",
+	},
+	{
+		"nf-md-zodiac_virgo",
+		"󰪈",
+	},
+	{
+		"nf-oct-alert",
+		"",
+	},
+	{
+		"nf-oct-arrow_down",
+		"",
+	},
+	{
+		"nf-oct-arrow_left",
+		"",
+	},
+	{
+		"nf-oct-arrow_right",
+		"",
+	},
+	{
+		"nf-oct-arrow_small_down",
+		"",
+	},
+	{
+		"nf-oct-arrow_small_left",
+		"",
+	},
+	{
+		"nf-oct-arrow_small_right",
+		"",
+	},
+	{
+		"nf-oct-arrow_small_up",
+		"",
+	},
+	{
+		"nf-oct-arrow_up",
+		"",
+	},
+	{
+		"nf-oct-beaker",
+		"",
+	},
+	{
+		"nf-oct-bell",
+		"",
+	},
+	{
+		"nf-oct-bold",
+		"",
+	},
+	{
+		"nf-oct-book",
+		"",
+	},
+	{
+		"nf-oct-bookmark",
+		"",
+	},
+	{
+		"nf-oct-briefcase",
+		"",
+	},
+	{
+		"nf-oct-broadcast",
+		"",
+	},
+	{
+		"nf-oct-browser",
+		"",
+	},
+	{
+		"nf-oct-bug",
+		"",
+	},
+	{
+		"nf-oct-calendar",
+		"",
+	},
+	{
+		"nf-oct-check",
+		"",
+	},
+	{
+		"nf-oct-checklist",
+		"",
+	},
+	{
+		"nf-oct-chevron_down",
+		"",
+	},
+	{
+		"nf-oct-chevron_left",
+		"",
+	},
+	{
+		"nf-oct-chevron_right",
+		"",
+	},
+	{
+		"nf-oct-chevron_up",
+		"",
+	},
+	{
+		"nf-oct-circle_slash",
+		"",
+	},
+	{
+		"nf-oct-circuit_board",
+		"",
+	},
+	{
+		"nf-oct-clippy",
+		"",
+	},
+	{
+		"nf-oct-clock",
+		"",
+	},
+	{
+		"nf-oct-cloud_download",
+		"",
+	},
+	{
+		"nf-oct-cloud_upload",
+		"",
+	},
+	{
+		"nf-oct-code",
+		"",
+	},
+	{
+		"nf-oct-comment",
+		"",
+	},
+	{
+		"nf-oct-comment_discussion",
+		"",
+	},
+	{
+		"nf-oct-credit_card",
+		"",
+	},
+	{
+		"nf-oct-dash",
+		"",
+	},
+	{
+		"nf-oct-dashboard",
+		"",
+	},
+	{
+		"nf-oct-database",
+		"",
+	},
+	{
+		"nf-oct-desktop_download",
+		"",
+	},
+	{
+		"nf-oct-device_camera",
+		"",
+	},
+	{
+		"nf-oct-device_camera_video",
+		"",
+	},
+	{
+		"nf-oct-device_desktop",
+		"",
+	},
+	{
+		"nf-oct-device_mobile",
+		"",
+	},
+	{
+		"nf-oct-diff",
+		"",
+	},
+	{
+		"nf-oct-diff_added",
+		"",
+	},
+	{
+		"nf-oct-diff_ignored",
+		"",
+	},
+	{
+		"nf-oct-diff_modified",
+		"",
+	},
+	{
+		"nf-oct-diff_removed",
+		"",
+	},
+	{
+		"nf-oct-diff_renamed",
+		"",
+	},
+	{
+		"nf-oct-ellipses",
+		"",
+	},
+	{
+		"nf-oct-ellipsis",
+		"",
+	},
+	{
+		"nf-oct-eye",
+		"",
+	},
+	{
+		"nf-oct-file",
+		"",
+	},
+	{
+		"nf-oct-file_binary",
+		"",
+	},
+	{
+		"nf-oct-file_code",
+		"",
+	},
+	{
+		"nf-oct-file_directory",
+		"",
+	},
+	{
+		"nf-oct-file_media",
+		"",
+	},
+	{
+		"nf-oct-file_pdf",
+		"",
+	},
+	{
+		"nf-oct-file_submodule",
+		"",
+	},
+	{
+		"nf-oct-file_symlink_directory",
+		"",
+	},
+	{
+		"nf-oct-file_symlink_file",
+		"",
+	},
+	{
+		"nf-oct-file_text",
+		"",
+	},
+	{
+		"nf-oct-file_zip",
+		"",
+	},
+	{
+		"nf-oct-flame",
+		"",
+	},
+	{
+		"nf-oct-fold",
+		"",
+	},
+	{
+		"nf-oct-gear",
+		"",
+	},
+	{
+		"nf-oct-gift",
+		"",
+	},
+	{
+		"nf-oct-gist",
+		"",
+	},
+	{
+		"nf-oct-gist_secret",
+		"",
+	},
+	{
+		"nf-oct-git_branch",
+		"",
+	},
+	{
+		"nf-oct-git_commit",
+		"",
+	},
+	{
+		"nf-oct-git_compare",
+		"",
+	},
+	{
+		"nf-oct-git_merge",
+		"",
+	},
+	{
+		"nf-oct-git_pull_request",
+		"",
+	},
+	{
+		"nf-oct-globe",
+		"",
+	},
+	{
+		"nf-oct-grabber",
+		"",
+	},
+	{
+		"nf-oct-graph",
+		"",
+	},
+	{
+		"nf-oct-heart",
+		"♥",
+	},
+	{
+		"nf-oct-history",
+		"",
+	},
+	{
+		"nf-oct-home",
+		"",
+	},
+	{
+		"nf-oct-horizontal_rule",
+		"",
+	},
+	{
+		"nf-oct-hubot",
+		"",
+	},
+	{
+		"nf-oct-inbox",
+		"",
+	},
+	{
+		"nf-oct-info",
+		"",
+	},
+	{
+		"nf-oct-issue_closed",
+		"",
+	},
+	{
+		"nf-oct-issue_opened",
+		"",
+	},
+	{
+		"nf-oct-issue_reopened",
+		"",
+	},
+	{
+		"nf-oct-italic",
+		"",
+	},
+	{
+		"nf-oct-jersey",
+		"",
+	},
+	{
+		"nf-oct-key",
+		"",
+	},
+	{
+		"nf-oct-keyboard",
+		"",
+	},
+	{
+		"nf-oct-law",
+		"",
+	},
+	{
+		"nf-oct-light_bulb",
+		"",
+	},
+	{
+		"nf-oct-link",
+		"",
+	},
+	{
+		"nf-oct-link_external",
+		"",
+	},
+	{
+		"nf-oct-list_ordered",
+		"",
+	},
+	{
+		"nf-oct-list_unordered",
+		"",
+	},
+	{
+		"nf-oct-location",
+		"",
+	},
+	{
+		"nf-oct-lock",
+		"",
+	},
+	{
+		"nf-oct-logo_gist",
+		"",
+	},
+	{
+		"nf-oct-logo_github",
+		"",
+	},
+	{
+		"nf-oct-mail",
+		"",
+	},
+	{
+		"nf-oct-mail_read",
+		"",
+	},
+	{
+		"nf-oct-mail_reply",
+		"",
+	},
+	{
+		"nf-oct-mark_github",
+		"",
+	},
+	{
+		"nf-oct-markdown",
+		"",
+	},
+	{
+		"nf-oct-megaphone",
+		"",
+	},
+	{
+		"nf-oct-mention",
+		"",
+	},
+	{
+		"nf-oct-milestone",
+		"",
+	},
+	{
+		"nf-oct-mirror",
+		"",
+	},
+	{
+		"nf-oct-mortar_board",
+		"",
+	},
+	{
+		"nf-oct-mute",
+		"",
+	},
+	{
+		"nf-oct-no_newline",
+		"",
+	},
+	{
+		"nf-oct-octoface",
+		"",
+	},
+	{
+		"nf-oct-organization",
+		"",
+	},
+	{
+		"nf-oct-package",
+		"",
+	},
+	{
+		"nf-oct-paintcan",
+		"",
+	},
+	{
+		"nf-oct-pencil",
+		"",
+	},
+	{
+		"nf-oct-person",
+		"",
+	},
+	{
+		"nf-oct-pin",
+		"",
+	},
+	{
+		"nf-oct-plug",
+		"",
+	},
+	{
+		"nf-oct-plus",
+		"",
+	},
+	{
+		"nf-oct-plus_small",
+		"",
+	},
+	{
+		"nf-oct-primitive_dot",
+		"",
+	},
+	{
+		"nf-oct-primitive_square",
+		"",
+	},
+	{
+		"nf-oct-pulse",
+		"",
+	},
+	{
+		"nf-oct-question",
+		"",
+	},
+	{
+		"nf-oct-quote",
+		"",
+	},
+	{
+		"nf-oct-radio_tower",
+		"",
+	},
+	{
+		"nf-oct-reply",
+		"",
+	},
+	{
+		"nf-oct-repo",
+		"",
+	},
+	{
+		"nf-oct-repo_clone",
+		"",
+	},
+	{
+		"nf-oct-repo_force_push",
+		"",
+	},
+	{
+		"nf-oct-repo_forked",
+		"",
+	},
+	{
+		"nf-oct-repo_pull",
+		"",
+	},
+	{
+		"nf-oct-repo_push",
+		"",
+	},
+	{
+		"nf-oct-rocket",
+		"",
+	},
+	{
+		"nf-oct-rss",
+		"",
+	},
+	{
+		"nf-oct-ruby",
+		"",
+	},
+	{
+		"nf-oct-search",
+		"",
+	},
+	{
+		"nf-oct-server",
+		"",
+	},
+	{
+		"nf-oct-settings",
+		"",
+	},
+	{
+		"nf-oct-shield",
+		"",
+	},
+	{
+		"nf-oct-sign_in",
+		"",
+	},
+	{
+		"nf-oct-sign_out",
+		"",
+	},
+	{
+		"nf-oct-smiley",
+		"",
+	},
+	{
+		"nf-oct-squirrel",
+		"",
+	},
+	{
+		"nf-oct-star",
+		"",
+	},
+	{
+		"nf-oct-stop",
+		"",
+	},
+	{
+		"nf-oct-sync",
+		"",
+	},
+	{
+		"nf-oct-tag",
+		"",
+	},
+	{
+		"nf-oct-tasklist",
+		"",
+	},
+	{
+		"nf-oct-telescope",
+		"",
+	},
+	{
+		"nf-oct-terminal",
+		"",
+	},
+	{
+		"nf-oct-text_size",
+		"",
+	},
+	{
+		"nf-oct-three_bars",
+		"",
+	},
+	{
+		"nf-oct-thumbsdown",
+		"",
+	},
+	{
+		"nf-oct-thumbsup",
+		"",
+	},
+	{
+		"nf-oct-tools",
+		"",
+	},
+	{
+		"nf-oct-trashcan",
+		"",
+	},
+	{
+		"nf-oct-triangle_down",
+		"",
+	},
+	{
+		"nf-oct-triangle_left",
+		"",
+	},
+	{
+		"nf-oct-triangle_right",
+		"",
+	},
+	{
+		"nf-oct-triangle_up",
+		"",
+	},
+	{
+		"nf-oct-unfold",
+		"",
+	},
+	{
+		"nf-oct-unmute",
+		"",
+	},
+	{
+		"nf-oct-unverified",
+		"",
+	},
+	{
+		"nf-oct-verified",
+		"",
+	},
+	{
+		"nf-oct-versions",
+		"",
+	},
+	{
+		"nf-oct-watch",
+		"",
+	},
+	{
+		"nf-oct-x",
+		"",
+	},
+	{
+		"nf-oct-zap",
+		"⚡",
+	},
+	{
+		"nf-pl-branch",
+		"",
+	},
+	{
+		"nf-pl-current_line",
+		"",
+	},
+	{
+		"nf-pl-hostname",
+		"",
+	},
+	{
+		"nf-pl-left_hard_divider",
+		"",
+	},
+	{
+		"nf-pl-left_soft_divider",
+		"",
+	},
+	{
+		"nf-pl-line_number",
+		"",
+	},
+	{
+		"nf-pl-readonly",
+		"",
+	},
+	{
+		"nf-pl-right_hard_divider",
+		"",
+	},
+	{
+		"nf-pl-right_soft_divider",
+		"",
+	},
+	{
+		"nf-ple-backslash_separator",
+		"",
+	},
+	{
+		"nf-ple-backslash_separator_redundant",
+		"",
+	},
+	{
+		"nf-ple-column_number",
+		"",
+	},
+	{
+		"nf-ple-current_column",
+		"",
+	},
+	{
+		"nf-ple-flame_thick",
+		"",
+	},
+	{
+		"nf-ple-flame_thick_mirrored",
+		"",
+	},
+	{
+		"nf-ple-flame_thin",
+		"",
+	},
+	{
+		"nf-ple-flame_thin_mirrored",
+		"",
+	},
+	{
+		"nf-ple-forwardslash_separator",
+		"",
+	},
+	{
+		"nf-ple-forwardslash_separator_redundant",
+		"",
+	},
+	{
+		"nf-ple-honeycomb",
+		"",
+	},
+	{
+		"nf-ple-honeycomb_outline",
+		"",
+	},
+	{
+		"nf-ple-ice_waveform",
+		"",
+	},
+	{
+		"nf-ple-ice_waveform_mirrored",
+		"",
+	},
+	{
+		"nf-ple-left_half_circle_thick",
+		"",
+	},
+	{
+		"nf-ple-left_half_circle_thin",
+		"",
+	},
+	{
+		"nf-ple-lego_block_facing",
+		"",
+	},
+	{
+		"nf-ple-lego_block_sideways",
+		"",
+	},
+	{
+		"nf-ple-lego_separator",
+		"",
+	},
+	{
+		"nf-ple-lego_separator_thin",
+		"",
+	},
+	{
+		"nf-ple-lower_left_triangle",
+		"",
+	},
+	{
+		"nf-ple-lower_right_triangle",
+		"",
+	},
+	{
+		"nf-ple-pixelated_squares_big",
+		"",
+	},
+	{
+		"nf-ple-pixelated_squares_big_mirrored",
+		"",
+	},
+	{
+		"nf-ple-pixelated_squares_small",
+		"",
+	},
+	{
+		"nf-ple-pixelated_squares_small_mirrored",
+		"",
+	},
+	{
+		"nf-ple-right_half_circle_thick",
+		"",
+	},
+	{
+		"nf-ple-right_half_circle_thin",
+		"",
+	},
+	{
+		"nf-ple-trapezoid_top_bottom",
+		"",
+	},
+	{
+		"nf-ple-trapezoid_top_bottom_mirrored",
+		"",
+	},
+	{
+		"nf-ple-upper_left_triangle",
+		"",
+	},
+	{
+		"nf-ple-upper_right_triangle",
+		"",
+	},
+	{
+		"nf-pom-away",
+		"",
+	},
+	{
+		"nf-pom-clean_code",
+		"",
+	},
+	{
+		"nf-pom-external_interruption",
+		"",
+	},
+	{
+		"nf-pom-internal_interruption",
+		"",
+	},
+	{
+		"nf-pom-long_pause",
+		"",
+	},
+	{
+		"nf-pom-pair_programming",
+		"",
+	},
+	{
+		"nf-pom-pomodoro_done",
+		"",
+	},
+	{
+		"nf-pom-pomodoro_estimated",
+		"",
+	},
+	{
+		"nf-pom-pomodoro_squashed",
+		"",
+	},
+	{
+		"nf-pom-pomodoro_ticking",
+		"",
+	},
+	{
+		"nf-pom-short_pause",
+		"",
+	},
+	{
+		"nf-seti-apple",
+		"",
+	},
+	{
+		"nf-seti-argdown",
+		"",
+	},
+	{
+		"nf-seti-asm",
+		"",
+	},
+	{
+		"nf-seti-audio",
+		"",
+	},
+	{
+		"nf-seti-babel",
+		"",
+	},
+	{
+		"nf-seti-bazel",
+		"",
+	},
+	{
+		"nf-seti-bicep",
+		"",
+	},
+	{
+		"nf-seti-bower",
+		"",
+	},
+	{
+		"nf-seti-bsl",
+		"",
+	},
+	{
+		"nf-seti-c",
+		"",
+	},
+	{
+		"nf-seti-c_sharp",
+		"",
+	},
+	{
+		"nf-seti-cake",
+		"",
+	},
+	{
+		"nf-seti-cake_php",
+		"",
+	},
+	{
+		"nf-seti-checkbox",
+		"",
+	},
+	{
+		"nf-seti-checkbox_unchecked",
+		"",
+	},
+	{
+		"nf-seti-cjsx",
+		"",
+	},
+	{
+		"nf-seti-clock",
+		"",
+	},
+	{
+		"nf-seti-clojure",
+		"",
+	},
+	{
+		"nf-seti-code_climate",
+		"",
+	},
+	{
+		"nf-seti-code_search",
+		"",
+	},
+	{
+		"nf-seti-coffee",
+		"",
+	},
+	{
+		"nf-seti-coldfusion",
+		"",
+	},
+	{
+		"nf-seti-config",
+		"",
+	},
+	{
+		"nf-seti-cpp",
+		"",
+	},
+	{
+		"nf-seti-crystal",
+		"",
+	},
+	{
+		"nf-seti-crystal_embedded",
+		"",
+	},
+	{
+		"nf-seti-css",
+		"",
+	},
+	{
+		"nf-seti-csv",
+		"",
+	},
+	{
+		"nf-seti-cu",
+		"",
+	},
+	{
+		"nf-seti-d",
+		"",
+	},
+	{
+		"nf-seti-dart",
+		"",
+	},
+	{
+		"nf-seti-db",
+		"",
+	},
+	{
+		"nf-seti-default",
+		"",
+	},
+	{
+		"nf-seti-deprecation_cop",
+		"",
+	},
+	{
+		"nf-seti-docker",
+		"",
+	},
+	{
+		"nf-seti-editorconfig",
+		"",
+	},
+	{
+		"nf-seti-ejs",
+		"",
+	},
+	{
+		"nf-seti-elixir",
+		"",
+	},
+	{
+		"nf-seti-elixir_script",
+		"",
+	},
+	{
+		"nf-seti-elm",
+		"",
+	},
+	{
+		"nf-seti-error",
+		"",
+	},
+	{
+		"nf-seti-eslint",
+		"",
+	},
+	{
+		"nf-seti-ethereum",
+		"",
+	},
+	{
+		"nf-seti-f_sharp",
+		"",
+	},
+	{
+		"nf-seti-favicon",
+		"",
+	},
+	{
+		"nf-seti-firebase",
+		"",
+	},
+	{
+		"nf-seti-firefox",
+		"",
+	},
+	{
+		"nf-seti-folder",
+		"",
+	},
+	{
+		"nf-seti-font",
+		"",
+	},
+	{
+		"nf-seti-git",
+		"",
+	},
+	{
+		"nf-seti-git_folder",
+		"",
+	},
+	{
+		"nf-seti-git_ignore",
+		"",
+	},
+	{
+		"nf-seti-github",
+		"",
+	},
+	{
+		"nf-seti-gitlab",
+		"",
+	},
+	{
+		"nf-seti-go",
+		"",
+	},
+	{
+		"nf-seti-go2",
+		"",
+	},
+	{
+		"nf-seti-godot",
+		"",
+	},
+	{
+		"nf-seti-gradle",
+		"",
+	},
+	{
+		"nf-seti-grails",
+		"",
+	},
+	{
+		"nf-seti-graphql",
+		"",
+	},
+	{
+		"nf-seti-grunt",
+		"",
+	},
+	{
+		"nf-seti-gulp",
+		"",
+	},
+	{
+		"nf-seti-hacklang",
+		"",
+	},
+	{
+		"nf-seti-haml",
+		"",
+	},
+	{
+		"nf-seti-happenings",
+		"",
+	},
+	{
+		"nf-seti-haskell",
+		"",
+	},
+	{
+		"nf-seti-haxe",
+		"",
+	},
+	{
+		"nf-seti-heroku",
+		"",
+	},
+	{
+		"nf-seti-hex",
+		"",
+	},
+	{
+		"nf-seti-home",
+		"",
+	},
+	{
+		"nf-seti-html",
+		"",
+	},
+	{
+		"nf-seti-ignored",
+		"",
+	},
+	{
+		"nf-seti-illustrator",
+		"",
+	},
+	{
+		"nf-seti-image",
+		"",
+	},
+	{
+		"nf-seti-info",
+		"",
+	},
+	{
+		"nf-seti-ionic",
+		"",
+	},
+	{
+		"nf-seti-jade",
+		"",
+	},
+	{
+		"nf-seti-java",
+		"",
+	},
+	{
+		"nf-seti-javascript",
+		"",
+	},
+	{
+		"nf-seti-jenkins",
+		"",
+	},
+	{
+		"nf-seti-jinja",
+		"",
+	},
+	{
+		"nf-seti-json",
+		"",
+	},
+	{
+		"nf-seti-julia",
+		"",
+	},
+	{
+		"nf-seti-karma",
+		"",
+	},
+	{
+		"nf-seti-kotlin",
+		"",
+	},
+	{
+		"nf-seti-less",
+		"",
+	},
+	{
+		"nf-seti-license",
+		"",
+	},
+	{
+		"nf-seti-liquid",
+		"",
+	},
+	{
+		"nf-seti-livescript",
+		"",
+	},
+	{
+		"nf-seti-lock",
+		"",
+	},
+	{
+		"nf-seti-lua",
+		"",
+	},
+	{
+		"nf-seti-makefile",
+		"",
+	},
+	{
+		"nf-seti-markdown",
+		"",
+	},
+	{
+		"nf-seti-maven",
+		"",
+	},
+	{
+		"nf-seti-mdo",
+		"",
+	},
+	{
+		"nf-seti-mustache",
+		"",
+	},
+	{
+		"nf-seti-new_file",
+		"",
+	},
+	{
+		"nf-seti-nim",
+		"",
+	},
+	{
+		"nf-seti-notebook",
+		"",
+	},
+	{
+		"nf-seti-npm",
+		"",
+	},
+	{
+		"nf-seti-npm_ignored",
+		"",
+	},
+	{
+		"nf-seti-nunjucks",
+		"",
+	},
+	{
+		"nf-seti-ocaml",
+		"",
+	},
+	{
+		"nf-seti-odata",
+		"",
+	},
+	{
+		"nf-seti-pddl",
+		"",
+	},
+	{
+		"nf-seti-pdf",
+		"",
+	},
+	{
+		"nf-seti-perl",
+		"",
+	},
+	{
+		"nf-seti-photoshop",
+		"",
+	},
+	{
+		"nf-seti-php",
+		"",
+	},
+	{
+		"nf-seti-pipeline",
+		"",
+	},
+	{
+		"nf-seti-plan",
+		"",
+	},
+	{
+		"nf-seti-platformio",
+		"",
+	},
+	{
+		"nf-seti-play_arrow",
+		"",
+	},
+	{
+		"nf-seti-powershell",
+		"",
+	},
+	{
+		"nf-seti-prisma",
+		"",
+	},
+	{
+		"nf-seti-project",
+		"",
+	},
+	{
+		"nf-seti-prolog",
+		"",
+	},
+	{
+		"nf-seti-pug",
+		"",
+	},
+	{
+		"nf-seti-puppet",
+		"",
+	},
+	{
+		"nf-seti-purescript",
+		"",
+	},
+	{
+		"nf-seti-python",
+		"",
+	},
+	{
+		"nf-seti-r",
+		"",
+	},
+	{
+		"nf-seti-rails",
+		"",
+	},
+	{
+		"nf-seti-react",
+		"",
+	},
+	{
+		"nf-seti-reasonml",
+		"",
+	},
+	{
+		"nf-seti-rescript",
+		"",
+	},
+	{
+		"nf-seti-rollup",
+		"",
+	},
+	{
+		"nf-seti-ruby",
+		"",
+	},
+	{
+		"nf-seti-rust",
+		"",
+	},
+	{
+		"nf-seti-salesforce",
+		"",
+	},
+	{
+		"nf-seti-sass",
+		"",
+	},
+	{
+		"nf-seti-sbt",
+		"",
+	},
+	{
+		"nf-seti-scala",
+		"",
+	},
+	{
+		"nf-seti-search",
+		"",
+	},
+	{
+		"nf-seti-settings",
+		"",
+	},
+	{
+		"nf-seti-shell",
+		"",
+	},
+	{
+		"nf-seti-slim",
+		"",
+	},
+	{
+		"nf-seti-smarty",
+		"",
+	},
+	{
+		"nf-seti-spring",
+		"",
+	},
+	{
+		"nf-seti-stylelint",
+		"",
+	},
+	{
+		"nf-seti-stylus",
+		"",
+	},
+	{
+		"nf-seti-sublime",
+		"",
+	},
+	{
+		"nf-seti-svelte",
+		"",
+	},
+	{
+		"nf-seti-svg",
+		"",
+	},
+	{
+		"nf-seti-swift",
+		"",
+	},
+	{
+		"nf-seti-terraform",
+		"",
+	},
+	{
+		"nf-seti-tex",
+		"",
+	},
+	{
+		"nf-seti-text",
+		"",
+	},
+	{
+		"nf-seti-time_cop",
+		"",
+	},
+	{
+		"nf-seti-todo",
+		"",
+	},
+	{
+		"nf-seti-tsconfig",
+		"",
+	},
+	{
+		"nf-seti-twig",
+		"",
+	},
+	{
+		"nf-seti-typescript",
+		"",
+	},
+	{
+		"nf-seti-vala",
+		"",
+	},
+	{
+		"nf-seti-video",
+		"",
+	},
+	{
+		"nf-seti-vue",
+		"",
+	},
+	{
+		"nf-seti-wasm",
+		"",
+	},
+	{
+		"nf-seti-wat",
+		"",
+	},
+	{
+		"nf-seti-webpack",
+		"",
+	},
+	{
+		"nf-seti-wgt",
+		"",
+	},
+	{
+		"nf-seti-word",
+		"",
+	},
+	{
+		"nf-seti-xls",
+		"",
+	},
+	{
+		"nf-seti-xml",
+		"",
+	},
+	{
+		"nf-seti-yarn",
+		"",
+	},
+	{
+		"nf-seti-yml",
+		"",
+	},
+	{
+		"nf-seti-zig",
+		"",
+	},
+	{
+		"nf-seti-zip",
+		"",
+	},
+	{
+		"nf-weather-alien",
+		"",
+	},
+	{
+		"nf-weather-aliens",
+		"",
+	},
+	{
+		"nf-weather-barometer",
+		"",
+	},
+	{
+		"nf-weather-celsius",
+		"",
+	},
+	{
+		"nf-weather-cloud",
+		"",
+	},
+	{
+		"nf-weather-cloud_down",
+		"",
+	},
+	{
+		"nf-weather-cloud_refresh",
+		"",
+	},
+	{
+		"nf-weather-cloud_up",
+		"",
+	},
+	{
+		"nf-weather-cloudy",
+		"",
+	},
+	{
+		"nf-weather-cloudy_gusts",
+		"",
+	},
+	{
+		"nf-weather-cloudy_windy",
+		"",
+	},
+	{
+		"nf-weather-day_cloudy",
+		"",
+	},
+	{
+		"nf-weather-day_cloudy_gusts",
+		"",
+	},
+	{
+		"nf-weather-day_cloudy_high",
+		"",
+	},
+	{
+		"nf-weather-day_cloudy_windy",
+		"",
+	},
+	{
+		"nf-weather-day_fog",
+		"",
+	},
+	{
+		"nf-weather-day_hail",
+		"",
+	},
+	{
+		"nf-weather-day_haze",
+		"",
+	},
+	{
+		"nf-weather-day_light_wind",
+		"",
+	},
+	{
+		"nf-weather-day_lightning",
+		"",
+	},
+	{
+		"nf-weather-day_rain",
+		"",
+	},
+	{
+		"nf-weather-day_rain_mix",
+		"",
+	},
+	{
+		"nf-weather-day_rain_wind",
+		"",
+	},
+	{
+		"nf-weather-day_showers",
+		"",
+	},
+	{
+		"nf-weather-day_sleet",
+		"",
+	},
+	{
+		"nf-weather-day_sleet_storm",
+		"",
+	},
+	{
+		"nf-weather-day_snow",
+		"",
+	},
+	{
+		"nf-weather-day_snow_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-day_snow_wind",
+		"",
+	},
+	{
+		"nf-weather-day_sprinkle",
+		"",
+	},
+	{
+		"nf-weather-day_storm_showers",
+		"",
+	},
+	{
+		"nf-weather-day_sunny",
+		"",
+	},
+	{
+		"nf-weather-day_sunny_overcast",
+		"",
+	},
+	{
+		"nf-weather-day_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-day_windy",
+		"",
+	},
+	{
+		"nf-weather-degrees",
+		"",
+	},
+	{
+		"nf-weather-direction_down",
+		"",
+	},
+	{
+		"nf-weather-direction_down_left",
+		"",
+	},
+	{
+		"nf-weather-direction_down_right",
+		"",
+	},
+	{
+		"nf-weather-direction_left",
+		"",
+	},
+	{
+		"nf-weather-direction_right",
+		"",
+	},
+	{
+		"nf-weather-direction_up",
+		"",
+	},
+	{
+		"nf-weather-direction_up_left",
+		"",
+	},
+	{
+		"nf-weather-direction_up_right",
+		"",
+	},
+	{
+		"nf-weather-dust",
+		"",
+	},
+	{
+		"nf-weather-earthquake",
+		"",
+	},
+	{
+		"nf-weather-fahrenheit",
+		"",
+	},
+	{
+		"nf-weather-fire",
+		"",
+	},
+	{
+		"nf-weather-flood",
+		"",
+	},
+	{
+		"nf-weather-fog",
+		"",
+	},
+	{
+		"nf-weather-gale_warning",
+		"",
+	},
+	{
+		"nf-weather-hail",
+		"",
+	},
+	{
+		"nf-weather-horizon",
+		"",
+	},
+	{
+		"nf-weather-horizon_alt",
+		"",
+	},
+	{
+		"nf-weather-hot",
+		"",
+	},
+	{
+		"nf-weather-humidity",
+		"",
+	},
+	{
+		"nf-weather-hurricane",
+		"",
+	},
+	{
+		"nf-weather-hurricane_warning",
+		"",
+	},
+	{
+		"nf-weather-lightning",
+		"",
+	},
+	{
+		"nf-weather-lunar_eclipse",
+		"",
+	},
+	{
+		"nf-weather-meteor",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_first_quarter",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_full",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_new",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_third_quarter",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_1",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_2",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_3",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_4",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_5",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_crescent_6",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_1",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_2",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_3",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_4",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_5",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waning_gibbous_6",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_1",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_2",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_3",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_4",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_5",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_crescent_6",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_1",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_2",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_3",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_4",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_5",
+		"",
+	},
+	{
+		"nf-weather-moon_alt_waxing_gibbous_6",
+		"",
+	},
+	{
+		"nf-weather-moon_first_quarter",
+		"",
+	},
+	{
+		"nf-weather-moon_full",
+		"",
+	},
+	{
+		"nf-weather-moon_new",
+		"",
+	},
+	{
+		"nf-weather-moon_third_quarter",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_1",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_2",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_3",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_4",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_5",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_crescent_6",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_1",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_2",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_3",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_4",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_5",
+		"",
+	},
+	{
+		"nf-weather-moon_waning_gibbous_6",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_1",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_2",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_3",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_4",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_5",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_crescent_6",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_1",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_2",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_3",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_4",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_5",
+		"",
+	},
+	{
+		"nf-weather-moon_waxing_gibbous_6",
+		"",
+	},
+	{
+		"nf-weather-moonrise",
+		"",
+	},
+	{
+		"nf-weather-moonset",
+		"",
+	},
+	{
+		"nf-weather-na",
+		"",
+	},
+	{
+		"nf-weather-night_alt_cloudy",
+		"",
+	},
+	{
+		"nf-weather-night_alt_cloudy_gusts",
+		"",
+	},
+	{
+		"nf-weather-night_alt_cloudy_high",
+		"",
+	},
+	{
+		"nf-weather-night_alt_cloudy_windy",
+		"",
+	},
+	{
+		"nf-weather-night_alt_hail",
+		"",
+	},
+	{
+		"nf-weather-night_alt_lightning",
+		"",
+	},
+	{
+		"nf-weather-night_alt_partly_cloudy",
+		"",
+	},
+	{
+		"nf-weather-night_alt_rain",
+		"",
+	},
+	{
+		"nf-weather-night_alt_rain_mix",
+		"",
+	},
+	{
+		"nf-weather-night_alt_rain_wind",
+		"",
+	},
+	{
+		"nf-weather-night_alt_showers",
+		"",
+	},
+	{
+		"nf-weather-night_alt_sleet",
+		"",
+	},
+	{
+		"nf-weather-night_alt_sleet_storm",
+		"",
+	},
+	{
+		"nf-weather-night_alt_snow",
+		"",
+	},
+	{
+		"nf-weather-night_alt_snow_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-night_alt_snow_wind",
+		"",
+	},
+	{
+		"nf-weather-night_alt_sprinkle",
+		"",
+	},
+	{
+		"nf-weather-night_alt_storm_showers",
+		"",
+	},
+	{
+		"nf-weather-night_alt_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-night_clear",
+		"",
+	},
+	{
+		"nf-weather-night_cloudy",
+		"",
+	},
+	{
+		"nf-weather-night_cloudy_gusts",
+		"",
+	},
+	{
+		"nf-weather-night_cloudy_high",
+		"",
+	},
+	{
+		"nf-weather-night_cloudy_windy",
+		"",
+	},
+	{
+		"nf-weather-night_fog",
+		"",
+	},
+	{
+		"nf-weather-night_hail",
+		"",
+	},
+	{
+		"nf-weather-night_lightning",
+		"",
+	},
+	{
+		"nf-weather-night_partly_cloudy",
+		"",
+	},
+	{
+		"nf-weather-night_rain",
+		"",
+	},
+	{
+		"nf-weather-night_rain_mix",
+		"",
+	},
+	{
+		"nf-weather-night_rain_wind",
+		"",
+	},
+	{
+		"nf-weather-night_showers",
+		"",
+	},
+	{
+		"nf-weather-night_sleet",
+		"",
+	},
+	{
+		"nf-weather-night_sleet_storm",
+		"",
+	},
+	{
+		"nf-weather-night_snow",
+		"",
+	},
+	{
+		"nf-weather-night_snow_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-night_snow_wind",
+		"",
+	},
+	{
+		"nf-weather-night_sprinkle",
+		"",
+	},
+	{
+		"nf-weather-night_storm_showers",
+		"",
+	},
+	{
+		"nf-weather-night_thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-rain",
+		"",
+	},
+	{
+		"nf-weather-rain_mix",
+		"",
+	},
+	{
+		"nf-weather-rain_wind",
+		"",
+	},
+	{
+		"nf-weather-raindrop",
+		"",
+	},
+	{
+		"nf-weather-raindrops",
+		"",
+	},
+	{
+		"nf-weather-refresh",
+		"",
+	},
+	{
+		"nf-weather-refresh_alt",
+		"",
+	},
+	{
+		"nf-weather-sandstorm",
+		"",
+	},
+	{
+		"nf-weather-showers",
+		"",
+	},
+	{
+		"nf-weather-sleet",
+		"",
+	},
+	{
+		"nf-weather-small_craft_advisory",
+		"",
+	},
+	{
+		"nf-weather-smog",
+		"",
+	},
+	{
+		"nf-weather-smoke",
+		"",
+	},
+	{
+		"nf-weather-snow",
+		"",
+	},
+	{
+		"nf-weather-snow_wind",
+		"",
+	},
+	{
+		"nf-weather-snowflake_cold",
+		"",
+	},
+	{
+		"nf-weather-solar_eclipse",
+		"",
+	},
+	{
+		"nf-weather-sprinkle",
+		"",
+	},
+	{
+		"nf-weather-stars",
+		"",
+	},
+	{
+		"nf-weather-storm_showers",
+		"",
+	},
+	{
+		"nf-weather-storm_warning",
+		"",
+	},
+	{
+		"nf-weather-strong_wind",
+		"",
+	},
+	{
+		"nf-weather-sunrise",
+		"",
+	},
+	{
+		"nf-weather-sunset",
+		"",
+	},
+	{
+		"nf-weather-thermometer",
+		"",
+	},
+	{
+		"nf-weather-thermometer_exterior",
+		"",
+	},
+	{
+		"nf-weather-thermometer_internal",
+		"",
+	},
+	{
+		"nf-weather-thunderstorm",
+		"",
+	},
+	{
+		"nf-weather-time_1",
+		"",
+	},
+	{
+		"nf-weather-time_10",
+		"",
+	},
+	{
+		"nf-weather-time_11",
+		"",
+	},
+	{
+		"nf-weather-time_12",
+		"",
+	},
+	{
+		"nf-weather-time_2",
+		"",
+	},
+	{
+		"nf-weather-time_3",
+		"",
+	},
+	{
+		"nf-weather-time_4",
+		"",
+	},
+	{
+		"nf-weather-time_5",
+		"",
+	},
+	{
+		"nf-weather-time_6",
+		"",
+	},
+	{
+		"nf-weather-time_7",
+		"",
+	},
+	{
+		"nf-weather-time_8",
+		"",
+	},
+	{
+		"nf-weather-time_9",
+		"",
+	},
+	{
+		"nf-weather-tornado",
+		"",
+	},
+	{
+		"nf-weather-train",
+		"",
+	},
+	{
+		"nf-weather-tsunami",
+		"",
+	},
+	{
+		"nf-weather-umbrella",
+		"",
+	},
+	{
+		"nf-weather-volcano",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_0",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_1",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_10",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_11",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_12",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_2",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_3",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_4",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_5",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_6",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_7",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_8",
+		"",
+	},
+	{
+		"nf-weather-wind_beaufort_9",
+		"",
+	},
+	{
+		"nf-weather-wind_direction",
+		"",
+	},
+	{
+		"nf-weather-wind_east",
+		"",
+	},
+	{
+		"nf-weather-wind_north",
+		"",
+	},
+	{
+		"nf-weather-wind_north_east",
+		"",
+	},
+	{
+		"nf-weather-wind_north_west",
+		"",
+	},
+	{
+		"nf-weather-wind_south",
+		"",
+	},
+	{
+		"nf-weather-wind_south_east",
+		"",
+	},
+	{
+		"nf-weather-wind_south_west",
+		"",
+	},
+	{
+		"nf-weather-wind_west",
+		"",
+	},
+	{
+		"nf-weather-windy",
+		"",
+	},
 }
